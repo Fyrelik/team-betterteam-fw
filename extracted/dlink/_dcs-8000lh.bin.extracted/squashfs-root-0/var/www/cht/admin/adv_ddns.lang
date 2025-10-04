@@ -1,0 +1,54 @@
+<body>
+	<ddnsSettings>動態 DNS</ddnsSettings>
+	<description1>動態 DNS 功能可讓您使用一個跟 ISP 買來的網域名稱 (www.yourdomain.com) 以及動態指派的 IP 位址來存取攝影機。大部分寬頻 ISP 會動態指派 IP 位址(也就是位址會變)。若使用 DDNS 服務，就可輸入網域名稱連到攝影機，不用管 IP 是多少。</description1>
+	<description11>請至此處登記 D-Link 免費 DDNS 服務 </description11>
+	<description22>http://www.DlinkDDNS.com</description22>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不要儲存設定</notsavebutton>
+	<dynamicDns>動態 DNS 設定</dynamicDns>
+	<enableDdns>DDNS</enableDdns>
+	<provider>伺服器位址</provider>
+	<hostName>主機名稱</hostName>
+	<usernameEmail>使用者名稱</usernameEmail>
+	<passwordKey>密碼</passwordKey>
+	<passwordConfirm>確認密碼</passwordConfirm>
+	<selectDDNS>選擇 DDNS 伺服器</selectDDNS>
+	<ddns1>www.dlinkddns.com</ddns1>
+	<ddns2>www.DynDNS.org</ddns2>
+	<ddns3>www.DynDNS.org(自訂)(免費)</ddns3>
+	<ddns4>www.DynDNS.org(固定)</ddns4>
+	<timeout>逾時</timeout>
+	<hours> 小時</hours>
+	<status>狀態</status>
+	<ddnsError1>DDNS 主機名稱不得為空白，只能接受數字、英文字母、\".\"、\"-\" 和 \"_\" 字元</ddnsError1>
+	<ddnsErrorUser>DDNS 使用者名稱不得為空白，只能接受數字、英文字母、\".\"、\"-\" 和 \"_\" 字元</ddnsErrorUser>
+	<ddnsError2>DDNS 使用者名稱不得為空白</ddnsError2>
+	<ddnsError3>DDNS 密碼不得為空白</ddnsError3>
+	<ddnsError4>DDNS 密碼與確認密碼不同</ddnsError4>
+	<ddnsError5>DDNS 使用者名稱與密碼不接受非 ASCII 與空白字元</ddnsError5>
+	<ddnsError6>請選擇一台動態 DNS 伺服器</ddnsError6>
+	<ddnsError7>DDNS 逾時必須是數字</ddnsError7>
+	<ddnsError8>DDNS 逾時必需介於 24 到 65535 之間</ddnsError8>
+	<ddnsError9>DDNS 逾時必須是整數</ddnsError9>
+	<ddnsServerError>請核實DDNS伺服器位址格式</ddnsServerError>
+	<ddnsServerError1>DDNS伺服器位址不得為空白</ddnsServerError1>
+	<ddnsStatusDisabled>停用</ddnsStatusDisabled>
+	<ddnsStatusUpdated>已更新</ddnsStatusUpdated>
+	<ddnsStatusInitializing>初始化</ddnsStatusInitializing>
+	<ddnsStatusFailed>連線失敗</ddnsStatusFailed>
+	<OK>確定</OK>
+	<Disabled>停用</Disabled>
+	<Failure>失敗</Failure>
+	<Initializing>初始化</Initializing>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<enableDdns>若您使用 DSL 或Cable服務，而服務商會經常改變網路裝置的 IP 位址，動態 DNS 就非常便利。您可以為攝影機取個網域名稱，不需要透過輸入IP 位址連線。</enableDdns>
+	<status>DDNS 的狀態，會顯示 DDNS 是否可用。</status>
+	<hostName>從 DDNS服務取到的網域名稱。</hostName>
+	<timeout>您可設定攝影機每隔多久時間將自己目前的全域 IP 位址告知 DDNS 伺服器。預設值是576 小時。</timeout>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<fail>變更失敗。</fail>
+</message>

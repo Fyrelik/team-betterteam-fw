@@ -1,0 +1,169 @@
+<body>
+	<pageTitle>Enregistrement sur carte SD</pageTitle>
+	<pageEnable>Enregistrement sur carte SD</pageEnable>
+	<description1>Cette section vous permet de configurer et programmer l'enregistrement de la caméra. Vous devez cocher la case « Enregistrement sur carte SD » pour activer cette fonction.</description1>
+	<description2>L'enregistrement sur détection de mouvement est désactivé en mode SXGA.</description2>
+	<description3>Pour activer l'enregistrement sur détection de mouvement, sélectionnez le mode VGA ou XGA pour </description3>
+	<description4> Audio et vidéo</description4>
+	<savebutton>Enregistrer les paramètres</savebutton>
+	<notsavebutton>Ne pas enregistrer les paramètres</notsavebutton>
+	<recording>ENREGISTREMENT SUR CARTE SD</recording>
+	<enableRecording>Activer l'enregistrement</enableRecording>
+	<resolution>Résolution</resolution>
+	<small>profil 3</small>
+	<medium>profil 2</medium>
+	<large>profil 1</large>
+	<titan>profil 4</titan>
+	<continousRecording>Continu (Samba uniquement)</continousRecording>
+	<scheduledRecording>Programmé (Samba uniquement)</scheduledRecording>
+	<continousRecordingOnlySamba>Continu</continousRecordingOnlySamba>
+	<scheduledRecordingOnlySamba>Programmé</scheduledRecordingOnlySamba>
+	<hour>Heures</hour>
+	<min>Minutes</min>
+	<sun>Dim </sun>
+	<mon>Lun </mon>
+	<tue>Mar </tue>
+	<wed>Mer </wed>
+	<thu>Jeu </thu>
+	<fri>Ven </fri>
+	<sat>Sam </sat>
+	<from>Début </from>
+	<profile2>Profil 2</profile2>
+	<profile3>Profil 3</profile3>	
+	<to>Fin </to>
+	<motionDetection>Enregistrement sur détection de mouvement</motionDetection>
+	<digitalInput>Enregistrement sur entrée numérique 1</digitalInput>
+	<digitalInput2>Enregistrement sur entrée numérique 2</digitalInput2>
+	<prerecord>Pré-enregistrer</prerecord>
+	<postrecord>Post-enregistrer</postrecord>
+	<range> (Intervalle : (0 à 15 secondes)</range>
+	<second> secondes</second>
+	<recordTo>Enregistrer sur </recordTo>
+	<sambaNetworkDrive>Disque réseau Samba</sambaNetworkDrive>
+	<sambaAuth>Authentification Samba </sambaAuth>
+	<anonymous>Anonyme</anonymous>
+	<account>Compte</account>
+	<username>Nom d'utilisateur </username>
+	<password>Mot de passe </password>
+	<passwordConfim>Confirmer le mot de passe </passwordConfim>
+	<serverIp>Serveur </serverIp>
+	<sharedFolder>Dossier partagé </sharedFolder>
+	<test>Test</test>
+	<sambaStatus>État Samba : </sambaStatus>
+	<getStatus>Obtenir l'état</getStatus>
+	<sdCard>Carte SD</sdCard>
+	<sdCardStatus>État de la carte SD : </sdCardStatus>
+	<recordingOptions>Options d'enregistrement</recordingOptions>
+	<recordUntil>Enregistrer jusqu'à </recordUntil>
+	<spaceRange>Mo d'espace disque restant (32 Mo minimum)</spaceRange>
+	<storageFull>Quand le support de stockage est plein :</storageFull>
+	<stopRecording>Arrêter l'enregistrement</stopRecording>
+	<overwriteRecordings>Remplacer les enregistrements les plus anciens</overwriteRecordings>
+	<scheduling>Calendrier</scheduling>
+	<eventBased>Sur la base d'un événement</eventBased>
+	<methodError>Sélectionnez un paramètre d'enregistrement.</methodError>
+	<scheduleError>Indiquez l'heure programmée</scheduleError>
+	<triggerError>Veuillez sélectionner une carte SD</triggerError>
+	<hourError>Les heures indiquées ne sont pas valables.</hourError>
+	<minuteError>Les minutes indiquées ne sont pas valables.</minuteError>
+	<fullHourError>Si l'heure de fin est 24, les minutes de fin doivent être égales à 0.</fullHourError>
+	<legalTimeError>L'heure de début doit être antérieure à l'heure de fin.</legalTimeError>
+	<recordSecError>Veuillez saisir une valeur comprise entre 0 et 15</recordSecError>
+	<usernameError>Le nom d'utilisateur Samba ne peut pas être vide</usernameError>
+	<passwordError>Le mot de passe du compte Samba ne peut pas être vide</passwordError>
+	<confimError>Le mot de passe et le mot de passe de confirmation Samba sont différents.</confimError>
+	<spaceError>L'espace disque disponible n'est pas valable ; l'espace disque disponible doit être d'au moins 32 Mo.</spaceError>
+	<serverError>Le serveur ne peut pas être vide ; les caractères valables sont les caractères alphanumériques et \".\" , \"-\", et \"_\"</serverError>
+	<shareFolderError>Le dossier partagé ne peut pas être vide ; les caractères valables sont les caractères alphanumériques et \"-\" et \"_\"</shareFolderError>
+	<trigger>Déclenchement par</trigger>
+	<ignoreMot>Ignorer les mouvements suivants dans</ignoreMot>
+	<range2> (Intervalle : (0 à 86400 secondes)</range2>
+	<onlyDuring>Seulement pendant</onlyDuring>
+	<day>Jour</day>
+	<time>Heure</time>
+	<type>Type d'enregistrement</type>
+	<source>Source</source>
+	<description6>Configurable dans </description6>
+	<description7> Audio et vidéo</description7>
+	<preRec>Enregistrement avant événement :</preRec>
+	<preRecNotify>(Entre 0 et 5 secondes)</preRecNotify>
+	<postRec>Enregistrement après événement :</postRec>
+	<postRecNotify>(Entre 0 et 60 secondes)</postRecNotify>
+	<target>Cible</target>
+	<interval>Intervalle</interval>
+	<quota>Conserver de l'espace libre</quota>
+	<global>Paramètre global</global>
+	<minimum>Le minimum est de 200</minimum>
+	<sd>Carte SD</sd>
+	<sdcycle>Cyclique</sdcycle>
+	<schedulingg>Calendrier</schedulingg>
+	<motionBased>Mouvement</motionBased>
+	<alwaysBased>Toujours</alwaysBased>
+	<motionNote>Veuillez noter que la Détection de mouvements n'est pas activée, veuillez vous rendre sur la page Web de la Détection de mouvements pour la configurer.</motionNote>
+	<sdNote>Veuillez noter qu'il n'y a pas de carte SD connectée à la caméra ou que la carte SD n'est pas inscriptible.</sdNote>
+	<sdManagement1>Pour formater la carte SD dans la caméra, veuillez d'abord désactiver l'enregistrement SD puis aller à la page </sdManagement1>
+	<sdManagement2>Gestion de la carte SD</sdManagement2>
+	<sdManagement3>.</sdManagement3>
+	<sdNoteFull>Veuillez noter que la carte SD est pleine.</sdNoteFull>
+	<sdcardrecording>ENREGISTREMENT SUR CARTE SD</sdcardrecording>
+	<preErr>Le paramètre Enregistrement avant événement en secondes doit être un entier compris entre 0 et 5</preErr>
+	<postErr>Le paramètre Enregistrement après événement en secondes doit être un entier compris entre 0 et 60</postErr>
+	<ignoreMotionTimeError>Le paramètre Ignorer les mouvements suivants en secondes doit être un nombre entier</ignoreMotionTimeError>
+	<ignoreMotionTimeError2>Le paramètre Ignorer les mouvements suivants en secondes doit être compris entre 0 et 86400 secondes</ignoreMotionTimeError2>
+	<mfhourError>L'heure de début n'est pas valide</mfhourError>
+	<mthourError>L'heure de fin n'est pas valide</mthourError>
+	<mfminuteError>La minute de début n'est pas valide</mfminuteError>
+	<mtminuteError>La minute de fin n'est pas valide</mtminuteError>
+	<dayErr>Veuillez choisir au moins un jour.</dayErr>
+	<triggerError>Veuillez sélectionner une cible</triggerError>
+	<sdQuotaError>Le paramètre Conserver de l'espace libre de la carte SD doit être un entier compris entre 200 et 32768</sdQuotaError>
+	<checkboxSnapshot>Instantané</checkboxSnapshot>
+	<checkboxVideo>Vidéo</checkboxVideo>
+	<recordingTypeErr>Veuillez sélectionner un Type d'enregistrement</recordingTypeErr>
+	<sdkeepSpace>Conserver de l'espace libre</sdkeepSpace>
+	<sdkeepSpacel> Définit la capacité de votre carte SD local afin d'éviter que le système ne devienne instable.</sdkeepSpacel>
+	<recordingLength>Durée de l'enregistrement</recordingLength>
+	<recordingLengthl> Définit la durée de chaque enregistrement vidéo.</recordingLengthl>
+	<sdcyclic>Cyclique</sdcyclic>
+	<sdcyclic1> Lorsque cette option est sélectionnée, les fichiers les plus anciens sont supprimés quand le système a besoin d'espace disque pour de nouveaux fichiers.</sdcyclic1>
+	<profiletype1>Profil 1</profiletype1>
+	<profiletype2>Profil 2</profiletype2>
+	<profiletype3>Profil 3</profiletype3>
+	<FileLenMinUntil>Durée de l'enregistrement : </FileLenMinUntil>
+	<FileLenMin>minutes par fichier</FileLenMin>
+	<gpio>Entrée numérique</gpio>
+	<performance>Le débit de la carte SD sur votre caméra n'est actuellement pas suffisant pour l'enregistrement. Nous vous suggérons de reformater la carte SD ou de la remplacer par une carte de classe supérieure.
+</performance>
+	<audioBased>Son</audioBased>
+	<audioNote>Veuillez noter que la Détection de sons n'est pas activée, veuillez vous rendre sur la page Web de la Détection de sons pour la configurer.</audioNote>
+	<vediofileformat>Format de fichier :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<description1>L'enregistrement sur carte SD permet d'enregistrer de la vidéo ou des instantanés (par seconde) sur une carte SD locale basée sur la détection de mouvement ou à un moment déterminé.</description1>
+	<description2>Pour activer l'enregistrement, cochez la case Activer l'enregistrement, puis indiquez si vous souhaitez enregistrer la vidéo sur une carte SD insérée dans l'emplacement SD de la caméra ou sur un disque réseau Samba. Ensuite, sélectionnez une méthode de programmation pour spécifier quand la caméra doit commencer à enregistrer.</description2>
+	<description3>Vous pouvez enregistrer la vidéo sur une carte SD ou un disque réseau Samba en fonction des événements sélectionnés. Vous pouvez aussi configurer les options d'enregistrement et sélectionner une méthode de programmation pour indiquer à la caméra quand enregistrer de la vidéo.</description3>
+	<descriptionNoSdcard>L'activation de l'enregistrement permet à la caméra d'enregistrer la vidéo en direct sur un disque réseau Samba en fonction des événements sélectionnés. Pour activer l'enregistrement, cochez la case Activer l'enregistrement. Ensuite, sélectionnez une méthode de programmation pour spécifier quand la caméra commencera à enregistrer.</descriptionNoSdcard>
+	<motionBased>L'enregistrement sur carte SD démarre lorsqu'un mouvement est détecté.</motionBased>
+	<scheduling>L'enregistrement sur carte SD se fait à un moment déterminé.</scheduling>
+	<alwaysBased>Enregistrement continu sur carte SD.</alwaysBased>
+	<type>Vous pouvez définir Profil vidéo, Enregistrement avant événement, et Enregistrement après événement ici lorsque Déclenchement par est défini sur Mouvement. Vous pouvez également sélectionner l'enregistrement comme Instantané ou Vidéo.</type>
+	<sd>Vous pouvez définir combien d'espace libre conserver sur la carte SD et si l'enregistrement est cyclique ou non.</sd>
+	<gpio>Démarrer l'enregistrement quand l'entrée numérique est déclenchée.</gpio>
+	<audioBased>L'enregistrement sur carte SD démarre lorsqu'un son est détecté.</audioBased>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<fail>Échec de l’application des modifications.</fail>
+	<testing>Test</testing>
+	<disable>Désactiver</disable>
+	<normal>Normal</normal>
+	<initing>Lancement en cours</initing>
+	<mntFailure>mntFailure</mntFailure>
+	<failure>Échec</failure>
+	<invalidParameter>Échec de configuration</invalidParameter>
+	<updateFailed>Échec de la mise à jour de la configuration</updateFailed>
+</message>
+

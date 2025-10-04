@@ -1,0 +1,243 @@
+<body>
+	<welcome>Benvenuto nella configurazione guidata di D-Link: configurazione della connessione a Internet</welcome>
+	<description1>Questa procedura guidata assiste l'utente nelle varie fasi di configurazione e connessione della videocamera D-Link a Internet. Per le impostazioni di rilevamento del movimento della videocamera, fare clic sul pulsante Indietro per chiudere questa procedura guidata e selezionare Configurazione guidata Rilevamento del movimento.</description1>
+	<step1>Passo 1: </step1>
+	<note1>Impostazioni LAN</note1>
+	<step2>Passo 2: </step2>
+	<note2>Impostazioni Internet</note2>
+	<step3>Passo 3: </step3>
+	<note3>Impostazioni DDNS</note3>
+	<step4>Passo 4: </step4>
+	<note4>Impostazioni del nome della videocamera</note4>
+	<step5>Passo 5: </step5>
+	<note5>Fuso orario</note5>
+	<step6>Passo 6: </step6>
+	<note6>Configurazione terminata</note6>
+	<back>Indietro</back>
+	<Automatic>Automatica</Automatic>
+	<next>Avanti</next>
+	<cancel>Annulla</cancel>
+	<dnsErrMessage>I valori immessi in Indirizzo DNS primario e Indirizzo DNS secondario devono essere diversi</dnsErrMessage>
+	<description2>Specificare se la videocamera si connetterà a Internet utilizzando una connessione automatica oppure un indirizzo IP statico. Se la videocamera viene connessa a un Router o se non si è certi delle impostazioni da selezionare, D-Link consiglia di non modificare la selezione predefinita dell'opzione Indirizzo IP automatico. Altrimenti, selezionare Indirizzo IP statico per assegnare manualmente un indirizzo IP prima di fare clic sul pulsante Avanti.</description2>
+	<dhcp>Indirizzo IP automatico</dhcp>
+	<static>Indirizzo IP statico</static>
+	<ip>Indirizzo IPv4</ip>
+	<mask>Subnet mask</mask>
+	<gateway>Gateway predefinito (Router)</gateway>
+	<priDns>DNS primario facoltativo</priDns>
+	<secDns>DNS secondario facoltativo</secDns>
+	<description3>Se l'ISP utilizza una connessione PPPoE, abilitare questa impostazione e immettere nome utente e password dell'ISP. Quindi, fare clic sul pulsante Avanti. Se non si conoscono nome utente e password contattare l'ISP.</description3>
+	<networkipseterror>Impostazioni non valide</networkipseterror>
+	<disable>Disabilitato</disable>
+	<enable>Abilita</enable>
+	<enabled>Abilita</enabled>
+	<username>Nome utente</username>
+	<eq>(ad esempio 123456@hinet.net)</eq>
+	<password>Password</password>
+	<description4>Se si dispone di un account DNS dinamico e si desidera che l'indirizzo IP della videocamera venga aggiornato automaticamente, abilitare il DDNS e inserire le informazioni relative all'host di seguito. Quindi, fare clic sul pulsante Avanti per continuare.</description4>
+	<selectDDNS>Seleziona server DDNS</selectDDNS>
+	<ddns1>www.dlinkddns.com</ddns1>
+	<ddns2>www.DynDNS.org</ddns2>
+	<serverAddress>Indirizzo server</serverAddress>
+	<hostName>Nome host</hostName>
+	<usernameOrKey>Nome utente</usernameOrKey>
+	<passwordOrKey>Password</passwordOrKey>
+	<verifyPassword>Conferma Password</verifyPassword>
+	<timeout>Timeout</timeout>
+	<hours>Ora</hours>
+	<ddnshours>Ora</ddnshours>
+	<minutes>Minuto</minutes>
+	<description5>D-Link raccomanda di rinominare la videocamera per una facile accessibilità. Sarà quindi possibile identificare e connettere la videocamera utilizzando questo nome. Assegnare un nome di propria scelta prima di fare clic sul pulsante Avanti.</description5>
+	<cameraName>Nome videocamera</cameraName>
+	<description6>Configurare l'orario corretto per garantire che tutti gli eventi vengano attivati, catturati e pianificati nel giusto momento. Quindi, fare clic sul pulsante Avanti.</description6>
+	<timeZone>Fuso orario</timeZone>
+	<daylightSaving>Abilita aggiornamento ora legale</daylightSaving>
+	<description8>Di seguito è riportato un riepilogo delle impostazioni relative alla videocamera. </description8>
+	<description7>Fare clic sul pulsante Indietro per rivedere o modificare le impostazioni oppure fare clic sul pulsante Applica se tutte le impostazioni risultano corrette. Si consiglia di annotare queste impostazioni in modo da poter accedere alla videocamera dalla rete o utilizzando il browser Web. </description7>
+	<ipCameraName>Nome videocamera IP</ipCameraName>
+	<ddns>DDNS</ddns>
+	<pppoe>PPPoE</pppoe>
+	<apply>Applica</apply>
+	<timeZone1>(GMT - 12.00 h) Linea cambiamento data internazionale (occidentale)</timeZone1>
+	<timeZone2>(GMT + 13.00 h) Samoa</timeZone2>
+	<timeZone3>(GMT - 10.00 h) Hawaii</timeZone3>
+	<timeZone4>(GMT - 9.00 h) Alaska</timeZone4>
+	<timeZone5>(GMT-08.00) ora del Pacifico (USA e Canada)</timeZone5>
+	<timeZone6>(GMT-08.00) Tijuana, Baja California</timeZone6>
+	<timeZone7>(GMT - 7.00 h) Chihuahua, La Paz, Mazatlan</timeZone7>
+	<timeZone8>(GMT - 7.00 h) Fuso occidentale (USA e Canada)</timeZone8>
+	<timeZone9>(GMT - 7.00 h) Arizona</timeZone9>
+	<timeZone10>(GMT - 6.00 h) America centrale</timeZone10>
+	<timeZone11>(GMT - 6.00 h) Guadalajara, Città del Messico, Monterrey</timeZone11>
+	<timeZone12>(GMT - 6.00 h) Saskatchewan</timeZone12>
+	<timeZone13>(GMT - 6.00 h) Fuso centrale (USA e Canada)</timeZone13>
+	<timeZone14>(GMT - 5.00 h) Bogotà Lima, Quito</timeZone14>
+	<timeZone15>(GMT - 5.00 h) Fuso orientale (USA e Canada)</timeZone15>
+	<timeZone16>(GMT - 5.00 h) Indiana (Est)</timeZone16>
+	<timeZone17>(GMT - 4.30 h) La Paz, Georgetown</timeZone17>
+	<timeZone18>(GMT - 4.00 h) Ora costa atlantica (Canada)</timeZone18>
+	<timeZone19>(GMT - 3.00 h) Santiago</timeZone19>
+	<timeZone20>(GMT - 04.00 h) Manaus</timeZone20>
+	<timeZone21>(GMT - 3.30 h) Terranova</timeZone21>
+	<timeZone22>(GMT - 3.00 h) Buenos Aires</timeZone22>
+	<timeZone23>(GMT - 3.00 h) Brasilia</timeZone23>
+	<timeZone24>(GMT - 3.00 h) Groenlandia</timeZone24>
+	<timeZone25>(GMT - 3.00 h) Montevideo</timeZone25>
+	<timeZone26>(GMT - 2.00 h) Medioatlantico</timeZone26>
+	<timeZone27>(GMT - 1.00 h) Azzorre</timeZone27>
+	<timeZone28>(GMT - 1.00 h) Isole di Capo Verde</timeZone28>
+	<timeZone29>(GMT) Ora di Greenwich: Dublino, Edimburgo, Lisbona, Londra</timeZone29>
+	<timeZone30>(GMT) Monrovia, Reykjavik</timeZone30>
+	<timeZone31>(GMT + 1.00 h) Belgrado, Bratislava, Budapest, Lubiana, Praga</timeZone31>
+	<timeZone32>(GMT + 1.00 h) Africa centro-occidentale</timeZone32>
+	<timeZone33>(GMT + 1.00 h) Sarajevo, Skopje, Varsavia, Zagabria</timeZone33>
+	<timeZone34>(GMT + 1.00 h) Bruxelles, Copenaghen, Madrid, Parigi</timeZone34>
+	<timeZone35>(GMT + 1.00 h) Amsterdam, Berlino, Berna, Roma, Stoccolma, Vienna</timeZone35>
+	<timeZone36>(GMT + 2.00 h) Helsinki, Kiev, Riga, Sofia, Tallinn, Vilnius</timeZone36>
+	<timeZone37>(GMT + 2.00 h) Atene, Bucarest, Istanbul</timeZone37>
+	<timeZone38>(GMT + 2.00 h) Beirut</timeZone38>
+	<timeZone39>(GMT + 2.00 h) Harare, Pretoria</timeZone39>
+	<timeZone40>(GMT + 2.00 h) Cairo</timeZone40>
+	<timeZone41>(GMT + 2.00 h) Minsk</timeZone41>
+	<timeZone42>(GMT + 2.00 h) Amman</timeZone42>
+	<timeZone43>(GMT + 1.00 h) Windhoek</timeZone43>
+	<timeZone44>(GMT + 2.00 h) Gerusalemme</timeZone44>
+	<timeZone45>(GMT + 3.00 h) Bagdad</timeZone45>
+	<timeZone46>(GMT + 3.00 h) Mosca, S. Pietroburgo, Volgograd</timeZone46>
+	<timeZone47>(GMT + 4.00 h) Tbilisi</timeZone47>
+	<timeZone48>(GMT + 3.00 h) Nairobi</timeZone48>
+	<timeZone49>(GMT + 3.00 h) Kuwait, Riyad</timeZone49>
+	<timeZone50>(GMT + 3.30 h) Teheran</timeZone50>
+	<timeZone51>(GMT + 4.00 h) Baku</timeZone51>
+	<timeZone52>(GMT + 4.00 h) Abu Dhabi, Muscat</timeZone52>
+	<timeZone53>(GMT + 4.00 h) Yerevan</timeZone53>
+	<timeZone54>(GMT + 4.30 h) Kabul</timeZone54>
+	<timeZone55>(GMT + 5.00 h) Ekaterinburg</timeZone55>
+	<timeZone56>(GMT + 5.00 h) Islamabad, Karachi, Tashkent</timeZone56>
+	<timeZone57>(GMT + 5.30 h) Chennai, Kolkata (Calcutta), Mumbai, Nuova Delhi</timeZone57>
+	<timeZone58>(GMT + 5.30 h) Sri Jayawardenepura</timeZone58>
+	<timeZone59>(GMT + 5.45 h) Kathmandu</timeZone59>
+	<timeZone60>(GMT + 6.00 h) Astana, Dhaka</timeZone60>
+	<timeZone61>(GMT + 6.00 h) Novosibirsk</timeZone61>
+	<timeZone62>(GMT + 06.30 h) Yangon (Rangoon)</timeZone62>
+	<timeZone63>(GMT + 7.00 h) Krasnoyarsk</timeZone63>
+	<timeZone64>(GMT + 7.00 h) Bangkok, Hanoi, Giacarta</timeZone64>
+	<timeZone65>(GMT + 8.00 h) Pechino, Chongqing, Hong Kong, Urumchi</timeZone65>
+	<timeZone66>(GMT + 8.00 h) Taipei</timeZone66>
+	<timeZone67>(GMT + 8.00 h) Irkutsk</timeZone67>
+	<timeZone68>(GMT + 8.00 h) Perth</timeZone68>
+	<timeZone69>(GMT + 8.00 h) Kuala Lumpur, Singapore</timeZone69>
+	<timeZone70>(GMT + 9.00 h) Yakutsk</timeZone70>
+	<timeZone71>(GMT + 9.00 h) Osaka, Sapporo, Tokyo</timeZone71>
+	<timeZone72>(GMT + 9.00 h) Seul</timeZone72>
+	<timeZone73>(GMT + 9.30 h) Adelaide</timeZone73>
+	<timeZone74>(GMT + 9.30 h) Darwin</timeZone74>
+	<timeZone75>(GMT + 10.00 h) Hobart</timeZone75>
+	<timeZone76>(GMT + 10.00 h) Brisbane</timeZone76>
+	<timeZone77>(GMT + 10.00 h) Vladivostok</timeZone77>
+	<timeZone78>(GMT + 10.00 h) Canberra, Melbourne, Sydney</timeZone78>
+	<timeZone79>(GMT + 10.00 h) Guam, Port Moresby</timeZone79>
+	<timeZone80>(GMT + 10.00 h) Magadan</timeZone80>
+	<timeZone81>(GMT + 12.00 h) Fiji</timeZone81>
+	<timeZone82>(GMT + 12.00 h) Auckland, Wellington</timeZone82>
+	<timeZone83>(GMT + 13.00) Nukualofa</timeZone83>
+	<timeZone84>(GMT - 4.30 h) Caracas</timeZone84>
+	<timeZone85>(GMT + 11.00 h) Is. Salomone, Nuova Caledonia</timeZone85>
+	<timeZone86>(GMT) Casablanca</timeZone86>
+	<timeZone87>(GMT + 08.00) Ulaanbaatar</timeZone87>
+	<timeZone88>(GMT+04:00) Asuncion</timeZone88>
+	<reboot1>Riconnessione in corso, attendere per </reboot1>
+	<reboot2> secondi...</reboot2>
+	<ipError1>Specificare un valore in Indirizzo IP</ipError1>
+	<subnetMaskError1>Specificare un valore in Subnet mask</subnetMaskError1>
+	<routerError1>Specificare un valore in Gateway predefinito (Router)</routerError1>
+	<pppoeError1>Specificare un valore in Nome utente PPoE</pppoeError1>
+	<pppoeError2>Specificare un valore in Password PPoE</pppoeError2>
+	<pppoeError3>Specificare un valore in Conferma Password PPoE</pppoeError3>
+	<pppoeError4>La password PPPoE e la password di conferma non corrispondono</pppoeError4>
+	<pppoeError5>Per il nome utente e la password PPPoE non è possibile utilizzare caratteri non ASCII o caratteri di spazio</pppoeError5>
+	<netErrorMessage1>Il </netErrorMessage1>
+	<netErrorMessage2> ottetto del </netErrorMessage2>
+	<netErrorMessage3> deve essere un numero</netErrorMessage3>
+	<netErrorMessage4> deve essere un numero compreso tra </netErrorMessage4>
+	<netErrorMessage5> e </netErrorMessage5>
+	<netErrorMessage6> deve essere </netErrorMessage6>
+	<netError>Configurazione di rete non valida</netError>
+	<ipMessage1>Indirizzo IP</ipMessage1>
+	<ipMessage2>Impostazioni non valide</ipMessage2>
+	<ipMessage3>Il valore dell'indirizzo IP non può essere zero.</ipMessage3>
+	<maskMessage1>Subnet mask</maskMessage1>
+	<maskMessage2>La subnet mask immessa non è valida</maskMessage2>
+	<maskMessage3>Il valore specificato in Subnet mask non può essere zero</maskMessage3>
+	<routerMessage1>Indirizzo gateway predefinito (Router)</routerMessage1>
+	<routerMessage2>Il valore immesso in Indirizzo gateway predefinito (Router) non è valido</routerMessage2>
+	<routerMessage3>Il valore specificato in Indirizzo gateway predefinito (Router) non può essere zero</routerMessage3>
+	<priDnsMessage1>Indirizzo DNS primario</priDnsMessage1>
+	<priDnsMessage2>Il valore immesso in Indirizzo DNS primario non è valido</priDnsMessage2>
+	<priDnsMessage3>Il valore immesso in Indirizzo DNS primario non può essere zero</priDnsMessage3>
+	<secDnsMessage1>Indirizzo DNS secondario</secDnsMessage1>
+	<secDnsMessage2>Il valore immesso in Indirizzo DNS secondario non è valido</secDnsMessage2>
+	<secDnsMessage3>Il valore specificato in Indirizzo DNS secondario non può essere zero</secDnsMessage3>
+	<ddnsError1>Specificare un valore in Nome host DDNS utilizzando solo caratteri alfanumerici e \".\" , \"-\", \"_\"</ddnsError1>
+	<ddnsError2>Specificare un valore in Nome utente DDNS</ddnsError2>
+	<ddnsError3>Specificare un valore in Password DDNS</ddnsError3>
+	<ddnsError4>La password DDNS e la password di conferma non corrispondono</ddnsError4>
+	<ddnsError5>Per il nome utente e la password DDNS non è possibile utilizzare caratteri non ASCII o caratteri di spazio</ddnsError5>
+	<ddnsError6>Selezionare un server DNS dinamico</ddnsError6>
+	<ddnsError7>Il valore di Timeout DDNS deve essere un numero</ddnsError7>
+	<ddnsError8>Il valore di Timeout DDNS deve essere compreso tra 24 e 65535</ddnsError8>
+	<ddnsError9>Il valore di Timeout DDNS deve essere un numero intero</ddnsError9>
+	<ddnsServerError>Si prega di verificare Formato indirizzo DDNS Server</ddnsServerError>
+	<ddnsServerError1>DDNS Indirizzo server non può essere vuoto</ddnsServerError1>
+	<signupMsg>Accedere al servizio DDNS gratuito di D-Link all'indirizzo </signupMsg>
+	<autoDST>Aggiornamento automatico ora legale</autoDST>
+	<manual>Imposta ora legale manualmente</manual>
+	<offset>Offset</offset>
+	<seconds>Secondi</seconds>
+	<month>Mese</month>
+	<week>Settimana</week>
+	<dayOfWeek>Giorno della settimana</dayOfWeek>
+	<startTime>Ora di inizio</startTime>
+	<endTime>Ora di fine</endTime>
+	<sun>domenica</sun>
+	<mon>lunedì</mon>
+	<tue>martedì</tue>
+	<wed>mercoledì</wed>
+	<thu>giovedì</thu>
+	<fri>venerdì</fri>
+	<sat>sabato</sat>	
+	<hourError>Ora non valida</hourError>
+	<minuteError>Minuti non validi</minuteError>
+	<secondError>Secondi non validi</secondError>
+	<description4DDNS>http://www.DlinkDDNS.com</description4DDNS>
+	<cameraNameError>Specificare un valore in Nome videocamera</cameraNameError>
+	<cameraNameLimitError>In Nome videocamera non è possibile utilizzare caratteri di spazio.</cameraNameLimitError>
+	<cameraNameLimitError1>Per il nome della videocamera è possibile utilizzare solo caratteri alfanumerici e \"-\"</cameraNameLimitError1>
+	<ddnsErrorUser>Specificare un valore in Nome utente DDNS utilizzando solo caratteri alfanumerici e \".\" , \"-\", \"_\"</ddnsErrorUser>
+	<searchDomain>Dominio di ricerca facoltativo</searchDomain>
+	<domainErrMessage>Per il dominio di ricerca è possibile specificare solo numeri, lettere e i caratteri \".\" e \"-\".</domainErrMessage>
+	<ipv4set>Impostazioni IPv4</ipv4set>
+	<ipv6set>Impostazioni IPv6</ipv6set>
+	<manIpv6set>Configurazione manuale dell'indirizzo IP</manIpv6set>
+	<Ipv6AddrPre>Lunghezza prefisso/indirizzo IPv6</Ipv6AddrPre>
+	<Ipv6gateway>Gateway predefinito (Router)</Ipv6gateway>
+	<Ipv6priDns>DNS primario facoltativo</Ipv6priDns>
+	<Ipv6secDns>DNS secondario facoltativo</Ipv6secDns>
+	<ipv6Message>L'indirizzo IPv6 immesso non è valido.</ipv6Message>
+	<ipv6Message2>Il valore della lunghezza del prefisso IPv6 deve essere compreso tra 0 e 128.</ipv6Message2>
+	<ipv6Message3>Il valore immesso in Gateway predefinito (Router) per IPv6 non è valido.</ipv6Message3>
+	<ipv6Message4>L'indirizzo DNS primario immesso per IPv6 non è valido.</ipv6Message4>
+	<ipv6Message5>L'indirizzo DNS secondario immesso per IPv6 non è valido.</ipv6Message5>
+	<ipv6Message6>I valori immessi in Indirizzo DNS primario e Indirizzo DNS secondario per IPv6 devono essere diversi.</ipv6Message6>
+	<ipv6Message7>Il valore immesso in Gateway predefinito (Router) per IPv6 deve iniziare con FE80.</ipv6Message7>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<description1>Gli utenti esperti che hanno già configurato una videocamera Internet prima, possono fare clic su 'Configurazione manuale connessione Internet' per inserire manualmente tutte le impostazioni.</description1>
+	<description2>Gli utenti che si ritengono esperti e desiderano configurare manualmente il rilevamento del movimento, possono fare clic su 'Configurazione manuale Rilevamento del movimento' per inserire manualmente tutte le impostazioni.</description2>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<saveOK>Riavvio server Web in corso. Attendere un minuto, quindi riconnettere la videocamera con il nuovo indirizzo IP.</saveOK>
+</message>
+

@@ -1,0 +1,19 @@
+<body>
+	<audioDetection>DETECÇÃO DE SOM</audioDetection>
+	<description1>Para habilitar a detecção de som de sua câmera, você deve selecionar a opção 'Detecção de Som' e configurar o nível de detecção de sua câmera para o ambiente.</description1>
+	<subtitle>DETECÇÃO DE SOM</subtitle>
+	<audioLevel>Nível de detecção</audioLevel>
+	<enableaudiodetection>Detecção de Som</enableaudiodetection>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<audiodetection>Eventos de som detectados através do microfone de sua câmera.</audiodetection>
+	<audiodetectionType>Nível de Detecção</audiodetectionType>
+	<audiodetectionTypeText>Configure o nível de detecção de som para iniciar os eventos de som. Abaixar o nível de detecção torna a detecção de som mais sensível.</audiodetectionTypeText>
+</hint>
+<message>
+	<ok>Alterações Salvas.</ok>
+	<invalidParameter>Parâmetro Inválido.</invalidParameter>
+	<nothingChange>Configuração sem alteração.</nothingChange>
+	<fail>Alterações Falharam.</fail>
+</message>

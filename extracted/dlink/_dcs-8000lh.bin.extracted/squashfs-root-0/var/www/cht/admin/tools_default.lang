@@ -1,0 +1,61 @@
+<body>
+	<maintenance>系統</maintenance>
+	<description1>您可在此備份、回復，以及重新啟動攝影機。</description1>
+	<rebootDevice>重新啟動裝置</rebootDevice>
+	<rebootText>重新啟動裝置</rebootText>
+	<factory>回復到原廠預設值</factory>
+	<factoryDefault>回復原廠預設值</factoryDefault>
+	<calibrateText>校正裝置</calibrateText>
+	<calibrate>校正裝置</calibrate>
+	<reboot1>攝影機重新啟動中，請稍待 </reboot1>
+	<reboot2> 秒。</reboot2>
+	<system>系統</system>
+	<backupText>儲存到本機硬碟</backupText>
+	<saveConfiguration>儲存設定</saveConfiguration>
+	<restoreText>從本機硬碟載入</restoreText>
+	<privacyText>隱私模式</privacyText>
+	<privacy>進入隱私模式</privacy>
+	<restoreConfiguration>載入設定</restoreConfiguration>
+	<restoreConfirm>您要回復設定資料嗎?</restoreConfirm>
+	<rebootConfirm>您要重新啟動嗎?</rebootConfirm>
+	<factoryConfirm>您要回復到原廠預設值嗎?</factoryConfirm>
+	<reboot>重新啟動</reboot> 
+	<schedule>排程重新啟動裝置</schedule> 
+	<sun>星期日</sun> 
+	<mon>星期一</mon> 
+	<tue>星期二</tue> 
+	<wed>星期三</wed> 
+	<thu>星期四</thu> 
+	<fri>星期五</fri> 
+	<sat>星期六</sat> 
+	<time>時間</time> 
+	<savebutton>儲存設定</savebutton>
+	<exportHint>請輸入一個密碼來存儲設定，並且保管好此密碼用來載入存儲的設定。</exportHint>
+	<importHint>請輸入密碼來載入設定。</importHint>
+	<exportError>密碼不能是空白。</exportError>
+	<importError>必須提供密碼來載入設定。</importError>
+	<keyError>密碼只接受數字，英文字母，\".\"， \"_\"， 與 \"-\"。最多允許30個字元。</keyError>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<maintenance>若回復到原廠預設值後，請使用攝影機隨附的安裝精靈軟體來搜尋攝影機並連線。</maintenance>
+</hint>
+<message>
+	<updateOK>更新成功</updateOK>
+	<uploadFail>上傳失敗</uploadFail>
+	<examFail>上傳影像已損毀</examFail>
+	<infoFail>上傳影像無資料</infoFail>
+	<invalidImage>本產品無法使用此上傳影像</invalidImage>
+	<resetFail>重設失敗</resetFail>
+	<resetOK>攝影機將開始回復程序。請稍待一分鐘，再以新的 IP 位址來重新連接攝影機。</resetOK>
+	<rebootFail>重新啟動失敗</rebootFail>
+	<rebootOK>重新啟動完成</rebootOK>
+	<calibrationOK>校正成功</calibrationOK>
+	<goSleepOK>隱私模式成功</goSleepOK>
+	<importOK>攝影機將開始載入您的設定。請稍待一分鐘，再以新的 IP 位址來重新連接攝影機。</importOK>
+	<invalidDB>設定檔無效</invalidDB>
+	<noDB>沒有上傳設定檔</noDB>
+	<saveOK>網路伺服器正在重啟，請稍待75秒鐘，再以新的 IP 位址來重新連接攝影機。</saveOK>
+	<scheduleOK>變更已儲存。</scheduleOK>
+</message>
+

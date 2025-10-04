@@ -1,0 +1,55 @@
+<body>
+	<ddnsSettings>Dynamic DNS</ddnsSettings>
+	<description1>The Dynamic DNS feature allows you to use a domain name that you have purchased (www.yourdomain.com) to access your camera with a dynamically assigned IP address. Most broadband Internet service providers assign dynamic (changing) IP addresses. By using a DDNS service, you can enter your domain name to connect to your camera no matter what your IP address is. </description1>
+	
+	<description11>Sign up for D-Link's Free DDNS service at </description11>
+	<description22>http://www.DlinkDDNS.com</description22>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<dynamicDns>Dynamic DNS setting</dynamicDns>
+	<enableDdns>DDNS</enableDdns>
+	<provider>Server Address</provider>
+	<hostName>Host Name</hostName>
+	<usernameEmail>User Name</usernameEmail>
+	<passwordKey>Password</passwordKey>
+	<passwordConfirm>Confirm Password</passwordConfirm>
+	<selectDDNS>Select DDNS Server</selectDDNS>
+	<ddns1>www.dlinkddns.com</ddns1>
+	<ddns2>www.DynDNS.org</ddns2>
+	<ddns3>www.DynDNS.org(Custom)(Free)</ddns3>
+	<ddns4>www.DynDNS.org(Static)</ddns4>
+	<timeout>Timeout</timeout>
+	<hours> hours</hours>
+	<status>Status</status>
+	<ddnsError1>DDNS Host Name can't be empty, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</ddnsError1>
+	<ddnsErrorUser>DDNS User Name can't be empty, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</ddnsErrorUser>
+	<ddnsError2>DDNS User Name can't be empty</ddnsError2>
+	<ddnsError3>DDNS Password can't be empty</ddnsError3>
+	<ddnsError4>DDNS Password and Confirm Password are different</ddnsError4>
+	<ddnsError5>DDNS User Name and password can't accept Non-ASCII and space characters</ddnsError5>
+	<ddnsError6>Please select a Dynamic DNS Server</ddnsError6>
+	<ddnsError7>DDNS Timeout must be a number</ddnsError7>
+	<ddnsError8>DDNS Timeout must be between 24 and 65535</ddnsError8>
+	<ddnsError9>DDNS Timeout must be an integer</ddnsError9>
+	<ddnsServerError>Please verify DDNS Server Address format</ddnsServerError>
+	<ddnsServerError1>DDNS Server Address can't be empty</ddnsServerError1>
+	<ddnsStatusDisabled>Disabled</ddnsStatusDisabled>
+	<ddnsStatusUpdated>Updated</ddnsStatusUpdated>
+	<ddnsStatusInitializing>Initializing</ddnsStatusInitializing>
+	<ddnsStatusFailed>Connection Failed</ddnsStatusFailed>
+	<OK>OK</OK>
+	<Disabled>Disable</Disabled>
+	<Failure>Failure</Failure>
+	<Initializing>Initializing</Initializing>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<enableDdns>Dynamic DNS is useful if you have a DSL or Cable service provider that changes your Internet Device IP address periodically. This will allow you to assign a website domain name to your camera instead of connecting through an IP address.</enableDdns>
+	<status>The status of DDNS, it indicates the availability of DDNS function.</status>
+	<hostName>The domain name you have applied from DDNS service.</hostName>
+	<timeout>You can setup how often the camera notifies the DDNS server of its current global IP address. By default this is 576 hours.</timeout>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+</message>

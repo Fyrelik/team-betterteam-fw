@@ -1,0 +1,99 @@
+<body>
+	<cameraControl>Patrol Position</cameraControl>
+	<cameraControl1>Patrol Position</cameraControl1>
+	<description1>The Patrol Position allows you to move the viewing area to a series of Pre-programmed Preset Positions periodically.</description1>
+	<up>Up</up>
+	<down>Down</down>
+	<panSpeed>Pan Speed :</panSpeed>
+	<tiltSpeed>Tilt Speed :</tiltSpeed>
+	<currentPosition>Current Position :</currentPosition>
+	<presetPosition>Preset Position :</presetPosition>
+	<none>-- Select One --</none>
+	<patrol1>Please select a point;if Preset Positions is empty ,please add a point</patrol1>
+	<add>Add</add>
+	<delete>Delete</delete>
+	<save>Save Settings</save>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<theSamePresetName>preset name already exist, do you want to replace old preset position?</theSamePresetName>
+	<setAsHome>Set As Home</setAsHome>
+	<defaultHome>Default Home</defaultHome>
+	<patrolSpeed>Pan/Patrol Speed :</patrolSpeed>
+	<patrolInterval>Patrol Interval (Min) :</patrolInterval>
+	<patrolLocations> Patrol Positions</patrolLocations>
+	<patrolInterval1>60</patrolInterval1>
+	<schedulepatrol>Patrol Schedule</schedulepatrol>
+	<hour0>0</hour0>
+	<hour1>1</hour1>
+	<hour2>2</hour2>
+	<hour3>3</hour3>
+	<hour4>4</hour4>
+	<hour5>5</hour5>
+	<hour6>6</hour6>
+	<hour7>7</hour7>
+	<hour8>8</hour8>
+	<hour9>9</hour9>
+	<hour10>10</hour10>
+	<hour11>11</hour11>
+	<hour12>12</hour12>
+	<hour13>13</hour13>
+	<hour14>14</hour14>
+	<hour15>15</hour15>
+	<hour16>16</hour16>
+	<hour17>17</hour17>
+	<hour18>18</hour18>
+	<hour19>19</hour19>
+	<hour20>20</hour20>
+	<hour21>21</hour21>
+	<hour22>22</hour22>
+	<hour23>23</hour23>
+	<sun>Sun </sun>
+	<mon>Mon </mon>
+	<tue>Tue </tue>
+	<wed>Wed </wed>
+	<thu>Thu </thu>
+	<fri>Fri </fri>
+	<sat>Sat </sat>
+	<dwellingTime>Dwelling Time (sec) :</dwellingTime>
+	<presetLocations>Pre-programmed Preset Positions</presetLocations>
+	<selectedLocations>Selected Locations</selectedLocations>
+	<select>Select</select>
+	<remove>Remove</remove>
+	<patrolSelection>Patrol Selection :</patrolSelection>
+	<presetNameError>preset name can't accept blank name</presetNameError>
+	<waitTimeError1>Dwelling time can't be empty</waitTimeError1>
+	<waitTimeError2>Dwelling time must be a number</waitTimeError2>
+	<waitTimeError3>Dwelling time must be between 1 and 60</waitTimeError3>
+	<scheduleError>Please fill in scheduled time</scheduleError>
+	<scheduleErrorSun>Please check scheduled time on Sun</scheduleErrorSun>
+	<scheduleErrorMon>Please check scheduled time on Mon</scheduleErrorMon>
+	<scheduleErrorTue>Please check scheduled time on Tue</scheduleErrorTue>
+	<scheduleErrorWed>Please check scheduled time on Wed</scheduleErrorWed>
+	<scheduleErrorThu>Please check scheduled time on Thu</scheduleErrorThu>
+	<scheduleErrorFri>Please check scheduled time on Fri</scheduleErrorFri>
+	<scheduleErrorSat>Please check scheduled time on Sat</scheduleErrorSat>
+	<noPretrolPointWarn>Please add Patrol Positions</noPretrolPointWarn>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<presethints>Pre-programmed Preset Positions - </presethints>
+	<description2> The table will display the Pre-programmed Preset Positions. </description2>
+	<patrolhints>Patrol Positions - </patrolhints>
+	<description1> This selects the specified Preset Positions to be moved in sequence. </description1>
+	<speedhints>Pan/Patrol Speed - </speedhints>
+	<description3> Select the speed of camera Pan/Patrol movement between 1 and 3. </description3>
+	<dwellinghints>Dwelling Time - </dwellinghints>
+	<description4> This sets the duration of staying at the position. </description4>
+	<patrolschedulehints>Patrol Schedule - </patrolschedulehints>
+	<description5> "Patrol Schedule" allows the PTZ camera to perform the position tour by an hourly schedule. </description5>
+	
+</hint>
+<message>
+	<nopresetpoint>no preset point</nopresetpoint>
+	<ok>Changes saved.</ok>
+	<failure>setting failure</failure>
+	<full>preset already full</full>
+	<selectFull>Selected Locations already full</selectFull>
+	<duplicate>duplicate</duplicate>
+	<invalidParameters>invalid preset name</invalidParameters>
+	<oob>setting value is out of range</oob>
+</message>

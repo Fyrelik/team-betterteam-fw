@@ -1,0 +1,52 @@
+<body>
+	<digitalOutput>Sortie numérique</digitalOutput>
+	<description1>Cette section vous permet d'activer le port de sortie numérique et de spécifier la façon dont l'événement sera déclenché. </description1>
+	<description2>La détection de mouvement est désactivée quand la caméra est en mode SXGA.</description2>
+	<description3>Pour activer la détection de mouvement, sélectionnez le mode VGA ou XGA pour </description3>
+	<description4> Audio et Vidéo.</description4>
+	<savebutton>Enregistrer les paramètres</savebutton>
+	<notsavebutton>Ne pas enregistrer les paramètres</notsavebutton>
+	<trigger>Déclenchement</trigger>
+	<enable> Signal de sortie numérique</enable>
+	<triggerEvent>Événement déclencheur</triggerEvent>
+	<motionDetection>Mouvement</motionDetection>
+	<di1>Signal d'entrée numérique 1</di1>
+	<di2>Signal d'entrée numérique 2</di2>
+	<manual>Manuel</manual>
+	<di>Entrée numérique</di>
+	<hour>Heures</hour>
+	<min>Minutes</min>
+	<sun>Dim </sun>
+	<mon>Lun </mon>
+	<tue>Mar </tue>
+	<wed>Mer </wed>
+	<thu>Jeu </thu>
+	<fri>Ven </fri>
+	<sat>Sam </sat>
+	<from>Début </from>
+	<to>Fin </to>
+	<day>Jour</day>
+	<time>Heure</time>
+	<mfhourError>L'heure de début n'est pas valide</mfhourError>
+	<mthourError>L'heure de fin n'est pas valide</mthourError>
+	<mfminuteError>La minute de début n'est pas valide</mfminuteError>
+	<mtminuteError>La minute de fin n'est pas valide</mtminuteError>
+	<onlyDuring>Seulement pendant</onlyDuring>
+	<dayErr>Veuillez choisir au moins un jour.</dayErr>
+	<audioDetection>Son</audioDetection>
+	<motionNote>Veuillez noter que la Détection de mouvements n'est pas activée, veuillez vous rendre sur la page Web de la Détection de mouvements pour la configurer.</motionNote>
+	<audioNote>Veuillez noter que la Détection de sons n'est pas activée, veuillez vous rendre sur la page Web de la Détection de sons pour la configurer.</audioNote>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<description1>Vous pouvez choisir un événement déclencheur tel qu'une détection de mouvement ou des déclenchements sur le port d'entrée numérique. Quand un événement est déclenché, la sortie numérique commence à envoyer un signal.</description1>
+	<manualBased>Permet à l'utilisateur de déclencher la sortie numérique en visionnant la vidéo en direct.</manualBased>
+	<motionBased>Quand un mouvement est détecté, la caméra IP déclenche des appareils d'alerte traditionnels connectés au système.</motionBased>
+	<audioBased>Quand un son est détecté, la caméra IP déclenche des appareils d'alerte traditionnels connectés au système.</audioBased>
+	<gpio>En cas de déclenchement par le périphérique connecté à l'entrée numérique, la caméra IP déclenche des appareils d'alerte traditionnels connectés au système.</gpio>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<fail>Échec de l’application des modifications.</fail>
+</message>
+

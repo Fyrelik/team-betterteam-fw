@@ -1,0 +1,32 @@
+<body>
+	<camera>Videocamera</camera>
+	<description1>Questa sezione mostra il video in diretta della videocamera. È possibile controllare le impostazioni usando i seguenti pulsanti. </description1>
+	<description2>La risoluzione corrente è </description2>
+	<liveVideo>Video in diretta</liveVideo>
+	<snapshot>Istantanea</snapshot>
+	<setPath>Imposta cartella di archiviazione</setPath>
+	<recording>Registrazione in corso</recording>
+	<stopRecording>Interrompi registrazione</stopRecording>
+	<startSteamOut>Trasmissione vocale</startSteamOut>
+	<stopSteamOut>Interrompi trasmissione vocale</stopSteamOut>
+	<listenOn>Ascolta</listenOn>
+	<listenOff>Interrompi ascolto</listenOff>
+	<startGPOutput>Avvia uscita digitale</startGPOutput>
+	<stopGPOutput>Interrompi uscita digitale</stopGPOutput>
+	<ledOn>Led acceso</ledOn>
+	<ledOff>Led spento</ledOff>
+	<fullScreen>Schermo intero</fullScreen>
+	<diIndicator>Indicatore ingresso digitale</diIndicator>
+	<moIndicator>Indicatore di trigger di movimento</moIndicator>
+	<reIndicator>Indicatore di registrazione</reIndicator>
+	<talkNotify1>Creazione uscita flusso audio non riuscita, creazione socket non riuscita</talkNotify1>
+	<talkNotify2>Connessione al server non riuscita</talkNotify2>
+	<talkNotify3>La linea audio è occupata, riprovare più tardi.</talkNotify3>
+	<irOn>LED infrarossi attivo</irOn>
+	<irOff>LED infrarossi disattivo</irOff>
+	<zoomInOut>Zoom avanti/indietro</zoomInOut>
+	<privacyMode1>Videocamera in modalità privacy.</privacyMode1>
+	<privacyMode2>Per uscire dalla modalità privacy, passare a</privacyMode2>
+	<privacyMode3>Amministratore</privacyMode3>
+</body>
+

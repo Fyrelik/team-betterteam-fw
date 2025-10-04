@@ -1,0 +1,47 @@
+<body>
+	<rs485>RS-485</rs485>
+	<description1>Esta seção permite que você especifique as configurações RS-485 da câmera.</description1>
+	<enableRs485>Suporte PAN TILT</enableRs485>
+	<rs485ID>ID</rs485ID>
+	<rs485BuadRate>Baud Rate</rs485BuadRate>
+	<rs485DataBits>Data Bits</rs485DataBits>
+	<rs485StopBit>Stop Bit</rs485StopBit>
+	<rs485ParityBit>Parity Bit</rs485ParityBit>
+	<rs485Protocol>Protocol</rs485Protocol>
+	<Pelco-D>Pelco-D</Pelco-D>
+	<Pelco-P>Pelco-P</Pelco-P>
+	<Dyna>Dyna</Dyna>
+	<LiLin>LiLin</LiLin>
+	<savebutton>Salvar configurações</savebutton>
+	<notsavebutton>Não salvar configurações</notsavebutton> 
+	<protocol>Protocolo</protocol>
+	<protocoll> - Selecione o padrão PTZ, utilizado para conectar um escaner PTZ através da interface serial: RS485.</protocoll>
+	<id>ID</id>
+	<idl> - Valor de ID é usado para identificar o dispositivo de RS-485.</idl>
+	<baudRate>Baud Rate</baudRate>
+	<baudRatel> - Selecione a taxa de transmissão desejada para o dispositivo que você conectou.</baudRatel>
+	<dataBits>Data Bits</dataBits>
+	<dataBitsl> - Selecione os bits de dados desejado para o dispositivo que você conectou.</dataBitsl>
+	<stopBit>Stop Bit</stopBit>
+	<stopBitl> - Selecione o bit de parada desejado para o dispositivo que você conectou.</stopBitl>
+	<parityBit>Parity Bit</parityBit>
+	<parityBitl> - Selecione o tipo de paridade desejado para o dispositivo que você conectou.</parityBitl>
+	<idRangeError>Valor de ID fora do intervalo</idRangeError>
+	<idrangemessage0>(range 1 a 255)</idrangemessage0>
+	<idrangemessage1>(range 1 a 32)</idrangemessage1>
+	<idrangemessage2>(range 1 a 223)</idrangemessage2>
+	<idrangemessage3>(range 1 a 64)</idrangemessage3>
+</body> 
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<description2>Bit de parada pode ser definido como 1 bit ou 2 bits.</description2>
+	<description3>Ao habilitar suporte PAN-TILT, um painel de controle será exibido na página do vídeo em tempo real permitindo o controle através do RS-485 para um gabinete externo da câmera.</description3>
+</hint>
+<message>
+	<ok>Alterações salvas.</ok>
+	<fail>Alterações falharam.</fail>
+	<failure>configurações falharam</failure>
+	<full>predefinição já completa</full>
+	<invalidParameters>nome de predefinição inválido</invalidParameters>
+	<oob>valores de configuração fora do range</oob>
+</message>

@@ -1,0 +1,90 @@
+<body>
+	<cameraControl>Kamerasteuerung</cameraControl>
+	<presetPosition>Voreingestellte Position</presetPosition>
+	<patrolSelect>Patrollierauswahl</patrolSelect>
+	<description1>Hier können Sie Positionen hinzufügen oder voreingestellte Positionen löschen, die Positionen für die 'Patrollierfunktion' wählen sowie die Standardposition Ihrer 'Startseite'-Schaltfläche ändern.</description1>
+	<moveUp>Nach oben</moveUp>
+	<moveDown>Nach unten</moveDown>
+	<panSpeed>Schwenkschritt:</panSpeed>
+	<tiltSpeed>Neigeschritt:</tiltSpeed>
+	<currentPosition>Name Voreinstellung:</currentPosition>
+	<presetPositions>Voreingestellte Position:</presetPositions>
+	<none>-- Eine auswählen --</none>
+	<add>Hinzufügen</add>
+	<delete>Löschen</delete>
+	<save>Speichern</save>
+	<theSamePresetName>Der Name für die Voreinstellung existiert bereits. Möchten Sie die alte voreingestellte Position ersetzen?</theSamePresetName>
+	<setAsHome>Als Ausgangsposition einrichten</setAsHome>
+	<defaultHome>Standardausgangsposition</defaultHome>
+	<patrolSpeed>Schwenk-/Patrollierschritt:</patrolSpeed>
+	<dwellingTime>Verweildauer:</dwellingTime>
+	<sec> Sekunden</sec>
+	<presetLocations>Positionenvoreinstellung</presetLocations>
+	<selectedLocations>Patrollierpositionen</selectedLocations>
+	<select>Auswählen</select>
+	<remove>Entfernen</remove>
+	<patrolSelection>Patrollierauswahl:</patrolSelection>
+	<homeDefinition>Festlegung Ausgangsposition:</homeDefinition>
+	<presetNameError>Name für die Voreinstellung muss angegeben werden</presetNameError>
+	<presetNameError111>Name Voreinstellung muss angegeben werden. Es sind nur Zahlen, Buchstaben, \"-\", und \"_\" Zeichen gültig.</presetNameError111>
+	<presetNameError112> \' \" enthalten</presetNameError112>
+	<waitTimeError1>Verweildauer muss angegeben werden</waitTimeError1>
+	<waitTimeError2>Verweildauer muss eine Zahl sein</waitTimeError2>
+	<waitTimeError3>Verweildauer muss zwischen 0 und 60 sein</waitTimeError3>
+	<left_up>Links nach oben</left_up>
+	<up>Nach oben</up>
+	<right_up>Rechts nach oben</right_up>
+	<left>Links</left>
+	<left_down>Links nach unten</left_down>
+	<right_down>Rechts nach unten</right_down>
+	<right>Rechts</right>
+	<down>Nach unten</down>
+	<Zoom_in>Vergrößern</Zoom_in>
+	<Zoom_out>Verkleinern</Zoom_out>
+	<home>Startseite</home>
+	<privacy>Diese Kamera ist aktuell im Privacy-Modus.</privacy>
+	<noSelectError>Wählen Sie eine Patrollierposition</noSelectError>
+	<presetErr>Wählen Sie eine Voreinstellungsposition </presetErr>
+	<patrolFull>Patrollierpositionswert darf 20 Positionen nicht überschreiten</patrolFull>
+	<javajreinfo8>Klicken Sie hier, um das NCSPlugin herunterzuladen und zu installieren. Es ist ratsam, dann Ihren Browser neu zu öffnen!</javajreinfo8>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<homeDefinition>Festlegung Ausgangsposition </homeDefinition>
+	<description1>Ermöglicht Ihnen, eine neue 'Startseite'-Schaltfläche einzurichten oder automatisch wieder zurück zur ursprünglichen Ausgangsposition zu gehen.</description1>
+	<patrolSelection>Patrollierauswahl </patrolSelection>
+	<description2>Ermöglicht es Ihnen, den 'Voreingestellten Positionen' 'Patrollierpositionen' hinzuzufügen. Damit wird festgelegt, wohin sich die IP-Kamera bewegen und wo sie anhalten wird, wenn Sie 'Patrollierung' auf der Seite 'Live Video' wählen. </description2>
+	<patrolhints>Patrollierpositionen </patrolhints>
+	<description3> Wählt die angegebenen Voreinstellungspositionen in einer Bewegungsabfolge aus. </description3>
+	<patrolschedulehints>Patrollierzeitplan </patrolschedulehints>
+	<description4>Mithilfe des "Patrollierzeitplans" kann die PTZ-Kamera den Positionslauf im Rahmen eines auf eine Stunde festgelegten Zeitplans durchführen. </description4>
+	<dwellinghints>Verweildauer </dwellinghints>
+	<description5> Die Zeit, die die IP-Kamera an jeder voreingestellten Position während der Patrollierzeit verweilt. </description5>
+	<controlhints>Schwenk- /Neigesteuerung</controlhints>
+	<controlhints1>Sie können die Position des Kameraobjektivs durch Klicken auf die Pfeilschaltflächen Nach oben/Nach unten/ Links/Rechts/Links nach oben/Links nach unten/Rechts nach oben/Rechts nach unten steuern. Durch Klicken auf 'Startseite'-Schaltfläche wird das Objektiv wieder auf die ursprüngliche Ausgangsposition gebracht. </controlhints1>
+	<uphints>Nach oben</uphints>
+	<uphints1>Bewegt die ausgewählte Patrollierposition nach oben.</uphints1>
+	<downhints>Nach unten</downhints>
+	<downhints1>Bewegt die ausgewählte Patrollierposition nach unten.</downhints1>
+	<removehints>Entfernen</removehints>
+	<removehints1>Entfernt eine ausgewählte Patrollierposition.</removehints1>
+	<helppanSpeed>Schwenkschritt</helppanSpeed>
+	<helppanSpeed1>Legt die Schrittweite der Kameraschwenkbewegungen fest.</helppanSpeed1>
+	<helptiltSpeed>Neigeschritt</helptiltSpeed>
+	<helptiltSpeed1>Legt die Schritteweite der Kameraneigebewegungen fest.</helptiltSpeed1>
+	<helpcurrentPosition>Name Voreinstellung</helpcurrentPosition>
+	<helpcurrentPosition1>Bewegen Sie die Kamera zu der gewünschten Position und geben Sie einen Namen oder eine Nummer im Feld 'Name Voreinstellung' ein. Klicken Sie dann auf 'Hinzufügen' und die aktuelle Position wird im Feld 'Voreingestellte Position' angezeigt.</helpcurrentPosition1>
+	<helppresetPosition>Voreingestellte Position</helppresetPosition>
+	<helppresetPosition1>Unter "Voreingestellte Position" sind alle Positionen aufgelistet, die Sie definiert haben. Sie können diese jederzeit wieder löschen.
+</helppresetPosition1>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<failure>Einstellungsfehler</failure>
+	<full>Voreingestellte Position ist bereits vergeben</full>
+	<selectFull>Patrollierpositionen sind bereits alle vergeben</selectFull>
+	<duplicate>Doppelt</duplicate>
+	<invalidParameters>Der Name der Voreinstellung ist ungültig</invalidParameters>
+	<oob>Einstellungswert ist außerhalb des Bereichs</oob>
+</message>
+

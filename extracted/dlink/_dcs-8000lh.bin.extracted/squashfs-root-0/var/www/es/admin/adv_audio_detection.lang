@@ -1,0 +1,19 @@
+<body>
+	<audioDetection>DETECCIÓN DE SONIDO</audioDetection>
+	<description1>Para activar la detección de sonido de la cámara, debe seleccionar la casilla de selección de "Detección de sonido" y configurar el ajuste de Nivel de detección de la cámara para su entorno de detección.</description1>
+	<subtitle>DETECCIÓN DE SONIDO</subtitle>
+	<audioLevel>Nivel de detección</audioLevel>
+	<enableaudiodetection>Detección de sonido</enableaudiodetection>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<audiodetection>La detección de sonido detecta los eventos de sonido utilizando el micrófono de la cámara.</audiodetection>
+	<audiodetectionType>Nivel de detección</audiodetectionType>
+	<audiodetectionTypeText>Ajuste la Nivel de detección del algoritmo de detección de sonido para activar los eventos de sonido. Menor Nivel de detección hace que los sonidos bajos sean más fáciles de detectar.</audiodetectionTypeText>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<invalidParameter>parámetro no válido.</invalidParameter>
+	<nothingChange>La configuración no ha cambiado.</nothingChange>
+	<fail>Error en los cambios.</fail>
+</message>

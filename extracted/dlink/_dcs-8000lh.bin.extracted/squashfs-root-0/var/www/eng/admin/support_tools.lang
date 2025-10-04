@@ -1,0 +1,58 @@
+<body>
+	<maintenance>MAINTENANCE</maintenance>
+	<deviceManagement>Admin</deviceManagement>
+	<backupAndRestore>System</backupAndRestore>
+	<firmwareUpgrade>Firmware Upgrade</firmwareUpgrade>
+	<rtspauth>RTSP Authentication</rtspauth>
+	<rtspauth1> - Enable user validation for RTSP streaming.</rtspauth1>
+	<httpauth>HTTP Authentication</httpauth>
+	<httpauth1> - Enable user validation for HTTP streaming.</httpauth1>
+	<snapauth>Snapshot URL Authentication</snapauth>	
+	<snapauth1> - Enable user validation for Snapshot URL.</snapauth1>	
+	<cameraName>Camera Name</cameraName>
+	<cameraName1> - The unique name for your camera.</cameraName1>
+	<label>Label</label>
+	<label1> - The unique label for your camera.</label1>
+	<showTime>Show time</showTime>
+	<showTime1> - Select this option to display date and time information on the snapshot or video image.</showTime1>
+	<adminPassword>Admin Password Setting</adminPassword>
+	<adminPassword1> - Password for the Administrator's account. The administrator password must be entered twice for confirmation.</adminPassword1>
+	<led>Power/Link LED Light</led>
+	<led1>On - Normal LED blinking depending on power and wired/wireless link and video/audio stream transmission status.</led1>
+	<led2>Off - Always turn off LED.</led2>
+	<led3>Flicker - Always flickering Link LED as video being monitored.</led3>
+	<timeStamp>Time Stamp</timeStamp>
+	<timeStamp1> - Select this option to display date and time information on the snapshot or video image.</timeStamp1>
+	<addUser>Add User Account</addUser>
+	<addUser1> - Create new user account(s) for accessing the Live Video image and up to twenty user accounts can be added. The new username will be displayed in the user list for deletion.</addUser1>
+	<deleteUser>Delete</deleteUser>
+	<deleteUser1> - Remove user from the User List.</deleteUser1>
+	<userList>User List</userList>
+	<userList1> - List of user account(not include admin),for display and delete.</userList1>
+	<backup>Save To Local Hard Drive</backup>
+	<backup1> – After clicking this button, a download window will appear allowing you to save the camera's configuration file to your computer for restoration purposes.</backup1>
+	<restore>Load From Local Hard Drive</restore>
+	<restore1> - You may browse and load the configuration file. Then, click "Load Configuration" to restore the pre-configured or saved settings.</restore1>
+	<rebootSystem>Reboot Device</rebootSystem>
+	<rebootSystem1> - This option will restart the camera.</rebootSystem1>
+	<factoryDefaults>Restore To Factory Defaults</factoryDefaults>
+	<factoryDefaults1> - This option will restore the factory default settings for your camera. This will remove all the configuration settings that were made previously.</factoryDefaults1>
+	<firmwareInformation>Firmware Information</firmwareInformation>
+	<firmwareInformation1> - This displays the firmware information.</firmwareInformation1>
+	<firmwareUpdate>Firmware Upgrade</firmwareUpdate>
+	<firmwareUpdate1> - The option allows the user to upgrade the firmware. Click "Browse" to locate the file and then click "Upload" to apply the new firmware to the camera.</firmwareUpdate1>
+	<firmwarebuildnumber>Current Firmware Build Number</firmwarebuildnumber>
+	<firmwarebuildnumber1> - The specific revision number to the version of camera firmware. When you call for help, this number should also be given to Technical Support.</firmwarebuildnumber1>
+	<curfirmwareversion>Current Firmware Version</curfirmwareversion>
+	<curfirmwareversion1> - Local Firmware Version on the camera.</curfirmwareversion1>
+	<enableOSD>OSD</enableOSD>
+	<enableOSDl> - Enable OSD, the Label and Time Stamp will be displayed on the snapshot or video image for the user.</enableOSDl>
+	<calibrateDevice>Calibrate the Device</calibrateDevice>
+	<calibrateDevice1> - Recalibrate camera's PT home position.</calibrateDevice1>
+	<privacycontrol>Privacy Control</privacycontrol>
+	<privacycontrol1> - Allow you to configure if camera could enter Privacy mode or not.</privacycontrol1>
+	<privacyon>Privacy On</privacyon>
+	<privacyon1> - Camera is in a Privacy mode. Live Video, Video Clip, Snapshot and SD Recording will be turned off.</privacyon1>
+	<privacyoff>Privacy Off</privacyoff>
+	<privacyoff1> - Camera is in a normal operating mode.</privacyoff1>
+</body>

@@ -1,0 +1,168 @@
+<body>
+	<videoclip>视频剪辑</videoclip>
+	<description1>录像片段可用于当发生移动侦测触发或者数据输入触发时，可让网络摄影机传送一段录像片段到E-mail账号或者FTP服务器。</description1>
+	<savebutton>保存设置</savebutton>
+	<notsavebutton>不保存设置</notsavebutton>
+	<di>数据输入信号1</di>
+	<di2>数据输入信号2</di2>
+	<enable>视频剪辑</enable>
+	<profile2>视频配置 2</profile2>
+	<motionDetection>移动侦测</motionDetection>
+	<sendVideoClipBy>发送至：</sendVideoClipBy>
+	<emailAddress>E-mail地址</emailAddress>
+	<ftpServer>FTP服务器</ftpServer>
+	<userName>用户名</userName>
+	<password>密码</password>
+	<mailServer>SMTP邮件服务器</mailServer>
+	<senderAddress>发件人E-mail地址</senderAddress>
+	<recipientAddress>收件人E-mail地址</recipientAddress>
+	<port>端口</port>
+	<test>测试</test>
+	<test2>测试</test2>
+	<hostName>主机名</hostName>
+	<path>路径</path>
+	<prefixFileName>文件名前缀</prefixFileName>
+	<passiveMode>被动模式</passiveMode>
+	<portRange> （范围1~65535）</portRange>
+	<mailNameError>邮件用户名和密码不能接受非ASCII和空格字符。</mailNameError>
+	<ftpNameError>FTP用户名和密码不能接受非ASCII和空格字符。</ftpNameError>
+	<firSmtpError>SMTP（邮件）服务器不能为空白，只能接受数字、字母、\".\" , \"-\"和\"_\"字符。</firSmtpError>
+	<firSmtpName>E-mail SMTP</firSmtpName>
+	<firAccountError>SMTP邮件服务器用户名不能为空</firAccountError>
+	<firRecipientMailError>请验证收件人邮件地址格式。</firRecipientMailError>
+	<firRecipientError>收件人邮件地址不能为空</firRecipientError>
+	<firSenderMailError>请验证发件人邮件地址格式。</firSenderMailError>
+	<firSenderError>发件人邮件地址不能为空</firSenderError>
+	<PortError1>端口不能为空</PortError1>
+	<PortError2> 端口必须为整数</PortError2>
+	<PortError3>端口值必须介于1到65535</PortError3>
+	<firFtpServerError>FTP主机名不能为空白，只能接受数字、字母、\".\" , \"-\"和\"_\"字符。</firFtpServerError>
+	<firFtpError>FTP服务器</firFtpError>
+	<firFolderError>FTP路径仅接受数字，字母和字符：</firFolderError>
+	<firFolderError2>FTP路径不能连续接受\".\" 和 \"/\" </firFolderError2>
+	<firFixFilenameError>FTP路径不能连续接受\".\" 和 \"/\" </firFixFilenameError>
+	<continousRecording>连续(仅适用于FTP服务器)</continousRecording>
+	<scheduledRecording>计划(仅适用于FTP服务器)</scheduledRecording>
+	<hour>小时</hour>
+	<min>分</min>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<from>开始</from>
+	<to>结束 </to>
+	<scheduling>计划</scheduling>
+	<motionBased>动作</motionBased>
+	<audioBased>声音</audioBased>
+	<alwaysBased>始终启用</alwaysBased>
+	<interval>间隔</interval>
+	<second>秒</second>
+	<range1> （范围10~86400秒）</range1>
+	<range2> （范围30~86400秒）</range2>
+	<range3> （范围60~86400秒）</range3>
+	<range5> （范围30~86400秒）</range5>
+	<methodError>请选择一项计划设置</methodError>
+	<scheduleError>请选择一项计划设置</scheduleError>
+	<triggerError>请选择一个目标：</triggerError>
+	<fullHourError>如果结束小时数为24，结束的分钟数只能设置为0。</fullHourError>
+	<legalTimeError>开始时间必须小于结束时间。</legalTimeError>
+	<ignoreMotionTimeErrorsmtp>发送下一封E-mail的间隔秒数必须是整数</ignoreMotionTimeErrorsmtp>
+	<ignoreMotionTimeErrorftp>发送下一个FTP的间隔秒数必须是整数</ignoreMotionTimeErrorftp>
+	<ftpignoreMotionTimeError1>发送下一个FTP的间隔秒数必须介于10~86400秒之间</ftpignoreMotionTimeError1>
+	<smtpignoreMotionTimeError2>发送下一封E-mail的间隔秒数必须介于30~86400之间</smtpignoreMotionTimeError2>
+	<ignoreMotionTimeError3>忽略以下动作的秒数必须为60~86400秒</ignoreMotionTimeError3>
+	<ftpintervalError>FTP </ftpintervalError>
+	<smtpintervalError>E-mail </smtpintervalError>
+	<sdintervalError>SD卡 </sdintervalError>
+	<intervalError>间隔必须为整数</intervalError>
+	<intervalError1>间隔必须为10～86400秒</intervalError1>
+	<intervalError2>间隔必须为20～86400秒</intervalError2>
+	<intervalError3>间隔必须为60～86400秒</intervalError3>
+	<intervalError5>间隔必须为30～86400秒</intervalError5>
+	<ftpMailError>请填写E-mail地址或FTP服务器设置</ftpMailError>
+	<ftpScheduleError>请填写FTP服务器设置</ftpScheduleError>
+	<trigger>触发条件</trigger>
+	<ignoreMotFTP>传送下一个FTP在</ignoreMotFTP>
+	<ignoreMotSMTP>传送下一个E-mail在</ignoreMotSMTP>
+	<onlyDuring>只在...期间</onlyDuring>
+	<day>日</day>
+	<time>时间</time>
+	<period>周期间隔</period>
+	<type>视频剪辑类型</type>
+	<source>来源</source>
+	<preRec>预先录制 :</preRec>
+	<maxRec>最长时间 :</maxRec>
+	<preRec1>预先录制 </preRec1>
+	<maxRec1>最长时间 </maxRec1>
+	<target>目标</target>
+	<quota>保留的剩余空间</quota>
+	<sdcycle>循环</sdcycle>
+	<Email>发送邮件到</Email>
+	<sd>SD卡</sd>
+	<ftp>FTP</ftp>
+	<encrypt1>使用SSL-TLS/STARTTLS</encrypt1>
+	<encrypt2>使用SSL-TLS</encrypt2>
+	<smtp>E-mail</smtp>
+	<encript1>无</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<sdQuotaError>SD卡空闲空间必须为整数，最小值为30。</sdQuotaError>
+	<mfhourError>起始小时无效。</mfhourError>
+	<mthourError>结束小时无效。</mthourError>
+	<mfminuteError>起始分钟无效。</mfminuteError>
+	<mtminuteError>结束分钟无效。</mtminuteError>
+	<intervalSecErr>间隔秒数必须为正数，最小值为5</intervalSecErr>
+	<ignoreSecErr>忽略秒数必须为正数</ignoreSecErr>
+	<dayErr>请至少选择一天</dayErr>
+	<mininum>（最小为5秒）</mininum>
+	<preErr>预录的秒数必须介于0到5秒之间</preErr>
+	<maxErr>最大录制短片时间必须介于5到10秒之间</maxErr>
+	<preRecNotify>(必须介于0到5秒)</preRecNotify>
+	<maxRecNotify>(必须介于5到10秒)</maxRecNotify>
+	<ftpSmtpcheckErr>不能同时选择FTP与E-mail来接受时间通知</ftpSmtpcheckErr>
+	<targetNotify>你只能选择FTP或者E-mail来接收事件通知</targetNotify>
+	<global>全局参数  </global>
+	<targetOnly>你只能单独选择FTP或E-mail来接收事件通知</targetOnly>
+	<qoutaMin>最小为30。</qoutaMin>
+	<description6>可在此配置</description6>
+	<description7>音频和视频</description7>
+	<motionNote>请注意，移动侦测没有启用，请到移动侦测页面进行配置。</motionNote>
+	<audioNote>请注意，音频侦测没有启用，请到音频侦测页面进行配置。</audioNote>
+	<sdNote>请注意，摄像机中没有插入SD卡或SD卡不可写入。</sdNote>
+	<sdNoteFull>请注意 SD 卡空间已满。</sdNoteFull>
+	<profiletype1>视频配置 1</profiletype1>
+	<profiletype2>视频配置 2</profiletype2>
+	<profiletype3>视频配置 3</profiletype3>
+	<gpio>数据输入</gpio>
+	<vediofileformat>文件格式 :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<videoclip>当移动侦测触发时，录像片段被储存或者发送录制的影像到E-mail地址或者FTP服务器。</videoclip>
+	<motionBased>当移动侦测触发后，开始录制视频。</motionBased>
+	<audioBased>当音频侦测触发后，开始录制视频。</audioBased>
+	<scheduling>正在录制视频时是特殊的时间</scheduling>
+	<alwaysBased>继续录制</alwaysBased>
+	<preRec>在动作发生前有多少秒被记录到视频剪辑中。</preRec>
+	<maxRec>明确说明需要录制多少秒。</maxRec>
+	<target>可以选择FTP服务器或者E-Mail地址作为录制视频的存储地址。</target>
+	<type>您可以设置需要的视频配置，预先录制和最长时间。</type>
+	<gpio>侦测到数据输入后开始录制短片。</gpio>
+	<test>单击测试按钮，确定FTP或E-mail可以被访问。</test>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<testMailFault>发送测试邮件失败。</testMailFault>
+	<invalidPort>无效端口</invalidPort>
+	<getFrameFault>获取帧失败</getFrameFault>
+	<testMailOk>发送测试邮件成功。</testMailOk>
+	<testFTPFault>测试FTP失败</testFTPFault>
+	<testFTPOk>测试FTP成功</testFTPOk>
+	<invalidParameter>更新失败</invalidParameter>
+	<updateFailed>更新失败</updateFailed>
+</message>

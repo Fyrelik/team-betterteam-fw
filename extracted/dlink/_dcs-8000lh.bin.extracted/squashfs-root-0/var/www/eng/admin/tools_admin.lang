@@ -1,0 +1,102 @@
+<body>
+	<administratorSettings>Admin</administratorSettings>
+	<description1>Here you can change the administrator’s password for your account as well as add and/or delete user account(s). You can also configure a unique name for your camera, and enable its OSD (On-Screen Display) feature in order to display camera name and time stamp for both live video and recordings of your camera.</description1>
+	<devideSetting>Device Setting</devideSetting>
+	<cameraName>Camera Name</cameraName>
+	<enableOSD>OSD</enableOSD>
+	<label>Label</label>
+	<timeStamp>Time Stamp</timeStamp>
+	<ledControl>Power/Link LED Light</ledControl>
+	<ledControl1>Power/Link LED Light</ledControl1>
+	<ledOn>On</ledOn>
+	<ledOff>Off</ledOff>
+	<ledDummy>Flicker</ledDummy>
+	<administrator>admin password setting</administrator>
+	<newPassword>New Password</newPassword>
+	<confirmPassword>Confirm New Password</confirmPassword>
+	<PasswordMsg> 30 characters maximum</PasswordMsg>
+	<save>Save</save>
+	<addUser>add user Account </addUser>
+	<userAccount>User Account</userAccount>
+	<userName>User Name</userName>
+	<maxUser> 20 users maximum</maxUser>
+	<add>Add</add>
+	<managerUser>User list</managerUser>
+	<userList>-- User list --</userList>
+	<delete>Delete</delete>
+	<reboot1>Camera Web Server is currently restarting, please wait </reboot1>
+	<reboot2> seconds.</reboot2>
+	<asciiError>OSD Label only can accept number, upper alphabet and \"-\" characters</asciiError>
+	<cameraNameError>Camera Name can't be empty</cameraNameError>
+	<cameraNameError1>Camera Name can’t accept space character.</cameraNameError1>
+	<cameraNameError2>Camera Name only accept number, alphabet and \"-\" characters.</cameraNameError2>
+	<adminPassError1>New Password and Confirm New Password are different</adminPassError1>
+	<adminPassError2>New Password can't accept blank characters and non ASCII characters</adminPassError2>
+	<maxUserError>Exceed maximum users</maxUserError>
+	<userNameError1>User Name can't be empty</userNameError1>
+	<userNameError2>User Name only accept number, alphabet, \".\", \"-\", and \"_\" characters</userNameError2>
+	<userNameError3>User Name already exist</userNameError3>
+	<userNameError4>User Name can't accept admin for new user name</userNameError4>
+	<userPassError1>New Password and Confirm New Password are different</userPassError1>
+	<userPassError2>New Password can't accept blank characters and non ASCII characters</userPassError2>
+	<cameraMsg>36 characters maximum</cameraMsg>
+	<privacyText>Privacy Control</privacyText>
+	<calibrateText>Calibrate the Device</calibrateText>
+	<calibrate>Calibrate the Device</calibrate>
+	<privacyOn>Privacy On</privacyOn>
+	<privacyOff>Privacy Off</privacyOff>
+	<scheduled>Scheduled</scheduled>
+	<hour>Hours</hour>
+	<min>Minutes</min>
+	<sun>Sun </sun>
+	<mon>Mon </mon>
+	<tue>Tue </tue>
+	<wed>Wed </wed>
+	<thu>Thu </thu>
+	<fri>Fri </fri>
+	<sat>Sat </sat>
+	<from>Start </from>
+	<to>End </to>
+	<liveViewAuth>User Authetication</liveViewAuth>
+	<snapShotAuth>User Authetication</snapShotAuth>
+	<scheduleError>Please fill in scheduled time</scheduleError>
+	<hourError>Hours are not valid</hourError>
+	<minuteError>Minutes are not valid</minuteError>
+	<fullHourError>If end hours is 24, end minutes only can set 0</fullHourError>
+	<legalTimeError>Start time have to be smaller than then end time</legalTimeError>
+	<oldPassword>Old Password</oldPassword>
+	<auth>AUTHENTICATION</auth>
+	<httpauth>HTTP Authentication</httpauth>
+	<rtspauth>RTSP Authentication</rtspauth>
+	<snapauth>Snapshot URL Authentication</snapauth>
+	<OSDError>OSD Label only can accept number, upper alphabet and \"-\" character</OSDError>
+	<enablePrivacy>Privacy Control</enablePrivacy>
+	<privacycontrol>Privacy Control</privacycontrol>
+	<privacyon>Privacy On</privacyon>
+	<privacyoff>Privacy Off</privacyoff>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<administratorSettings>For security purposes, it is recommended to change the password for your administrator account. Be sure to write down the new password to avoid having to reset the camera in the event that it is forgotten.</administratorSettings>
+	<userAccount>User account is given to a user a privilege to login into Live View page and use functions in the page.</userAccount>
+	<rtspauth>Enable user validation for RTSP streaming.</rtspauth>
+	<httpauth>Enable user validation for HTTP streaming.</httpauth>
+	<snapauth>Enable user validation for Snapshot URL.</snapauth>
+	<enableOSD>Enable OSD, the Label and Time Stamp will be displayed on the Live Video Image.</enableOSD>
+	<ledOn>Normal LED blinking depending on power and wired/wireless link and video/audio stream transmission status.</ledOn>
+	<ledOff>Always turn off LED.</ledOff>
+	<ledDummy>Always flickering Link LED as video being monitored.</ledDummy>
+	<privacycontrol>Allow you to configure if camera could enter Privacy mode or not.</privacycontrol>
+	<privacyon>Camera is in a Privacy mode. Live Video, Video Clip, Snapshot and SD Recording will be turned off.</privacyon>
+	<privacyoff>Camera is in a normal operating mode.</privacyoff>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<invalidParameters>Some of parameters are invalid</invalidParameters>
+	<notCorrectOldPassword>The Old Password is not correct</notCorrectOldPassword>
+	<exceedMaxUsers>Exceed maximum users</exceedMaxUsers>
+	<userNotExist>Please select a User Name</userNotExist>
+	<tinydbError>Setup failure</tinydbError>
+	<calibrationOK>Calibration is successful</calibrationOK>
+	<saveOK>Web Server is restarting. Please wait for 40 second and then re-connect the camera with the newly IP address.</saveOK>
+</message>

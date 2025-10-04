@@ -1,0 +1,17 @@
+<body>
+	<systemLog>log de sistema</systemLog>
+	<description1>O log de sistema grava os eventos ocorridos na câmera.</description1>
+	<ipAddress>Endereço IP</ipAddress>
+	<port>Porta</port>
+	<save>Salvar</save>
+	<currentLog>Log Atual</currentLog>
+	<clear>Limpar</clear>
+	<download>Baixar</download>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<systemLog>Você pode salvar o log em um disco local clicando no botão 'Baixar', e pode limpar o log clicando no botão 'Limpar'.</systemLog>
+</hint>
+<message>
+	<ok>Alterações salvas.</ok>
+</message>

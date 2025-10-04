@@ -1,0 +1,84 @@
+<body>
+	<camera>Kamera</camera>
+	<description1>In diesem Abschnitt werden Live Videoaufnahmen Ihrer Kamera angezeigt. Sie können Ihre Einstellungen mit den unten angezeigten Schaltflächen steuern und kontrollieren. </description1>
+	<description2>Die aktuelle Auflösung ist </description2>
+	<sdNote>Beachten Sie, dass keine microSD-Karte in die Kamera eingesetzt ist oder diese nicht beschreibbar ist.</sdNote>
+	<sdManagement1>Um die microSD-Karte in der Kamera zu formatieren,deaktivieren Sie bitte zuerst die SD-Aufzeichnung und gehen Sie dann zu </sdManagement1>
+	<sdManagement2>SD-Management</sdManagement2>
+	<sdManagement3> Seite.</sdManagement3>
+	<liveVideo>Live Video</liveVideo>
+	<goTo>Gehe zu</goTo>
+	<panSpeed>Schwenkschritt</panSpeed>
+	<tiltSpeed>Neigeschritt</tiltSpeed>
+	<language>Wählen Sie eine Sprache aus</language>
+	<english>English</english>
+	<mandarin>繁體中文</mandarin>
+	<simplechn>简体中文</simplechn>
+	<deutsch>Deutsch</deutsch>
+	<italiano>Italiano</italiano>
+	<espa>Español</espa>
+	<french>Français</french>
+	<portu>Português</portu>
+	<selectOne>-- Eine ausw --</selectOne>
+	<stop>Stopp</stop>
+	<snapshot>Momentaufnahme</snapshot>
+	<setPath>Speicherort einrichten</setPath>
+	<recording>Aufnahme</recording>
+	<stopRecording>Aufnahme stoppen</stopRecording>
+	<startSteamOut>Sprechen</startSteamOut>
+	<stopSteamOut>Sprechvorgang stoppen</stopSteamOut>
+	<listenOn>Hören</listenOn>
+	<profile1>Profil 1</profile1>
+	<profile2>Profil 2</profile2>
+	<profile3>Profil 3</profile3>
+	<profile4>Profil 4</profile4>
+	<listenOff>Hörvorgang stoppen</listenOff>
+	<startGPOutput>Digitale Ausgabe</startGPOutput>
+	<stopGPOutput>Digitale Ausgabe stoppen</stopGPOutput>
+	<ledOn>LED ein</ledOn>
+	<ledOff>LED aus</ledOff>
+	<fullScreen>Vollbild</fullScreen>
+	<diIndicator>Digitale Eingabeanzeige</diIndicator>
+	<moIndicator>Indikator für die Bewegungs-/Tonerkennung</moIndicator>
+	<reIndicator>Aufnahmeanzeige</reIndicator>
+	<talkNotify1>Erstellen des Audio-Ausgangs-Streams ist fehlgeschlagen; Socket-Erstellung fehlgeschlagen</talkNotify1>
+	<talkNotify2>Die Verbindung zum Server ist fehlgeschlagen</talkNotify2>
+	<talkNotify3>Audio-Leitung ist besetzt; Versuchen Sie es später noch einmal.</talkNotify3>
+	<autoPan>Schwenk</autoPan>
+	<autoPatrol>Patrollierung</autoPatrol>
+	<irOn>IR-LED ein</irOn>
+	<irOff>IR-LED aus</irOff>
+	<zoomInOut>Vergrößern/Verkleinern:</zoomInOut>
+	<vlcHints1>Besorgen Sie sich den neuesten VLC Installer</vlcHints1>
+	<here> hier </here>
+	<vlcHints2>und aktivieren Sie das VLC Mozilla Plugin im Verlaufe der Installation.</vlcHints2>
+	<privacyMode1>Diese Kamera ist aktuell im Privacy-Modus.</privacyMode1>
+	<privacyMode2>Um den Privacy-Modus zu verlassen, gehen Sie bitte zu </privacyMode2>
+	<privacyMode3>Admin</privacyMode3>
+	<enablePrivacy>Privacy-Modus</enablePrivacy>
+	<left_up>Links nach oben</left_up>
+	<up>Nach oben</up>
+	<right_up>Rechts nach oben</right_up>
+	<left>Links</left>
+	<left_down>Links nach unten</left_down>
+	<right_down>Rechts nach unten</right_down>
+	<right>Rechts</right>
+	<down>Nach unten</down>
+	<Zoom_in>Vergrößern</Zoom_in>
+	<Zoom_out>Verkleinern</Zoom_out>
+	<home>Startseite</home>
+	<javajreinfo1>Dieser Browser unterstützt Java JRE nicht oder deaktiviert es nicht.</javajreinfo1>
+	<javajreinfo2>Besorgen Sie sich den neuesten Java JRE hier</javajreinfo2>
+	<javajreinfo3> oder aktivieren Sie Java JRE.</javajreinfo3>
+	<javajreinfo4>Dieser Browser unterstützt QuickTime nicht oder deaktiviert es nicht.</javajreinfo4>
+	<javajreinfo5>Besorgen Sie sich den neuesten QuickTime Player</javajreinfo5>
+	<javajreinfo6>hier</javajreinfo6>
+	<javajreinfo7>oder aktivieren Sie den QuickTime Player.</javajreinfo7>
+	<javajreinfo8>Klicken Sie hier, um das NCSPlugin herunterzuladen und zu installieren. Es ist ratsam, dann Ihren Browser neu zu öffnen!</javajreinfo8>
+	<javajreinfo88>Der Browser, den Sie verwenden, hat möglicherweise Schwierigkeiten beim Empfangen von Bildern und Videos. Wenn Sie Probleme bei der Darstellung dieser Seite haben, empfehlen wir Ihnen, Internet Explorer, Mozilla Firefox oder Apple Safari zu verwenden.</javajreinfo88>
+	<javajreinfo9>Dieser Browser unterstützt den QuickTime Player nicht oder deaktiviert ihn nicht.</javajreinfo9>
+	<javajreinfo10>Besorgen Sie sich den neuesten QuickTime Player</javajreinfo10>
+	<javajreinfo11>hier</javajreinfo11>
+	<javajreinfo12>oder aktivieren Sie den QuickTime Player.</javajreinfo12>
+</body>
+

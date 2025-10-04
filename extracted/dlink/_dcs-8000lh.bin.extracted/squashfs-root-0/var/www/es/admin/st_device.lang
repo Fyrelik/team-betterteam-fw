@@ -1,0 +1,87 @@
+<body>
+	<deviceInformation>Información del dispositivo</deviceInformation>
+	<description1>Todos los detalles sobre la conexión de red se muestran en la página de Información del dispositivo. La versión de firmware también se muestra aquí.</description1>
+	<Information>Información</Information>
+	<cameraName>Nombre de cámara</cameraName>
+	<timeAndDate>Fecha y hora</timeAndDate>
+	<firmwareVersion>Versión del firmware</firmwareVersion>
+	<macAddress>Dirección MAC</macAddress>
+	<ipAddress>Dirección IPv4</ipAddress>
+	<subnetMask>Máscara de subred IPv4</subnetMask>
+	<defaultRouter>Puerta de enlace predeterminada de IPv4</defaultRouter>
+	<primaryDns>DNS IPv4 primario</primaryDns>
+	<secondaryDns>DNS IPv4 secundario</secondaryDns>
+	<pppoe>Estado de PPPoE</pppoe>
+	<ddns>Estado de DDNS</ddns>
+	<Updated>Actualizado</Updated>
+	<OK>Conectado</OK>
+	<Disabled>Desactivado</Disabled>
+	<Failed>Fallo de conexión</Failed>
+	<Connecting>Conectando</Connecting>
+	<Initializing>Inicializando</Initializing>
+	<Mon>Lun </Mon>
+	<Tue>Mar </Tue>
+	<Wed>Mié </Wed>
+	<Thu>Jue </Thu>
+	<Fri>Vie </Fri>
+	<Sat>Sáb </Sat>
+	<Sun>Dom </Sun>
+	<Jan>1</Jan>
+	<Feb>2</Feb>
+	<Mar>3</Mar>
+	<Apr>4</Apr>
+	<May>5</May>
+	<Jun>6</Jun>
+	<Jul>7</Jul>
+	<Aug>8</Aug>
+	<Sep>9</Sep>
+	<Oct>10</Oct>
+	<Nov>11</Nov>
+	<Dec>12</Dec>
+	<day1>1 </day1>
+	<day2>2 </day2>
+	<day3>3 </day3>
+	<day4>4 </day4>
+	<day5>5 </day5>
+	<day6>6 </day6>
+	<day7>7 </day7>
+	<day8>8 </day8>
+	<day9>9 </day9>
+	<day10>10 </day10>
+	<day11>11 </day11>
+	<day12>12 </day12>
+	<day13>13 </day13>
+	<day14>14 </day14>
+	<day15>15 </day15>
+	<day16>16 </day16>
+	<day17>17 </day17>
+	<day18>18 </day18>
+	<day19>19 </day19>
+	<day20>20 </day20>
+	<day21>21 </day21>
+	<day22>22 </day22>
+	<day23>23 </day23>
+	<day24>24 </day24>
+	<day25>25 </day25>
+	<day26>26 </day26>
+	<day27>27 </day27>
+	<day28>28 </day28>
+	<day29>29 </day29>
+	<day30>30 </day30>
+	<day31>31 </day31>
+	<firmwarebuild>Número de build del firmware</firmwarebuild>
+	<curAgentVersion>Versión del agente</curAgentVersion>
+	<networksearchdomain>Dominio de búsqueda</networksearchdomain>
+	<ipv6Address>Longitud de prefijo/dirección IPv6</ipv6Address>
+	<ipv6defaultRouter>Puerta de enlace predeterminada de IPv6</ipv6defaultRouter>
+	<ipv6primaryDns>DNS primario IPv6</ipv6primaryDns>
+	<ipv6secondaryDns>DNS secundario IPv6</ipv6secondaryDns>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<deviceInformation>Esta página muestra toda la información acerca de los parámetros de la cámara y la red.</deviceInformation>
+</hint>
+<message>
+
+</message>
+

@@ -1,0 +1,31 @@
+<body>
+	<camera>摄像机</camera>
+	<description1>本节显示您摄像机的实时视频。您可以使用以下按钮来控制您的设置。</description1>
+	<description2>当前分辨率为</description2>
+	<liveVideo>实时视频</liveVideo>
+	<snapshot>快照</snapshot>
+	<setPath>设置存储文件夹</setPath>
+	<recording>录制中</recording>
+	<stopRecording>停止录制</stopRecording>
+	<startSteamOut>通话</startSteamOut>
+	<stopSteamOut>停止通话</stopSteamOut>
+	<listenOn>监听</listenOn>
+	<listenOff>停止监听</listenOff>
+	<startGPOutput>开始数据输出</startGPOutput>
+	<stopGPOutput>停止数据输出</stopGPOutput>
+	<ledOn>LED亮</ledOn>
+	<ledOff>LED灭</ledOff>
+	<fullScreen>全屏</fullScreen>
+	<diIndicator>数据输入指示灯</diIndicator>
+	<moIndicator>动作触发指示灯</moIndicator>
+	<reIndicator>正在录制指示灯</reIndicator>
+	<talkNotify1>创建音频流输出失败，创建套接字失败。</talkNotify1>
+	<talkNotify2>服务器连接失败</talkNotify2>
+	<talkNotify3>音频线被占用，请稍后再试。</talkNotify3>
+	<irOn>红外LED亮</irOn>
+	<irOff>红外LED灭</irOff>
+	<zoomInOut>放大/缩小：</zoomInOut>
+	<privacyMode1>摄像机目前处于隐私模式。</privacyMode1>
+	<privacyMode2>如果想结束隐私模式，请前往</privacyMode2>
+	<privacyMode3>管理员</privacyMode3>
+</body>

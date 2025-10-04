@@ -1,0 +1,64 @@
+<body>
+	<motionDetection>rilevamento movimento</motionDetection>
+	<description1>Questa sezione consente di abilitare o disabilitare la funzione di rilevamento, disegnare o cancellare l'area di rilevamento del movimento e di configurare le impostazioni relative alla sensibilità della videocamera per rilevare il movimento. Per attivare la funzione è necessario selezionare la casella di controllo 'Abilita Motion video'. </description1>
+	<description2>Quando la videocamera è impostata sulla modalità SXGA, il rilevamento del movimento è disabilitato.</description2>
+	<description3>Per abilitare il rilevamento del movimento, selezionare la modalità VGA o XGA in </description3>
+	<description4> Audio e video.</description4>
+	<savebutton>Salva impostazioni</savebutton>
+	<notsavebutton>Non salvare impostazioni</notsavebutton>
+	<liveVideo>Video in diretta</liveVideo>
+	<enableMotion>Abilita Motion Video</enableMotion>
+	<enablePIR>Abilita PIR</enablePIR>
+	<sense>Sensibilità</sense>
+	<drawingMode>Modalità disegno</drawingMode>
+	<drawMotion>Disegna area rilev. movimento</drawMotion>
+	<eraseMotion>Elimina area rilev. movimento</eraseMotion>
+	<clear>Cancella</clear>
+	<pirhigh>Alto</pirhigh>
+	<pirmiddle>Medio</pirmiddle>
+	<pirlow>Basso</pirlow>
+	<pirsensibility>PIR Sensibilità</pirsensibility>
+	<numberError>Il valore di Sensibilità deve essere un numero intero</numberError>
+	<rangeError>Il valore di Sensibilità deve essere un numero intero compreso tra 0 e 100</rangeError>
+	<areaError>Disegnare l'area di rilevamento del movimento</areaError>
+	<unselectRange>Disegna area rilev. movimento</unselectRange>
+	<inverseRange>Elimina area rilev. movimento</inverseRange>
+	<showFirefoxText>Per configurare l'area di rilevamento, utilizzare Windows Internet Explorer.</showFirefoxText>
+	<scheduling>Pianificazione</scheduling>
+	<always>Sempre</always>
+	<schedule>Pianificazione</schedule>
+	<day>Giorno</day>
+	<mon>lun</mon>
+	<thu>mar</thu>
+	<wed>mer</wed>
+	<thu>gio</thu>
+	<fri>ven</fri>
+	<sat>sab</sat>
+	<sun>dom</sun>
+	<time>Ora</time>
+	<form>Da</form>
+	<to>-</to>
+	<clear>Cancella</clear>
+	<reloadBG>Aggiorna immagine</reloadBG>
+	<enalbeMdWarning>Avviso: se si desidera abilitare la funzione di rilevamento del movimento, selezionare [Abilita Motion Video]. Se si desidera disabilitare la funzione di rilevamento del movimento, deselezionare l'area del movimento.</enalbeMdWarning>
+	<privacy>Videocamera in modalità privacy.</privacy>
+	<JavaSupport>Il browser non supporta o disabilita Java JRE.</JavaSupport>
+	<getJava>Scaricare qui la versione più recente di Java JRE</getJava>
+	<enableJava> o abilitare Java JRE.</enableJava>
+	<javajreinfo8>Fare clic qui per scaricare il plugin NCS ed eseguire l'installazione. Si consiglia di riaprire il browser.</javajreinfo8>
+	<javajreinfo88>Il browser in uso potrebbe non ricevere immagini e video correttamente. Se si riscontrano problemi nella visualizzazione di questa pagina, si consiglia di usare Internet Explorer, Mozilla Firefox o Apple Safari.</javajreinfo88>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<pirsensibility>Sono disponibili tre opzioni per il livello di sensibilità: Basso, Medio e Alto. L'impostazione predefinita è Basso. È opportuno effettuare delle prove per individuare l'impostazione più adatta alle proprie esigenze.</pirsensibility>
+	<sense>Consente di impostare la sensibilità della videocamera per attivare il rilevamento del movimento. Una sensibilità elevata facilita il rilevamento dei movimenti.</sense>
+	<unselectRange>Trascinare il mouse per aggiungere l'intervallo di rilevamento del movimento.</unselectRange>
+	<inverseRange>Trascinare il mouse per cancellare l'intervallo di rilevamento del movimento.</inverseRange>
+	<enablePIR>Quando questa opzione è selezionata, utilizzare PIR (infrarossi passivi) per rilevare il movimento.</enablePIR>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<fail>Modifiche non riuscite.</fail>
+	<updateFailed>configurazione tramite daemon di rilevamento del movimento non riuscita</updateFailed>
+</message>
+

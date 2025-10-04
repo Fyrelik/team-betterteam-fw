@@ -1,0 +1,32 @@
+<body>
+	<camera>Caméra</camera>
+	<description1>Cette section gère la vidéo en direct de votre caméra. Vous pouvez déterminer la configuration à l'aide des boutons ci-dessous. </description1>
+	<description2>La résolution actuelle est de </description2>
+	<liveVideo>Vidéo en direct</liveVideo>
+	<snapshot>Instantané</snapshot>
+	<setPath>Définir le dossier de stockage</setPath>
+	<recording>Enregistrement</recording>
+	<stopRecording>Arrêter l'enregistrement</stopRecording>
+	<startSteamOut>Micro</startSteamOut>
+	<stopSteamOut>Arrêter la conversation</stopSteamOut>
+	<listenOn>Son</listenOn>
+	<listenOff>Arrêter l'écoute</listenOff>
+	<startGPOutput>Démarrer la sortie numérique</startGPOutput>
+	<stopGPOutput>Arrêter la sortie numérique</stopGPOutput>
+	<ledOn>Voyant allumé</ledOn>
+	<ledOff>Voyant éteint</ledOff>
+	<fullScreen>Plein écran</fullScreen>
+	<diIndicator>Témoin d'entrée numérique</diIndicator>
+	<moIndicator>Témoin de déclenchement sur mouvement</moIndicator>
+	<reIndicator>Témoin d'enregistrement</reIndicator>
+	<talkNotify1>Échec de la création d'un flux audio, échec de la création d'un socket</talkNotify1>
+	<talkNotify2>Échec de la connexion au serveur</talkNotify2>
+	<talkNotify3>La ligne audio est occupée, veuillez réessayer plus tard.</talkNotify3>
+	<irOn>Témoin IR activé</irOn>
+	<irOff>Témoin IR désactivé</irOff>
+	<zoomInOut>Zoom avant/arrière</zoomInOut>
+	<privacyMode1>Cette caméra est actuellement en Mode de confidentialité.</privacyMode1>
+	<privacyMode2>Pour quitter le Mode de confidentialité, veuillez aller à</privacyMode2>
+	<privacyMode3>Administrateur</privacyMode3>
+</body>
+

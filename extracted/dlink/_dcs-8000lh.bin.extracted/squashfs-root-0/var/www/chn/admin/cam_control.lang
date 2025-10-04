@@ -1,0 +1,89 @@
+<body>
+	<cameraControl>摄像机控制</cameraControl>
+	<presetPosition>预设位置</presetPosition>
+	<patrolSelect>巡视选择</patrolSelect>
+	<description1>您可在此新增或删除预设位置、选择「巡视位置」，以及变更「原点」按钮的预设位置。</description1>
+	<moveUp>上移</moveUp>
+	<moveDown>下移</moveDown>
+	<panSpeed>摇头速度:</panSpeed>
+	<tiltSpeed>俯仰速度:</tiltSpeed>
+	<currentPosition>当前位置 :</currentPosition>
+	<presetPositions>预设位置:</presetPositions>
+	<none>-- 请选择一个 --</none>
+	<add>新增</add>
+	<delete>删除</delete>
+	<save>储存</save>
+	<theSamePresetName>当前位置名称已存在，请问是否要取代旧的预设位置? </theSamePresetName>
+	<setAsHome>设定为原点</setAsHome>
+	<defaultHome>预设原点</defaultHome>
+	<patrolSpeed>平移/巡视速度 :</patrolSpeed>
+	<dwellingTime>停留时间 (秒) :</dwellingTime>
+	<sec> 秒</sec>
+	<presetLocations>预设位置</presetLocations>
+	<selectedLocations>巡视位置</selectedLocations>
+	<select>选择</select>
+	<remove>移除</remove>
+	<patrolSelection>巡视选择 :</patrolSelection>
+	<homeDefinition>原点定义 :</homeDefinition>
+	<presetNameError>当前位置名称不接受空白名称</presetNameError>
+	<presetNameError111>当前位置名称不接受空格，只能接受数字、字母、\"-\"和\"_\"字符。</presetNameError111>
+	<presetNameError112> \' \" 字符</presetNameError112>
+	<waitTimeError1>停留时间不可为空白</waitTimeError1>
+	<waitTimeError2>停留时间必须为数字</waitTimeError2>
+	<waitTimeError3>停留时间必需介於 0 到 60 之间</waitTimeError3>
+	<left_up>左上</left_up>
+	<up>上</up>
+	<right_up>右上</right_up>
+	<left>左</left>
+	<left_down>左下</left_down>
+	<right_down>右下</right_down>
+	<right>右</right>
+	<down>下</down>
+	<Zoom_in>放大</Zoom_in>
+	<Zoom_out>缩小</Zoom_out>
+	<home>原点</home>
+	<privacy>网路摄像机目前设定为隐私模式</privacy>
+	<noSelectError>请选择一个巡视点</noSelectError>
+	<presetErr>请选择一个预设位置</presetErr>
+	<patrolFull>巡视位置不能超过20个</patrolFull>
+	<javajreinfo8>点击这里去下载NCSPlugin 并安装。然后再重新打开浏览器</javajreinfo8>
+	<profile>视频配置 : </profile>
+</body>
+<hint>
+	<helpfulHints>说明项目..</helpfulHints>
+	<homeDefinition>原点定义</homeDefinition>
+	<description1>让您设定新的「原点」位置，或设回预设的原始位置。</description1>
+	<patrolSelection>巡视选择</patrolSelection>
+	<description2>允许您将「预设位置」新增至「巡视位置」。当您在「实时视频」页面选择「巡视」时，此选项会决定 IP 摄像机要巡视到哪里以及停在哪里。</description2>
+	<patrolhints>巡视位置 </patrolhints>
+	<description3> 您可以定义所需要的巡视点次序, IP 摄像机将依照您的次序设定而移动</description3>
+	<patrolschedulehints>巡视排程</patrolschedulehints>
+	<description4> 此设定可以选择巡视时可以在哪一天哪一个时间点来执行。</description4>
+	<dwellinghints>停留时间 </dwellinghints>
+	<description5> 当巡视时, IP 摄像机在特定位置的停留时间。</description5>
+	<controlhints>PT 控制</controlhints>
+	<controlhints1>你可以使用上/下/左/右/左上/左下/右上/右下的箭头图示来控制摄像机镜头的位置。 使用原点的按钮来让摄像机镜头回到初始的位置。</controlhints1>
+	<uphints>上移</uphints>
+	<uphints1>将选择的巡视位置上移。</uphints1>
+	<downhints>下移</downhints>
+	<downhints1>将选择的巡视位置下移。</downhints1>
+	<removehints>移除</removehints>
+	<removehints1>将选择的巡视位置移除。</removehints1>
+	<helppanSpeed>摇头速度</helppanSpeed>
+	<helppanSpeed1> 可使用此设定来控制摇头速度。 数字越大，摇头速度越大，数字越小，摇头速度越小。</helppanSpeed1>
+	<helptiltSpeed>俯仰速度</helptiltSpeed>
+	<helptiltSpeed1>可使用此設定來控制俯仰速度。 数字越大，俯仰速度越大，数字越小，俯仰速度越小。</helptiltSpeed1>
+	<helpcurrentPosition>当前位置</helpcurrentPosition>
+	<helpcurrentPosition1>将摄像机移到所需位置，并在当前位置框中输入一个名称或一个号码，单击「新增」，就能将预定位置添加到「预设位置」框中。</helpcurrentPosition1>
+	<helppresetPosition>预设位置</helppresetPosition>
+	<helppresetPosition1>预设位置列表列出了您之前设定的所有位置，您也可以将它们删除。</helppresetPosition1>
+</hint>
+<message>
+	<ok>变更已储存。</ok>
+	<failure>设定失败</failure>
+	<full>预设位置已满</full>
+	<selectFull>巡视位置已满</selectFull>
+	<duplicate>重复</duplicate>
+	<invalidParameters>当前位置名称无效</invalidParameters>
+	<oob>设定值超出范围</oob>
+</message>

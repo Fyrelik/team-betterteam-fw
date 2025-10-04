@@ -1,0 +1,208 @@
+<body>
+	<welcome>歡迎使用D-Link 設定精靈 – 移動偵測</welcome>
+	<description1>此精靈會一步一步引導您設定攝影機的移動偵測功能。若要設定攝影機的 LAN 或網際網路，請按上一步關閉此精靈，改選網際網路連線設定精靈。不然請按下一步開始。</description1>
+	<step1>步驟 1:</step1>
+	<note1>移動偵測區設定</note1>
+	<step2>步驟 2:</step2>
+	<note2>快照通知</note2>
+	<step3>步驟 3:</step3>
+	<note3>視訊短片通知</note3>
+	<step4>步驟 4:</step4>
+	<note4>SD 錄影通知</note4>
+	<step5>步驟 5:</step5>
+	<note5>設定完成</note5>
+	<back>上一步</back>
+	<next>下一步</next>
+	<cancel>取消</cancel>
+	<pirsensibility>PIR 靈敏度</pirsensibility>
+	<pirhigh>高</pirhigh>
+	<pirmiddle>中</pirmiddle>
+	<pirlow>低</pirlow>
+	<description2>此處可讓您啟用/停用移動偵測功能、畫出或清除移動偵測區，以及調整攝影機的移動偵測面積比。</description2>
+	<showFirefoxText>請使用 Windows Internet Explorer 才能設定移動偵測區。</showFirefoxText>
+	<enable>啟用</enable>
+	<enableMotion>啟用影像移動</enableMotion>
+	<ftpserver>FTP伺服器</ftpserver>
+	<enablePIR>啟用 PIR</enablePIR>
+	<sense>面積比</sense>
+	<drawingMode>繪圖模式</drawingMode>
+	<drawMotion>畫出移動範圍</drawMotion>
+	<eraseMotion>清除移動範圍</eraseMotion>
+	<clear>清除</clear>
+	<description32>本步驟可指定要如何接收攝影機事件的警告與通知。您可輸入所有相關資訊，來啟用 E-mail 通知和/或 FTP 通知。再按下一步按鈕。</description32>
+	<description3>本步驟可指定要如何接收攝影機事件的警告與通知。您可輸入所有相關資訊，來啟用 E-mail 通知或 FTP 通知。再按下一步按鈕。</description3>
+	<description4>本步驟可指定要如何根據攝影機事件來進行 SD 卡錄影。您可輸入所有相關資訊來啟用 SD 錄影。</description4>
+	<notNotify>不要通知我</notNotify>
+	<emailNotification>E-mail 通知</emailNotification>
+	<mailEnable>啟用　E-mail 通知</mailEnable>
+	<userName>使用者名稱</userName>
+	<password>密碼</password>
+	<mailServer>SMTP 郵件伺服器</mailServer>
+	<senderAddress>寄件者 E-mail 位址</senderAddress>
+	<recipientAddress>收件人 E-mail 位址</recipientAddress>
+	<port>通訊埠</port>
+	<ftpNotification>FTP 通知</ftpNotification>
+	<doubleNotification>E-Mail 與 FTP 通知</doubleNotification>
+	<ftpEnable>啟用 FTP 上傳</ftpEnable>
+	<hostName>主機名稱</hostName>
+	<path>路徑</path>
+	<prefixFileName>檔名前置字</prefixFileName>
+	<passiveMode>被動模式</passiveMode>
+	<description5>攝影機設定完成。請按上一步檢查或修改設定，或按套用儲存並套用設定。</description5>
+	<motionDetection>移動偵測</motionDetection>
+	<disable>停用</disable>
+	<alertsAndNotification>警告與通知:</alertsAndNotification>
+	<apply>套用</apply>
+	<numberError>面積比必須為整數</numberError>
+	<rangeError>面積比取值範圍必須在整數0至100之間。</rangeError>
+	<range1> (範圍為 10 到 86400 秒)</range1>
+	<range2> (範圍為 30 到 86400 秒)</range2>
+	<range3> (範圍為 60 到 86400 秒)</range3>
+	<areaError>請畫出移動範圍</areaError>
+	<mailNameError>郵件使用者名稱與密碼不接受非 ASCII 與空白字元</mailNameError>
+	<ftpNameError>FTP 使用者名稱與密碼不接受非 ASCII 與空白字元</ftpNameError>
+	<firSmtpError>SMTP (郵件) 主機名稱不得為空白，只能接受數字、英文字母、\".\"、\"-\" 和 \"_\" 字元</firSmtpError>
+	<firSmtpName>SMTP</firSmtpName>
+	<firAccountError>SMTP 郵件伺服器使用者名稱不得為空白</firAccountError>
+	<firRecipientMailError>請檢查收件人電子郵件位址格式。</firRecipientMailError>
+	<firRecipientError>收件人電子郵件位址不得為空白</firRecipientError>
+	<firSenderMailError>請檢查寄件人電子郵件位址格式。</firSenderMailError>
+	<firSenderError>寄件人電子郵件位址不得為空白</firSenderError>
+	<PortError1>通訊埠不可為空白</PortError1>
+	<PortError2>通訊埠必須為整數</PortError2>
+	<PortError3>通訊埠必需介於 1 到 65535 之間</PortError3>
+	<firFtpServerError>FTP 主機名稱不得為空白，只能接受數字、英文字母、\".\"、\"-\" 和 \"_\" 字元</firFtpServerError>
+	<firFtpError>FTP 伺服器</firFtpError>
+	<firFolderError>FTP 路徑只能接受數字、英文字母和字元: </firFolderError>
+	<firFolderError2>FTP 路徑不接受連續的 \".\" 與 \"/\" </firFolderError2>
+	<firFixFilenameError>檔名前置字只能接受數字、英文字母和字元: </firFixFilenameError>
+	<interval>間隔</interval>
+	<second>秒</second>
+	<second1>秒之後</second1>
+	<range> (範圍為 1 到 86400 秒)</range>
+	<intervalError>間隔必須為 1~86400 秒</intervalError>
+	<portRange> (範圍為 1 到 65535)</portRange>
+	<reloadBG>重新整理影像</reloadBG>
+	<enalbeMdWarning>警告:若要啟用移動偵測功能，請勾選 [啟用影像移動]。但若您要停用移動偵測功能，請清除移動偵測範圍。</enalbeMdWarning>
+	<enalbeWarning>警告:在設定精靈中，請確定至少有選擇　[啟用影像移動] 或 [啟用 PIR] 的其中一個。</enalbeWarning>
+	<target>目標</target>
+	<quota>保留可用空間</quota>
+	<sdcycle>循環錄影</sdcycle>
+	<Email>Email 到</Email>
+	<sd>SD 卡</sd>
+	<ftp>FTP</ftp>
+	<ignoreMotFTP>傳送下一個FTP在</ignoreMotFTP>
+	<ftpserver>1111</ftpserver>
+	<ignoreMotSMTP>傳送下一個E-mail在</ignoreMotSMTP>
+	<onlyDuring>僅在下列時間之間</onlyDuring>
+	<day>日</day>
+	<time>時間</time>
+	<hour>小時</hour>
+	<min>分鐘</min>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<from>開始</from>
+	<to>結束 </to>
+	<encrypt1>使用 SSL-TLS/STARTTLS</encrypt1>
+	<encrypt2>使用 SSL-TLS</encrypt2>
+	<smtp>E-mail</smtp>
+	<type>快照類型</type>
+	<type1>視訊短片類型</type1>
+	<type2>SD 錄影類型</type2>
+	<source>來源</source>
+	<profile2>設定資料 2</profile2>
+	<profile3>設定資料 3</profile3>
+	<description6>在此可設定</description6>
+	<description7> 音訊和視訊。</description7>
+	<motSingle>單一快照</motSingle>
+	<motmulti1>6 張快照與</motmulti1>
+	<motmulti2>秒間隔 (3 張移動之前，3 張移動之後)</motmulti2>
+	<encript1>無</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<snapshot>快照</snapshot>
+	<video>視訊</video>
+	<videoclip>視訊短片</videoclip>
+	<mfhourError>開始小時無效</mfhourError>
+	<mthourError>結束小時無效</mthourError>
+	<mfminuteError>開始分鐘無效</mfminuteError>
+	<mtminuteError>結束分鐘無效</mtminuteError>
+	<triggerError>請選擇目標</triggerError>
+	<ignoreQuotaError>忽略時間必須是數字</ignoreQuotaError>
+	<sdQuotaError>SD卡保留可用空間必須是整數，且介於 200 到 32768 之間。</sdQuotaError>
+	<intervalError>間隔需為 60~86400 秒</intervalError>
+	<intervalError1>間隔需為 10~86400 秒</intervalError1>
+	<intervalError2>間隔需為 30~86400 秒</intervalError2>
+	<intervalError3>間隔需為 60~86400 秒</intervalError3>
+	<dayErr>請至少選擇一天</dayErr>
+	<global>全域參數</global>
+	<qoutaMin>且最小是 30 </qoutaMin>
+	<targetOnly>視訊短片的目標不可同時選 FTP 與 E-mail。</targetOnly>
+	<sdNote>請注意，攝影機並未插入 SD 卡，或 SD 卡無法寫入。</sdNote>
+	<sdManagement1>要格式化SD卡，請先禁用SD卡錄影，然後到</sdManagement1>
+	<sdManagement2>SD卡管理</sdManagement2>
+	<sdManagement3>頁面。</sdManagement3>
+	<preRec>事件前錄影 :</preRec>
+	<maxRec>最長持續時間 :</maxRec>
+	<recpostRec>事件後錄影 :</recpostRec>
+	<preErr>事件前錄影秒數必須為整數，且介於 0 到 5 之間</preErr>
+	<maxErr>最長持續時間秒數必須為整數，且介於 5 到 10 之間</maxErr>
+	<preRecNotify> (從 0 到 5 秒)</preRecNotify>
+	<recpostRecNotify>(從 0 到 60 秒)</recpostRecNotify>
+	<maxRecNotify> (從 5 到 10 秒)</maxRecNotify>
+	<ignoreMotionTimeError>忽略以下移動秒數必須為整數</ignoreMotionTimeError>
+	<ignoreMotionTimeErrorsmtp>傳送下一個E-mail在的秒數必須為整數</ignoreMotionTimeErrorsmtp>
+	<ignoreMotionTimeErrorftp>傳送下一個FTP在的秒數必須為整數</ignoreMotionTimeErrorftp>
+	<ignoreMotionTimeErrorSnapshot>忽略以下移動秒數必須介於 30~86400 秒之間</ignoreMotionTimeErrorSnapshot>
+	<ignoreMotionTimeErrorSnapshotFtp>傳送下一個FTP在的秒數必須為整數</ignoreMotionTimeErrorSnapshotFtp>
+	<ignoreMotionTimeErrorSnapshot1>傳送下一個FTP在的秒數必須介於 10~86400 秒之間</ignoreMotionTimeErrorSnapshot1>
+	<ignoreMotionTimeErrorSnapshot2>傳送下一個E-mail在的秒數必須介於 30~86400 秒之間</ignoreMotionTimeErrorSnapshot2>
+	<ignoreMotionTimeErrorSnapshotSmtp>傳送下一個E-mail在的秒數必須為整數</ignoreMotionTimeErrorSnapshotSmtp>
+	<ignoreMotionTimeErrorSnapshotSmtp1>傳送下一個E-mail在的秒數必須介於 30~86400 秒之間</ignoreMotionTimeErrorSnapshotSmtp1>
+	<ignoreMotionTimeErrorSnapshot3>忽略以下移動秒數必須介於 60~86400 秒之間</ignoreMotionTimeErrorSnapshot3>
+	<ignoreMotionTimeErrorVideoclip>忽略以下移動秒數必須介於 60~86400 秒之間</ignoreMotionTimeErrorVideoclip>
+	<ignoreMotionTimeErrorVideoclipFtp>傳送下一個FTP在的秒數必須為整數</ignoreMotionTimeErrorVideoclipFtp>
+	<ignoreMotionTimeErrorVideoclip1>傳送下一個FTP在的秒數必須介於 10~86400 秒之間</ignoreMotionTimeErrorVideoclip1>
+	<ignoreMotionTimeErrorVideoclipFtp1>傳送下一個FTP在的秒數必須介於 10~86400 秒之間</ignoreMotionTimeErrorVideoclipFtp1>
+	<ignoreMotionTimeErrorVideoclipSmtp>傳送下一個E-mail在的秒數必須為整數</ignoreMotionTimeErrorVideoclipSmtp>
+	<ignoreMotionTimeErrorVideoclip2>傳送下一個E-mail在的秒數必須介於 30~86400 秒之間</ignoreMotionTimeErrorVideoclip2>
+	<ignoreMotionTimeErrorVideoclipSmtp1>傳送下一個E-mail在的秒數必須介於 30~86400 秒之間</ignoreMotionTimeErrorVideoclipSmtp1>
+	<ignoreMotionTimeErrorVideoclip3>忽略以下移動秒數必須介於 60~86400 秒之間</ignoreMotionTimeErrorVideoclip3>
+	<rangeSnapshot>(範圍為 30 到 86400 秒)</rangeSnapshot>
+	<rangeVideoclip>(範圍為 60 到 86400 秒)</rangeVideoclip>
+	<message1>請稍待 </message1>
+	<message2> 秒讓設定完成。</message2>
+	<ftpServer>FTP 伺服器/通訊埠</ftpServer>
+	<minimum>最小是 200</minimum>
+	<postErr>事件後錄影秒數必須為整數，且介於 0 到 60 之間</postErr>
+	<profiletype1>設定資料 1</profiletype1>
+	<profiletype2>設定資料 2</profiletype2>
+	<profiletype3>設定資料 3</profiletype3>
+	<FileLenMinUntil>錄影長度: </FileLenMinUntil>
+	<FileLenMin>分鍾的視訊短片</FileLenMin>
+	<JavaSupport>瀏覽器不支援或是關閉了 Java JRE。</JavaSupport>
+	<getJava>在這取得最新的 Java JRE</getJava>
+	<enableJava> 或者打開 Java JRE。</enableJava>
+	<test>測試</test>
+	<vediofileformat>檔案格式 :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+	<javajreinfo88>您現在使用的瀏覽器可能有困難接受圖片或是影片，如果您遇到任何問題，建議您使用IE瀏覽器,Mozilla Firefox或Apple Safari</javajreinfo88>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<fail>變更失敗。</fail>
+	<testMailOk>測試電子郵件傳送成功</testMailOk>
+	<testMailFault>測試電子郵件傳送失敗</testMailFault>
+	<testFtpOk>FTP 測試成功</testFtpOk>
+	<testFtpFault>FTP 測試失敗</testFtpFault>
+</message>
+

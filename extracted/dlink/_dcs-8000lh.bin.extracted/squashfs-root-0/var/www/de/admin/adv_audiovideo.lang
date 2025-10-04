@@ -1,0 +1,107 @@
+<body>
+	<audioVideoSettings>Audio und Video</audioVideoSettings>
+	<description1>Sie können hier die Nachtmodus-, Audio- und Videoeinstellungen (4 Videoprofile) konfigurieren. Profil 3 wurde für Momentaufnahmen und Profil 4 für Ihr Mobiltelefon oder ein PDA-Gerät eingerichtet. </description1>
+	<descriptionNoNightmode>Sie können hier die Audio- und Videoeinstellungen (3 Videoprofile) konfigurieren. Profil 2 wurde für Momentaufnahmen und Profil 3 für Ihr Mobiltelefon oder ein PDA-Gerät eingerichtet. </descriptionNoNightmode>
+	<description2>Es stehen drei Hauptausgabeoptionen der Video-Sensoren/Anzeigesysteme ('VGA', 'XGA', 'SXGA') zur Verfügung. Sie bieten jeweils eigene Auflösungseinstellungen zur Auswahl.</description2>
+	<savebutton>Einstellungen speichern</savebutton>
+	<notsavebutton>Einstellungen nicht speichern</notsavebutton>
+	<videoSensor>Video-Sensor</videoSensor>
+	<sensorOutput>Sensorausgabe</sensorOutput>
+	<vga>VGA (640x480)</vga>
+	<sxga>SXGA (1280x1024)</sxga>
+	<xga>XGA (1024x768)</xga>
+	<resolution>Auflösung</resolution>
+	<kbps>Kbit/s</kbps>
+	<mbps>Mbit/s</mbps>
+	<low>Niedrig</low>
+	<fair>Mittelm.</fair>
+	<standard>Standard</standard>
+	<good>Gut</good>
+	<excellent>Exzellent</excellent>
+	<nightMode>TAG/NACHTMODUS</nightMode>
+	<enableNightMode>Nachtmodus aktivieren</enableNightMode>
+	<shutter>Belichtungszeit</shutter>
+	<second>Sekunde</second>
+	<cameraEnv>Kameraumgebung</cameraEnv>
+	<placedLocation>Lichtquelle</placedLocation>
+	<indoor>Innenbereich</indoor>
+	<outdoor>Außenbereich</outdoor>
+	<irLed>Tag/Nachtmodus</irLed>
+	<auto>Auto</auto>
+	<manual>Manuell IR</manual>
+	<autoPIR>Auto + PIR</autoPIR>
+	<on>Immer-Tag-Modus</on>
+	<off>Immer-Nacht-Modus</off>
+	<audioSettings>Audio-Einrichtung</audioSettings>
+	<enableSpeaker>Lautsprecher</enableSpeaker>
+	<volume>Logisches Laufwerk</volume>
+	<enableMicrophone>Mikrofon</enableMicrophone>
+	<encodeType>Verschlüssungstyp</encodeType>
+	<resolution>Auflösung</resolution>
+	<FPS>BPS</FPS>
+	<BPS>bps</BPS>
+	<encodeMethod>Verschlüssel.meth.</encodeMethod>
+	<cbr>CBR</cbr>
+	<quality>Qualität</quality>
+	<JPEG_Quality>Qualität</JPEG_Quality>
+	<RTSP_URL>RTSP URL</RTSP_URL>
+	<mobileOnly>NUR FÜR MOBILGERÄT</mobileOnly>
+	<updateConfirm>Bitte denken Sie daran, dass bei dem SXGA-Modus folgende Einschränkungen zu beachten sind:\n  1. Bewegungserkennung und durch Bewegung ausgelöste Momentaufnahmen werden deaktiviert.\n  2. Aufnahmen sind höchstens mit mittlerer Auflösung möglich.\n  3. Nicht-IE-Browser zeigen Videoaufnahmen nur mit einer Auflösung von 1280 x 1024</updateConfirm>
+	<reboot1>Die Kamera wird zurzeit neu gestartet. Bitte warten Sie ein paar </reboot1>
+	<reboot2> Sekunden.</reboot2>
+	<xgaText>Wenn der XGA-Modus ausgewählt ist, unterstützt nur Profil 1 1024 x 768.</xgaText>
+	<sxgaText1>Wenn der SXGA-Modus ausgewählt ist, unterstützt nur der JPEG-Verschlüssungstyp des Profils 1 1280 x 1024.</sxgaText1>
+	<sxgaText2>Bewegungserkennung und Bewegungsauslöser werden deaktiviert.</sxgaText2>
+	<nightModeText>Wenn der Nachtmodus ausgewählt ist, ist die tatsächliche Bildfrequenzrate möglicherweise niedriger als die oben unter schwach ausgeleuchteter Umgebung angegebene max. Bildfrequenzeinstellung.</nightModeText>
+	<RTSPErrorMsg1>VIDEOPROFIL </RTSPErrorMsg1>
+	<RTSPErrorMsg2> RTSP URL kann nicht die gleiche sein mit VIDEOPROFIL </RTSPErrorMsg2>
+	<RTSPErrorMsg3> RTSP URL</RTSPErrorMsg3>
+	<RTSPErrorMsg4>RTSP URL kann nicht Null sein. Es sind nur Zahlen, Buchstaben, \".\" , \"-\", und \"_\" Zeichen gültig.</RTSPErrorMsg4>
+	<profile1>VIDEOPROFIL 1</profile1>
+	<profile2>VIDEOPROFIL 2</profile2>
+	<profile3>VIDEOPROFIL 3</profile3>
+	<profile4>VIDEOPROFIL 4</profile4>
+	<mfhourError>Die Startstunde ist nicht gültig</mfhourError>
+	<mthourError>Die Endstunde ist nicht gültig</mthourError>
+	<mfminuteError>Die Startminute ist nicht gültig</mfminuteError>
+	<mtminuteError>Die Endminute ist nicht gültig</mtminuteError>
+	<enablemute>Automatische Stummschaltung</enablemute>
+	<tvOutTitle>TV-AUSGANG</tvOutTitle>
+	<tvOUT>TV-AUSGANG</tvOUT>
+	<enableTvOUT>TV-Ausgang aktivieren</enableTvOUT>
+	<NTSC>NTSC</NTSC>
+	<PAL>PAL</PAL>
+	<schedule>Zeitplan</schedule>
+	<daytime>Zeit</daytime>
+	<timeFrom>Von</timeFrom>
+	<timeTo>bis</timeTo>
+	<sun>So</sun>
+	<mon>Mo</mon>
+	<tue>Di</tue>
+	<wed>Mi</wed>
+	<thu>Do</thu>
+	<fri>Fr</fri>
+	<sat>Sa</sat>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<audioVideoSettings>Eine höhere Auflösung, BPS (Bildfrequenz) und bps ergeben eine bessere Videoqualität. Sie erfordern gleichzeitig aber auch mehr Bandbreite im Netz.</audioVideoSettings>
+	<encodeType>Wählen Sie den Video-Codec 'JPEG' oder 'H.264'.</encodeType>
+	<resolution>Die Optionen hängen vom verwendeten Anzeigesystem. </resolution>
+	<FPS>Die Anzahl der von der Kamera erfassten Bildframes pro Sekunde.</FPS>
+	<BPS>Wählen Sie eine feste Bandbreite für die Verwendung Ihrer Kamera. Ein höherer Wert bedeutet eine höhere Bildqualität, benötigt aber auch zur Übertragung eine höhere Netzwerkbandbreite.</BPS>
+	<JPEG_Quality>Geben Sie die Bildqualität an.</JPEG_Quality>
+	<RTSP_URL>Die URL wird zur Herstellung einer Verbindung mit der Kamera verwendet, wenn die Bilder von QuickTime oder ein Mobilgerät angesehen werden.</RTSP_URL>
+	<irLed>Wählen Sie den Nachtmodus, um die IR LED der Kamera in einem schwach beleuchteten Bereich zu verwenden.</irLed>
+	<enableSpeaker>Wenn diese Option ausgewählt ist, können Sie in das Mikrofon Ihres PCs sprechen. Ihre Stimme ertönt dann über den an die Kamera angeschlossenen externen Lautsprecher.</enableSpeaker>
+	<enableMicrophone>Aktivieren Sie diese Funktion, um vom Mikrofon der Kamera erfasste Audiosignale zu hören.</enableMicrophone>
+	<tvOUThelp>Aktivieren Sie den TV-Ausgang. Sie können das Videosignal der Kamera zu einem Fernseher oder einem anderen Monitor schicken.</tvOUThelp>
+	<enablemutehelp>Aktivieren Sie diese Option, um das Mikrofon automatisch stummzuschalten, wenn sich das Objektiv der Kamera bewegt.</enablemutehelp>
+	<encodeMethod>Wählen Sie "CBR" (Constant Bit Rate/Konstante Bitrate) oder "Qualität" als Kodierungsmethode für das Videosignal.Bei konstanter Bitrate wird die Bildqualität variiert. Bei konstanter Qualität wird die benötigte Bitrate variiert.</encodeMethod>	
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<saveOK>Der Webserver wird neu gestartet. Warten Sie bitte ca. eine Minute und stellen Sie dann die Verbindung zu der Kamera mit der neuen IP-Adresse (falls geändert) wieder her.</saveOK>
+	<fail>Änderungen fehlgeschlagen.</fail>
+</message>
+

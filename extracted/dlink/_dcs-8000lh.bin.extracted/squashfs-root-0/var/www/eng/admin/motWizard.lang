@@ -1,0 +1,196 @@
+<body>
+	<welcome>welcome to d-link setup wizard - motion detection</welcome>
+	<description1>This wizard will guide you through a step-by-step process to configure your camera's motion detection function. To setup the camera LAN or Internet settings, please click on the Back button to close this wizard and re-open the Internet Connection Setup Wizard. Otherwise click on the Next button to begin.</description1>
+	<step1>Step 1: </step1>
+	<note1>Specify Motion Detection Area Setting</note1>
+	<step2>Step 2: </step2>
+	<note2>Snapshot Notifications</note2>
+	<step3>Step 3: </step3>
+	<note3>Video Clip Notifications</note3>
+	<step4>Step 4: </step4>
+	<note4>SD Recording Notifications</note4>
+	<step5>Step 5: </step5>
+	<note5>Setup Complete</note5>
+	<back>Back</back>
+	<next>Next</next>
+	<cancel>Cancel</cancel>
+	<profile2>Profile 2</profile2>
+	<profile3>Profile 3</profile3>
+	<pirsensibility>PIR Sensitivity</pirsensibility>
+	<pirhigh>High</pirhigh>
+	<pirmiddle>Medium</pirmiddle>
+	<pirlow>Low</pirlow>
+	<description2>This section will allow you to enable or disable motion detection function, draw or erase motion area, as well as configure the sensitivity setting of your camera to detect movement. </description2>
+	<showFirefoxText>To setup motion area, please use Windows Internet Explorer.</showFirefoxText>
+	<enable>Enable</enable>
+	<enableMotion>Enable Video Motion</enableMotion>
+	<enablePIR>Enable PIR</enablePIR>
+	<sense>Sensitivity</sense>
+	<drawingMode>Drawing Mode</drawingMode>
+	<drawMotion>Draw motion area</drawMotion>
+	<eraseMotion>Erase motion area</eraseMotion>
+	<clear>Clear</clear>
+	<description32>This step allows you to specify how you will receive alert and notification of camera events. You can enable an E-mail notification and/or a FTP Notification by input all the relevant information. Then, click on the Next button.</description32>
+	<description3>This step allows you to specify how you will receive alert and notification of camera events. You can enable an E-mail notification or a FTP Notification by input all the relevant information. Then, click on the Next button.</description3>
+	<description4>This step allows you to specify how you will record to SD card based on camera events. You can enable SD recording by input all the relevant information.</description4>
+	<notNotify>Do not notify me</notNotify>
+	<emailNotification>E-mail Notification</emailNotification>
+	<mailEnable>Enable E-mail notification</mailEnable>
+	<userName>User Name</userName>
+	<password>Password</password>
+	<mailServer>SMTP Mail Server</mailServer>
+	<senderAddress>Sender E-mail Address</senderAddress>
+	<recipientAddress>Recipient E-mail Address</recipientAddress>
+	<port>Port</port>
+	<ftpNotification>FTP Notification</ftpNotification>
+	<doubleNotification>E-Mail and FTP Notification</doubleNotification>
+	<ftpEnable>Enable FTP uploading</ftpEnable>
+	<hostName>Host Name</hostName>
+	<path>Path</path>
+	<prefixFileName>Filename Prefix</prefixFileName>
+	<passiveMode>Passive Mode</passiveMode>
+	<description5>You have completed your camera setup. Please click the Back button if you want to review or modify your settings or click on the Apply button to save and apply your settings.</description5>
+	<motionDetection>Motion Detection:</motionDetection>
+	<disable>Disable</disable>
+	<alertsAndNotification>Alerts and Notification:</alertsAndNotification>
+	<apply>Apply</apply>
+	<numberError>Sensitivity must be an integer</numberError>
+	<rangeError>Sensitivity must be an integer between 0 and 100</rangeError>
+	<range1> (Range : 10 to 86400 seconds)</range1>
+	<range2> (Range : 30 to 86400 seconds)</range2>
+	<range3> (Range : 60 to 86400 seconds)</range3>
+	<areaError>Please draw motion area</areaError>
+	<mailNameError>Mail User Name and password can't accept Non-ASCII and space characters</mailNameError>
+	<ftpNameError>FTP User Name and password can't accept Non-ASCII and space characters</ftpNameError>
+	<firSmtpError>SMTP Mail Server can't be empty, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</firSmtpError>
+	<firSmtpName>SMTP</firSmtpName>
+	<firAccountError>SMTP Mail Server User Name can't be empty</firAccountError>
+	<firRecipientMailError>Please verify the Recipient E-mail Address format.</firRecipientMailError>
+	<firRecipientError>Recipient E-mail Address can't be empty</firRecipientError>
+	<firSenderMailError>Please verify the Sender E-mail Address format.</firSenderMailError>
+	<firSenderError>Sender E-mail Address can't be empty</firSenderError>
+	<PortError1> Port can't be empty</PortError1>
+	<PortError2> Port must be an integer</PortError2>
+	<PortError3> Port must be between 1 and 65535</PortError3>
+	<firFtpServerError>FTP Server can't be empty, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</firFtpServerError>
+	<firFtpError>FTP</firFtpError>
+	<firFolderError>FTP Path can only accept number, alphabet, and characters: </firFolderError>
+	<firFolderError2>FTP Path can not accept \".\" and \"/\" continuously</firFolderError2>
+	<firFixFilenameError>Filename Prefix can only accept number, alphabet, and characters: </firFixFilenameError>
+	<interval>Interval</interval>
+	<second>Seconds</second>
+	<range> (Range : 1 to 86400 seconds)</range>
+	<intervalError>Interval must be 1~86400 seconds</intervalError>
+	<portRange> (Range : 1 to 65535)</portRange>
+	<reloadBG>Refresh Image</reloadBG>
+	<enalbeMdWarning>Warning: If you want to enable the motion detection function, please check [Enable Video Motion]. However, if you want to disable the motion detection function, please clear motion area.</enalbeMdWarning>
+	<enalbeWarning>Warning: In the setup wizard, please make sure one of [Enable Video Motion] or [Enable PIR] is selected at least.</enalbeWarning>
+	<target>Target</target>
+	<quota>Keep Free Space</quota>
+	<sdcycle>Cyclic</sdcycle>
+	<Email>E-mail to </Email>
+	<sd>SD Card</sd>
+	<ftp>FTP</ftp>
+	<ignoreMotFTP>Send next FTP after</ignoreMotFTP>
+	<ignoreMotSMTP>Send next E-mail after</ignoreMotSMTP>
+	<onlyDuring>Only during</onlyDuring>
+	<day>Day</day>
+	<time>Time</time>
+	<hour>Hours</hour>
+	<min>Minutes</min>
+	<sun>Sun </sun>
+	<mon>Mon </mon>
+	<tue>Tue </tue>
+	<wed>Wed </wed>
+	<thu>Thu </thu>
+	<fri>Fri </fri>
+	<sat>Sat </sat>
+	<from>Start </from>
+	<to>End </to>
+	<encrypt1>Use SSL-TLS/STARTTLS</encrypt1>
+	<encrypt2>Use SSL-TLS</encrypt2>
+	<smtp>E-mail</smtp>
+	<type>Snapshot Type</type>
+	<type1>Video Clip Type</type1>
+	<type2>SD Recording Type</type2>
+	<source>Source</source>
+	<description6>Configurable in </description6>
+	<description7> Audio and Video.</description7>
+	<motSingle>Single snapshot</motSingle>
+	<motmulti1>6 snapshots with</motmulti1>
+	<motmulti2>second interval (3 frames before and 3 frames after motion frame)</motmulti2>
+	<encript1>None</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<snapshot>Snapshot</snapshot>
+	<video>Video</video>
+	<videoclip>Video Clip</videoclip>
+	<mfhourError>Start hour is not valid</mfhourError>
+	<mthourError>End hour is not valid</mthourError>
+	<mfminuteError>Start minute is not valid</mfminuteError>
+	<mtminuteError>End minute is not valid</mtminuteError>
+	<triggerError>Please select a target</triggerError>
+	<ignoreQuotaError>Ignore time must be a number</ignoreQuotaError>
+	<sdQuotaError>SD Card Keep Free Space must be an integer and between 200 to 32768</sdQuotaError>
+	<intervalError>Interval must be 60~86400 seconds</intervalError>
+	<intervalError1>Interval must be 10~86400 seconds</intervalError1>
+	<intervalError2>Interval must be 30~86400 seconds</intervalError2>
+	<intervalError3>Interval must be 60~86400 seconds</intervalError3>
+	<dayErr>Please choose at least one day</dayErr>
+	<global>Global parameter</global>
+	<qoutaMin>and minimum is 30 </qoutaMin>
+	<targetOnly>The target can't be select both FTP and E-mail for the video clip.</targetOnly>
+	<sdNote>Please note that there is no SD Card plugged into the camera or the SD Card is not writable.</sdNote>
+	<sdManagement1>To format the SD Card in the camera, please disable SD Recording first and then go to the </sdManagement1>
+	<sdManagement2>SD Management</sdManagement2>
+	<sdManagement3> page.</sdManagement3>
+	<preRec>Pre-event recording :</preRec>
+	<maxRec>Maximum duration :</maxRec>
+	<recpostRec>Post-event recording :</recpostRec>
+	<preErr>Pre-event recording second must be an integer and between 0 to 5</preErr>
+	<maxErr>Maximum duration second must be an integer and between 5 to 10</maxErr>
+	<preRecNotify>(Between 0 to 5 seconds)</preRecNotify>
+	<recpostRecNotify>(Between 0 to 60 seconds)</recpostRecNotify>
+	<maxRecNotify>(Between 5 to 10 seconds)</maxRecNotify>
+	<ignoreMotionTimeErrorsmtp>Send next E-mail after second must be an integer</ignoreMotionTimeErrorsmtp>
+	<ignoreMotionTimeErrorftp>Send next FTP after second must be an integer</ignoreMotionTimeErrorftp>
+	<ignoreMotionTimeErrorSnapshot>Ignore Following Motions in second must be 30~86400 seconds</ignoreMotionTimeErrorSnapshot>
+	<ignoreMotionTimeErrorSnapshot1>Send next FTP after second must be 10~86400 seconds</ignoreMotionTimeErrorSnapshot1>
+	<ignoreMotionTimeErrorSnapshot2>Send next E-mail after second must be 30~86400 seconds</ignoreMotionTimeErrorSnapshot2>
+	<ignoreMotionTimeErrorSnapshot3>Ignore Following Motions in second must be 60~86400 seconds</ignoreMotionTimeErrorSnapshot3>
+	<ignoreMotionTimeErrorVideoclip>Ignore Following Motions in second must be 60~86400 seconds</ignoreMotionTimeErrorVideoclip>
+	<ignoreMotionTimeErrorVideoclip1>Send next FTP after second must be 10~86400 seconds</ignoreMotionTimeErrorVideoclip1>
+	<ignoreMotionTimeErrorVideoclip2>Send next E-mail after second must be 30~86400 seconds</ignoreMotionTimeErrorVideoclip2>
+	<ignoreMotionTimeErrorVideoclip3>Ignore Following Motions in second must be 60~86400 seconds</ignoreMotionTimeErrorVideoclip3>
+	<rangeSnapshot> (Range : 30 to 86400 seconds)</rangeSnapshot>
+	<rangeVideoclip> (Range : 60 to 86400 seconds)</rangeVideoclip>
+	<message1>Please wait </message1>
+	<message2> seconds for complete the configuration.</message2>
+	<ftpServer>FTP Server/Port</ftpServer>
+	<minimum>Minimum is 200</minimum>
+	<postErr>Post-event recording second must be an integer and between 0 to 60</postErr>
+	<profiletype1>Profile 1</profiletype1>
+	<profiletype2>Profile 2</profiletype2>
+	<profiletype3>Profile 3</profiletype3>
+	<FileLenMinUntil>Recording Length : </FileLenMinUntil>
+	<FileLenMin>minutes per file</FileLenMin>
+	<JavaSupport>This browser doesn't support or disable Java JRE .</JavaSupport>
+	<getJava>Get the latest Java JRE here</getJava>
+	<enableJava> or enable Java JRE.</enableJava>
+	<test>Test</test>
+	<vediofileformat>File Format :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+	<javajreinfo88>The browser you are using may have difficulty receiving images and video. If you experience any issues viewing this page, we suggest using Internet Explorer, Mozilla Firefox, or Apple Safari.</javajreinfo88>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failure.</fail>
+	<testMailOk>Send a test mail successfully</testMailOk>
+	<testMailFault>Send a test mail failure</testMailFault>
+	<testFtpOk>Test FTP successfully</testFtpOk>
+	<testFtpFault>Test FTP failure</testFtpFault>
+</message>

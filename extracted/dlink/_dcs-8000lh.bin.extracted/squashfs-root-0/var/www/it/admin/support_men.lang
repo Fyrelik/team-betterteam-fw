@@ -1,0 +1,33 @@
+<body>
+	<helpMenu>MENU DELLA GUIDA</helpMenu>
+	<liveVideo>VIDEO IN DIRETTA</liveVideo>
+	<camera>Videocamera</camera>
+	<setup>CONFIGURAZIONE</setup>
+	<wizard>Configurazione guidata</wizard>
+	<networkSetup>Rete</networkSetup>
+	<dynamicDNS>DNS dinamico</dynamicDNS>
+	<wirelessSetup>Configurazione wireless</wirelessSetup>
+	<audioVideo>Audio e video</audioVideo>
+	<imageSetup>Configurazione immagine</imageSetup>
+	<motionDetection>Rilevamento movimento</motionDetection>
+	<presetPosition>Controllo videocamera</presetPosition>
+	<recording>Registrazione in corso</recording>
+	<videoclip>Clip video</videoclip>
+	<snapshot>Istantanea</snapshot>
+	<sdrecording>Registrazione su SD</sdrecording>
+	<SDCard>Gestione SD</SDCard>
+	<timeAndDate>Data e ora</timeAndDate>
+	<maintenance>MANUTENZIONE</maintenance>
+	<deviceManagement>Amministratore</deviceManagement>
+	<backupAndRestore>Sistema</backupAndRestore>
+	<firmwareUpgrade>Aggiornamento firmware</firmwareUpgrade>
+	<status>STATO</status>
+	<deviceInfo>Informazioni sul dispositivo</deviceInfo>
+	<log>Log</log>
+	<digitalOutput>Uscita digitale</digitalOutput>
+	<RS-485>RS-485</RS-485>
+	<audioDetection>Rilevamento suono</audioDetection>
+	<ipFilter>Filtro IP</ipFilter>
+	<https>Configurazione HTTPS</https>
+</body>
+

@@ -1,0 +1,8 @@
+<body>
+	<status>STATUS</status>
+	<deviceInfo>Geräteinformationen</deviceInfo>
+	<log>Protokoll</log>
+	<deviceInfo1>Diese Seite zeigt alle Informationen über die Kamera und die Netzwerkeinstellungen an.</deviceInfo1>
+	<log1>Zeigt die Systemprotokolldatei an. Diese Datei bietet Ihnen nützliche Informationen z. B. zu Benachrichtigungsoptionen bei Bewegungserkennung und Informationen zu Systemmeldungen. Um Protokolle der Kamera zu exportieren, klicken Sie auf 'Download'. Die entsprechende Datei wird dann von der Kamera heruntergeladen.</log1>
+</body>
+

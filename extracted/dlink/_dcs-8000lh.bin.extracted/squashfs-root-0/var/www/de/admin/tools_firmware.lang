@@ -1,0 +1,43 @@
+<body>
+	<description1>Möglicherweise ist ein neues Firmware-Upgrade für Ihre IP-Kamera verfügbar. Es ist ratsam, die Firmware Ihrer IP-Kamera immer auf dem neuesten Stand zu halten, um die Funktionalität und Leistungsfähigkeit Ihrer Internetkamera zu erhalten und zu verbessern. Klicken Sie hier </description1>
+	<description2>D-Link-Support-Website </description2>
+	<description3>um nach der neuesten verfügbaren Firmware-Version zu suchen. </description3>
+	<description4>Um die Firmware Ihrer IP-Kamera zu aktualisieren, laden Sie die aktuelle Firmware-Version von der D-Link Support-Seite herunter und speichern Sie sie auf Ihrer Festplatte. Klicken Sie auf die Schaltfläche 'Durchsuchen', um die Datei auf Ihrer lokalen Festplatte zu suchen. Nachdem Sie sie gefunden und geöffnet haben, klicken Sie auf 'Hochladen', um das Firmware-Upgrade zu starten. </description4>
+	<firmwareUpgrade>Firmware-Upgrade</firmwareUpgrade>
+	<filePath>Dateipfad: </filePath>
+	<upload>Hochladen</upload>
+	<reboot1>Die Kamera wird zurzeit neu gestartet. Bitte warten Sie ein paar </reboot1>
+	<reboot2> Sekunden.</reboot2>
+	<firmwareInfo>Firmware-Informationen</firmwareInfo>
+	<firmwareVersion>Aktuelle Firmware-Version:</firmwareVersion>
+	<firmwareProduct>Aktuelle Firmware-Build-Nr.:</firmwareProduct>
+	<mcufirmware>Aktuelle MCU Firmware-Version:</mcufirmware>
+	<updateConfirm>Möchten Sie die Firmware aktualisieren?</updateConfirm>
+	<updatingText>Solange der Firmware-Upgrade-Vorgang im Gange ist, schließen Sie bitte nicht diese Webseite oder unterbrechen die Stromzufuhr.</updatingText>
+	<filepathError>Dateipfad muss angegeben werden.</filepathError>
+	<progress>Hochladestatus</progress>
+	<agentVersion>Aktuelle Agent-Version:</agentVersion>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<description1>Firmware-Aktualisierungen werden regelmäßig veröffentlicht, um die Funktionalität Ihrer IP-Kamera zu verbessern und auch um neue Funktionen hinzuzufügen. Sollten Sie ein Problem mit einer bestimmten Funktion der IP-Kamera haben, klicken Sie </description1>
+	<description2>hier</description2>
+	<description3> um auf der Support-Seite von D-Link zu prüfen, ob ein Upgrade vorliegt, und um zu prüfen, ob aktualisierte Firmware für Ihre IP-Kamera verfügbar ist.</description3>
+</hint>
+<message>
+	<updateOK>Ihr Firmware-Upgrade war erfolgreich.</updateOK>
+	<uploadFail>Der Upload-Vorgang ist fehlgeschlagen</uploadFail>
+	<examFail>Das hochgeladene Bild ist beschädigt</examFail>
+	<infoFail>Das hochgeladene Bild weist keine Informationen auf</infoFail>
+	<invalidImage>Das hochgeladene Bild kann von diesem Produkt nicht verwendet werden</invalidImage>
+	<resetFail>Der Rücksetzvorgang ist fehlgeschlagen</resetFail>
+	<resetOK>Der Rücksetzvorgang ist abgeschlossen</resetOK>
+	<rebootFail>Der Neustart ist fehlgeschlagen</rebootFail>
+	<rebootOK>Der Neustart ist abgeschlossen</rebootOK>
+	<calibrationOK>Kalibrierung erfolgreich durchgeführt</calibrationOK>
+	<importOK>Der Importvorgang war erfolgreich. Es erfolgt ein Neustart.</importOK>
+	<invalidDB>Keine gültige DB-Datei</invalidDB>
+	<noDB>Es wurde keine DB-Datei hochgeladen</noDB>
+	<saveOK>Webserver wird neu gestartet. Warten Sie bitte ca. eine Minute und stellen Sie dann die Verbindung zu der Kamera mit der neuen IP-Adresse (falls geändert) wieder her.</saveOK>
+</message>
+

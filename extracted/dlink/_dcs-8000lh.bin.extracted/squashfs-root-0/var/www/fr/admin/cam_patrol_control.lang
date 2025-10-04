@@ -1,0 +1,99 @@
+<body>
+	<cameraControl>Position de surveillance</cameraControl>
+	<cameraControl1>Position de surveillance</cameraControl1>
+	<description1>La position de surveillance vous permet de déplacer périodiquement le champ de vision vers une série de positions prédéfinies préprogrammées.</description1>
+	<up>Haut</up>
+	<down>Bas</down>
+	<panSpeed>Vitesse horizontale :</panSpeed>
+	<tiltSpeed>Vitesse verticale :</tiltSpeed>
+	<currentPosition>Position actuelle :</currentPosition>
+	<presetPosition>Position prédéfinie :</presetPosition>
+	<none>-- Sélectionner --</none>
+	<patrol1>Veuillez sélectionner un point ; si le champ Positions prédéfinies est vide, veuillez ajouter un point</patrol1>
+	<add>Ajouter</add>
+	<delete>Supprimer</delete>
+	<save>Enregistrer les paramètres</save>
+	<notsavebutton>Ne pas enregistrer les paramètres</notsavebutton>
+	<theSamePresetName>le nom prédéfini existe déjà ; voulez-vous remplacer l'ancienne position prédéfinie ?</theSamePresetName>
+	<setAsHome>Définir comme position initiale</setAsHome>
+	<defaultHome>Position initiale par défaut</defaultHome>
+	<patrolSpeed>Vitesse horizontale/de surveillance :</patrolSpeed>
+	<patrolInterval>Intervalle de la surveillance (Min) :</patrolInterval>
+	<patrolLocations> Positions de surveillance</patrolLocations>
+	<patrolInterval1>60</patrolInterval1>
+	<schedulepatrol>Calendrier de surveillance</schedulepatrol>
+	<hour0>0</hour0>
+	<hour1>1</hour1>
+	<hour2>2</hour2>
+	<hour3>3</hour3>
+	<hour4>4</hour4>
+	<hour5>5</hour5>
+	<hour6>6</hour6>
+	<hour7>7</hour7>
+	<hour8>8</hour8>
+	<hour9>9</hour9>
+	<hour10>10</hour10>
+	<hour11>11</hour11>
+	<hour12>12</hour12>
+	<hour13>13</hour13>
+	<hour14>14</hour14>
+	<hour15>15</hour15>
+	<hour16>16</hour16>
+	<hour17>17</hour17>
+	<hour18>18</hour18>
+	<hour19>19</hour19>
+	<hour20>20</hour20>
+	<hour21>21</hour21>
+	<hour22>22</hour22>
+	<hour23>23</hour23>
+	<sun>Dim </sun>
+	<mon>Lun </mon>
+	<tue>Mar </tue>
+	<wed>Mer </wed>
+	<thu>Jeu </thu>
+	<fri>Ven </fri>
+	<sat>Sam </sat>
+	<dwellingTime>Temps de passage (s) :</dwellingTime>
+	<presetLocations>Positions prédéfinies préprogrammées</presetLocations>
+	<selectedLocations>Emplacements sélectionnés</selectedLocations>
+	<select>Sélectionner</select>
+	<remove>Supprimer</remove>
+	<patrolSelection>Sélection de la surveillance :</patrolSelection>
+	<presetNameError>le nom prédéfini ne peut pas être vide</presetNameError>
+	<waitTimeError1>Le temps de passage ne peut pas être vide</waitTimeError1>
+	<waitTimeError2>Le temps de passage doit être une valeur numérique</waitTimeError2>
+	<waitTimeError3>Le temps de passage doit être compris entre 1 et 60</waitTimeError3>
+	<scheduleError>Indiquez l'heure programmée</scheduleError>
+	<scheduleErrorSun>Veuillez vérifier l'heure programmée pour dim</scheduleErrorSun>
+	<scheduleErrorMon>Veuillez vérifier l'heure programmée pour lun</scheduleErrorMon>
+	<scheduleErrorTue>Veuillez vérifier l'heure programmée pour mar</scheduleErrorTue>
+	<scheduleErrorWed>Veuillez vérifier l'heure programmée pour mer</scheduleErrorWed>
+	<scheduleErrorThu>Veuillez vérifier l'heure programmée pour jeu</scheduleErrorThu>
+	<scheduleErrorFri>Veuillez vérifier l'heure programmée pour ven</scheduleErrorFri>
+	<scheduleErrorSat>Veuillez vérifier l'heure programmée pour sam</scheduleErrorSat>
+	<noPretrolPointWarn>Veuillez ajouter des Positions de surveillance</noPretrolPointWarn>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<presethints>Positions prédéfinies préprogrammées - </presethints>
+	<description2> La tableau affichera les positions prédéfinies préprogrammées. </description2>
+	<patrolhints>Positions de surveillance - </patrolhints>
+	<description1> Cette option sélectionne la séquence de déplacement vers les positions prédéfinies précisées. </description1>
+	<speedhints>Vitesse horizontale/de surveillance - </speedhints>
+	<description3> Sélectionnez la vitesse du panoramique horizontal/de surveillance de la caméra entre 1 et 3. </description3>
+	<dwellinghints>Temps de passage - </dwellinghints>
+	<description4> Cette option détermine la durée pendant laquelle la caméra doit demeurer dans la position. </description4>
+	<patrolschedulehints>Calendrier de surveillance - </patrolschedulehints>
+	<description5> Le "Calendrier de surveillance" permet à la caméra PTZ d'effectuer la tournée des positions selon un calendrier horaire. </description5>
+	
+</hint>
+<message>
+	<nopresetpoint>pas de point prédéfini</nopresetpoint>
+	<ok>Modifications enregistrées.</ok>
+	<failure>Échec de la configuration</failure>
+	<full>Plus de position prédéfinie disponible</full>
+	<selectFull>Impossible de sélectionner d'autres positions</selectFull>
+	<duplicate>Dupliquer</duplicate>
+	<invalidParameters>Nom de position prédéfinie incorrect</invalidParameters>
+	<oob>La valeur du paramètre est hors de la plage autorisée</oob>
+</message>

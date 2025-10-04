@@ -1,0 +1,89 @@
+<body>
+	<cameraControl>攝影機控制</cameraControl>
+	<presetPosition>預設位置</presetPosition>
+	<patrolSelect>巡邏選擇</patrolSelect>
+	<description1>您可在此新增或刪除預設位置、選擇「巡邏位置」，以及變更「原點」按鈕的預設位置。</description1>
+	<moveUp>上移</moveUp>
+	<moveDown>下移</moveDown>
+	<panSpeed>平移速度:</panSpeed>
+	<tiltSpeed>傾斜速度:</tiltSpeed>
+	<currentPosition>目前位置 :</currentPosition>
+	<presetPositions>預設位置:</presetPositions>
+	<none>-- 請選擇一個 --</none>
+	<add>新增</add>
+	<delete>刪除</delete>
+	<save>儲存</save>
+	<theSamePresetName>目前位置名稱已存在，請問是否要取代舊的預設位置? </theSamePresetName>
+	<setAsHome>設定為原點</setAsHome>
+	<defaultHome>預設原點</defaultHome>
+	<patrolSpeed>平移/巡邏速度 :</patrolSpeed>
+	<dwellingTime>停留時間 (秒) :</dwellingTime>
+	<sec> 秒</sec>
+	<presetLocations>預設位置</presetLocations>
+	<selectedLocations>巡邏位置</selectedLocations>
+	<select>選擇</select>
+	<remove>移除</remove>
+	<patrolSelection>巡邏選擇 :</patrolSelection>
+	<homeDefinition>原點定義 :</homeDefinition>
+	<presetNameError>目前位置名稱不接受空白名稱</presetNameError>
+	<presetNameError111>目前位置名稱不得為空白，只能接受數字、英文字母、\"-\" 和 \"_\" 字元</presetNameError111> 
+	<presetNameError112> \' \" 字元</presetNameError112>
+	<waitTimeError1>停留時間不可為空白</waitTimeError1>
+	<waitTimeError2>停留時間必須為數字</waitTimeError2>
+	<waitTimeError3>停留時間必需介於 0 到 60 之間</waitTimeError3>
+	<left_up>左上</left_up>
+	<up>上</up>
+	<right_up>右上</right_up>
+	<left>左</left>
+	<left_down>左下</left_down>
+	<right_down>右下</right_down>
+	<right>右</right>
+	<down>下</down>
+	<Zoom_in>放大</Zoom_in>
+	<Zoom_out>縮小</Zoom_out>
+	<home>原點</home>
+	<privacy>網路攝影機目前設定為隱私模式</privacy>
+	<noSelectError>請選擇一個巡邏點</noSelectError>
+	<presetErr>請選擇一個預設位置</presetErr>
+	<patrolFull>巡邏位置不能超過20個</patrolFull>
+	<javajreinfo8>點擊這裏下載NCSPlugin並安裝，然後重新開瀏覽器。</javajreinfo8>
+	<profile>設定資料 : </profile>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<homeDefinition>原點定義</homeDefinition>
+	<description1>讓您設定新的「原點」位置，或設回預設的原始位置。</description1>
+	<patrolSelection>巡邏選擇</patrolSelection>
+	<description2>允許您將「預設位置」新增至「巡邏位置」。當您在「即時影像」頁面選擇「巡邏」時，此選項會決定 IP 攝影機要巡邏到哪裡以及停在哪裡。</description2>
+	<patrolhints>巡邏位置 </patrolhints>
+	<description3> 您可以定義所需要的巡邏點次序, IP 攝影機將依照您的次序設定而移動。</description3>
+	<patrolschedulehints>巡邏排程</patrolschedulehints>
+	<description4> 此設定可以選擇自動巡邏時可以在哪一天哪一個時間點來執行。</description4>
+	<dwellinghints>停留時間 </dwellinghints>
+	<description5> 當巡邏時, IP 攝影機在特定位置的停留時間。</description5>
+	<controlhints>PT 控制</controlhints>
+	<controlhints1>可以使用上/下/左/右/左上/左下/右上/右下的箭頭圖示來控制攝影機鏡頭的位置. 使用原點的按鈕來讓攝影機鏡頭回到初始的位置。</controlhints1>
+	<uphints>上移</uphints>
+	<uphints1>將選擇的巡邏位置上移。</uphints1>
+	<downhints>下移</downhints>
+	<downhints1>將選擇的巡邏位置下移。</downhints1>
+	<removehints>移除</removehints>
+	<removehints1>將選擇的巡邏位置移除。</removehints1>
+	<helppanSpeed>平移速度</helppanSpeed>
+	<helppanSpeed1>可使用此設定來控制水平移動速度。 數字越大，移動越大，數字越小，移動越小。</helppanSpeed1>
+	<helptiltSpeed>傾斜速度</helptiltSpeed>
+	<helptiltSpeed1>可使用此設定來控制垂直移動速度。 數字越大，移動越大，數字越小，移動越小。</helptiltSpeed1>
+	<helpcurrentPosition>目前位置</helpcurrentPosition>
+	<helpcurrentPosition1>將攝影機移動到想要的位置，然後在目前位置方塊上輸入一個名稱或編號，按「新增」，就會將此位置加入「預設位置」方塊中。</helpcurrentPosition1>
+	<helppresetPosition>預設位置</helppresetPosition>
+	<helppresetPosition1>預設位置清單列出所有您之前設定的位置，也可以刪除這些位置。</helppresetPosition1>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<failure>設定失敗</failure>
+	<full>預設位置已滿</full>
+	<selectFull>巡邏位置已滿</selectFull>
+	<duplicate>重複</duplicate>
+	<invalidParameters>目前位置名稱無效</invalidParameters>
+	<oob>設定值超出範圍</oob>
+</message>

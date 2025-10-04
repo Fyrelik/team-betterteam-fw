@@ -1,0 +1,67 @@
+<body>
+	<pageTitle>Router Connection</pageTitle>
+	<wirelessSettings>wireless</wirelessSettings>
+	<description1>In this section, you can setup and configure the wireless settings for your camera.</description1>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<wirelessConfiguration>wireless</wirelessConfiguration>
+	<enableWireless>Enable Router Connection</enableWireless>
+	<ssid>Network Name</ssid>
+	<bssid>BSSID</bssid>
+	<signal>Signal</signal>
+	<survey>Site Survey</survey>
+	<rescan>Rescan</rescan>
+	<wirelessMode>Wireless Mode</wirelessMode>
+	<wireless>Wireless</wireless>
+	<infrastructure>Infrastructure</infrastructure>
+	<adhoc>Ad-hoc</adhoc>
+	<channel>Channel</channel>
+	<ssidErrorq>None</ssidErrorq>
+	<auto>Auto</auto>
+	<authentication>Security Mode</authentication>
+	<encryption>Cipher Type</encryption>
+	<key>Key</key>
+	<reboot1>The camera is restarting. Please wait </reboot1>
+	<reboot2> seconds.</reboot2>
+	<ssidError>SSID can't be blank.</ssidError>
+	<ssidError1>Network Name can't be space characters only</ssidError1>
+	<keyError1>WEP Key length must be 5 or 10 or 13 or 26 characters</keyError1>
+	<keyError2>Invalid WEP Key. If WEP Key Length is 10 or 26 characters, the legal characters are 0~9, A~F, or a~f.</keyError2>
+	<keyError3>Pre-shared key field can't be blank</keyError3>
+	<keyError4>Invalid pre-shared key.. The maximum number of characters is 8</keyError4>
+	<keyError5>Invalid pre-shared key. This field must be exactly 64 characters.   The characters allowed are 0~9, A~F, or a~f.</keyError5>
+	<keyError6>Invalid pre-shared key.. The maximum number of characters is 64.</keyError6>
+	<showpw>Show Hidden Key</showpw>
+	<antenna>Antenna</antenna>
+	<intAntenna>Internal</intAntenna>
+	<extAntenna>External</extAntenna>
+	<reboot3>If you have Ethernet connected, Please Don't unplug the Ethernet cable from the camera during the reboot process.</reboot3>
+	<ssidname>===SSID List===</ssidname>
+	<disconnectmsg>Please disconnect the network cable between the camera and router.</disconnectmsg>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<enableWireless>Please enable wireless first before configuring camera's wireless connection. You may choose which wireless network for the connection by using the pull-down menu of 'Site Survey' or enter the SSID manually.</enableWireless>
+	<ssid>Service Set Identifier (SSID) is the name of your wireless network such as Default, Conference, My network, and etc.</ssid>
+	<wirelessMode>There are two connection modes. Infrastructure is a wireless connection using an access point as a transmission point of all wireless devices. Ad-Hoc is a wireless connection used without an access point, which connects the PC directly to the camera.</wirelessMode>
+	<None>None</None>
+	<NoneDes>This option makes the camera visible to all devices on the network. No encryption is provided.</NoneDes>
+	<WEPPassword>WEP</WEPPassword>
+	<WEPPasswordDes>Allows communication only with other devices that have the identical Wired Equivalent Privacy (WEP) settings.</WEPPasswordDes>
+	<WPAPersonal>WPA-PSK, WPA2-PSK</WPAPersonal>
+	<WPAPersonalDes>Both modes will require you to input a pre-shared 'Key' for the connection that is held between the camera and the wireless device.</WPAPersonalDes>
+	<rescan>Scan for the name of the wireless device in your wireless network again.</rescan>
+	<key>A set of pre-shared characters for the connection between the camera and the wireless device when you select WEP, WPA-PSK or WPA2-PSK for Security Mode.</key>
+	<showpw>When the option is selected, the Key will be displayed in text.</showpw>
+	<antenna>Select to use an internal or external antenna.</antenna>
+	<channel> - By default, the value is Auto for Infrastructure mode. The channel will be selectable only in Ad-Hoc mode.</channel>
+	<encryption1>TKIP - (Temporal Key Integrity Protocol) - Providing protection against hackers using Message Integrity Code (MIC). Ideally, you should apply WPA with TKIP. </encryption1>
+	<encryption2>AES - (Advanced Encryption System) - Utilizes a symmetric 128-Bit block data encryption. Ideally, you should apply WPA2 with AES.</encryption2>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+	<notChanged>No changes.</notChanged>
+	<saveOK>Web Server is restarting. Please wait for 1 minute and then re-connect the camera with the newly IP address.</saveOK>
+	<apError>Router Connection and Direct Connection can not be closed at the same time.</apError>
+</message>

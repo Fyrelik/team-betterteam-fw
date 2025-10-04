@@ -1,0 +1,89 @@
+<body>
+	<cameraControl>Controllo videocamera</cameraControl>
+	<presetPosition>Posizione predefinita</presetPosition>
+	<patrolSelect>Selezione esplorazione</patrolSelect>
+	<description1>Qui è possibile aggiungere o eliminare le posizioni predefinite, selezionare le posizioni per 'Esplorazione' nonché modificare la posizione predefinita del pulsante 'Home'.</description1>
+	<moveUp>Su</moveUp>
+	<moveDown>Giù</moveDown>
+	<panSpeed>Fase della panoramica:</panSpeed>
+	<tiltSpeed>Fase di inclinazione:</tiltSpeed>
+	<currentPosition>Nome predefinito:</currentPosition>
+	<presetPositions>Posizione predefinita:</presetPositions>
+	<none>-- Selezionare un'opzione --</none>
+	<add>Aggiungi</add>
+	<delete>Elimina</delete>
+	<save>Salva</save>
+	<theSamePresetName>Il nome predefinito esiste già, sostituire la posizione predefinita precedente?</theSamePresetName>
+	<setAsHome>Imposta come home</setAsHome>
+	<defaultHome>Home predefinita</defaultHome>
+	<patrolSpeed>Fase panoramica/esplorazione:</patrolSpeed>
+	<dwellingTime>Tempo di sosta:</dwellingTime>
+	<sec> secondi</sec>
+	<presetLocations>Posizioni predefinite</presetLocations>
+	<selectedLocations>Posizioni di esplorazione</selectedLocations>
+	<select>Seleziona</select>
+	<remove>Rimuovi</remove>
+	<patrolSelection>Selezione esplorazione:</patrolSelection>
+	<homeDefinition>Definizione Home:</homeDefinition>
+	<presetNameError>Specificare un valore in Nome predefinito</presetNameError>
+	<presetNameError111>Specificare un valore in Nome predefinito utilizzando solo caratteri alfanumerici e \"-\", \"_\"</presetNameError111>
+	<presetNameError112> \' \" caratteri in Nome predefinito</presetNameError112>
+	<waitTimeError1>Specificare un valore in Tempo di sosta</waitTimeError1>
+	<waitTimeError2>Il valore di Tempo di sosta deve essere un numero</waitTimeError2>
+	<waitTimeError3>Il valore di Tempo di sosta deve essere compreso tra 0 e 60</waitTimeError3>
+	<left_up>In alto a sinistra</left_up>
+	<up>Su</up>
+	<right_up>In alto a destra</right_up>
+	<left>Sinistra</left>
+	<left_down>In basso a sinistra</left_down>
+	<right_down>In basso a destra</right_down>
+	<right>Destra</right>
+	<down>Giù</down>
+	<Zoom_in>Ingrandisci</Zoom_in>
+	<Zoom_out>Riduci</Zoom_out>
+	<home>Home</home>
+	<privacy>Videocamera in modalità privacy.</privacy>
+	<noSelectError>Selezionare una posizione di esplorazione</noSelectError>
+	<presetErr>Selezionare una posizione predefinita </presetErr>
+	<patrolFull>Impossibile impostare più di 20 posizioni di esplorazione</patrolFull>
+	<javajreinfo8>Fare clic qui per scaricare il plugin NCS ed eseguire l'installazione. Si consiglia di riaprire il browser.</javajreinfo8>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<homeDefinition>Definizione Home </homeDefinition>
+	<description1>Consente di impostare una nuova posizione 'Home' o tornare alla posizione originale.</description1>
+	<patrolSelection>Selezione esplorazione </patrolSelection>
+	<description2>Consente di aggiungere le posizioni predefinite nelle posizioni di esplorazione. Ciò determina la posizione verso cui si sposterà e in corrispondenza della quale si arresterà la videocamera IP selezionando 'Esplorazione' nella pagina 'Video in diretta'.</description2>
+	<patrolhints>Posizioni di esplorazione </patrolhints>
+	<description3> Questa opzione seleziona le posizioni preimpostate da spostare in sequenza. </description3>
+	<patrolschedulehints>Pianificazione esplorazione </patrolschedulehints>
+	<description4> L'opzione "Pianificazione esplorazione" consente alla videocamera PTZ di eseguire il ciclo di posizionamento con pianificazione oraria. </description4>
+	<dwellinghints>Tempo di sosta </dwellinghints>
+	<description5> Tempo in cui la videocamera IP rimarrà in ciascuna posizione predefinita durante l'esplorazione. </description5>
+	<controlhints>Controllo panoramica inclinazione</controlhints>
+	<controlhints1>È possibile controllare la posizione dell'obiettivo della videocamera facendo clic sui pulsanti freccia Su/Giù/Sinistra/Destra/In alto a sinistra/In basso a sinistra/In alto a destra/In basso a destra. Facendo clic sul pulsante Home è possibile spostare l'obiettivo nella posizione di partenza originale.</controlhints1>
+	<uphints>Su</uphints>
+	<uphints1>Consente di spostare una posizione di esplorazione selezionata in alto.</uphints1>
+	<downhints>Giù</downhints>
+	<downhints1>Consente di spostare una posizione di esplorazione selezionata in basso.</downhints1>
+	<removehints>Rimuovi</removehints>
+	<removehints1>Consente di rimuovere una posizione di esplorazione selezionata.</removehints1>
+	<helppanSpeed>Fase della panoramica</helppanSpeed>
+	<helppanSpeed1>Consente di controllare l'incremento con cui la videocamera viene spostata quando si utilizza la funzione Panoramica.</helppanSpeed1>
+	<helptiltSpeed>Fase di inclinazione</helptiltSpeed>
+	<helptiltSpeed1>Consente di controllare l'incremento con cui la videocamera viene spostata quando si utilizza la funzione Inclinazione.</helptiltSpeed1>
+	<helpcurrentPosition>Nome predefinito</helpcurrentPosition>
+	<helpcurrentPosition1>Consente di spostare la videocamera nella posizione desiderata e di inserire un nome o un numero nella casella Nome predefinito e di fare clic su Aggiungi per aggiungere la posizione corrente nella casella Posizione predefinita.</helpcurrentPosition1>
+	<helppresetPosition>Posizione predefinita</helppresetPosition>
+	<helppresetPosition1>In Posizione predefinita sono elencate tutte le posizioni predefinite che è possibile eliminare.</helppresetPosition1>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<failure>errore di impostazione</failure>
+	<full>Posizione predefinita già piena</full>
+	<selectFull>posizioni di esplorazione già piene</selectFull>
+	<duplicate>duplicato</duplicate>
+	<invalidParameters>nome predefinito non valido</invalidParameters>
+	<oob>il valore dell'impostazione non rientra nell'intervallo</oob>
+</message>
+

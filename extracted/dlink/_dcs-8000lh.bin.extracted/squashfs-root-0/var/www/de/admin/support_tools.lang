@@ -1,0 +1,59 @@
+<body>
+	<maintenance>VERWALTUNG</maintenance>
+	<deviceManagement>Admin</deviceManagement>
+	<backupAndRestore>System</backupAndRestore>
+	<firmwareUpgrade>Firmware-Upgrade</firmwareUpgrade>
+	<rtspauth>RTSP-Authentifizierung</rtspauth>
+	<rtspauth1> - Benutzervalidierung für RTSP-Streaming aktivieren.</rtspauth1>
+	<httpauth>HTTP-Authentifizierung</httpauth>
+	<httpauth1> - Benutzervalidierung für HTTP-Streaming aktivieren.</httpauth1>
+	<snapauth>URL-Authentifizierung für Momentaufnahmen</snapauth>	
+	<snapauth1> - Benutzervalidierung für Momentaufnahme-URL aktivieren.</snapauth1>	
+	<cameraName>Kameraname</cameraName>
+	<cameraName1> - Der eindeutige Name für Ihre Kamera.</cameraName1>
+	<label>Name</label>
+	<label1> - Das eindeutige Kennung für Ihre Kamera.</label1>
+	<showTime>Zeit anzeigen</showTime>
+	<showTime1> - Wählen Sie diese Option zur Anzeige des Datums und der Uhrzeit auf der Momentaufnahme oder dem Videobild.</showTime1>
+	<adminPassword>Admin-Kennworteinstellung</adminPassword>
+	<adminPassword1> - Das Kennwort für das Konto des Administrators. Es muss zur Bestätigung eine zweites Mal eingegeben werden.</adminPassword1>
+	<led>Verbindungs-/Betriebsanzeige-LED</led>
+	<led1>An - Normal blinkende LED je nach Stromzufuhr und kabelloser/kabelgebundener Verbindung und Video/Audio-Stream-Übertragungsstatus.</led1>
+	<led2>Aus – LED immer ausschalten.</led2>
+	<led3>Flackern – Immer flackernde Verbindungs-LED sofern Video überwacht wird.</led3>
+	<timeStamp>Zeitstempel</timeStamp>
+	<timeStamp1> - Wählen Sie diese Option zur Anzeige des Datums und der Uhrzeit auf der Momentaufnahme oder dem Videobild.</timeStamp1>
+	<addUser>Benutzerkonto hinzufügen</addUser>
+	<addUser1> - Sie können bis zu zwanzig neue Benutzerkonten für den Zugriff auf Live Videobilder hinzufügen. Neue Benutzernamen werden in der Benutzerliste angezeigt.</addUser1>
+	<deleteUser>Löschen</deleteUser>
+	<deleteUser1> - Entfernt einen Benutzer von der Benutzerliste.</deleteUser1>
+	<userList>Benutzerliste</userList>
+	<userList1> - Liste der Benutzerkonten (admin nicht eingeschlossen) zur Anzeige und zum Löschen von Konten.</userList1>
+	<backup>Auf der lokalen Festplatte speichern</backup>
+	<backup1> – Wenn Sie auf diese Schaltfläche klicken, wird ein Download-Fenster angezeigt, das Sie verwenden können, um die Konfigurationsdatei der Kamera zum Zwecke einer möglichen späteren Wiederherstellung der Konfiguration auf Ihrem Computer zu speichern.</backup1>
+	<restore>Von der lokalen Festplatte laden</restore>
+	<restore1> - Sie können nach der Konfigurationsdatei suchen und sie laden. Klicken Sie dann auf 'Konfiguration laden', um die vorkonfigurierten oder gespeicherten Einstellungen wiederherzustellen.</restore1>
+	<rebootSystem>Gerät neu starten</rebootSystem>
+	<rebootSystem1> - Wenn Sie auf diese Schaltfläche klicken, wird ein Neustart der Kamera durchgeführt.</rebootSystem1>
+	<factoryDefaults>Auf Werkseinstellungen zurücksetzen</factoryDefaults>
+	<factoryDefaults1> - Diese Option stellt die standardmäßigen Werkseinstellungen für Ihre Kamera wieder her. Damit werden alle vorher vorgenommenen Konfigurationseinstellungen gelöscht.</factoryDefaults1>
+	<firmwareInformation>Firmware-Informationen</firmwareInformation>
+	<firmwareInformation1> - Zeigt Information zur Firmware an.</firmwareInformation1>
+	<firmwareUpdate>Firmware-Upgrade</firmwareUpdate>
+	<firmwareUpdate1> - Diese Option bietet dem Benutzer die Möglichkeit, die Firmware zu aktualisieren. Klicken Sie auf 'Durchsuchen', um die Datei zu finden, und klicken Sie dann auf 'Hochladen', um die neue Firmware auf der Kamera zu installieren.</firmwareUpdate1>
+	<firmwarebuildnumber>Aktuelle Firmware-Build-Nr.</firmwarebuildnumber>
+	<firmwarebuildnumber1> - Die spezifische Revisionsnummer zur Version der Kamera-Firmware. Wenn Sie den Technischen Support um Hilfe bitten, sollte auch diese Nummer angegeben werden.</firmwarebuildnumber1>
+	<enableOSD>OSD</enableOSD>
+	<enableOSDl> - Durch Aktivierung der OSD-Funktion (On-Screen Display) wird die Labelnr. und die Zeit auf der Momentaufnahme oder dem Videobild für den Benutzer angezeigt.</enableOSDl>
+	<calibrateDevice>Gerät kalibrieren</calibrateDevice>
+	<calibrateDevice1> - Kalibrieren Sie die PT-Ausgangsposition (Pan/Tilt d. h. Schwenken/Neigen) neu.</calibrateDevice1>
+	<privacycontrol>Privacy-Steuerung</privacycontrol>
+	<privacycontrol1> - Ermöglicht Ihnen die Konfiguration, ob die Kamera in den Privacy-Modus gesetzt werden kann oder nicht.</privacycontrol1>
+	<privacyon>Privacy ein</privacyon>
+	<privacyon1> - Kamera ist in einem Privacy-Modus. Live Video, Videoclip, Momentaufnahme und SD-Aufnahme werden ausgeschaltet.</privacyon1>
+	<privacyoff>Privacy aus</privacyoff>
+	<privacyoff1>  - Kamera ist im normalen Betriebsmodus.</privacyoff1>
+	<curfirmwareversion>Aktuelle Firmware-Version</curfirmwareversion>
+	<curfirmwareversion1> - Local Firmware Version on the camera.</curfirmwareversion1>
+</body>
+

@@ -1,0 +1,71 @@
+<body>
+	<ipfiltertitle>IP 过滤器</ipfiltertitle>
+	<description1>为了能够启动你摄像机的 IP 过滤器，你必须开启 'IP 过滤'。然后，在这个页面设置相关的内容。</description1>
+	<subtitle>IP 过滤器</subtitle>
+	<enableIpFilter>IP 过滤</enableIpFilter>
+	<filterType>过滤器种类:</filterType>
+	<filterAllow>允许</filterAllow>
+	<filterDeny>拒绝</filterDeny>
+	<accessList>过滤器名单:</accessList>
+	<ipTypeSig>单个</ipTypeSig>
+	<ipTypeSub>子网段</ipTypeSub>
+	<ipTypeRan>范围</ipTypeRan>
+	<ipTypeSigDot>IP地址:</ipTypeSigDot>
+	<ipTypeSubDot>网络地址 / 子网掩码:</ipTypeSubDot>
+	<ipTypeRanDot>IP地址-IP地址:</ipTypeRanDot>
+	<addAFilter>增加</addAFilter>
+	<adminIp>管理者 IP 地址:</adminIp>
+	<ipadresserrorinfo>设置不合法</ipadresserrorinfo>
+	<allowAdmin>永远允许管理者 IP 地址访问这台摄像机</allowAdmin>
+	<delAFilter>删除</delAFilter>
+	<ipMessage1>IP 地址</ipMessage1>
+	<ipMessage2>这个 IP 地址是无效的。</ipMessage2>
+	<ipMessage3>这个 IP 地址不能为零。</ipMessage3>
+	<ipError1>IP 地址不能为空白。</ipError1>
+	<networkipseterror>这个设定是无效的。</networkipseterror>
+	<delNumError>请选择一个过滤器。</delNumError>
+	<delChooseError>请一次选择一个过滤器。</delChooseError>
+	<netMaskError>子网掩码网络标识位的长度必须位于 1 到 32 之间。</netMaskError>
+	<allowEmptyListError>请增加一个过滤器或者是启动管理者 IP 地址。</allowEmptyListError>
+	<ipv4filterListNumError>IPv4过滤器名单已满。</ipv4filterListNumError>
+	<ipv6filterListNumError>IPv6过滤器名单已满。</ipv6filterListNumError>
+	<allowNoneError>请至少允许一个可用的ip或者开启管理者 IP 。</allowNoneError>
+	<decreasRangeError>递减的IP地址设定是不合法的。</decreasRangeError>
+	<sameIpError>起始IP地址与结束IP地址不能相同。</sameIpError>
+	<filteraddress>新增过滤器:</filteraddress>
+	<ipv4AccessList>IPv4 过滤器名单:</ipv4AccessList>
+	<ipv6AccessList>IPv6 过滤器名单:</ipv6AccessList>
+	<ipv6AddressError>这个 IP 地址是无效的。</ipv6AddressError>
+	<addAddressIsError>IP地址设定是不合法的。</addAddressIsError>
+	<ipv6PrefixError>IPv6前缀长度必须为0到128。</ipv6PrefixError>
+	<StartIP>起始IP地址：</StartIP>
+	<EndIP>结束IP地址：</EndIP>
+	<commonIPadresserror>这个IP地址已经存在</commonIPadresserror>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<Ipfilter>IP 过滤功能是允许或限制访问这台摄像机的 IP 地址。</Ipfilter>
+	<FilterType>过滤器种类</FilterType>
+	<FilterTypeText>你可以选择 IP 过滤器名单中的 IP 地址是允许还是拒绝连接到这台摄像机。</FilterTypeText>
+	<AccessList>过滤器名单</AccessList>
+	<AccessListText>需要过滤的 IP 地址列表。</AccessListText>
+	<Single>单个</Single>
+	<SingleText>指定单个 IP 地址。</SingleText>
+	<Subnet>子网段</Subnet>
+	<SubnetText>指定整个子网段。</SubnetText>
+	<Range>范围</Range>
+	<RangeText>指定一段范围的 IP 地址。</RangeText>
+	<adminAdress>管理者 IP 地址</adminAdress>
+	<adminAdressText>你可以设定一个 IP 地址来作为管理者 IP，这个 IP 地址可以永远使用这台摄像机。</adminAdressText>
+</hint>
+<message>
+	<ok>变更已储存。</ok>
+	<invalidParameter>无效的参数。</invalidParameter>
+	<invalidFilterEnable>不能启动的过滤器。</invalidFilterEnable>
+	<invalidFilterType>无效的过滤器种类。</invalidFilterType>
+	<invalidAdminIPEnable>不能启动管理者 IP。</invalidAdminIPEnable>
+	<invalidAdminIP>无效的管理者 IP。</invalidAdminIP>
+	<invalidIP>无效的 IP 地址。</invalidIP>
+	<invalidNetmask>无效的子网段。</invalidNetmask>
+	<nothingChange>没有任何修改。</nothingChange>
+</message>

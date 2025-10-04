@@ -1,0 +1,56 @@
+<body>
+	<digitalOutput>Digitale Ausgabe</digitalOutput>
+	<description1>Hier können Sie Ihren D/A-Port aktivieren und angeben, wie das Ereignis ausgelöst wird. </description1>
+	<description2>Bei Einstellung der Kamera auf den SXGA-Modus ist die Bewegungserkennung deaktiviert.</description2>
+	<description3>Um die Bewegungserkennung zu aktivieren, wählen Sie den VGA- oder XGA-Modus in </description3>
+	<description4> Audio und Video.</description4>
+	<savebutton>Einstellungen speichern</savebutton>
+	<notsavebutton>Einstellungen nicht speichern</notsavebutton>
+	<trigger>Auslöser</trigger>
+	<enable> D/A-Signal</enable>
+	<triggerEvent>Auslösen durch</triggerEvent>
+	<motionDetection>Bewegung</motionDetection>
+	<di1>D/E Signal 1</di1>
+	<di2>D/E Signal 2</di2>
+	<manual>Manuell</manual>
+	<di>Digitale Eingabe</di>
+	<hour>Stunden</hour>
+	<min>Minuten</min>
+	<sun>So </sun>
+	<mon>Mo </mon>
+	<tue>Di </tue>
+	<wed>Mi </wed>
+	<thu>Do </thu>
+	<fri>Fr </fri>
+	<sat>Sa </sat>
+	<from>Start </from>
+	<to>Ende </to>
+	<day>Tag</day>
+	<time>Zeit</time>
+	<mfhourError>Startstunde ist nicht gültig</mfhourError>
+	<mthourError>Endstunde ist nicht gültig</mthourError>
+	<mfminuteError>Startminute ist nicht gültig</mfminuteError>
+	<mtminuteError>Endminute ist nicht gültig</mtminuteError>
+	<onlyDuring>Nur im Verlaufe von</onlyDuring>
+	<dayErr>Wählen Sie mindestens einen Tag</dayErr>
+	<audioDetection>Ton</audioDetection>
+	<motionNote>Beachten Sie bitte, dass die Bewegungserkennung im Moment nicht aktiviert ist. Gehen Sie zur Bewegungserkennungsseite, um die Konfiguration vorzunehmen.</motionNote>
+	<audioNote>Beachten Sie bitte, dass die Tonerkennung im Moment nicht aktiviert ist. Gehen Sie zur Tonerkennungsseite, um die Konfiguration vorzunehmen.</audioNote>
+	<manualBased>Den digitalen Ausgang (DO) unter Live-Video auslösen.</manualBased>
+	<motionBased>Wird eine Bewegung erkannt, löst die IP-Kamera eine Alarmanlage aus, die am System angeschlossen ist (am digitalen Ausgang).</motionBased>
+	<audioBased>Wird ein Ton erkannt, löst die IP-Kamera eine herkömmliche Alarmanlage aus, die am System angeschlossen ist (am digitalen Ausgang).</audioBased>
+	<gpio>Wenn die Kamera ein Signal durch den Digitale Eingabe bekommt, löst diese  eine herkömmliche Alarmanlage aus, die am System angeschlossen ist (am digitalen Ausgang).</gpio>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<description1>Sie können ein auslösendes Ereignis wie die Bewegungserkennung oder Auslöser vom D/E-Port wählen. Wird ein Ereignis ausgelöst, sendet der D/A ein entsprechendes Signal.</description1>
+	<manualBased>Ermöglicht Ihnen, eine digitale Ausgabe bei Live-Anzeige auszulösen.</manualBased>
+	<motionBased>Wird eine Bewegung erkannt, löst die IP-Kamera herkömmliche Alarmanlagen aus, die an das System angeschlossen sind.</motionBased>
+	<audioBased>Wird ein Ton erkannt, löst die IP-Kamera eine herkömmliche Alarmanlagen aus, die am digitalen Ausgang (DO) angeschlossen ist.</audioBased>
+	<gpio>Beim Auslösen des digitalen Eingangsgeräts, löst die IP-Kamera herkömmliche Alarmanlagen aus, die an das System angeschlossen sind.</gpio>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<fail>Änderungen fehlgeschlagen.</fail>
+</message>
+

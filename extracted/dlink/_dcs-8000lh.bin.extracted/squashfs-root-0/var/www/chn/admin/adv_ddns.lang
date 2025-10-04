@@ -1,0 +1,54 @@
+<body>
+	<ddnsSettings>动态DNS</ddnsSettings>
+	<description1>动态DNS功能允许您使用购买的域名(www.yourdomain.com)通过动态分配的IP地址来访问您的摄像机。多数宽带服务供应商都提供动态分配(变更)的IP地址。通过使用DDNS服务，不论您的IP地址是多少，您都可以输入您的域名来连接摄像机。</description1>
+	<description11>在D-Link站点进行注册，获取免费DDNS服务。 </description11>
+	<description22>http://www.DlinkDDNS.com</description22>
+	<savebutton>保存设置</savebutton>
+	<notsavebutton>不保存设置</notsavebutton>
+	<dynamicDns>动态DNS设置</dynamicDns>
+	<enableDdns>DDNS</enableDdns>
+	<provider>服务器地址</provider>
+	<hostName>主机名</hostName>
+	<usernameEmail>用户名</usernameEmail>
+	<passwordKey>密码</passwordKey>
+	<passwordConfirm>确认密码</passwordConfirm>
+	<selectDDNS>选择DDNS服务器</selectDDNS>
+	<ddns1>www.dlinkddns.com</ddns1>
+	<ddns2>www.DynDNS.org</ddns2>
+	<ddns3>www.DynDNS.org(客户)(免费)</ddns3>
+	<ddns4>www.DynDNS.org(静态)</ddns4>
+	<timeout>超时</timeout>
+	<hours> 小时</hours>
+	<status>状态</status>
+	<ddnsError1>DDNS主机名不能为空白，只能接受数字、字母、\".\" , \"-\"和\"_\"字符。</ddnsError1>
+	<ddnsErrorUser>DDNS用户名不能为空白，只能接受数字、字母、\".\" , \"-\"和\"_\"字符。</ddnsErrorUser>
+	<ddnsError2>DDNS用户名不能为空</ddnsError2>
+	<ddnsError3>DDNS密码不能为空白</ddnsError3>
+	<ddnsError4>DDNS密码和验证密码不相同</ddnsError4>
+	<ddnsError5>DDNS用户名和密码不能接受非ASCII和空格字符。</ddnsError5>
+	<ddnsError6>请选择一个动态DNS服务器</ddnsError6>
+	<ddnsError7>DDNS超时必须是一个数字</ddnsError7>
+	<ddnsError8>DDNS超时数值必须在24和65535之间</ddnsError8>
+	<ddnsError9>DDNS超时必须是一个整数</ddnsError9>
+	<ddnsServerError>请核实DDNS服务器地址格式</ddnsServerError>
+	<ddnsServerError1>DDNS服务器地址不能为空</ddnsServerError1>
+	<ddnsStatusDisabled>禁用</ddnsStatusDisabled>
+	<ddnsStatusUpdated>已更新</ddnsStatusUpdated>
+	<ddnsStatusInitializing>初始化中</ddnsStatusInitializing>
+	<ddnsStatusFailed>连接失败</ddnsStatusFailed>
+	<OK>确定</OK>
+	<Disabled>禁用</Disabled>
+	<Failure>失败</Failure>
+	<Initializing>初始化中</Initializing>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<enableDdns>如果您的DSL或线缆服务供应商定期更改您的网络装置的IP地址，那么动态DNS是很有用的。您可以为您的摄像机指定一个网站域名，以替代摄像机的IP地址。</enableDdns>
+	<status>DDNS 的状态，会显示 DDNS 是否可用。</status>
+	<hostName>您从DDNS服务处申请到的域名。</hostName>
+	<timeout>您可以设置摄像机向DDNS服务器通告其当前全局IP地址的时间间隔。默认为576个小时。</timeout>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<fail>更改失败。</fail>
+</message>

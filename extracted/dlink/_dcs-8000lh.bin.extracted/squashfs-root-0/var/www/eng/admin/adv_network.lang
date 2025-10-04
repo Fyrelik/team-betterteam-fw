@@ -1,0 +1,147 @@
+<body>
+	<networkSettings>Network</networkSettings>
+	<description1>You can configure your LAN and Internet settings here.</description1>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<general>lan settings</general>
+	<pppoeStatusConnecting>Connecting</pppoeStatusConnecting>
+	<lan>LAN SETTINGS</lan>
+	<dhcp>Automatic IP Address</dhcp>
+	<static>Static IP Address</static>
+	<ip>IPv4 Address</ip>
+	<networkipseterror>you entered an invalid Ip Address !</networkipseterror>
+	<subnetMask>Subnet Mask</subnetMask>
+	<defaultRouter>Default Gateway (Router)</defaultRouter>
+	<primaryDns>Optional Primary DNS</primaryDns>
+	<secondaryDns>Optional Secondary DNS</secondaryDns>
+	<enableUpnp>UPnP</enableUpnp>
+	<upnpPort>UPnP Port Forward</upnpPort>
+	<upnpHttp>External HTTP Port</upnpHttp>
+	<upnpHttps>External HTTPS Port</upnpHttps>
+	<upnpRTSP>External RTSP Port</upnpRTSP>
+	<upnp>UPnP SETTINGS</upnp>
+	<basicser>Basic Service</basicser>
+	<av>AV</av>	
+	<authrtsp>RTSP User Authentication</authrtsp>
+	<authrtsp1> - Enabling RTSP User Authentication will allow you to force viewer to identify his user name and password.</authrtsp1>
+	<pppoe>PPPoE</pppoe>
+	<userName>User Name</userName>
+	<searchdomain>Optional Search Domain</searchdomain>
+	<password>Password</password>
+	<confirmPassword>Confirm Password</confirmPassword>
+	<verify>Verify</verify>
+	<status>Status</status>
+	<portsetting>PORT SETTINGS</portsetting>
+	<httpPort>HTTP Port</httpPort>
+	<httpsPort>HTTPS Port</httpsPort>
+	<rtspPort>RTSP Port</rtspPort>
+	<rtspAuth>User authentication</rtspAuth>
+	<httpExtPort>External HTTP Port</httpExtPort>
+	<rtspExtPort>External RTSP Port</rtspExtPort>
+	<reboot1>IP Camera's network is restarting, please wait for </reboot1>
+	<reboot2> seconds ...</reboot2>
+	<ipError1>IP address can't be empty</ipError1>
+	<subnetMaskError1>Subnet Mask can't be empty</subnetMaskError1>
+	<routerError1>Default Gateway (Router) can't be empty</routerError1>
+	<pppoeError1>PPPoE User Name can't be empty</pppoeError1>
+	<pppoeError2>PPPoE Password can't be empty</pppoeError2>
+	<pppoeError3>PPPoE Confirm Password can't be empty</pppoeError3>
+	<pppoeError4>PPPoE Password and Confirm Password are different</pppoeError4>
+	<pppoeError5>PPPoE User Name and password can't accept Non-ASCII and space characters</pppoeError5>
+	<pppoeStatusDisabled>Disabled</pppoeStatusDisabled>
+	<pppoeStatusConnected>Connected</pppoeStatusConnected>
+	<pppoeStatusConnecting>Connecting</pppoeStatusConnecting>
+	<httpPortError1>HTTP Port can't be empty</httpPortError1>
+	<httpPortError2>HTTP Port must be a number</httpPortError2>
+	<httpPortError3>HTTP Port must be 80 or between 1025 and 65535</httpPortError3>
+	<httpPortError4>HTTP Port can't be the same as HTTPS Port</httpPortError4>
+	<httpPortError5>HTTP Port must be between 1 and 65535</httpPortError5>
+	<rtstPortError1>RTSP Port can't be empty</rtstPortError1>
+	<rtstPortError2>RTSP Port must be a number</rtstPortError2>
+	<rtstPortError3>RTSP Port must be 554 or between 1025 and 65535</rtstPortError3>
+	<rtstPortError4>HTTP Port can't be the same as RTSP Port</rtstPortError4>
+	<rtstPortError5>RTSP Port must be between 1 and 65535</rtstPortError5>
+	<httpExtPortError1>External HTTP Port can't be empty</httpExtPortError1>
+	<httpExtPortError2>External HTTP Port must be a number</httpExtPortError2>
+	<httpExtPortError3>External HTTP Port must be 80 or between 1025 and 65535</httpExtPortError3>
+	<httpExtPortError4>External HTTP Port can't be the same as external HTTPS Port</httpExtPortError4>
+	<httpExtPortError5>External HTTP Port must be between 1 and 65535</httpExtPortError5>
+	<rtspExtPortError1>External RTSP Port can't be empty</rtspExtPortError1>
+	<rtspExtPortError2>External RTSP Port must be a number</rtspExtPortError2>
+	<rtspExtPortError3>External RTSP Port must be 554 or between 1025 and 65535</rtspExtPortError3>
+	<rtspExtPortError4>External HTTP Port can't be the same as external RTSP Port</rtspExtPortError4>
+	<rtspExtPortError5>External RTSP Port must be between 1 and 65535</rtspExtPortError5>
+	<httpsPortError1>HTTPS Port can't be empty</httpsPortError1>
+	<httpsPortError2>HTTPS Port must be a number</httpsPortError2>
+	<httpsPortError3>HTTPS Port must be 443 or between 1025 and 65535</httpsPortError3>
+	<httpsPortError4>HTTPS Port can't be the same as RTSP Port</httpsPortError4>
+	<httpsPortError5>HTTPS Port must be between 1 and 65535</httpsPortError5>
+	<httpsExtPortError1>External HTTPS Port can't be empty</httpsExtPortError1>
+	<httpsExtPortError2>External HTTPS Port must be a number</httpsExtPortError2>
+	<httpsExtPortError3>External HTTPS Port must be 443 or between 1025 and 65535</httpsExtPortError3>
+	<httpsExtPortError4>External HTTPS Port can't be the same as external RTSP Port</httpsExtPortError4>
+	<httpsExtPortError5>External HTTPS Port must be between 1 and 65535</httpsExtPortError5>
+	<netErrorMessage1>The </netErrorMessage1>
+	<netErrorMessage2> octet of </netErrorMessage2>
+	<netErrorMessage3> must be a number</netErrorMessage3>
+	<netErrorMessage4> must be a value between </netErrorMessage4>
+	<netErrorMessage5> and </netErrorMessage5>
+	<netErrorMessage6> must be </netErrorMessage6>
+	<netError>Network setup is invalid</netError>
+	<ipMessage1>IP Address</ipMessage1>
+	<ipMessage2>you entered an invalid Ip Address !</ipMessage2>
+	<ipMessage3>The IP Address cannot be zero.</ipMessage3>
+	<maskMessage1>Subnet Mask</maskMessage1>
+	<maskMessage2>You entered an invalid subnet mask. The subnet mask has to be contiguous. Please enter a valid mask.</maskMessage2>
+	<maskMessage3>The Subnet Mask cannot be zero</maskMessage3>
+	<routerMessage1>Default Gateway (Router) Address</routerMessage1>
+	<routerMessage2>The Default Gateway (Router) Address entered is invalid</routerMessage2>
+	<routerMessage3>The Default Gateway (Router) Address cannot be zero</routerMessage3>
+	<priDnsMessage1>Primary DNS Address</priDnsMessage1>
+	<priDnsMessage2>The Primary DNS Address entered is invalid</priDnsMessage2>
+	<priDnsMessage3>The Primary DNS Address cannot be zero</priDnsMessage3>
+	<secDnsMessage1>Secondary DNS Address</secDnsMessage1>
+	<secDnsMessage2>The Secondary DNS Address entered is invalid</secDnsMessage2>
+	<secDnsMessage3>The Secondary DNS Address cannot be zero</secDnsMessage3>
+	<dnsErrMessage>The Primary DNS Address and Secondary DNS Address must be different</dnsErrMessage>
+	<domainErrMessage>Search Domain only accept number, alphabet , \".\" , and \"-\" characters</domainErrMessage>
+	<apple>Apple</apple>
+	<bonjour>Bonjour</bonjour>
+	<disable>Disabled</disable>
+	<pppoeStatusFailed>Connection Failed</pppoeStatusFailed>
+	<lan1>Automatic IP Address</lan1>
+	<Staticip>Static IP Address</Staticip>
+	<dhcpip>UPnP Port Forward</dhcpip>
+	<ipv4set>IPv4 Settings</ipv4set>
+	<ipv6set>IPv6 Settings</ipv6set>
+	<manIpv6set>Manually setup the IP address</manIpv6set>
+	<Ipv6AddrPre>IPv6 Address / Prefix Length</Ipv6AddrPre>
+	<Ipv6gateway>Default Gateway(Router)</Ipv6gateway>
+	<Ipv6priDns>Optional Primary DNS</Ipv6priDns>
+	<Ipv6secDns>Optional Secondary DNS</Ipv6secDns>
+	<ipv6Message>The IPv6 Address entered is invalid.</ipv6Message>
+	<ipv6Message2>IPv6 Prefix Length must be between 0 and 128.</ipv6Message2>
+	<ipv6Message3>The IPv6 Default Gateway (Router) entered is invalid.</ipv6Message3>
+	<ipv6Message4>The IPv6 Primary DNS Address entered is invalid.</ipv6Message4>
+	<ipv6Message5>The IPv6 Secondary DNS Address entered is invalid.</ipv6Message5>
+	<ipv6Message6>The Primary IPv6 DNS Address and Secondary IPv6 DNS Address must be different.</ipv6Message6>
+	<ipv6Message7>The IPv6 Default Gateway (Router) must start with FE80.</ipv6Message7>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<Staticip1>This option is used to configure your IP Camera with IP address matched your network settings.</Staticip1>
+	<dhcpip1>If router does support UPnP, your cameras and router can communicate with each other so that the router knows which ports are used by which camera.</dhcpip1>
+	<lan>Select if you are running a DHCP server on your network and would like an IP address assigned to your camera automatically.</lan>
+	<httpPort>Allocate the port of camera to allow you to connect via a standard web browser.</httpPort>
+	<rtspPort>Allocate the port of camera to allow you to connect by using QuickTime or streaming mobile devices.</rtspPort>
+	<enableUpnp>Enable UPnP will allow you to discover camera as an UPnP device in the network.</enableUpnp>
+	<bonjour>Enable Bonjour will allow you to discover camera within an Apple computer.</bonjour>
+	<pppoe>This option is used to configure your camera to connect directly to the Internet. If the camera is behind a router or a gateway, you do not need to configure this setting.</pppoe>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+	<invalidParameter>Setup failure.</invalidParameter>
+	<settingNotChange>Setting not changed.</settingNotChange>
+	<saveOK>Web Server is restarting. Please wait for 1 minute and then re-connect the camera with the newly IP address.</saveOK>
+</message>

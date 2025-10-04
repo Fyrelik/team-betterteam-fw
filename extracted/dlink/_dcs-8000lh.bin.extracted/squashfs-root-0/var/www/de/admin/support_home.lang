@@ -1,0 +1,49 @@
+<body>
+	<liveVideo>LIVE VIDEO</liveVideo>
+	<camera>Kamera</camera>
+	<videoProfile>Videoprofil</videoProfile>
+	<videoProfile1> - Anhand dieser Symbole werden die aktuellen Einstellungen für das Videoprofil angezeigt. Wird ein anderer Browser als der Internet Explorer verwendet, wählen Sie die verfügbaren Symbole.</videoProfile1>
+	<fullScreen>Vollbild</fullScreen>
+	<fullScreen1> - Klicken Sie auf das Symbol, um Live Video als Vollbild anzuzeigen.</fullScreen1>
+	<snapshot>Momentaufnahme</snapshot>
+	<snapshot1> - Wenn Sie auf das Symbol klicken, wird ein Bild im JPEG-Format auf Ihrem Computer gespeichert.</snapshot1>
+	<recording>Aufnahme</recording>
+	<recording1> - Nimmt Videobilder sofort in den voreingestellten Dateipfad auf.</recording1>
+	<setPath>Speicherort einrichten</setPath>
+	<setPath1> - Klicken Sie auf das Symbol, um den Standardspeicherort einzurichten, in dem die Daten abgelegt werden sollen, wenn über die entsprechenden Schaltflächen 'Aufnahmen' oder 'Momentaufnahmen' gemacht werden.</setPath1>
+	<listen>Hören</listen>
+	<listen1> - Klicken Sie auf die Schaltfläche, um zwischen dem Ein- und Ausschalten der Audiofunktion zu wechseln. Audio-Signale werden auch weiterhin aufgenommen.</listen1> 
+	<talk>Sprechen</talk>
+	<led>IR-LED</led>
+	<led1> - Klicken Sie auf die Schaltfläche, um die IR LED auf der Kamera ein- bzw. auszuschalten und so die Nachtsicht zu aktivieren. Diese Schaltfläche ist nur verfügbar, wenn der Tag-/Nachtmodus in Manuell IR ist.</led1>
+	<zoomInOut>Vergrößern/Verkleinern:</zoomInOut>
+	<zoomInOut1> - Klicken Sie auf die entsprechenden Schaltflächen, um Live Video digital zu vergrößern bzw. zu verkleinern (1x, 2x oder 4x Vergrößerung).</zoomInOut1>
+	<talk1> - Klicken Sie auf die Schaltfläche, um den Ton vom PC zur Kamera ein/auszuschalten.</talk1>
+	<digitalOut>Digitale Ausgabe</digitalOut>
+	<digitalOut1> - Klicken Sie auf die Schaltfläche, um die Alarmsignale an den D/A-Anschluss auszugeben.</digitalOut1>
+	<digitalInputTrigger>Digitale Eingabeanzeige</digitalInputTrigger>
+	<digitalInputTrigger1> - Diese Anzeige blinkt, wenn eine digitale Eingabe erkannt wird.</digitalInputTrigger1>
+	<motionTrigger>Indikator für die Bewegungs-/Tonerkennung</motionTrigger>
+	<motionTrigger1> - Diese Anzeige blinkt, wenn eine Bewegung/ein Ton erkannt wurde.</motionTrigger1>
+	<recordingTrigger>Aufnahmeanzeige</recordingTrigger>
+	<recordingTrigger1> - Diese Anzeige blinkt, wenn eine Aufnahme erfolgt.</recordingTrigger1>
+	<pantiltcontrol>Schwenk-/Neigesteuerung</pantiltcontrol>
+	<pantiltcontrol1> - Sie können die Position des Kameraobjektivs durch Klicken auf die Pfeilschaltflächen Nach oben/Nach unten/Links/Rechts/Links nach oben/Links nach unten/Rechts nach oben/Rechts nach unten steuern. Durch Klicken auf 'Startseite'-Schaltfläche wird das Objektiv wieder auf die ursprüngliche Ausgangsposition gebracht.</pantiltcontrol1>
+	<pan>Schwenk</pan>
+	<pan1> - Mithilfe dieser Schaltfläche weisen Sie die Kamera an, von der aktuellen Position auf die am weitesten links angegebene Position und die am weitesten rechts angegebene Position zu schwenken. Nach dem Schwenkvorgang kehrt die Kamera wieder auf die Ausgangsposition zurück. </pan1>
+	<patrol>Patrollierung</patrol>
+	<patrol1> - Klicken Sie auf die Schaltfläche, um die Kamera zur Anzeige der voreingestellten Positionen zu bewegen, die im Menü 'Voreingestellte Position' konfiguriert worden sind. Die Reihenfolge, in der diese Positionen angezeigt werden, sowie die Verweildauer der Kamera an diesen Positionen werden ebenfalls in diesem Menü eingestellt. </patrol1>
+	<stop>Stopp</stop>
+	<stop1> - Klicken Sie darauf, um die Kamera in der aktuellen Position anzuhalten (für die Schwenk- und Patrolliermodi verwendet). </stop1>
+	<goto>Gehe zu</goto>
+	<gotol> - Ermöglicht es Ihnen, das Objektiv auf eine vorprogrammierte Position zu bewegen.</gotol>
+	<panspeed>Schwenkschritt</panspeed>
+	<panspeed1> - Legt die Schritte der Kameraschwenkbewegungen fest.</panspeed1>
+	<tiltspeed>Neigeschritt</tiltspeed>
+	<tiltspeed1> - Legt die Schritte der Kameraneigebewegungen fest.</tiltspeed1>
+	<language>Sprachauswahl</language>
+	<language1> - Wählen Sie die bevorzugte Sprache der Website von der Dropdown-Liste.</language1>
+	<recordingError>Aufnahmefehler</recordingError>
+	<recordingError1> - Diese Anzeige blinkt, wenn eine Aufnahme fehlgeschlagen ist.</recordingError1>
+</body>
+

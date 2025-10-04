@@ -1,0 +1,64 @@
+<body>
+	<motionDetection>Bewegungserk.</motionDetection>
+	<description1>In diesem Abschnitt können Sie die Bewegungserkennungsfunktion aktivieren bzw. deaktivieren, den Bewegungsbereich angeben oder löschen sowie die Empfindlichkeit Ihrer Kamera, Bewegungen zu erkennen, einstellen. Sie müssen dazu das Kontrollkästchen 'Video-Bewegungserk. aktivieren' markieren. </description1>
+	<description2>Bei Einstellung der Kamera auf den SXGA-Modus ist die Bewegungserk. deaktiviert.</description2>
+	<description3>Um die Bewegungserk. zu aktivieren, wählen Sie den VGA- oder XGA-Modus in </description3>
+	<description4> Audio und Video.</description4>
+	<savebutton>Einstellungen speichern</savebutton>
+	<notsavebutton>Einstellungen nicht speichern</notsavebutton>
+	<liveVideo>Live Video</liveVideo>
+	<enableMotion>Video-Bewegungserk. aktivieren</enableMotion>
+	<enablePIR>PIR aktivieren</enablePIR>
+	<sense>Empfindlichkeit</sense>
+	<drawingMode>Bereichbestimmungsmodus</drawingMode>
+	<drawMotion>Bewegungsbereich festlegen</drawMotion>
+	<eraseMotion>Bewegungsbereich entfernen</eraseMotion>
+	<clear>Inhalt löschen</clear>
+	<pirhigh>Hoch</pirhigh>
+	<pirmiddle>Mittel</pirmiddle>
+	<pirlow>Niedrig</pirlow>
+	<pirsensibility>PIR Empfindlichkeit</pirsensibility>
+	<numberError>Empfindlichkeitsangabe muss eine Ganzzahl sein</numberError>
+	<rangeError>Empfindlichkeitsangabe muss eine Ganzzahl und zwischen 0 bis 100 sein</rangeError>
+	<areaError>Legen Sie einen Bewegungsbereich fest</areaError>
+	<unselectRange>Bewegungsbereich festlegen</unselectRange>
+	<inverseRange>Bewegungsbereich entfernen</inverseRange>
+	<showFirefoxText>Verwenden Sie bitte den Windows Internet Explorer, um den Bewegungserkennungsbereich einzurichten.</showFirefoxText>
+	<scheduling>Zeitplan-Optionen</scheduling>
+	<always>Immer</always>
+	<schedule>Zeitplan</schedule>
+	<day>Tag</day>
+	<mon>Mo</mon>
+	<thu>Di</thu>
+	<wed>Mi</wed>
+	<thu>Do</thu>
+	<fri>Fr</fri>
+	<sat>Sa</sat>
+	<sun>So</sun>
+	<time>Zeit</time>
+	<form>Von</form>
+	<to>an</to>
+	<clear>Inhalt löschen</clear>
+	<reloadBG>Bild aktualisieren</reloadBG>
+	<enalbeMdWarning>Achtung: Markieren Sie [Video-Bewegungserk. aktivieren], wenn Sie die Bewegungserkennungsfunktion aktivieren möchten. Um die Bewegungserkennungsfunktion jedoch zu deaktivieren, löschen Sie bitte den Bewegungsbereich.</enalbeMdWarning>
+	<privacy>Diese Kamera ist aktuell im Privacy-Modus.</privacy>
+	<JavaSupport>Dieser Browser unterstützt Java JRE nicht oder deaktiviert es nicht.</JavaSupport>
+	<getJava>Besorgen Sie sich den neuesten Java JRE hier</getJava>
+	<enableJava> oder aktivieren Sie Java JRE.</enableJava>
+	<javajreinfo8>Klicken Sie hier, um das NCSPlugin herunterzuladen und zu installieren. Es ist ratsam, dann Ihren Browser neu zu öffnen!</javajreinfo8>
+	<javajreinfo88>Der Browser, den Sie verwenden, hat möglicherweise Schwierigkeiten beim Empfangen von Bildern und Videos. Wenn Sie Probleme bei der Darstellung dieser Seite haben, empfehlen wir Ihnen, Internet Explorer, Mozilla Firefox oder Apple Safari zu verwenden.</javajreinfo88>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<pirsensibility>Es gibt drei Optionen für den Empfindlichkeitsgrad: Niedrig, Mittel und Hoch. Die Voreinstellung ist Niedrig. Sie können mit diesen Einstellungen experimentieren, um den optimalen Wert für Ihre Umgebung herauszufinden.</pirsensibility>
+	<sense>Geben Sie die Empfindlichkeit der Kamera zum Auslösen der Bewegungserk. an. Eine hoch eingestellte Empfindlichkeit macht das Erkennen von Bewegungen leichter. </sense>
+	<unselectRange>Ziehen Sie Ihre Maus, um einen Bewegungserk.ber. hinzuzufügen.</unselectRange>
+	<inverseRange>Ziehen Sie Ihre Maus, um einen Bewegungserk.ber. zu entfernen.</inverseRange>
+	<enablePIR>Wenn diese Option ausgewählt ist, verwenden Sie PIR (Passiv Infrarot), um Bewegungen zu erkennen.</enablePIR>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<fail>Änderungen fehlgeschlagen.</fail>
+	<updateFailed>Die Konfiguration mit dem Bewegungserkennungs-Daemon ist fehlgeschlagen.</updateFailed>
+</message>
+

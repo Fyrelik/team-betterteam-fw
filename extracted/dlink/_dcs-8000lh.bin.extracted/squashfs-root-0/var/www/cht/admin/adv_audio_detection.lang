@@ -1,0 +1,19 @@
+<body>
+	<audioDetection>音頻偵測</audioDetection>
+	<description1>爲了能夠啓動你攝影機的音頻偵測，你必須開啓“音頻偵測”，並爲您的攝影機檢測環境設置偵測音量。</description1>
+	<subtitle>音頻偵測</subtitle>
+	<audioLevel>偵測音量</audioLevel>
+	<enableaudiodetection>音頻偵測</enableaudiodetection>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<audiodetection>音頻偵測功能可以偵測到攝影機上使用的麥克風的音頻事件。</audiodetection>
+	<audiodetectionType>偵測音量</audiodetectionType>
+	<audiodetectionTypeText>設置觸發音頻事件的音頻偵測音量。更低的偵測音量可以偵測到更小的音量。</audiodetectionTypeText>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<invalidParameter>invalid Parameter.</invalidParameter>
+	<nothingChange>變更已儲存。</nothingChange>
+	<fail>變更失敗。</fail>
+</message>

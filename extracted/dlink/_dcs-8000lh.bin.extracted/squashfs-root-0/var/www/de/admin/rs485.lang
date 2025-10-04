@@ -1,0 +1,47 @@
+<body>
+	<rs485>RS-485</rs485>
+	<description1>In diesem Abschnitt können Sie die RS-485 Kameraeinstellungen vornehmen.</description1>
+	<enableRs485>SCHWENKEN/NEIGEN</enableRs485>
+	<rs485ID>Kennung</rs485ID>
+	<rs485BuadRate>Baudrate</rs485BuadRate>
+	<rs485DataBits>Datenbits</rs485DataBits>
+	<rs485StopBit>Stoppbits</rs485StopBit>
+	<rs485ParityBit>Paritätsbit</rs485ParityBit>
+	<rs485Protocol>Protokoll</rs485Protocol>
+	<Pelco-D>Pelco-D</Pelco-D>
+	<Pelco-P>Pelco-D</Pelco-P>
+	<Dyna>Dyna</Dyna>
+	<LiLin>LiLin</LiLin>
+	<savebutton>Einstellungen speichern</savebutton>
+	<notsavebutton>Einstellungen nicht speichern</notsavebutton> 
+	<protocol>Protokoll</protocol>
+	<protocoll> - Wählen Sie den PTZ-Standard (Schwenk/Neige/Zoom), der zum Anschluss eines PTZ-Scanners über die serielle Schnittstelle RS485 verwendet wird.</protocoll>
+	<id>Kennung</id>
+	<idl> - Der Wert wird zur Identifizierung des RS-485 Geräts verwendet.</idl>
+	<baudRate>Baudrate</baudRate>
+	<baudRatel> - Wählen Sie die für das angeschlossene Gerät gewünschte Baudrate.</baudRatel>
+	<dataBits>Datenbits</dataBits>
+	<dataBitsl> - Wählen Sie die für das angeschlossene Gerät gewünschten Datenbits.</dataBitsl>
+	<stopBit>Stoppbits</stopBit>
+	<stopBitl> - Wählen Sie die für das angeschlossene Gerät gewünschten Stoppbits.</stopBitl>
+	<parityBit>Paritätsbit</parityBit>
+	<parityBitl> - Wählen Sie den für das angeschlossene Gerät gewünschten Paritätstyp.</parityBitl>
+	<idRangeError>Kennung außerhalb des Bereichs</idRangeError>
+	<idrangemessage0>(von 1 bis 255)</idrangemessage0>
+	<idrangemessage1>(von 1 bis 32)</idrangemessage1>
+	<idrangemessage2>(von 1 bis 223)</idrangemessage2>
+	<idrangemessage3>(von 1 bis 64)</idrangemessage3>
+</body> 
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<description2>Stoppbit kann entweder auf 1 Bit oder 2 Bits gesetzt werden.</description2>
+	<description3>Wird SCHWENKEN/NEIGEN aktiviert, erscheint ein Bedienfeld auf der Live-Videoseite, mit dessen Hilfe die Steuerung über den RS-485 Schnittstellenstandard für leitungsgebundene Datenübertragungen für ein externes Kameragehäuse vorgenommen werden kann.</description3>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<fail>Änderungen fehlgeschlagen.</fail>
+	<failure>Einstellungsfehler</failure>
+	<full>Voreingestellte Positionen bereits vergeben</full>
+	<invalidParameters>Voreinstellungsname ungültig</invalidParameters>
+	<oob>Einstellungswert ist außerhalb des Bereichs</oob>
+</message>

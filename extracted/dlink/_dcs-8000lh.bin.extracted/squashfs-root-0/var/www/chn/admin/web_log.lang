@@ -1,0 +1,17 @@
+<body>
+	<systemLog>系统日志</systemLog>
+	<description1>系统日志记录发生的摄像机事件。</description1>
+	<ipAddress>IP 地址</ipAddress>
+	<port>端口</port>
+	<save>保存</save>
+	<currentLog>当前日志</currentLog>
+	<clear>清除</clear>
+	<download>下载</download>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<systemLog>您可以单击下载按钮将日志保存到您的本地硬盘，或单击清除按钮删除日志。</systemLog>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+</message>

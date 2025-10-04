@@ -1,0 +1,52 @@
+
+
+/*mainFrame*/
+.mainFrame
+{
+  	position:relative;
+	top:0px;
+	margin: 0px auto 100px;
+	text-align: left;
+
+	width:871px;
+}
+	/*contentBorder*/
+.contentBorder
+{
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	border-style:  solid;
+	position:relative;
+	width: 871px;
+	height:100%; 
+    
+}
+	/*contentBorder contentBlock*/
+.contentBlock
+{
+	background-color: #404343;
+	border:0px #FF0000 solid;
+}
+
+/*contentBorder contentBlock end*/
+/*contentBorder contentBlock mainBlockFrameWizard*/
+.mainBlockFrame
+{
+	position: absolute;
+	top:0px;
+	left:126px;
+	padding:0px;
+	background-color: #FFFFFF;
+	color: #000000;
+	width:745px;
+	margin:0px;
+
+}
+/*contentBorder contentBlock mainBlockFrameWizard end*/
+
+/*mainFrame liveViewMainFrame  end*/
+
+
+
+

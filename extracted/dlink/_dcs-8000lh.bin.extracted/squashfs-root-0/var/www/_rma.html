@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>Checking Language...</title>
+<script language="JavaScript" src="js/public.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+var systemCheck = 0;
+var LANGS="eng cht chn de es it fr pt";
+
+function isIE() 
+{ 
+	var browserMsg = navigator.userAgent.toLowerCase(); 
+	//      alert(browserMsg); 
+	if (navigator.appName == "Microsoft Internet Explorer")
+			return true; 
+    
+	return false; 
+} 
+function isMobile()
+{
+	var browserMsg = navigator.userAgent.toLowerCase(); 
+	var url = "m/m/index.html";
+	var isMobile = true;
+	
+	if(browserMsg.indexOf("android") != -1 || browserMsg.indexOf("iphone") != -1
+	|| browserMsg.indexOf("blackberry") != -1 || browserMsg.indexOf("mobile") != -1)
+	{
+		url = "m/"
+	}
+	else
+	{
+		isMobile = false;
+	}
+	if(isMobile)
+		refresh(url);
+	return isMobile;
+}
+
+function readCookie( name )
+{
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++)
+	{
+		var c = ca[i];
+		while (c.charAt(0)==' ') 
+			c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) 
+			return c.substring(nameEQ.length,c.length);
+	}
+	return "null";
+}
+
+function createCookie( name, value, days )
+{
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = '; expires='+date.toGMTString();
+	}
+	else 
+		var expires = '';
+
+	document.cookie = name+'='+value+expires+'; path=/';
+}
+
+function refresh(url)
+{
+    document.write("<meta http-equiv=\"Refresh\" content=\"0;url=" + url + "\">");
+}
+
+function maxWindow() {
+	window.top.moveTo(0,0);
+	window.top.resizeTo(screen.availWidth,screen.availHeight);
+}	
+function INIT()
+{   
+	if(isMobile())
+		return;
+	var lang = readCookie("language");
+	var targetWeb="eng/admin/update.cgi";
+	var targetLang="eng";
+	if(lang != "null")
+	{
+		var langArray=LANGS.split(" ");
+		var langLength=langArray.length; 	
+		for(i=0;i<langLength;i++)
+		{
+			if(lang==langArray[i])
+			{
+				targetWeb=lang+"/admin/update.cgi";	
+				targetLang=lang;
+				break;
+			}
+		}
+	}
+	else // cookie is clean
+	{
+		if (isIE() == true) //IE, use navigator.browserLanguage
+		{
+			if( 
+				(window.navigator.browserLanguage.search("zh-TW") > -1 || 
+				window.navigator.browserLanguage.search("zh-tw") > -1 
+				) && LANGS.search("cht") > -1)
+				{
+					targetLang="cht";
+					targetWeb="cht/admin/update.cgi";
+				}
+			else if(window.navigator.browserLanguage.search("zh-cn") > -1&& LANGS.search("chn") > -1)
+				{
+					targetLang="chn";
+					targetWeb="chn/admin/update.cgi";
+				}
+		}
+		else // none-IE, use navigator.language
+		{
+			if( 
+				(window.navigator.language.search("zh-TW") > -1 || 
+				window.navigator.language.search("zh-tw") > -1 
+				) && LANGS.search("cht") > -1)
+				{
+					targetLang="cht";
+					targetWeb="cht/admin/update.cgi";
+				}
+			else if(window.navigator.language.search("zh-cn") > -1&& LANGS.search("chn") > -1)
+				{
+					targetLang="chn";
+					targetWeb="chn/admin/update.cgi";
+				}
+		}
+		
+	
+	}
+	createCookie("language",targetLang,'365');
+	refresh(targetWeb);
+}
+
+INIT();
+systemCheck = 1;
+
+</script>  
+</head>
+<body>
+<BR />
+<script type="text/javascript">
+if( systemCheck == 0 ){
+document.write("Only Microsoft Internet Explorer 6.x above in Microsoft Windows operating system !!!");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<body>
+	<internetSettings>configurações de conexão de Internet</internetSettings>
+	<description1>Nesta seção, você pode configurar as configurações de interface de rede com fio da câmera IP. Se você estiver configurando este dispositivo pela primeira vez, D-Link recomenda que você selecione o Assistente de configuração de conexão de Internet e siga as instruções na tela. Se você deseja modificar ou configurar a câmara IP manualmente, você pode selecionar a configuração de conexão de Internet Manual para inserir as configurações de rede.</description1>
+	<description1wireless>Nesta seção, você pode configurar os parâmetros de interface de rede da câmera IP. Se você estiver configurando este dispositivo pela primeira vez, D-Link recomenda que você selecione o Assistente de configuração de conexão de Internet e siga as instruções na tela. Se você deseja modificar ou configurar a câmara IP manualmente, você pode selecionar a configuração de conexão de Internet Manual para inserir as configurações de rede.</description1wireless>
+	<internetButton>Assistente de configuração de conexão de Internet</internetButton>
+	<internetSetup>Configuração de conexão de Internet manual</internetSetup>
+	<motionSettings>Configurações de detecção de movimento de câmera IP</motionSettings>
+	<description2>Nesta seção, você pode configurar os parâmetros de detecção de movimento da câmera IP. Se você estiver configurando este dispositivo pela primeira vez, D-Link recomenda que você selecione o Assistente de configuração de deteção de movimento e siga as instruções na tela. Se você deseja modificar ou configurar a detecção manualmente, selecione a configuração de deteção de movimento Manual.</description2>
+	<description3>Deteção do movimento é desativada enquanto a câmera está definida no modo SXGA.</description3>
+	<description4>Para habilitar a detecção de movimento, selecione o modo VGA ou XGA em </description4>
+	<description5> Audio e Video.</description5>
+	<motionButton>Assistente de configuração de deteção de movimento</motionButton>
+	<motionSetup>Configuração de deteção de movimento manual</motionSetup>
+	<privacy>Esta câmera está no modo de privacidade.</privacy>
+</body>
+<hint>
+	<helpfulHints>Dicas úteis...</helpfulHints>
+	<description1>Se você for um usuário avançado e tiver configurado uma câmera de Internet antes, clique em 'Configuração de conexão de Internet Manual' para inserir todas as configurações manualmente.</description1>
+	<description2>Se você se considera um usuário avançado e deseja configurar manualmente as definições de detecção de movimento, clique em 'Configuração de deteção de movimento Manual' para inserir todas as configurações manualmente.</description2>
+</hint>
+<message>
+
+</message>

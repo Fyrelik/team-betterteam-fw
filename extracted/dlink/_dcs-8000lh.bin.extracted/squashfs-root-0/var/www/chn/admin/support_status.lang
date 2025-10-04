@@ -1,0 +1,7 @@
+<body>
+	<status>状态</status>
+	<deviceInfo>设备信息</deviceInfo>
+	<log>日志</log>
+	<deviceInfo1>该页面显示关于摄像机和网络设置的所有信息。</deviceInfo1>
+	<log1>查看系统日志文件。此文件显示所有有用的信息，如移动侦测通知和系统重启信息。如需导出摄像机日志，单击“下载”按钮从摄像机开始一个文件下载。</log1>
+</body>

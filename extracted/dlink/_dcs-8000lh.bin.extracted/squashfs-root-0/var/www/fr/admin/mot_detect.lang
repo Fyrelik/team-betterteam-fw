@@ -1,0 +1,64 @@
+<body>
+	<motionDetection>Détection de mouvement</motionDetection>
+	<description1>Cette section vous permet d'activer ou de désactiver la fonction de détection de mouvement, de dessiner ou d'effacer une zone de mouvement, ainsi que de configurer le paramètre de sensibilité de la détection de mouvement par la caméra. Cochez la case Activer la détection de présence par vidéo pour activer cette fonction. </description1>
+	<description2>La détection de mouvement est désactivée quand la caméra est en mode SXGA.</description2>
+	<description3>Pour activer la détection de mouvement, sélectionnez le mode VGA ou XGA pour </description3>
+	<description4> Audio et Vidéo.</description4>
+	<savebutton>Enregistrer les paramètres</savebutton>
+	<notsavebutton>Ne pas enregistrer les paramètres</notsavebutton>
+	<liveVideo>Vidéo en direct</liveVideo>
+	<enableMotion>Activer la détection de présence par vidéo</enableMotion>
+	<enablePIR>Activer le détecteur infrarouge (PIR)</enablePIR>
+	<sense>Sensibilité</sense>
+	<drawingMode>Mode définition</drawingMode>
+	<drawMotion>Définir une zone de mouvement</drawMotion>
+	<eraseMotion>Effacer une zone de mouvement</eraseMotion>
+	<clear>Effacer</clear>
+	<pirhigh>Haut</pirhigh>
+	<pirmiddle>Moyen</pirmiddle>
+	<pirlow>Bas</pirlow>
+	<pirsensibility>PIR Sensibilité</pirsensibility>
+	<numberError>La sensibilité doit être un entier</numberError>
+	<rangeError>La sensibilité doit être un entier compris entre 0 et 100.</rangeError>
+	<areaError>Définissez une zone de mouvement,</areaError>
+	<unselectRange>Définir une zone de mouvement</unselectRange>
+	<inverseRange>Effacer une zone de mouvement</inverseRange>
+	<showFirefoxText>Pour configurer une zone de mouvement, utilisez Windows Internet Explorer.</showFirefoxText>
+	<scheduling>Calendriers</scheduling>
+	<always>Toujours</always>
+	<schedule>Calendrier</schedule>
+	<day>Jour</day>
+	<mon>Lun</mon>
+	<thu>Mar</thu>
+	<wed>Mer</wed>
+	<thu>Jeu</thu>
+	<fri>Ven</fri>
+	<sat>Sam</sat>
+	<sun>Dim</sun>
+	<time>Heure</time>
+	<form>De</form>
+	<to>à</to>
+	<clear>Effacer</clear>
+	<reloadBG>Actualiser l'image</reloadBG>
+	<enalbeMdWarning>Avertissement : Si vous souhaitez activer la fonction de détection de mouvement, veuillez cocher [Activer la détection de présence par vidéo]. Toutefois, si vous souhaitez désactiver la fonction de détection de mouvement, veuillez effacer les zones de mouvement.</enalbeMdWarning>
+	<privacy>Cette caméra est actuellement en Mode de confidentialité.</privacy>
+	<JavaSupport>Ce navigateur ne prend pas en charge ou désactive Java JRE.</JavaSupport>
+	<getJava>Obtenez la dernière version de Java JRE ici</getJava>
+	<enableJava> ou activez Java JRE.</enableJava>
+	<javajreinfo8>Cliquez ici pour télécharger le plugin NCS et l'installer. Il est ensuite recommandé de rouvrir votre navigateur !!</javajreinfo8>
+	<javajreinfo88>Le navigateur utilisé à des difficultés à recevoir des images et des vidéos. Si vous avez des difficultés à voir cette page, essayez d'utiliser Internet Explorer, Mozilla Firefox ou Apple Safari.</javajreinfo88>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<pirsensibility>Il existe trois niveaux de sensibilité : Bas, Moyen et Haut. La valeur par défaut est Bas. Vous voudrez peut-être tester ces paramètres afin de déterminer celui qui vous convient le mieux.</pirsensibility>
+	<sense>Réglez la sensibilité de la caméra au déclenchement sur détection de mouvement. Une haute sensibilité facilite la détection des mouvements.</sense>
+	<unselectRange>Faites glisser la souris pour ajouter une plage de détection de mouvement.</unselectRange>
+	<inverseRange>Faites glisser la souris pour effacer une plage de détection de mouvement.</inverseRange>
+	<enablePIR>Lorsque cette option est sélectionnée, le capteur infrarouge passif (PIR) est utilisé pour détecter le mouvement.</enablePIR>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<fail>Échec de l’application des modifications.</fail>
+	<updateFailed>Échec de la configuration avec le démon de détection de mouvement</updateFailed>
+</message>
+

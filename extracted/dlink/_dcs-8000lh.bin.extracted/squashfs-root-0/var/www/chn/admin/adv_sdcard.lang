@@ -1,0 +1,111 @@
+<body>
+	<playback>SD卡管理</playback>
+	<playback1>SD卡管理</playback1>
+	<playback2>无效</playback2>
+	<totalcapacity>总共：</totalcapacity>
+	<availablespace>空闲：</availablespace>
+	<formatvalue>格式化SD卡</formatvalue>
+	<KB> KB</KB>
+	<description1>这里您可以浏览和管理存储在SD卡上的录制文件。</description1>
+	<description2>SD卡已拔出或无效。 请检查SD卡或格式化SD卡。</description2>
+	<description3>SD卡存储无效。</description3>
+	<description4>SD卡存储受保护。</description4>
+	<stoprecrebootconfirm>您要禁止录制或重启吗？</stoprecrebootconfirm>
+	<stoprecrebootconfirm2>您要初始化吗？</stoprecrebootconfirm2>
+	<performance>摄像机内的 SD Card 速度不够录影的需求。建议重新格式化 SD Card 或者是使用更快的 SD Card。</performance>
+	<sdNote>请注意，摄像机中没有插入SD卡或SD卡不可写入。</sdNote>
+	<sdcardstatus>SD状态： </sdcardstatus>
+	<writeprotected>写入保护</writeprotected>
+	<cardready>就绪</cardready>
+	<cardinvalid>无效</cardinvalid>
+	<backupconfirm>您要备份文件吗？</backupconfirm>
+	<formatconfirm>您需要格式化SD卡吗？</formatconfirm>
+	<completeformat>SD卡格式化完成</completeformat>
+	<records>SD卡</records>
+	<recordtype>录制类型： </recordtype>
+	<sdcarddelete>删除</sdcarddelete>
+	<recordtype1>录制类型： </recordtype1>
+	<name>名称</name>
+	<numoffiles>文件数量</numoffiles>
+	<sdcardtitle>SD 卡</sdcardtitle>
+	<pagesto>页数</pagesto>
+	<filesize>大小</filesize>
+	<foldersize>大小</foldersize>
+	<used>已使用：</used>
+	<video>视频</video>
+	<date>日期</date>
+	<hour>小时</hour>
+	<file>文件</file>
+	<delete>删除</delete>
+	<ok>确定</ok>
+	<deleteconfirm>将删除选中的文件，您确定?</deleteconfirm>
+	<deleteconfirm1>没有文件被选中！</deleteconfirm1>
+	<refresh>刷新</refresh>
+	<toplevel>到上一级</toplevel>
+	<filesperpage>每页文件数：</filesperpage>
+	<of>之</of>
+	<formatfailed>SD卡格式化失败。</formatfailed>
+	<formatrecording>摄像机正在录制文件到SD卡，格式化前请停止录制。</formatrecording>
+	<sdrecerr>SD卡录制启用</sdrecerr>
+	<sdrecerr1>如果您要浏览SD卡，请禁用SD卡</sdrecerr1>
+	<avhref>录制</avhref>
+	<sdrecerr2>页面第一项</sdrecerr2>
+	<formaterr>文件系统损坏</formaterr>
+	<formaterrmsg>SD卡的文件系统已损坏，请根据以下指令进行恢复。</formaterrmsg>
+	<writefull>SD卡容量已满。</writefull>
+	<recorderr1>禁用录制并重启摄像机。</recorderr1>
+	<recorderr2>备份录制的文件或重新格式化SD卡，或SD卡录制很可能失败。</recorderr2>
+	<recorderr3>步骤2后，您可以转到</recorderr3>
+	<recorderr4> 页面进行重新启用录制。</recorderr4>
+	<formaterrmsg2>摄像机重启后，请执行以下步骤：</formaterrmsg2>
+	<recover>禁用录制和重启摄像机</recover>
+	<reboot1>已经重启摄像机，请等待 </reboot1>
+	<reboot2> 数秒…</reboot2>
+	<diablerecfail>禁用录制失败。</diablerecfail>
+	<over4g>超过16G</over4g>
+	<wait>请等待</wait>
+	<onlywait>请等待</onlywait>
+	<reinit>重新初始化</reinit>
+	<initstep>SD卡没有被初始化。请执行以下步骤初始化SD卡。</initstep>
+	<initstep1>SD卡上所有数据将被擦除。重新初始化SD卡前，请备份SD卡中的数据。</initstep1>
+	<init>初始化 </init>
+	<initstep0>禁用录制。</initstep0>
+	<over4Gstep0>SD卡第一个分区的容量不能超过16G。请执行“格式化SD卡”来创建16G分区，并进行格式化。</over4Gstep0>
+	<over4Gstep1>SD卡上所有数据将被擦除。格式化SD卡前，请备份SD卡中的数据。</over4Gstep1>
+	<over4Gstep2>如果SD卡大小超过16G。SD卡将创建一个16G分区，并且不能恢复原来的大小。</over4Gstep2>
+	<rebootFail>重启失败</rebootFail>
+	<formatconfirm>您要格式化SD卡吗？</formatconfirm>
+	<pages>页数：</pages>
+	<delete1>删除</delete1>
+	<sdCard>SD卡</sdCard>
+	<pages>页数：</pages>
+	<delsdcard>删除</delsdcard>
+	<sdRecording>要格式化摄像机中的SD卡，请先禁用SD卡录制。</sdRecording>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<formatsdcard>格式化SD卡</formatsdcard>
+	<description1>单击此图标自动格式化SD卡和为视频创建文件夹。进行SD卡格式化，请先关闭的SD卡录制功能。</description1>
+	<description2>如果SD卡上保存有已录制的文件，单击已录制文件夹，然后选择您要查看的录制文件。</description2>
+	<description3>如果SD卡上保存有视频文件，单击视频文件夹，然后选择您要查看的视频文件。</description3>
+	<description4>从SD卡上重新加载文件和文件夹信息。</description4>
+	<format>对SD卡进行格式化-</format>
+	<view>查看录制的文件-</view>
+	<playback>回放录制的视频-</playback>
+	<refresh>刷新-</refresh>
+	<sdcardpath>SD卡</sdcardpath>
+	<sdcardpath1>显示SD卡的当前路径。</sdcardpath1>
+	<sdstatus>SD 状态</sdstatus>
+	<sdstatus1>此状态会显示目前SD卡是否已插入或者被侦测。</sdstatus1>
+	<filesperpage>每页文件数</filesperpage>
+	<filesperpage1>每页显示的文件数量。</filesperpage1>
+	<pages>页数</pages>
+	<pages1>当前要显示第几页。</pages1>
+	<total>总共</total>
+	<total1>SD卡总容量。</total1>
+	<used>已使用</used>
+	<used1>已使用的SD卡容量。</used1>
+	<free>空闲</free>
+	<free1>SD卡空闲容量。</free1>
+</hint>
+

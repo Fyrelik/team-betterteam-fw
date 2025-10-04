@@ -1,0 +1,148 @@
+<body>
+	<networkSettings>Réseau</networkSettings>
+	<description1>Cette section vous permet de configurer les paramètres Internet et ceux du réseau local.</description1>
+	<savebutton>Enregistrer les paramètres</savebutton>
+	<notsavebutton>Ne pas enregistrer les paramètres</notsavebutton>
+	<general>Paramètres du réseau local</general>
+	<pppoeStatusConnecting>Connexion en cours</pppoeStatusConnecting>
+	<lan>PARAMÈTRES DU RÉSEAU LOCAL</lan>
+	<dhcp>Adresse IP automatique</dhcp>
+	<static>Adresse IP statique</static>
+	<ip>Adresse IPv4</ip>
+	<networkipseterror>Les paramètres sont incorrects</networkipseterror>
+	<subnetMask>Masque de sous-réseau</subnetMask>
+	<defaultRouter>Passerelle par défaut (Routeur)</defaultRouter>
+	<primaryDns>DNS principal facultatif</primaryDns>
+	<secondaryDns>DNS secondaire facultatif</secondaryDns>
+	<enableUpnp>UPnP</enableUpnp>
+	<upnpPort>Redirection de port UPnP</upnpPort>
+	<upnpHttp>Port HTTP externe</upnpHttp>
+	<upnpHttps>Port HTTPS externe</upnpHttps>
+	<upnpRTSP>Port RTSP externe</upnpRTSP>
+	<upnp>Paramètres UPnP</upnp>
+	<basicser>Service de base</basicser>
+	<av>AV</av>	
+	<authrtsp>Authentification des utilisateurs RTSP</authrtsp>
+	<authrtsp1> - L'activation de cette fonction oblige l'utilisateur à s'identifier en fournissant son nom et son mot de passe.</authrtsp1>
+	<pppoe>PPPoE</pppoe>
+	<userName>Nom d’utilisateur</userName>
+	<password>Mot de passe</password>
+	<confirmPassword>Confirmation du mot de passe</confirmPassword>
+	<verify>Vérifier</verify>
+	<status>État</status>
+	<portsetting>PARAMÈTRES DES PORTS</portsetting>
+	<httpPort>Port HTTP</httpPort>
+	<httpsPort>Port HTTPS</httpsPort>
+	<rtspPort>Port RTSP</rtspPort>
+	<rtspAuth>Authentification de l'utilisateur</rtspAuth>
+	<httpExtPort>Port HTTP externe</httpExtPort>
+	<rtspExtPort>Port RTSP externe</rtspExtPort>
+	<reboot1>Le réseau de la caméra IP est en cours de redémarrage, veuillez patienter </reboot1>
+	<reboot2> secondes...</reboot2>
+	<ipError1>L'adresse IP ne peut pas être vide</ipError1>
+	<subnetMaskError1>Le masque de sous-réseau ne peut pas être vide</subnetMaskError1>
+	<routerError1>La passerelle par défaut (Routeur) ne peut pas être vide</routerError1>
+	<pppoeError1>Le nom d'utilisateur PPPoE ne peut pas être vide</pppoeError1>
+	<pppoeError2>Le mot de passe PPPoE ne peut pas être vide</pppoeError2>
+	<pppoeError3>Le mot de passe de confirmation PPPoE ne peut pas être vide</pppoeError3>
+	<pppoeError4>Le mot de passe et le mot de passe de confirmation PPPoE ne coïncident pas</pppoeError4>
+	<pppoeError5>Le nom d'utilisateur et le mot de passe PPPoE acceptent uniquement les caractères ASCII, et n'acceptent pas les espaces.</pppoeError5>
+	<pppoeStatusDisabled>Désactivé</pppoeStatusDisabled>
+	<pppoeStatusConnected>Connecté</pppoeStatusConnected>
+	<pppoeStatusConnecting>Connexion en cours</pppoeStatusConnecting>
+	<httpPortError1>Le port HTTP ne peut pas être vide</httpPortError1>
+	<httpPortError2>Le port HTTP doit être un nombre</httpPortError2>
+	<httpPortError3>Le port HTTP doit être de 80 ou compris entre 1025 et 65535</httpPortError3>
+	<httpPortError4>Le port HTTP doit être différent du port HTTPS</httpPortError4>
+	<httpPortError5>Le port HTTP doit être comprise entre 1 et 65535</httpPortError5>
+	<rtstPortError1>Le port RTSP ne peut pas être vide</rtstPortError1>
+	<rtstPortError2>Le port RTSP doit être un nombre</rtstPortError2>
+	<rtstPortError3>Le port RTSP doit être de 554 ou compris entre 1025 et 65535</rtstPortError3>
+	<rtstPortError4>Le port HTTP doit être différent du port RTSP</rtstPortError4>
+	<rtstPortError5>Le port RTSP doit être comprise entre 1 et 65535</rtstPortError5>
+	<httpExtPortError1>Le port HTTP externe ne peut pas être vide</httpExtPortError1>
+	<httpExtPortError2>Le port HTTP externe doit être un nombre</httpExtPortError2>
+	<httpExtPortError3>Le port HTTP externe doit être de 80 ou compris entre 1025 et 65535</httpExtPortError3>
+	<httpExtPortError4>Le port HTTP externe doit être différent du port HTTPS externe</httpExtPortError4>
+	<httpExtPortError5>Le port HTTP doit être comprise entre 1 et 65535</httpExtPortError5>
+	<rtspExtPortError1>Le port RTSP externe ne peut pas être vide</rtspExtPortError1>
+	<rtspExtPortError2>Le port RTSP externe doit être un nombre</rtspExtPortError2>
+	<rtspExtPortError3>Le port RTSP externe doit être de 554 ou compris entre 1025 et 65535</rtspExtPortError3>
+	<rtspExtPortError4>Le port HTTP externe doit être différent du port RTSP externe</rtspExtPortError4>
+	<rtspExtPortError5>Le port RTSP externe doit être comprise entre 1 et 65535</rtspExtPortError5>
+	<netErrorMessage1>Le </netErrorMessage1>
+	<netErrorMessage2> octet de </netErrorMessage2>
+	<netErrorMessage3> doit être un nombre</netErrorMessage3>
+	<netErrorMessage4> doit être une valeur comprise entre </netErrorMessage4>
+	<netErrorMessage5> et </netErrorMessage5>
+	<netErrorMessage6> doit être </netErrorMessage6>
+	<netError>Configuration du réseau incorrecte</netError>
+	<ipMessage1>Adresse IP</ipMessage1>
+	<ipMessage2>Les paramètres sont incorrects</ipMessage2>
+	<ipMessage3>L'adresse IP ne peut pas être égale à zéro.</ipMessage3>
+	<maskMessage1>Masque de sous-réseau</maskMessage1>
+	<maskMessage2>Vous avez saisi un masque de sous-réseau incorrect. Le masque de sous-réseau doit être contigu. Veuillez saisir un masque valide.</maskMessage2>
+	<maskMessage3>Le masque de sous-réseau ne peut pas être égal à zéro.</maskMessage3>
+	<routerMessage1>Adresse de la passerelle par défaut (Routeur)</routerMessage1>
+	<routerMessage2>L'adresse de la passerelle par défaut (Routeur) saisie est incorrecte</routerMessage2>
+	<routerMessage3>L'adresse de la passerelle par défaut (Routeur) ne peut pas être égale à zéro.</routerMessage3>
+	<priDnsMessage1>Adresse DNS principale</priDnsMessage1>
+	<priDnsMessage2>L'adresse DNS principale saisie est incorrecte.</priDnsMessage2>
+	<priDnsMessage3>L'adresse DNS principale ne peut pas être égale à zéro.</priDnsMessage3>
+	<secDnsMessage1>Adresse DNS secondaire</secDnsMessage1>
+	<secDnsMessage2>L'adresse DNS secondaire saisie est incorrecte.</secDnsMessage2>
+	<secDnsMessage3>L'adresse DNS secondaire ne peut pas être égale à zéro.</secDnsMessage3>
+	<dnsErrMessage>L'adresse DNS principale et l'adresse DNS secondaire doivent être différents</dnsErrMessage>
+	<apple>Apple</apple>
+	<bonjour>Bonjour</bonjour>
+	<disable>Désactivé</disable>
+	<pppoeStatusFailed>Échec de la connexion</pppoeStatusFailed>
+	<lan1>Adresse IP automatique</lan1>
+	<Staticip>Adresse IP statique</Staticip>
+	<dhcpip>Redirection de port UPnP</dhcpip>
+	<searchdomain>Domaine de recherche optionnel</searchdomain>
+	<httpsPortError1>Le port HTTPS ne peut pas être vide</httpsPortError1>
+	<httpsPortError2>Le port HTTPS doit être un nombre</httpsPortError2>
+	<httpsPortError3>Le port HTTPS doit être de 443 ou compris entre 1025 et 65535</httpsPortError3>
+	<httpsPortError4>Le port HTTPS doit être différent du port RTSP</httpsPortError4>
+	<httpsPortError5>Le port HTTPS doit être comprise entre 1 et 65535</httpsPortError5>
+	<httpsExtPortError1>Le port HTTPS externe ne peut pas être vide</httpsExtPortError1>
+	<httpsExtPortError2>Le port HTTPS externe doit être un nombre</httpsExtPortError2>
+	<httpsExtPortError3>Le port HTTPS doit être de 443 ou compris entre 1025 et 65535</httpsExtPortError3>
+	<httpsExtPortError4>Le port HTTPS externe doit être différent du port RTSP externe</httpsExtPortError4>
+	<httpsExtPortError5>Le port HTTPS externe doit être comprise entre 1 et 65535</httpsExtPortError5>
+	<domainErrMessage>Le domaine de recherche n'acceptera que les caractères alphanumériques, \".\" et \"-\"</domainErrMessage>
+	<ipv4set>Paramètres IPv4</ipv4set>
+	<ipv6set>Paramètres IPv6</ipv6set>
+	<manIpv6set>Configurer manuellement l'adresse IP</manIpv6set>
+	<Ipv6AddrPre>Longueur de l'adresse/du préfixe IPv6</Ipv6AddrPre>
+	<Ipv6gateway>Passerelle par défaut (Routeur)</Ipv6gateway>
+	<Ipv6priDns>DNS principal facultatif</Ipv6priDns>
+	<Ipv6secDns>DNS secondaire facultatif</Ipv6secDns>
+	<ipv6Message>L'adresse IPv6 saisie est invalide.</ipv6Message>
+	<ipv6Message2>La longueur du préfixe IPv6 doit se situer entre 0 et 128.</ipv6Message2>
+	<ipv6Message3>L'adresse de la passerelle par défaut (Routeur) IPv6 saisie est incorrecte.</ipv6Message3>
+	<ipv6Message4>L'adresse DNS principale IPv6 entrée est incorrecte.</ipv6Message4>
+	<ipv6Message5>L'adresse DNS secondaire IPv6 entrée est incorrecte.</ipv6Message5>
+	<ipv6Message6>L'adresse DNS principale IPv6 et l'adresse DNS secondaire IPv6 doivent être différentes.</ipv6Message6>
+	<ipv6Message7>La passerelle par défaut IPv6 (Routeur) doit commencer par FE80.</ipv6Message7>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<Staticip1>Cette option est utilisée pour configurer votre caméra IP avec une adresse IP qui convient à vos paramètres réseau.</Staticip1>
+	<dhcpip1>Si votre Routeur ne prend pas en charge le service UPnP, les caméras et le Routeur peuvent communiquer ensemble afin que le Routeur sache quels ports sont utilisés par quelle caméra.</dhcpip1>
+	<lan>Sélectionnez cette option si vous utilisez un serveur DHCP sur le réseau et souhaitez qu'une adresse IP soit automatiquement attribuée à la caméra.</lan>
+	<httpPort>Allouez le port de la caméra de façon que vous puissiez vous connecter en utilisant un navigateur Web standard.</httpPort>
+	<rtspPort>Allouez le port de la caméra de façon que vous puissiez vous connecter en utilisant QuickTime ou des périphériques mobiles de diffusion.</rtspPort>
+	<enableUpnp>Activer UPnP vous permettra de détecter la caméra en tant que périphérique UPnP sur le réseau.</enableUpnp>
+	<bonjour>Activer Bonjour vous permettra de détecter la caméra à partir d'un ordinateur Apple.</bonjour>
+	<pppoe>Cette option sert à configurer votre caméra pour connexion directe à Internet. Si la caméra est derrière un routeur ou une passerelle, vous n'avez pas besoin de configurer ces paramètres.</pppoe>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<fail>Échec de l’application des modifications.</fail>
+	<invalidParameter>Échec de configuration.</invalidParameter>
+	<settingNotChange>Paramètres inchangés.</settingNotChange>
+	<saveOK>Le serveur Web redémarre. Veuillez patientez une minute, puis reconnectez la caméra avec la nouvelle adresse IP.</saveOK>
+</message>
+

@@ -1,0 +1,109 @@
+<body>
+	<playback>GERENCIAMENTO SD</playback>
+	<playback1>CARTÃO SD</playback1>
+	<playback2>INVÁLIDO</playback2>
+	<totalcapacity>Total :</totalcapacity>
+	<availablespace>Livre :</availablespace>
+	<formatvalue>Formatar o cartão SD</formatvalue>
+	<KB> KB</KB>
+	<description1>Aqui você pode navegar e gerenciar os arquivos arquivados no cartão SD.</description1>
+	<description2>O cartão SD está desconectado ou inválido. Por favor verifique o cartão SD ou formate-o.</description2>
+	<description3>O cartão de memória SD é inválido.</description3>
+	<description4>O cartão de memória SD está protegido.</description4>
+	<performance>O desempenho de seu cartão SD na câmera não é o suficiente para gravação.  
+Sugerimos que o cartão SD seja reformatado ou trocado por um de maior capacidade.
+</performance>
+	<sdNote>Não há nenhum cartão SD inserido na câmera ou o cartão SD não permite escrita.</sdNote>
+	<stoprecrebootconfirm>Você deseja desabilitar a gravação e reiniciar?</stoprecrebootconfirm>
+	<stoprecrebootconfirm2>Você deseja iniciar?</stoprecrebootconfirm2>
+	<sdcardstatus>Estado SD : </sdcardstatus>
+	<writeprotected>Protegido para escrita</writeprotected>
+	<cardready>Pronto</cardready>
+	<cardinvalid>Inválido</cardinvalid>
+	<backupconfirm>Você deseja salvar os arquivos?</backupconfirm>
+	<formatconfirm>Você deseja formatar o cartão SD?</formatconfirm>
+	<completeformat>O cartão SD foi completamente formatado.</completeformat>
+	<records>Cartão SD</records>
+	<recordtype>Tipo de Gravação: </recordtype>
+	<recordtype1>Tipo de Gravação </recordtype1>
+	<name>Nome</name>
+	<numoffiles>Num de arquivos</numoffiles>
+	<filesize>Tamanho</filesize>
+	<foldersize>Tamanho</foldersize>
+	<used>Usado :</used>
+	<video>video</video>
+	<date>Data</date>
+	<hour>Hora</hour>
+	<file>Arquivo</file>
+	<delete>Apagar</delete>
+	<ok>OK</ok>
+	<deleteconfirm>O arquivo selecionado será apagado, você tem certeza?</deleteconfirm>
+	<deleteconfirm1>Nenhum arquivo selecionado!</deleteconfirm1>
+	<refresh>Atualizar</refresh>
+	<toplevel>Até Um Nível</toplevel>
+	<filesperpage>Arquivos por Página:</filesperpage>
+	<of> de</of>
+	<formatfailed>Formatação do cartão SD falhou.</formatfailed>
+	<formatrecording>A Câmera está gravando arquivos no cartão SD agora, por favor pare a gravação antes de formatar.</formatrecording>
+	<sdrecerr>GRAVAÇÃO DO CARTÃO SD HABILITADA</sdrecerr>
+	<sdrecerr1>Se desejar verificar o cartão SD, por favor desabilite o cartão SD em</sdrecerr1>
+	<avhref>Gravando</avhref>
+	<sdrecerr2>primeira página.</sdrecerr2>
+	<formaterr>SISTEMA DE ARQUIVO CORROMPIDO</formaterr>
+	<formaterrmsg>O sistema de arquivo do cartão SD está corrompido. Por favor siga as instruções para recuperá-lo.</formaterrmsg>
+	<writefull>Capacidade do cartão SD Completa</writefull>
+	<recorderr1>Desabilite a gravação e reinicie a câmera.</recorderr1>
+	<recorderr2>Salve os arquivos gravados e reformate o cartão SD, ou a gravação no cartão SD pode falhar facilmente.</recorderr2>
+	<recorderr3>Após o passo 2, você pode ir para </recorderr3>
+	<recorderr4> página para habilitar a gravação.</recorderr4>
+	<formaterrmsg2>Por favor siga os passo seguintes após o reinício da câmera:</formaterrmsg2>
+	<recover>Desabilite a gravação e reinicie a câmera</recover>
+	<reboot1>A câmera reiniciou, por favor espere por </reboot1>
+	<reboot2> segundos ...</reboot2>
+	<diablerecfail>Desabilite a falha de gravação.</diablerecfail>
+	<over4g>Sobre 16G</over4g>
+	<wait>Por favor espere...</wait>
+	<onlywait>Por favor espere...</onlywait>
+	<reinit>Reinicialização</reinit>
+	<formatting>Formatação do cartão SD</formatting>
+	<initstep>O cartão SD não reinicializado. Por favor siga os seguintes passos para reinicilizar o cartão SD.</initstep>
+	<initstep1>Todos os dados no seu cartão SD serão apagados. Por favor salve os dados do cartão SD antes de reinicializar o cartão SD.</initstep1>
+	<init>Inicializar </init>
+	<initstep0>Desabilitar gravação.</initstep0>
+	<over4Gstep0>A capacidade da primeira partição não pode ultrapassar 16G. Por favor 'Formate o cartão SD' para criar a partição 16G e formate.</over4Gstep0>
+	<over4Gstep1>Todos os dados do cartão SD serão apagados. Por favor salve os dados do cartão SD, antes de formatar o cartão SD.</over4Gstep1>
+	<over4Gstep2>Se o cartão for maior que 16G, será criada uma partição de 16G e pode não ser possível recuperar o tamanho original.</over4Gstep2>
+	<rebootFail>Falha de Reinício</rebootFail>
+	<formatconfirm>Você deseja formatar o cartão SD ?</formatconfirm>
+	<sdCard>Cartão SD</sdCard>
+	<pages>Páginas:</pages>
+	<delsdcard>Apagar</delsdcard>
+	<sdRecording>Para formatar o cartão SD na câmera, por favor desabilite a gravação SD primeiro.</sdRecording>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<formatsdcard>Formatar cartão SD</formatsdcard>
+	<description1>Clique neste botão para formatar o cartão SD automaticamente e criar um pasta para snapshot e vídeo. Para formatar o cartão SD, é necessário desabilitar a gravação SD primeiro.</description1>
+	<description2>Se os arquivos gravados estão armazenado no cartão SD, clique na pasta gravada e escolha o arquivo gravado que você deseja ver.</description2>
+	<description3>Se os arquivos de vídeo estão armazenados no cartão SD, clique na pasta de vídeo e escolha o vídeo que deseja ver.</description3>
+	<description4>Recarregue as informações de arquivos e pastas do cartão SD.</description4>
+	<format>Formatar o cartão SD - </format>
+	<view>Ver os arquivos gravados -</view>
+	<playback>Reproduza o Vídeo Gravado - </playback>
+	<refresh>Atualizar - </refresh>
+	<sdcardpath>Cartão SD</sdcardpath>
+	<sdcardpath1>Pode indicar o caminho atual do cartão SD.</sdcardpath1>
+	<sdstatus>Estado SD</sdstatus>
+	<sdstatus1>Pode indicar o estado atual do cartão SD (esteja inserido ou detectado).</sdstatus1>
+	<filesperpage>Arquivos por Página</filesperpage>
+	<filesperpage1>O número de arquivos por página.</filesperpage1>
+	<pages>Páginas</pages>
+	<pages1>Você pode selecionar que páginas serão mostradas aqui.</pages1>
+	<total>Total</total>
+	<total1>A capacidade total do cartão SD.</total1>
+	<used>Usado</used>
+	<used1>A capacidade usada do cartão SD.</used1>
+	<free>Livre</free>
+	<free1>A capacidade livre do cartão SD.</free1>
+</hint>
+

@@ -1,0 +1,88 @@
+<body>
+	<cameraControl>Controle de Câmera</cameraControl>
+	<presetPosition>Posição Predefinida</presetPosition>
+	<patrolSelect>Seleção de Vigilância</patrolSelect>
+	<description1>Aqui você pode adicionar ou apagar a predefinição de posição, selecionar posições de vigilância assim como mudar a posição padrão  de seu botão de "Iniciar".</description1>
+	<moveUp>Acima</moveUp>
+	<moveDown>Abaixo</moveDown>
+	<panSpeed>Passo Horizontal :</panSpeed>
+	<tiltSpeed>Passo Vertical :</tiltSpeed>
+	<currentPosition>Nome de Predefinição:</currentPosition>
+	<presetPositions>Posição Predefinida :</presetPositions>
+	<none>-- Selecione Um --</none>
+	<add>Adicionar</add>
+	<delete>Apagar</delete>
+	<save>Salvar</save>
+	<theSamePresetName>Nome de predefinição já existe, você deseja substituir a posição predefinida antiga?</theSamePresetName>
+	<setAsHome>Definir como Início</setAsHome>
+	<defaultHome>Início Padrão</defaultHome>
+	<patrolSpeed>Passo Horizontal/Vigilância :</patrolSpeed>
+	<dwellingTime>Tempo de Permanência :</dwellingTime>
+	<sec> segundos</sec>
+	<presetLocations>Posições Predefinidas</presetLocations>
+	<selectedLocations>Vigilâncias Predefinidas</selectedLocations>
+	<select>Selecionar</select>
+	<remove>Remover</remove>
+	<patrolSelection>Seleção de Vigilância :</patrolSelection>
+	<homeDefinition>Definição de Início :</homeDefinition>
+	<presetNameError>Nome de Predefinição não pode aceitar nome vazio </presetNameError>
+	<presetNameError111>Nome de predefinição não pode ser vazio, só aceita número, alfabeto, e caracteres \"-\" e \"_\"</presetNameError111>
+	<presetNameError112> caracteres \' \"</presetNameError112>
+	<waitTimeError1>Tempo de permanência não pode ser vazio</waitTimeError1>
+	<waitTimeError2>Tempo de permanência deve ser um número</waitTimeError2>
+	<waitTimeError3>Tempo de permanência deve estar entre 0 e 60</waitTimeError3>
+	<left_up>Esquerda Acima</left_up>
+	<up>Acima</up>
+	<right_up>Direita Acima</right_up>
+	<left>Esquerda</left>
+	<left_down>Esquerda Abaixo</left_down>
+	<right_down>Direita Abaixo</right_down>
+	<right>Direita</right>
+	<down>Abaixo</down>
+	<Zoom_in>Zoom In</Zoom_in>
+	<Zoom_out>Zoom Out</Zoom_out>
+	<home>Início</home>
+	<privacy>Esta câmera está em modo Privado.</privacy>
+	<noSelectError>Por favor selecione a posição de vigilância</noSelectError>
+	<presetErr>Por favor selecione a posição predefinida </presetErr>
+	<patrolFull>Posição de vigilância não pode exceder 20 posições</patrolFull>
+	<javajreinfo8>Clique aqui para baixar e instalar o plugin NCS. Recomendamos reiniciar o seu navegador!!!</javajreinfo8>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<homeDefinition>Definição de Início </homeDefinition>
+	<description1>Permite definir uma nova posição 'Início' ou de volta para a posição padrão original.</description1>
+	<patrolSelection>Seleção de Vigilância </patrolSelection>
+	<description2>Permite adicionar 'Posições Predefinidas' dentro de 'Posições de Vigilância'. Isto determinará o movimento da câmera IP quando for selecionado 'Vigiar' na página 'Vídeo em Tempo Real'.</description2>
+	<patrolhints>Vigilâncias Predefinidas </patrolhints>
+	<description3> Seleciona posições predefidas especificadas para mover-se em sequência. </description3>
+	<patrolschedulehints>Agenda de Vigilância</patrolschedulehints>
+	<description4> "Agenda de Vigilância" permite que a câmera PTZ execute uma rota de posições através de sua agenda.</description4>
+	<dwellinghints>Tempo de Permanência </dwellinghints>
+	<description5> O tempo de permanência da câmera para ficar imóvel para cada posição predefinida enquanto estiver em vigilância.</description5>
+	<controlhints>Controle Horizontal e Vertical</controlhints>
+	<controlhints1>Você pode controla a posição da lente clicando nas setas do botão Acima/Abaixo/Esquerda/ Direita/Esquerda-Acima/Esquerda-Abaixo/Direita-Acima/Direita-Abaixo. Clicando no botão Início moverá a lente para a posição inicial.</controlhints1>
+	<uphints>Acima</uphints>
+	<uphints1>Mover a posição de vigilância selecionada para cima</uphints1>
+	<downhints>Abaixo</downhints>
+	<downhints1>Mover a posição de vigilância selecionada para baixo.</downhints1>
+	<removehints>Remover</removehints>
+	<removehints1>Remover a posição de vigilância selecionada.</removehints1>
+	<helppanSpeed>Passo Horizontal</helppanSpeed>
+	<helppanSpeed1>É usado para controlar o passo que a câmera se moverá usando o funcionalidade horizontal.</helppanSpeed1>
+	<helptiltSpeed>Passo Vertical</helptiltSpeed>
+	<helptiltSpeed1>É usado para controlar o passo vertical que a câmera se moverá usando a funcionalidade vertical.</helptiltSpeed1>
+	<helpcurrentPosition>Nome de Predefinição</helpcurrentPosition>
+	<helpcurrentPosition1>Mover a câmera em uma posição desejada e inserir um nome ou um número no campo de nome de predefinição e, em seguida, clicando em Adicionar incluirá a posição atual na opção de posição de predefinição.</helpcurrentPosition1>
+	<helppresetPosition>Posição Predefinida</helppresetPosition>
+	<helppresetPosition1>Posição predefinida lista todas as posições que você têm predefinidos e você pode excluí-lo.</helppresetPosition1>
+</hint>
+<message>
+	<ok>Alterações salvas.</ok>
+	<failure>falha de configuração</failure>
+	<full>Posição predefinida já está completa</full>
+	<selectFull>Posições de Vigilância já estão completos</selectFull>
+	<duplicate>duplicado</duplicate>
+	<invalidParameters>Nome de predefinição inválido</invalidParameters>
+	<oob>valor de configuração está fora do range</oob>
+</message>

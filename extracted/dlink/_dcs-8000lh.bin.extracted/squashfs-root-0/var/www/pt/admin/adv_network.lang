@@ -1,0 +1,147 @@
+<body>
+	<networkSettings>Rede</networkSettings>
+	<description1>Você pode configurar sua LAN ou Internet aqui.</description1>
+	<savebutton>Salvar Configurações</savebutton>
+	<notsavebutton>Não Salvar Configurações</notsavebutton>
+	<general>Configurações LAN</general>
+	<pppoeStatusConnecting>Conectando</pppoeStatusConnecting>
+	<lan>CONFIGURAÇÕES LAN</lan>
+	<dhcp>Endereço IP automatico</dhcp>
+	<static>Endereço IP estático</static>
+	<ip>Endereço IPv4</ip>
+	<networkipseterror>As configurações são inválidas</networkipseterror>
+	<subnetMask>Máscara de subrede</subnetMask>
+	<defaultRouter>Gateway padrão (Roteador)</defaultRouter>
+	<primaryDns>DNS primário opcional</primaryDns>
+	<secondaryDns>DNS secundário opcional</secondaryDns>
+	<enableUpnp>UPnP</enableUpnp>
+	<upnpPort>UPnP Port Forward</upnpPort>
+	<upnpHttp>Porta Externa HTTP</upnpHttp>
+	<upnpHttps>Porta Externa HTTPS</upnpHttps>
+	<upnpRTSP>Porta Externa RTSP</upnpRTSP>
+	<upnp>CONFIGURAÇÕES UPnP</upnp>
+	<basicser>Serviço Básico</basicser>
+	<av>AV</av>	
+	<authrtsp>Autenticação de Usuário RTSP</authrtsp>
+	<authrtsp1> - Habilitar a autenticação de usuário RTSP permitirá que o usuário seja obrigado a se autenticar com nome de usuário e senha.</authrtsp1>
+	<pppoe>PPPoE</pppoe>
+	<userName>Nome de usuário</userName>
+	<searchdomain>Pesquisa de domínio opcional</searchdomain>
+	<password>Senha</password>
+	<confirmPassword>Confirmar senha</confirmPassword>
+	<verify>Verificar</verify>
+	<status>Estado</status>
+	<portsetting>CONFIGURAÇÕES DE PORTA</portsetting>
+	<httpPort>Porta HTTP</httpPort>
+	<httpsPort>Porta HTTPS</httpsPort>
+	<rtspPort>Porta RTSP</rtspPort>
+	<rtspAuth>Autenticaçãoo de Usuário</rtspAuth>
+	<httpExtPort>Porta HTTP Externa</httpExtPort>
+	<rtspExtPort>Porta RTSP Externa</rtspExtPort>
+	<reboot1>A Câmera IP está reiniciando, por favor espere </reboot1>
+	<reboot2> segundos ...</reboot2>
+	<ipError1>Endereço IP não pode ser vazio</ipError1>
+	<subnetMaskError1>Máscara de Subrede não pode ser vazia</subnetMaskError1>
+	<routerError1>Gateway Padrão (Roteador) não pode ser vazio</routerError1>
+	<pppoeError1>Nome de Usuário PPPoE não pode ser vazio</pppoeError1>
+	<pppoeError2>Senha PPPoE não pode ser vazia</pppoeError2>
+	<pppoeError3>Confirmação de Senha PPPoE não pode ser vazia</pppoeError3>
+	<pppoeError4>Senha e confirmação de senha PPPoE são diferentes</pppoeError4>
+	<pppoeError5>Nome de usuário e senha PPPoE não aceitam caracteres não-ASCII e espeço</pppoeError5>
+	<pppoeStatusDisabled>Desabilitado</pppoeStatusDisabled>
+	<pppoeStatusConnected>Conectado</pppoeStatusConnected>
+	<pppoeStatusConnecting>Conectando</pppoeStatusConnecting>
+	<httpPortError1>Porta HTTP não pode ser vazia</httpPortError1>
+	<httpPortError2>Porta HTTP deve ser um número</httpPortError2>
+	<httpPortError3>Porta HTTP deve ser 80 ou entre 1025 e 65535</httpPortError3>
+	<httpPortError4>Porta HTTP não pode ser a mesma que a porta HTTPS</httpPortError4>
+	<httpPortError5>Porta HTTP deve estar entre 1 e 65535</httpPortError5>
+	<rtstPortError1>Porta RTSP não pode ser vazia</rtstPortError1>
+	<rtstPortError2>Porta RTSP deve ser um número</rtstPortError2>
+	<rtstPortError3>Porta RTSP deve ser 554 ou entre 1025 e 65535</rtstPortError3>
+	<rtstPortError4>Porta HTTP não pode ser a mesma que a porta RTSP</rtstPortError4>
+	<rtstPortError5>Porta RTSP deve estar entre 1 e 65535</rtstPortError5>
+	<httpExtPortError1>Porta Externa HTTP não pode ser vazia</httpExtPortError1>
+	<httpExtPortError2>Porta Externa HTTP deve ser um número</httpExtPortError2>
+	<httpExtPortError3>Porta Externa HTTP deve ser 80 ou entre 1025 e 65535</httpExtPortError3>
+	<httpExtPortError4>Porta Externa HTTP não pode ser a mesma que a porta externa HTTPS</httpExtPortError4>
+	<httpExtPortError5>Porta Externa HTTP deve estar entre 1 e 65535</httpExtPortError5>
+	<rtspExtPortError1>Porta Externa RTSP não pode ser vazia</rtspExtPortError1>
+	<rtspExtPortError2>Porta Externa RTSP deve ser um número</rtspExtPortError2>
+	<rtspExtPortError3>Porta Externa RTSP deve ser 554 ou entre 1025 e 65535</rtspExtPortError3>
+	<rtspExtPortError4>Porta Externa HTTP não pode ser a mesma porta externa RTSP</rtspExtPortError4>
+	<rtspExtPortError5>Porta Externa RTSP deve estar entre 1 e 65535</rtspExtPortError5>
+	<httpsPortError1>Porta HTTPS não pode ser vazia</httpsPortError1>
+	<httpsPortError2>Porta HTTPS deve ser um número</httpsPortError2>
+	<httpsPortError3>Porta HTTPS deve ser 443 ou entre 1025 e 65535</httpsPortError3>
+	<httpsPortError4>Porta HTTPS não pode ser a mesma que a porta RTSP</httpsPortError4>
+	<httpsPortError5>Porta HTTPS deve estar entre 1 e 65535</httpsPortError5>
+	<httpsExtPortError1>Porta Externa HTTPS não pode ser vazia</httpsExtPortError1>
+	<httpsExtPortError2>Porta Externa HTTPS não pode ser um número</httpsExtPortError2>
+	<httpsExtPortError3>Porta Externa HTTPS deve ser 443 ou entre 1025 e 65535</httpsExtPortError3>
+	<httpsExtPortError4>Porta Externa HTTPS não pode ser a mesma que a porta externa RTSP</httpsExtPortError4>
+	<httpsExtPortError5>Porta Externa HTTPS deve estar entre 1 e 65535</httpsExtPortError5>
+	<netErrorMessage1>O </netErrorMessage1>
+	<netErrorMessage2> octeto do </netErrorMessage2>
+	<netErrorMessage3> deve ser um número</netErrorMessage3>
+	<netErrorMessage4> deve ser um valor entre </netErrorMessage4>
+	<netErrorMessage5> e </netErrorMessage5>
+	<netErrorMessage6> deve ser </netErrorMessage6>
+	<netError>Configuração de Rede é inválida</netError>
+	<ipMessage1>Endereço IP</ipMessage1>
+	<ipMessage2>As configurações são inválidas</ipMessage2>
+	<ipMessage3>O endereço IP não pode ser zero.</ipMessage3>
+	<maskMessage1>Máscara de Subrede</maskMessage1>
+	<maskMessage2>Você inseriu uma máscara de subrede inválida. Por favor inserir uma máscara válida.</maskMessage2>
+	<maskMessage3>A máscade de subrede não pode ser zero</maskMessage3>
+	<routerMessage1>Endereço de Gateway Padrão (Roteador)</routerMessage1>
+	<routerMessage2>Endereço de Gateway Padrão (Roteador) inserido é inválido</routerMessage2>
+	<routerMessage3>Endereço de Gateway Padrão (Roteador) não pode ser zero</routerMessage3>
+	<priDnsMessage1>Endereço DNS Primário</priDnsMessage1>
+	<priDnsMessage2>Endereço DNS Primário inserido é inválido</priDnsMessage2>
+	<priDnsMessage3>Endereço DNS Primário não pode ser zero</priDnsMessage3>
+	<secDnsMessage1>Endereço DNS Secundário</secDnsMessage1>
+	<secDnsMessage2>Endereço DNS Secundário inserido é inválido</secDnsMessage2>
+	<secDnsMessage3>Endereço DNS Secundário não pode ser zero</secDnsMessage3>
+	<dnsErrMessage>Endereço DNS Primário e Secundário deve ser diferentes</dnsErrMessage>
+	<domainErrMessage>Pesquisa de domínio somente aceita números, alfabetos, \".\" , e caracteres \"-\"</domainErrMessage>
+	<apple>Apple</apple>
+	<bonjour>Bonjour</bonjour>
+	<disable>Desabilitado</disable>
+	<pppoeStatusFailed>Conexão Falhou</pppoeStatusFailed>
+	<lan1>Endereço IP Automático</lan1>
+	<Staticip>Endereço IP Estático</Staticip>
+	<dhcpip>UPnP Port Forward</dhcpip>
+	<ipv4set>Configurações IPv4</ipv4set>
+	<ipv6set>Configurações IPv6</ipv6set>
+	<manIpv6set>Configurar o endereço IP manualmente</manIpv6set>
+	<Ipv6AddrPre>Endereço IPv6 / Comprimento do prefixo</Ipv6AddrPre>
+	<Ipv6gateway>Gateway padrão (Roteador)</Ipv6gateway>
+	<Ipv6priDns>DNS primário opcional</Ipv6priDns>
+	<Ipv6secDns>DNS secundário opcional</Ipv6secDns>
+	<ipv6Message>O endereço IPv6 inserido é inválido.</ipv6Message>
+	<ipv6Message2>O comprimento do prefixo IPv6 deve estar entre 0 e 128.</ipv6Message2>
+	<ipv6Message3>O gateway padrão IPv6 (Roteador) inserido é inválido.</ipv6Message3>
+	<ipv6Message4>O endereço primário IPv6 inserido é inválido.</ipv6Message4>
+	<ipv6Message5>O endereço DNS Secundário IPv6 inserido é inválido.</ipv6Message5>
+	<ipv6Message6>O endereço DNS Primário IPv6 e Secundário devem ser diferentes.</ipv6Message6>
+	<ipv6Message7>O Gateway Padrão (Roteador) deve começar com FE80.</ipv6Message7>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<Staticip1>Esta opção é usada para configurar o IP de sua câmera com o endereço IP compatível com  as configurações de sua rede.</Staticip1>
+	<dhcpip1>Se o roteador suportar UPnP, suas câmeras e roteadores podem comunicar-se entre si desta forma o roteador sabe que portas são utilizadas por cada câmera.</dhcpip1>
+	<lan>Selecionar esta opção se você está utilizando um servidor DHCP em sua rede e gostaria de atribuir um endereço IP automaticamente em sua câmera.</lan>
+	<httpPort>Definir a porta da câmera para permitir conexão através de um navegador padrão.</httpPort>
+	<rtspPort>Definir a porta da câmera para permitir conexão através do QuickTime ou streaming em dispositivos móveis.</rtspPort>
+	<enableUpnp>Habilitar UPnP permitira que a câmera seja descoberta como um dispositivo UPnP na rede.</enableUpnp>
+	<bonjour>Habilitar Bonjour permitirá que a câmera seja descoberta por um computador Apple.</bonjour>
+	<pppoe>Esta opção é usada para configurar sua câmera para conectar diretamente à Internet. Se a câmera está conectada em um roteador ou gateway, não será necessário configurá-la.</pppoe>
+</hint>
+<message>
+	<ok>Alterações salvas.</ok>
+	<fail>Alterações falharam.</fail>
+	<invalidParameter>Falha de Configuração.</invalidParameter>
+	<settingNotChange>Configuração não mudou.</settingNotChange>
+	<saveOK>Servidor Web está reiniciando. Por favor espere 1 minuto e reconecte a câmera com o novo endereço IP.</saveOK>
+</message>

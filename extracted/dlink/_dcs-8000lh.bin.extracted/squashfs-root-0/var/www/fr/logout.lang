@@ -1,0 +1,11 @@
+<body>
+	<logout>Fermeture de session</logout>
+	<description1>La déconnexion entraînera la fermeture du navigateur.</description1>
+	<titleLogout>DÉCONNEXION</titleLogout>
+	<closewebpage>Veuillez fermer la page Web manuellement</closewebpage>
+</body>
+<hint>
+</hint>
+<message>
+</message>
+

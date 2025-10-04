@@ -1,0 +1,84 @@
+<body>
+	<camera>Camera</camera>
+	<description1>This section shows your camera's live video. You can control your settings using the buttons below. </description1>
+	<description2>Current resolution is </description2>
+	<sdNote>Please note that there is no SD Card plugged into the camera or the SD Card is not writable.</sdNote>
+	<sdManagement1>To format the SD Card in the camera, please disable SD Recording first and then go to the </sdManagement1>
+	<sdManagement2>SD Management</sdManagement2>
+	<sdManagement3> page.</sdManagement3>
+	<liveVideo>Live video</liveVideo>
+	<goTo>Go To</goTo>
+	<panSpeed>Pan Step</panSpeed>
+	<tiltSpeed>Tilt Step</tiltSpeed>
+	<language>Please select a language</language>
+	<english>English</english>
+	<mandarin>繁體中文</mandarin>
+	<simplechn>简体中文</simplechn>
+	<deutsch>Deutsch</deutsch>
+	<italiano>Italiano</italiano>
+	<espa>Español</espa>
+	<french>Français</french>
+	<portu>Português</portu>
+	<selectOne>-- Select One --</selectOne>
+	<stop>Stop</stop>
+	<snapshot>Snapshot</snapshot>
+	<setPath>Set Storage Folder</setPath>
+	<recording>Record</recording>
+	<stopRecording>Stop Recording</stopRecording>
+	<startSteamOut>Talk</startSteamOut>
+	<stopSteamOut>Stop Talking</stopSteamOut>
+	<listenOn>Listen</listenOn>
+	<profile1>Profile 1</profile1>
+	<profile2>Profile 2</profile2>
+	<profile3>Profile 3</profile3>
+	<profile4>Profile 4</profile4>
+	<profile5>Profile 5</profile5>
+	<listenOff>Stop Listening</listenOff>
+	<startGPOutput>Digital Output</startGPOutput>
+	<stopGPOutput>Stop Digital Output</stopGPOutput>
+	<ledOn>Led on</ledOn>
+	<ledOff>Led off</ledOff>
+	<fullScreen>Full Screen</fullScreen>
+	<diIndicator>Digital Input Indicator</diIndicator>
+	<moIndicator>Motion/Sound Trigger Indicator</moIndicator>
+	<reIndicator>Recording Indicator</reIndicator>
+	<talkNotify1>Create audio stream out failed, create socket failed</talkNotify1>
+	<talkNotify2>Connect to server failed</talkNotify2>
+	<talkNotify3>Audio line is occupied, please try it later.</talkNotify3>
+	<autoPan>Pan</autoPan>
+	<autoPatrol>Patrol</autoPatrol>
+	<irOn>IR LED on</irOn>
+	<irOff>IR LED off</irOff>
+	<zoomInOut>Zoom in/out:</zoomInOut>
+	<vlcHints1>Please get the latest VLC installer</vlcHints1>
+	<here> here </here>
+	<vlcHints2>and enable VLC Mozilla plugin during installation.</vlcHints2>
+	<privacyMode1>This camera is currently in Privacy mode.</privacyMode1>
+	<privacyMode2>To leave Privacy mode, Please go to </privacyMode2>
+	<privacyMode3>Admin</privacyMode3>
+	<enablePrivacy>Privacy Mode</enablePrivacy>
+	<left_up>Left Up</left_up>
+	<up>Up</up>
+	<right_up>Right Up</right_up>
+	<left>Left</left>
+	<left_down>Left Down</left_down>
+	<right_down>Right Down</right_down>
+	<right>Right</right>
+	<down>Down</down>
+	<Zoom_in>Zoom In</Zoom_in>
+	<Zoom_out>Zoom Out</Zoom_out>
+	<home>Home</home>
+	<javajreinfo1>This browser doesn't support or disable Java JRE .</javajreinfo1>
+	<javajreinfo2>Get the latest Java JRE here</javajreinfo2>
+	<javajreinfo3> or enable Java JRE.</javajreinfo3>
+	<javajreinfo4>This browser doesn't support or disable QuickTime .</javajreinfo4>
+	<javajreinfo5>Get the latest QuickTime Player</javajreinfo5>
+	<javajreinfo6>here</javajreinfo6>
+	<javajreinfo7>or enable QuickTime Player.</javajreinfo7>
+	<javajreinfo8>Click here to download the NCS Plug-in, and install it on your computer. Then restart your browser to view the video.</javajreinfo8>
+	<javajreinfo88>The browser you are using may have difficulty receiving images and video. If you experience any issues viewing this page, we suggest using Internet Explorer, Mozilla Firefox, or Apple Safari.</javajreinfo88>
+	<javajreinfo9>This browser doesn't support or disable QuickTime Player.</javajreinfo9>
+	<javajreinfo10>Get the latest QuickTime Player</javajreinfo10>
+	<javajreinfo11>here</javajreinfo11>
+	<javajreinfo12>or enable QuickTime Player.</javajreinfo12>
+</body>

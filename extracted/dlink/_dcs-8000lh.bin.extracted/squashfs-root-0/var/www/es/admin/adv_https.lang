@@ -1,0 +1,97 @@
+<body>
+	<httpstitle>CONFIGURACIÓN HTTPS</httpstitle>
+	<description1>Puede configurar aquí los parámetros de HTTPS.</description1>
+	<subtitle>CONFIGURACIÓN HTTPS</subtitle>
+	<enableHttps>Conexión HTTPS segura</enableHttps>
+	<connecttype>Tipo de conexión</connecttype>
+	<bothhttps>HTTP y HTTPS</bothhttps>
+	<onlyhttps>Sólo HTTPS</onlyhttps>
+	<creatmethod>Método para crear e instalar el certificado</creatmethod>
+	<autocreat>Crear de forma automática un certificado firmado automáticamente</autocreat>
+	<automanual>Crear de forma manual un certificado firmado automáticamente</automanual>
+	<creatandinstall>Crear solicitud de certificado e instalar</creatandinstall>
+	<country>País:</country>
+	<area>Estado o provincia:</area>
+	<locality>Localidad:</locality>
+	<organization>Organización:</organization>
+	<organizationUnit>Unidad de la organización:</organizationUnit>
+	<commonName>Nombre común:</commonName>
+	<validity>Validez:</validity>
+	<creatButton>Crear</creatButton>
+	<uploadText>Seleccionar archivo de certificado:</uploadText>
+	<upload>Cargar</upload>
+	<cerInfoTitel>Información del certificado</cerInfoTitel>
+	<cerStatus>Estado:</cerStatus>
+	<proerty>Propiedad</proerty>
+	<remove>Eliminar</remove>
+	<notinstall>No instalar</notinstall>
+	<active>Activo</active>
+	<waitCertificate>Esperar el certificado</waitCertificate>
+	<connectTypeError>Seleccione un tipo de conexión.</connectTypeError>
+	<noCerSaveError>Cree un certificado válido.</noCerSaveError>
+	<countryError>El país no puede estar vacío</countryError>
+	<countryError2>Introduzca el código de país correcto.</countryError2>
+	<stateError1>El estado o provincia no puede estar vacío</stateError1>
+	<stateError2>El estado o provincia no puede aceptar los caracteres: </stateError2>
+	<localError1>La localidad no puede estar vacía</localError1>
+	<localError2>La localidad no puede aceptar los caracteres: </localError2>
+	<orgError1>La organización no puede estar vacía</orgError1>
+	<orgError2>La organización no puede aceptar los caracteres: </orgError2>
+	<org_unitError1>La unidad de la organización no puede estar vacía</org_unitError1>
+	<org_unitError2>La unidad de la organización no puede aceptar los caracteres: </org_unitError2>
+	<commonNameError1>El nombre común no puede estar vacío</commonNameError1>
+	<commonNameError2>El nombre común no puede aceptar los caracteres: </commonNameError2>
+	<validityError>La validez no puede estar vacía</validityError>
+	<validityError2>Introduzca un número entero para el día de validez que esté entre 1 y 3.650</validityError2>
+	<validityError3>La validez sólo admite números enteros</validityError3>
+	<downLoad>Descargar solicitud de certificado</downLoad>
+	<removeError1>Para eliminar el certificado, desactive primero la conexión HTTPS.</removeError1>
+	<noDB>No se ha cargado ningún archivo de certificado.</noDB>
+	<removeConfirm>¿Desea eliminar el certificado?</removeConfirm>
+	<removeConfirm1>¿Desea eliminar la solicitud de certificado?</removeConfirm1>
+	<upLoadCertConfirm>¿Desea cargar el certificado?</upLoadCertConfirm>
+	<createCertError>Se está utilizando el certificado actual; elimínelo antes.</createCertError>
+	<createrCertError1>Elimine primero el certificado anterior.</createrCertError1>
+	<createrCertError2>Para crear un nuevo certificado, elimine antes la solicitud de certificado pendiente.</createrCertError2>
+	<buttonRmCertRequest>Eliminar solicitud de certificado</buttonRmCertRequest>
+	<KeyLength>Longitud de la clave:</KeyLength>
+	<bits>bits</bits>
+	<days>días</days>
+	<stateLengthErro>La longitud del estado o provincia debe estar entre 1 y 128 bytes.</stateLengthErro>
+	<localityLengthErro>La longitud de la localidad debe estar entre 1 y 128 bytes.</localityLengthErro>
+	<orgLengthErro>La longitud de la organización debe estar entre 1 y 64 bytes.</orgLengthErro>
+	<orgUnLengthErro>La longitud de la unidad de la organización debe estar entre 1 y 64 bytes.</orgUnLengthErro>
+	<commonNameLengthErro>La longitud del nombre común debe estar entre 1 y 64 bytes.</commonNameLengthErro>
+	<certRequest>Solicitud de certificado:</certRequest>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<HttpsHelpMain>La conexión HTTPS segura añade capacidad de cifrado a la conexión HTTP. Puede utilizar una conexión HTTP o HTTPS al mismo tiempo. Tenga en cuenta también: la canalización de vídeo/audio se realiza siempre sobre la conexión HTTP.</HttpsHelpMain>
+	<httpsHelp>Conexión HTTPS segura: permite al usuario utilizar el servicio HTTPS.</httpsHelp>
+	<httpsHelpIntro>Puede utilizar HTTP o HTTPS para conectarse a esta cámara.</httpsHelpIntro>
+	<connectType>Tipo de conexión</connectType>
+	<bothHttpAndHttps>HTTP y HTTPS</bothHttpAndHttps>
+	<bothHttpAndHttpsInfo>Puede seleccionar esta opción para permitir la conexión HTTP y HTTPS a la cámara.</bothHttpAndHttpsInfo>
+	<httpsOnly>Sólo HTTPS</httpsOnly>
+	<httpsOnlyInfo>Puede seleccionar esta opción para permitir únicamente la conexión HTTP a la cámara.</httpsOnlyInfo>
+	<createMethod>Método para crear e instalar el certificado</createMethod>
+	<autoCreateMethod>Crear de forma automática un certificado firmado automáticamente</autoCreateMethod>
+	<autoCreateMethodInfo>Seleccione este método para crear de forma automática un certificado firmado automáticamente.</autoCreateMethodInfo>
+	<manCreateMethod>Crear de forma manual un certificado firmado automáticamente</manCreateMethod>
+	<manCreateMethodinfo>Seleccione este método para crear un certificado firmado automáticamente especificando de forma manual los parámetros HTTPS.</manCreateMethodinfo>
+	<createAndInstallMethod>Crear solicitud de certificado e instalar</createAndInstallMethod>
+	<createAndInstallMethodInfo>Seleccionar este método permite enviar una solicitud de certificado a un organismo de certificación y cargar en la cámara el certificado firmado recibido del organismo.</createAndInstallMethodInfo>
+	<certInfo>Información del certificado</certInfo>
+	<certInfoExplain>Estado y resumen de la información acerca del certificado. Puede hacer clic en el botón Propiedad para ver más información detallada.</certInfoExplain>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<invalidParameter>Parámetro no válido.</invalidParameter>
+	<notChanged>La configuración no ha cambiado.</notChanged>
+	<changeFailed>Error al cambiar.</changeFailed>
+	<reboot1>Se está reiniciando el servidor web, espere </reboot1>
+	<reboot2> segundos ...</reboot2>
+	<upLoadOK>Carga correcta.</upLoadOK>
+	<invalidDB>El certificado firmado cargado no coincide con la solicitud de certificado original.</invalidDB>
+	<saveOK>Se está reiniciando el servidor web. Espere 1 minuto y después vuelva a conectar la cámara con la nueva dirección IP.</saveOK>
+</message>

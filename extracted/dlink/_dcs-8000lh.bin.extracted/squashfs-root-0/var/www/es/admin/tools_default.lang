@@ -1,0 +1,61 @@
+<body>
+	<maintenance>Sistema</maintenance>
+	<description1>Aquí podrá realizar copias de seguridad, restaurar y reiniciar su cámara.</description1>
+	<rebootDevice>Reiniciar el dispositivo</rebootDevice>
+	<rebootText>Reiniciar el dispositivo</rebootText>
+	<factory>Restab. en valores predet. de fábrica</factory>
+	<factoryDefault>Restab. valores predet. de fábrica</factoryDefault>
+	<calibrateText>Calibrar el dispositivo</calibrateText>
+	<calibrate>Calibrar el dispositivo</calibrate>
+	<reboot1>La cámara se está reiniciando en este momento, espere durante </reboot1>
+	<reboot2> segundos.</reboot2>
+	<system>SISTEMA</system>
+	<backupText>Guardar en la unidad de disco duro local</backupText>
+	<saveConfiguration>Guardar configuración</saveConfiguration>
+	<restoreText>Cargar desde unid. disco duro local</restoreText>
+	<privacyText>Modo de intimidad</privacyText>
+	<privacy>Ir a modo de intimidad</privacy>
+	<restoreConfiguration>Cargar configuración</restoreConfiguration>
+	<restoreConfirm>¿Desea restaurar los datos de configuración?</restoreConfirm>
+	<rebootConfirm>¿Desea reinicializar?</rebootConfirm>
+	<factoryConfirm>¿Desea volver a los valores predeterminados de fábrica?</factoryConfirm>
+	<reboot>Reiniciar</reboot> 
+	<schedule>Schedule Reboot Device</schedule> 
+	<sun>Dom</sun> 
+	<mon>Lun</mon> 
+	<tue>Mar</tue> 
+	<wed>Mié</wed> 
+	<thu>Jue</thu> 
+	<fri>Vie</fri> 
+	<sat>Sáb</sat>
+	<time>Hora</time> 
+	<savebutton>Guardar</savebutton>
+	<exportHint>Please enter a key to save the configuration. And reserve the key carefully for loading the configuration.</exportHint>
+	<importHint>Please enter the key for loading the configuration.</importHint>
+	<exportError>Key can't be empty.</exportError>
+	<importError>The key is required to load the configuration.</importError>
+	<keyError>The key only accepts number, alphabet, \".\", \"_\", and \"-\". The maximum is 30 characters.</keyError>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<maintenance>Una vez restaurados los parámetros predeterminados de fábrica, utilice el software del asistente de instalación suministrado con su cámara para buscar y conectarse a la cámara.</maintenance>
+</hint>
+<message>
+	<updateOK>la actualización es correcta</updateOK>
+	<uploadFail>error al cargar</uploadFail>
+	<examFail>se ha dañado la imagen de carga</examFail>
+	<infoFail>la imagen de carga no tiene información</infoFail>
+	<invalidImage>la imagen de carga no se puede utilizar en este producto</invalidImage>
+	<resetFail>error al reiniciar</resetFail>
+	<resetOK>La cámara comenzará el proceso de restauración. Espere 1 minuto y después vuelva a conectar la cámara con la nueva dirección IP.</resetOK>
+	<rebootFail>error al arrancar</rebootFail>
+	<rebootOK>Se ha realizado el arranque</rebootOK>
+	<calibrationOK>La calibración es correcta</calibrationOK>
+	<goSleepOK>modo de intimidad correcto</goSleepOK>
+	<importOK>La cámara empezará a cargar la configuración. Espere 1 minuto y después vuelva a conectar la cámara con la nueva dirección IP.</importOK>
+	<invalidDB>El archivo de configuración no es válido</invalidDB>
+	<noDB>No se ha cargado ningún archivo de configuración</noDB>
+	<saveOK>Se está reiniciando el servidor web. Espere 75 segundos y después vuelva a conectar la cámara con la nueva dirección IP.</saveOK>
+	<scheduleOK>Cambios guardados.</scheduleOK>
+</message>
+

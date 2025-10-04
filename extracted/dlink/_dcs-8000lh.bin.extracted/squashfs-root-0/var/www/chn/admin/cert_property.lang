@@ -1,0 +1,23 @@
+<body>
+	<certpropertyTitle>证书信息</certpropertyTitle>
+	<Certificate>证书</Certificate>
+	<Version>版本</Version>
+	<SerialNumber>序列号</SerialNumber>
+	<SignatureAlgorithm>签名算法</SignatureAlgorithm>
+	<Issuer>发行者</Issuer>
+	<Validity>有效期</Validity>
+	<NotValidBefore>起始有效期</NotValidBefore>
+	<NotValidAfter>终止有效期</NotValidAfter>
+	<Subject>主体</Subject>
+	<SubjectPKI>主体公钥信息</SubjectPKI>
+	<PublicKA>公钥算法</PublicKA>
+	<RSAPK>RSA 公钥</RSAPK>
+	<Exponent>Exponent:</Exponent>
+	<Signature>署名</Signature>
+	<Algorithm>署名算法</Algorithm>
+	<pemFormat>证书 (PEM 格式)</pemFormat>
+</body>
+<hint>
+</hint>
+<message>
+</message>

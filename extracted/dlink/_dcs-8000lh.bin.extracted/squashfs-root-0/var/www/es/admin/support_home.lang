@@ -1,0 +1,49 @@
+<body>
+	<liveVideo>VÍDEO EN DIRECTO</liveVideo>
+	<camera>Cámara</camera>
+	<videoProfile>Perfil de vídeo</videoProfile>
+	<videoProfile1>: estos iconos muestran los parámetros actuales para el perfil de vídeo. Si se utiliza un explorador que no sea IE, seleccione los iconos disponibles.</videoProfile1>
+	<fullScreen>Pantalla completa</fullScreen>
+	<fullScreen1> : pulse este icono para ampliar el vídeo en directo a pantalla completa.</fullScreen1>
+	<snapshot>Instantánea</snapshot>
+	<snapshot1> : al hacer clic en el icono se guarda una imagen en formato JPEG en el ordenador.</snapshot1>
+	<recording>Grabación</recording>
+	<recording1> : grabará inmediatamente el vídeo en una ruta de archivo predeterminada.</recording1>
+	<setPath>Establecer carpeta de almacenamiento</setPath>
+	<setPath1> : haga clic en el icono para configurar la ubicación predeterminada en la que se almacenan los datos cuando de utiliza el botón Instantánea o Grabar.</setPath1>
+	<listen>Escuchar</listen>
+	<listen1>: haga clic en este botón para alternar entre desactivar y activar el audio. El audio se seguirá grabando.</listen1> 
+	<talk>Hablar</talk>
+	<led>LED de IR</led>
+	<led1>: haga clic en el botón para encender/apagar el LED IR en la cámara para activar la visión nocturna. Este botón solo está disponible cuando el modo día/noche está en IR manual.</led1>
+	<zoomInOut>Ampliar/reducir:</zoomInOut>
+	<zoomInOut1> : haga clic en estos botones para ampliar o reducir digitalmente (aumentar 1 vez, 2 veces o 4 veces) el vídeo en directo.</zoomInOut1>
+	<talk1> : haga clic en el botón para apagar y encender el sonido desde el PC a la cámara.</talk1>
+	<digitalOut>Salida digital</digitalOut>
+	<digitalOut1> : haga clic en el botón para enviar las señales de alarma al conector de salida digital.</digitalOut1>
+	<digitalInputTrigger>Indicador de entrada digital</digitalInputTrigger>
+	<digitalInputTrigger1> : este indicador parpadeará cuando se detecte la entrada digital.</digitalInputTrigger1>
+	<motionTrigger>Indicador de activación por movimiento/sonido</motionTrigger>
+	<motionTrigger1> : este indicador parpadeará cuando se active la detección de movimiento o sonido.</motionTrigger1>
+	<recordingTrigger>Indicador de grabación</recordingTrigger>
+	<recordingTrigger1> : este indicador parpadeará cuando esté activa la grabación.</recordingTrigger1>
+	<pantiltcontrol>Control de panorámica inclinación</pantiltcontrol>
+	<pantiltcontrol1>: puede controlar la posición de la lente de la cámara haciendo clic en los botones de flecha Arriba/Abajo/Izquierda/Derecha/Izquierda arriba/Izquierda abajo/Derecha arriba/Derecha abajo. Al hacer clic en el botón Inicio, moverá la lente a la posición inicial original.</pantiltcontrol1>
+	<pan>Panorámica</pan>
+	<pan1>: este botón ordena a la cámara que haga una panorámica desde la posición más a la izquierda a la posición más a la derecha. Después de realizar la panorámica, la cámara vuelve a la posición original.</pan1>
+	<patrol>Vigilancia</patrol>
+	<patrol1>: haga clic en este botón para mover la cámara, para ver las posiciones preestablecidas configuradas en el menú Posición preestablecida. Se configura también el orden en que se visualizan estas posiciones y la cantidad de tiempo que permanece la cámara en la posición en el menú Posición preestablecida. </patrol1>
+	<stop>Detener</stop>
+	<stop1>: haga clic para detener la cámara en la posición actual (se utiliza para los modos de panorámica y vigilancia). </stop1>
+	<goto>Ir a</goto>
+	<gotol> : le permite mover la lente a una posición preestablecida programada con anterioridad.</gotol>
+	<panspeed>Paso de panorámica</panspeed>
+	<panspeed1> : se utiliza para controlar el ritmo al que se mueve la cámara al utilizar la característica de panorámica.</panspeed1>
+	<tiltspeed>Paso de inclinación</tiltspeed>
+	<tiltspeed1> : se utiliza para controlar el ritmo al que se mueve la cámara al utilizar la característica de inclinación.</tiltspeed1>
+	<language>Selección de idioma</language>
+	<language1> : seleccione el idioma que prefiera para el sitio web en la lista desplegable.</language1>
+	<recordingError>Error de grabación</recordingError>
+	<recordingError1> : este indicador parpadeará cuando existan errores en la grabación.</recordingError1>
+</body>
+

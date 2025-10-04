@@ -1,0 +1,242 @@
+<body>
+	<welcome>bem-vindo ao Assistente de configuração da d-link - configuração de conexão de internet</welcome>
+	<description1>Este assistente irá guiá-lo através de um processo passo a passo para configurar e conectar sua câmera D-Link à Internet. Para suas configurações de deteção de movimento de câmera, por favor, clique botão Voltar para fechar o assistente e selecione o Assistente de configuração de deteção de movimento.</description1>
+	<step1>Passo 1: </step1>
+	<note1>Configurações de LAN</note1>
+	<step2>Passo 2: </step2>
+	<note2>Configurações de Internet</note2>
+	<step3>Passo 3: </step3>
+	<note3>Configurações de DDNS</note3>
+	<step4>Passo 4: </step4>
+	<note4>Configurações de nome de câmera</note4>
+	<step5>Passo 5: </step5>
+	<note5>Fuso horário</note5>
+	<step6>Passo 6: </step6>
+	<note6>Instalação completa</note6>
+	<back>Voltar</back>
+	<Automatic>Automático</Automatic>
+	<next>Próximo</next>
+	<cancel>Cancelar</cancel>
+	<dnsErrMessage>O endereço de DNS primário e secundário devem ser diferentes</dnsErrMessage>
+	<description2>Por favor selecione se sua câmera irá se conectar à Internet com um endereço IP automático ou estático. Se sua câmera está conectada a um roteador, ou tiver a certeza quais configurações escolher, a D-Link recomenda que você mantenha a seleção padrão de endereço de IP automático. Caso contrário, selecione o endereço IP estático para atribuir manualmente um endereço IP antes de clicar no botão seguinte.</description2>
+	<dhcp>Endereço IP automático</dhcp>
+	<static>Endereço IP estático</static>
+	<ip>Endereço IPv4</ip>
+	<mask>Máscara de sub-rede</mask>
+	<gateway>Gateway padrão (Roteador)</gateway>
+	<priDns>DNS primário opcional</priDns>
+	<secDns>DNS secundário opcional</secDns>
+	<searchDomain>Pesquisa de domínio opcional</searchDomain>
+	<description3>Se seu provedor está usando PPPoE, por favor, ative essa configuração e digite seu usuário e senha do provedor. Então, clique no botão seguinte. Contate o seu provedor se você não sabe seu nome de usuário e senha.</description3>
+	<networkipseterror>As configurações são inválidas</networkipseterror>
+	<disable>Desabilitado</disable>
+	<enable>Habilitar</enable>
+	<enabled>Habilitar</enabled>
+	<username>Nome de usuário</username>
+	<eq>(ex. 123456@hinet.net)</eq>
+	<password>Senha</password>
+	<description4>Se você tiver uma conta Dynamic DNS e gostaria que a câmera atualizasse o endereço IP automaticamente, por favor, habilitar DDNS e inserir as informações de host abaixo. Em seguida, clique no botão seguinte para continuar.</description4>
+	<selectDDNS>Selecione o servidor DDNS</selectDDNS>
+	<ddns1>www.dlinkddns.com</ddns1>
+	<ddns2>www.DynDNS.org</ddns2>
+	<serverAddress>Endereço do servidor</serverAddress>
+	<hostName>Nome do host</hostName>
+	<usernameOrKey>Nome do usuário</usernameOrKey>
+	<passwordOrKey>Senha</passwordOrKey>
+	<verifyPassword>Confirmar senha</verifyPassword>
+	<timeout>Tempo limite</timeout>
+	<hours>Horas</hours>
+	<ddnshours>Horas</ddnshours>
+	<minutes>Minutos</minutes>
+	<description5>D-Link recomenda que você renomeie sua câmera para fácil acessibilidade. Você pode identificar e se conectar a sua câmera através deste nome. Por favor, atribua um nome de sua escolha antes de clicar no botão seguinte.</description5>
+	<cameraName>Nome de câmera</cameraName>
+	<description6>Por favor, configure o tempo correto para garantir que todos os eventos sejam acionados, capturados e programados na hora certa. Em seguida, clique no botão seguinte.</description6>
+	<timeZone>Fuso horário</timeZone>
+	<daylightSaving>Habilitar horário de verão</daylightSaving>
+	<description8>Abaixo está um resumo das suas configurações de câmera. </description8>
+	<description7>Clique no botão voltar para rever ou modificar as configurações ou clique no botão Aplicar, se todas as configurações estão corretas. Recomenda-se anotar essas configurações para acessar a sua câmera na rede, ou por meio do navegador web. </description7>
+	<ipCameraName>Nome de câmera</ipCameraName>
+	<ddns>DDNS</ddns>
+	<pppoe>PPPoE</pppoe>
+	<apply>Aplicar</apply>
+	<timeZone1>(GMT-12:00) Linha Internacinal de Data Ocidental</timeZone1>
+	<timeZone2>(GMT+13:00) Samoa</timeZone2>
+	<timeZone3>(GMT-10:00) Hawaii</timeZone3>
+	<timeZone4>(GMT-09:00) Alaska</timeZone4>
+	<timeZone5>(GMT-08:00) Horário do Pacífico (EUA &amp; Canadá)</timeZone5>
+	<timeZone6>(GMT-08:00) Tijuana, Baja California</timeZone6>
+	<timeZone7>(GMT-07:00) Chihuahua, La Paz, Mazatlan</timeZone7>
+	<timeZone8>(GMT-07:00) Horário das Montanhas (EUA &amp; Canadá)</timeZone8>
+	<timeZone9>(GMT-07:00) Arizona</timeZone9>
+	<timeZone10>(GMT-06:00) América Central</timeZone10>
+	<timeZone11>(GMT-06:00) Guadalajara, Cidade do México, Monterrey</timeZone11>
+	<timeZone12>(GMT-06:00) Saskatchewan</timeZone12>
+	<timeZone13>(GMT-06:00) Horário Central (EUA &amp; Canadá)</timeZone13>
+	<timeZone14>(GMT-05:00) Bogota, Lima, Quito</timeZone14>
+	<timeZone15>(GMT-05:00) Horário do Leste (EUA &amp; Canadá)</timeZone15>
+	<timeZone16>(GMT-05:00) Indiana (Leste)</timeZone16>
+	<timeZone17>(GMT-04:30) La Paz, Georgetown</timeZone17>
+	<timeZone18>(GMT-04:00) Hora do Atlântico (Canada)</timeZone18>
+	<timeZone19>(GMT-03:00) Santiago</timeZone19>
+	<timeZone20>(GMT-04:00) Manaus</timeZone20>
+	<timeZone21>(GMT-03:30) Newfoundland</timeZone21>
+	<timeZone22>(GMT-03:00) Buenos Aires</timeZone22>
+	<timeZone23>(GMT-03:00) Brasilia</timeZone23>
+	<timeZone24>(GMT-03:00) Greenland</timeZone24>
+	<timeZone25>(GMT-03:00) Montevideo</timeZone25>
+	<timeZone26>(GMT-02:00) Mid-Atlantic</timeZone26>
+	<timeZone27>(GMT-01:00) Azores</timeZone27>
+	<timeZone28>(GMT-01:00) Cape Verde Is.</timeZone28>
+	<timeZone29>(GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</timeZone29>
+	<timeZone30>(GMT) Monrovia, Reykjavik</timeZone30>
+	<timeZone31>(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</timeZone31>
+	<timeZone32>(GMT+01:00) West Central Africa</timeZone32>
+	<timeZone33>(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</timeZone33>
+	<timeZone34>(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</timeZone34>
+	<timeZone35>(GMT+01:00) Amsterdam, Berlin, Bern, Roma, Stockholm, Vienna</timeZone35>
+	<timeZone36>(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</timeZone36>
+	<timeZone37>(GMT+02:00) Athens, Bucharest, Istanbul</timeZone37>
+	<timeZone38>(GMT+02:00) Beirut</timeZone38>
+	<timeZone39>(GMT+02:00) Harare, Pretoria</timeZone39>
+	<timeZone40>(GMT+02:00) Cairo</timeZone40>
+	<timeZone41>(GMT+02:00) Minsk</timeZone41>
+	<timeZone42>(GMT+02:00) Amman</timeZone42>
+	<timeZone43>(GMT+01:00) Windhoek</timeZone43>
+	<timeZone44>(GMT+02:00) Jerusalem</timeZone44>
+	<timeZone45>(GMT+03:00) Baghdad</timeZone45>
+	<timeZone46>(GMT+03:00) Moscow, St. Petersburg, Volgograd</timeZone46>
+	<timeZone47>(GMT+04:00) Tbilisi</timeZone47>
+	<timeZone48>(GMT+03:00) Nairobi</timeZone48>
+	<timeZone49>(GMT+03:00) Kuwait, Riyadh</timeZone49>
+	<timeZone50>(GMT+03:30) Tehran</timeZone50>
+	<timeZone51>(GMT+04:00) Baku</timeZone51>
+	<timeZone52>(GMT+04:00) Abu Dhabi, Muscat</timeZone52>
+	<timeZone53>(GMT+04:00) Yerevan</timeZone53>
+	<timeZone54>(GMT+04:30) Kabul</timeZone54>
+	<timeZone55>(GMT+05:00) Yekaterinburg</timeZone55>
+	<timeZone56>(GMT+05:00) Islamabad, Karachi, Tashkent</timeZone56>
+	<timeZone57>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</timeZone57>
+	<timeZone58>(GMT+05:30) Sri Jayawardenepura</timeZone58>
+	<timeZone59>(GMT+05:45) Kathmandu</timeZone59>
+	<timeZone60>(GMT+06:00) Astana, Dhaka</timeZone60>
+	<timeZone61>(GMT+06:00) Novosibirsk</timeZone61>
+	<timeZone62>(GMT+06:30) Yangon (Rangoon)</timeZone62>
+	<timeZone63>(GMT+07:00) Krasnoyarsk</timeZone63>
+	<timeZone64>(GMT+07:00) Bangkok, Hanoi, Jakarta</timeZone64>
+	<timeZone65>(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</timeZone65>
+	<timeZone66>(GMT+08:00) Taipei</timeZone66>
+	<timeZone67>(GMT+08:00) Irkutsk</timeZone67>
+	<timeZone68>(GMT+08:00) Perth</timeZone68>
+	<timeZone69>(GMT+08:00) Kuala Lumpur, Singapore</timeZone69>
+	<timeZone70>(GMT+09:00) Yakutsk</timeZone70>
+	<timeZone71>(GMT+09:00) Osaka, Sapporo, Tokyo</timeZone71>
+	<timeZone72>(GMT+09:00) Seoul</timeZone72>
+	<timeZone73>(GMT+09:30) Adelaide</timeZone73>
+	<timeZone74>(GMT+09:30) Darwin</timeZone74>
+	<timeZone75>(GMT+10:00) Hobart</timeZone75>
+	<timeZone76>(GMT+10:00) Brisbane</timeZone76>
+	<timeZone77>(GMT+10:00) Vladivostok</timeZone77>
+	<timeZone78>(GMT+10:00) Canberra, Melbourne, Sydney</timeZone78>
+	<timeZone79>(GMT+10:00) Guam, Port Moresby</timeZone79>
+	<timeZone80>(GMT+10:00) Magadan</timeZone80>
+	<timeZone81>(GMT+12:00) Fiji</timeZone81>
+	<timeZone82>(GMT+12:00) Auckland, Wellington</timeZone82>
+	<timeZone83>(GMT+13:00) Nukualofa</timeZone83>
+	<timeZone84>(GMT-04:30) Caracas</timeZone84>
+	<timeZone85>(GMT+11:00) Solomon Is., New Caledonia</timeZone85>
+	<timeZone86>(GMT) Casablanca</timeZone86>
+	<timeZone87>(GMT+08:00) Ulaanbaatar</timeZone87>
+	<timeZone88>(GMT+04:00) Asuncion</timeZone88>
+	<reboot1>Reconectando, por favor espere  </reboot1>
+	<reboot2> segundos ...</reboot2>
+	<ipError1>Endereço IP não pode ser vazio</ipError1>
+	<subnetMaskError1>Máscara de sub-rede não pode ser vazia</subnetMaskError1>
+	<routerError1>Gateway padrão (roteador) não pode ser vazio</routerError1>
+	<pppoeError1>Nome de Usuário PPPoE não pode ser vazio</pppoeError1>
+	<pppoeError2>Senha PPPoE não pode ser vazio</pppoeError2>
+	<pppoeError3>Confirmação de senha PPPoE não pode ser vazia</pppoeError3>
+	<pppoeError4>Senha e confirmação de senha PPPoE são diferentes</pppoeError4>
+	<pppoeError5>Nome de Usuário e Senha PPPoE não podem aceitar caracteres não-ASCII e espaço</pppoeError5>
+	<netErrorMessage1>O </netErrorMessage1>
+	<netErrorMessage2> octeto do </netErrorMessage2>
+	<netErrorMessage3> deve ser um número</netErrorMessage3>
+	<netErrorMessage4> deve ser um número entre </netErrorMessage4>
+	<netErrorMessage5> e </netErrorMessage5>
+	<netErrorMessage6> deve ser </netErrorMessage6>
+	<netError>Configuração de rede é inválida</netError>
+	<ipMessage1>Endereço IP</ipMessage1>
+	<ipMessage2>As configurações são inválidas</ipMessage2>
+	<ipMessage3>O endereço IP não pode ser zero.</ipMessage3>
+	<maskMessage1>Máscara de sub-rede</maskMessage1>
+	<maskMessage2>A máscara de sub-rede inserida é inválida</maskMessage2>
+	<maskMessage3>A máscara de sub-rede não pode ser zero</maskMessage3>
+	<routerMessage1>Endereço padrão de Gateway (roteador)</routerMessage1>
+	<routerMessage2>O endereço de Gateway padrão (roteador) digitado é inválido</routerMessage2>
+	<routerMessage3>O endereço de Gateway padrão (roteador) não pode ser zero</routerMessage3>
+	<priDnsMessage1>Endereço DNS primário</priDnsMessage1>
+	<priDnsMessage2>O endereço DNS primário inserido é inválido</priDnsMessage2>
+	<priDnsMessage3>O endereço DNS primário não pode ser zero</priDnsMessage3>
+	<secDnsMessage1>Endereço DNS secundário</secDnsMessage1>
+	<secDnsMessage2>O endereço de DNS secundário inserido é inválido</secDnsMessage2>
+	<secDnsMessage3>O endereço de DNS secundário não pode ser zero</secDnsMessage3>
+	<domainErrMessage>Pesquisa de domínio aceita somente número, alfabeto, e caracteres \". \", \"-\"</domainErrMessage>
+	<ddnsError1>Nome de host DDNS não pode ser vazio, só aceita número, alfabeto, e caracteres \". \", \"-\" e \"_\"</ddnsError1>
+	<ddnsError2>Nome de Usuário DDNS não pode ser vazio</ddnsError2>
+	<ddnsError3>Senha DDNS não pode ser vazia</ddnsError3>
+	<ddnsError4>Senha e confirmação de senha DDNS são diferentes</ddnsError4>
+	<ddnsError5>Nome de usuário e senha DDNS não podem aceitar caracteres não-ASCII e espaço</ddnsError5>
+	<ddnsError6>Por favor, selecione um servidor de DNS dinâmico</ddnsError6>
+	<ddnsError7>Tempo limite de DDNS deve ser um número</ddnsError7>
+	<ddnsError8>Tempo limite de DDNS deve estar entre 24 e 65535</ddnsError8>
+	<ddnsError9>Tempo limite de DDNS deve ser um número inteiro</ddnsError9>
+	<ddnsServerError>Por favor, verifique formato de endereço DDNS Servidor</ddnsServerError>
+	<ddnsServerError1>DDNS endereço do servidor não pode ser vazio</ddnsServerError1>
+	<signupMsg>Cadastre-se para o serviço grátis de DDNS D-Link no </signupMsg>
+	<autoDST>Horário de verão automático</autoDST>
+	<manual>Definir DST manualmente</manual>
+	<offset>Compensar</offset>
+	<seconds>Segundos</seconds>
+	<month>Mês</month>
+	<week>Semana</week>
+	<dayOfWeek>Dia da Semana</dayOfWeek>
+	<startTime>Horário Inicial</startTime>
+	<endTime>Horário Final</endTime>
+	<sun>Domingo</sun>
+	<mon>Segunda</mon>
+	<tue>Terçca</tue>
+	<wed>Quarta</wed>
+	<thu>Quinta</thu>
+	<fri>Sexta</fri>
+	<sat>Sábado</sat>	
+	<hourError>Hora inválida</hourError>
+	<minuteError>Minuto inválido</minuteError>
+	<secondError>Segundo inválido</secondError>
+	<description4DDNS>http://www.DlinkDDNS.com</description4DDNS>
+	<cameraNameError>Nome da câmera não pode estar vazio</cameraNameError>
+	<cameraNameLimitError>Nome da câmera não pode aceitar o caractere de espaço.</cameraNameLimitError>
+	<cameraNameLimitError1>Nome de câmera só aceita número, alfabeto e caracteres \"-\" </cameraNameLimitError1>
+	<ddnsErrorUser>Nome de usuário DDNS não pode ser vazio, só aceita número, alfabeto, e caracteres \". \", \"-\" e \"_\"</ddnsErrorUser>
+	<ipv4set>Configurações IPv4</ipv4set>
+	<ipv6set>Configurações IPv6</ipv6set>
+	<manIpv6set>Configurar manualmente o endereço IP</manIpv6set>
+	<Ipv6AddrPre>Endereço IPv6 / Comprimento do prefixo</Ipv6AddrPre>
+	<Ipv6gateway>Gateway padrão (Roteador)</Ipv6gateway>
+	<Ipv6priDns>DNS primário opcional</Ipv6priDns>
+	<Ipv6secDns>DNS secundário opcional</Ipv6secDns>
+	<ipv6Message>O endereço IPv6 digitado é inválido.</ipv6Message>
+	<ipv6Message2>Tamanho de prefixo IPv6 deve estar entre 0 e 128.</ipv6Message2>
+	<ipv6Message3>O Gateway padrão IPv6 (roteador) inserido é inválido.</ipv6Message3>
+	<ipv6Message4>O endereço primário DNS IPv6 digitado é inválido.</ipv6Message4>
+	<ipv6Message5>O endereço secundário DNS IPv6 digitado é inválido.</ipv6Message5>
+	<ipv6Message6>O endereços primário e secundário de DNS IPv6 devem ser diferentes.</ipv6Message6>
+	<ipv6Message7>O Default Gateway IPv6 (roteador) deve começar com FE80.</ipv6Message7>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<description1>Se você for um usuário avançado e tiver configurado uma câmera de Internet antes, clique em 'Configuração de conexão de Internet Manual' para inserir todos os parâmetros manualmente.</description1>
+	<description2>Se você se considera um usuário avançado e deseja configurar manualmente as definições de detecção de movimento, clique em 'Configuração de deteção de movimento Manual' para inserir todos os parâmetros manualmente.</description2>
+</hint>
+<message>
+	<ok>Alterações salvas.</ok>
+	<saveOK>Reiniciando o servidor Web. Por favor, aguarde 1 minuto e, em seguida, ligue a câmera com o novo endereço IP.</saveOK>
+</message>

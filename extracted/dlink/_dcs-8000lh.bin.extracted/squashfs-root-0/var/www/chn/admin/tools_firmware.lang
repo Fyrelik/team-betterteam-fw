@@ -1,0 +1,54 @@
+<body>
+	<description1>新固件升级可用于您的IP摄像机。建议将IP摄像机固件保持最新以便保存和提高网络摄像机的功能和性能。单击此处 </description1>
+	<description2>D-Link支持页面</description2>
+	<description3>选择可用的最新固件版本。</description3>
+	<description4>要升级IP摄像机的固件，请先从D-Link支持页面下载最新固件版本并保存到本地硬盘。单击浏览按钮查找在本地硬盘上的文件。使用浏览按钮，找到并打开文件，单击“上传”按钮开始固件升级。</description4>
+	<firmwareUpgrade>固件升级</firmwareUpgrade>
+	<filePath>文件路径:</filePath>
+	<upload>上传</upload>
+	<reboot1>摄像机正在重启，请等待</reboot1>
+	<reboot2>秒。</reboot2>
+	<firmwareInfo>固件信息</firmwareInfo>
+	<firmwareVersion>当前固件版本：</firmwareVersion>
+	<firmwareProduct>当前固件号：</firmwareProduct>
+	<mcufirmware>当前MCU固件号：</mcufirmware>
+	<updateConfirm>您要更新固件吗？</updateConfirm>
+	<updatingText>固件升级进行时，请不要关闭该web页面或拔出电线。</updatingText>
+	<filepathError>文件路径不能为空。</filepathError>
+	<progress>上传进度</progress>
+	<agentVersion>当前代理版本:</agentVersion>
+	<cameraName>摄像机名称</cameraName>
+	<timeAndDate>时间和日期</timeAndDate>
+	<macAddress>MAC 地址</macAddress>
+	<ipAddress>IPv4 地址</ipAddress>
+	<subnetMask>IPv4 子网掩码</subnetMask>
+	<defaultRouter>IPv4 默认网关</defaultRouter>
+	<primaryDns>IPv4 首选DNS</primaryDns>
+	<secondaryDns>IPv4 备用DNS</secondaryDns>
+	<ipv6Address>IPv6 地址/前缀长度</ipv6Address>
+	<networksearchdomain>搜索域</networksearchdomain>
+	<region>region</region>
+	<regionBand>regionBand</regionBand>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<description1>定期发布的固件更新用于提高IP摄像机的功能并添加新特性。如果运行IP摄像机特性遇到问题时，单击此处连接我们的支持网站: </description1>
+	<description2>点击此处</description2>
+	<description3>选择升级并查看是否有IP摄像机可用的更新固件。</description3>
+</hint>
+<message>
+	<updateOK>固件升级成功</updateOK>
+	<uploadFail>上传失败</uploadFail>
+	<examFail>上传档案已损坏。</examFail>
+	<infoFail>上传档案无信息。</infoFail>
+	<invalidImage>上传档案不能用于该产品。</invalidImage>
+	<resetFail>复位失败</resetFail>
+	<resetOK>复位完成</resetOK>
+	<rebootFail>重启失败</rebootFail>
+	<rebootOK>重启完成</rebootOK>
+	<calibrationOK>校正成功</calibrationOK>
+	<importOK>导入成功，设备将重启。</importOK>
+	<invalidDB>无有效DB文件。</invalidDB>
+	<noDB>无DB文件上传。</noDB>
+	<saveOK>服务器正在重启，请等待75秒钟，然后使用新IP地址连接摄像机。</saveOK>
+</message>

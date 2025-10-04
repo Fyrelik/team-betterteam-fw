@@ -1,0 +1,11 @@
+<body>
+	<logout>Disconnetti</logout>
+	<description1>Effettuando la disconnessione, il browser verrà chiuso.</description1>
+	<titleLogout>DISCONNETTI</titleLogout>
+	<closewebpage>Chiudere la pagina Web manualmente</closewebpage>
+</body>
+<hint>
+</hint>
+<message>
+</message>
+

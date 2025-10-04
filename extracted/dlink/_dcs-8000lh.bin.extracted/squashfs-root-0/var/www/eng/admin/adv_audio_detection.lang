@@ -1,0 +1,19 @@
+<body>
+	<audioDetection>SOUND DETECTION</audioDetection>
+	<description1>In order to enable your camera Sound Detection, you must select the checkbox of 'Sound Detection' and configure the Detection Level setting of your camera for your detection environment.</description1>
+	<subtitle>SOUND DETECTION</subtitle>
+	<audioLevel>Detection Level</audioLevel>
+	<enableaudiodetection>Sound Detection</enableaudiodetection>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<audiodetection>Sound Detection detects sound events using the microphone on the camera.</audiodetection>
+	<audiodetectionType>Detection Level</audiodetectionType>
+	<audiodetectionTypeText>Set the Detection Level of sound detection algorithm to trigger sound events. Lower Detection Level makes small sound easier to be detected.</audiodetectionTypeText>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<invalidParameter>invalid Parameter.</invalidParameter>
+	<nothingChange>Setting not changed.</nothingChange>
+	<fail>Changes failed.</fail>
+</message>

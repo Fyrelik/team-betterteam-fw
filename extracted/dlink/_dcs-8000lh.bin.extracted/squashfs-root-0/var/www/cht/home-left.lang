@@ -1,0 +1,40 @@
+<leftPanel>
+	<camera>攝影機</camera>
+	<logout>登出</logout>
+	<titleLiveVideo>即時影像</titleLiveVideo>
+	<wizard>設定精靈</wizard>
+	<networkSettings>網路設定</networkSettings>
+	<apRouter>直接連接設定</apRouter>
+	<wireless>無線網路設定</wireless>
+	<ddns>動態 DNS</ddns>
+	<imageSettings>影像設定</imageSettings>
+	<audioVideo>音訊和視訊</audioVideo>
+	<mailFtp>電子郵件與 FTP</mailFtp>
+	<motionDetection>移動偵測</motionDetection>
+	<audio_detection>音頻偵測</audio_detection>
+	<timeAndDate>時間與日期</timeAndDate>
+	<cameraControl>攝影機控制</cameraControl>
+	<recording>SD 錄影</recording>
+	<snapshot>快照</snapshot>
+	<digitalOutput>數位輸出</digitalOutput>
+	<videoclip>視訊短片</videoclip>
+	<rs485>RS-485</rs485>
+	<ack>致謝</ack>
+	<logout>登出</logout>
+	<titleSetup>設定</titleSetup>
+	<deviceInfo>裝置資訊</deviceInfo>
+	<log>日誌</log>
+	<logout>登出</logout>
+	<titleStatus>狀態</titleStatus>
+	<deviceManagement>管理員</deviceManagement>
+	<backupAndRestore>系統</backupAndRestore>
+	<firmwareUpgrade>韌體升級</firmwareUpgrade>
+	<logout>登出</logout>
+	<titleMaintenance>維護</titleMaintenance>
+	<menu>說明選單</menu>
+	<logout>登出</logout>
+	<titleHelp>說明</titleHelp>
+	<sdcard>SD卡管理</sdcard>
+	<ipFilter>IP 過濾器</ipFilter>
+	<https>HTTPS 設定</https>
+</leftPanel>

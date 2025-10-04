@@ -1,0 +1,98 @@
+/*mainFrame */
+.mainFrame 
+{
+  	position:relative;
+	top:0px;
+	margin: 0px auto 100px;
+	text-align: left;
+}
+/*contentBorder*/
+.contentBorder
+{
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	border-style:  solid;
+	position:relative;
+	height:100%; 
+    
+}
+.contentBlock
+{
+	background-color: #404343;
+	border:0px #FF0000 solid;
+}
+/*divLive*/
+.divLive
+{
+	 float:left;
+	 width: 100%;
+}
+.divIcons
+{
+	padding : 10px 0px 5px;
+	text-align: center;
+}
+.liveViewControl
+{
+	text-align: center;
+	margin: 15px 0px;
+	color:#FFFFFF;
+}
+.liveViewControlLeft
+{
+	color:#FFFFFF;
+	text-align: left;
+	margin: 15px 0px;
+	
+}
+.lang
+{
+	margin: 15px 2px;
+
+}
+.liveviewImg img
+{
+	width:35px;
+	height:29px;
+	
+}
+.liveviewImg
+{
+
+}
+/*divLive end*/
+	
+
+.mainBlockFrame
+{
+	padding:0px;
+	background-color: #FFFFFF;
+	color: #000000;
+	width:746px;
+	margin:0px;
+	
+
+}
+.main
+{
+min-height:500px;
+height: auto !important;
+height: 500px;
+
+}
+#ptObject
+{
+margin-bottom:20px;
+padding-left:5px;
+}
+#presetName
+{
+	width:120px; text-align:center;
+	margin-left:-2px;
+}
+#ptField
+{
+margin-left:-5px;
+
+}

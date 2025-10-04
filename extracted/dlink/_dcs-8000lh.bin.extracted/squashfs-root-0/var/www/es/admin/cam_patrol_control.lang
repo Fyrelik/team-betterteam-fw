@@ -1,0 +1,99 @@
+<body>
+	<cameraControl>Posición de vigilancia</cameraControl>
+	<cameraControl1>Posición de vigilancia</cameraControl1>
+	<description1>La Posición de vigilancia permite mover periódicamente el área de visualización a una serie de posiciones preestablecidas programadas con anterioridad.</description1>
+	<up>Arriba</up>
+	<down>Abajo</down>
+	<panSpeed>Velocidad de panorámica:</panSpeed>
+	<tiltSpeed>Velocidad de inclinación:</tiltSpeed>
+	<currentPosition>Posición actual:</currentPosition>
+	<presetPosition>Posición preestablecida:</presetPosition>
+	<none>-- Seleccione uno --</none>
+	<patrol1>Seleccione un punto; si Posiciones preestablecidas está vacío, añada un punto</patrol1>
+	<add>Añadir</add>
+	<delete>Eliminar</delete>
+	<save>Guardar parámetros</save>
+	<notsavebutton>No guardar parámetros</notsavebutton>
+	<theSamePresetName>el nombre preestablecido ya existe ¿desea sustituir la posición preestablecida antigua?</theSamePresetName>
+	<setAsHome>Establecer como Inicio</setAsHome>
+	<defaultHome>Inicio predeterminado</defaultHome>
+	<patrolSpeed>Velocidad de panorámica/vigilancia:</patrolSpeed>
+	<patrolInterval>Intervalo de vigilancia (min.):</patrolInterval>
+	<patrolLocations> Posiciones de vigilancia</patrolLocations>
+	<patrolInterval1>60</patrolInterval1>
+	<schedulepatrol>Programa de vigilancia</schedulepatrol>
+	<hour0>0</hour0>
+	<hour1>1</hour1>
+	<hour2>2</hour2>
+	<hour3>3</hour3>
+	<hour4>4</hour4>
+	<hour5>5</hour5>
+	<hour6>6</hour6>
+	<hour7>7</hour7>
+	<hour8>8</hour8>
+	<hour9>9</hour9>
+	<hour10>10</hour10>
+	<hour11>11</hour11>
+	<hour12>12</hour12>
+	<hour13>13</hour13>
+	<hour14>14</hour14>
+	<hour15>15</hour15>
+	<hour16>16</hour16>
+	<hour17>17</hour17>
+	<hour18>18</hour18>
+	<hour19>19</hour19>
+	<hour20>20</hour20>
+	<hour21>21</hour21>
+	<hour22>22</hour22>
+	<hour23>23</hour23>
+	<sun>Dom </sun>
+	<mon>Lun </mon>
+	<tue>Mar </tue>
+	<wed>Mié </wed>
+	<thu>Jue </thu>
+	<fri>Vie </fri>
+	<sat>Sáb </sat>
+	<dwellingTime>Tiempo de permanencia (seg.):</dwellingTime>
+	<presetLocations>Posiciones preestablecidas programadas con anterioridad</presetLocations>
+	<selectedLocations>Ubicaciones seleccionadas</selectedLocations>
+	<select>Seleccionar</select>
+	<remove>Eliminar</remove>
+	<patrolSelection>Selección de vigilancia:</patrolSelection>
+	<presetNameError>el nombre preestablecido no puede aceptar un nombre en blanco</presetNameError>
+	<waitTimeError1>El tiempo de permanencia no puede estar vacío</waitTimeError1>
+	<waitTimeError2>El tiempo de permanencia debe ser un número</waitTimeError2>
+	<waitTimeError3>El tiempo de permanencia debe estar entre 1 y 60</waitTimeError3>
+	<scheduleError>Rellene la hora programada</scheduleError>
+	<scheduleErrorSun>Compruebe la hora programada en domingo</scheduleErrorSun>
+	<scheduleErrorMon>Compruebe la hora programada en lunes</scheduleErrorMon>
+	<scheduleErrorTue>Compruebe la hora programada en martes</scheduleErrorTue>
+	<scheduleErrorWed>Compruebe la hora programada en miércoles</scheduleErrorWed>
+	<scheduleErrorThu>Compruebe la hora programada en jueves</scheduleErrorThu>
+	<scheduleErrorFri>Compruebe la hora programada en viernes</scheduleErrorFri>
+	<scheduleErrorSat>Compruebe la hora programada en sábado</scheduleErrorSat>
+	<noPretrolPointWarn>Añada posiciones de vigilancia</noPretrolPointWarn>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<presethints>Posiciones preestablecidas programadas con anterioridad: </presethints>
+	<description2> la tabla mostrará las posiciones preestablecidas programadas con anterioridad. </description2>
+	<patrolhints>Posiciones de vigilancia: </patrolhints>
+	<description1> Selecciona las posiciones preestablecidas especificadas para moverlas secuencialmente. </description1>
+	<speedhints>Velocidad de panorámica/vigilancia: </speedhints>
+	<description3> selecciona la velocidad del movimiento de panorámica/vigilancia de la cámara entre 1 y 3. </description3>
+	<dwellinghints>Tiempo de permanencia: </dwellinghints>
+	<description4> establece la duración de la permanencia en la posición. </description4>
+	<patrolschedulehints>Programa de vigilancia: </patrolschedulehints>
+	<description5> "Programa de vigilancia" permite a la cámara PTZ realizar un recorrido por las posiciones cada hora siguiendo un programa. </description5>
+	
+</hint>
+<message>
+	<nopresetpoint>no hay un punto preestablecido</nopresetpoint>
+	<ok>Cambios guardados.</ok>
+	<failure>error de configuración</failure>
+	<full>preestablecido ya está completo</full>
+	<selectFull>Ubicaciones seleccionadas ya está completo</selectFull>
+	<duplicate>duplicar</duplicate>
+	<invalidParameters>nombre de preestablecido no válido</invalidParameters>
+	<oob>el valor de configuración está fuera de rango</oob>
+</message>

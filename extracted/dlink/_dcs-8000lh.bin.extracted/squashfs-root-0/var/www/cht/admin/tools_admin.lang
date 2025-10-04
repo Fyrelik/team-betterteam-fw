@@ -1,0 +1,101 @@
+<body>
+	<administratorSettings>管理員</administratorSettings>
+	<description1>您可在此變更管理員密碼，以及新增/刪除使用者帳號。亦可為攝影機取個專屬名稱，並啟用 OSD (畫面顯示) 功能，在即時影像與錄影檔案中顯示攝影機名稱與時間戳記。</description1>
+	<devideSetting>裝置設定</devideSetting>
+	<cameraName>攝影機名稱</cameraName>
+	<enableOSD>OSD</enableOSD>
+	<label>標籤</label>
+	<timeStamp>時間戳記</timeStamp>
+	<ledControl>LED 燈</ledControl>
+	<ledOn>開啟</ledOn>
+	<ledOff>關閉</ledOff>
+	<ledDummy>閃爍</ledDummy>
+	<administrator>管理員密碼設定</administrator>
+	<newPassword>新密碼</newPassword>
+	<confirmPassword>確認新密碼</confirmPassword>
+	<PasswordMsg> 最多 30 字元。</PasswordMsg>
+	<save>儲存</save>
+	<addUser>新增使用者</addUser>
+	<userAccount>使用者帳號</userAccount>
+	<userName>使用者名稱</userName>
+	<maxUser> 最多 20 個使用者</maxUser>
+	<add>新增</add>
+	<managerUser>使用者清單</managerUser>
+	<userList>-- 使用者清單 --</userList>
+	<delete>刪除</delete>
+	<reboot1>攝影機網頁伺服器重新啟動中，請稍待 </reboot1>
+	<reboot2> 秒。</reboot2>
+	<asciiError>OSD 標籤只接受數字、大寫英文字母與 \"-\" 字元</asciiError>
+	<cameraNameError>攝影機名稱不可為空白</cameraNameError>
+	<cameraNameError1>攝影機名稱不接受空白字元。</cameraNameError1>
+	<cameraNameError2>攝影機名稱只能接受數字、英文字母和 \"-\" 字元。</cameraNameError2>
+	<adminPassError1>新密碼與確認密碼不同</adminPassError1>
+	<adminPassError2>新密碼不接受空白字元與非 ASCII 字元</adminPassError2>
+	<maxUserError>超過最大使用者數</maxUserError>
+	<userNameError1>使用者名稱不得為空白</userNameError1>
+	<userNameError2>使用者名稱只能接受數字、英文字母、\".\"、\"-\" 和 \"_\" 字元</userNameError2>
+	<userNameError3>使用者名稱已存在</userNameError3>
+	<userNameError4>新使用者名稱不得為 admin</userNameError4>
+	<userPassError1>新密碼與確認密碼不同</userPassError1>
+	<userPassError2>新密碼不接受空白字元與非 ASCII 字元</userPassError2>
+	<cameraMsg>最多 36 字元</cameraMsg>
+	<privacyText>隱私模式</privacyText>
+	<calibrateText>校正裝置</calibrateText>
+	<calibrate>校正裝置</calibrate>
+	<privacyOn>開啟</privacyOn>
+	<privacyOff>關閉</privacyOff>
+	<scheduled>排程</scheduled>
+	<hour>小時</hour>
+	<min>分鐘</min>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<from>開始</from>
+	<to>結束 </to>
+	<liveViewAuth>使用者驗證</liveViewAuth>
+	<snapShotAuth>使用者驗證</snapShotAuth>
+	<scheduleError>請輸入排程時間</scheduleError>
+	<hourError>小時無效</hourError>
+	<minuteError>分鐘無效</minuteError>
+	<fullHourError>若結束小時是 24，結束分鐘必須為 0</fullHourError>
+	<legalTimeError>開始時間必須小於結束時間</legalTimeError>
+	<oldPassword>舊密碼</oldPassword>
+	<auth>驗證</auth>
+	<httpauth>HTTP 驗證</httpauth>
+	<rtspauth>RTSP 驗證</rtspauth>
+	<snapauth>快照 URL 驗證</snapauth>
+	<OSDError>OSD 標籤只接受數字、大寫英文字母與 \"-\" 字元</OSDError>
+	<enablePrivacy>隱私模式</enablePrivacy>
+	<privacycontrol>隱私模式</privacycontrol>
+	<privacyon>開啟</privacyon>
+	<privacyoff>關閉</privacyoff>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<administratorSettings>為安全性起見，建議您更改管理員帳戶的密碼。請一定要寫下新密碼，未來若忘記密碼才不用去重設攝影機。</administratorSettings>
+	<userAccount>使用者帳號會讓使用者有權限登入即時檢視頁面，並使用該頁面的功能。</userAccount>
+	<rtspauth>啟用 RTSP 串流的使用者驗證。</rtspauth>
+	<httpauth>啟用 HTTP 串流的使用者驗證。</httpauth>
+	<snapauth>啟用快照 URL 的使用者驗證。</snapauth>
+	<enableOSD>啟用 OSD 後，攝影機名稱與時間就會顯示在畫面上。</enableOSD>
+	<ledOn>正常 LED 閃爍依有線/無線鏈接和音訊/視訊傳輸狀態狀態而定。</ledOn>
+	<ledOff>關閉 LED 燈</ledOff>
+	<ledDummy>如同有人正監控視頻一般,持續閃爍連線 LED 燈。</ledDummy>
+	<privacycontrol>允許你設定攝影機是否進入隱私模式。</privacycontrol>
+	<privacyon>攝影機如果是隱私模式，那麽即時影像，視訊短片，快照和 SD 錄影將被關閉。</privacyon>
+	<privacyoff>攝影機在一個正常的運行模式。</privacyoff>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<invalidParameters>某些參數無效</invalidParameters>
+	<notCorrectOldPassword>舊密碼錯誤</notCorrectOldPassword>
+	<exceedMaxUsers>超過最大使用者數</exceedMaxUsers>
+	<userNotExist>刪除的使用者不存在</userNotExist>
+	<tinydbError>設定失敗</tinydbError>
+	<calibrationOK>校正成功</calibrationOK>
+	<saveOK>網路伺服器正在重啟，請稍待40秒鐘，再以新的 IP 位址來重新連接攝影機。</saveOK>
+</message>

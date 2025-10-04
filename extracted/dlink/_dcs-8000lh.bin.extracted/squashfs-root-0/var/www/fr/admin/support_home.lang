@@ -1,0 +1,49 @@
+<body>
+	<liveVideo>VIDÉO EN DIRECT</liveVideo>
+	<camera>Caméra</camera>
+	<videoProfile>Profil vidéo</videoProfile>
+	<videoProfile1> - Ces icônes montrent les paramètres courants du profil vidéo. Si vous utilisez un navigateur autre que IE, sélectionnez les icônes disponibles.</videoProfile1>
+	<fullScreen>Plein écran</fullScreen>
+	<fullScreen1> - Cliquez sur l'icône pour visualiser la vidéo en direct en plein écran.</fullScreen1>
+	<snapshot>Instantané</snapshot>
+	<snapshot1> - Cliquez sur l'icône pour enregistrer une image au format JPEG sur l'ordinateur.</snapshot1>
+	<recording>Enregistrement</recording>
+	<recording1> - La vidéo est immédiatement enregistrée et stockée à l'emplacement prédéterminé.</recording1>
+	<setPath>Définir le dossier de stockage</setPath>
+	<setPath1> - Cliquez sur l'icône pour configurer l'emplacement par défaut de stockage des données lorsque vous cliquez sur le bouton Instantané ou Enregistrement.</setPath1>
+	<listen>Son</listen>
+	<listen1> - Cliquez sur le bouton pour activer ou désactiver le son. Le son sera toujours enregistré.</listen1> 
+	<talk>Micro</talk>
+	<led>Témoin IR</led>
+	<led1> - Cliquez sur le bouton pour activer/désactiver le témoin IR de la caméra pour activer la vision nocturne. Ce bouton est uniquement disponible lorsque le Mode jour/nuit est défini sur IR manuel.</led1>
+	<zoomInOut>Zoom avant/arrière :</zoomInOut>
+	<zoomInOut1> - Cliquez sur les boutons pour effectuer un zoom numérique avant ou arrière (grossissant 1 fois, 2 fois ou 4 fois) dans la vidéo en direct.</zoomInOut1>
+	<talk1> - Cliquez sur le bouton pour le désactiver et activer la transmission du son du PC à la caméra.</talk1>
+	<digitalOut>Sortie numérique</digitalOut>
+	<digitalOut1> - Cliquez sur le bouton pour transmettre les signaux d'alarme au connecteur de sortie numérique.</digitalOut1>
+	<digitalInputTrigger>Témoin d'entrée numérique</digitalInputTrigger>
+	<digitalInputTrigger1> - Ce voyant clignote lorsque l'entrée numérique est déclenchée.</digitalInputTrigger1>
+	<motionTrigger>Témoin de déclenchement sur mouvement/son</motionTrigger>
+	<motionTrigger1> - Ce témoin clignote quand une détection de mouvement/son est déclenchée.</motionTrigger1>
+	<recordingTrigger>Témoin d'enregistrement</recordingTrigger>
+	<recordingTrigger1> - Ce témoin clignote quand un enregistrement est activé.</recordingTrigger1>
+	<pantiltcontrol>Contrôle du panoramique horizontal/vertical</pantiltcontrol>
+	<pantiltcontrol1> - Vous pouvez contrôler la position de l'objectif de la caméra en cliquant sur les boutons fléchés haut/bas, gauche/droite, gauche-haut/gauche-bas, droite-haut/droite-bas. Cliquer sur le bouton Position initiale remettra l'objectif de la caméra dans la position initiale.</pantiltcontrol1>
+	<pan>Panoramique</pan>
+	<pan1> - Ce bouton commande à la caméra de faire un panoramique depuis l'extrême gauche et vers l'extrême droite. Après les panoramiques, la caméra reprend sa position originale.</pan1>
+	<patrol>Surveillance</patrol>
+	<patrol1> - Cliquez sur ce bouton pour déplacer la caméra pour voir des positions prédéfinies configurées dans le menu Position prédéfinie. L'ordre dans lequel ces positions sont visionnées et la durée pendant laquelle la caméra reste dans chaque position sont aussi configurés dans le menu Position prédéfinie. </patrol1>
+	<stop>Arrêt</stop>
+	<stop1> - Cliquez dessus pour arrêter la caméra dans la position actuelle (utilisé pour les modes panoramique et surveillance). </stop1>
+	<goto>Aller à</goto>
+	<gotol> - Vous permet de déplacer l'objectif vers une position prédéfinie préprogrammée.</gotol>
+	<panspeed>Niveau de transition du panoramique horizontal</panspeed>
+	<panspeed1> - Contrôle le niveau de transition quand la caméra effectue un panoramique horizontal.</panspeed1>
+	<tiltspeed>Niveau de transition du panoramique vertical</tiltspeed>
+	<tiltspeed1> - Contrôle le niveau de transition quand la caméra effectue un panoramique vertical.</tiltspeed1>
+	<language>Sélection de la langue</language>
+	<language1> - Sélectionnez la langue préférée du site Web dans la liste déroulante.</language1>
+	<recordingError>Erreur d'enregistrement</recordingError>
+	<recordingError1> - Ce témoin clignote en cas d'erreur d'enregistrement.</recordingError1>
+</body>
+

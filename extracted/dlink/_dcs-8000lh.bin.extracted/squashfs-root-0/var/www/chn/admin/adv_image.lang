@@ -1,0 +1,60 @@
+<body>
+	<imageSettings>图像设置 </imageSettings>
+	<description1>您对图像设置所做的更改将立刻生效。下面的实时视频窗口中可以找到和查看更改的效果。</description1>
+	<image>实时视频</image>
+	<controls>图像设置</controls>
+	<brightness>亮度</brightness>
+	<saturation>饱和度</saturation>
+	<contrast>对比度</contrast>
+	<hue>色调</hue>
+	<frequency>频率</frequency>
+	<auto>自动</auto>
+	<hz>Hz</hz>
+	<whiteBalance>白平衡</whiteBalance>
+	<indoor>室内</indoor>
+	<outdoor>室外</outdoor>
+	<shutter>低速快门</shutter>
+	<speed>最大快门速度：</speed>
+	<second>秒</second>
+	<source>光源</source>
+	<disable>禁用</disable>
+	<BLC>背光补偿</BLC>
+	<AWB>自动白平衡</AWB>
+	<AGC>自动增益控制</AGC>
+	<AES>AES</AES>
+	<hue1> ‘- 是色阶</hue1>
+	<bw>黑白</bw>
+	<flip>翻转</flip>
+	<mirror>镜像</mirror>
+	<autoExposure>自动曝光</autoExposure>
+	<reset>恢复默认设置</reset>
+	<exceedMaxConn>摄像机用户数已经达到最大。请稍后再试。</exceedMaxConn>
+	<enableNightMode>低速快门</enableNightMode>
+	<shutter>最大快门速度：</shutter>
+	<second>秒</second>
+	<sharpness>锐度</sharpness>
+	<noiseReduction>减噪</noiseReduction>
+	<privacy>网路摄像机目前设定为隐私模式</privacy>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<imageSettings>亮度、对比度、饱和度可调值为0到100，允许您调整优化图像设置。</imageSettings>
+	<imageSettings1>亮度、饱和度、对比度、色调可调值为0到100，允许您调整优化图像设置。</imageSettings1>
+	<brightness>用于补偿背景光。</brightness>
+	<saturation>控制从黑白到彩色的颜色强度。</saturation>
+	<contrast>可调整物体之间的颜色对比度。在阴暗的天气下可帮助提高图像画质。</contrast>
+	<bw>控制启用或禁用摄像机的黑到白模式。</bw>
+	<mirror>选择此功能，获得镜像图像。</mirror>
+	<flip>当摄像机倒置安装在天花板上时，选择该功能。</flip>
+	<frequency>您需要选择50或60Hz（取决于地区）。</frequency>
+	<whiteBalance>默认为“自动”。可以除去偏色，使白色的物体能真实呈现在视频中。</whiteBalance>
+	<enableNightMode>环境昏暗时选择最小快门速度。</enableNightMode>
+	<hue2>用来改变不同色相的程度对人眼的的感觉。</hue2>
+	<sharpness>调整这个项目以控制画面锐度。</sharpness>
+	<autoExposure1>选择此功能可以使摄像机自动调整曝光时间。</autoExposure1>
+	<source>选择室内或室外环境。</source>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<fail>更改失败。</fail>
+</message>

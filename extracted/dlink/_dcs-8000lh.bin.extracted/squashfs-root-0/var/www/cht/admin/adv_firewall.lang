@@ -1,0 +1,72 @@
+<body>
+	<ipfiltertitle>IP 過濾器</ipfiltertitle>
+	<description1>為了能夠啟動你攝影機的 IP 過濾器，你必須選擇啟動 ' IP 過濾'。然後，在這個頁面設定相關的設定。</description1>
+	<subtitle>IP 過濾器</subtitle>
+	<enableIpFilter> IP 過濾</enableIpFilter>
+	<filterType>過濾器的種類:</filterType>
+	<filterAllow>允許</filterAllow>
+	<filterDeny>拒絕</filterDeny>
+	<accessList>過濾器名單:</accessList>
+	<ipTypeSig>單一</ipTypeSig>
+	<ipTypeSub>子網段</ipTypeSub>
+	<ipTypeRan>範圍</ipTypeRan>
+	<ipTypeSigDot>IP 位址:</ipTypeSigDot>
+	<ipTypeSubDot>網路位址 / 子網路遮罩:</ipTypeSubDot>
+	<ipTypeRanDot>IP 位址-IP 位址:</ipTypeRanDot>
+	<addAFilter>增加</addAFilter>
+	<adminIp>管理者的 IP 位址:</adminIp>
+	<ipadresserrorinfo>設定不合法</ipadresserrorinfo>
+	<allowAdmin>永遠允許管理者的 IP 位址來存取這台裝置</allowAdmin>
+	<delAFilter>刪除</delAFilter>
+	<ipMessage1>IP 位址</ipMessage1>
+	<ipMessage2>這個 IP 位址是無效的。</ipMessage2>
+	<ipMessage3>這個 IP 位址不能為零。</ipMessage3>
+	<ipError1>IP 位址不能為空白。</ipError1>
+	<networkipseterror>這個設定是無效的。</networkipseterror>
+	<delNumError>請選擇一個過濾器。</delNumError>
+	<delChooseError>請一次選擇一個過濾器。</delChooseError>
+	<netMaskError>子網路遮罩必須位於 1 到 32 之間。</netMaskError>
+	<allowEmptyListError>請增加一個過濾器或者是啟動管理者 IP 位址。</allowEmptyListError>
+	<ipv4filterListNumError>IPv4過濾器名單已滿。</ipv4filterListNumError>
+	<ipv6filterListNumError>IPv6過濾器名單已滿。</ipv6filterListNumError>
+	<allowNoneError>請至少允許一個可用的IP 或者開啓管理者 IP 。</allowNoneError>
+	<decreasRangeError>遞減的IP位址設定是不合法的。</decreasRangeError>
+	<sameIpError>起始IP位址與結束IP位址不能相同。</sameIpError>
+	<filteraddress>新增過濾器:</filteraddress>
+	<ipv4AccessList>IPv4 過濾器名單:</ipv4AccessList>
+	<ipv6AccessList>IPv6 過濾器名單:</ipv6AccessList>
+	<ipv6AddressError>這個 IP 位址是無效的。</ipv6AddressError>
+	<addAddressIsError>IP位址設定是不合法的。</addAddressIsError>
+	<decreasRangeError>IP位址設定是不合法的。</decreasRangeError>
+	<ipv6PrefixError>IPv6首碼長度必須介於0-128。</ipv6PrefixError>
+	<StartIP>起始IP位址：</StartIP>
+	<EndIP>結束IP位址：</EndIP>
+	<commonIPadresserror>此IP位址已存在</commonIPadresserror>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<Ipfilter> IP 過濾是一種可以允許或限制使用這台攝影機的 IP 位置的功能。</Ipfilter>
+	<FilterType>過濾器的種類</FilterType>
+	<FilterTypeText>你可以選擇過濾器名單中的 IP 位址是允許還是拒絕連線到這台攝影機。</FilterTypeText>
+	<AccessList>過濾器名單</AccessList>
+	<AccessListText>需要過濾的 IP 位址 名單。</AccessListText>
+	<Single>單一</Single>
+	<SingleText>指定單一的 IP 位址。</SingleText>
+	<Subnet>子網段</Subnet>
+	<SubnetText>指定整個子網段。</SubnetText>
+	<Range>範圍</Range>
+	<RangeText>指定一段範圍的 IP 位址。</RangeText>
+	<adminAdress>管理者的 IP 位址</adminAdress>
+	<adminAdressText>你可以啟動或設定一個 IP 位址來當為管理者 IP，來讓這個 IP 位址可以永遠使用這台攝影機。</adminAdressText>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<invalidParameter>無效的參數。</invalidParameter>
+	<invalidFilterEnable>不能啟動的過濾器。</invalidFilterEnable>
+	<invalidFilterType>無效的過濾器種類。</invalidFilterType>
+	<invalidAdminIPEnable>不能啟動管理者 IP。</invalidAdminIPEnable>
+	<invalidAdminIP>無效的管理者 IP。</invalidAdminIP>
+	<invalidIP>無效的 IP 位址。</invalidIP>
+	<invalidNetmask>無效的網路遮罩。</invalidNetmask>
+	<nothingChange>設定並未有任何的修改。</nothingChange>
+</message>

@@ -1,0 +1,106 @@
+<body>
+	<audioVideoSettings>AUDIO E VIDEO</audioVideoSettings>
+	<description1>Você pode configurar o modo noturno, configurações de áudio e vídeo (4 perfís de vídeo) aqui. O perfil 3 foi configurado para snapshot, e o perfil 4 foi configurado para celulares e PDAs.</description1>
+	<descriptionNoNightmode>Você pode configurar o áudio e vídeo (3 perfís de vídeo) aqui. O perfil 2 foi configurado para snapshot, e o perfil 3 foi configurado para celulares e PDAs.</descriptionNoNightmode>
+	<description2>Há três sensores principais de saidas/ display do sistema ('VGA', 'XGA', 'SXGA') e fornecem sua próprias resoluções para as seleções.</description2>
+	<savebutton>Salvar Configurações</savebutton>
+	<notsavebutton>Não Salvar Configurações</notsavebutton>
+	<videoSensor>Sensor de Vídeo</videoSensor>
+	<sensorOutput>Sensor de Saída</sensorOutput>
+	<vga>VGA (640x480)</vga>
+	<sxga>SXGA (1280x1024)</sxga>
+	<xga>XGA (1024x768)</xga>
+	<resolution>Resolução</resolution>
+	<kbps>Kbps</kbps>
+	<mbps>Mbps</mbps>
+	<low>Baixo</low>
+	<fair>Falho</fair>
+	<standard>Padrão</standard>
+	<good>Bom</good>
+	<excellent>Excelente</excellent>
+	<nightMode>MODO DIURNO/NOTURNO</nightMode>
+	<enableNightMode>Habilitar Modo Noturno</enableNightMode>
+	<shutter>Shutter</shutter>
+	<second>Segundos</second>
+	<cameraEnv>Ambiente da Cãmera</cameraEnv>
+	<placedLocation>Fonte de Luz</placedLocation>
+	<indoor>Interno</indoor>
+	<outdoor>Externo</outdoor>
+	<irLed>Modo Diurno/Noturno</irLed>
+	<auto>Auto</auto>
+	<manual>IR Manual</manual>
+	<autoPIR>Auto + PIR</autoPIR>
+	<on>Sempre em Modo Diurno</on>
+	<off>Sempre em Modo Noturno</off>
+	<audioSettings>configuração de áudio</audioSettings>
+	<enableSpeaker>Falante</enableSpeaker>
+	<volume>Volume</volume>
+	<enableMicrophone>Microfone</enableMicrophone>
+	<encodeType>Tipo de Codificação</encodeType>
+	<enablemute>Auto Mute</enablemute>
+	<resolution>Resolução</resolution>
+	<FPS>FPS</FPS>
+	<BPS>bps</BPS>
+	<encodeMethod>Método de Codificação</encodeMethod>
+	<cbr>CBR</cbr>
+	<quality>Qualidade</quality>
+	<JPEG_Quality>Qualidade</JPEG_Quality>
+	<RTSP_URL>RTSP URL</RTSP_URL>
+	<mobileOnly>SOMENTE PARA CELULARES</mobileOnly>
+	<updateConfirm>Por favor note que o modo SXGA tem as seguintes limitações: \n 1. Detecção de Movimento e Snapshots iniciados por movimento serão desabilitados.\n  2. Gravação será feita em média resolução.\n  3. Navegadores diferentes do IE somente mostrarão vídeos em 1280x1024</updateConfirm>
+	<reboot1>A câmera está reiniciando, por favor espere </reboot1>
+	<reboot2> segundos.</reboot2>
+	<xgaText>Quando o modo XGA está selecionado, somente o Perfil 1 suporta 1024x768.</xgaText>
+	<sxgaText1>Quando o modo SXGA está selecionado, somente o Perfil 1 com o tipo de codificação JPEG suporta 1280x1024.</sxgaText1>
+	<sxgaText2>Detecção de movimento e início por movimento serão desabilitados.</sxgaText2>
+	<nightModeText>Quando o Modo Noturno é selecionado, a taxa real de frames pode ser menor do que a taxa de frames máxima na configuração de ambiente acima.</nightModeText>
+	<RTSPErrorMsg1>PERFIL DE VÍDEO</RTSPErrorMsg1>
+	<RTSPErrorMsg2> RTSP URL não pode ser a mesma do PERFIL DE VÍDEO</RTSPErrorMsg2>
+	<RTSPErrorMsg3> RTSP URL</RTSPErrorMsg3>
+	<RTSPErrorMsg4>RTSP URL, não pode ser vazio, somente aceita número, alfabeto, \".\" , \"-\", e caracteres \"_\"</RTSPErrorMsg4>
+	<profile1>PERFIL DE VÍDEO 1</profile1>
+	<profile2>PERFIL DE VÍDEO 2</profile2>
+	<profile3>PERFIL DE VÍDEO 3</profile3>
+	<profile4>PERFIL DE VÍDEO 4</profile4>
+	<tvOutTitle>SAIDA-TV</tvOutTitle>
+	<tvOUT>SAIDA-TV</tvOUT>
+	<enableTvOUT>Habilitar Saida-TV</enableTvOUT>
+	<NTSC>NTSC</NTSC>
+	<PAL>PAL</PAL>
+	<schedule>Horário</schedule>
+	<daytime>Dia Hora</daytime>
+	<timeFrom>De</timeFrom>
+	<timeTo>para</timeTo>
+	<sun>Dom </sun>
+	<mon>Seg </mon>
+	<tue>Ter </tue>
+	<wed>Quar </wed>
+	<thu>Quin </thu>
+	<fri>Sex </fri>
+	<sat>Sab </sat>
+	<mfhourError>Horário Inícial não é válido</mfhourError>
+	<mthourError>Horário Final não é válido</mthourError>
+	<mfminuteError>Minuto Inicial não é válido</mfminuteError>
+	<mtminuteError>Minuto Final não é válido</mtminuteError>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<audioVideoSettings>Maior resolução, FPS e bps dá melhor qualidade de vídeo. Por outro lado, requer mais largura de banda da rede.</audioVideoSettings>
+	<encodeType>Selecione o codec de vídeo 'JPEG' ou 'H.264'.</encodeType>
+	<resolution>As opções dependem do sistema usado.</resolution>
+	<FPS>A quantidade de quadros de imagens renderizados por segundo pela câmera</FPS>
+	<encodeMethod>Selecione CBR para ter bps primeiro ou Qualidade primeiro como método de codificação de vídeo</encodeMethod>
+	<BPS>Selecione uma banda fixa para a operação de sua câmera. Um valor maior significa uma qualidade de imagem maior porém consome maior banda de rede.</BPS>
+	<JPEG_Quality>Ajuste a qualidade de imagem</JPEG_Quality>
+	<RTSP_URL>A URL usada para conectar à câmera através do QuickTime ou celular.</RTSP_URL>
+	<irLed>Selecione o modo noturno para usar o LED IR da câmera em uma área escura.</irLed>
+	<enableSpeaker>Quando esta opção é selecionada, você pode usar o microfone de seu PC e sua voz será ouvida no falante externo conectado em sua câmera.</enableSpeaker>
+	<enableMicrophone>Habilite esta opção para ouvir o áudio vindo do microfone de sua câmera.</enableMicrophone>
+	<tvOUThelp>Habilite a Saída-TV para ver o vídeo da câmera em sua TV ou outro monitor.</tvOUThelp>	
+	<enablemutehelp>Habilite esta opção para silenciar o microfone automaticamente quando a lente da câmera está se movendo.</enablemutehelp>	
+</hint>
+<message>
+	<ok>Alterações Salvas.</ok>
+	<fail>Alterações falharam.</fail>
+	<saveOK>O servidor Web está reiniciando. Por favor, espere 1 minuto e reconecte a câmera com o novo endereço IP</saveOK>
+</message>

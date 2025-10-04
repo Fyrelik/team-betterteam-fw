@@ -1,0 +1,177 @@
+<body>
+	<systemSettings>Fecha y hora</systemSettings>
+	<description1>Aquí puede configurar el reloj interno de la cámara.</description1>
+	<savebutton>Guardar parámetros</savebutton>
+	<notsavebutton>No guardar parámetros</notsavebutton>
+	<timeZoneSetting>Configuración de la hora</timeZoneSetting>
+	<timeZone>Zona horaria</timeZone>
+	<enableDST>Activar el horario de verano</enableDST>
+	<autoDST>Horario de verano automático</autoDST>
+	<manual1>Configurar DST manualmente</manual1>
+	<manual2>Establecer fecha y hora manualmente</manual2>
+	<offset>Desfase</offset>
+	<hours>Hora</hours>
+	<minutes>Minuto</minutes>
+	<seconds>Segundos</seconds>
+	<month>Mes</month>
+	<week>Semana</week>
+	<dayOfWeek>Día de la semana</dayOfWeek>
+	<startTime>Hora de inicio</startTime>
+	<endTime>Hora final</endTime>
+	<sun>Domingo</sun>
+	<mon>Lunes</mon>
+	<tue>Martes</tue>
+	<wed>Miércoles</wed>
+	<thu>Jueves</thu>
+	<fri>Viernes</fri>
+	<sat>Sábado</sat>	
+	<automaticTime>Configuración automática de la hora</automaticTime>
+	<synchronizeNTPServer>Sincronizar con el servidor NTP</synchronizeNTPServer>
+	<ntpServerUsed>Servidor NTP</ntpServerUsed>
+	<selectNTP>Seleccionar servidor NTP</selectNTP>
+	<ntp1>ntp1.dlink.com</ntp1>
+	<ntp2>ntp.dlink.com.tw</ntp2>
+	<setDateManually>Establecer fecha y hora manualmente</setDateManually>
+	<year>Año</year>
+	<day>Día</day>
+	<hour>Hora</hour>
+	<minute>Minuto</minute>
+	<second>Segundo</second>
+	<computerTime>Copiar los parámetros horarios del ordenador</computerTime>
+	<asciiError>La etiqueta OSD sólo puede admitir caracteres numéricos, alfabéticos y algunos caracteres especiales</asciiError>
+	<hourError>Hora no válida</hourError>
+	<minuteError>Minuto no válido</minuteError>
+	<secondError>Segundo no válido</secondError>
+	<parameterError>Parámetro no válido</parameterError>
+	<yearError>El año debe estar entre 1970 y 2037</yearError>
+	<monError>El mes debe estar entre 1 y 12</monError>
+	<dayError1>El día debe estar entre 1 y 31</dayError1>
+	<dayError2>Días no válidos</dayError2>
+	<dayError3>Este año sólo tiene 29 días en febrero</dayError3>
+	<dayError4>Este año sólo tiene 28 días en febrero</dayError4>
+	<cameraNameError>El nombre de la cámara no puede estar vacío</cameraNameError>
+	<ntpError1>El servidor NTP no puede estar vacío</ntpError1>
+	<ntpError2>Dirección de servidor NTP no válida</ntpError2>
+	<timeZone1>(GMT-12:00) Línea de fecha internacional occidental</timeZone1>
+	<timeZone2>(GMT+13:00) Samoa</timeZone2>
+	<timeZone3>(GMT-10:00) Hawai</timeZone3>
+	<timeZone4>(GMT-09:00) Alaska</timeZone4>
+	<timeZone5>(GMT-08:00) Hora del Pacífico (EE.UU. y Canadá)</timeZone5>
+	<timeZone6>(GMT-08:00) Tijuana, Baja California</timeZone6>
+	<timeZone7>(GMT-07:00) Chihuahua, La Paz, Mazatlán</timeZone7>
+	<timeZone8>(GMT-07:00) Hora de las Rocosas (EE.UU. y Canadá)</timeZone8>
+	<timeZone9>(GMT-07:00) Arizona</timeZone9>
+	<timeZone10>(GMT-06:00) América Central</timeZone10>
+	<timeZone11>(GMT-06:00) Guadalajara, Ciudad de Méjico, Monterrey</timeZone11>
+	<timeZone12>(GMT-06:00) Saskatchewan</timeZone12>
+	<timeZone13>(GMT-06:00) Hora central (EE.UU. y Canadá)</timeZone13>
+	<timeZone14>(GMT-05:00) Bogotá, Lima, Quito</timeZone14>
+	<timeZone15>(GMT-05:00) Hora del este (EE.UU. y Canadá)</timeZone15>
+	<timeZone16>(GMT-05:00) Indiana (Este)</timeZone16>
+	<timeZone17>(GMT-04:00) La Paz, Georgetown</timeZone17>
+	<timeZone18>(GMT-04:00) Hora del Atlántico (Canadá)</timeZone18>
+	<timeZone19>(GMT-03:00) Santiago</timeZone19>
+	<timeZone20>(GMT-04:00) Manaus</timeZone20>
+	<timeZone21>(GMT-03:30) Terranova</timeZone21>
+	<timeZone22>(GMT-03:00) Buenos Aires</timeZone22>
+	<timeZone23>(GMT-03:00) Brasilia</timeZone23>
+	<timeZone24>(GMT-03:00) Groenlandia</timeZone24>
+	<timeZone25>(GMT-03:00) Montevideo</timeZone25>
+	<timeZone26>(GMT-02:00) Atlántico central</timeZone26>
+	<timeZone27>(GMT-01:00) Azores</timeZone27>
+	<timeZone28>(GMT-01:00) Islas de Cabo Verde</timeZone28>
+	<timeZone29>(GMT) Hora del meridiano de Greenwich: Dublín, Edimburgo, Lisboa, Londres</timeZone29>
+	<timeZone30>(GMT) Monrovia, Reikiavik</timeZone30>
+	<timeZone31>(GMT+01:00) Belgrado, Bratislava, Budapest, Liubliana, Praga</timeZone31>
+	<timeZone32>(GMT+01:00) África central occidental</timeZone32>
+	<timeZone33>(GMT+01:00) Sarajevo, Skopje, Varsovia, Zagreb</timeZone33>
+	<timeZone34>(GMT+01:00) Bruselas, Copenhague, Madrid, París</timeZone34>
+	<timeZone35>(GMT+01:00) Ámsterdam, Berlín, Berna, Roma, Estocolmo, Viena</timeZone35>
+	<timeZone36>(GMT+02:00) Helsinki, Kiev, Riga, Sofía, Tallin, Vilna</timeZone36>
+	<timeZone37>(GMT+02:00) Atenas, Bucarest, Estambul</timeZone37>
+	<timeZone38>(GMT+02:00) Beirut</timeZone38>
+	<timeZone39>(GMT+02:00) Harare, Pretoria</timeZone39>
+	<timeZone40>(GMT+02:00) Cairo</timeZone40>
+	<timeZone41>(GMT+03:00) Minsk</timeZone41>
+	<timeZone42>(GMT+02:00) Amán</timeZone42>
+	<timeZone43>(GMT+01:00) Windhoek</timeZone43>
+	<timeZone44>(GMT+02:00) Jerusalén</timeZone44>
+	<timeZone45>(GMT+03:00) Bagdad</timeZone45>
+	<timeZone46>(GMT+03:00) Moscú, San Petersburgo, Volgogrado</timeZone46>
+	<timeZone47>(GMT+04:00) Tiflis</timeZone47>
+	<timeZone48>(GMT+03:00) Nairobi</timeZone48>
+	<timeZone49>(GMT+03:00) Kuwait, Riad</timeZone49>
+	<timeZone50>(GMT+03:30) Teherán</timeZone50>
+	<timeZone51>(GMT+04:00) Bakú</timeZone51>
+	<timeZone52>(GMT+04:00) Abu Dabi, Muscat</timeZone52>
+	<timeZone53>(GMT+04:00) Yerevan</timeZone53>
+	<timeZone54>(GMT+04:30) Kabul</timeZone54>
+	<timeZone55>(GMT+05:00) Ekaterimburgo</timeZone55>
+	<timeZone56>(GMT+05:00) Islamabad, Karachi, Taskent</timeZone56>
+	<timeZone57>(GMT+05:30) Chennai, Calcuta, Bombay, Nueva Delhi</timeZone57>
+	<timeZone58>(GMT+05:30) Sri Jayawardenepura</timeZone58>
+	<timeZone59>(GMT+05:45) Katmandú</timeZone59>
+	<timeZone60>(GMT+06:00) Astana, Dhaka</timeZone60>
+	<timeZone61>(GMT+06:00) Novosibirsk</timeZone61>
+	<timeZone62>(GMT+06:30) Yangon (Rangún)</timeZone62>
+	<timeZone63>(GMT+07:00) Krasnoyarsk</timeZone63>
+	<timeZone64>(GMT+07:00) Bangkok, Hanoi, Yakarta</timeZone64>
+	<timeZone65>(GMT+08:00) Pekín, Chongqing, Hong Kong, Urumqi</timeZone65>
+	<timeZone66>(GMT+08:00) Taipei</timeZone66>
+	<timeZone67>(GMT+08:00) Irkutsk</timeZone67>
+	<timeZone68>(GMT+08:00) Perth</timeZone68>
+	<timeZone69>(GMT+08:00) Kuala Lumpur, Singapur</timeZone69>
+	<timeZone70>(GMT+09:00) Yakutsk</timeZone70>
+	<timeZone71>(GMT+09:00) Osaka, Sapporo, Tokio</timeZone71>
+	<timeZone72>(GMT+09:00) Seúl</timeZone72>
+	<timeZone73>(GMT+09:30) Adelaida</timeZone73>
+	<timeZone74>(GMT+09:30) Darwin</timeZone74>
+	<timeZone75>(GMT+10:00) Hobart</timeZone75>
+	<timeZone76>(GMT+10:00) Brisbane</timeZone76>
+	<timeZone77>(GMT+10:00) Vladivostok</timeZone77>
+	<timeZone78>(GMT+10:00) Canberra, Melbourne, Sidney</timeZone78>
+	<timeZone79>(GMT+10:00) Guam, Port Moresby</timeZone79>
+	<timeZone80>(GMT+10:00) Magadán</timeZone80>
+	<timeZone81>(GMT+12:00) Fiji</timeZone81>
+	<timeZone82>(GMT+12:00) Auckland, Wellington</timeZone82>
+	<timeZone83>(GMT+13:00) Nukualofa</timeZone83>
+	<timeZone84>(GMT-04:30) Caracas</timeZone84>
+	<timeZone85>(GMT+11:00) Islas Salomón, Nueva Caledonia</timeZone85>
+	<timeZone86>(GMT) Casablanca</timeZone86>
+	<timeZone87>(GMT+08:00) Ulan Bator</timeZone87>
+	<timeZone88>(GMT+04:00) Asunción</timeZone88>
+	<dhcpNtp>Establecer el servidor NTP desde DHCP</dhcpNtp>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<systemSettings>El establecimiento de la hora y la zona horaria correctas permitirá disponer de registros exactos y de una programación adecuada para las grabaciones.</systemSettings>
+	<timeZone>Zona horaria</timeZone>
+	<timeZone1>la zona geográfica para el ajuste de la hora local de la cámara.</timeZone1>
+	<daylightSavings>Activar el horario de verano</daylightSavings>
+	<daylightSavings1>enciende el modo del horario de verano que ajustará la hora, en función del desfase horario del horario de verano y de las fechas.</daylightSavings1>
+	<autoDaylightSavings>Horario de verano automático</autoDaylightSavings>
+	<autoDaylightSavings1>al seleccionarlo, el reloj se ajusta automáticamente de acuerdo con el horario de verano de la zona horaria seleccionada.</autoDaylightSavings1>
+	<setManually>Configurar DST manualmente</setManually>
+	<setManually1>Ajuste y establezca manualmente las reglas de horario de verano.</setManually1>
+	<daylightSavingsDates>Fechas del horario de verano</daylightSavingsDates>
+	<daylightSavingsDates1>establece las fechas y la hora en que comienza y termina el horario de verano.</daylightSavingsDates1>
+	<syncTime>Copiar los parámetros horarios del ordenador</syncTime>
+	<syncTime1>Para sincronizar la fecha y la hora copiando los parámetros horarios del ordenador.</syncTime1>
+	<manual>Establecer fecha y hora manualmente</manual>
+	<manual1>Ajuste y establezca la fecha y la hora.</manual1>
+	<SyncNTP>Sincronizar con el servidor NTP</SyncNTP>
+	<SyncNTP1>con la opción seleccionada, la cámara sincronizará los parámetros de tiempo con el servidor NTP a través de Internet siempre que se inicie la cámara. Si no se puede llegar al servidor de hora, no se aplicarán los parámetros de tiempo.</SyncNTP1>
+	<ntpServer>Servidor NTP</ntpServer>
+	<ntpServer1>La dirección IP o el nombre de dominio del servidor NTP.</ntpServer1>
+	<offset>Desfase</offset>
+	<offset1>Establezca la cantidad de tiempo que se debe añadir o quitar a la hora cuando se activa el horario de verano.</offset1>
+	<ntpfromDHCPhelp>Establecer el servidor NTP desde DHCP</ntpfromDHCPhelp>
+	<ntpfromDHCPhelp1>La cámara IP obtiene el servidor de hora desde el servicio DHCP.</ntpfromDHCPhelp1>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<invalidParameter>algunos parámetros no son válidos</invalidParameter>
+	<updateFailed>error al cambiar la configuración</updateFailed>
+	<notChanged>Sin cambios.</notChanged>
+</message>
+

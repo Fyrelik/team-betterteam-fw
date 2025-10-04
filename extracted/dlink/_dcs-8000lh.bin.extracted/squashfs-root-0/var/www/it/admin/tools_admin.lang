@@ -1,0 +1,103 @@
+<body>
+	<administratorSettings>Amministratore</administratorSettings>
+	<description1>Qui è possibile modificare la password dell'amministratore per il proprio account, oltre che aggiungere e/o eliminare gli account dell'utente. È possibile inoltre configurare un nome univoco per la videocamera e abilitarne la funzione OSD (On-Screen Display) per visualizzare il nome e l'indicatore di data e ora della videocamera sui video in diretta e sulle registrazioni.</description1>
+	<devideSetting>Impostazione dispositivo</devideSetting>
+	<cameraName>Nome videocamera</cameraName>
+	<enableOSD>OSD</enableOSD>
+	<label>Etichetta</label>
+	<timeStamp>Data e ora</timeStamp>
+	<ledControl>Spia LED Power/Link</ledControl>
+	<ledControl1>Spia LED Power/Link</ledControl1>
+	<ledOn>Accesa</ledOn>
+	<ledOff>Spenta</ledOff>
+	<ledDummy>Lampeggiante</ledDummy>
+	<administrator>impostazione password amministratore</administrator>
+	<newPassword>Nuova password</newPassword>
+	<confirmPassword>Conferma nuova password</confirmPassword>
+	<PasswordMsg> massimo 30 caratteri</PasswordMsg>
+	<save>Salva</save>
+	<addUser>aggiungi account utente </addUser>
+	<userAccount>Account utente</userAccount>
+	<userName>Nome utente</userName>
+	<maxUser> massimo 20 utenti</maxUser>
+	<add>Aggiungi</add>
+	<managerUser>Elenco utenti</managerUser>
+	<userList>-- Elenco utenti --</userList>
+	<delete>Elimina</delete>
+	<reboot1>Riavvio del server Web della videocamera in corso. Attendere </reboot1>
+	<reboot2> secondi.</reboot2>
+	<asciiError>Per l'etichetta OSD è possibile utilizzare solo numeri, caratteri alfabetici maiuscoli e \"-\"</asciiError>
+	<cameraNameError>Specificare un valore in Nome videocamera</cameraNameError>
+	<cameraNameError1>In Nome videocamera non è possibile utilizzare caratteri di spazio.</cameraNameError1>
+	<cameraNameError2>Per il nome della videocamera è possibile utilizzare solo caratteri alfanumerici e \"-\"</cameraNameError2>
+	<adminPassError1>La nuova password e la password di conferma non corrispondono</adminPassError1>
+	<adminPassError2>Per la nuova password non è possibile utilizzare caratteri vuoti e caratteri non ASCII</adminPassError2>
+	<maxUserError>Numero utenti massimo superato</maxUserError>
+	<userNameError1>Specificare un valore in Nome utente</userNameError1>
+	<userNameError2>Per il nome utente utilizzare solo i caratteri alfanumerici e \".\", \"-\", \"_\"</userNameError2>
+	<userNameError3>Nome utente già esistente</userNameError3>
+	<userNameError4>In Nome utente non è possibile utilizzare amministratore come nuovo nome utente</userNameError4>
+	<userPassError1>La nuova password e la password di conferma non corrispondono</userPassError1>
+	<userPassError2>Per la nuova password non è possibile utilizzare caratteri vuoti e caratteri non ASCII</userPassError2>
+	<cameraMsg>massimo 36 caratteri</cameraMsg>
+	<privacyText>Controllo privacy</privacyText>
+	<calibrateText>Calibra il dispositivo</calibrateText>
+	<calibrate>Calibra il dispositivo</calibrate>
+	<privacyOn>Privacy attiva</privacyOn>
+	<privacyOff>Privacy non attiva</privacyOff>
+	<scheduled>Pianificato</scheduled>
+	<hour>Ore</hour>
+	<min>Minuti</min>
+	<sun>dom </sun>
+	<mon>lun </mon>
+	<tue>mar </tue>
+	<wed>mer </wed>
+	<thu>gio </thu>
+	<fri>ven </fri>
+	<sat>sab </sat>
+	<from>Inizio </from>
+	<to>Fine </to>
+	<liveViewAuth>Autenticazione utente</liveViewAuth>
+	<snapShotAuth>Autenticazione utente</snapShotAuth>
+	<scheduleError>Immettere l'ora pianificata</scheduleError>
+	<hourError>Ora non valida</hourError>
+	<minuteError>Minuti non validi</minuteError>
+	<fullHourError>Se il valore delle ore di fine è 24, i minuti di fine possono essere impostati solo su 0</fullHourError>
+	<legalTimeError>L'ora iniziale deve essere anteriore all'ora finale</legalTimeError>
+	<oldPassword>Vecchia password</oldPassword>
+	<auth>AUTENTICAZIONE</auth>
+	<httpauth>Autenticazione HTTP</httpauth>
+	<rtspauth>Autenticazione RTSP</rtspauth>
+	<snapauth>Autenticazione URL per l'istantanea</snapauth>
+	<OSDError>Per l'etichetta OSD è possibile utilizzare solo numeri, caratteri alfabetici maiuscoli e \"-\"</OSDError>
+	<enablePrivacy>Controllo privacy</enablePrivacy>
+	<privacycontrol>Controllo privacy</privacycontrol>
+	<privacyon>Privacy attiva</privacyon>
+	<privacyoff>Privacy non attiva</privacyoff>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<administratorSettings>Per motivi di sicurezza, si raccomanda di cambiare la password per l'account amministratore. Assicurarsi di annotare le nuova password per evitare di dover ripristinare la videocamera qualora venisse dimenticata.</administratorSettings>
+	<userAccount>L'account utente consente di assegnare a un utente il privilegio di accedere alla pagina della visualizzazione in diretta e utilizzare le funzioni nella pagina.</userAccount>
+	<rtspauth>Consente di abilitare la convalida utente per lo streaming RTSP.</rtspauth>
+	<httpauth>Consente di abilitare la convalida utente per lo streaming HTTP.</httpauth>
+	<snapauth>Consente di abilitare la convalida utente per l'URL per l'istantanea.</snapauth>
+	<enableOSD>Abilitando la funzione OSD, l'etichetta e la data e l'ora saranno visualizzati nell'immagine della visualizzazione in diretta.</enableOSD>
+	<ledOn>Il LED è normalmente lampeggiante a seconda dello stato di accensione e del collegamento cablato/wireless e della trasmissione del flusso video/audio.</ledOn>
+	<ledOff>Spegne sempre il LED.</ledOff>
+	<ledDummy>Fa sempre lampeggiare il LED Link durante il monitoraggio del video.</ledDummy>
+	<privacycontrol>Consente di configurare la videocamera impostando o meno la modalità privacy.</privacycontrol>
+	<privacyon>Videocamera in modalità privacy. Le opzioni Video in diretta, Clip video, Istantanea e Registrazione su SD verranno disattivate.</privacyon>
+	<privacyoff>Videocamera in modalità operativa normale.</privacyoff>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<invalidParameters>Alcuni parametri non sono validi</invalidParameters>
+	<notCorrectOldPassword>La vecchia password non è corretta</notCorrectOldPassword>
+	<exceedMaxUsers>Numero utenti massimo superato</exceedMaxUsers>
+	<userNotExist>L'utente eliminato non esiste</userNotExist>
+	<tinydbError>Errore di configurazione</tinydbError>
+	<calibrationOK>Calibrazione completata correttamente</calibrationOK>
+	<saveOK>Riavvio server Web in corso. Attendere 40 secondi, quindi riconnettere la videocamera con il nuovo indirizzo IP.</saveOK>
+</message>
+

@@ -1,0 +1,160 @@
+<body>
+	<snapshot>Momentaufnahme</snapshot>
+	<description1>Damit Ihre Kamera Momentaufnahmen machen kann, müssen Sie das Kontrollkästchen 'Momentaufnahme' markieren. Sie können dann das/die Auslöserereignis(se) sowie die Ereignisbenachrichtigung(en) entweder über E-Mail und/oder FTP angeben. </description1>
+	<description2>Die durch Bewegung ausgelösten Momentaufnahmen sind deaktiviert, wenn der SXGA-Modus aktiviert ist.</description2>
+	<description3>Um die durch Bewegung ausgelösten Momentaufnahmen zu aktivieren, wählen Sie den VGA- oder XGA-Modus in </description3>
+	<description4> Audio und Video</description4>
+	<description6>Konfigurierbar in </description6>
+	<description7> Audio und Video</description7>
+	<savebutton>Einstellungen speichern</savebutton>
+	<notsavebutton>Einstellungen nicht speichern</notsavebutton>
+	<di>D/E Signal 1</di>
+	<di2>D/E Signal 2</di2>
+	<enable>Momentaufnahme</enable>
+	<motionDetection>Bewegungserkennung</motionDetection>
+	<sendVideoClipBy>Senden an:</sendVideoClipBy>
+	<emailAddress>E-Mail-Adresse</emailAddress>
+	<ftpServer>FTP Server</ftpServer>
+	<userName>Benutzername</userName>
+	<profile3>Profil 3 </profile3>
+	<password>Kennwort</password>
+	<mailServer>SMTP-Mail-Server</mailServer>
+	<senderAddress>E-Mail-Adresse des Absenders</senderAddress>
+	<recipientAddress>E-Mail-Adresse des Empfängers</recipientAddress>
+	<port>Port</port>
+	<test>Test</test>
+	<test2>Test</test2>
+	<hostName>Hostname</hostName>
+	<path>Pfad</path>
+	<prefixFileName>Dateiname-Präfix</prefixFileName>
+	<passiveMode>Passiv-Modus</passiveMode>
+	<portRange> (Bereich: 1 bis 65535)</portRange>
+	<mailNameError>Nicht-ASCII-Zeichen und Leerzeichen sind in einem E-Mail-Benutzernamen und -Kennwort nicht gültig.</mailNameError>
+	<ftpNameError>Nicht-ASCII-Zeichen und Leerzeichen sind in einem FTP-Benutzernamen und -Kennwort nicht gültig.</ftpNameError>
+	<firSmtpError>Der SMTP Mail Server muss angegeben werden. Es sind nur Zahlen, Buchstaben, \".\" , \"-\", und \"_\" Zeichen gültig.</firSmtpError>
+	<firSmtpName>E-Mail SMTP</firSmtpName>
+	<firAccountError>Der SMTP-Benutzername darf nicht leer sein</firAccountError>
+	<firRecipientMailError>Bestätigen Sie das Format der Empfänger-E-Mail-Adresse.</firRecipientMailError>
+	<firRecipientError>Die E-Mail-Adresse des Empfängers muss angegeben werden</firRecipientError>
+	<firSenderMailError>Bestätigen Sie das Format der Absender-E-Mail-Adresse.</firSenderMailError>
+	<firSenderError>Die E-Mail-Adresse des Absenders muss angegeben werden</firSenderError>
+	<PortError1> Port darf nicht leer sein</PortError1>
+	<PortError2> Portwert muss eine Ganzzahl sein</PortError2>
+	<PortError3> Port muss zwischen 1 und 65535 sein.</PortError3>
+	<firFtpServerError>Der FTP-Server muss angegeben werden. Es sind nur Zahlen, Buchstaben, \".\" , \"-\", und \"_\" Zeichen gültig.</firFtpServerError>
+	<firFtpError>FTP</firFtpError>
+	<firFolderError>Der FTP-Pfad kann nur Zahlen, Buchstaben und folgende Zeichen akzeptieren: </firFolderError>
+	<firFolderError2>Im FTP-Pfad sind \".\" und \"/\" fortlaufend nicht akzeptabel</firFolderError2>
+	<firFixFilenameError>Der Dateinamen-Präfix kann nur Zahlen, Buchstaben und folgende Zeichen akzeptieren: </firFixFilenameError>
+	<continousRecording>Fortlaufend (Nur FTP)</continousRecording>
+	<scheduledRecording>Zeitplan (Nur FTP)</scheduledRecording>
+	<hour>Stunden</hour>
+	<min>Minuten</min>
+	<sun>So </sun>
+	<mon>Mo </mon>
+	<tue>Di </tue>
+	<wed>Mi </wed>
+	<thu>Do </thu>
+	<fri>Fr </fri>
+	<sat>Sa </sat>
+	<from>Start </from>
+	<to>Ende </to>
+	<scheduling>Zeitplan</scheduling>
+	<motionBased>Bewegung</motionBased>
+	<alwaysBased>Immer</alwaysBased>
+	<interval>Intervall</interval>
+	<second>Sekunden</second>
+	<range> (Bereich: 10 bis 86400 Sekunden)</range>
+	<range1> (Bereich: 10 bis 86400 Sekunden)</range1>
+	<range2> (Bereich: 30 bis 86400 Sekunden)</range2>
+	<range3> (Bereich: 60 bis 86400 Sekunden)</range3>
+	<range4> (Bereich: 10 bis 86400 Sekunden)</range4>
+	<methodError>Wählen Sie eine Zeitplaneinstellung</methodError>
+	<scheduleError>Geben Sie die geplante Zeit an</scheduleError>
+	<triggerError>Wählen Sie ein Ziel aus</triggerError>
+	<fullHourError>Wenn Ende (Stunden) 24 ist, kann Ende (Minuten) nur auf 0 gesetzt werden</fullHourError>
+	<legalTimeError>Startzeit muss vor der Endzeit sein</legalTimeError>
+	<ftpignoreMotionTimeError>Nächste FTP senden nach ‚Sekunde‘ muss eine Ganzzahl sein</ftpignoreMotionTimeError>
+	<ftpignoreMotionTimeError1>Nächste FTP senden nach ‚Sekunde‘ muss 10~86400 Sekunden sein</ftpignoreMotionTimeError1>
+	<ftpignoreMotionTimeError2>Nächste FTP senden nach ‚Sekunde‘ muss 30~86400 Sekunden sein</ftpignoreMotionTimeError2>
+	<ftpignoreMotionTimeError3>Nächste FTP senden nach ‚Sekunde‘ muss 60~86400 Sekunden sein</ftpignoreMotionTimeError3>
+	<smtpignoreMotionTimeError>Nächste E-Mail senden nach ‚Sekunde‘ muss eine Ganzzahl sein</smtpignoreMotionTimeError>
+	<smtpignoreMotionTimeError1>Nächste E-Mail senden nach ‚Sekunde‘ muss 10~86400 Sekunden sein</smtpignoreMotionTimeError1>
+	<smtpignoreMotionTimeError2>Nächste E-Mail senden nach ‚Sekunde‘ muss 30~86400 Sekunden sein</smtpignoreMotionTimeError2>
+	<smtpignoreMotionTimeError3>Nächste E-Mail senden nach ‚Sekunde‘ muss 60~86400 Sekunden sein</smtpignoreMotionTimeError3>
+	<ftpintervalError>FTP </ftpintervalError>
+	<smtpintervalError>E-Mail </smtpintervalError>
+	<sdintervalError>SD-Karte </sdintervalError>
+	<intervalError>Intervall muss eine Ganzzahl sein</intervalError>
+	<intervalError1>Intervall muss zwischen 10 ~ 86400 Sekunden sein</intervalError1>
+	<intervalError2>Intervall muss zwischen 30 ~ 86400 Sekunden sein</intervalError2>
+	<intervalError3>Intervall muss zwischen 60 ~ 86400 Sekunden sein</intervalError3>
+	<ftpMailError>Geben Sie die E-Mail-Adresse oder FTP-Servereinstellungen an</ftpMailError>
+	<ftpScheduleError>Geben Sie die FTP-Servereinstellungen an</ftpScheduleError>
+	<trigger>Auslösen durch</trigger>
+	<ignoreMotFTP>Nächste FTP senden nach</ignoreMotFTP>
+	<ignoreMotSMTP>Nächste E-Mail senden nach</ignoreMotSMTP>
+	<onlyDuring>Nur im Verlaufe von</onlyDuring>
+	<day>Tag</day>
+	<time>Zeit</time>
+	<period>Periodisch im Intervall</period>
+	<type>Momentaufnahmentyp</type>
+	<motSingle>Einzelne Momentaufnahme</motSingle>
+	<motmulti1>6 Momentaufnahmen mit</motmulti1>
+	<motmulti2>Intervall (Sekunden) (3 Frames vor und 3 nach dem Bewegungseinzelbild)</motmulti2>
+	<target>Ziel</target>
+	<quota>Freien Speicherplatz behalten</quota>
+	<sdcycle>Zyklisch</sdcycle>
+	<Email>E-Mail an </Email>
+	<sd>SD-Karte</sd>
+	<ftp>FTP</ftp>
+	<encrypt1>SSL-TLS/STARTTLS verwenden</encrypt1>
+	<encrypt2>SSL-TLS verwenden</encrypt2>
+	<smtp>E-Mail</smtp>
+	<encript1>Keine</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<sdQuotaError>Die freie Speicherplatzangabe der SD-Karte muss eine Ganzzahl sein. Das Minimum ist 30.</sdQuotaError>
+	<mfhourError>Startstunde ist nicht gültig</mfhourError>
+	<mthourError>Endstunde ist nicht gültig</mthourError>
+	<mfminuteError>Startminute ist nicht gültig</mfminuteError>
+	<mtminuteError>Endminute ist nicht gültig</mtminuteError>
+	<intervalSecErr>Sekundenangabe für Intervall muss eine positive Zahl und mindestens 5 sein.</intervalSecErr>
+	<ignoreSecErr>Der Wert für das Ignorieren (in Sekunden) muss eine positive Zahl sein</ignoreSecErr>
+	<dayErr>Wählen Sie mindestens einen Tag</dayErr>
+	<mininum>(Minimum 5 Sekunden)</mininum>
+	<global>Globaler Parameter</global>
+	<source>Quelle</source>
+	<qoutaMin>und Minimum ist 30 </qoutaMin>
+	<motionNote>Beachten Sie bitte, dass die Bewegungserkennung nicht aktiviert ist. Gehen Sie zur Bewegungserkennungs-Webseite, um die Konfiguration durchzuführen.</motionNote>
+	<sdNote>Beachten Sie, dass keine SD-Karte in die Kamera eingesetzt ist oder die SD-Karte ist nicht beschreibbar.</sdNote>
+	<sdNoteFull>Beachten Sie bitte, dass die SD-Kartenkapazität ausgeschöpft ist.</sdNoteFull>
+	<gpio>Digitale Eingabe</gpio>
+	<audioBased>Ton</audioBased>
+	<audioNote>Beachten Sie bitte, dass die Tonerkennung nicht aktiviert ist. Gehen Sie zur Tonerkennungsseite, um die Konfiguration vorzunehmen.</audioNote>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<snapshot>Die Momentaufnahme bietet die Möglichkeit, Bilder auf einem fernen E-Mail- oder FTP-Server auf Basis der Bewegungserkennung und der ausgelösten externen Sensoreingabe zu speichern oder dorthin zu senden.</snapshot>
+	<motionBased>Momentaufnahme nach einer Bewegungserkennung beginnen.</motionBased>
+	<scheduling>Momentaufnahme in einer angegebenen Zeit.</scheduling>
+	<alwaysBased>Fortlaufende Momentaufnahme.</alwaysBased>
+	<sixSnapshot>6 Momentaufnahmen</sixSnapshot>
+	<sixSnapshotDes>Fortlaufende 6 Bilder für jede Momentaufnahme wählen.</sixSnapshotDes>
+	<target>Sie können das Ziel als FTP oder E-Mail für die Momentaufnahme wählen.</target>
+	<type>Sie können JPEG-Einstellungen vom Video Profil 3, Einzelmomentaufnahme oder 6 Momentaufnahmen hier einrichten.</type>
+	<gpio>Momentaufnahme nach Erkennung einer digitalen Eingabe beginnen.</gpio>
+	<audioBased>Schnappschuss bei erkanntem Ton erstellen (Tonerkennung als Auslöser).</audioBased>
+	<test>Klicken Sie auf "Test", um sicherzustellen, dass die FTP- bzw- Mail-Einstellungen korrekt sind.</test>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<testMailFault>Das Senden einer Test-E-Mail ist fehlgeschlagen</testMailFault>
+	<invalidPort>Ungültiger Port</invalidPort>
+	<getFrameFault>Fehler beim Frame-Abruf</getFrameFault>
+	<testMailOk>Test-E-Mail wurde erfolgreich gesendet</testMailOk>
+	<testFTPFault>FTP-Test-Fehler</testFTPFault>
+	<testFTPOk>FTP-Test war erfolgreich</testFTPOk>
+	<updateFailed>Aktualisierungsfehler</updateFailed>
+</message>
+

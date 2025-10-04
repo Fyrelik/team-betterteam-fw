@@ -1,0 +1,61 @@
+<body>
+	<maintenance>System</maintenance>
+	<description1>Hier können Sie eine Sicherungskopie erstellen, Daten wiederherstellen und einen Neustart der Kamera durchführen.</description1>
+	<rebootDevice>Gerät neu starten</rebootDevice>
+	<rebootText>Gerät neu starten</rebootText>
+	<factory>Auf Werkseinstellungen zurücksetzen</factory>
+	<factoryDefault>Werkseinstellungen wiederherstellen</factoryDefault>
+	<calibrateText>Gerät kalibrieren</calibrateText>
+	<calibrate>Gerät kalibrieren</calibrate>
+	<reboot1>Die Kamera wird zurzeit neu gestartet. Bitte warten Sie ein paar </reboot1>
+	<reboot2> Sekunden.</reboot2>
+	<system>System</system>
+	<backupText>Auf der lokalen Festplatte speichern</backupText>
+	<saveConfiguration>Konfiguration speichern</saveConfiguration>
+	<restoreText>Von der lokalen Festplatte laden</restoreText>
+	<privacyText>Privacy-Modus</privacyText>
+	<privacy>Zum Privacy-Modus</privacy>
+	<restoreConfiguration>Konfiguration laden</restoreConfiguration>
+	<restoreConfirm>Möchten Sie Konfigurationsdaten wiederherstellen?</restoreConfirm>
+	<rebootConfirm>Möchten Sie einen Neustart durchführen?</rebootConfirm>
+	<factoryConfirm>Möchten Sie die werkseitigen Standardeinstellungen wiederherstellen?</factoryConfirm>
+	<reboot>Gerät neu starten</reboot> 
+	<schedule>Zeitplan gerät neu starten</schedule> 
+	<sun>So</sun> 
+	<mon>Mo</mon> 
+	<tue>Di</tue> 
+	<wed>Mi</wed> 
+	<thu>Do</thu> 
+	<fri>Fr</fri> 
+	<sat>Sa</sat> 
+	<time>Zeit</time> 
+	<savebutton>Speichern</savebutton>
+	<exportHint>Please enter a key to save the configuration. And reserve the key carefully for loading the configuration.</exportHint>
+	<importHint>Please enter the key for loading the configuration.</importHint>
+	<exportError>Key can't be empty.</exportError>
+	<importError>The key is required to load the configuration.</importError>
+	<keyError>The key only accepts number, alphabet, \".\", \"_\", and \"-\". The maximum is 30 characters.</keyError>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<maintenance>Sobald die werkseitigen Standardeinstellungen wiederhergestellt sind, verwenden Sie den im Lieferumfang Ihrer Kamera enthaltenen Installationsassistenten, um die Kamera zu suchen und eine Verbindung herzustellen.</maintenance>
+</hint>
+<message>
+	<updateOK>Die Aktualisierung war erfolgreich</updateOK>
+	<uploadFail>Der Upload-Vorgang ist fehlgeschlagen</uploadFail>
+	<examFail>Das hochgeladene Bild ist beschädigt</examFail>
+	<infoFail>Das hochgeladene Bild weist keine Informationen auf</infoFail>
+	<invalidImage>Das hochgeladene Bild kann von diesem Produkt nicht verwendet werden</invalidImage>
+	<resetFail>Der Rücksetzvorgang ist fehlgeschlagen</resetFail>
+	<resetOK>Die Kamera wird zurückgesetzt. Warten Sie bitte ca. eine Minute und stellen Sie dann die Verbindung zu der Kamera mit der neuen IP-Adresse (falls geändert) wieder her.</resetOK>
+	<rebootFail>Der Neustart ist fehlgeschlagen</rebootFail>
+	<rebootOK>Der Neustart ist abgeschlossen</rebootOK>
+	<calibrationOK>Kalibrierung erfolgreich durchgeführt</calibrationOK>
+	<goSleepOK>Privacy-Modus erfolgreich aufgerufen</goSleepOK>
+	<importOK>Ihre Konfiguration wird von der Kamera geladen. Warten Sie bitte ca. eine Minute und stellen Sie dann die Verbindung zu der Kamera mit der neuen IP-Adresse (falls geändert) wieder her.</importOK>
+	<invalidDB>Die Konfigurationsdatei ist ungültig.</invalidDB>
+	<noDB>Es wurde keine Konfigurationsdatei hochgeladen</noDB>
+	<saveOK>Der Webserver wird neu gestartet.  Warten Sie bitte ca. eine Minute und stellen Sie dann die Verbindung zu der Kamera mit der neuen IP-Adresse (falls geändert) wieder her.</saveOK>
+	<scheduleOK>Änderungen gespeichert.</scheduleOK>
+</message>
+

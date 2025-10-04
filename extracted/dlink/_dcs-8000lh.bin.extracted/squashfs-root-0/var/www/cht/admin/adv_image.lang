@@ -1,0 +1,60 @@
+<body>
+	<imageSettings>影像設定</imageSettings>
+	<description1>影像設定所做的變更會立即生效。結果會顯示在下面的即時影像視窗中。</description1>
+	<image>即時影像</image>
+	<controls>影像設定</controls>
+	<brightness>亮度</brightness>
+	<saturation>飽和度</saturation>
+	<contrast>對比</contrast>
+	<hue>色調</hue>
+	<frequency>頻率</frequency>
+	<auto>自動</auto>
+	<hz>Hz</hz>
+	<whiteBalance>白平衡</whiteBalance>
+	<indoor>室內</indoor>
+	<outdoor>室外</outdoor>
+	<shutter>慢速快門</shutter>
+	<speed>最高快門速度:</speed>
+	<second>秒</second>
+	<source>光源</source>
+	<disable>停用</disable>
+	<BLC>BLC</BLC>
+	<AWB>AWB</AWB>
+	<AGC>AGC</AGC>
+	<AES>AES</AES>
+	<hue1> - 此為色彩層次。</hue1>
+	<bw>黑白</bw>
+	<flip>翻轉</flip>
+	<mirror>鏡像</mirror>
+	<autoExposure>自動曝光</autoExposure>
+	<reset>重設為預設值</reset>
+	<exceedMaxConn>攝影機已達最高使用者數量。請稍後再試。</exceedMaxConn>
+	<enableNightMode>慢速快門</enableNightMode>
+	<shutter>最高快門速度:</shutter>
+	<second>秒</second>
+	<sharpness>銳利度</sharpness>
+	<noiseReduction>雜訊抑制</noiseReduction>
+	<privacy>網路攝影機目前設定為隱私模式</privacy>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<imageSettings>亮度、對比、飽和度的調整範圍從 0 到 100，供您微調影像設定。</imageSettings>
+	<imageSettings1>亮度、飽和度、對比、色調的調整範圍從 0 到 100，供您微調影像設定。</imageSettings1>
+	<brightness>用來補償背光場景。</brightness>
+	<saturation>以黑白方式控制色彩強度，營造大膽配色。</saturation>
+	<contrast>調整物體之間的色彩對比。在灰暗天空下可提升影像品質。</contrast>
+	<bw>啟用/停用攝影機黑白模式。</bw>
+	<mirror>選擇此功能來取得鏡像。</mirror>
+	<flip>當攝影機倒掛在天花板時就要選擇此功能。</flip>
+	<frequency>要選擇「50」或「60」Hz 頻率 (依國家/地區而定)。</frequency>
+	<whiteBalance>預設是「自動」。它會移除不合理的色偏，讓白色物體在影片中呈現真實的白色。</whiteBalance>
+	<enableNightMode>選擇在昏暗環境所使用的最低快門速度。</enableNightMode>
+	<hue2>用來改變不同色相的程度對人眼的感覺。</hue2>
+	<sharpness>調整這個項目以控制畫面銳利度。</sharpness>
+	<autoExposure1>選擇此功能可以使攝影機自動調整曝光時間。</autoExposure1>
+	<source> - 選擇室內或室外環境。</source>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<fail>變更失敗。</fail>
+</message>

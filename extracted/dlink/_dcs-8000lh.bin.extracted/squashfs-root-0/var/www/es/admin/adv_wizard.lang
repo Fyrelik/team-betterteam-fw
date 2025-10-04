@@ -1,0 +1,24 @@
+<body>
+	<internetSettings>parámetros de conexión a Internet</internetSettings>
+	<description1>En esta sección, podrá configurar los parámetros de la interfaz de red con cables de la cámara IP. Si está configurando por primera vez este dispositivo, D-Link recomienda seleccionar el Asistente para la configuración de la conexión a Internet y seguir las instrucciones que aparecen en la pantalla. Si desea modificar o configurar manualmente los parámetros de la cámara IP, puede seleccionar la Configuración manual de la conexión de Internet para introducir los parámetros de red.</description1>
+	<description1wireless>En esta sección, podrá configurar los parámetros de la interfaz de red de la cámara IP. Si está configurando por primera vez este dispositivo, D-Link recomienda seleccionar el Asistente para la configuración de la conexión a Internet y seguir las instrucciones que aparecen en la pantalla. Si desea modificar o configurar manualmente los parámetros de la cámara IP, puede seleccionar la Configuración manual de la conexión de Internet para introducir los parámetros de red.</description1wireless>
+	<internetButton>Asistente para la configuración de la conexión a Internet</internetButton>
+	<internetSetup>Configuración manual de la conexión a Internet</internetSetup>
+	<motionSettings>Parámetros de detección de movimiento de la cámara IP</motionSettings>
+	<description2>En esta sección, podrá configurar los parámetros de la detección de movimiento de la cámara IP. Si está configurando por primera vez este dispositivo, D-Link recomienda seleccionar el Asistente para la configuración de detección de movimiento y seguir las instrucciones que aparecen en la pantalla. Si desea modificar o configurar manualmente la detección de movimiento, seleccione la Configuración manual de detección de movimiento.</description2>
+	<description3>La detección de movimiento está desactivada mientras la cámara está configurada en el modo SXGA.</description3>
+	<description4>Para activar la detección de movimiento, seleccione el modo VGA o XGA en </description4>
+	<description5> Audio y vídeo.</description5>
+	<motionButton>Asistente para la configuración de detección de movimiento</motionButton>
+	<motionSetup>Configuración manual de detección de movimiento</motionSetup>
+	<privacy>Esta cámara está actualmente en modo de intimidad.</privacy>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<description1>Si es un usuario experimentado y ha configurado antes una cámara de Internet, haga clic en “Configuración manual de la conexión a Internet” para introducir manualmente todos los parámetros.</description1>
+	<description2>Si se considera un usuario avanzado y desea configurar manualmente los parámetros de detección de movimiento, haga clic en "Configuración manual de detección de movimiento” para introducir manualmente todos los parámetros.</description2>
+</hint>
+<message>
+
+</message>
+

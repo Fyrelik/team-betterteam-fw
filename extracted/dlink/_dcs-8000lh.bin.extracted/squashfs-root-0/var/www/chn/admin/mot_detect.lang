@@ -1,0 +1,63 @@
+<body>
+	<motionDetection>移动侦测</motionDetection>
+	<description1>此节将允许您启用或禁用移动侦测功能，定义或删除动作区域，配置您摄像机的检测动作面积比设置。您必须选中“启用视频动作”复选框才能开启此功能。</description1>
+	<description2>当摄像机设为SXGA模式时，移动侦测功能被禁用。</description2>
+	<description3>如要启用动作探测功能，选择VGA或XGA模式 </description3>
+	<description4> 音频和视频</description4>
+	<savebutton>保存设置</savebutton>
+	<notsavebutton>不保存设置</notsavebutton>
+	<liveVideo>实时视频</liveVideo>
+	<enableMotion>启用视频动作</enableMotion>
+	<enablePIR>启用PIR</enablePIR>
+	<sense>面积比</sense>
+	<drawingMode>定义模式</drawingMode>
+	<drawMotion>定义动作区域</drawMotion>
+	<eraseMotion>删除动作区域</eraseMotion>
+	<clear>清除</clear>
+	<pirhigh>高</pirhigh>
+	<pirmiddle>中</pirmiddle>
+	<pirlow>低</pirlow>
+	<numberError>面积比必须为整数</numberError>
+	<pirsensibility>PIR灵敏度</pirsensibility>
+	<rangeError>面积比取值范围必须在整数0至100之间。</rangeError>
+	<areaError>请定义动作区域</areaError>
+	<unselectRange>定义动作区域</unselectRange>
+	<inverseRange>删除动作区域</inverseRange>
+	<showFirefoxText>如需设置动作区域，请使用Windows Internet浏览器。</showFirefoxText>
+	<scheduling>计划</scheduling>
+	<always>始终启用</always>
+	<schedule>计划</schedule>
+	<day>日</day>
+	<mon>星期一</mon>
+	<thu>星期二</thu>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<sun>星期天</sun>
+	<time>时间</time>
+	<form>来自</form>
+	<to>到</to>
+	<clear>清除</clear>
+	<reloadBG>刷新图像</reloadBG>
+	<enalbeMdWarning>警告：如果您要启用动作检测功能，请选中[启用视频动作]。 如果您要禁用动作检测功能，请清除动作区域。</enalbeMdWarning>
+	<privacy>网路摄像机目前设定为隐私模式</privacy>
+	<JavaSupport>浏览器不支持或是关闭了 Java JRE。</JavaSupport>
+	<getJava>在这取得最新的 Java JRE</getJava>
+	<enableJava> 或者打开 Java JRE。</enableJava>
+	<javajreinfo8>点击这里去下载NCSPlugin 并安装。然后再重新打开浏览器</javajreinfo8>
+	<javajreinfo88>您所使用的浏览器可能无法接收图像和视频。如果在查看此页面时出现任何问题，我们建议您使用Internet Explorer，Mozilla Firefox或Apple Sarfari浏览器。</javajreinfo88>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<pirsensibility>PIR灵敏度的设定有三种选择：低，中，高，而默认的设置值为低的。而你应该实验看看哪一个设置是最适合目前PIR所放置的地方。</pirsensibility>
+	<sense>设置摄像头触发动作探测的面积比。高面积比将更易探测到活动物体。</sense>
+	<unselectRange>拖动您的鼠标，添加动作探测范围。</unselectRange>
+	<inverseRange>拖动鼠标，删除动作探测范围。</inverseRange>
+	<enablePIR>启用此项后，使用PIR（被动红外线）来检测动作。</enablePIR>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<fail>更改失败。</fail>
+	<updateFailed>配置动作探测后台运行失败。</updateFailed>
+</message>

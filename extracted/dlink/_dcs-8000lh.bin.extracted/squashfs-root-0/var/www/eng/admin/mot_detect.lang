@@ -1,0 +1,63 @@
+<body>
+	<motionDetection>motion detection</motionDetection>
+	<description1>This section will allow you to enable or disable motion detection function, draw or erase motion area, as well as configure the sensitivity setting of your camera to detect movement. You must select the checkbox of 'Enable Video Motion' to turn on the feature. </description1>
+	<description2>Motion detection is disabled while camera is set to SXGA mode.</description2>
+	<description3>To enable motion detection, select VGA or XGA mode in </description3>
+	<description4> Audio And Video.</description4>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<liveVideo>Live video</liveVideo>
+	<enableMotion>Enable Video Motion</enableMotion>
+	<enablePIR>Enable PIR</enablePIR>
+	<sense>Sensitivity</sense>
+	<drawingMode>Drawing Mode</drawingMode>
+	<drawMotion>Draw motion area</drawMotion>
+	<eraseMotion>Erase motion area</eraseMotion>
+	<clear>Clear</clear>
+	<pirhigh>High</pirhigh>
+	<pirmiddle>Medium</pirmiddle>
+	<pirlow>Low</pirlow>
+	<pirsensibility>PIR Sensitivity</pirsensibility>
+	<numberError>Sensitivity must be an integer</numberError>
+	<rangeError>Sensitivity must be an integer between 0 and 100</rangeError>
+	<areaError>Please draw motion area</areaError>
+	<unselectRange>Draw motion area</unselectRange>
+	<inverseRange>Erase motion area</inverseRange>
+	<showFirefoxText>To setup motion area, please use Windows Internet Explorer.</showFirefoxText>
+	<scheduling>Scheduling</scheduling>
+	<always>Always</always>
+	<schedule>Schedule</schedule>
+	<day>Day</day>
+	<mon>Mon</mon>
+	<thu>Tue</thu>
+	<wed>Wed</wed>
+	<thu>Thu</thu>
+	<fri>Fri</fri>
+	<sat>Sat</sat>
+	<sun>Sun</sun>
+	<time>Time</time>
+	<form>From</form>
+	<to>to</to>
+	<clear>Clear</clear>
+	<reloadBG>Refresh Image</reloadBG>
+	<enalbeMdWarning>Warning: If you want to enable the motion detection function, please check [Enable Video Motion]. However, if you want to disable the motion detection function, please clear motion area.</enalbeMdWarning>
+	<privacy>This camera is currently in Privacy mode.</privacy>
+	<JavaSupport>This browser doesn't support or disable Java JRE .</JavaSupport>
+	<getJava>Get the latest Java JRE here</getJava>
+	<enableJava> or enable Java JRE.</enableJava>
+	<javajreinfo8>Click here to download NCSPlugin and install. And then re-open your browser is recommended!!</javajreinfo8>
+	<javajreinfo88>The browser you are using may have difficulty receiving images and video. If you experience any issues viewing this page, we suggest using Internet Explorer, Mozilla Firefox, or Apple Safari.</javajreinfo88>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<pirsensibility>There are three options for the level of sensitivity: Low, Medium and High, and the default is Low. You may want to experiment with these settings to find which one suits you best.</pirsensibility>
+	<sense>Set the sensitivity of camera to trigger motion detection. High sensitivity makes the motions easier to be detected.</sense>
+	<unselectRange>Drag your mouse to add motion detection range.</unselectRange>
+	<inverseRange>Drag your mouse to erase motion detection range.</inverseRange>
+	<enablePIR>When this option is selected, use PIR (passive infrared) to detect motion.</enablePIR>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+	<updateFailed>configure with motion detection daemon failed</updateFailed>
+</message>

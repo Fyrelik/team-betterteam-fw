@@ -1,0 +1,71 @@
+<body>
+	<ipfiltertitle>IP FILTER</ipfiltertitle>
+	<description1>In order to enable your camera IP filters, you must select the checkbox of 'Access List Filtering'. Then, change your detail settings by this page.</description1>
+	<subtitle>IP FILTER</subtitle>
+	<enableIpFilter>Access List Filtering</enableIpFilter>
+	<filterType>Filter Type:</filterType>
+	<filterAllow>Allow</filterAllow>
+	<filterDeny>Deny</filterDeny>
+	<accessList>Filter List:</accessList>
+	<ipTypeSig>Single</ipTypeSig>
+	<ipTypeSub>Subnet</ipTypeSub>
+	<ipTypeRan>Range</ipTypeRan>
+	<ipTypeSigDot>IP address:</ipTypeSigDot>
+	<ipTypeSubDot>Network address / Network mask:</ipTypeSubDot>
+	<ipTypeRanDot>IP address - IP address:</ipTypeRanDot>
+	<addAFilter>Add</addAFilter>
+	<adminIp>Administrator IP Address:</adminIp>
+	<ipadresserrorinfo>The setting are invalid</ipadresserrorinfo>
+	<allowAdmin>Always allow the IP address to access this device</allowAdmin>
+	<delAFilter>Delete</delAFilter>
+	<ipMessage1>IP address</ipMessage1>
+	<ipMessage2>The IP address entered is invalid.</ipMessage2>
+	<ipMessage3>The IP address cannot be zero.</ipMessage3>
+	<ipError1>IP address can't be empty.</ipError1>
+	<networkipseterror>The settings are invalid.</networkipseterror>
+	<delNumError>Please select one filter.</delNumError>
+	<delChooseError>please choose filter once a time.</delChooseError>
+	<netMaskError>Netmask must be between 1 and 32.</netMaskError>
+	<allowEmptyListError>please add a filter or enable admin IP.</allowEmptyListError>
+	<ipv4filterListNumError>IPv4 Filter List is full.</ipv4filterListNumError>
+	<ipv6filterListNumError>IPv6 Filter List is full.</ipv6filterListNumError>
+	<allowNoneError>Please allow at least one filter or enable an admin ip.</allowNoneError>
+	<decreasRangeError>Decreasing range of IP addresses is invalid.</decreasRangeError>
+	<sameIpError>The start and end IP addresses can't be the same.</sameIpError>
+	<filteraddress>Add New Filter:</filteraddress>
+	<ipv4AccessList>IPv4 Filter List:</ipv4AccessList>
+	<ipv6AccessList>IPv6 Filter List:</ipv6AccessList>
+	<ipv6AddressError>The IP address entered is invalid.</ipv6AddressError>
+	<addAddressIsError>The address entered is invalid.</addAddressIsError>
+	<ipv6PrefixError>IPv6 Prefix Length must be between 0 and 128.</ipv6PrefixError>
+	<StartIP>Start IP address:</StartIP>
+	<EndIP>End IP address:</EndIP>
+	<commonIPadresserror>The IP address is already exist</commonIPadresserror>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<Ipfilter>Access List Filtering is the ability to allow only or deny those IP addresses accessibility to this camera.</Ipfilter>
+	<FilterType>Filter Type</FilterType>
+	<FilterTypeText>You can select Allow or Deny to those IP addresses specified at Filter List.</FilterTypeText>
+	<AccessList>Filter List</AccessList>
+	<AccessListText>IP addresses specified.</AccessListText>
+	<Single>Single</Single>
+	<SingleText>Specify one single IP address.</SingleText>
+	<Subnet>Subnet</Subnet>
+	<SubnetText>Specify a subnet of IP addresses.</SubnetText>
+	<Range>Range</Range>
+	<RangeText>Specify a range of IP addresses.</RangeText>
+	<adminAdress>Administrator IP Address</adminAdress>
+	<adminAdressText>You can enable and set an IP address as Administrator IP Address to always allow it accessible to this camera.</adminAdressText>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<invalidParameter>invalid Parameter.</invalidParameter>
+	<invalidFilterEnable>invalid Filter Enable.</invalidFilterEnable>
+	<invalidFilterType>invalid Filter Type.</invalidFilterType>
+	<invalidAdminIPEnable>invalid Admin IP Enable.</invalidAdminIPEnable>
+	<invalidAdminIP>invalid Admin IP.</invalidAdminIP>
+	<invalidIP>invalid IP.</invalidIP>
+	<invalidNetmask>invalid Net mask.</invalidNetmask>
+	<nothingChange>Setting not changed.</nothingChange>
+</message>

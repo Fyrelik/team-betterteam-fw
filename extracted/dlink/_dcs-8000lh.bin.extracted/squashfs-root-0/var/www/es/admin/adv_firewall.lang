@@ -1,0 +1,71 @@
+<body>
+	<ipfiltertitle>FILTRO IP</ipfiltertitle>
+	<description1>Para activar los filtros IP de la cámara, debe seleccionar la casilla de selección de "Filtrado de lista de acceso". A continuación, cambie los parámetros detallados correspondientes a esta página.</description1>
+	<subtitle>FILTRO IP</subtitle>
+	<enableIpFilter>Filtrado de lista de acceso</enableIpFilter>
+	<filterType>Tipo de filtro:</filterType>
+	<filterAllow>Permitir</filterAllow>
+	<filterDeny>Denegar</filterDeny>
+	<accessList>Lista de filtros:</accessList>
+	<ipTypeSig>Único</ipTypeSig>
+	<ipTypeSub>Subred</ipTypeSub>
+	<ipTypeRan>Rango</ipTypeRan>
+	<ipTypeSigDot>Dirección IP:</ipTypeSigDot>
+	<ipTypeSubDot>Dirección de red / Máscara de red:</ipTypeSubDot>
+	<ipTypeRanDot>Dirección IP - dirección IP:</ipTypeRanDot>
+	<addAFilter>Añadir</addAFilter>
+	<adminIp>Dirección IP del administrador:</adminIp>
+	<ipadresserrorinfo>La configuración no es válida</ipadresserrorinfo>
+	<allowAdmin>Permitir siempre que la dirección IP acceda a este dispositivo</allowAdmin>
+	<delAFilter>Eliminar</delAFilter>
+	<ipMessage1>Dirección IP</ipMessage1>
+	<ipMessage2>La dirección IP introducida no es válida.</ipMessage2>
+	<ipMessage3>La dirección IP no puede ser cero.</ipMessage3>
+	<ipError1>La dirección IP no puede estar vacía.</ipError1>
+	<networkipseterror>Los parámetros no son válidos.</networkipseterror>
+	<delNumError>Seleccione un filtro.</delNumError>
+	<delChooseError>elija los filtros de uno en uno.</delChooseError>
+	<netMaskError>La máscara de red debe estar entre 1 y 32.</netMaskError>
+	<allowEmptyListError>añada un filtro o active la IP del administrador.</allowEmptyListError>
+	<ipv4filterListNumError>La lista de filtros IPv4 está llena.</ipv4filterListNumError>
+	<ipv6filterListNumError>La lista de filtros IPv6 está llena.</ipv6filterListNumError>
+	<allowNoneError>Admita al menos un filtro o active una IP de administrador.</allowNoneError>
+	<decreasRangeError>El rango decreciente de direcciones IP no es válido.</decreasRangeError>
+	<sameIpError>Las direcciones IP de inicio y final no pueden ser iguales.</sameIpError>
+	<filteraddress>Añadir nuevo filtro:</filteraddress>
+	<ipv4AccessList>Lista de filtros IPv4:</ipv4AccessList>
+	<ipv6AccessList>Lista de filtros IPv6:</ipv6AccessList>
+	<ipv6AddressError>La dirección IP introducida no es válida.</ipv6AddressError>
+	<addAddressIsError>La dirección introducida no es válida.</addAddressIsError>
+	<ipv6PrefixError>La longitud del prefijo IPv6 debe estar entre 0 y 128.</ipv6PrefixError>
+	<StartIP>Dirección IP de inicio:</StartIP>
+	<EndIP>Dirección IP final:</EndIP>
+	<commonIPadresserror>La dirección IP ya existe.</commonIPadresserror>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<Ipfilter>El filtrado de lista de acceso es la capacidad para permitir o denegar la capacidad de acceso de esas direcciones IP a esta cámara.</Ipfilter>
+	<FilterType>Tipo de filtro</FilterType>
+	<FilterTypeText>Puede seleccionar Permitir o Denegar para las direcciones IP especificadas en la Lista de filtros.</FilterTypeText>
+	<AccessList>Lista de filtros</AccessList>
+	<AccessListText>Direcciones IP especificadas.</AccessListText>
+	<Single>Único</Single>
+	<SingleText>Especifique una dirección IP única.</SingleText>
+	<Subnet>Subred</Subnet>
+	<SubnetText>Especifique una subred de direcciones IP.</SubnetText>
+	<Range>Rango</Range>
+	<RangeText>Especifique un rango de direcciones IP.</RangeText>
+	<adminAdress>Dirección IP del administrador</adminAdress>
+	<adminAdressText>Puede activar y establecer una dirección IP como dirección IP del administrador para permitir que siempre esté accesible para esta cámara.</adminAdressText>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<invalidParameter>parámetro no válido.</invalidParameter>
+	<invalidFilterEnable>activación de filtro no válida.</invalidFilterEnable>
+	<invalidFilterType>tipo de filtro no válido.</invalidFilterType>
+	<invalidAdminIPEnable>activación de IP del administrador no válida.</invalidAdminIPEnable>
+	<invalidAdminIP>IP del administrador no válida.</invalidAdminIP>
+	<invalidIP>IP no válida.</invalidIP>
+	<invalidNetmask>máscara de red no válida.</invalidNetmask>
+	<nothingChange>La configuración no ha cambiado.</nothingChange>
+</message>

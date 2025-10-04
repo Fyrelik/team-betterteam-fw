@@ -1,0 +1,56 @@
+<body>
+	<ddnsSettings>Dynamischer DNS</ddnsSettings>
+	<description1>Die Funktion 'Dynamischer DNS' ermöglicht Ihnen die Verwendung eines von Ihnen erworbenen Domänennamens (www.ihredomäne.com) zum Zugriff auf Ihre Kamera mithilfe einer dynamisch zugewiesenen IP-Adresse. Die meisten Breitband-Internetdienstanbieter weisen dynamische (veränderliche) IP-Adressen zu. Wenn Sie einen DDNS-Dienst nutzen, können Sie Ihren Domänennamen eingeben, um unabhängig von Ihrer aktuellen IP-Adresse auf Ihre Kamera zuzugreifen. </description1>
+	
+	<description11>Melden Sie sich für den kostenlosen DDNS-Service von D-Link unter www.DLinkDDNS.com an. </description11>
+	<description22>http://www.DlinkDDNS.com</description22>
+	<savebutton>Einstellungen speichern</savebutton>
+	<notsavebutton>Einstellungen nicht speichern</notsavebutton>
+	<dynamicDns>Dynamische DNS-Einstellung</dynamicDns>
+	<enableDdns>DDNS</enableDdns>
+	<provider>Serveradresse</provider>
+	<hostName>Hostname</hostName>
+	<usernameEmail>Benutzername</usernameEmail>
+	<passwordKey>Kennwort</passwordKey>
+	<passwordConfirm>Kennwort bestätigen</passwordConfirm>
+	<selectDDNS>Wählen Sie DDNS Server</selectDDNS>
+	<ddns1>www.dlinkddns.com</ddns1>
+	<ddns2>www.DynDNS.org</ddns2>
+	<ddns3>www.DynDNS.org(Custom)(Free)</ddns3>
+	<ddns4>www.DynDNS.org(Static)</ddns4>
+	<timeout>Timeout</timeout>
+	<hours> Stunden</hours>
+	<status>Status</status>
+	<ddnsError1>Der DDNS Host Name kann nicht Null sein. Es sind nur Zahlen, Buchstaben, \".\" , \"-\", und \"_\" Zeichen gültig.</ddnsError1>
+	<ddnsErrorUser>Der DDNS Benutzername kann nicht Null sein. Es sind nur Zahlen, Buchstaben, \".\" , \"-\", und \"_\" Zeichen gültig.</ddnsErrorUser>
+	<ddnsError2>Der DDNS-Benutzername darf nicht leer sein</ddnsError2>
+	<ddnsError3>Das DDNS-Kennwort muss angegeben werden</ddnsError3>
+	<ddnsError4>Das DDNS-Kennwort und das zur Bestätigung eingegebene Kennwort stimmen nicht überein</ddnsError4>
+	<ddnsError5>Nicht-ASCII-Zeichen und Leerzeichen sind in einem DDNS-Benutzernamen und -Kennwort nicht gültig.</ddnsError5>
+	<ddnsError6>Wählen Sie einen DDNS-Server</ddnsError6>
+	<ddnsError7>DDNS-Timeout muss eine Zahl sein</ddnsError7>
+	<ddnsError8>DDNS-Timeout muss zwischen 24 und 65535 sein</ddnsError8>
+	<ddnsError9>Die DDNS-Zeitüberschreitung (Timeout) muss eine Ganzzahl sein.</ddnsError9>
+	<ddnsServerError>Bitte überprüfen Sie DDNS-Server-Adresse-Format</ddnsServerError>
+	<ddnsServerError1>DDNS-Server-Adresse darf nicht leer sein</ddnsServerError1>
+	<ddnsStatusDisabled>Deaktiviert</ddnsStatusDisabled>
+	<ddnsStatusUpdated>Aktualisiert</ddnsStatusUpdated>
+	<ddnsStatusInitializing>Initialisieren</ddnsStatusInitializing>
+	<ddnsStatusFailed>Herstellung einer Verbindung fehlgeschlagen</ddnsStatusFailed>
+	<OK>OK</OK>
+	<Disabled>Deaktivieren</Disabled>
+	<Failure>Fehler</Failure>
+	<Initializing>Initialisieren</Initializing>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<enableDdns>DDNS ist von Nutzen, wenn Sie einen DSL- oder Kabeldienstanbieter haben, der Ihre Internetgeräte-IP-Adresse in regelmäßigen Zeitabständen ändert. Dies ermöglicht Ihnen, Ihrer Kamera einen Website-Domänennamen zuzuweisen, statt eine Verbindung über eine IP-Adresse herstellen zu müssen.</enableDdns>
+	<status>Der Status des DDNS kennzeichnet die Verfügbarkeit der DDNS-Funktion.</status>
+	<hostName>Der Domänenname bzw. Hostname, den Sie vom DDNS-Dienst bezogen haben.</hostName>
+	<timeout>Sie können manuell festlegen wie oft die Kamera den DDNS-Server über ihre aktuelle öffentliche IP-Adresse benachrichtigen soll. Standardmäßig eingerichtet sind 576 Stunden.</timeout>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<fail>Änderungen fehlgeschlagen.</fail>
+</message>
+

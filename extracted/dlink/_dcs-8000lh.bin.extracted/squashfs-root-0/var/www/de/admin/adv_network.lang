@@ -1,0 +1,148 @@
+<body>
+	<networkSettings>Netzwerk</networkSettings>
+	<description1>Hier können Sie Ihre LAN- und Interneteinstellungen konfigurieren.</description1>
+	<savebutton>Einstellungen speichern</savebutton>
+	<notsavebutton>Einstellungen nicht speichern</notsavebutton>
+	<general>LAN-Einstellungen</general>
+	<pppoeStatusConnecting>Verbinden</pppoeStatusConnecting>
+	<lan>LAN-EINSTELLUNGEN</lan>
+	<dhcp>Automatische IP-Adresse</dhcp>
+	<static>Statische IP-Adresse</static>
+	<ip>IPv4-Adresse</ip>
+	<networkipseterror>Die Einstellungen sind ungültig</networkipseterror>
+	<subnetMask>Subnetzmaske</subnetMask>
+	<defaultRouter>Standard-Gateway(Router)</defaultRouter>
+	<primaryDns>Primäres DNS (Optional)</primaryDns>
+	<secondaryDns>Sekundäres DNS (Optional)</secondaryDns>
+	<enableUpnp>UPnP</enableUpnp>
+	<upnpPort>UPnP Portweiterleitung</upnpPort>
+	<upnpHttp>Externer HTTP-Port</upnpHttp>
+	<upnpHttps>Externer HTTPS-Port</upnpHttps>
+	<upnpRTSP>Externer RTSP-Port</upnpRTSP>
+	<upnp>UPnP-EINSTELLUNGEN</upnp>
+	<basicser>Basisdienst</basicser>
+	<av>AV</av>	
+	<authrtsp>RTSP-Benutzerauthentifizierung</authrtsp>
+	<authrtsp1> - Bei Aktivierung der RTSP-Benutzerauthentifizierung wird der Nutzer gezwungen, seinen Benutzernamen und sein Kennwort zu identifizieren.</authrtsp1>
+	<pppoe>PPPoE</pppoe>
+	<userName>Benutzername</userName>
+	<password>Kennwort</password>
+	<confirmPassword>Kennwort bestätigen</confirmPassword>
+	<verify>Verifizieren</verify>
+	<status>Status</status>
+	<portsetting>PORT-EINSTELLUNGEN</portsetting>
+	<httpPort>HTTP-Port</httpPort>
+	<httpsPort>HTTPS-Port</httpsPort>
+	<rtspPort>RTSP-Port</rtspPort>
+	<rtspAuth>Benutzerauthentifizierung</rtspAuth>
+	<httpExtPort>Externer HTTP-Port</httpExtPort>
+	<rtspExtPort>Externer RTSP-Port</rtspExtPort>
+	<reboot1>Das Netzwerk der der IP-Kamera wird neu gestartet. Bitte warten Sie </reboot1>
+	<reboot2> Sekunden...</reboot2>
+	<ipError1>Die IP-Adresse muss angegeben werden.</ipError1>
+	<subnetMaskError1>Die Subnetzmaske muss angegeben werden.</subnetMaskError1>
+	<routerError1>Standard-Gateway (Router) muss angegeben werden.</routerError1>
+	<pppoeError1>PPPoE-Benutzername muss angegeben werden.</pppoeError1>
+	<pppoeError2>PPPoE-Kennwort muss angegeben werden.</pppoeError2>
+	<pppoeError3>Die Bestätigung des PPPoE-Kennworts darf nicht leer sein.</pppoeError3>
+	<pppoeError4>PPPoE-Kennwort und das bestätigte Kennwort stimmen nicht überein</pppoeError4>
+	<pppoeError5>Nicht-ASCII-Zeichen und Leerzeichen sind in einem PPPoE-Benutzernamen und -Kennwort nicht gültig.</pppoeError5>
+	<pppoeStatusDisabled>Deaktiviert</pppoeStatusDisabled>
+	<pppoeStatusConnected>Verbunden</pppoeStatusConnected>
+	<pppoeStatusConnecting>Verbinden</pppoeStatusConnecting>
+	<httpPortError1>HTTP-Port darf nicht leer sein</httpPortError1>
+	<httpPortError2>HTTP-Port muss eine Zahl sein</httpPortError2>
+	<httpPortError3>Der HTTP-Port muss 80 oder zwischen 1025 und 65535 sein</httpPortError3>
+	<httpPortError4>Der HTTP-Port kann nicht der gleiche wie der HTTPS-Port sein</httpPortError4>
+	<httpPortError5>Der HTTP-Port muss zwischen 1 und 65535 sein</httpPortError5>
+	<rtstPortError1>RTSP-Port darf nicht leer sein</rtstPortError1>
+	<rtstPortError2>Der RTSP-Port muss eine Zahl sein</rtstPortError2>
+	<rtstPortError3>Der RTSP-Port muss 554 oder zwischen 1025 und 65535 sein</rtstPortError3>
+	<rtstPortError4>Der HTTP-Port kann nicht der gleiche wie der RTSP-Port sein</rtstPortError4>
+	<rtstPortError5>Der RTSP-Port muss zwischen 1 und 65535 sein</rtstPortError5>
+	<httpExtPortError1>Externer HTTP-Port darf nicht leer sein</httpExtPortError1>
+	<httpExtPortError2>Externer HTTP-Port muss eine Zahl sein</httpExtPortError2>
+	<httpExtPortError3>Der externe HTTP-Port muss 80 oder zwischen 1025 und 65535 sein</httpExtPortError3>
+	<httpExtPortError4>Der externe HTTP-Port kann nicht der gleiche wie der externe HTTPS-Port sein</httpExtPortError4>
+	<httpExtPortError5>Der externe HTTP-Port muss zwischen 1 und 65535 sein</httpExtPortError5>
+	<rtspExtPortError1>Externer RTSP-Port darf nicht leer sein</rtspExtPortError1>
+	<rtspExtPortError2>Externer RTSP-Port muss eine Zahl sein</rtspExtPortError2>
+	<rtspExtPortError3>Der externe RTSP-Port muss 554 oder zwischen 1025 und 65535 sein</rtspExtPortError3>
+	<rtspExtPortError4>Der externe HTTP-Port kann nicht der gleiche wie der externe RTSP-Port sein</rtspExtPortError4>
+	<rtspExtPortError5>Der externe RTSP-Port muss zwischen 1 und 65535 sein</rtspExtPortError5>
+	<httpsPortError1>Der HTTPS-Port darf nicht leer sein</httpsPortError1>
+	<httpsPortError2>Der HTTPS-Port muss eine Zahl sein</httpsPortError2>
+	<httpsPortError3>Der HTTPS-Port muss 443 oder zwischen 1025 und 65535 sein</httpsPortError3>
+	<httpsPortError4>Der HTTPS-Port kann nicht der gleiche wie der RTSP-Port sein</httpsPortError4>
+	<httpsPortError5>Der HTTPS-Port muss zwischen 1 und 65535 sein</httpsPortError5>
+	<httpsExtPortError1>Der externe HTTPS-Port darf nicht leer sein</httpsExtPortError1>
+	<httpsExtPortError2>Der externe HTTPS-Port muss eine Zahl sein</httpsExtPortError2>
+	<httpsExtPortError3>Der externe HTTPS-Port muss 443 oder zwischen 1025 und 65535 sein</httpsExtPortError3>
+	<httpsExtPortError4>Der externe HTTPS-Port kann nicht der gleiche wie der externe RTSP-Port sein</httpsExtPortError4>
+	<httpsExtPortError5>Der externe HTTPS-Port muss zwischen 1 und 65535 sein</httpsExtPortError5>
+	<netErrorMessage1>Der </netErrorMessage1>
+	<netErrorMessage2> Oktet für </netErrorMessage2>
+	<netErrorMessage3> muss eine Zahl sein</netErrorMessage3>
+	<netErrorMessage4> muss ein Wert sein zwischen </netErrorMessage4>
+	<netErrorMessage5> und </netErrorMessage5>
+	<netErrorMessage6> muss wie folgt lauten: </netErrorMessage6>
+	<netError>Die Netzwerkeinstellungen sind ungültig</netError>
+	<ipMessage1>IP-Adresse</ipMessage1>
+	<ipMessage2>Die Einstellungen sind ungültig</ipMessage2>
+	<ipMessage3>Die IP-Adresse darf nicht Null sein</ipMessage3>
+	<domainErrMessage>Die Suchdomäne darf nur Zahlen, Buchstaben und die Zeichen \".\" und \"-\" enthalten</domainErrMessage>
+	<maskMessage1>Subnetzmaske</maskMessage1>
+	<maskMessage2>Sie haben eine ungültige Subnetzmaske eingegeben. Die Subnetzmaske muss zusammenhängende Werte aufweisen. Geben Sie eine gültige Maske ein.</maskMessage2>
+	<maskMessage3>Die Subnetzmaske darf nicht Null sein</maskMessage3>
+	<routerMessage1>Standard-Gateway (Router) Adresse</routerMessage1>
+	<routerMessage2>Das eingegebene Standard-Gateway (Router) ist ungültig</routerMessage2>
+	<routerMessage3>Die Standard-Gateway (Router) Adresse darf nicht Null sein</routerMessage3>
+	<priDnsMessage1>Primäre DNS-Adresse</priDnsMessage1>
+	<priDnsMessage2>Die eingegebene primäre DNS-Adresse ist ungültig</priDnsMessage2>
+	<priDnsMessage3>Die primäre DNS-Adresse darf nicht Null sein</priDnsMessage3>
+	<secDnsMessage1>Sekundäre DNS-Adresse</secDnsMessage1>
+	<secDnsMessage2>Die eingegebene sekundäre DNS-Adresse ist ungültig</secDnsMessage2>
+	<secDnsMessage3>Die sekundäre DNS-Adresse darf nicht Null sein</secDnsMessage3>
+	<dnsErrMessage>Die primäre und sekundäre DNS-Adresse müssen unterschiedlich sein</dnsErrMessage>
+	<apple>Apple</apple>
+	<bonjour>Bonjour</bonjour>
+	<disable>Deaktiviert</disable>
+	<pppoeStatusFailed>Verbindung fehlgeschlagen</pppoeStatusFailed>
+	<ipv4set>IPv4-Einstellungen</ipv4set>
+	<ipv6set>IPv6-Einstellungen</ipv6set>
+	<manIpv6set>IP-Adresse manuell einrichten</manIpv6set>
+	<Ipv6AddrPre>IPv6-Adresse/Präfixlänge</Ipv6AddrPre>
+	<Ipv6gateway>Standard-Gateway (Router)</Ipv6gateway>
+	<Ipv6priDns>Primärer DNS (Optional)</Ipv6priDns>
+	<Ipv6secDns>Sekundärer DNS (Optional)</Ipv6secDns>
+	<ipv6Message>Die eingegebene IPv6-Adresse ist ungültig.</ipv6Message>
+	<ipv6Message2>Die IPv6-Präfixlänge muss im Bereich zwischen 0 und 128 sein.</ipv6Message2>
+	<ipv6Message3>Das eingegebene IPv6-Standard-Gateway (Router) ist ungültig</ipv6Message3>
+	<ipv6Message4>Die eingegebene primäre IPv6-DNS-Adresse ist ungültig.</ipv6Message4>
+	<ipv6Message5>Die eingegebene sekundäre IPv6-DNS-Adresse ist ungültig.</ipv6Message5>
+	<ipv6Message6>Die primäre und die sekundäre IPv6-DNS-Adresse müssen unterschiedlich sein</ipv6Message6>
+	<ipv6Message7>Der IPv6-Standard-Gateway (Router) muss mit FE80 beginnen.</ipv6Message7>
+	<lan1>Automatische IP-Adresse</lan1>
+	<Staticip>Statische IP-Adresse</Staticip>
+	<dhcpip>UPnP Portweiterleitung</dhcpip>
+	<searchdomain>Optionale Suchdomäne</searchdomain>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<Staticip1>Diese Option dient zum Konfigurieren Ihrer IP-Kamera mit einer IP-Adresse, die Ihren Netzwerkeinstellungen entspricht.</Staticip1>
+	<dhcpip1>Wenn Ihr Router UPnP unterstützt, können Ihre Kameras und der Router miteinander kommunizieren, sodass der Router weiß, welche Ports von welcher Kamera verwendet werden.</dhcpip1>
+	<lan>Wählen Sie, wenn Sie einen DHCP-Server in Ihrem Netzwerk verwenden und wünschen, dass Ihrer Kamera automatisch eine IP-Adresse zugewiesen wird.</lan>
+	<httpPort>Weisen Sie den Port der Kamera zu, um über einen Standard-Webbrowser mit Ihrer Kamera eine Verbindung herzustellen.</httpPort>
+	<rtspPort>Weisen Sie den Port der Kamera zu, um mithilfe von QuickTime oder dem Streaming mobiler Geräte eine Verbindung herzustellen.</rtspPort>
+	<enableUpnp>Das Aktivieren von UPnP ermöglicht Ihnen, Ihre Kamera als ein UPnP-Gerät im Netz zu identifizieren.</enableUpnp>
+	<bonjour>Das Aktivieren von Bonjour ermöglicht es Ihnen, die Kamera in einer Apple-Computerumgebung zu identifizieren.</bonjour>
+	<pppoe>Diese Option wird verwendet, um Ihre Kamera so zu konfigurieren, dass sie sich direkt mit dem Internet verbindet. Befindet sich die Kamera hinter einem Router oder einem Gateway, muss diese Einstellung nicht vorgenommen werden.</pppoe>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<fail>Änderungen fehlgeschlagen.</fail>
+	<invalidParameter>Einrichtungsfehler.</invalidParameter>
+	<settingNotChange>Einstellung nicht geändert.</settingNotChange>
+	<saveOK>Der Webserver wird neu gestartet. Warten Sie bitte ca. eine Minute und stellen Sie dann die Verbindung zu der Kamera mit der neuen IP-Adresse (falls geändert) wieder her.</saveOK>
+</message>
+

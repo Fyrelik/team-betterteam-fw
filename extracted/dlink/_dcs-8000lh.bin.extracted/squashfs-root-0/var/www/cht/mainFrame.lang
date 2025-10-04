@@ -1,0 +1,84 @@
+<body>
+	<camera>攝影機</camera>
+	<description1>本區顯示攝影機的即時影像。請用下列按鈕來控制設定。</description1>
+	<description2>目前解析度是</description2>
+	<sdNote>請注意，攝影機並未插入 SD 卡，或 SD 卡無法寫入。</sdNote>
+	<sdManagement1>要格式化SD卡，請先禁用SD卡錄影，然後到</sdManagement1>
+	<sdManagement2>SD卡管理</sdManagement2>
+	<sdManagement3>頁面。</sdManagement3>
+	<liveVideo>即時影像</liveVideo>
+	<goTo>前往</goTo>
+	<panSpeed>平移速度</panSpeed>
+	<tiltSpeed>傾斜速度</tiltSpeed>
+	<language>請選擇語言</language>
+	<english>English</english>
+	<mandarin>繁體中文</mandarin>
+	<simplechn>简体中文</simplechn>
+	<deutsch>Deutsch</deutsch>
+	<italiano>Italiano</italiano>
+	<espa>Español</espa>
+	<french>Français</french>
+	<portu>Português</portu>
+	<selectOne>-- 請選擇一個 --</selectOne>
+	<stop>停止</stop>
+	<snapshot>快照</snapshot>
+	<setPath>設定儲存資料夾</setPath>
+	<recording>錄影</recording>
+	<stopRecording>停止錄影</stopRecording>
+	<startSteamOut>對講</startSteamOut>
+	<stopSteamOut>停止對講</stopSteamOut>
+	<listenOn>監聽</listenOn>
+	<profile1>設定資料 1</profile1>
+	<profile2>設定資料 2</profile2>
+	<profile3>設定資料 3</profile3>
+	<profile4>設定資料 4</profile4>
+	<profile5>設定資料 5</profile5>
+	<listenOff>停止監聽</listenOff>
+	<startGPOutput>數位輸出</startGPOutput>
+	<stopGPOutput>停止數位輸出</stopGPOutput>
+	<ledOn>開啟 Led 燈</ledOn>
+	<ledOff>關閉 Led 燈</ledOff>
+	<fullScreen>全螢幕</fullScreen>
+	<diIndicator>數位輸入指示燈</diIndicator>
+	<moIndicator>移動/聲音觸發指示燈</moIndicator>
+	<reIndicator>錄影指示燈</reIndicator>
+	<talkNotify1>建立音訊串流輸出失敗，建立 Socket 失敗</talkNotify1>
+	<talkNotify2>伺服器連接失敗</talkNotify2>
+	<talkNotify3>音訊線路被佔用，請稍後再試。</talkNotify3>
+	<autoPan>平移</autoPan>
+	<autoPatrol>巡邏</autoPatrol>
+	<irOn>開啟 IR LED 燈</irOn>
+	<irOff>關閉 IR LED 燈</irOff>
+	<zoomInOut>縮放：</zoomInOut>
+	<vlcHints1>請取得最新版的 VLC 安裝程式</vlcHints1>
+	<here>在此下載</here>
+	<vlcHints2>並在安裝期間啟用 VLC Mozilla 外掛程式。</vlcHints2>
+	<privacyMode1>攝影機目前處於隱私模式。</privacyMode1>
+	<privacyMode2>如果想結束隱私模式，請前往</privacyMode2>
+	<privacyMode3>管理員</privacyMode3>
+	<enablePrivacy>隱私模式</enablePrivacy>
+	<left_up>左上</left_up>
+	<up>上</up>
+	<right_up>右上</right_up>
+	<left>左</left>
+	<left_down>左下</left_down>
+	<right_down>右下</right_down>
+	<right>右</right>
+	<down>下</down>
+	<Zoom_in>放大</Zoom_in>
+	<Zoom_out>縮小</Zoom_out>
+	<home>原點</home>
+	<javajreinfo1>此瀏覽器不支援或停用 Java JRE 外掛程式。</javajreinfo1>
+	<javajreinfo2>在這裏更新最新的Java JRE</javajreinfo2>
+	<javajreinfo3> 或者啟用Java JRE。</javajreinfo3>
+	<javajreinfo4>此瀏覽器不支持或停用 QuickTime。</javajreinfo4>
+	<javajreinfo5>更新最新的 QuickTime 播放器</javajreinfo5>
+	<javajreinfo6>這裏</javajreinfo6>
+	<javajreinfo7>或者啟用 QuickTime.</javajreinfo7>
+	<javajreinfo8>點擊這裏下載NCSPlugin並安裝，然後重新開瀏覽器。</javajreinfo8>
+	<javajreinfo88>您現在使用的瀏覽器可能有困難接受圖片或是影片，如果您遇到任何問題，建議您使用IE瀏覽器,Mozilla Firefox或Apple Safari</javajreinfo88>
+	<javajreinfo9>此瀏覽器不支持或停用 QuickTime。</javajreinfo9>
+	<javajreinfo10>更新最新的 QuickTime 播放器</javajreinfo10>
+	<javajreinfo11>這裏</javajreinfo11>
+	<javajreinfo12>或者啟用 QuickTime.</javajreinfo12>
+</body>

@@ -1,0 +1,64 @@
+<body>
+	<wirelessSettings>configuração wireless</wirelessSettings>
+	<description1>Nesta seção você pode configurar os parâmetros de wireless de sua câmera.</description1>
+	<savebutton>Salvar Configurações</savebutton>
+	<notsavebutton>Não Salvar Configurações</notsavebutton>
+	<wirelessConfiguration>configuração wireless</wirelessConfiguration>
+	<enableWireless>Habilitar Wireless</enableWireless>
+	<ssid>Nome de Rede</ssid>
+	<bssid>BSSID</bssid>
+	<signal>Sinal</signal>
+	<survey>Site Survey</survey>
+	<rescan>Rescan</rescan>
+	<wirelessMode>Modo Wireless</wirelessMode>
+	<wireless>Wireless</wireless>
+	<infrastructure>Infraestrutura</infrastructure>
+	<adhoc>Ad-hoc</adhoc>
+	<channel>Canal</channel>
+	<ssidErrorq>Nenhum</ssidErrorq>
+	<auto>Auto</auto>
+	<authentication>Modo de Segurança</authentication>
+	<encryption>Tipo de Cifra</encryption>
+	<key>Chave</key>
+	<reboot1>A câmera está reiniciando. Por favor espere </reboot1>
+	<reboot2> segundos.</reboot2>
+	<ssidError>Nome de rede não pode ser vazio</ssidError>
+	<ssidError1>O nome de rede não pode ser somente de espaços</ssidError1>
+	<keyError1>O tamanho da chave deve estar entre 5 ou 10 ou 13 ou 26 caracteres</keyError1>
+	<keyError2>Chave inválida. Se a chave tem 10 ou 26\n Os caracteres permitidos são 0~9, A~F, ou a~f</keyError2>
+	<keyError3>Chave não pode ser vazia</keyError3>
+	<keyError4>Chave inválida. O mínimo de caracteres é 8</keyError4>
+	<keyError5>Chave inválida. Permitidos 64 caracteres de 0~9, A~F, ou a~f</keyError5>
+	<keyError6>Chave inválida. O máximo de caracteres é 64</keyError6>
+	<showpw>Mostra Chaves Escondidas</showpw>
+	<antenna>Antena</antenna>
+	<intAntenna>Interna</intAntenna>
+	<extAntenna>Externa</extAntenna>
+	<reboot3>Não desconecte o cabo Ethernet da câmera durante o processo de reiniciação.</reboot3>
+	<ssidname>===Lista SSID===</ssidname>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<enableWireless>Por favor habilite o wireless primeiro antes de configurar a conexão wireless da câmera. Você pode escolher a rede wireless para conectar usando o menu de 'Site Survey' ou inserir o SSID manualmente.</enableWireless>
+	<ssid>Service Set Identifier (SSID) é o nome de sua rede wireless como padrão.</ssid>
+	<wirelessMode>Há 2 modos de conexão. Infraestrutura é a conexão wireless usando um ponto de acesso como um ponto de transmissão à todos os dispositivos wireless. Ad-Hoc é a conexão wireless usada sem ponto de acesso, conectando o PC diretamente à câmera.</wirelessMode>
+	<None>Nenhum</None>
+	<NoneDes>Esta opção faz a câmera visivel para todos os dispositivos da rede. Nenhuma criptografia é fornecida.</NoneDes>
+	<WEPPassword>WEP</WEPPassword>
+	<WEPPasswordDes>Permite comunicação somente com outros dispositivos que tem configurações WEP (Wired Equivalent Privacy) idênticas.</WEPPasswordDes>
+	<WPAPersonal>WPA-PSK, WPA2-PSK</WPAPersonal>
+	<WPAPersonalDes>Ambos modos necessitam de uma chave pre compartilhada para a conexão que é mantida entre a câmera e o dispositivo wireless.</WPAPersonalDes>
+	<rescan>Escaneie novamente o nome do dispositivo wireless em sua rede.</rescan>
+	<key>Um conjunto de caracteres pre compartilhados para a conexão entre a câmera e o dispositivo wireless quando você selecionar os modos de segurança WEP, WPA-PSK ou WPS2-PSK.</key>
+	<showpw>Quando esta opção é selecionada, a chave será mostrada como um texto.</showpw>
+	<antenna>Selecionar para utilizar um antena interna ou externa.</antenna>
+	<channel> - Por padrão, o valor para o modo infraestrutura é Auto. O canal estará disponível somente em modo Ad-Hoc.</channel>
+	<encryption1>TKIP - (Temporal Key Integrity Protocol) - Fornece proteção contra hackers usando Message Integrity Code (MIC). Seria ideal escolher o WPA com TKIP. </encryption1>
+	<encryption2>AES - (Advanced Encryption System) - Utiliza uma criptografia simétrica de 128-Bit. Seria ideal escolher WPA2 com AES.</encryption2>
+</hint>
+<message>
+	<ok>Alterações Salvas.</ok>
+	<fail>Alterações Falharam.</fail>
+	<notChanged>Sem alterações.</notChanged>
+	<saveOK>Servidor Web está reiniciando. Por favor espere 1 minuto e reconecte a câmera com o novo endereço IP.</saveOK>
+</message>

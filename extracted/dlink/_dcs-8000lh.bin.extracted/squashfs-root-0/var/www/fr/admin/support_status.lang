@@ -1,0 +1,8 @@
+<body>
+	<status>ÉTAT</status>
+	<deviceInfo>Informations sur le périphérique</deviceInfo>
+	<log>Journal</log>
+	<deviceInfo1>Cette page affiche toutes les informations disponibles sur les paramètres de la caméra et du réseau.</deviceInfo1>
+	<log1>Affichez le fichier journal du système. Ce fichier donne toutes les informations utiles telles que les notifications de détection de mouvement et les messages de redémarrage du système. Pour exporter les journaux de la caméra, cliquez sur le bouton Télécharger pour lancer le téléchargement d'un fichier depuis la caméra.</log1>
+</body>
+

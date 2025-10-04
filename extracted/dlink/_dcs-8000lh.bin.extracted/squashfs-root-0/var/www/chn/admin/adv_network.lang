@@ -1,0 +1,151 @@
+<body>
+	<networkSettings>网络</networkSettings>
+	<description1>您可以在这里配置您的LAN和Internet设置。</description1>
+	<savebutton>保存设置</savebutton>
+	<notsavebutton>不保存设置</notsavebutton>
+	<general>局域网设置</general>
+	<lan>LAN设置</lan>
+	<dhcp>自动IP地址</dhcp>
+	<static>静态IP地址</static>
+	<ip>IPv4地址</ip>
+	<subnetMask>子网掩码</subnetMask>
+	<defaultRouter>默认网关（路由器）</defaultRouter>
+	<primaryDns>首选DNS（可选）</primaryDns>
+	<secondaryDns>备用DNS（可选）</secondaryDns>
+	<enableUpnp>UPnP</enableUpnp>
+	<first>第一个数组</first>
+    <second>第二个数组</second>
+	<third>第三个数组</third>
+	<fourth>第四个数组</fourth>
+	<upnpPort>UPnP端口转发</upnpPort>
+	<upnpHttp>外部HTTP端口</upnpHttp>
+	<upnpHttps>外部HTTPS端口</upnpHttps>
+	<upnpRTSP>外部RTSP端口</upnpRTSP>
+	<upnp>UPnP设置</upnp>
+	<basicser>基本服务</basicser>
+	<av>AV</av>	
+	<authrtsp>RTSP用户验证</authrtsp>
+	<authrtsp1> - 启用RTSP用户验证后,您可以强制浏览者要求验证用户名和密码。</authrtsp1>
+	<pppoe>PPPoE</pppoe>
+	<userName>用户名</userName>
+	<password>密码</password>
+	<confirmPassword>确认密码</confirmPassword>
+	<verify>确认</verify>
+	<status>状态</status>
+	<portsetting>端口设置</portsetting>
+	<httpPort>HTTP端口</httpPort>
+	<httpsPort>HTTPS端口</httpsPort>
+	<rtspPort>RTSP端口</rtspPort>
+	<rtspAuth>用户验证</rtspAuth>
+	<httpExtPort>外部HTTP端口</httpExtPort>
+	<rtspExtPort>外部RTSP端口</rtspExtPort>
+	<searchdomain>搜索域（可选）</searchdomain>
+	<reboot1>IP摄像机的网络正在重启，请等待 </reboot1>
+	<reboot2> 秒…</reboot2>
+	<ipError1>IP地址不能为空白。</ipError1>
+	<subnetMaskError1>子网掩码不能为空白</subnetMaskError1>
+	<routerError1>默认网关（路由器）不能为空白</routerError1>
+	<pppoeError1>PPPoE用户名不能为空白</pppoeError1>
+	<pppoeError2>PPPoE密码不能为空白</pppoeError2>
+	<pppoeError3>PPPoE确认密码不能为空白</pppoeError3>
+	<pppoeError4>PPPoE密码和确认密码不相同。</pppoeError4>
+	<pppoeError5>PPPoE用户名和密码不能接受非ASCII和空格字符。</pppoeError5>
+	<httpPortError1>HTTP端口不能为空白</httpPortError1>
+	<httpPortError2>HTTP端口必须为数字</httpPortError2>
+	<httpPortError3>HTTP端口值必须为80或者在1025到65535之间</httpPortError3>
+	<httpPortError4>HTTP端口不能和HTTPS端口相同</httpPortError4>
+	<httpPortError5>HTTP端口值必须是在1到65535之间</httpPortError5>
+	<rtstPortError1>RTSP端口不能为空白</rtstPortError1>
+	<rtstPortError2>RTSP端口必须为数字</rtstPortError2>
+	<rtstPortError3>RTSP端口值必须是554或者在1025到65535之间</rtstPortError3>
+	<rtstPortError4>HTTP端口不能和RTSP端口相同</rtstPortError4>
+	<rtstPortError5>RTSP端口值必须是在1到65535之间</rtstPortError5>
+	<httpExtPortError1>外部HTTP端口不能为空白</httpExtPortError1>
+	<httpExtPortError2>外部HTTP端口必须为数字</httpExtPortError2>
+	<httpExtPortError3>外部HTTP端口值必须是80或者在1025到65535之间</httpExtPortError3>
+	<httpExtPortError4>外部HTTP端口不能和外部HTTPS端口相同</httpExtPortError4>
+	<httpExtPortError5>外部HTTP端口值必须是在1到65535之间</httpExtPortError5>
+	<rtspExtPortError1>外部RTSP端口不能为空白</rtspExtPortError1>
+	<rtspExtPortError2>外部RTSP端口必须为数字</rtspExtPortError2>
+	<rtspExtPortError3>外部RTSP端口值必须为554或者在1到65535之间</rtspExtPortError3>
+	<rtspExtPortError5>外部RTSP端口值必须是在1到65535之间</rtspExtPortError5>
+	<rtspExtPortError4>外部HTTP端口不能和外部RTSP端口相同</rtspExtPortError4>
+	
+	<httpsPortError1>HTTPS端口不能为空白</httpsPortError1>
+	<httpsPortError2>HTTPS端口必须为数字</httpsPortError2>
+	<httpsPortError3>HTTPS端口值必须为443或者在1025到65535之间</httpsPortError3>
+	<httpsPortError4>HTTPS端口不能和RTSP端口相同</httpsPortError4>
+	<httpsPortError5>HTTPS端口值必须是在1到65535之间</httpsPortError5>
+	<httpsExtPortError1>外部HTTPS端口不能为空白</httpsExtPortError1>
+	<httpsExtPortError2>外部HTTPS端口必须为数字</httpsExtPortError2>
+	<httpsExtPortError3>外部HTTPS端口值必须是443或者在1025到65535之间</httpsExtPortError3>
+	<httpsExtPortError4>外部HTTPS端口不能和外部RTSP端口相同</httpsExtPortError4>
+	<httpsExtPortError5>外部HTTPS端口值必须是在1到65535之间</httpsExtPortError5>
+	<netErrorMessage1> </netErrorMessage1>
+	<netErrorMessage2>8字节的</netErrorMessage2>
+	<netErrorMessage3> 必须是一数字</netErrorMessage3>
+	<netErrorMessage4>数值必须在 </netErrorMessage4>
+	<netErrorMessage5> 和  之间。 </netErrorMessage5>
+	<netErrorMessage6> 必须为 </netErrorMessage6>
+	<networkipseterror>输入的 IP 地址无效。</networkipseterror>
+	<netError>网络设置无效</netError>
+	<ipMessage1>IP地址</ipMessage1>
+	<ipMessage2>输入的 IP 地址无效。</ipMessage2>
+	<ipMessage3>IP地址不能为0。 </ipMessage3>
+	<maskMessage1>子网掩码</maskMessage1>
+	<maskMessage2>您输入的子网掩码无效。子网掩码必须连续。请输入有效的掩码。</maskMessage2>
+	<maskMessage3>子网掩码不能为零</maskMessage3>
+	<routerMessage1>预设闸道</routerMessage1>
+	<routerMessage2>预设闸道不合法</routerMessage2>
+	<routerMessage3>预设闸道不能为零</routerMessage3>
+	<priDnsMessage1>主DNS 地址 </priDnsMessage1>
+	<priDnsMessage2>主DNS 地址不合法</priDnsMessage2>
+	<priDnsMessage3>主DNS 地址不能为零</priDnsMessage3>
+	<secDnsMessage1>次DNS 地址</secDnsMessage1>
+	<secDnsMessage2>次DNS 地址不合法</secDnsMessage2>
+	<secDnsMessage3>次DNS 地址不能为零</secDnsMessage3>
+	<dnsErrMessage>主DNS地址和次DNS地址不能相同</dnsErrMessage>
+	<domainErrMessage>搜索域只能接受数字、字母、\".\" 和\"-\"字符。</domainErrMessage>
+	<apple>Apple</apple>
+	<pppoeStatusDisabled>禁用</pppoeStatusDisabled>
+	<pppoeStatusConnected>已连接</pppoeStatusConnected>
+	<pppoeStatusConnecting>连接中</pppoeStatusConnecting>
+	<pppoeStatusFailed>连接失败</pppoeStatusFailed>
+	<bonjour>Bonjour</bonjour>
+	<disable>Disabled</disable>
+	<lan1>动态IP地址</lan1>
+	<Staticip>静态IP地址</Staticip>
+	<dhcpip>UPnP端口转发</dhcpip>
+	<ipv4set>IPv4地址</ipv4set>
+	<ipv6set>IPv6地址</ipv6set>
+	<Ipv6AddrPre>IPv6 地址/前缀长度</Ipv6AddrPre>
+	<Ipv6gateway>默认网关（路由器）</Ipv6gateway>
+	<Ipv6priDns>首选DNS（可选）</Ipv6priDns>
+	<Ipv6secDns>备用DNS（可选）</Ipv6secDns>
+	<ipv6Message>输入的 IPv6 IP 地址无效。</ipv6Message>
+	<ipv6Message2>IPv6前缀长度必须为0到128。</ipv6Message2>
+	<ipv6Message3>输入的 IP6 默认网关（路由器）无效。</ipv6Message3>
+	<ipv6Message4>输入的主要IPv6 DNS无效。</ipv6Message4>
+	<ipv6Message5>输入的备用IPv6 DNS无效。</ipv6Message5>
+	<ipv6Message6>主IPv6 DNS地址和次IPv6 DNS地址不能相同。</ipv6Message6>
+	<ipv6Message7>输入的 IP6 默认网关（路由器）必须以 FE80 开头。</ipv6Message7>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	
+	<Staticip1>选择静态IP地址选项，并输入与您网络设置匹配的IP地址。</Staticip1>
+	<dhcpip1>如果您的路由器支持UPnP，您的摄像机和路由器就可以相互通信，路由器就可以知道摄像机使用的是哪个端口。</dhcpip1>
+	<lan>选择如果网络上正在运行的DHCP服务器自动分配给摄像机的IP地址。</lan>
+	<httpPort>分配摄像机的端口允许去连接外部浏览器。</httpPort>
+	<rtspPort>分配摄像机的端口允许去连接外部的影视播放装置</rtspPort>
+	<enableUpnp>使 UPnP 允许 摄像机的UPnP装置在网络上运行。</enableUpnp>
+	<bonjour>使 Bonjour 允许摄影机能在apple电脑上运行。</bonjour>
+	<pppoe>使您的摄像机直接连接Internet，如果摄像机在路由器或网关后面，您就不需要配置这个设置。</pppoe>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<fail>保存失败</fail>
+	<invalidParameter>设定失败</invalidParameter>
+	<settingNotChange>设定未变更</settingNotChange>
+	<saveOK>服务器正在重启，请等待1分钟，然后使用新IP地址连接摄像机。</saveOK>
+</message>

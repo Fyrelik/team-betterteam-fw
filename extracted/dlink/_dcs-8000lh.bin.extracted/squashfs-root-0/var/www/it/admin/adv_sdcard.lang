@@ -1,0 +1,110 @@
+<body>
+	<playback>GESTIONE SD</playback>
+	<playback1>SCHEDA SD</playback1>
+	<playback2>NON VALIDA</playback2>
+	<totalcapacity>Totale:</totalcapacity>
+	<availablespace>Libero:</availablespace>
+	<formatvalue>Formatta scheda SD</formatvalue>
+	<KB> KB</KB>
+	<description1>Qui è possibile sfogliare e gestire file archiviati nella scheda SD.</description1>
+	<description2>La scheda SD è scollegata o non valida. Controllare la scheda SD o formattarla.</description2>
+	<description3>La memoria della scheda SD non è valida.</description3>
+	<description4>La memoria della scheda SD è protetta.</description4>
+	<performance>La velocità della scheda SD inserita nella videocamera non è sufficiente per la registrazione. 
+Si consiglia di riformattare la scheda SD o sostituirla con una di classe superiore.
+</performance>
+	<sdNote>Nella videocamera non è inserita alcuna scheda SD oppure la scheda SD non supporta operazioni di scrittura.</sdNote>
+	<stoprecrebootconfirm>Disabilitare la registrazione e riavviare?</stoprecrebootconfirm>
+	<stoprecrebootconfirm2>Inizializzare?</stoprecrebootconfirm2>
+	<sdcardstatus>Stato SD: </sdcardstatus>
+	<writeprotected>Protetta da scrittura</writeprotected>
+	<cardready>Pronta</cardready>
+	<cardinvalid>Non valida</cardinvalid>
+	<backupconfirm>Eseguire il backup dei file?</backupconfirm>
+	<formatconfirm>Formattare la scheda SD?</formatconfirm>
+	<completeformat>Scheda SD completamente formattata.</completeformat>
+	<records>Scheda SD</records>
+	<recordtype>Tipo di registrazione: </recordtype>
+	<recordtype1>Tipo di registrazione </recordtype1>
+	<name>Nome</name>
+	<numoffiles>Num. di file</numoffiles>
+	<filesize>Dimensione</filesize>
+	<foldersize>Dimensione</foldersize>
+	<used>Utilizzato:</used>
+	<video>video</video>
+	<date>Data</date>
+	<hour>Ora</hour>
+	<file>File</file>
+	<delete>Elimina</delete>
+	<ok>OK</ok>
+	<deleteconfirm>Il file selezionato verrà eliminato. Continuare?</deleteconfirm>
+	<deleteconfirm1>Nessun file selezionato</deleteconfirm1>
+	<refresh>Aggiorna</refresh>
+	<toplevel>Su di un livello</toplevel>
+	<filesperpage>File per pagina:</filesperpage>
+	<of>di</of>
+	<formatfailed>Formattazione della scheda SD non riuscita.</formatfailed>
+	<formatrecording>La videocamera è in fase di registrazione dei file sulla scheda SD. Prima di formattare la scheda arrestare la registrazione.</formatrecording>
+	<sdrecerr>ABILITAZIONE REGISTRAZIONE SCHEDA SD</sdrecerr>
+	<sdrecerr1>Se si desidera esplorare la scheda SD, disabilitarla nella pagina</sdrecerr1>
+	<avhref>Registrazione in corso</avhref>
+	<sdrecerr2>.</sdrecerr2>
+	<formaterr>FILE SYSTEM DANNEGGIATO</formaterr>
+	<formaterrmsg>File system della scheda SD danneggiato. Attenersi alle istruzioni riportate di seguito per ripristinarlo.</formaterrmsg>
+	<writefull>Capacità scheda SD esaurita</writefull>
+	<recorderr1>Disabilitare la registrazione e riavviare la videocamera.</recorderr1>
+	<recorderr2>Eseguire il backup dei file registrati e riformattare la scheda SD. In caso contrario, potrebbero verificarsi più facilmente errori durante la registrazione sulla scheda SD.</recorderr2>
+	<recorderr3>Dopo il passaggio 2, è possibile andare alla pagina </recorderr3>
+	<recorderr4> per riabilitare la registrazione.</recorderr4>
+	<formaterrmsg2>Effettuare le seguenti operazioni dopo il riavvio della videocamera:</formaterrmsg2>
+	<recover>Disabilitare la registrazione e riavviare la videocamera</recover>
+	<reboot1>La videocamera è stata riavviata, attendere per </reboot1>
+	<reboot2> secondi...</reboot2>
+	<diablerecfail>Disabilitazione della registrazione non riuscita.</diablerecfail>
+	<over4g>Più di 16 GB</over4g>
+	<wait>Attendere...</wait>
+	<onlywait>Attendere...</onlywait>
+	<reinit>Reinizializzazione</reinit>
+	<formatting>Formattazione scheda SD</formatting>
+	<initstep>Scheda SD non reinizializzata. Effettuare le seguenti operazioni per reinizializzare la scheda SD.</initstep>
+	<initstep1>Tutti i dati presenti nella scheda SD verranno cancellati. Eseguire il backup dei dati nella scheda SD prima di reinizializzarla.</initstep1>
+	<init>Inizializza </init>
+	<initstep0>Disabilita la registrazione.</initstep0>
+	<over4Gstep0>La capacità della prima partizione della scheda SD non può essere maggiore di 16 GB. Eseguire 'Formatta scheda SD' per creare la partizione da 16 GB e formattare.</over4Gstep0>
+	<over4Gstep1>Tutti i dati presenti nella scheda SD verranno cancellati. Eseguire il backup dei dati nella scheda SD prima di formattarla.</over4Gstep1>
+	<over4Gstep2>Se le dimensioni della scheda SD sono maggiori di 16 GB, la scheda SD creerà la partizione da 16 GB e potrebbe non essere in grado di ripristinare le dimensioni originali.</over4Gstep2>
+	<rebootFail>Riavvio non riuscito</rebootFail>
+	<formatconfirm>Formattare la scheda SD?</formatconfirm>
+	<sdCard>Scheda SD</sdCard>
+	<pages>Pagine:</pages>
+	<delsdcard>Elimina</delsdcard>
+	<sdRecording>Per formattare la scheda SD nella videocamera, disabilitare prima Registrazione su SD.</sdRecording>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<formatsdcard>Formatta scheda SD</formatsdcard>
+	<description1>Fare clic su questo pulsante per formattare automaticamente la scheda SD e creare la cartella per istantanee e video. Per formattare la scheda SD, è necessario prima di disabilitare la registrazione su SD.</description1>
+	<description2>Se i file registrati sono memorizzati sulla scheda SD, fare clic sulla cartella dei file registrati e scegliere il file da visualizzare.</description2>
+	<description3>Se i file video sono memorizzati sulla scheda SD, fare clic sulla cartella dei video e scegliere il file da visualizzare.</description3>
+	<description4>Ricarica le informazioni di file e cartelle dalla scheda SD.</description4>
+	<format>Formatta scheda SD - </format>
+	<view>Visualizza file registrati -</view>
+	<playback>Riproduci video registrato - </playback>
+	<refresh>Aggiorna - </refresh>
+	<sdcardpath>Scheda SD</sdcardpath>
+	<sdcardpath1>Può indicare il percorso corrente della scheda SD.</sdcardpath1>
+	<sdstatus>Stato SD</sdstatus>
+	<sdstatus1>Può indicare lo stato corrente della scheda SD (se la scheda è inserita o rilevata).</sdstatus1>
+	<filesperpage>File per pagina</filesperpage>
+	<filesperpage1>Numero di file per pagina.</filesperpage1>
+	<pages>Pagine</pages>
+	<pages1>Qui è possibile selezionare la pagina da visualizzare.</pages1>
+	<total>Totale</total>
+	<total1>Capacità totale della scheda SD.</total1>
+	<used>Utilizzato</used>
+	<used1>Capacità usata della scheda SD.</used1>
+	<free>Libero</free>
+	<free1>Capacità disponibile della scheda SD.</free1>
+</hint>
+
+

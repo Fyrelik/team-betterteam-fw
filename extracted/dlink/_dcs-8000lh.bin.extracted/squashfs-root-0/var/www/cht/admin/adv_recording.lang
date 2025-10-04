@@ -1,0 +1,167 @@
+<body>
+	<pageTitle>SD 錄影</pageTitle>
+	<pageEnable>SD 錄影</pageEnable>
+	<description1>您可在此設定與排程攝影機錄影。請勾選「SD 錄影」方塊來打開本功能。</description1>
+	<description2>啟用 SXGA 模式時，會停用移動觸發錄影。</description2>
+	<description3>要啟用移動觸發錄影，請在此處選擇 VGA 或 XGA 模式</description3>
+	<description4> 音訊和視訊</description4>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不要儲存設定</notsavebutton>
+	<recording>SD 錄影</recording>
+	<enableRecording>啟用錄影</enableRecording>
+	<resolution>解析度</resolution>
+	<small>設定資料 3</small>
+	<medium>設定資料 2</medium>
+	<large>設定資料 1</large>
+	<titan>設定資料 4</titan>
+	<continousRecording>持續 (限 Samba)</continousRecording>
+	<scheduledRecording>排程 (限 Samba)</scheduledRecording>
+	<continousRecordingOnlySamba>持續</continousRecordingOnlySamba>
+	<scheduledRecordingOnlySamba>排程</scheduledRecordingOnlySamba>
+	<hour>小時</hour>
+	<min>分鐘</min>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<from>開始</from>
+	<profile2>設定資料 2</profile2>
+	<profile3>設定資料 3</profile3>	
+	<to>結束 </to>
+	<motionDetection>移動偵測觸發錄影</motionDetection>
+	<digitalInput>數位輸入 1 觸發錄影</digitalInput>
+	<digitalInput2>數位輸入 2 觸發錄影</digitalInput2>
+	<prerecord>預錄</prerecord>
+	<postrecord>後錄</postrecord>
+	<range> (範圍為 0 到 15 秒)</range>
+	<second> 秒</second>
+	<recordTo>錄製到 </recordTo>
+	<sambaNetworkDrive>Samba 網路磁碟</sambaNetworkDrive>
+	<sambaAuth>Samba 驗證</sambaAuth>
+	<anonymous>匿名</anonymous>
+	<account>帳號</account>
+	<username>使用者名稱</username>
+	<password>密碼</password>
+	<passwordConfirm>確認密碼</passwordConfirm>
+	<serverIp>伺服器 </serverIp>
+	<sharedFolder>分享資料夾</sharedFolder>
+	<test>測試</test>
+	<sambaStatus>Samba 狀態：</sambaStatus>
+	<getStatus>取得狀態</getStatus>
+	<sdCard>SD 卡</sdCard>
+	<sdCardStatus>SD 卡狀態：</sdCardStatus>
+	<recordingOptions>錄影選項</recordingOptions>
+	<recordUntil>錄到 </recordUntil>
+	<spaceRange>空間還剩 MB 就停止 (最小是 32MB)</spaceRange>
+	<storageFull>當空間已滿時：</storageFull>
+	<stopRecording>停止錄影</stopRecording>
+	<overwriteRecordings>覆蓋舊錄影</overwriteRecordings>
+	<scheduling>排程</scheduling>
+	<eventBased>事件型</eventBased>
+	<methodError>請選擇錄影設定</methodError>
+	<scheduleError>請輸入排程時間</scheduleError>
+	<triggerError>請選擇 SD 卡</triggerError>
+	<hourError>小時無效</hourError>
+	<minuteError>分鐘無效</minuteError>
+	<fullHourError>若結束小時是 24，結束分鐘必須為 0</fullHourError>
+	<legalTimeError>開始時間必須小於結束時間</legalTimeError>
+	<recordSecError>請輸入 0~15之間的數字</recordSecError>
+	<usernameError>Samba 使用者名稱不得為 NULL</usernameError>
+	<passwordError>Samba 帳號密碼不得為 NULL</passwordError>
+	<confimError>Samba 帳號的密碼與確認密碼不同</confimError>
+	<spaceError>保留可用空間無效，最小須為 32M</spaceError>
+	<serverError>伺服器不得為 NULL，只能接受數字、英文字母、\".\"、\"-\" 和 \"_\" 字元</serverError>
+	<shareFolderError>分享資料夾不得為 NULL，只能接受數字、英文字母、\"-\" 和 \"_\" 字元</shareFolderError>
+	<trigger>觸發條件</trigger>
+	<ignoreMot>忽略以下移動於</ignoreMot>
+	<range2> (範圍為 0 到 86400 秒)</range2>
+	<onlyDuring>僅在下列時間之間</onlyDuring>
+	<day>日</day>
+	<time>時間</time>
+	<type>錄製類型</type>
+	<source>來源</source>
+	<description6>在此可設定</description6>
+	<description7> 音訊和視訊</description7>
+	<preRec>事件前錄影 :</preRec>
+	<preRecNotify> (從 0 到 5 秒)</preRecNotify>
+	<postRec>事件後錄影 :</postRec>
+	<postRecNotify>(從 0 到 60 秒)</postRecNotify>
+	<target>目標</target>
+	<interval>間隔</interval>
+	<quota>保留可用空間</quota>
+	<global>全域參數</global>
+	<minimum>最小是 200</minimum>
+	<sd>SD 卡</sd>
+	<sdcycle>循環錄影</sdcycle>
+	<schedulingg>排程</schedulingg>
+	<motionBased>移動</motionBased>
+	<audioBased>聲音</audioBased>
+	<alwaysBased>總是</alwaysBased>
+	<motionNote>請注意，移動偵測尚未啟用，請至「移動偵測」網頁進行設定。</motionNote>
+	<audioNote>請注意，音頻偵測尚未啟用，請至「音頻偵測」網頁進行設定。</audioNote>
+	<sdNote>請注意，攝影機並未插入 SD 卡，或 SD 卡無法寫入。</sdNote>
+	<sdNoteFull>請注意，SD 卡空間已滿。</sdNoteFull>
+	<sdManagement1>要格式化SD卡，請先禁用SD卡錄影，然後到</sdManagement1>
+	<sdManagement2>SD卡管理</sdManagement2>
+	<sdManagement3>頁面。</sdManagement3>
+	<sdcardrecording>SD 卡錄影</sdcardrecording>
+	<preErr>事件前錄影秒數必須為整數，且介於 0 到 5 之間</preErr>
+	<postErr>事件後錄影秒數必須為整數，且介於 0 到 60 之間</postErr>
+	<ignoreMotionTimeError>忽略以下移動秒數必須為整數</ignoreMotionTimeError>
+	<ignoreMotionTimeError2>忽略以下移動秒數必須介於 60~86400 秒之間</ignoreMotionTimeError2>
+	<mfhourError>開始小時無效</mfhourError>
+	<mthourError>結束小時無效</mthourError>
+	<mfminuteError>開始分鐘無效</mfminuteError>
+	<mtminuteError>結束分鐘無效</mtminuteError>
+	<dayErr>請至少選擇一天</dayErr>
+	<triggerError>請選擇目標</triggerError>
+	<sdQuotaError>SD卡保留可用空間必須是整數，且介於 200 到 32768 之間。</sdQuotaError>
+	<checkboxSnapshot>快照</checkboxSnapshot>
+	<checkboxVideo>視訊</checkboxVideo>
+	<recordingTypeErr>請選擇錄影類型</recordingTypeErr>
+	<sdkeepSpace>保留可用空間</sdkeepSpace>
+	<sdkeepSpacel>為本機 SD 卡設定一個適當的保留空間，藉此避免造成系統不穩定的狀況。</sdkeepSpacel>
+	<recordingLength>錄影長度</recordingLength>
+	<recordingLengthl> 設定錄影檔案長度。</recordingLengthl>
+	<sdcyclic>循環錄影</sdcyclic>
+	<sdcyclic1>若選擇本選項，則在儲存空間已滿時，會刪除最舊的資料夾，以存放新的檔案。</sdcyclic1>
+	<profiletype1>設定資料 1</profiletype1>
+	<profiletype2>設定資料 2</profiletype2>
+	<profiletype3>設定資料 3</profiletype3>
+	<FileLenMinUntil>錄影長度: </FileLenMinUntil>
+	<FileLenMin>分鍾的視訊短片</FileLenMin>
+	<gpio>數位輸入</gpio>
+	<performance>攝影機內的 SD Card 速度不夠錄影的需求。建議重新格式化 SD Card 或著是使用更快的 SD Card。</performance>
+	<vediofileformat>文件格式 :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<description1>SD 錄製功能可根據移動偵測或排程時間，將視訊影片或快照 (每秒) 存到本機 SD 卡。</description1>
+	<description2>若要啟用錄製，請勾選「啟用錄製」方塊，接著選擇要把檔案存到哪裡，可選擇插在攝影機 SD 插槽的 SD 卡，也可選擇 Samba 網路裝置。接著請選擇排程方法，來決定攝影機什麼時候要錄影。</description2>
+	<description3>您可依選擇的事件，將視訊錄製到「SD 卡」或「Samba 網路」。也可以設定「錄製選項」，並選擇排程方法，來決定攝影機什麼時候要錄影。</description3>
+	<descriptionNoSdcard>啟用錄影可讓您根據所選事件，將即時影像錄製到 Samba 網路磁碟。要啟用錄影，請勾選「啟用錄影」方塊。接著請選擇排程方法，來決定攝影機什麼時候要錄影。</descriptionNoSdcard>
+	<motionBased>偵測到移動後開始 SD 錄影。</motionBased>
+	<audioBased>偵測到聲音後開始 SD 錄影。</audioBased>
+	<scheduling>在特定時間進行 SD 錄影。</scheduling>
+	<alwaysBased>持續進行 SD 錄影。</alwaysBased>
+	<type>您可以設定 SD 錄影的設定資料，當觸發條件爲移動時，可以設定事件前錄影與事件後錄影。也可以選擇把錄影類型設成快照或視訊。</type>
+	<sd>您可決定 SD 卡要保留多少剩餘空間，以及是否要做循環錄影。</sd>
+	<gpio>偵測到數位輸入後開始錄製視訊影片。</gpio>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<fail>變更失敗。</fail>
+	<testing>測試</testing>
+	<disable>停用</disable>
+	<normal>一般</normal>
+	<initing>初始化</initing>
+	<mntFailure>掛載失敗</mntFailure>
+	<failure>失敗</failure>
+	<invalidParameter>設定失敗</invalidParameter>
+	<updateFailed>設定更新失敗</updateFailed>
+</message>

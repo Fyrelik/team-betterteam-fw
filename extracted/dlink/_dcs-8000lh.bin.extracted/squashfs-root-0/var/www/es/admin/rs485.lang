@@ -1,0 +1,47 @@
+<body>
+	<rs485>RS-485</rs485>
+	<description1>Esta sección permite especificar los parámetros de RS-485 de la cámara.</description1>
+	<enableRs485>Admitir Panorámica-Inclinación</enableRs485>
+	<rs485ID>ID</rs485ID>
+	<rs485BuadRate>Frecuencia de baudios</rs485BuadRate>
+	<rs485DataBits>Bits de datos</rs485DataBits>
+	<rs485StopBit>Bit de parada</rs485StopBit>
+	<rs485ParityBit>Bit de paridad</rs485ParityBit>
+	<rs485Protocol>Protocolo</rs485Protocol>
+	<Pelco-D>Pelco-D</Pelco-D>
+	<Pelco-P>Pelco-P</Pelco-P>
+	<Dyna>Dyna</Dyna>
+	<LiLin>LiLin</LiLin>
+	<savebutton>Guardar parámetros</savebutton>
+	<notsavebutton>No guardar parámetros</notsavebutton> 
+	<protocol>Protocolo</protocol>
+	<protocoll>: seleccione el estándar PTZ utilizado para conectar un escáner PTZ a través de la interfaz serie, RS485.</protocoll>
+	<id>ID</id>
+	<idl> : el valor de ID se utiliza para identificar el dispositivo RS-485.</idl>
+	<baudRate>Frecuencia de baudios</baudRate>
+	<baudRatel> : seleccione la frecuencia de baudios deseada para el dispositivo que ha conectado.</baudRatel>
+	<dataBits>Bits de datos</dataBits>
+	<dataBitsl> : seleccione los bits de datos deseados para el dispositivo que ha conectado.</dataBitsl>
+	<stopBit>Bit de parada</stopBit>
+	<stopBitl> : seleccione los bits de parada deseados para el dispositivo que ha conectado.</stopBitl>
+	<parityBit>Bit de paridad</parityBit>
+	<parityBitl> : seleccione el tipo de paridad deseado para el dispositivo que ha conectado.</parityBitl>
+	<idRangeError>Valor de ID fuera de rango</idRangeError>
+	<idrangemessage0>(intervalo de 0 a 255 segundos)</idrangemessage0>
+	<idrangemessage1>(intervalo de 0 a 32 segundos)</idrangemessage1>
+	<idrangemessage2>(intervalo de 0 a 223 segundos)</idrangemessage2>
+	<idrangemessage3>(intervalo de 0 a 64 segundos)</idrangemessage3>
+</body> 
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<description2>El bit de parada se puede establecer en 1 bit o 2 bits.</description2>
+	<description3>Al activar Admitir Panorámica-Inclinación, se mostrará un panel de control en la página de vídeo en directo que permite controlar mediante RS-485 una carcasa de cámara externa.</description3>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<fail>Error en los cambios.</fail>
+	<failure>error de configuración</failure>
+	<full>preestablecido ya está completo</full>
+	<invalidParameters>nombre de preestablecido no válido</invalidParameters>
+	<oob>el valor de configuración está fuera de rango</oob>
+</message>

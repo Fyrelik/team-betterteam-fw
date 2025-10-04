@@ -1,0 +1,49 @@
+<body>
+	<liveVideo>VIDEO IN DIRETTA</liveVideo>
+	<camera>Videocamera</camera>
+	<videoProfile>Profilo video</videoProfile>
+	<videoProfile1> - Queste icone mostrano le impostazioni correnti per il profilo video. Se si utilizza un browser diverso da Internet Explorer, selezionare le icone disponibili.</videoProfile1>
+	<fullScreen>Schermo intero</fullScreen>
+	<fullScreen1> - Fare clic sull'icona per visualizzare il video in diretta a schermo intero.</fullScreen1>
+	<snapshot>Istantanea</snapshot>
+	<snapshot1> - Facendo clic sull'icona nel computer viene salvata un'immagine in formato JPEG.</snapshot1>
+	<recording>Registrazione</recording>
+	<recording1> - Con questa funzione è possibile registrare immediatamente video nel percorso di un file predeterminato.</recording1>
+	<setPath>Imposta cartella di archiviazione</setPath>
+	<setPath1> - Fare clic sull'icona per configurare la posizione predefinita in cui archiviare i dati quando si utilizza il pulsante relativo all'istantanea o alla registrazione.</setPath1>
+	<listen>Ascolta</listen>
+	<listen1> - Fare clic sul pulsante per attivare o disattivare l'audio. L'audio continuerà a essere registrato.</listen1> 
+	<talk>Trasmissione vocale</talk>
+	<led>LED infrarossi</led>
+	<led1> - Fare clic sul pulsante per attivare/disattivare il LED a infrarossi sulla videocamera e abilitare la visione notturna. Questo pulsante è disponibile solo quando la modalità diurna/notturna è impostata su Infrarossi manuale.</led1>
+	<zoomInOut>Zoom avanti/indietro:</zoomInOut>
+	<zoomInOut1> - Fare clic sui pulsanti per ingrandire (1, 2, o 4 volte) o ridurre digitalmente il video in diretta.</zoomInOut1>
+	<talk1> - Fare clic sul pulsante per attivare e disattivare l'audio dal PC alla videocamera.</talk1>
+	<digitalOut>Uscita digitale</digitalOut>
+	<digitalOut1> - Fare clic sul pulsante per emettere segnali di allarme al connettore dell'uscita digitale.</digitalOut1>
+	<digitalInputTrigger>Indicatore ingresso digitale</digitalInputTrigger>
+	<digitalInputTrigger1> - Questo indicatore lampeggia quando viene rilevato un ingresso digitale.</digitalInputTrigger1>
+	<motionTrigger>Indicatore attivazione tramite movimento/suono</motionTrigger>
+	<motionTrigger1> - Questo indicatore lampeggia quando viene attivato il rilevamento movimento/suono.</motionTrigger1>
+	<recordingTrigger>Indicatore di registrazione</recordingTrigger>
+	<recordingTrigger1> - Questo indicatore lampeggia quando la registrazione è attiva.</recordingTrigger1>
+	<pantiltcontrol>Controllo panoramica inclinazione</pantiltcontrol>
+	<pantiltcontrol1> - È possibile controllare la posizione dell'obiettivo della videocamera facendo clic sui pulsanti freccia Su/Giù/Sinistra/Destra/In alto a sinistra/In basso a sinistra/In alto a destra/In basso a destra. Facendo clic sul pulsante Home è possibile spostare l'obiettivo nella posizione di partenza originale.</pantiltcontrol1>
+	<pan>Panoramica</pan>
+	<pan1> - Questo pulsante consente alla videocamera di eseguire una panoramica dalla posizione più a sinistra a quella più a destra. Dopo aver eseguito la panoramica la videocamera torna nella posizione originale.</pan1>
+	<patrol>Esplorazione</patrol>
+	<patrol1> - Fare clic sul pulsante per spostare la videocamera verso le posizioni di visualizzazione preimpostate configurate nel menu Posizioni predefinite. Nel menu Posizioni predefinite sono inoltre configurati l'ordine di visualizzazione delle posizioni e il tempo di sosta della videocamera in tali posizioni. </patrol1>
+	<stop>Arresta</stop>
+	<stop1> - Fare clic per arrestare la videocamera nella posizione corrente (utilizzata per le modalità Panoramica e Esplorazione). </stop1>
+	<goto>Passa a</goto>
+	<gotol> - Consente di spostare l'obiettivo in una posizione predefinita preprogrammata.</gotol>
+	<panspeed>Fase della panoramica</panspeed>
+	<panspeed1> - Consente di controllare l'incremento con cui la videocamera viene spostata quando si utilizza la funzione Panoramica.</panspeed1>
+	<tiltspeed>Fase di inclinazione</tiltspeed>
+	<tiltspeed1> - Consente di controllare l'incremento con cui la videocamera viene spostata quando si utilizza la funzione Inclinazione.</tiltspeed1>
+	<language>Selezione lingua</language>
+	<language1> - Consente di selezionare la lingua preferita del sito Web nell'elenco a discesa.</language1>
+	<recordingError>Errore di registrazione</recordingError>
+	<recordingError1> - Questo indicatore lampeggia in caso di errore durante la registrazione.</recordingError1>
+</body>
+

@@ -1,0 +1,89 @@
+<body>
+	<cameraControl>Contrôle de la caméra</cameraControl>
+	<presetPosition>Positions prédéfinies</presetPosition>
+	<patrolSelect>Sélection de la surveillance</patrolSelect>
+	<description1>Cette section vous permet d'ajouter ou de supprimer des positions prédéfinies, de sélectionner les positions à surveiller, et de modifier la position par défaut associé au bouton « Position initiale ».</description1>
+	<moveUp>Haut</moveUp>
+	<moveDown>Vers le bas</moveDown>
+	<panSpeed>Niveau transition pano horiz :</panSpeed>
+	<tiltSpeed>Niveau transition pano vert :</tiltSpeed>
+	<currentPosition>Nom prédéfini :</currentPosition>
+	<presetPositions>Position prédéfinie :</presetPositions>
+	<none>-- Sélectionner --</none>
+	<add>Ajouter</add>
+	<delete>Supprimer</delete>
+	<save>Enregistrer</save>
+	<theSamePresetName>Le nom prédéfini existe déjà ; voulez-vous remplacer l'ancienne position prédéfinie ?</theSamePresetName>
+	<setAsHome>Définir comme position initiale</setAsHome>
+	<defaultHome>Position initiale par défaut</defaultHome>
+	<patrolSpeed>Niveau de transition du panoramique horizontal/de la surveillance :</patrolSpeed>
+	<dwellingTime>Temps de passage :</dwellingTime>
+	<sec> secondes</sec>
+	<presetLocations>Positions prédéfinies</presetLocations>
+	<selectedLocations>Positions de surveillance</selectedLocations>
+	<select>Sélectionner</select>
+	<remove>Supprimer</remove>
+	<patrolSelection>Sélection de la surveillance :</patrolSelection>
+	<homeDefinition>Définition de la position initiale :</homeDefinition>
+	<presetNameError>Le nom prédéfini ne peut pas être vide</presetNameError>
+	<presetNameError111>Le nom prédéfini ne peut pas être vide ; les caractères valables sont les caractères alphanumériques et  \"-\", et \"_\"</presetNameError111>
+	<presetNameError112> \' \" caractères</presetNameError112>
+	<waitTimeError1>Le temps de passage ne peut pas être vide</waitTimeError1>
+	<waitTimeError2>Le temps de passage doit être un nombre</waitTimeError2>
+	<waitTimeError3>Le temps de passage doit être compris entre 0 et 60</waitTimeError3>
+	<left_up>Gauche haut</left_up>
+	<up>Haut</up>
+	<right_up>Droite haut</right_up>
+	<left>Gauche</left>
+	<left_down>Gauche bas</left_down>
+	<right_down>Droite bas</right_down>
+	<right>Droite</right>
+	<down>Vers le bas</down>
+	<Zoom_in>Zoom avant</Zoom_in>
+	<Zoom_out>Zoom arrière</Zoom_out>
+	<home>Position initiale</home>
+	<privacy>Cette caméra est actuellement en Mode de confidentialité.</privacy>
+	<noSelectError>Veuillez sélectionner une position de surveillance.</noSelectError>
+	<presetErr>Veuillez sélectionner une position prédéfinie </presetErr>
+	<patrolFull>Les positions de surveillance ne peuvent pas dépasser 20 </patrolFull>
+	<javajreinfo8>Cliquez ici pour télécharger le plugin NCS et l'installer. Il est ensuite recommandé de rouvrir votre navigateur !!</javajreinfo8>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<homeDefinition>Définition de la position initiale </homeDefinition>
+	<description1>Vous permet de définir une nouvelle « position initiale » ou de rétablir celle d'origine.</description1>
+	<patrolSelection>Sélection de la surveillance </patrolSelection>
+	<description2>Vous permet d'ajouter les « Positions prédéfinies » dans les « Positions de surveillance ». Cette option déterminera où doit se diriger la caméra IP et dans quelle position s'arrêter lorsque vous sélectionnez « Surveillance » dans la page « Vidéo en direct ».</description2>
+	<patrolhints>Positions de surveillance </patrolhints>
+	<description3> Cette option sélectionne la séquence de déplacement vers les positions prédéfinies précisées. </description3>
+	<patrolschedulehints>Calendrier de surveillance </patrolschedulehints>
+	<description4> Le « Calendrier de surveillance » permet à la caméra PTZ d'effectuer la tournée des positions selon un calendrier horaire. </description4>
+	<dwellinghints>Temps de passage </dwellinghints>
+	<description5> Le temps d'attente pendant lequel la caméra doit demeurer à chaque position prédéfinie pendant la surveillance. </description5>
+	<controlhints>Contrôle du panoramique horizontal/vertical</controlhints>
+	<controlhints1>Vous pouvez contrôler la position de l'objectif de la caméra en cliquant sur les boutons fléchés haut/bas, gauche/droite, gauche-haut/gauche-bas, droite-haut/droite-bas. Cliquer sur le bouton Position initiale remettra l'objectif de la caméra dans la position initiale.</controlhints1>
+	<uphints>Haut</uphints>
+	<uphints1>Déplacer une position de surveillance sélectionnée vers le haut.</uphints1>
+	<downhints>Vers le bas</downhints>
+	<downhints1>Déplacer une position de surveillance sélectionnée vers le bas.</downhints1>
+	<removehints>Supprimer</removehints>
+	<removehints1>Supprimer une position de surveillance sélectionnée.</removehints1>
+	<helppanSpeed>Niveau transition pano horiz</helppanSpeed>
+	<helppanSpeed1>Contrôle le niveau de transition quand la caméra effectue un panoramique horizontal.</helppanSpeed1>
+	<helptiltSpeed>Niveau transition pano vert</helptiltSpeed>
+	<helptiltSpeed1>Contrôle le niveau de transition quand la caméra effectue un panoramique vertical.</helptiltSpeed1>
+	<helpcurrentPosition>Nom prédéfini</helpcurrentPosition>
+	<helpcurrentPosition1>Déplacez la caméra dans la position souhaitée et tapez un nom ou un numéro dans le champ Nom prédéfini, puis cliquez sur Ajouter pour ajouter la position actuelle dans le champ Position prédéfinie.</helpcurrentPosition1>
+	<helppresetPosition>Position prédéfinie</helppresetPosition>
+	<helppresetPosition1>Cette liste répertorie toutes les positions que vous avez prédéfinies et que vous pouvez supprimer.</helppresetPosition1>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<failure>Échec de la configuration</failure>
+	<full>Il n'y a plus de position prédéfinie disponible</full>
+	<selectFull>Il n'y a plus de position de surveillance disponible</selectFull>
+	<duplicate>dupliquer</duplicate>
+	<invalidParameters>nom prédéfini incorrect</invalidParameters>
+	<oob>la valeur du paramètre est hors de la plage autorisée</oob>
+</message>
+

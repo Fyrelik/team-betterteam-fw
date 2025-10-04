@@ -1,0 +1,60 @@
+<body>
+	<maintenance>System</maintenance>
+	<description1>Here you may backup, restore, and reboot your camera.</description1>
+	<rebootDevice>Reboot Device</rebootDevice>
+	<rebootText>Reboot Device</rebootText>
+	<factory>Restore To Factory Defaults</factory>
+	<factoryDefault>Restore Factory Defaults</factoryDefault>
+	<calibrateText>Calibrate the Device</calibrateText>
+	<calibrate>Calibrate the Device</calibrate>
+	<reboot1>The camera is currently restarting, please wait for </reboot1>
+	<reboot2> seconds.</reboot2>
+	<system>system</system>
+	<backupText>Save To Local Hard Drive</backupText>
+	<saveConfiguration>Save Configuration</saveConfiguration>
+	<restoreText>Load From Local Hard Drive</restoreText>
+	<privacyText>Privacy Mode</privacyText>
+	<privacy>Go To Privacy Mode</privacy>
+	<restoreConfiguration>Load Configuration</restoreConfiguration>
+	<restoreConfirm>Do you want to restore config data?</restoreConfirm>
+	<rebootConfirm>Do you want to reboot?</rebootConfirm>
+	<factoryConfirm>Do you want to factory default?</factoryConfirm>
+	<reboot>reboot</reboot> 
+	<schedule>Schedule Device Reboot</schedule> 
+	<sun>Sun</sun> 
+	<mon>Mon</mon> 
+	<tue>Tue</tue> 
+	<wed>Wed</wed> 
+	<thu>Thu</thu> 
+	<fri>Fri</fri> 
+	<sat>Sat</sat> 
+	<time>Time</time> 
+	<savebutton>Save</savebutton> 
+	<exportHint>Please enter a key to save the configuration. And reserve the key carefully for loading the configuration.</exportHint>
+	<importHint>Please enter the key for loading the configuration.</importHint>
+	<exportError>Key can't be empty.</exportError>
+	<importError>The key is required to load the configuration.</importError>
+	<keyError>The key only accepts number, alphabet, \".\", \"_\", and \"-\". The maximum is 30 characters.</keyError>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<maintenance>After the factory’s default settings have been restored, use the installation wizard software provided with your camera to search and connect to the camera.</maintenance>
+</hint>
+<message>
+	<updateOK>the update is successed</updateOK>
+	<uploadFail>the upload is failed</uploadFail>
+	<examFail>the upload image is damaged</examFail>
+	<infoFail>the upload image have no infomation</infoFail>
+	<invalidImage>the upload image cannot be used at this product</invalidImage>
+	<resetFail>the reset is failed</resetFail>
+	<resetOK>The camera will begin the restoring process. Please wait for 1 minute and then re-connect the camera with the newly IP address.</resetOK>
+	<rebootFail>the reboot is failed</rebootFail>
+	<rebootOK>Reboot is done</rebootOK>
+	<calibrationOK>Calibration is successful</calibrationOK>
+	<goSleepOK>privacy mode is successful</goSleepOK>
+	<importOK>The camera will begin loading your configuration. Please wait for 1 minute and then re-connect the camera with the newly IP address.</importOK>
+	<invalidDB>Config file is invalid</invalidDB>
+	<noDB>No config file is uploaded</noDB>
+	<saveOK>Web Server is restarting. Please wait for 75 second and then re-connect the camera with the newly IP address.</saveOK>
+	<scheduleOK>Changes saved</scheduleOK>
+</message>

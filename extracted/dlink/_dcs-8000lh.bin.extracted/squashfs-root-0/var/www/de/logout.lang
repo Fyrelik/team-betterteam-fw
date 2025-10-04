@@ -1,0 +1,11 @@
+<body>
+	<logout>Abmelden</logout>
+	<description1>Wenn Sie sich abmelden, wird der Browser geschlossen.</description1>
+	<titleLogout>ABMELDEN</titleLogout>
+	<closewebpage>Schließen Sie bitte die Webseite manuell.</closewebpage>
+</body>
+<hint>
+</hint>
+<message>
+</message>
+

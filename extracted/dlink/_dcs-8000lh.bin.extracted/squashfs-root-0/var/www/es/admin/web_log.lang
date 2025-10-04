@@ -1,0 +1,18 @@
+<body>
+	<systemLog>Registro del sistema</systemLog>
+	<description1>El registro del sistema registra los eventos de la cámara que se han producido.</description1>
+	<ipAddress>Dirección IP</ipAddress>
+	<port>Puerto</port>
+	<save>Guardar</save>
+	<currentLog>registro actual</currentLog>
+	<clear>Borrar</clear>
+	<download>Descargar</download>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<systemLog>Puede guardar el registro en su disco duro local haciendo clic en el botón Descargar y puede eliminar el registro haciendo clic en el botón Borrar.</systemLog>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+</message>
+

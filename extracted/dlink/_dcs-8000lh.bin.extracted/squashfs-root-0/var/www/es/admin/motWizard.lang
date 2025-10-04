@@ -1,0 +1,197 @@
+<body>
+	<welcome>bienvenido al Asistente de configuración D-LINK: detección de movimiento</welcome>
+	<description1>Este asistente le guiará a través de un proceso paso a paso para configurar la función de detección de movimiento de su cámara. Para configurar los parámetros de LAN o Internet de la cámara, haga clic en el botón Atrás para cerrar este asistente y abrir de nuevo el Asistente para la configuración de la conexión a Internet. En caso contrario, haga clic en el botón Siguiente para comenzar.</description1>
+	<step1>Paso 1: </step1>
+	<note1>Especificar la configuración del área de detección de movimiento</note1>
+	<step2>Paso 2: </step2>
+	<note2>Notificaciones de instantánea</note2>
+	<step3>Paso 3: </step3>
+	<note3>Notificaciones de clip de vídeo</note3>
+	<step4>Paso 4: </step4>
+	<note4>Notificaciones de grabación SD</note4>
+	<step5>Paso 5: </step5>
+	<note5>Configuración completa</note5>
+	<back>Atrás</back>
+	<next>Siguiente</next>
+	<cancel>Cancelar</cancel>
+	<profile2>Perfil 2</profile2>
+	<profile3>Perfil 3</profile3>
+	<pirhigh>Alta</pirhigh>
+	<pirmiddle>Media</pirmiddle>
+	<pirlow>Baja</pirlow>
+	<pirsensibility>PIR Sensibilidad</pirsensibility>
+	<description2>Esta sección permitirá activar o desactivar la función de detección de movimiento, dibujar o borrar el área de movimiento y configurar el parámetro de sensibilidad de su cámara para detectar el movimiento. </description2>
+	<showFirefoxText>Para configurar el área de movimiento, utilice Windows Internet Explorer</showFirefoxText>
+	<enable>Activar</enable>
+	<enableMotion>Activar movimiento de vídeo</enableMotion>
+	<enablePIR>Activar PIR</enablePIR>
+	<sense>Sensibilidad</sense>
+	<drawingMode>Modo de dibujo</drawingMode>
+	<drawMotion>Dibujar área de movimiento</drawMotion>
+	<eraseMotion>Borrar área de movimiento</eraseMotion>
+	<clear>Borrar</clear>
+	<description3>Este paso permite especificar cómo se recibirán las alertas y notificaciones de los eventos de la cámara. Puede activar una notificación por correo electrónico o una notificación por FTP introduciendo toda la información relevante. A continuación, haga clic en el botón Siguiente.</description3>
+	<description4>Este paso permite especificar cómo se grabará en la tarjeta SD en función de los eventos de la cámara. Puede activar la grabación SD introduciendo toda la información relevante.</description4>
+	<notNotify>No avisar</notNotify>
+	<emailNotification>Notificación por correo electrónico</emailNotification>
+	<mailEnable>Activar notificación por correo electrónico</mailEnable>
+	<userName>Nombre de usuario</userName>
+	<password>Contraseña</password>
+	<mailServer>Servidor de correo SMTP</mailServer>
+	<senderAddress>Dir. correo electr. remit.</senderAddress>
+	<recipientAddress>Dir. correo electr. dest.</recipientAddress>
+	<port>Puerto</port>
+	<ftpNotification>Notificación por FTP</ftpNotification>
+	<doubleNotification>Notificación por correo electrónico y por FTP</doubleNotification>
+	<ftpEnable>Activar carga de FTP</ftpEnable>
+	<hostName>Nombre de host</hostName>
+	<path>Ruta</path>
+	<prefixFileName>Prefijo de nombre de archivo</prefixFileName>
+	<passiveMode>Modo Pasivo</passiveMode>
+	<description5>Ha completado la configuración de su cámara. Haga clic en el botón Atrás si desea revisar o modificar los parámetros o haga clic en el botón Aplicar para guardar y aplicar los parámetros.</description5>
+	<motionDetection>Detección de movimiento:</motionDetection>
+	<disable>Desactivar</disable>
+	<alertsAndNotification>Alertas y notificaciones:</alertsAndNotification>
+	<apply>Aplicar</apply>
+	<numberError>La sensibilidad debe ser un número entero</numberError>
+	<rangeError>La sensibilidad debe ser un número entero entre 0 y 100</rangeError>
+	<range1> (Rango: de 10 a 86.400 segundos)</range1>
+	<range2> (Rango: de 30 a 86.400 segundos)</range2>
+	<range3> (Rango: de 60 a 86.400 segundos)</range3>
+	<areaError>Dibuje el área de movimiento</areaError>
+	<mailNameError>El nombre de usuario y la contraseña de correo no pueden aceptar caracteres que no sean ASCII y espacios</mailNameError>
+	<ftpNameError>El nombre de usuario y la contraseña de FTP no pueden aceptar caracteres que no sean ASCII y espacios</ftpNameError>
+	<firSmtpError>El servidor de correo SMTP no puede estar vacío, sólo acepta caracteres numéricos, alfabéticos, , \".\" , \"-\", y \"_\"</firSmtpError>
+	<firSmtpName>SMTP</firSmtpName>
+	<firAccountError>El nombre de usuario de SMTP no puede estar vacío</firAccountError>
+	<firRecipientMailError>Compruebe el formato de la dirección de correo electrónico del destinatario.</firRecipientMailError>
+	<firRecipientError>La dirección de correo electrónico del destinatario no puede estar vacía</firRecipientError>
+	<firSenderMailError>Compruebe el formato de la dirección de correo electrónico del remitente.</firSenderMailError>
+	<firSenderError>La dirección de correo electrónico del remitente no puede estar vacía</firSenderError>
+	<PortError1> El puerto no puede estar vacío</PortError1>
+	<PortError2> El puerto debe ser un número entero</PortError2>
+	<PortError3> El puerto debe estar entre 1 y 65.535</PortError3>
+	<firFtpServerError>El servidor FTP no puede estar vacío, sólo acepta caracteres numéricos, alfabéticos, , \".\" , \"-\", y \"_\"</firFtpServerError>
+	<firFtpError>FTP</firFtpError>
+	<firFolderError>La ruta de FTP sólo puede aceptar caracteres numéricos, alfabéticos y los caracteres: </firFolderError>
+	<firFolderError2>La ruta de FTP no puede aceptar \".\" y \"/\" de forma continua</firFolderError2>
+	<firFixFilenameError>Prefijo de nombre de archivo sólo puede aceptar caracteres numéricos, alfabéticos y los caracteres: </firFixFilenameError>
+	<interval>Intervalo</interval>
+	<second>Segundos</second>
+	<range> (Rango: de 1 a 86.400 segundos)</range>
+	<intervalError>El intervalo debe ser de 1 a 86.400 segundos</intervalError>
+	<portRange> (Rango: de 1 a 65.535)</portRange>
+	<reloadBG>Actualizar imagen</reloadBG>
+	<enalbeMdWarning>Advertencia: Si desea activar la función de detección de movimiento, marque [Activar movimiento de vídeo]. Sin embargo, si desea desactivar la función de detección de movimiento, borre el área de movimiento.</enalbeMdWarning>
+	<enalbeWarning>Advertencia: En el asistente de configuración, asegúrese de seleccionar al menos uno, [Activar detección de movimiento] o [Activar PIR].</enalbeWarning>
+	<target>Destino</target>
+	<quota>Mantener espacio libre</quota>
+	<sdcycle>Cíclico</sdcycle>
+	<Email>Correo electrónico a </Email>
+	<sd>Tarjeta SD</sd>
+	<ftp>FTP</ftp>
+	<ignoreMotFTP>Enviar sig. FTP después del</ignoreMotFTP>
+	<ignoreMotSMTP>Env. sig. c. elect. tras el</ignoreMotSMTP>
+	<onlyDuring>Solo durante</onlyDuring>
+	<day>Día</day>
+	<time>Hora</time>
+	<hour>Horas</hour>
+	<min>Minutos</min>
+	<sun>Dom </sun>
+	<mon>Lun </mon>
+	<tue>Mar </tue>
+	<wed>Mié </wed>
+	<thu>Jue </thu>
+	<fri>Vie </fri>
+	<sat>Sáb </sat>
+	<from>Iniciar </from>
+	<to>Finalizar </to>
+	<encrypt1>Utilice SSL-TLS/STARTTLS</encrypt1>
+	<encrypt2>Utilice SSL-TLS</encrypt2>
+	<smtp>Correo Electrónico</smtp>
+	<type>Tipo de instantánea</type>
+	<type1>Tipo de clip de vídeo</type1>
+	<type2>Tipo de grabación SD</type2>
+	<source>Origen</source>
+	<description6>Configurable en </description6>
+	<description7> Audio y vídeo.</description7>
+	<motSingle>Instantánea única</motSingle>
+	<motmulti1>6 instantáneas con</motmulti1>
+	<motmulti2>intervalo de segundos (3 imágenes anteriores y 3 imágenes posteriores a la imagen de movimiento)</motmulti2>
+	<encript1>Ninguno</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<snapshot>Instantánea</snapshot>
+	<video>Vídeo</video>
+	<videoclip>Clip de vídeo</videoclip>
+	<mfhourError>La hora de inicio no es válida</mfhourError>
+	<mthourError>La hora final no es válida</mthourError>
+	<mfminuteError>El minuto de inicio no es válido</mfminuteError>
+	<mtminuteError>El minuto final no es válido</mtminuteError>
+	<triggerError>Seleccione un destino</triggerError>
+	<ignoreQuotaError>Ignorar hora debe ser un número</ignoreQuotaError>
+	<sdQuotaError>Mantener espacio libre en la tarjeta SD debe ser un número entero y estar entre 200 y 32.768</sdQuotaError>
+	<intervalError>El intervalo debe ser de 60 a 86.400 segundos</intervalError>
+	<intervalError1>El intervalo debe ser de 10 a 86.400 segundos</intervalError1>
+	<intervalError2>El intervalo debe ser de 30 a 86.400 segundos</intervalError2>
+	<intervalError3>El intervalo debe ser de 60 a 86.400 segundos</intervalError3>
+	<dayErr>Elija al menos un día</dayErr>
+	<global>Parámetro global</global>
+	<qoutaMin>y el mínimo es 30 </qoutaMin>
+	<targetOnly>No se puede seleccionar FTP y correo electrónico como destino para el clip de vídeo.</targetOnly>
+	<sdNote>Tenga en cuenta que no hay ninguna tarjeta SD enchufada en la cámara o no se puede escribir en la tarjeta SD.</sdNote>
+	<sdManagement1>Para formatear la tarjeta SD, vaya a </sdManagement1>
+	<sdManagement2>Gestión de SD</sdManagement2>
+	<sdManagement3> la página.</sdManagement3>
+	<preRec>Grabación del evento previo:</preRec>
+	<maxRec>Duración máxima:</maxRec>
+	<recpostRec>Grabación del evento posterior:</recpostRec>
+	<preErr>El segundo de grabación del evento previo debe ser un número entero y estar entre 0 y 5</preErr>
+	<maxErr>Duración máxima en segundos debe ser un número entero y estar entre 5 y 10</maxErr>
+	<preRecNotify>(entre 0 y 5 segundos)</preRecNotify>
+	<recpostRecNotify>(entre 0 y 60 segundos)</recpostRecNotify>
+	<maxRecNotify>(entre 5 y 10 segundos)</maxRecNotify>
+	<ignoreMotionTimeErrorsmtp>Enviar siguiente correo electrónico después del segundo debe ser un número entero</ignoreMotionTimeErrorsmtp>
+	<ignoreMotionTimeErrorftp>Enviar siguiente FTP después del segundo debe ser un número entero</ignoreMotionTimeErrorftp>
+	<ignoreMotionTimeErrorSnapshot>Ignorar los movimientos siguientes en segundos debe ser de 30 a 86.400 segundos</ignoreMotionTimeErrorSnapshot>
+	<ignoreMotionTimeErrorSnapshot1>Enviar siguiente FTP después del segundo debe ser de 10 a 86.400 segundos</ignoreMotionTimeErrorSnapshot1>
+	<ignoreMotionTimeErrorSnapshot2>Enviar siguiente correo electrónico después del segundo debe ser de 30 a 86.400 segundos</ignoreMotionTimeErrorSnapshot2>
+	<ignoreMotionTimeErrorSnapshot3>Ignorar los movimientos siguientes en segundos debe ser de 60 a 86.400 segundos</ignoreMotionTimeErrorSnapshot3>
+	<ignoreMotionTimeErrorVideoclip>Ignorar los movimientos siguientes en segundos debe ser de 60 a 86.400 segundos</ignoreMotionTimeErrorVideoclip>
+	<ignoreMotionTimeErrorVideoclip1>Enviar siguiente FTP después del segundo debe ser de 10 a 86.400 segundos</ignoreMotionTimeErrorVideoclip1>
+	<ignoreMotionTimeErrorVideoclip2>Enviar siguiente correo electrónico después del segundo debe ser de 30 a 86.400 segundos</ignoreMotionTimeErrorVideoclip2>
+	<ignoreMotionTimeErrorVideoclip3>Ignorar los movimientos siguientes en segundos debe ser de 60 a 86.400 segundos</ignoreMotionTimeErrorVideoclip3>
+	<rangeSnapshot> (Rango: de 30 a 86.400 segundos)</rangeSnapshot>
+	<rangeVideoclip> (Rango: de 60 a 86.400 segundos)</rangeVideoclip>
+	<message1>Espere </message1>
+	<message2> Segundos para completar la configuración.</message2>
+	<ftpServer>Servidor/puerto FTP</ftpServer>
+	<minimum>El mínimo es 200</minimum>
+	<postErr>El segundo de grabación del evento posterior debe ser un número entero y estar entre 0 y 60</postErr>
+	<profiletype1>Perfil 1</profiletype1>
+	<profiletype2>Perfil 2</profiletype2>
+	<profiletype3>Perfil 4</profiletype3>
+	<FileLenMinUntil>Longitud de la grabación: </FileLenMinUntil>
+	<FileLenMin>minutos por archivo</FileLenMin>
+	<JavaSupport>Este explorador no admite ni desactiva Java JRE.</JavaSupport>
+	<getJava>Consiga aquí el último Java JRE</getJava>
+	<enableJava> o active Java JRE.</enableJava>
+	<test>Probar</test>
+	<vediofileformat>Formato de archivo:</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<fail>Error en los cambios.</fail>
+	<testMailFault>Error al enviar un mensaje de prueba</testMailFault>
+	<testMailOk>Se ha enviado un mensaje de prueba correctamente</testMailOk>
+	<testFTPFault>Error de prueba FTP</testFTPFault>
+	<testFTPOk>Prueba FTP correcta</testFTPOk>
+	<testFtpOk>Prueba FTP correcta</testFtpOk>
+	<testFtpFault>Error de prueba FTP</testFtpFault>
+</message>
+

@@ -1,0 +1,10 @@
+<body>
+	<logout>Sair</logout>
+	<description1>Ao sair o navegador será fechado</description1>
+	<titleLogout>SAIR</titleLogout>
+	<closewebpage>Por favor fechar a página web manualmente</closewebpage>
+</body>
+<hint>
+</hint>
+<message>
+</message>

@@ -1,0 +1,103 @@
+<body>
+	<administratorSettings>Admin</administratorSettings>
+	<description1>Hier können Sie das Kennwort des Administrators für Ihr Konto ändern und Benutzerkonten hinzufügen und/oder löschen. Hier können Sie Ihrer Kamera auch einen eindeutigen Namen geben und die OSD-Funktion (On-Screen Display) aktivieren, um den Kameranamen und den Zeitstempel sowohl für Ihr Live Video als auch Ihre Videoaufnahmen anzuzeigen.</description1>
+	<devideSetting>Geräteeinstellung</devideSetting>
+	<cameraName>Kameraname</cameraName>
+	<enableOSD>OSD</enableOSD>
+	<label>Name</label>
+	<timeStamp>Zeitstempel</timeStamp>
+	<ledControl>Verbindungs- /Betriebsanzeige-LED</ledControl>
+	<ledControl1>Betriebs-/Verbindungs-LED</ledControl1>
+	<ledOn>Ein</ledOn>
+	<ledOff>Aus</ledOff>
+	<ledDummy>Flackern</ledDummy>
+	<administrator>Admin-Kennworteinstellungen</administrator>
+	<newPassword>Neues Kennwort</newPassword>
+	<confirmPassword>Neues Kennwort bestätigen</confirmPassword>
+	<PasswordMsg> Max. 30 Zeichen</PasswordMsg>
+	<save>Speichern</save>
+	<addUser>Benutzerkonto hinzufügen </addUser>
+	<userAccount>Benutzerkonto</userAccount>
+	<userName>Benutzername</userName>
+	<maxUser> Max. 20 Benutzer</maxUser>
+	<add>Hinzufügen</add>
+	<managerUser>Benutzerliste</managerUser>
+	<userList>-- Benutzerliste --</userList>
+	<delete>Löschen</delete>
+	<reboot1>Der Kamera-Webserver wird zurzeit neu gestartet. Bitte warten Sie ein paar </reboot1>
+	<reboot2> Sekunden.</reboot2>
+	<asciiError>Für das OSD-Label dürfen nur Zahlen, Großbuchstaben und \"_\" Zeichen verwendet werden.</asciiError>
+	<cameraNameError>Kameraname muss angegeben werden.</cameraNameError>
+	<cameraNameError1>Kameraname darf keine Leerzeichen enthalten.</cameraNameError1>
+	<cameraNameError2>Für den Kameranamen sind nur Zahlen, Buchstaben und \"-\" Zeichen gültig.</cameraNameError2>
+	<adminPassError1>Das neue Kennwort und das zur Bestätigung eingegebene Kennwort stimmen nicht überein</adminPassError1>
+	<adminPassError2>Das neue Kennwort darf keine Leerzeichen und Nicht-ASCII-Zeichen enthalten</adminPassError2>
+	<maxUserError>Überschreitet max. Benutzerzahl</maxUserError>
+	<userNameError1>Der Benutzername muss angegeben werden.</userNameError1>
+	<userNameError2>Der Benutzername darf nur Zahlen, Buchstaben und \".\", \"-\", sowie das \"_\" Zeichen enthalten</userNameError2>
+	<userNameError3>Der Benutzername existiert bereits</userNameError3>
+	<userNameError4>Benutzername darf nicht 'admin' lauten</userNameError4>
+	<userPassError1>Das neue Kennwort und das zur Bestätigung eingegebene Kennwort stimmen nicht überein</userPassError1>
+	<userPassError2>Das neue Kennwort darf keine Leerzeichen und Nicht-ASCII-Zeichen enthalten</userPassError2>
+	<cameraMsg>Max. 36 Zeichen</cameraMsg>
+	<privacyText>Privacy-Steuerung</privacyText>
+	<calibrateText>Gerät kalibrieren</calibrateText>
+	<calibrate>Gerät kalibrieren</calibrate>
+	<privacyOn>Privacy ein</privacyOn>
+	<privacyOff>Privacy aus</privacyOff>
+	<scheduled>Eingeplant</scheduled>
+	<hour>Stunden</hour>
+	<min>Minuten</min>
+	<sun>So </sun>
+	<mon>Mo </mon>
+	<tue>Di </tue>
+	<wed>Mi </wed>
+	<thu>Do </thu>
+	<fri>Fr </fri>
+	<sat>Sa </sat>
+	<from>Start </from>
+	<to>Ende </to>
+	<liveViewAuth>Benutzerauthentifizierung</liveViewAuth>
+	<snapShotAuth>Benutzerauthentifizierung</snapShotAuth>
+	<scheduleError>Geben Sie die geplante Zeit an</scheduleError>
+	<hourError>Die Stundenangaben sind nicht gültig</hourError>
+	<minuteError>Die Minutenangaben sind nicht gültig</minuteError>
+	<fullHourError>Wenn Ende (Stunden) 24 ist, kann Ende (Minuten) nur auf 0 gesetzt werden</fullHourError>
+	<legalTimeError>Startzeit muss vor der Endzeit sein</legalTimeError>
+	<oldPassword>Altes Kennwort</oldPassword>
+	<auth>AUTHENTIFIZIERUNG</auth>
+	<httpauth>HTTP-Authentifizierung</httpauth>
+	<rtspauth>RTSP-Authentifizierung</rtspauth>
+	<snapauth>URL-Authentifizierung für Momentaufnahmen</snapauth>
+	<OSDError>Für das OSD-Label dürfen nur Zahlen, Großbuchstaben und \"_\" Zeichen verwendet werden.</OSDError>
+	<enablePrivacy>Privacy-Steuerung</enablePrivacy>
+	<privacycontrol>Privacy-Steuerung</privacycontrol>
+	<privacyon>Privacy ein</privacyon>
+	<privacyoff>Privacy aus</privacyoff>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<administratorSettings>Aus Sicherheitsgründen wird empfohlen, das Kennwort für Ihr Administratorkonto zu ändern. Notieren Sie sich das neue Kennwort, damit Sie die Kameraeinstellungen nicht zurücksetzen müssen, wenn Sie das Kennwort vergessen.</administratorSettings>
+	<userAccount>Das Benutzerkonto gibt einem Benutzer das Recht zur Anmeldung auf der Live-Anzeige und für die Verwendung der Funktionen auf der Seite.</userAccount>
+	<rtspauth>Benutzervalidierung für RTSP-Streaming aktivieren.</rtspauth>
+	<httpauth>Benutzervalidierung für HTTP-Streaming aktivieren.</httpauth>
+	<snapauth>Benutzervalidierung für Momentaufnahme-URL aktivieren.</snapauth>
+	<enableOSD>Durch Aktivierung der OSD-Funktion (On-Screen Display) wird das Label und die Zeit auf dem Live Videobild angezeigt.</enableOSD>
+	<ledOn>Normal blinkende LED je nach Stromzufuhr und kabelloser/ kabelgebundener Verbindung und Video/Audio-Stream-Übertragungsstatus.</ledOn>
+	<ledOff>LED immer ausschalten.</ledOff>
+	<ledDummy>Immer flackernde Verbindungs-LED sofern Video überwacht wird.</ledDummy>
+	<privacycontrol>Ermöglicht Ihnen die Konfiguration, ob die Kamera in den Privacy-Modus gesetzt werden kann oder nicht.</privacycontrol>
+	<privacyon>Kamera ist in einem Privacy-Modus. Live Video, Videoclip, Momentaufnahme und SD-Aufnahme werden ausgeschaltet.</privacyon>
+	<privacyoff>Kamera ist im normalen Betriebsmodus.</privacyoff>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<invalidParameters>Einige Parameter sind ungültig</invalidParameters>
+	<notCorrectOldPassword>Das alte Kennwort ist nicht korrekt</notCorrectOldPassword>
+	<exceedMaxUsers>Überschreitet max. Benutzerzahl</exceedMaxUsers>
+	<userNotExist>Der Benutzer, den Sie löschen möchten, existiert nicht</userNotExist>
+	<tinydbError>Einrichtungsfehler</tinydbError>
+	<calibrationOK>Kalibrierung erfolgreich durchgeführt</calibrationOK>
+	<saveOK>Der Webserver wird neu gestartet. Warten Sie bitte ca. eine Minute und stellen Sie dann die Verbindung zu der Kamera mit der neuen IP-Adresse (falls geändert) wieder her.</saveOK>
+</message>
+

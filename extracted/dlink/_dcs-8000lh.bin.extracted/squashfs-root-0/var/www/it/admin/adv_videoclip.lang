@@ -1,0 +1,169 @@
+<body>
+	<videoclip>Clip video</videoclip>
+	<description1>La funzione Clip video consente di inviare clip video tramite FTP o e-mail quando viene attivato un trigger. </description1>
+	<savebutton>Salva impostazioni</savebutton>
+	<notsavebutton>Non salvare impostazioni</notsavebutton>
+	<di>Segnale ingresso digitale 1</di>
+	<di2>Segnale ingresso digitale 2</di2>
+	<enable>Clip video</enable>
+	<profile2>Profilo 2</profile2>
+	<motionDetection>Rilevamento movimento</motionDetection>
+	<sendVideoClipBy>Invia a:</sendVideoClipBy>
+	<emailAddress>Indirizzo e-mail</emailAddress>
+	<ftpServer>Server FTP</ftpServer>
+	<userName>Nome utente</userName>
+	<password>Password</password>
+	<mailServer>Server di posta elettr. SMTP</mailServer>
+	<senderAddress>Indirizzo e-mail mittente</senderAddress>
+	<recipientAddress>Indirizzo e-mail destinatario</recipientAddress>
+	<port>Porta</port>
+	<test>Prova</test>
+	<test2>Prova</test2>
+	<hostName>Nome host</hostName>
+	<path>Percorso</path>
+	<prefixFileName>Prefisso nome file</prefixFileName>
+	<passiveMode>Modalità passiva</passiveMode>
+	<portRange> (Intervallo: da 1 a 65535)</portRange>
+	<mailNameError>Per il nome utente e la password e-mail non è possibile utilizzare caratteri non-ASCII o caratteri spazio.</mailNameError>
+	<ftpNameError>Per il nome utente e la password FTP non è possibile utilizzare caratteri non-ASCII o caratteri spazio.</ftpNameError>
+	<firSmtpError>Specificare un valore in Server di posta elettronica SMTP utilizzando solo caratteri alfanumerici e \".\" , \"-\", \"_\"</firSmtpError>
+	<firSmtpName>SMTP e-mail</firSmtpName>
+	<firAccountError>Specificare un valore in Nome utente SMTP</firAccountError>
+	<firRecipientMailError>Verificare il formato dell'indirizzo e-mail del destinatario.</firRecipientMailError>
+	<firRecipientError>Specificare un valore in Indirizzo e-mail destinatario</firRecipientError>
+	<firSenderMailError>Verificare il formato dell'indirizzo e-mail del mittente.</firSenderMailError>
+	<firSenderError>Specificare un valore in Indirizzo e-mail mittente</firSenderError>
+	<PortError1> Specificare un valore in Porta</PortError1>
+	<PortError2> Il valore di Porta deve essere un numero intero</PortError2>
+	<PortError3> Il valore di Porta deve essere compreso tra 1 e 65535</PortError3>
+	<firFtpServerError>Specificare un valore in Server FTP utilizzando solo caratteri alfanumerici e \".\" , \"-\", \"_\"</firFtpServerError>
+	<firFtpError>FTP</firFtpError>
+	<firFolderError>Per il percorso FTP utilizzare solo caratteri alfanumerici e i caratteri: </firFolderError>
+	<firFolderError2>Per il percorso FTP non è possibile utilizzare di seguito i caratteri \".\" e \"/\"</firFolderError2>
+	<firFixFilenameError>Per il prefisso nome file utilizzare solo caratteri alfanumerici e i caratteri: </firFixFilenameError>
+	<continousRecording>Continuo (solo FTP)</continousRecording>
+	<scheduledRecording>Pianificato (solo FTP)</scheduledRecording>
+	<hour>Ore</hour>
+	<min>Minuti</min>
+	<sun>dom </sun>
+	<mon>lun </mon>
+	<tue>mar </tue>
+	<wed>mer </wed>
+	<thu>gio </thu>
+	<fri>ven </fri>
+	<sat>sab </sat>
+	<from>Inizio </from>
+	<to>Fine </to>
+	<scheduling>Pianificazione</scheduling>
+	<motionBased>Movimento</motionBased>
+	<alwaysBased>Sempre</alwaysBased>
+	<interval>Intervallo</interval>
+	<second>Secondi</second>
+	<range1> (Intervallo: da 10 a 86400 secondi)</range1>
+	<range2> (Intervallo: da 30 a 86400 secondi)</range2>
+	<range3> (Intervallo: da 60 a 86400 secondi)</range3>
+	<range5> (Intervallo: da 30 a 86400 secondi)</range5>
+	<methodError>Selezionare le impostazioni di Pianificazione</methodError>
+	<scheduleError>Immettere l'ora pianificata</scheduleError>
+	<triggerError>Selezionare una destinazione</triggerError>
+	<fullHourError>Se il valore delle ore di fine è 24, i minuti di fine possono essere impostati solo su 0</fullHourError>
+	<legalTimeError>L'ora iniziale deve essere anteriore all'ora finale</legalTimeError>
+	<ignoreMotionTimeErrorsmtp>Il valore dei secondi per Invia e-mail successiva dopo deve essere un numero intero</ignoreMotionTimeErrorsmtp>
+	<ignoreMotionTimeErrorftp>Il valore dei secondi per Invia FTP successivo dopo deve essere un numero intero</ignoreMotionTimeErrorftp>
+	<ftpignoreMotionTimeError1>Il valore dei secondi per Invia FTP successivo dopo deve essere compreso tra 10 e 86400 secondi</ftpignoreMotionTimeError1>
+	<smtpignoreMotionTimeError2>Il valore dei secondi per Invia e-mail successiva dopo deve essere compreso tra 30 e 86400 secondi</smtpignoreMotionTimeError2>
+	<ignoreMotionTimeError3>Il valore dei secondi per Ignora movimenti successivi deve essere compreso tra 60 e 86400</ignoreMotionTimeError3>
+	<ftpintervalError>FTP </ftpintervalError>
+	<smtpintervalError>Indirizzo e-mail </smtpintervalError>
+	<sdintervalError>Scheda SD </sdintervalError>
+	<intervalError>Il valore di Intervallo deve essere un numero intero</intervalError>
+	<intervalError1>L'intervallo deve essere compreso tra 10 e 86400 secondi</intervalError1>
+	<intervalError2>L'intervallo deve essere compreso tra 20 e 86400 secondi</intervalError2>
+	<intervalError3>L'intervallo deve essere compreso tra 60 e 86400 secondi</intervalError3>
+	<intervalError5>L'intervallo deve essere compreso tra 30 e 86400 secondi</intervalError5>
+	<ftpMailError>Inserire l'indirizzo e-mail o le impostazioni per il server FTP</ftpMailError>
+	<ftpScheduleError>Inserire le impostazioni per il server FTP</ftpScheduleError>
+	<trigger>Attivato da</trigger>
+	<ignoreMotFTP>Invia FTP successivo dopo</ignoreMotFTP>
+	<ignoreMotSMTP>Invia e-mail successiva dopo</ignoreMotSMTP>
+	<onlyDuring>Solo durante</onlyDuring>
+	<day>Giorno</day>
+	<time>Ora</time>
+	<period>Periodicamente nell'intervallo</period>
+	<type>Tipo di clip video</type>
+	<source>Origine</source>
+	<preRec>Registrazione pre-evento:</preRec>
+	<maxRec>Durata massima:</maxRec>
+	<preRec1>Registrazione pre-evento </preRec1>
+	<maxRec1>Durata massima </maxRec1>
+	<target>Destinazione</target>
+	<quota>Mantieni spazio libero</quota>
+	<sdcycle>Ciclica</sdcycle>
+	<Email>Invia e-mail a</Email>
+	<sd>Scheda SD</sd>
+	<ftp>FTP</ftp>
+	<encrypt1>Utilizza SSL-TLS/STARTTLS</encrypt1>
+	<encrypt2>Utilizza SSL-TLS</encrypt2>
+	<smtp>Indirizzo e-mail</smtp>
+	<encript1>Nessuno</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<sdQuotaError>Il valore di Mantieni spazio libero per la scheda SD deve essere un numero intero con valore minimo uguale a 30</sdQuotaError>
+	<mfhourError>Ora di inizio non valida</mfhourError>
+	<mthourError>Ora di fine non valida</mthourError>
+	<mfminuteError>Minuto di inizio non valido</mfminuteError>
+	<mtminuteError>Minuto di fine non valido</mtminuteError>
+	<intervalSecErr>Il valore dei secondi di Intervallo deve essere un numero positivo con valore minimo uguale a 5</intervalSecErr>
+	<ignoreSecErr>Il valore dei secondi di Ignora deve essere un numero positivo</ignoreSecErr>
+	<dayErr>Scegliere almeno un giorno</dayErr>
+	<mininum>(minimo 5 secondi)</mininum>
+	<preErr>Il valore dei secondi per la registrazione pre-evento deve essere un numero intero compreso tra 0 e 5</preErr>
+	<maxErr>Il valore dei secondi per la durata massima deve essere un numero intero compreso tra 5 e 10</maxErr>
+	<preRecNotify>(tra 0 e 5 secondi)</preRecNotify>
+	<maxRecNotify>(tra 5 e 10 secondi)</maxRecNotify>
+	<ftpSmtpcheckErr>Impossibile selezionare sia FTP che E-mail</ftpSmtpcheckErr>
+	<targetNotify>È possibile scegliere di ricevere le notifiche solo tramite FTP o e-mail.</targetNotify>
+	<global>Parametro globale</global>
+	<targetOnly>Impossibile selezionare FTP e E-mail come destinazione per il clip video.</targetOnly>
+	<qoutaMin>e il minimo è 30</qoutaMin>
+	<description6>Configurabile in </description6>
+	<description7> Audio e video</description7>
+	<motionNote>Rilevamento del movimento non è abilitato. Passare alla pagina Web di Rilevamento del movimento per configurarlo.</motionNote>
+	<sdNote>Nella videocamera non è inserita alcuna scheda SD oppure la scheda SD non supporta operazioni di scrittura.</sdNote>
+	<sdNoteFull>La capacità della scheda SD si è esaurita.</sdNoteFull>
+	<profiletype1>Profilo 1</profiletype1>
+	<profiletype2>Profilo 2</profiletype2>
+	<profiletype3>Profilo 3</profiletype3>
+	<gpio>Ingresso digitale</gpio>
+	<audioBased>Suono</audioBased>
+	<audioNote>Rilevamento suono non è abilitato. Passare alla pagina Web di Rilevamento suono per configurarlo.</audioNote>
+	<vediofileformat>Formato file:</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<videoclip>Clip video consente di memorizzare o inviare clip video a un server e-mail o FTP remoto sulla base di movimenti rilevati o dell'attivazione di un sensore esterno.</videoclip>
+	<motionBased>Inizia creazione clip video in seguito al rilevamento di un movimento.</motionBased>
+	<scheduling>Crea clip video a un'ora specificata.</scheduling>
+	<alwaysBased>Crea clip video in continuo.</alwaysBased>
+	<preRec>Consente di specificare il numero di secondi di video che verranno registrati prima della creazione del clip video.</preRec>
+	<maxRec>Consente di specificare il numero di secondi del clip video.</maxRec>
+	<target>È possibile selezionare FTP o E-mail come destinazione del clip video.</target>
+	<type>Qui è possibile impostare il profilo video, la registrazione pre-evento e la durata massima.</type>
+	<gpio>Inizia creazione clip video in seguito al rilevamento di ingresso digitale.</gpio>
+	<audioBased>Inizia la creazione di un clip video in seguito al rilevamento di un suono.</audioBased>
+	<test>Fare clic sul pulsante Test per verificare che la destinazione FTP o di posta elettronica sia individuabile e accessibile.</test>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<testMailFault>Invio di un messaggio e-mail di prova non riuscito</testMailFault>
+	<invalidPort>Porta non valida</invalidPort>
+	<getFrameFault>errore di acquisizione fotogramma</getFrameFault>
+	<testMailOk>Invio di un messaggio e-mail di prova completato correttamente</testMailOk>
+	<testFTPFault>Test FTP non riuscito</testFTPFault>
+	<testFTPOk>Test FTP completato correttamente</testFTPOk>
+	<invalidParameter>Errore di configurazione</invalidParameter>
+	<updateFailed>Errore di aggiornamento configurazione</updateFailed>
+</message>
+

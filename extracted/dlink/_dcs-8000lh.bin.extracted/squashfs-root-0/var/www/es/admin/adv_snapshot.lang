@@ -1,0 +1,160 @@
+<body>
+	<snapshot>instantánea</snapshot>
+	<description1>Para permitir que su cámara haga instantáneas, debe seleccionar la casilla de verificación "Instantánea". A continuación, puede determinar los eventos de activación y las notificaciones de FTP y/o de correo electrónico.</description1>
+	<description2>Las instantáneas activadas por el movimiento están desactivadas cuando el modo SXGA está activado.</description2>
+	<description3>Para activar las instantáneas activadas por el movimiento, seleccione el modo VGA o XGA en </description3>
+	<description4> Audio y vídeo</description4>
+	<description6>Configurable en </description6>
+	<description7> Audio y vídeo</description7>
+	<savebutton>Guardar parámetros</savebutton>
+	<notsavebutton>No guardar parámetros</notsavebutton>
+	<di>Señal 1 de entrada digital</di>
+	<di2>Señal 2 de entrada digital</di2>
+	<enable>Instantánea</enable>
+	<motionDetection>Detección de movimiento</motionDetection>
+	<sendVideoClipBy>Enviar a:</sendVideoClipBy>
+	<emailAddress>Dirección de correo electrónico</emailAddress>
+	<ftpServer>Servidor FTP</ftpServer>
+	<userName>Nombre de usuario</userName>
+	<profile3>Perfil 3 </profile3>
+	<password>Contraseña</password>
+	<mailServer>Servidor de correo SMTP</mailServer>
+	<senderAddress>Dir. correo electr. remit.</senderAddress>
+	<recipientAddress>Dir. correo electr. dest.</recipientAddress>
+	<port>Puerto</port>
+	<test>Probar</test>
+	<test2>Probar</test2>
+	<hostName>Nombre de host</hostName>
+	<path>Ruta</path>
+	<prefixFileName>Prefijo de nombre de archivo</prefixFileName>
+	<passiveMode>Modo Pasivo</passiveMode>
+	<portRange> (Rango: de 1 a 65.535)</portRange>
+	<mailNameError>El nombre de usuario y la contraseña de correo no pueden aceptar caracteres que no sean ASCII y espacios</mailNameError>
+	<ftpNameError>El nombre de usuario y la contraseña de FTP no pueden aceptar caracteres que no sean ASCII y espacios</ftpNameError>
+	<firSmtpError>El servidor de correo SMTP no puede estar vacío, sólo acepta caracteres numéricos, alfabéticos, , \".\" , \"-\", y \"_\"</firSmtpError>
+	<firSmtpName>SMTP de correo electrónico</firSmtpName>
+	<firAccountError>El nombre de usuario de SMTP no puede estar vacío</firAccountError>
+	<firRecipientMailError>Compruebe el formato de la dirección de correo electrónico del destinatario.</firRecipientMailError>
+	<firRecipientError>La dirección de correo electrónico del destinatario no puede estar vacía</firRecipientError>
+	<firSenderMailError>Compruebe el formato de la dirección de correo electrónico del remitente.</firSenderMailError>
+	<firSenderError>La dirección de correo electrónico del remitente no puede estar vacía</firSenderError>
+	<PortError1> El puerto no puede estar vacío</PortError1>
+	<PortError2> El puerto debe ser un número entero</PortError2>
+	<PortError3> El puerto debe estar entre 1 y 65.535</PortError3>
+	<firFtpServerError>El servidor FTP no puede estar vacío, sólo acepta caracteres numéricos, alfabéticos, , \".\" , \"-\", y \"_\"</firFtpServerError>
+	<firFtpError>FTP</firFtpError>
+	<firFolderError>La ruta de FTP sólo puede aceptar caracteres numéricos, alfabéticos y los caracteres: </firFolderError>
+	<firFolderError2>La ruta de FTP no puede aceptar \".\" y \"/\" de forma continua</firFolderError2>
+	<firFixFilenameError>Prefijo de nombre de archivo sólo puede aceptar caracteres numéricos, alfabéticos y los caracteres: </firFixFilenameError>
+	<continousRecording>Continua (sólo FTP)</continousRecording>
+	<scheduledRecording>Programada (sólo FTP)</scheduledRecording>
+	<hour>Horas</hour>
+	<min>Minutos</min>
+	<sun>Dom </sun>
+	<mon>Lun </mon>
+	<tue>Mar </tue>
+	<wed>Mié </wed>
+	<thu>Jue </thu>
+	<fri>Vie </fri>
+	<sat>Sáb </sat>
+	<from>Iniciar </from>
+	<to>Finalizar </to>
+	<scheduling>Programar</scheduling>
+	<motionBased>Movimiento</motionBased>
+	<alwaysBased>Siempre</alwaysBased>
+	<interval>Intervalo</interval>
+	<second>Segundos</second>
+	<range> (Rango: de 10 a 86.400 segundos)</range>
+	<range1> (Rango: de 10 a 86.400 segundos)</range1>
+	<range2> (Rango: de 30 a 86.400 segundos)</range2>
+	<range3> (Rango: de 60 a 86.400 segundos)</range3>
+	<range4> (Rango: de 10 a 86.400 segundos)</range4>
+	<methodError>Seleccione un parámetro de programación</methodError>
+	<scheduleError>Rellene la hora programada</scheduleError>
+	<triggerError>Seleccione un destino</triggerError>
+	<fullHourError>Si horas finales es 24, minutos finales sólo puede establecerse en 0</fullHourError>
+	<legalTimeError>La hora de inicio debe ser inferior a la hora final</legalTimeError>
+	<ftpignoreMotionTimeError>Enviar siguiente FTP después del segundo debe ser un número entero</ftpignoreMotionTimeError>
+	<ftpignoreMotionTimeError1>Enviar siguiente FTP después del segundo debe ser de 10 a 86.400 segundos</ftpignoreMotionTimeError1>
+	<ftpignoreMotionTimeError2>Enviar siguiente FTP después del segundo debe ser de 30 a 86.400 segundos</ftpignoreMotionTimeError2>
+	<ftpignoreMotionTimeError3>Enviar siguiente FTP después del segundo debe ser de 60 a 86.400 segundos</ftpignoreMotionTimeError3>
+	<smtpignoreMotionTimeError>Enviar siguiente correo electrónico después del segundo debe ser un número entero</smtpignoreMotionTimeError>
+	<smtpignoreMotionTimeError1>Enviar siguiente correo electrónico después del segundo debe ser de 10 a 86.400 segundos</smtpignoreMotionTimeError1>
+	<smtpignoreMotionTimeError2>Enviar siguiente correo electrónico después del segundo debe ser de 30 a 86.400 segundos</smtpignoreMotionTimeError2>
+	<smtpignoreMotionTimeError3>Enviar siguiente correo electrónico después del segundo debe ser de 60 a 86.400 segundos</smtpignoreMotionTimeError3>
+	<ftpintervalError>FTP </ftpintervalError>
+	<smtpintervalError>Correo Electrónico </smtpintervalError>
+	<sdintervalError>Tarjeta SD </sdintervalError>
+	<intervalError>El intervalo debe ser un número entero</intervalError>
+	<intervalError1>El intervalo debe ser de 10 a 86.400 segundos</intervalError1>
+	<intervalError2>El intervalo debe ser de 30 a 86.400 segundos</intervalError2>
+	<intervalError3>El intervalo debe ser de 60 a 86.400 segundos</intervalError3>
+	<ftpMailError>Rellene la dirección de correo electrónico o los parámetros del servidor FTP</ftpMailError>
+	<ftpScheduleError>Rellene los parámetros del servidor FTP</ftpScheduleError>
+	<trigger>Activado por</trigger>
+	<ignoreMotFTP>Enviar sig. FTP después del</ignoreMotFTP>
+	<ignoreMotSMTP>Env. sig. c. elect. tras el</ignoreMotSMTP>
+	<onlyDuring>Solo durante</onlyDuring>
+	<day>Día</day>
+	<time>Hora</time>
+	<period>Periódicamente en el intervalo</period>
+	<type>Tipo de instantánea</type>
+	<motSingle>Instantánea única</motSingle>
+	<motmulti1>6 instantáneas con</motmulti1>
+	<motmulti2>intervalo de segundos (3 imágenes anteriores y 3 imágenes posteriores a la imagen de movimiento)</motmulti2>
+	<target>Objetivo</target>
+	<quota>Mantener espacio libre</quota>
+	<sdcycle>Cíclico</sdcycle>
+	<Email>Enviar correo electrónico a </Email>
+	<sd>Tarjeta SD</sd>
+	<ftp>FTP</ftp>
+	<encrypt1>Utilice SSL-TLS/STARTTLS</encrypt1>
+	<encrypt2>Utilice SSL-TLS</encrypt2>
+	<smtp>Correo Electrónico</smtp>
+	<encript1>Ninguno</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<sdQuotaError>El espacio libre de la tarjeta SD debe ser un número entero y el mínimo es 30</sdQuotaError>
+	<mfhourError>La hora de inicio no es válida</mfhourError>
+	<mthourError>La hora final no es válida</mthourError>
+	<mfminuteError>El minuto de inicio no es válido</mfminuteError>
+	<mtminuteError>El minuto final no es válido</mtminuteError>
+	<intervalSecErr>Segundos de intervalo debe ser un número entero y el mínimo es 5</intervalSecErr>
+	<ignoreSecErr>Ignorar segundos debe ser un número positivo</ignoreSecErr>
+	<dayErr>Elija al menos un día</dayErr>
+	<mininum>(mínimo de 5 a 60 segundos)</mininum>
+	<global>Parámetro global</global>
+	<source>Origen</source>
+	<qoutaMin>y el mínimo es 30 </qoutaMin>
+	<motionNote>Tenga en cuenta que la detección de movimiento no está activada, vaya a la página web de detección de movimiento para configurarla.</motionNote>
+	<sdNote>Tenga en cuenta que no hay ninguna tarjeta SD conectada a la cámara o no se puede escribir en la tarjeta SD.</sdNote>
+	<sdNoteFull>Tenga en cuenta la capacidad de la tarjeta SD está completa.</sdNoteFull>
+	<gpio>Entrada digital</gpio>
+	<audioBased>Sonido</audioBased>
+	<audioNote>Tenga en cuenta que la detección de sonido no está activada, vaya a la página web de detección de sonido para configurarla.</audioNote>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<snapshot>Instantánea es la capacidad para almacenar o enviar imágenes a un servidor remoto de correo electrónico o FTP en función de la detección de movimiento, entrada activada del sensor externo.</snapshot>
+	<motionBased>Empezar la instantánea tras la detección de un movimiento.</motionBased>
+	<scheduling>Instantánea a una hora especificada.</scheduling>
+	<alwaysBased>Instantánea continua.</alwaysBased>
+	<sixSnapshot>6 instantáneas</sixSnapshot>
+	<sixSnapshotDes>Selecciónelo para tomar 6 imágenes continuas para cada instantánea.</sixSnapshotDes>
+	<target>Puede seleccionar el destino de la instantánea como FTP o correo electrónico.</target>
+	<type>Puede configurar aquí los parámetros de JPEG de Perfil de vídeo 3, Instantánea única o 6 instantáneas.</type>
+	<gpio>Iniciar la instantánea después de detectar la entrada digital.</gpio>
+	<test>Haga clic en el botón Probar para asegurarse de que se puede localizar y acceder al FTP o correo electrónico objetivo.</test>
+	<audioBased>Iniciar la instantánea después de detectar el sonido.</audioBased>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<testMailFault>Error al enviar un mensaje de prueba</testMailFault>
+	<invalidPort>Puerto no válido.</invalidPort>
+	<getFrameFault>error al obtener imagen</getFrameFault>
+	<testMailOk>Se ha enviado un mensaje de prueba correctamente</testMailOk>
+	<testFTPFault>Error de prueba FTP</testFTPFault>
+	<testFTPOk>Prueba FTP correcta</testFTPOk>
+	<updateFailed>Error al actualizar</updateFailed>
+</message>
+

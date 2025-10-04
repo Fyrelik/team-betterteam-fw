@@ -1,0 +1,18 @@
+<body>
+	<systemLog>Systemprotokoll</systemLog>
+	<description1>Im Systemprotokoll werden die vorgefallenen Kamerereignisse erfasst.</description1>
+	<ipAddress>IP-Adresse</ipAddress>
+	<port>Port</port>
+	<save>Speichern</save>
+	<currentLog>Aktuelles Protokoll</currentLog>
+	<clear>Inhalt löschen</clear>
+	<download>Herunterladen</download>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<systemLog>Sie können das Protokoll auf Ihrer lokalen Festplatte speichern, indem Sie auf 'Herunterladen' klicken, und Sie können den Protokollinhalt löschen, indem Sie auf 'Löschen' klicken.</systemLog>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+</message>
+

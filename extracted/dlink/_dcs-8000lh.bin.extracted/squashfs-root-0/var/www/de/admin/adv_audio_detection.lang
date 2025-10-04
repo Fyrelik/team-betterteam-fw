@@ -1,0 +1,19 @@
+<body>
+	<audioDetection>TONERKENNUNG</audioDetection>
+	<description1>Um die Tonerkennung Ihrer Kamera zu aktivieren, müssen Sie das Kontrollkästchen 'Tonerkennung' markieren und die Empfindlichkeitseinstellung Ihrer Kameraerkennung für Ihre Umgebung konfigurieren.</description1>
+	<subtitle>TONERKENNUNG</subtitle>
+	<audioLevel>Erkennungsstufe</audioLevel>
+	<enableaudiodetection>Tonerkennung</enableaudiodetection>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<audiodetection>Die Tonerkennung erkennt Tonereignisse mithilfe des Mikrofons an der Kamera.</audiodetection>
+	<audiodetectionType>Erkennungsstufe</audiodetectionType>
+	<audiodetectionTypeText>Stellt die Erkennungsstufe des Tonerkennungsalgorithmus zum Auslösen von Tonereignissen ein. Eine senken Erkennungsstufe macht das Erkennen von Tönen leichter.</audiodetectionTypeText>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<invalidParameter>Ungültiger Parameter.</invalidParameter>
+	<nothingChange>Keine Einstellungen wurden geändert.</nothingChange>
+	<fail>Änderungen fehlgeschlagen.</fail>
+</message>

@@ -1,0 +1,482 @@
+<body>
+	<setup>SETUP</setup>
+	<wizard>Setup-Assistent</wizard>
+	<networkSetup>Netzwerk</networkSetup>
+	<wirelessSetup>Einrichtung des drahtlosen Netzes</wirelessSetup>
+	<dynamicDNS>Dynamischer DNS</dynamicDNS>
+	<imageSetup>Bildeinrichtung</imageSetup>
+	<audioVideo>Audio und Video</audioVideo>
+	<timeAndDate>Uhrzeit und Datum</timeAndDate>
+	<videoclip>Videoclip</videoclip>
+	<snapshot>Momentaufnahme</snapshot>
+	<digitalOutput>Digitale Ausgabe</digitalOutput>
+	<motionDetection>Bewegungserk.</motionDetection>
+	<cameraControl>Kamerasteuerung</cameraControl>
+	<SDCard>SD-Karte</SDCard>
+	<presetPosition>Voreingestellte Position</presetPosition>
+	<recording>Aufnahme</recording>
+	<wizardInternetSettings>Setup-Assistent für die Internetverbindung</wizardInternetSettings>
+	<wizardInternetSettings1> - Diese Option dient zum Konfigurieren Ihrer IP-Kamera für Ihr Netzwerk mithilfe des Setup-Assistenten. Das kann manuell erfolgen, indem die statische IP-Adresse verwendet wird, automatisch mithilfe des DHCP-Client oder mithilfe von PPPoE. (Dynamic Host Configuration Protocol (DHCP) ist ein Netzwerkprotokoll, das es ermöglicht, eine IP-Adresse von einem Server für eine bestimmte Zeit zu leasen.)</wizardInternetSettings1>
+	<wizardMotionSettings>Setup-Assistent für die Bewegungserk.</wizardMotionSettings>
+	<wizardMotionSettings1> - Mithilfe dieser Option können Sie die Einstellungen für die Bewegungserk. der IP-Kamera vornehmen. Wenn Sie dieses Gerät zum ersten Mal konfigurieren, empfiehlt D-Link auf die Schaltfläche "Setup-Assistent für die Bewegungserk." zu klicken und dann den Anweisungen auf dem Bildschirm zu folgen.</wizardMotionSettings1>
+	<lanSetting>LAN-EINSTELLUNGEN</lanSetting>
+	<lanSetting1> - Es wird unbedingt empfohlen, die Statische IP-Adressenoption zu verwenden, und eine IP-Adresse einzugeben, die Ihren Netzwerkeinstellungen entspricht. Wenn Ihr Netzwerk einen DHCP-Server verwendet, können Sie auf 'Automatische IP-Adresse' klicken, damit die Internetkamera automatisch eine IP-Adresse von Ihrem DHCP-Server erhält. Bei jedem Start der Internetkamera sollte sicher sein, dass der DHCP-Server so eingerichtet ist, dass er Ihrer Internetkamera eine statische IP-Adresse zuweist.</lanSetting1>
+	<lanSetting2>DNS (Domain Name System) Server ist ein Internetdienst, der Domänennamen (z. B. www.dlink.com) in IP-Adressen (z. B. 192.168.0.20) umwandelt. Die Adresse erhalten Sie von Ihrem Internetdienstanbieter oder dem Netzwerk-Gateway.</lanSetting2>
+	<lanSetting3>UPnP</lanSetting3>
+	<lanSetting4> - Klicken Sie auf das Kontrollkästchen, um einen Shortcut zur Kamera im Ordner [Netzwerkumgebung] Ihres Computers zu erstellen.</lanSetting4>
+	<lanSetting5>UPnP Portweiterleitung</lanSetting5>
+	<lanSetting6> - Wenn Ihr Router UPnP unterstützt, können Ihre Kameras und der Router miteinander kommunizieren, sodass der Router weiß, welche Ports von welcher Kamera verwendet werden. Damit sind Sie dann in der Lage, über das Internet auf Ihre Kameras zuzugreifen, ohne dass Sie Ihren Router manuell konfigurieren müssen.</lanSetting6>
+	<pppoeSetting>PPPoE</pppoeSetting>
+	<pppoeSetting1> - Wenn Sie die Kamera direkt mit dem Internet verbinden, müssen Sie den Benutzernamen und das Kennwort eingeben, die Ihnen beim Einrichten Ihres Kontos bei Ihrem Internetdienstanbieter gegeben wurden. Befindet sich die Kamera hinter einem Router oder einem Gateway, muss diese Einstellung nicht vorgenommen werden.</pppoeSetting1>
+	<portSetting>PORT-EINSTELLUNGEN</portSetting>
+	<portSetting1> - Ermöglichen Ihnen, die Ports anzugeben und für das HTTP- und RTSP-Streaming zu reservieren.</portSetting1>
+	<httpPort>HTTP-Port</httpPort>
+	<httpPort1> - HTTP-Ports ermöglichen Ihnen, über einen Standard-Webbrowser mit Ihrer Kamera eine Verbindung herzustellen. Dieser Port kann auf einen anderen als den standardmäßigen HTTP-Port 80 eingestellt werden. Ein entsprechender Port muss auf dem Router geöffnet werden. Wenn zum Beispiel der Port auf 8080 geändert wird, muss der Benutzer "http://192.168.0.100:8080" anstelle von "http://192.168.0.100" in den Webbrowser eingeben. </httpPort1>
+	<rtspPort>RTSP-Port</rtspPort>
+	<rtspPort1> - Ein Port, den Sie zuweisen, um mit Ihren Streaming-Mobilgeräten, wie einem Smart-Phone oder Tablet-PC, eine Verbindung zur Kamera herzustellen. Standardmäßig ist dies Port 554.</rtspPort1>
+	<bonjour>Bonjour</bonjour>
+	<bonjour1> - Das Aktivieren von Bonjour ermöglicht es Ihnen, die Kamera in einer Apple-Computerumgebung zu identifizieren.</bonjour1>
+	<ddnsServerAddr>Serveradresse</ddnsServerAddr>
+	<ddnsServerAddr1> - Wählen Sie die Internetadresse Ihres DDNS-Dienstanbieters.</ddnsServerAddr1>
+	<ddnsTimeout>Timeout</ddnsTimeout>
+	<ddnsTimeout1> - Sie können einrichten, wie oft die Kamera den DDNS-Server über ihre aktuelle globale IP-Adresse benachrichtigen soll. Standardmäßig eingerichtet sind 576 Stunden.</ddnsTimeout1>
+	<dynamicDNS1> (Dynamic Domain Name Server) – Der DDNS-Dienst synchronisiert die öffentliche IP-Adresse des Internetgeräts, wenn sie geändert wurde. Für die Nutzung des DDNS-Dienstes werden Benutzername und Kennwort benötigt.</dynamicDNS1>
+	<ddnsHostname>Hostname</ddnsHostname>
+	<ddnsHostname1> - Der von Ihnen genutzte und vom DDNS-Dienst bezogene Domänenname.</ddnsHostname1>
+	<ddnsUsername>Benutzername</ddnsUsername>
+	<ddnsUsername1> - Der Kontoname des DDNS-Dienstes.</ddnsUsername1>
+	<ddnsPassword>Kennwort</ddnsPassword>
+	<ddnsPassword1> - Das Kennwort für das Konto des DDNS-Dienstes.</ddnsPassword1>
+	<wirelessenable>Drahtlos aktivieren</wirelessenable>
+	<wirelessenable1> - Aktivieren Sie erst die Drahtlosfunktion, bevor Sie die drahtlose Verbindung der Kamera konfigurieren. Sie können das drahtlose Netzwerk für die Verbindung wählen, indem Sie das Pulldown-Menü der Standortübersicht verwenden oder die SSID manuell unter 'Netzwerkname' eingeben.</wirelessenable1>
+	<rescan>Erneute Suche</rescan>
+	<rescan1> - Suchen Sie noch einmal nach dem Namen des drahtlosen Geräts in Ihrem drahtlosen Netzwerk.</rescan1>
+	<key>Schlüssel</key>
+	<key1> - Ein Satz von ‘pre-shared’ (vorher vereinbarten) Zeichen für die Verbindung zwischen der Kamera und dem drahtlosen Gerät, wenn Sie WEP, WPA-PSK oder WPA2-PSK für den Sicherheitsmodus wählen.</key1>
+	<showpw>Verborgenen Schlüssel anzeigen</showpw>
+	<showpw1> - Wenn die Option ausgewählt ist, wird der vorher vereinbarte Schlüssel im Text angezeigt.</showpw1>
+	<networkName>Netzwerkname</networkName>
+	<networkName1>  - Ist der Name Ihres drahtlosen Netzwerks. Er kann z. B. 'Standardnetz', 'Konferenz', 'Mein Netzwerk', usw. lauten.</networkName1>
+	<siteSurvey>Standortübersicht</siteSurvey>
+	<siteSurvey1> - Ein Pulldown-Menü, in dem alle verfügbaren drahtlosen Netzwerke enthalten sind.</siteSurvey1>
+	<SSID>SSID</SSID>
+	<SSID1> (Service Set Identifier) - Ist der Name Ihres drahtlosen Netzwerks. Er kann z. B. 'Standardnetz', 'Konferenz', 'Mein Netzwerk', usw. lauten.</SSID1>
+	<wirelessMode>Drahtlos-Modus</wirelessMode>
+	<wirelessMode1> - Die Einstellung für drahtlose Verbindungen ist standardmäßig auf "Infrastruktur-Modus" gesetzt. Das erfordert den Einsatz eines Access Point/drahtlosen Routers. Ändern Sie die Einstellung um auf "Ad-Hoc", falls das Netzwerk keinen Access Point oder drahtlosen Router aufweist. </wirelessMode1>
+	<channel>Kanal</channel>
+	<channel1> - Standard ist der Modus 'Auto für Infrastruktur'. Der Kanal ist nur im Ad-Hoc-Modus wählbar.</channel1>
+	<authentication>Sicherheitsmodus</authentication>
+	<authentication1>Keine - Diese Option macht die Kamera für alle Geräte im Netz sichtbar. Es wird keine Verschlüsselung bereitgestellt.</authentication1>
+	<authentication2>WEP - Lässt die Kommunikation nur mit Geräten zu, die identische 'WEP' (Wired Equivalent Privacy)-Einstellungen aufweisen.</authentication2>
+	<authentication3>WPA-PSK, WPA2-PSK - Beide Modi erfordern die Eingabe eines so genannten 'Pre-shared Key' für die Verbindung zwischen Kamera und drahtlosem Gerät.</authentication3>
+	<encryption>Verschlüssungstyp</encryption>
+	<encryption1>TKIP - (Temporal Key Integrity Protocol) - Bietet Schutz gegen Hacker-Angriffe mithilfe des Message Integrity Code (MIC). Ideal ist die Verwendung von WPA mit TKIP. </encryption1>
+	<encryption2>AES - (Advanced Encryption System) - Nutzt eine symmetrische 128-Bit Block-Datenverschlüsselung. Ideal ist die Verwendung von WPA2 mit AES.</encryption2>
+	<pppoeSetting>PPPoE</pppoeSetting>
+	<pppoeSetting1> - Wenn Sie die Kamera direkt mit dem Internet verbinden, müssen Sie den Benutzernamen und das Kennwort eingeben, die Ihnen beim Einrichten Ihres Kontos bei Ihrem Internetdienstanbieter gegeben wurden. Befindet sich die Kamera hinter einem Router oder einem Gateway, muss diese Einstellung nicht vorgenommen werden.</pppoeSetting1>
+	<portSetting>Port-Detaileinstellung</portSetting>
+	<portSetting1> - Ermöglichen Ihnen, die Ports anzugeben und für das HTTP- und RTSP-Streaming zu reservieren.</portSetting1>
+	<httpPort>HTTP-Port</httpPort>
+	<httpPort1> - HTTP-Ports ermöglichen Ihnen, über einen Standard-Webbrowser mit Ihrer Kamera eine Verbindung herzustellen. Dieser Port kann auf einen anderen als den standardmäßigen HTTP-Port 80 eingestellt werden. Ein entsprechender Port muss auf dem Router geöffnet werden. Wenn zum Beispiel der Port auf 8080 geändert wird, muss der Benutzer "http://192.168.0.100:8080" anstelle von "http://192.168.0.100" in den Webbrowser eingeben. </httpPort1>
+	<rtspPort>RTSP-Port</rtspPort>
+	<rtspPort1> - Ein Port, den Sie zuweisen, um mit Ihren Streaming-Mobilgeräten, wie einem Mobiltelefon oder PDA, eine Verbindung zur Kamera herzustellen.</rtspPort1>
+	<ddnsHostname>Hostname</ddnsHostname>
+	<ddnsHostname1> - Der von Ihnen genutzte und vom DDNS-Dienst bezogene Domänenname.</ddnsHostname1>
+	<ddnsUsername>Benutzername</ddnsUsername>
+	<ddnsUsername1> - Der Kontoname des DDNS-Dienstes.</ddnsUsername1>
+	<ddnsPassword>Kennwort</ddnsPassword>
+	<ddnsPassword1> - Das Kennwort für das Konto des DDNS-Dienstes.</ddnsPassword1>
+	<ddnsstatus>Status</ddnsstatus>
+	<ddnsstatus1> - Der Status des DDNS kennzeichnet die Verfügbarkeit der DDNS-Funktion.</ddnsstatus1>
+	<siteSurvey>Standortübersicht</siteSurvey>
+	<siteSurvey1> - Ein Pulldown-Menü, in dem alle verfügbaren drahtlosen Netzwerke enthalten sind.</siteSurvey1>
+	<SSID>SSID</SSID>
+	<SSID1> (Service Set Identifier) - Ist der Name Ihres drahtlosen Netzwerks. Er kann z. B. 'Standardnetz', 'Konferenz', 'Mein Netzwerk', usw. lauten.</SSID1>
+	<wirelessMode>Drahtlos-Modus</wirelessMode>
+	<wirelessMode1> - Die Einstellung für drahtlose Verbindungen ist standardmäßig auf "Infrastruktur-Modus" gesetzt. Das erfordert den Einsatz eines Access Point/drahtlosen Routers. Ändern Sie die Einstellung um auf "Ad-Hoc", falls das Netzwerk keinen Access Point oder drahtlosen Router aufweist. </wirelessMode1>
+	<channel>Kanal</channel>
+	<channel1> - Standard ist der Modus 'Auto für Infrastruktur'. Der Kanal ist nur im Ad-Hoc-Modus wählbar.</channel1>
+	<authentication>Authentifizierung</authentication>
+	<authentication1>Offen - Diese Option macht die Kamera für alle Geräte im Netz sichtbar.</authentication1>
+	<authentication2>Freigegeben - Lässt die Kommunikation nur mit Geräten zu, die identische 'WEP' (Wired Equivalent Privacy)-Einstellungen aufweisen.</authentication2>
+	<authentication3>WPA-PSK, WPA2-PSK - Beide Modi erfordern die Eingabe eines so genannten 'Pre-shared Key' für die Verbindung zwischen Kamera und drahtlosem Gerät.</authentication3>
+	<encryption>Verschlüssungstyp</encryption>
+	<encryption1>Deaktivieren - Es wird keine Verschlüsselung ausgewählt.</encryption1>
+	<encryption2>WEP - Der Benutzer kann zwischen einer 64 oder 128-Bit-Verschlüsselung im Hex- oder ASCII-Modus wählen.</encryption2>
+	<key>Schlüssel</key>
+	<path>Pfad</path>
+	<path1> - Das Verzeichnis, in denen die Videoclips abgelegt werden (z. B. \pub\images).</path1>
+	<path11> - Das Verzeichnis, in denen Momentaufnahmen abgelegt werden (z. B. \pub\bilder).</path11>
+	<prefixFilename>Dateiname-Präfix</prefixFilename>
+	<prefixFilename1> - Das Präfix, das vor jeden Dateinamen gesetzt wird.</prefixFilename1>
+	<interval>Intervall</interval>
+	<ftpinterval>Nächste FTP senden nach</ftpinterval>
+	<smtpinterval>Nächste E-Mail senden nach</smtpinterval>
+	<interval1> - Die Zeit zwischen jeder Momentaufnahme.</interval1>
+	<snapshotftpinterval> - Die Zeit zwischen jeder Momentaufnahme, die an den FTP-Server gesendet wird.</snapshotftpinterval>
+	<snapshotsmtpinterval> - Die Zeit zwischen jeder Momentaufnahme, die an das E-Mail-Konto gesendet wird.</snapshotsmtpinterval>
+	<ftpServerport>FTP Server/Port</ftpServerport>
+	<ftpServerport1> - Sie können eine Momentaufnahme an den FTP-Server senden. (Der Port des FTP-Servers.) Die meisten FTP-Server werden auf dem Standard-Port (21) ausgeführt.</ftpServerport1>
+	<ftpPort>Port</ftpPort>
+	<ftpPort1> - Der Port des FTP-Servers. Die meisten FTP-Server werden auf dem Standard-Port (21) ausgeführt.</ftpPort1>
+	<passiveMode>Passiv-Modus</passiveMode>
+	<passiveMode1> - Einige FTP-Server ermöglichen Clients bei Herstellung einer Verbindung mit FTP den Passiv-Modus zu verwenden, bei dem für die Datenübertragung nach dem Zufallsprinzip ausgewählte Ports genutzt werden.</passiveMode1>
+	<enableVideoclip>Videoclip</enableVideoclip>
+	<enableVideoclip1> - Bei Wahl dieser Option können Sie ein Videoclip von diesem System an eine E-Mail oder an einen FTP-Server senden.</enableVideoclip1>
+	<triggerEventVC>Auslösen durch</triggerEventVC>
+	<triggerEventVC1>Bewegung - Videoclip-Aufnahmen nach einer Bewegungserk. beginnen.</triggerEventVC1>
+	<triggerEventVC2>Zeitplan - Videoclip-Aufnahmen in einer angegebenen Zeit.</triggerEventVC2>
+	<triggerEventVC3>Immer - Fortlaufende Videoclip-Aufnahmen.</triggerEventVC3>
+	<Videocliptype>Videoclip-Typ</Videocliptype>
+	<Videocliptype1> - Sie können das gewünschte Videoprofil für Aufnahmen von Videoclips auswählen und die Aufnahme vor dem Ereignis sowie die max. Dauer hier angeben.</Videocliptype1>
+	<videocliptarget>Ziel</videocliptarget>
+	<videocliptarget1> - Sie können das Ziel als FTP oder E-Mail für den Videoclip wählen.</videocliptarget1>
+	<videoProfile>Videoprofil</videoProfile>
+	<videoProfile1> - Sie können unterschiedliche Bildeinstellungen (wie z. B. die Bildqualität und die Bildfrequenz) für die vier Videoarten der Kamera - H.264 und JPEG - gesondert einrichten.</videoProfile1>
+	<encodeType>Verschlüssungstyp</encodeType>
+	<encodeType1> - Wählen Sie den Video-Codec 'H.264' oder 'JPEG'.</encodeType1>
+	<resolution>Auflösung</resolution>
+	<recResolution1> - Sie können für die Videoaufnahme unter 4 Video-Profiloptionen wählen.</recResolution1>
+	<frameRate>Max. Bildwiederholfrequenz</frameRate>
+	<frameRate1> - Die maximale Anzahl an Bildern, die in 1 Sekunde angezeigt werden. 30 fps (Frames per sec/Bilder pro Sekunde) ist die für diese Kamera höchste Videoqualität. Im Allgemeinen sind Bildfrequenzen über 15 fps für das menschliche Auge nicht mehr wahrnehmbar. </frameRate1>
+	<bitRate>Feste Bitrate</bitRate>
+	<bitRate1> - Wählen Sie eine feste Bandbreite für den Betrieb Ihrer Kamera. Mithilfe dieser Funktion kann der Benutzer die für die Bandbreite und die Speicherkapazität passende Bildfrequenzrate wählen.</bitRate1>
+	<jpegQuality>Qualität</jpegQuality>
+	<jpegQuality1> Geben Sie die Bildqualität an. Die beste Bildqualität wird erreicht, wenn 'Exzellent' gewählt wird.</jpegQuality1>
+	<rtspUrl>RTSP URL</rtspUrl>
+	<rtspUrl1> - RTSP URL ist die zur Herstellung einer Verbindung mit der Kamera verwendete URL, wenn die Bilder über ein Smart Phone oder Tablet-PC angesehen werden (z. B. rtsp:// EXAMPLE.dlinkddns.com/3gpp).</rtspUrl1>
+	<enableSpeaker>Lautsprecher aktivieren</enableSpeaker>
+	<enableSpeaker1>– Wenn Sie 'Aktivieren' wählen, können Sie in das Mikrofon Ihres PCs sprechen. Ihre Stimme ertönt dann über den an die Kamera angeschlossenen externen Lautsprecher.</enableSpeaker1>
+	<enableMicrophone>Mikrofon aktivieren</enableMicrophone>
+	<enableMicrophone1> - Wenn Sie 'Aktivieren' wählen, können Sie die Audiosignale vom Mikrofon der IP-Kamera überwachen.</enableMicrophone1>
+	<speakerVolume>Lautsprecher-Lautstärke</speakerVolume>
+	<speakerVolume1> - Sie können die Lautstärke des Lautsprechers mithilfe der Lautstärkenregelung ändern.</speakerVolume1>
+	<microphoneVolume>Mikrofon-Lautstärke</microphoneVolume>
+	<microphoneVolume1> - Sie können die Lautstärke des Mikrofons mithilfe der Lautstärkenregelung ändern.</microphoneVolume1>
+	<brightness>Helligkeit</brightness>
+	<brightness1> - Wird in bestimmten Situationen zur Gegenlichtkompensation verwendet.</brightness1>
+	<saturation>Sättigung</saturation>
+	<saturation1> - Steuert die Stärke der Farbe von schwarz und weiß bis zu kräftigen Farben.</saturation1>
+	<frequency>Frequenz</frequency>
+	<frequency1> - Sie müssen möglicherweise zwischen einer Frequenz von 'Auto', '50' oder '60' Hz (je nach Land) wählen.</frequency1>
+	<whitebalance>Weißabgleich</whitebalance>
+	<whitebalance1> - 'Auto' ist standardmäßig vorgegeben. Es werden der Realität nicht entsprechende Farbstiche entfernt, sodass Objekte wirklichkeitsgetreuer und weiß erscheinende Objekte auch weiß auf dem Videobild dargestellt werden.</whitebalance1>
+	<bw>S/W</bw>
+	<bw1> -  Sie können den Schwarz/Weiß-Modus für Ihre Kamera aktivieren oder deaktivieren.</bw1>
+	<flip>Bild umdrehen</flip>
+	<flip1> - Wählen Sie diese Funktion, wenn Ihre Kamera an der Wand umgedreht installiert ist.</flip1>
+	<mirror>Spiegeln</mirror>
+	<mirror1> - Wählen Sie diese Funktion, wenn die Bilder spiegelverkehrt angezeigt werden sollen.</mirror1>
+	<lightSource>Lichtquelle</lightSource>
+	<lightSource1> - Wählen Sie Innenbereich oder Außenbereich.</lightSource1>
+	<slowShutter>Lange Verschlusszeit</slowShutter>
+	<slowShutter1> - Wählen Sie die minimale Verschlusszeit bei schwach ausgeleuchteter Umgebung.</slowShutter1>
+	<contrast>Kontrast</contrast>
+	<contrast1> - Kann zur Steuerung der Farbkontraste zwischen Objekten Ihren Wünschen entsprechend eingestellt werden und zur Verbesserung der Bildqualität bei grauen Lichtverhältnissen beitragen.</contrast1>
+	<hue>Farbton</hue>
+	<hue1> - Steuert unterschiedliche Farbstufen, die für das menschliche Auge stimulierend wirken.</hue1>
+	<autoExposure>Autom. Belichtung</autoExposure>
+	<autoExposure1> - Wählen Sie diese Funktion, um die Belichtungszeit der Kamera automatisch anzupassen.</autoExposure1>
+	<BLC>BLC</BLC>
+	<BLC1> - BLC (Back Light Compensation/Gegenlichtkorrektor) – Wenn sich ein Objekt vor hellem Licht befindet, ist es schwer für die IP-Kamera, das Bild klar zu erfassen. Bei Wahl dieser Option können Objekte bei hellem Gegenlicht detailgetreuer erfasst werden.</BLC1>
+	<AWB>AWB</AWB>
+	<AWB1> - Autom. Weißabgleich – Entfernt der Realität nicht entsprechende Farbstiche, sodass Objekte wirklichkeitsgetreuer dargestellt werden.</AWB1>
+	<AGC>AGC</AGC>
+	<AGC1> - AGC (Auto Gain Control) – Die automatische Verstärkungsregelung (AGC) steuert schwankungsbehaftete Signale, um sie auf ein bestimmtes Niveau zu normalisieren, d. h. schwächere Signale werden verstärkt und stärkere Signale erhalten eine geringere Verstärkung oder gar keine.</AGC1>
+	<AES>AES</AES>
+	<AES1>  Auto Electronic Shutter – (AES/Autom. elektronischer Shutter) Ermöglicht die automatische Anpassung der Belichtungszeit. Eine höhere Belichtungszeit (Verschlusszeit) ermöglicht es, sich schnell bewegende Objekte deutlicher zu erfassen.</AES1>
+	<clearMotion>Inhalt löschen</clearMotion>
+	<clearMotion1> - Löscht alle aktiven, rot gekennzeichneten Zellen, in denen Bewegung erkannt wurde.</clearMotion1>
+	<refreshimage>Bild aktualisieren</refreshimage>
+	<refreshimage1> - Aktualisiert das letzte Bild im Live Video.(nicht-IE)</refreshimage1>
+	<enablePIR>PIR aktivieren</enablePIR>
+	<enablePIR1> - Wenn diese Option ausgewählt ist, verwenden Sie PIR (Passiv Infrarot), um Bewegungen zu erkennen.</enablePIR1>
+	<enableMotion>Video-Bewegungserk. aktivieren</enableMotion>
+	<enableMotion1> - Wählen Sie diese Option zur Aktivierung der Bewegungserk. für Ihre Kamera.</enableMotion1>
+	<pirsensibility>PIR-Empfindlichkeit</pirsensibility>
+	<pirsensibility1> - Es gibt drei Optionen für den Empfindlichkeitsgrad: Niedrig, Mittel und Hoch. Die Voreinstellung ist Niedrig. Wenn die Empfindlichkeit auf 'Niedrig' eingestellt ist, ist mehr Bewegung nötig, damit der Sensor diese registriert. Sie sollten die verschiedenen Einstellungen ausprobieren, um die optimale Einstellung für Ihre Umgebung zu finden. Wenn Ihnen der Empfindlichkeitsgrad zu niedrig ist, können Sie die Empfindlichkeitseinstellung auf 'Mittel' oder 'Hoch' einstellen.</pirsensibility1>
+	<sensitivity>Empfindlichkeit</sensitivity>
+	<sensitivity1> - Über die Empfindlichkeit können Sie angeben, wie viel Bewegung erforderlich sein soll, damit die Bewegungserk. ausgelöst wird.</sensitivity1>
+	<unselectRange>Bewegungsbereich festlegen</unselectRange>
+	<unselectRange1> - Ziehen Sie Ihre Maus, um einen Bewegungserkennungsbereich hinzuzufügen.</unselectRange1>
+	<inverseRange>Bewegungsbereich entfernen</inverseRange>
+	<inverseRange1> - Ziehen Sie Ihre Maus, um einen Bewegungserkennungsbereich zu entfernen.</inverseRange1>
+	<formatvalue>SD-Karte formatieren </formatvalue>
+    <formatvalue1>- Diese Option wird verwendet, um alle auf der SD-Karte abgelegten Daten zu löschen.</formatvalue1>
+    <name>Name </name>
+    <name1>- Zeigt alle gespeicherten Datei- oder Ordnernamen an.</name1>
+    <num>Anzahl Dateien </num>
+    <num1>- Zeigt die Anzahl aller gespeicherten Dateien im Ordner an.</num1>
+    <size>Größe </size>
+    <size1>- Zeigt die Dateigröße an.</size1>
+    <refresh>Aktualisieren </refresh>
+    <refresh1>- Die Option wird zum Neuladen des Webseiteninhalts mit den neuesten Daten verwendet.</refresh1>
+    <delete>Löschen </delete>
+    <delete1>- Mithilfe der Schaltfläche 'Löschen' werden ausgewählte Dateien oder Ordner gelöscht.</delete1>
+	<sdcardpath>SD-Karte</sdcardpath>
+	<sdcardpath1> - Dies kann den aktuellen Pfad der SD-Karte anzeigen.</sdcardpath1>
+	<sdstatus>SD-Status</sdstatus>
+	<sdstatus1> - Dies kann den aktuellen Status der SD-Speicherkarte anzeigen (d. h. ob eine Karte eingesetzt ist oder erkannt wurde).</sdstatus1>
+	<filesperpage>Dateien pro Seite</filesperpage>
+	<filesperpage1> - Die Anzahl der Dateien pro Seite.</filesperpage1>
+	<pages>Seiten</pages>
+	<pages1> - Sie können wählen, welche Seite hier angezeigt werden soll.</pages1>
+	<total>Gesamt</total>
+	<total1> - Die gesamte Leistungsfähigkeit der SD-Karte.</total1>
+	<used>Verwendet</used>
+	<used1> - Die genutzte Leistungsfähigkeit der SD-Karte.</used1>
+	<free>Frei</free>
+	<free1> - Die frei verfügbare Leistungsfähigkeit der SD-Karte.</free1>
+	<livevideoscreen>Live Video-Bildschirm</livevideoscreen>
+	<livevideoscreen1> - Sie können die Position des Kameraobjektivs mithilfe dieser Live-Ansicht anzeigen.</livevideoscreen1>
+	<pantiltcontrol>Schwenk-/Neigesteuerung</pantiltcontrol>
+	<pantiltcontrol1> - Sie können die Position des Kameraobjektivs durch Klicken auf die Pfeilschaltflächen Nach oben/Nach unten/Links/Rechts/Links nach oben/Links nach unten/Rechts nach oben/Rechts nach unten steuern. Durch Klicken auf 'Startseite'-Schaltfläche wird das Objektiv wieder auf die ursprüngliche Ausgangsposition gebracht. </pantiltcontrol1>
+	<setashome>Festlegung Ausgangsposition/Als Ausgangsposition einrichten</setashome>
+	<setashomel> - Richtet die aktuelle Kameraposition als die Ausgangsposition ein 'Startseite'-Schaltfläche.</setashomel>
+	<defaulthome>Festlegung Ausgangsposition/Standardausgangsposition</defaulthome>
+	<defaulthomel> - Klicken Sie auf die Schaltfläche, um die Standardausgangsposition wieder auf die werkseitig eingestellte Position zurückzusetzen.</defaulthomel>
+	<panSpeed>Schwenkschritt</panSpeed>
+	<panSpeed1> - Legt die Schwenkschritte der Kamera fest.</panSpeed1>
+	<tiltSpeed>Neigeschritt</tiltSpeed>
+	<tiltSpeed1> - Legt die Neigeschritte der Kamera fest.</tiltSpeed1>
+	<currentPosition>Name Voreinstellung</currentPosition>
+	<currentPosition1> - Bewegen Sie die Kamera an die gewünschte Position und geben Sie einen Namen oder eine Nummer im Feld ' Name Voreinstellung' ein. Klicken Sie dann auf 'Hinzufügen' und die aktuelle Position wird dem Feld 'Voreingestellte Position' hinzugefügt.</currentPosition1>
+	<presetPosition>Voreingestellte Position</presetPosition>
+	<presetPosition1> - Die voreingestellte Position listet alle Positionen auf, die Sie eingestellt haben. Sie können sie jederzeit wieder löschen.</presetPosition1>
+	<patrolPos>Patrollierpositionen</patrolPos>
+	<patrolPos1> - Damit wird festgelegt, wohin sich die IP-Kamera bewegen und wo sie anhalten wird, wenn Sie 'Patrollierung' auf der Seite 'Live Video' wählen.</patrolPos1>
+	<patrolPosUp>Nach oben</patrolPosUp>
+	<patrolPosUp1> - Bewegt die ausgewählte Patrollierposition nach oben.</patrolPosUp1>
+	<patrolPosDn>Nach unten</patrolPosDn>
+	<patrolPosDn1> - Bewegt die ausgewählte Patrollierposition nach unten.</patrolPosDn1>
+	<patrolPosRm>Entfernen</patrolPosRm>
+	<patrolPosRm1> - Entfernt eine ausgewählte Patrollierposition.</patrolPosRm1>
+	<dwellingtime>Verweildauer (Sek)</dwellingtime>
+	<dwellingtime1> - Die Zeit, die die IP-Kamera an jeder voreingestellten Position während der Patrollierzeit verweilt.</dwellingtime1>
+	<recResolution>Auflösung</recResolution>
+	<recResolution1> 3 Optionen stehen zur Verfügung. VGA (Video Graphics Array) bietet eine 640 × 480 Auflösung, die Standardauflösung für die Computeranzeige. QVGA (Quarter Video Graphics Array) bietet eine 320 × 240 Auflösung, eine allgemein verwendete Auflösung für Mobiltelefone, PDAs und einige Spielkonsolen. QQVGA (Quarter-QVGA) bietet eine 160 × 112 Auflösung, in der Regel lediglich für Handheld-Geräte verwendet.</recResolution1>
+	<bps>bps(Bits pro Sek.)</bps>
+	<bps1> - Wählen Sie eine feste Bandbreite für den Betrieb Ihrer Kamera. Mithilfe dieser Funktion kann der Benutzer die für die Bandbreite und die Speicherkapazität passende Bildfrequenzrate wählen.</bps1>
+	<fps>BPS (Bildfrequenz pro Sek.)</fps>
+	<fps1> - Die maximale Anzahl an Bildern, die in 1 Sekunde angezeigt werden. 30 fps (Frames per sec/Bilder pro Sekunde) ist die für diese Kamera höchste Videoqualität. Im Allgemeinen sind Bildfrequenzen über 15 fps für das menschliche Auge nicht mehr wahrnehmbar.</fps1>
+	<encodeMethod>Verschlüssel.meth.</encodeMethod>
+	<encodeMethod1> - Wählen Sie CBR (Constant Bit Rate/Konstante Bitrate), um zuerst Bit/s oder um Qualität als Videoverschlüsselungsmethode zu nutzen.</encodeMethod1>
+	<cameraenvironment>Kameraumgebung</cameraenvironment>
+	<night>Tag/Nachtmodus</night>
+	<night1> - Wählen Sie 'Nachtmodus', wenn sich Ihre Kamera in einem schwach beleuchteten Bereich befindet und Sie die Videoqualität verbessern müssen.</night1>
+	<cameraenvironment1> - Sie können diese Optionen zum Konfigurieren der Kamera für die Art der Umgebung verwenden, in der sie installiert wurde.</cameraenvironment1>
+	<shutter>Belichtungszeit</shutter>
+	<shutter1> - Im Nachtmodus können 3 Belichtungszeiten ausgewählt werden.</shutter1>
+	<resolution1> - 3 Optionen je nach verwendetem Anzeigesystem. Für VGA, 640x480, 320x240, 160x112; Für XGA, 1024x768, 512x384, 256x192; Für SXGA, 1280x1024, 640x512, 320x256; Für NTSC, 704x480, 352x240, 176x112; Für PAL: 704x576, 352x288, 176x144.</resolution1>
+	<resolution2> - Es stehen mehrere Zeitbemessungsoptionen zur Verfügung.</resolution2>
+	<scheduledRecording>Eingeplant</scheduledRecording>
+	<scheduledRecording1> - Sie können Ihre Aufnahmen zu bestimmten Zeiten täglich ein- bzw. ausschalten.</scheduledRecording1>
+	<continuoussam>Fortlaufend (nur Samba)</continuoussam>
+	<continuoussam1> - Wählen Sie diese Option, um fortlaufend Videoaufnahmen zu machen.</continuoussam1>
+	<scheduledsam>Eingeplant (nur Samba)</scheduledsam>
+	<scheduledsam1> - Wählen Sie diese Option, um Videoaufnahmen entsprechend der eingeplanten Zeit zu machen.</scheduledsam1>
+	<sambaAuth>Samba-Authentifizierung</sambaAuth>
+	<sambaAuth1> - Wenn der freigegebene Netzwerkordner Ihnen die Möglichkeit gibt, sich 'Anonym' anzumelden, können Sie die Bilder ohne Eingabe des Benutzernamens und Kennworts hochladen.  Wenn nicht, müssen Sie die korrekten Einstellungen zum Zugriff auf den Ordner verwenden</sambaAuth1>
+	<serverIP>Server</serverIP>
+	<serverIPl> - Geben Sie die IP-Adresse des Netzwerkspeicher-Servers ein.</serverIPl>
+	<sharedFolder>Freigegebener Ordner</sharedFolder>
+	<sharedFolder1> - Geben Sie in diesem Feld den Namen eines bereits vorhandenen Ordners ein. Die Bilder werden in diesem Ordner abgelegt.</sharedFolder1>
+	<timeZone>Zeitzone</timeZone>
+	<timeZone1> - Die geographische Zone für die lokale Zeiteinstellung der Kamera.</timeZone1>
+	<daylightSavings>Sommerzeit aktivieren</daylightSavings>
+	<daylightSavings1> - Schaltet den Sommerzeitmodus ein, der die Zeit je nach Sommerzeitausgleich und Datumsangaben anpasst.</daylightSavings1>
+	<autoDaylightSavings>Autom. Zeitumstellung</autoDaylightSavings>
+	<autoDaylightSavings1> - Bei Wahl dieser Option wird die Uhr automatisch entsprechend der Sommer-/Winterzeit der jeweiligen Zeitzone eingestellt.</autoDaylightSavings1>
+	<setManually>Sommerzeit manuell konfigurieren</setManually>
+	<setManually1> - Stellen Sie die Sommerzeitregeln manuell ein.</setManually1>
+	<daylightSavingsDates>Daten für die Zeitumstellung</daylightSavingsDates>
+	<daylightSavingsDates1> - Richtet die Daten und die Uhrzeit ein, an der die Sommerzeit beginnt und endet.</daylightSavingsDates1>
+	<syncTime>Zeiteinstellungen des Computers kopieren</syncTime>
+	<syncTime1> - Zur Synchronisierung des Datums und der Uhrzeit Ihrer Kamera mit Ihrem Computer.</syncTime1>
+	<manual>Datum und Uhrzeit manuell einstellen</manual>
+	<manual1> - Stellen Sie die das Datum und die Uhrzeit manuell ein.</manual1>
+	<SyncNTP>Mit NTP-Server synchronisieren</SyncNTP>
+	<SyncNTP1>- Bei Wahl dieser Option synchronisiert die Kamera bei jedem Kamerastart die Zeiteinstellungen mit dem NTP-Server über das Internet. Kann keine Verbindung zum Zeitserver hergestellt werden, werden keine Zeiteinstellungen vorgenommen.</SyncNTP1>
+	<ntpServer>NTP-Server</ntpServer>
+	<ntpServer1> - Geben Sie die IP-Adresse oder den Domänennamen des NTP-Servers an.</ntpServer1>
+	<enableRecording>Aufnahme aktivieren </enableRecording>
+	<enableRecordingl> - 'Aufnahme aktivieren' ermöglicht Ihnen, Aufnahmen auf Grundlage ausgewählter Ereignisse auf einem Samba-Netzlaufwerk zu speichern. Markieren Sie zum Aktivieren von Aufnahmen das Kontrollkästchen 'Aufnahme aktivieren'. Wählen Sie als Nächstes einen Zeitplan, um anzugeben, wann die Kamera Videoaufnahmen machen soll. </enableRecordingl>
+	<userName>Benutzername</userName>
+	<userNamel> - Geben Sie den Benutzernamen ein, um sich im Netzwerkspeicher-Server anzumelden.</userNamel>
+	<passWord>Kennwort</passWord>
+	<passWordl> - Geben Sie das Kennwort ein, um sich im Netzwerkspeicher-Server anzumelden.</passWordl>
+	<test>Test</test>
+	<testl> - Klicken Sie auf 'Test', um sicherzustellen, dass die FTP- bzw. Mail-Einstellungen korrekt sind.</testl>
+	<getStatus>Status abrufen</getStatus>
+	<getStatusl> - Klicken Sie auf 'Status abrufen', um sicherzustellen, dass der Aufnahmeprozess aktiviert ist.</getStatusl>
+	<keepSpace>Aufnehmen, bis MB-freier Speicherplatz bleibt</keepSpace>
+	<keepSpacel> - Geben Sie ausreichend Speicherkapazität auf dem Zielspeichermedium an, um zu verhindern, dass das System instabil wird.</keepSpacel>
+	<stopRecord>Wenn Speicher voll, Aufnahme stoppen</stopRecord>
+	<stopRecordl> - Wenn [Aufnahme stoppen] ausgewählt ist, stoppt die IP-Kamera die Aufnahme, sobald der Speicherplatz voll ist.</stopRecordl>
+	<overwriteRecord>Wenn Speicher voll, ältere Aufnahmen überschreiben</overwriteRecord>
+	<overwriteRecordl> - Wenn [Ältere Aufnahmen überschreiben] ausgewählt ist, werden die ältesten Dateien gelöscht, wenn das System Speicherplatz für neue Überwachungs-Videoaufnahmen benötigt.</overwriteRecordl>
+	<eventBased>Ereignisbasiert</eventBased>
+	<eventBasedl> - Wählen Sie die Option [Bewegungserk./Aufnahmeauslöser], um die Aufnahme zu starten, wenn Bewegung erkannt wird, oder wählen Sie DE-Signal/Aufnahmeauslöser, um die Aufnahme zu starten, sobald digitale Eingabe erkannt wird.</eventBasedl>
+	<prerecordSeconds>Vor Aufnahme (Sekunden)</prerecordSeconds>
+	<prerecordSecondsl> - Eine Einstellung für [Durch Bewegungserk. ausgelöste Aufnahme]. Mit der 'Vor Aufnahme'-Einstellung beginnt die Kamera die Aufnahme für eine voreingestellte Zeitdauer und legt sie auf dem Laufwerk ab, bevor die Bewegung den Vorgang ausgelöst hat. </prerecordSecondsl>
+	<postrecordSeconds>Nach Aufnahme (Sekunden)</postrecordSeconds>
+	<postrecordSecondsl> - Diese Einstellung ermöglicht der Kamera nach einem Bewegungserkennungsereignis aufzunehmen. Sie nimmt eine voreingestellte Zeitdauer nach dem auslösenden Ereignis auf, auch wenn die Bewegung möglicherweise aufgehört hat.</postrecordSecondsl>
+	<enableSnapshot>Momentaufnahme</enableSnapshot>
+	<enableSnapshotl> - Bei Wahl dieser Option können Sie eine oder sechs Standbilder von diesem System an eine E-Mail oder an einen FTP-Server senden.</enableSnapshotl>
+	<eventbased>Ereignisbasiert</eventbased>
+	<eventbased1> - Wählen Sie die Option [Bewegungserk.], um die aus einer Bewegungserk. resultierenden Bilder an eine angegebene FTP-Website oder eine E-Mail-Adresse zu senden.</eventbased1>
+	<triggerEventSS>Auslösen durch</triggerEventSS>
+	<triggerEventSS1>Bewegung - Momentaufnahme nach einer Bewegungserk. beginnen.</triggerEventSS1>
+	<triggerEventSS2>Zeitplan - Momentaufnahme in einer angegebenen Zeit.</triggerEventSS2>
+	<triggerEventSS3>Immer - Fortlaufende Momentaufnahme.</triggerEventSS3>
+	<snapshottype>Momentaufnahmentyp</snapshottype>
+	<snapshottype1> - Sie können JPEG-Einstellungen vom Video Profil 3, Einzelmomentaufnahme oder 6 Momentaufnahmen hier einrichten.</snapshottype1>
+	<snapshottarget>Ziel</snapshottarget>
+	<snapshottarget1> - Sie können das Ziel als FTP oder E-Mail für die Momentaufnahme wählen.</snapshottarget1>
+	<snapshotssl>SSL-TLS verwenden</snapshotssl>
+	<snapshotssl1> - Wenn Sie SSL-TLS oder STARTTLS wählen, kann die Kamera eine sichere Verbindung unter Verwendung von SSL-TLS oder STARTTLS herstellen.</snapshotssl1>
+	<sdcardSetting>SD-Karteneinstellung</sdcardSetting>
+	<sdkeepSpace>Freien Speicherplatz behalten</sdkeepSpace>
+	<sdkeepSpacel> - Geben Sie ausreichend Speicherkapazität auf der lokalen SD-Karte an, um zu verhindern, dass das System instabil wird.</sdkeepSpacel>
+	<sdcyclic>Zyklisch</sdcyclic>
+	<sdcyclic1> - Wenn diese Option ausgewählt ist, werden die ältesten Momentaufnahmedateien gelöscht, wenn das System Speicherplatz für neue Momentaufnahmedateien benötigt.</sdcyclic1>
+	<videoclipsdcyclic1> - Wenn diese Option ausgewählt ist, werden die ältesten Videoclip-Dateien gelöscht, wenn das System Speicherplatz für neue Videoclip-Dateien benötigt.</videoclipsdcyclic1>
+	<videoclipinterval1> - Das Zeitintervall zwischen jedem Videoclip.</videoclipinterval1>
+	<videoclipftpinterval> - Die Zeit zwischen jedem Videoclip, der an den FTP-Server gesendet wird.</videoclipftpinterval>
+	<videoclipsmtpinterval> - Die Zeit zwischen jedem Videoclip, dere an das E-Mail-Konto gesendet wird.</videoclipsmtpinterval>
+	<videoftpServerport1> - Sie können einen Video-Clip an den FTP-Server senden. (Der Port des FTP-Servers.) Die meisten FTP-Server werden auf dem Standard-Port (21) ausgeführt.</videoftpServerport1>
+	<videorecipientAddressl> - Das ist die E-Mail-Adresse, an die alle Videoclips gesendet werden.</videorecipientAddressl>
+	<emailAddress>E-Mail-Adresse</emailAddress>
+	<emailAddressl> - Wenn Sie diese Option wählen, wird das aktuelle Standbild erfasst und als Bilddatei im Anhang einer E-Mail an die E-Mail-Adresse eines angegebenen Empfängers gesendet.</emailAddressl>
+	<userNameSnapl> - Das ist der Benutzername, der Ihnen von Ihrem Internetdienstanbieter zugewiesen wurde. Das kann je nach Internetdienstanbieter einfach 'Mustermann' oder 'Mustermann@ihranbieter.com sein. </userNameSnapl>
+	<passwordSnapl> - Das von Ihnen zur Anzeige Ihres E-Mail-Kontos eingerichtete Kennwort.</passwordSnapl>
+	<smtpMailServer>SMTP-Mail-Server</smtpMailServer>
+	<smtpMailServerl> - Der Hostname des E-Mail-Servers (z. B. smtpserver.ihredomäne.com).</smtpMailServerl>
+	<senderAddress>E-Mail-Adresse des Absenders</senderAddress>
+	<senderAddressl> - Die E-Mail-Adresse des Absenders, die in einer als Warnhinweis oder Alarm deklarierten E-Mail-Benachrichtigung gesendet wird (z. B. mustermann@ihranbieter.com). Die Benachrichtigung wird an diese E-Mail-Adresse gesendet, falls die E-Mails nicht an die E-Mail-Adresse des angegebenen Empfängers gesendet werden konnten.</senderAddressl>
+	<recipientAddress>E-Mail-Adresse des Empfängers</recipientAddress>
+	<recipientAddressl> - Das ist die E-Mail-Adresse, an die alle erfassten Bilder gesendet werden.</recipientAddressl>
+	<mailPort>Port</mailPort>
+	<mailPortl> - Das ist der Port, auf dem Ihr E-Mail SMTP-Dienst ausgeführt wird. Die Standardeinstellung ist 25.</mailPortl>
+	<ftpServer>FTP Server</ftpServer>
+	<ftpServerl> - Sie können eine Momentaufnahme an den FTP-Server senden.</ftpServerl>
+	<userNameFtpl> - Der Kontoname für den Zugang zum FTP-Server.</userNameFtpl>
+	<passwordFtpl> - Das Kennwort, das zusammen mit dem Konto für den Zugang zum FTP-Server eingerichtet wurde.</passwordFtpl>
+	<hostName>Hostname</hostName>
+	<hostNamel> - Geben Sie den Hostnamen oder die IP-Adresse des FTP-Servers ein. (z. B. ftp.dlink.com)</hostNamel>
+	<RS-485>RS-485</RS-485>
+	<enableSignal>D/A-Signal</enableSignal>
+	<enableSignall> - Löst herkömmliche Alarmanlagen aus, wie z. B. Warnleuchten oder Sirenen, die an das System angeschlossen sind.</enableSignall>
+	<digitalOutManual>Manuell</digitalOutManual>
+	<digitalOutManuall> - Ermöglicht Ihnen, eine digitale Ausgabe bei Live-Anzeige auszulösen.</digitalOutManuall>
+	<motionDetection>Bewegungserk.</motionDetection>
+	<motionDetectionl> - Wird eine Bewegung erkannt, löst die IP-Kamera herkömmliche Alarmanlagen aus, die an das System angeschlossen sind.</motionDetectionl>
+	<dISignal1>Digitale Eingabe</dISignal1>
+	<dISignal1l> - Beim Auslösen des digitalen Eingangsgeräts, löst die IP-Kamera herkömmliche Alarmanlagen aus, die an das System angeschlossen sind.</dISignal1l>
+	<dISignal2>D/E Signal 2</dISignal2>
+	<dISignal2l> - Beim Auslösen des digitalen Eingangsgeräts 2, löst die IP-Kamera herkömmliche Alarmanlagen aus, die an das System angeschlossen sind.</dISignal2l>
+	<supporPAN>SCHWENKEN/NEIGEN</supporPAN>
+	<supporPANl> Wird SCHWENKEN/NEIGEN aktiviert, erscheint ein Bedienfeld auf der Live-Videoseite, mit dessen Hilfe die Steuerung über den RS-485 Schnittstellenstandard für leitungsgebundene Datenübertragungen für ein externes Kameragehäuse vorgenommen werden kann.</supporPANl>
+	<protocol>Protokoll</protocol>
+	<protocoll> - Wählen Sie den PTZ-Standard (Schwenk/Neige/Zoom), der zum Anschluss eines PTZ-Scanners über die serielle Schnittstelle RS485 verwendet wird.</protocoll>
+	<ID>Kennung</ID>
+	<IDl> - Die Kennung wird zur Identifizierung des RS-485 Geräts verwendet.</IDl>
+	<baudRate>Baudrate</baudRate>
+	<baudRatel> - Wählen Sie die für das angeschlossene Gerät gewünschte Baudrate.</baudRatel>
+	<dataBits>Datenbits</dataBits>
+	<dataBitsl> - Wählen Sie die für das angeschlossene Gerät gewünschten Datenbits.</dataBitsl>
+	<stopBit>Stoppbits</stopBit>
+	<stopBitl> - Wählen Sie die für das angeschlossene Gerät gewünschten Stoppbits.</stopBitl>
+	<parityBit>Paritätsbit</parityBit>
+	<parityBitl> - Wählen Sie den für das angeschlossene Gerät gewünschten Paritätstyp.</parityBitl>
+	<emailSetting>E-Mail-Einstellung</emailSetting>
+	<ftpSetting>FTP-Einstellung</ftpSetting>
+	<triggerEvent>Auslöserereignis</triggerEvent>
+	<triggerEvent1> - Es liegt ein Ereignis in der Kamera vor, wenn ein auslösendes Element (z. B. die Bewegungserk. oder eine ausgelöste digitale Eingabe) aktiviert wird und die Ausführung bestimmter Aktionen zur Folge hat.</triggerEvent1>
+	<checkPassword>Kennwort bestätigen</checkPassword>
+	<checkPassword1> - Geben Sie Ihr Kennwort ein, das zur Herstellung einer Verbindung mit dem DDNS-Server genutzt wird.</checkPassword1>
+	<audioSetting>AUDIO-EINRICHTUNG</audioSetting>
+	<audioSettingl> - Sie können das Mikrofon ein-/ausschalten oder die Lautstärke einstellen.</audioSettingl>
+	<offset>Ausgleich</offset>
+	<offset1> - Gibt an, wieviel Zeit bei aktivierter Zeitumstellung hinzugefügt oder abgezogen wird.</offset1>
+	<checkpassWord>Kennwort bestätigen</checkpassWord>
+	<checkpassWordl> - Geben Sie Ihr Kennwort erneut ein, um die Verbindung mit dem Netzwerkspeicher-Laufwerk herzustellen.</checkpassWordl>
+	<sdrecording>SD-Aufnahme</sdrecording>
+	<sdrecordingl> - Bei Wahl der Option können Sie Momentaufnahmen oder auf der lokalen SD-Karte aufgenommenen Videoaufnahmen speichern.</sdrecordingl>
+	<triggerEventM>Bewegung - SD-Aufnahmen nach einer Bewegungserk. beginnen.</triggerEventM>
+	<triggerEventS>Zeitplan - SD-Aufnahme in einer angegebenen Zeit.</triggerEventS>
+	<triggerEventA>Immer - Fortlaufende SD-Aufnahme.</triggerEventA>
+	<recordingtype>Aufnahmeart</recordingtype>
+	<recordingtype1> - Sie können das Videoprofil vor einer SD-Aufnahme, Aufnahmen vor und nach dem Ereignis hier einrichten, wenn der auslösende Faktor eine Bewegung ist. Sie können auch Aufnahmen als Momentaufnahme oder Video wählen.</recordingtype1>
+	<keepfreespc>Freien Speicherplatz behalten</keepfreespc>
+	<keepfreespcl> - Geben Sie ausreichend Speicherkapazität auf der lokalen SD-Karte an, um zu verhindern, dass das System instabil wird.</keepfreespcl>
+	<recordingLength>Aufnahmelänge</recordingLength>
+	<recordingLengthl> - Geben Sie die Länge der Zeit für jede Videoaufnahme an.</recordingLengthl>
+	<rectosdcyclic>Zyklisch</rectosdcyclic>
+	<rectosdcyclicl> - Wenn diese Option ausgewählt ist, werden die ältesten Ordner gelöscht, wenn das System Speicherplatz für neue Dateien benötigt.</rectosdcyclicl>
+	<SDManagement>SD-Management</SDManagement>
+	<gpio>Digitale Eingabe</gpio>
+	<gpio1> - Videoclip nach Erkennung einer digitalen Eingabe beginnen.</gpio1>
+	<gpio2> - Momentaufnahme nach Erkennung einer digitalen Eingabe beginnen.</gpio2>
+	<gpio3> - Aufnahme nach Erkennung einer digitalen Eingabe beginnen.</gpio3>
+	<antenna>Antenne</antenna>
+	<antenna1> - Wählen Sie die Verwendung einer internen oder externen Antenne.</antenna1>
+	<triggerEventVC11>Ton - Videoclip-Aufnahmen bei erkanntem Ton beginnen.</triggerEventVC11>
+	<enablemute>Automatische Stummschaltung</enablemute>
+	<enablemute1> - Aktivieren Sie diese Option, um das Mikrofon automatisch stummzuschalten, wenn sich das Kameraobjektiv bewegt.</enablemute1>
+	<sharpness>Bildschärfe</sharpness>
+	<sharpness1> - Wird zum Einstellen der Bildschärfe verwendet.</sharpness1>
+	<ntpfromDHCP>NTP-Server von DHCP einstellen</ntpfromDHCP>
+	<ntpfromDHCP1> - Die IP-Kamera erhält den Zeitserver vom DHCP-Dienst.</ntpfromDHCP1>
+	<triggerEventSS11>Ton - Schnappschuss bei erkanntem Ton erstellen.</triggerEventSS11>
+	<motionDetection11>Bewegung</motionDetection11>
+	<audioDetection>Ton</audioDetection>
+	<audioDetectionl> - Wird ein Ton erkannt, löst die IP-Kamera eine herkömmliche Alarmanlagen aus, die am digitalen Ausgang (DO) angeschlossen ist.</audioDetectionl>
+	<audio_Detection>Tonerkennung</audio_Detection>
+	<enableAudio>Tonerkennung</enableAudio>
+	<enableAudio1> - Wählen Sie diese Option zur Aktivierung der Tonerkennung für Ihre Kamera.</enableAudio1>
+	<sensitivityau>Erkennungsstufe</sensitivityau>
+	<sensitivityau1> - Stellt die Erkennungsstufe des Tonerkennungsalgorithmus zum Auslösen von Tonereignissen ein. Eine senken Erkennungsstufe macht das Erkennen von Tönen leichter.</sensitivityau1>
+	<triggerEventAu>Ton - SD-Aufzeichnung bei erkanntem Ton auslösen.</triggerEventAu>
+	<tvOUT>TV-AUSGANG</tvOUT>
+	<tvOUThelp> - Aktivieren Sie den TV-Ausgang. Sie können das Kameravideo zu einem Fernseher oder einem anderen Monitor schicken.</tvOUThelp>
+	<preRec>Aufnahme vor dem Ereignis</preRec>
+	<preRecl> - Geben Sie an, wie viele Sekunden vor dem eigentlichen Ereignis aufgenommen werden sollen.</preRecl>
+	<maxRec>Maximale Dauer</maxRec>
+	<maxRecl> - Geben Sie an, wie viele Sekunden nach dem eigentlichen Ereignis aufgenommen werden sollen.</maxRecl>
+	<IpfilterTitle>IP-FILTER</IpfilterTitle>
+	<IpfilterName>IP-Filter</IpfilterName>
+	<IpfilterNameExplain> - Um die IP-Filter Ihrer Kamera zu aktivieren, müssen Sie das Kontrollkästchen bei 'Zugriffslistenfilterung' aktivieren. Ändern Sie dann Ihre Detaileinstellungen über diese Seite.</IpfilterNameExplain>
+	<Ipfilter>Mit Zugriffslistenfilterung haben Sie die Möglichkeit, den Zugang zu dieser Kamera nur für bestimmte IP-Adressen zuzulassen oder zu verweigern.
+</Ipfilter>
+	<FilterType>Filtertyp</FilterType>
+	<FilterTypeText> - Sie können für die in einer Filterliste angegebenen IP-Adressen 'Zulassen' oder 'Verweigern' auswählen.</FilterTypeText>
+	<AccessList>Filterliste</AccessList>
+	<AccessListText> - Angegebene IP-Adressen.</AccessListText>
+	<Single>Einzel</Single>
+	<SingleText> - Geben Sie eine einzelne IP-Adresse an.</SingleText>
+	<Subnet>Subnetz</Subnet>
+	<SubnetText> - Geben Sie ein IP-Subnetz an.</SubnetText>
+	<Range>Bereich</Range>
+	<RangeText> - Geben Sie einen Bereich von IP-Adressen an.</RangeText>
+	<adminAdress>IP-Adresse des Administrators</adminAdress>
+	<adminAdressText> - Sie können eine IP-Adresse als IP-Adresse des Administrators einstellen, die immer Zugriff auf diese Kamera hat.</adminAdressText>
+	<httpsTitle>HTTPS-EINRICHTUNG</httpsTitle>
+	<httpsName>HTTPS-Einrichtung</httpsName>
+	<httpsNameExplain> - Wenn Sie die Option markieren, können Sie HTTP oder HTTPS verwenden, um sich mit dieser Kamera zu verbinden.</httpsNameExplain>
+	<connectType>Verbindungstyp</connectType>
+	<bothHttpAndHttps>Sowohl HTTP als auch HTTPS</bothHttpAndHttps>
+	<bothHttpAndHttpsInfo> - Sie können diese Option markieren, um eine HTTP- und HTTPS-Verbindung zur Kamera zu ermöglichen.</bothHttpAndHttpsInfo>
+	<httpsOnly>Nur HTTPS</httpsOnly>
+	<httpsOnlyInfo> - Sie können diese Option markieren, um nur eine HTTPS-Verbindung zur Kamera zu ermöglichen.</httpsOnlyInfo>
+	<createMethod>Zertifikatserstellungs- und -installierungsmethode</createMethod>
+	<autoCreateMethod>Selbstsigniertes Zertifikat automatisch erstellen</autoCreateMethod>
+	<autoCreateMethodInfo> - Wählen Sie diese Methode, um automatisch ein selbstsigniertes Zertifikat zu erstellen.</autoCreateMethodInfo>
+	<manCreateMethod>Selbstsigniertes Zertifikat manuell erstellen</manCreateMethod>
+	<manCreateMethodinfo> - Wählen Sie diese Methode, um ein selbstsigniertes Zertifikat durch manuelle Angabe der HTTPS-Parameter zu erstellen.</manCreateMethodinfo>
+	<createAndInstallMethod>Zertifikat von einer Zertifizierungsstelle anfordern und installieren</createAndInstallMethod>
+	<createAndInstallMethodInfo> - Mit dieser Methode können Sie eine Zertifikatanforderung an eine Zertifikatstelle senden und das signierte Zertifikat, das Sie von der Stelle erhalten haben, in der Kamera hochladen.</createAndInstallMethodInfo>
+	<certInfo>Info zum Zertifikat</certInfo>
+	<certInfoExplain> - Status- und  Zusammenfassungsinformationen über Ihr Zertifikat; Sie können auf die Schaltfläche 'Eigenschaft' klicken, um genauere Informationen anzuzeigen.</certInfoExplain>
+</body>
+

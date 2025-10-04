@@ -1,0 +1,17 @@
+<body>
+	<systemLog>系統日誌</systemLog>
+	<description1>系統日誌會記錄發生過的攝影機事件。</description1>
+	<ipAddress>IP 位址</ipAddress>
+	<port>通訊埠</port>
+	<save>儲存</save>
+	<currentLog>目前日誌</currentLog>
+	<clear>清除</clear>
+	<download>下載</download>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<systemLog>您可按「下載」按鈕把日誌儲存到本機硬碟，也可以按「清除」按鈕清除日誌。</systemLog>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+</message>

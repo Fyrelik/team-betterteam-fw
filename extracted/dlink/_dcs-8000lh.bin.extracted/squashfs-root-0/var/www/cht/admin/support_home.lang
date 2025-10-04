@@ -1,0 +1,49 @@
+<body>
+	<liveVideo>即時影像</liveVideo>
+	<camera>攝影機</camera>
+	<videoProfile>影像資料</videoProfile>
+	<videoProfile1> - 本圖示會顯示目前的影像資料設定。若您並非使用 IE 瀏覽器，請選可用的圖示。</videoProfile1>
+	<fullScreen>全螢幕</fullScreen>
+	<fullScreen1> - 按此圖示可將即時影像放大成全螢幕。</fullScreen1>
+	<snapshot>快照</snapshot>
+	<snapshot1> - 按此圖示可拍一張 JPEG 格式的快照，儲存到電腦上。</snapshot1>
+	<recording>錄影</recording>
+	<recording1> - 可立即錄影並儲存到預先定義好的檔案路徑。</recording1>
+	<setPath>設定儲存資料夾</setPath>
+	<setPath1> - 按此圖示可設定檔案儲存的預設位置，之後按快照或錄影按鈕時，檔案就會儲存在這。</setPath1>
+	<listen>監聽</listen>
+	<listen1> - 按此按鈕可開關聲音。此時會接收聲音。</listen1> 
+	<talk>對講</talk>
+	<talk1> - 按麥克風按鈕可開關麥克風，決定是否要把講話聲音從電腦傳到攝影機。</talk1>
+	<digitalOut>數位輸出</digitalOut>
+	<digitalOut1> - 按此按鈕輸出警告訊號到警告輸出接頭。</digitalOut1>
+	<digitalInputTrigger>數位輸入指示燈</digitalInputTrigger>
+	<digitalInputTrigger1> - 當觸發輸入發生時，此指示燈會閃爍。</digitalInputTrigger1>
+	<motionTrigger>移動/聲音觸發指示燈</motionTrigger>
+	<motionTrigger1> - 當移動/音頻偵測被觸發時，此指示燈會閃爍。</motionTrigger1>
+	<recordingTrigger>錄影指示燈</recordingTrigger>
+	<recordingTrigger1> - 當錄影動作啟動時，本指示燈會閃爍。</recordingTrigger1>
+	<recordingError>錄影出錯指示燈</recordingError>
+	<recordingError1> - 當錄影動作出錯時，本指示燈會閃爍。</recordingError1>
+	<pantiltcontrol>PT 控制</pantiltcontrol>
+	<pantiltcontrol1> - 你可以使用上/下/左/右/左上/左下/右上/右下的箭頭圖示來控制攝影機鏡頭的位置. 使用原點的按鈕來讓攝影機鏡頭回到初始的位置。</pantiltcontrol1>
+	<pan>平移</pan>
+	<pan1> - 當執行此動作後，攝影機鏡頭會從最左邊移至最右邊。當掃描結束，攝像機鏡頭回到初始位置。</pan1>
+	<patrol>巡邏</patrol>
+	<patrol1> - 使用者可自行設定欲監控之位置，當使用者開啟自動巡航模式，攝影機會依照所設定之路徑及時間進行自動監控。</patrol1>
+	<stop>停止</stop>
+	<stop1> - 當執行此動作時, 攝影機鏡頭會立刻停止當目前如果在執行水平掃描或者巡邏。</stop1>
+	<goto>前往</goto>
+        <gotol> - 可用此選項將攝影機鏡頭移至[預設位置]的網頁所設定好的位置。</gotol>
+	<panspeed>平移速度</panspeed>
+	<panspeed1> - 可使用此設定來控制水平移動速度。 數字越大,移動越大,數字越小,移動越小。</panspeed1>
+	<tiltspeed>傾斜速度</tiltspeed>
+	<tiltspeed1> - 可使用此設定來控制垂直移動速度。 數字越大,移動越大,數字越小,移動越小。</tiltspeed1>
+	<language>語言選擇</language>
+	<language1> - 從下拉式選單選擇語言，來變更網頁介面的語言。</language1>
+	<led>紅外線 LED 燈</led>
+	<led1> - 點選這個按鈕來開關攝影機上的紅外線 LED 燈，來啟用或關閉夜視功能。這個功能只有在白天/夜晚模式啟動為手動 IR 下才存在。</led1>
+	<zoomInOut>縮放</zoomInOut>
+	<zoomInOut1>縮放 - 點選數位放大來縮放影像（有1、2、4、8 倍可用）。</zoomInOut1>
+</body>
+

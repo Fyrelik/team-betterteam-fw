@@ -1,0 +1,116 @@
+<body>
+	<audioVideoSettings>音频和视频</audioVideoSettings>
+	<description1>您可以在此配置夜间模式，音频和视频设置（4个视频配置文件）。 配置文件3被设置为快照，配置文件4被设置为智能手机或平板电脑等设备。 </description1>
+	<descriptionNoNightmode>您可以在此配音频和视频设置（3个视频配置文件）。 配置文件2被设置为快照，配置文件3被设置为智能手机或平板电脑等设备。</descriptionNoNightmode>
+	<description2>有三种主要的视频传感器输出/显示系统(VGA、XGA和SXGA)，并提供各自不同的分辨率设置选项。</description2>
+	<savebutton>保存设置</savebutton>
+	<notsavebutton>不保存设置</notsavebutton>
+	<videoSensor>视频传感器</videoSensor>
+	<videoprofile1>视频配置 1</videoprofile1>
+	<videoprofile2>视频配置 2</videoprofile2>
+	<videoprofile3>视频配置 3</videoprofile3>
+	<videoprofile4>视频配置 4</videoprofile4>
+	<videoprofile5>视频配置 5</videoprofile5>
+	<sensorOutput>传感器输出</sensorOutput>
+	<encodeMethod>视频编码方式</encodeMethod>
+	<cbr>CBR</cbr>
+	<quality>品质</quality>
+	<JPEG_Quality>品质</JPEG_Quality>
+	<vga>VGA (640x480)</vga>
+	<sxga>SXGA (1280x1024)</sxga>
+	<xga>XGA (1024x768)</xga>
+	<resolution>分辨率</resolution>
+	<kbps>Kbps</kbps>
+	<mbps>Mbps</mbps>
+	<low>非常低</low>
+	<fair>低</fair>
+	<standard>中等</standard>
+	<good>高</good>
+	<excellent>非常高</excellent>
+	<nightMode>日间/夜间模式</nightMode>
+	<enableNightMode>启用夜间模式</enableNightMode>
+	<shutter>快门</shutter>
+	<second>秒</second>
+	<cameraEnv>摄像机环境</cameraEnv>
+	<placedLocation>光源</placedLocation>
+	<indoor>室内</indoor>
+	<outdoor>室外</outdoor>
+	<irLed>日间/夜间模式</irLed>
+	<auto>自动</auto>
+	<manual>手动IR</manual>
+	<autoPIR>自动+PIR</autoPIR>
+	<on>总是日间模式</on>
+	<off>总是夜间模式</off>
+	<audioSettings>音频设置</audioSettings>
+	<enableSpeaker>扬声器</enableSpeaker>
+	<volume>音量</volume>
+	<enableMicrophone>麦克风</enableMicrophone>
+	<encodeType>编码类型</encodeType>
+	<enablemute>自动静音</enablemute>
+	<resolution>分辨率</resolution>
+	<FPS>帧/秒</FPS>
+	<BPS>bps</BPS>
+	<JPEG_Quality>JPEG画质</JPEG_Quality>
+	<RTSP_URL>RTSP URL</RTSP_URL>
+	<mobileOnly>仅适用于移动通讯设备</mobileOnly>
+	<updateConfirm>请注意，SXGA模式有下列限制：1. 将禁用活动探测和活动触发快门功能；2. 录像内容会被压缩，最多能有中等画质分辨率；3. 非IE浏览器只能以1280x1024的分辨率显示视频。</updateConfirm>
+	<reboot1>摄像机正在重启，请等待 </reboot1>
+	<reboot2>数秒。</reboot2>
+	<xgaText>选择XGA模式时，只有profile 1 支持1024*768的解析度。</xgaText>
+	<sxgaText1>选择SXGA 模式时, 只有Profile 1 的JPEG 编码方式支持1280x1024 的解析度。</sxgaText1>
+	<sxgaText2>移动侦测及移动触发的功能会被停用。</sxgaText2>
+	<nightModeText>当选择夜间模式时，暗光环境下的实际帧率可能会低于设置的最大帧率。</nightModeText>
+	<RTSPErrorMsg1>视频配置文件 </RTSPErrorMsg1>
+	<RTSPErrorMsg2>RTSP URL不能与视频文件相同。</RTSPErrorMsg2>
+	<RTSPErrorMsg3>RTSP URL</RTSPErrorMsg3>
+	<RTSPErrorMsg4>RTSP URL不能为空白，只能接受数字、字母、\".\" , \"-\"和\"_\"字符。</RTSPErrorMsg4>
+	<profile1>视频配置 1</profile1>
+	<profile2>视频配置 2</profile2>
+	<profile3>视频配置 3</profile3>
+	<profile4>视频配置 4</profile4>
+	<tvOutTitle>视频输出</tvOutTitle>
+	<tvOUT>视频输出</tvOUT>
+	<enableTvOUT>开启视频输出</enableTvOUT>
+	<NTSC>NTSC</NTSC>
+	<PAL>PAL</PAL>
+	<schedule>计划</schedule>
+	<daytime>日间模式时间</daytime>
+	<timeFrom>开始</timeFrom>
+	<timeTo>结束</timeTo>
+	<sun>星期日 </sun>
+	<mon>星期一 </mon>
+	<tue>星期二 </tue>
+	<wed>星期三 </wed>
+	<thu>星期四 </thu>
+	<fri>星期五 </fri>
+	<sat>星期六 </sat>
+	<mfhourError>起始小时无效。</mfhourError>
+	<mthourError>结束小时无效。</mthourError>
+	<mfminuteError>起始分钟无效。</mfminuteError>
+	<mtminuteError>结束分钟无效。</mtminuteError>
+	<lightSensorLevel>感光灵敏度</lightSensorLevel>
+	<brightest>高</brightest>
+	<darkest>低</darkest>
+	<median>中</median>
+</body>
+<hint>
+    <helpfulHints>帮助提示..</helpfulHints>
+	<audioVideoSettings>较高的分辨率、帧率和速率能获得更好的视频画质。同时，也需要更多的网络带宽。</audioVideoSettings>
+	<encodeType>选择视频编码'JPEG' 或 'H.264'。</encodeType>
+	<resolution>根据所用的显示系统有多个选项。 </resolution>
+	<FPS>每秒的图像帧数由摄像机插值生成。</FPS>
+	<encodeMethod>选择CBR的表示以bps优先或着以品质优先来压缩影像。</encodeMethod>
+	<BPS>为摄像机的运行选择一个固定的带宽。较高的数值表示图像质量较高，但是需要占用更多的网络带宽。</BPS>
+	<JPEG_Quality>设置图像的品质。</JPEG_Quality>
+	<RTSP_URL>当使用移动QuickTime或移动设备查看时，该URL于接入摄像机。</RTSP_URL>
+	<irLed>选择夜间模式，在昏暗区域使用摄像机的IR LED。</irLed>
+	<enableSpeaker>选择此功能后，您可以通过计算机的话筒通话，您的声音会传送至摄像机的外置扬声器。</enableSpeaker>
+	<enableMicrophone>启用此功能可以听到来自摄像机话筒的声音。</enableMicrophone>
+	<tvOUThelp>开启视频输出，你可以将视频输出到电视或者其他显示设备。</tvOUThelp>	
+	<enablemutehelp>若启用本选项，将在摄像机镜头移动时自动关闭麦克风。</enablemutehelp>	
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<fail>更改失败。</fail>
+	<saveOK>服务器正在重启，请等待1分钟，然后使用新IP地址连接摄像机。</saveOK>
+</message>

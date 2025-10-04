@@ -1,0 +1,41 @@
+<leftPanel>
+	<camera>Cámara</camera>
+	<logout>Cierre de sesión</logout>
+	<titleLiveVideo>VÍDEO EN DIRECTO</titleLiveVideo>
+	<wizard>Asistente de configuración</wizard>
+	<networkSettings>Red</networkSettings>
+	<wireless>Configuración inalámbrica</wireless>
+	<ddns>DNS dinámico</ddns>
+	<imageSettings>Configuración de la imagen</imageSettings>
+	<audioVideo>Audio y vídeo</audioVideo>
+	<mailFtp>Correo y FTP</mailFtp>
+	<motionDetection>Detección de movimiento</motionDetection>
+	<timeAndDate>Fecha y hora</timeAndDate>
+	<cameraControl>Control de cámara</cameraControl>
+	<cameraPatrolControl>Posición de vigilancia</cameraPatrolControl>
+	<recording>Grabación SD</recording>
+	<snapshot>Instantánea</snapshot>
+	<digitalOutput>Salida digital</digitalOutput>
+	<videoclip>Clip de vídeo</videoclip>
+	<rs485>RS-485</rs485>
+	<ack>Reconocimientos</ack>
+	<logout>Cierre de sesión</logout>
+	<titleSetup>CONFIGURACIÓN</titleSetup>
+	<deviceInfo>Información del dispositivo</deviceInfo>
+	<log>Registro</log>
+	<logout>Cierre de sesión</logout>
+	<titleStatus>ESTADO</titleStatus>
+	<deviceManagement>Admin</deviceManagement>
+	<backupAndRestore>Sistema</backupAndRestore>
+	<firmwareUpgrade>Actualización del firmware</firmwareUpgrade>
+	<logout>Cierre de sesión</logout>
+	<titleMaintenance>MANTENIMIENTO</titleMaintenance>
+	<menu>Menú de Ayuda</menu>
+	<logout>Cierre de sesión</logout>
+	<titleHelp>AYUDA</titleHelp>
+	<sdcard>Gestión de SD</sdcard>
+	<audio_detection>Detección de sonido</audio_detection>
+	<ipFilter>Filtro IP</ipFilter>
+	<https>Configuración HTTPS</https>
+</leftPanel>
+
