@@ -4,6 +4,10 @@
 - Something: TFTP
 - DCS-8000LH
 
+## extraction
+
+`binwalk -me <FILE>`
+
 - Boot Vulns:
     - Versions 2013.07-rc1 to 2014.07-rc2 - Verified boot bypass
         - Improper enforcement of Flattened Image Tree (FIT) image signatures allows a local attacker to supply a legacy image and execute an unsigned kernel
