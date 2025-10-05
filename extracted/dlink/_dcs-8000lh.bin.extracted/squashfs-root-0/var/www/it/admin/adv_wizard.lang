@@ -1,0 +1,24 @@
+<body>
+	<internetSettings>impostazioni di connessione a Internet</internetSettings>
+	<description1>In questa sezione è possibile configurare le impostazioni dell'interfaccia cablata di rete della videocamera IP. Se si sta configurando il dispositivo per la prima volta, D-Link consiglia di selezionare la Configurazione guidata connessione Internet e di seguire le istruzioni visualizzate. Se si desidera modificare o configurare le impostazioni della videocamera IP manualmente, è possibile selezionare Configurazione manuale connessione Internet per inserire le impostazioni di rete.</description1>
+	<description1wireless>In questa sezione è possibile configurare le impostazioni dell'interfaccia di rete della videocamera IP. Se si sta configurando il dispositivo per la prima volta, D-Link consiglia di selezionare la Configurazione guidata connessione Internet e di seguire le istruzioni visualizzate. Se si desidera modificare o configurare le impostazioni della videocamera IP manualmente, è possibile selezionare Configurazione manuale connessione Internet per inserire le impostazioni di rete.</description1wireless>
+	<internetButton>Configurazione guidata connessione Internet</internetButton>
+	<internetSetup>Configurazione manuale connessione Internet</internetSetup>
+	<motionSettings>Impostazioni di rilevamento del movimento della videocamera IP</motionSettings>
+	<description2>In questa sezione è possibile configurare le impostazioni di rilevamento del movimento della videocamera IP. Se si sta configurando il dispositivo per la prima volta, D-Link consiglia di selezionare la Configurazione guidata Rilevamento del movimento e di seguire le istruzioni visualizzate. Se si desidera modificare o configurare manualmente il rilevamento del movimento, selezionare Configurazione manuale Rilevamento del movimento.</description2>
+	<description3>Quando la videocamera è impostata sulla modalità SXGA, il rilevamento del movimento è disabilitato.</description3>
+	<description4>Per abilitare il rilevamento del movimento, selezionare la modalità VGA o XGA in </description4>
+	<description5> Audio e video.</description5>
+	<motionButton>Configurazione guidata rilevamento del movimento</motionButton>
+	<motionSetup>Configurazione manuale Rilevamento del movimento</motionSetup>
+	<privacy>Videocamera in modalità privacy.</privacy>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<description1>Gli utenti esperti che hanno già configurato una videocamera Internet prima, possono fare clic su 'Configurazione manuale connessione Internet' per inserire manualmente tutte le impostazioni.</description1>
+	<description2>Gli utenti che si ritengono esperti e desiderano configurare manualmente il rilevamento del movimento, possono fare clic su 'Configurazione manuale Rilevamento del movimento' per inserire manualmente tutte le impostazioni.</description2>
+</hint>
+<message>
+
+</message>
+

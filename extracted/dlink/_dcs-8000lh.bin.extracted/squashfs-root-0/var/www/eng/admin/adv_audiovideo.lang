@@ -1,0 +1,111 @@
+<body>
+	<audioVideoSettings>Audio And Video</audioVideoSettings>
+	<description1>You may configure night mode, audio and video settings (4 video profiles) here. Profile 1 has been set for snapshot, and profile 3 is set for your mobile phone or PDA device. </description1>
+	<descriptionNoNightmode>You may configure audio and video settings (3 video profiles) here. Profile 2 has been set for snapshot, and profile 3 is set for your mobile phone or PDA device.</descriptionNoNightmode>
+	<description2>There are three main video sensor outputs/ display system ('VGA', 'XGA', 'SXGA') and provides their own resolution settings for selections.</description2>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<videoSensor>video sensor</videoSensor>
+	<sensorOutput>Sensor Output</sensorOutput>
+	<vga>VGA (640x480)</vga>
+	<sxga>SXGA (1280x1024)</sxga>
+	<xga>XGA (1024x768)</xga>
+	<resolution>Resolution</resolution>
+	<kbps>Kbps</kbps>
+	<mbps>Mbps</mbps>
+	<low>Very Low</low>
+	<fair>Low</fair>
+	<standard>Medium</standard>
+	<good>High</good>
+	<excellent>Very High</excellent>
+	<nightMode>DAY/NIGHT MODE</nightMode>
+	<enableNightMode>Enable Night Mode</enableNightMode>
+	<shutter>Shutter</shutter>
+	<second>Second</second>
+	<cameraEnv>Camera Environment</cameraEnv>
+	<placedLocation>Light Source</placedLocation>
+	<indoor>Indoor</indoor>
+	<outdoor>Outdoor</outdoor>
+	<irLed>Day/Night Mode</irLed>
+	<auto>Auto</auto>
+	<manual>Manual IR</manual>
+	<autoPIR>Auto + PIR</autoPIR>
+	<on>Always Day Mode</on>
+	<off>Always Night Mode</off>
+	<audioSettings>audio setup</audioSettings>
+	<enableSpeaker>Speaker</enableSpeaker>
+	<volume>Volume</volume>
+	<enableMicrophone>Microphone</enableMicrophone>
+	<encodeType>Encode Type</encodeType>
+	<enablemute>Auto Mute</enablemute>
+	<resolution>Resolution</resolution>
+	<FPS>FPS</FPS>
+	<BPS>bps</BPS>
+	<encodeMethod>Encode Method</encodeMethod>
+	<cbr>CBR</cbr>
+	<quality>Quality</quality>
+	<JPEG_Quality>Quality</JPEG_Quality>
+	<RTSP_URL>RTSP URL</RTSP_URL>
+	<mobileOnly>FOR MOBILE DEVICE ONLY</mobileOnly>
+	<updateConfirm>Please note that SXGA mode has the following limitations:\n  1. Motion detection and motion triggered snapshots will be disabled.\n  2. Recordings will be doneat Medium resolution at most.\n  3. Non-IE browsers will only show video at 1280x1024</updateConfirm>
+	<reboot1>The camera is currently restarting, please wait </reboot1>
+	<reboot2> seconds.</reboot2>
+	<xgaText>When XGA mode is selected, only Profile 1 supports 1024x768.</xgaText>
+	<sxgaText1>When SXGA mode is selected, only Profile 1's JPEG Encode Type supports 1280x1024.</sxgaText1>
+	<sxgaText2>Motion detection and motion trigger will be disabled.</sxgaText2>
+	<nightModeText>When the Night Mode is selected, the actual frame rate might lower than Max Frame Rate setting above in dim environment.</nightModeText>
+	<RTSPErrorMsg1>VIDEO PROFILE </RTSPErrorMsg1>
+	<RTSPErrorMsg2> RTSP URL can't be the same with VIDEO PROFILE </RTSPErrorMsg2>
+	<RTSPErrorMsg3> RTSP URL</RTSPErrorMsg3>
+	<RTSPErrorMsg4>RTSP URL can't be empty, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</RTSPErrorMsg4>
+	<profile1>VIDEO PROFILE 1</profile1>
+	<profile2>VIDEO PROFILE 2</profile2>
+	<profile3>VIDEO PROFILE 3</profile3>
+	<profile4>VIDEO PROFILE 4</profile4>
+	<profile5>VIDEO PROFILE 5</profile5>
+	<tvOutTitle>TV-OUT</tvOutTitle>
+	<tvOUT>TV-OUT</tvOUT>
+	<enableTvOUT>Enable TV-out</enableTvOUT>
+	<NTSC>NTSC</NTSC>
+	<PAL>PAL</PAL>
+	<schedule>Schedule</schedule>
+	<daytime>Day Time</daytime>
+	<timeFrom>From</timeFrom>
+	<timeTo>to</timeTo>
+	<sun>Sun </sun>
+	<mon>Mon </mon>
+	<tue>Tue </tue>
+	<wed>Wed </wed>
+	<thu>Thu </thu>
+	<fri>Fri </fri>
+	<sat>Sat </sat>
+	<mfhourError>Start hour is not valid</mfhourError>
+	<mthourError>End hour is not valid</mthourError>
+	<mfminuteError>Start minute is not valid</mfminuteError>
+	<mtminuteError>End minute is not valid</mtminuteError>
+	<lightSensorLevel>Light Sensor Sensitivity</lightSensorLevel> 
+	<brightest>High</brightest>
+	<darkest>Low</darkest>
+	<median>Medium</median>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<audioVideoSettings>Higher Resolution, FPS and bps gives better video quality. At the same time, it requires more network bandwidth.</audioVideoSettings>
+	<encodeType>Select the video codec 'JPEG', or 'H.264'.</encodeType>
+	<resolution>The options depend on display system used. </resolution>
+	<FPS>The amount of image frames rendered by the camera per second.</FPS>
+	<encodeMethod>Select CBR to have bps first or Quality first as video encoding method.</encodeMethod>
+	<BPS>Select a fixed bandwidth for your camera operation. Higher value means a higher quality image but consumes more network bandwidth.</BPS>
+	<JPEG_Quality>Set the quality for image.</JPEG_Quality>
+	<RTSP_URL>The URL used to connect to the camera when viewing from QuickTime or a mobile device.</RTSP_URL>
+	<irLed>Select night mode to use camera's IR LED in a dim light area.</irLed>
+	<enableSpeaker>When this option is selected, you can talk into your PC’s microphone and your voice will be heard through the external speaker connected to the camera.</enableSpeaker>
+	<enableMicrophone>Enable this feature to hear audio from the camera's microphone.</enableMicrophone>
+	<tvOUThelp>Enable TV-out, you can transport camera video to TV or other monitor.</tvOUThelp>	
+	<enablemutehelp>Enable this option to automatically mute microphone when the camera lens is moving.</enablemutehelp>	
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+	<saveOK>Web Server is restarting. Please wait for 1 minute and then re-connect the camera with the newly IP address.</saveOK>
+</message>

@@ -1,0 +1,48 @@
+<body>
+	<liveVideo>VIDEO EM TEMPO REAL</liveVideo>
+	<camera>Câmera</camera>
+	<videoProfile>Perfil de Video</videoProfile>
+	<videoProfile1> - Estes ícones mostram as configurações atuais para o perfil de vídeo. Se usando um navegador não-IE, selecione ícones disponíveis.</videoProfile1>
+	<fullScreen>Tela Cheia</fullScreen>
+	<fullScreen1> - Pressione o ícone para ampliar o vídeo para tela cheia.</fullScreen1>
+	<snapshot>Snapshot</snapshot>
+	<snapshot1> - Clicar no ícone salva uma imagem em formato JPEG para o seu computador.</snapshot1>
+	<recording>Gravar</recording>
+	<recording1> - Gravará o vídeo imediatamente para o caminho do arquivo pré-determinado.</recording1>
+	<setPath>Definir Pasta no Storage</setPath>
+	<setPath1> - Clique no ícone para configurar o local padrão que os dados são armazenados quando usando o botão de snapshot ou gravação.</setPath1>
+	<listen>Ouvir</listen>
+	<listen1> - Clique no botão para alternar o áudio em desligado e ligado. Ainda assim o áudio será gravado.</listen1> 
+	<talk>Falar</talk>
+	<led>LED IR</led>
+	<led1> - Clique no botão para ligar/desligar LED IR na câmera para ativar a visão noturna. Este botão só está disponível quando o modo dia/noite está em IR manual.</led1>
+	<zoomInOut>Zoom in/out:</zoomInOut>
+	<zoomInOut1> - Clique nos botões para ampliar ou reduzir digitalmente o vídeo em tempo real (ampliação 1 vez, 2 vezes ou 4 vezes).</zoomInOut1>
+	<talk1> - Clique no botão para ligar e desligar o som do PC para a câmera.</talk1>
+	<digitalOut>Saída Digital</digitalOut>
+	<digitalOut1> - Clique no botão para enviar sinais de alarme ao conector de saída D/O.</digitalOut1>
+	<digitalInputTrigger>Indicador de Entrada Digital</digitalInputTrigger>
+	<digitalInputTrigger1> - Este indicador piscará quando a entrada Digital for detectada.</digitalInputTrigger1>
+	<motionTrigger>Indicador de Início de Movimento/Som</motionTrigger>
+	<motionTrigger1> - Este indicador piscará quando a é disparada a deteção de movimento/som.</motionTrigger1>
+	<recordingTrigger>Indicador de Gravação</recordingTrigger>
+	<recordingTrigger1> - Este indicador piscará quando a gravação estiver ativa.</recordingTrigger1>
+	<recordingError>Erro de Gravação</recordingError>
+	<recordingError1> - Este indicador piscará quando houver erro na gravação.</recordingError1>
+	<pantiltcontrol>Controle Horizontal Vertical</pantiltcontrol>
+	<pantiltcontrol1> - Você pode controlar a posição da lente de câmera clicando nas setas dos botões Acima/Abaixo/Esquerda/Direita/Esquerda Acima/Esquerda Abaixo/Direita Acima/Direita Abaixo. Clicar o botão Início irá mover a lente na posição original de repouso.</pantiltcontrol1>
+	<pan>Horizontal</pan>
+	<pan1> - Este botão comanda a câmera para se deslocar desde a extrema esquerda para a posição de extrema direita. Após a movimentação, a câmera retorna à posição original.</pan1>
+	<patrol>Vigiar</patrol>
+	<patrol1> - Clique no botão para mover a câmera nas posições predefinidas, configuradas no menu de posição predefinida. Os comandos em que estas posições são visualizadas e a quantidade de tempo que a câmera permanece na posição também são configuradas no menu de posição Predefinida.</patrol1>
+	<stop>Parar</stop>
+	<stop1> - Clique para parar a câmera na posição atual (usada para modos Horizontal e Vigilância).</stop1>
+	<goto>Siga para</goto>
+	<gotol> - Permitem que você mova a lente para uma posição predefinida programada.</gotol>
+	<panspeed>Passo Horizontal</panspeed>
+	<panspeed1> - É usado para controlar o passo que a câmera é movida usando o recurso de movimento horizontal.</panspeed1>
+	<tiltspeed>Passo Vertical</tiltspeed>
+	<tiltspeed1> - É usado para controlar o passo que a câmera é movida usando o recurso de movimento vertical.</tiltspeed1>
+	<language>Seleção de Linguagem</language>
+	<language1> - Selecione o idioma preferido do site no menu.</language1>
+</body>

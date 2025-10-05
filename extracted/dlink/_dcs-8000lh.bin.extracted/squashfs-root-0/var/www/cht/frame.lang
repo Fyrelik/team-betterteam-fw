@@ -1,0 +1,20 @@
+<frame>
+	<productpage>產品： </productpage>
+	<version>韌體版本： </version>
+	<home>即時影像</home>
+	<advanced>設定</advanced>
+	<tools>維護</tools>
+	<status>狀態</status>
+	<support>說明</support>
+	<title1>友訊科技 | 網路攝影機 | </title1>
+	<title2>友訊科技 | 無線網際網路攝影機 | </title2>
+	<copyright1>Copyright </copyright1>
+	<copyright2>2015, D-Link Corporation / D-Link Systems, Inc. All rights reserved.</copyright2>
+	<ok>儲存設定</ok>
+	<cancel>不要儲存設定</cancel>
+	<test>測試中...</test>
+	<save>保存中...</save>
+	<loading>載入中...</loading>
+	<processing>處理中...</processing>
+	<chromeAlertInfo>The browser you are using may have difficulty receiving images and video. If you experience any issues viewing this page, we suggest using Internet Explorer, Mozilla Firefox, or Apple Safari.</chromeAlertInfo>
+</frame>

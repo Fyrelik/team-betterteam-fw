@@ -1,0 +1,18 @@
+<body>
+	<systemLog>Journal système</systemLog>
+	<description1>Le journal système journalise les événements de la caméra qui se sont produits.</description1>
+	<ipAddress>Adresse IP</ipAddress>
+	<port>Port</port>
+	<save>Enregistrer</save>
+	<currentLog>Journal actuel</currentLog>
+	<clear>Effacer</clear>
+	<download>Télécharger</download>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<systemLog>Vous pouvez télécharger le journal sur votre disque dur local ou bien l'effacer en cliquant respectivement sur le bouton Télécharger sur le disque dur ou sur le bouton Effacer.</systemLog>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+</message>
+

@@ -1,0 +1,59 @@
+<body>
+	<maintenance>MANUTENZIONE</maintenance>
+	<deviceManagement>Amministratore</deviceManagement>
+	<backupAndRestore>Sistema</backupAndRestore>
+	<firmwareUpgrade>Aggiornamento firmware</firmwareUpgrade>
+	<rtspauth>Autenticazione RTSP</rtspauth>
+	<rtspauth1> - Consente di abilitare la convalida utente per lo streaming RTSP.</rtspauth1>
+	<httpauth>Autenticazione HTTP</httpauth>
+	<httpauth1> - Consente di abilitare la convalida utente per lo streaming HTTP.</httpauth1>
+	<snapauth>Autenticazione URL per l'istantanea</snapauth>	
+	<snapauth1> - Consente di abilitare la convalida utente per l'URL per l'istantanea.</snapauth1>	
+	<cameraName>Nome videocamera</cameraName>
+	<cameraName1> - Nome univoco per la videocamera.</cameraName1>
+	<label>Etichetta</label>
+	<label1> - Etichetta univoca per la videocamera.</label1>
+	<showTime>Mostra ora</showTime>
+	<showTime1> - Selezionare questa opzione per visualizzare le informazioni relative a data e ora sull'istantanea o sull'immagine video.</showTime1>
+	<adminPassword>Impostazione password amministratore</adminPassword>
+	<adminPassword1> - Password per l'account dell'amministratore. La password dell'amministratore deve essere inserita due volte per conferma.</adminPassword1>
+	<led>Spia LED Power/Link</led>
+	<led1>Acceso - Il LED è normalmente lampeggiante a seconda dello stato di accensione e del collegamento cablato/wireless e della trasmissione del flusso video/audio.</led1>
+	<led2>Spento - Spegne sempre il LED.</led2>
+	<led3>Lampeggiante - Fa sempre lampeggiare il LED Link durante il monitoraggio del video.</led3>
+	<timeStamp>Data e ora</timeStamp>
+	<timeStamp1> - Selezionare questa opzione per visualizzare le informazioni relative a data e ora sull'istantanea o sull'immagine video.</timeStamp1>
+	<addUser>Aggiungi account utente</addUser>
+	<addUser1> - Crea nuovi account utente per l'accesso all'immagine video in diretta; è possibile aggiungere fino a venti account utente. Il nuovo nome utente verrà visualizzato nell'elenco utenti per l'eliminazione.</addUser1>
+	<deleteUser>Elimina</deleteUser>
+	<deleteUser1> - Rimuove l'utente dall'elenco utenti.</deleteUser1>
+	<userList>Elenco utenti</userList>
+	<userList1> - Elenco degli account utente (escluso amministratore) da visualizzare e eliminare.</userList1>
+	<backup>Salva su disco rigido locale</backup>
+	<backup1> – Dopo aver fatto clic su questo pulsante compare una finestra di scaricamento che consente di salvare il file di configurazione della videocamera sul computer per scopi di ripristino.</backup1>
+	<restore>Carica da disco rigido locale</restore>
+	<restore1> - È possibile sfogliare e caricare il file di configurazione. Quindi, fare clic su 'Carica configurazione' per ripristinare le impostazioni preconfigurate o salvate.</restore1>
+	<rebootSystem>Riavvia dispositivo</rebootSystem>
+	<rebootSystem1> - Questa opzione riavvia la videocamera.</rebootSystem1>
+	<factoryDefaults>Ripristina impostazioni predefinite</factoryDefaults>
+	<factoryDefaults1> - Questa opzione ripristina le impostazioni predefinite per la videocamera. L'operazione eliminerà tutte le impostazioni di configurazione effettuate precedentemente.</factoryDefaults1>
+	<firmwareInformation>Informazioni sul firmware</firmwareInformation>
+	<firmwareInformation1> - Visualizza le informazioni relative al firmware.</firmwareInformation1>
+	<firmwareUpdate>Aggiornamento firmware</firmwareUpdate>
+	<firmwareUpdate1> - Questa opzione consente all'utente di aggiornare il firmware. Fare clic su 'Sfoglia' per individuare il file, quindi fare clic su 'Carica' per applicare il nuovo firmware alla videocamera.</firmwareUpdate1>
+	<firmwarebuildnumber>Numero di build corrente del firmware</firmwarebuildnumber>
+	<firmwarebuildnumber1> - Numero di revisione specifico relativo alla versione del firmware della videocamera. Tale numero deve essere comunicato al supporto tecnico quando si richiede assistenza.</firmwarebuildnumber1>
+	<enableOSD>OSD</enableOSD>
+	<enableOSDl> - Abilitando la funzione OSD, l'etichetta e la data e l'ora saranno visualizzate sull'immagine dell'istantanea o del video per l'utente.</enableOSDl>
+	<calibrateDevice>Calibra il dispositivo</calibrateDevice>
+	<calibrateDevice1> - Consente di ricalibrare la posizione home PT della videocamera.</calibrateDevice1>
+	<privacycontrol>Controllo privacy</privacycontrol>
+	<privacycontrol1> - Consente di configurare la videocamera impostando o meno la modalità privacy.</privacycontrol1>
+	<privacyon>Privacy attiva</privacyon>
+	<privacyon1> - Videocamera in modalità privacy. Le opzioni Video in diretta, Clip video, Istantanea e Registrazione su SD verranno disattivate.</privacyon1>
+	<privacyoff>Privacy non attiva</privacyoff>
+	<privacyoff1> - Videocamera in modalità operativa normale.</privacyoff1>
+	<curfirmwareversion>Versione firmware corrente</curfirmwareversion>
+	<curfirmwareversion1> - Visualizza la versione del firmware locale installato nella videocamera.</curfirmwareversion1>
+</body>
+

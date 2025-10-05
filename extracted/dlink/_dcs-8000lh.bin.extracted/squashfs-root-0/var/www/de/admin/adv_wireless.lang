@@ -1,0 +1,65 @@
+<body>
+	<wirelessSettings>Einrichtung des drahtlosen Netzes</wirelessSettings>
+	<description1>In diesem Abschnitt können Sie die Einstellungen für eine drahtlose Einrichtung Ihrer Kamera vornehmen.</description1>
+	<savebutton>Einstellungen speichern</savebutton>
+	<notsavebutton>Einstellungen nicht speichern</notsavebutton>
+	<wirelessConfiguration>Drahtlose Konfiguration</wirelessConfiguration>
+	<enableWireless>Drahtlos aktivieren</enableWireless>
+	<ssid>Netzwerkname</ssid>
+	<bssid>BSSID</bssid>
+	<signal>Signal</signal>
+	<survey>Standortübersicht</survey>
+	<rescan>Erneute Suche</rescan>
+	<wirelessMode>Drahtlos-Modus</wirelessMode>
+	<wireless>Drahtlose</wireless>
+	<infrastructure>Infrastruktur</infrastructure>
+	<adhoc>Ad-Hoc</adhoc>
+	<channel>Kanal</channel>
+	<ssidErrorq>Keine</ssidErrorq>
+	<auto>Auto</auto>
+	<authentication>Sicherheitsmodus</authentication>
+	<encryption>Verschlüsselungstyp</encryption>
+	<key>Schlüssel</key>
+	<reboot1>Die Kamera wird zurzeit neu gestartet. Bitte warten </reboot1>
+	<reboot2> Sekunden.</reboot2>
+	<ssidError>Netzwerkname muss angegeben werden.</ssidError>
+	<ssidError1>Der Netzwerkname kann nicht nur aus Leerzeichen bestehen</ssidError1>
+	<keyError1>Der Schlüssel muss 5, 10, 13 oder 26 Zeichen lang sein</keyError1>
+	<keyError2>Der Schlüssel ist ungültig. Ist der Schlüssel 10 oder 26 Zeichen lang;\nDie gültigen Zeichen sind 0~9, A~F oder a~f</keyError2>
+	<keyError3>Der Schlüssel darf nicht leer sein</keyError3>
+	<keyError4>Der Schlüssel ist ungültig. Er muss mindestens 8 Zeichen aufweisen. </keyError4>
+	<keyError5>Der Schlüssel ist ungültig. Die gültigen 64 Zeichen sind 0~9, A~F oder a~f</keyError5>
+	<keyError6>Der Schlüssel ist ungültig. Er darf max. 64 Zeichen aufweisen. </keyError6>
+	<showpw>Verborgenen Schlüssel anzeigen</showpw>
+	<antenna>Antenne</antenna>
+	<intAntenna>Intern</intAntenna>
+	<extAntenna>Extern</extAntenna>
+	<reboot3>Ziehen Sie ein Ethernetkabel nicht während des Neustartvorgangs von der Kamera ab.</reboot3>
+	<ssidname>===Verfügbare WLANs===</ssidname>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<enableWireless>Aktivieren Sie erst die Drahtlosfunktion, bevor Sie die drahtlose Verbindung der Kamera konfigurieren. Sie können das drahtlose Netzwerk für die Verbindung wählen, indem Sie das Pulldown-Menü der Standortübersicht verwenden oder die SSID manuell eingeben.</enableWireless>
+	<ssid>SSID (Service Set Identifier) ist der Name Ihres drahtlosen Netzwerks. Er kann z. B. 'Standardnetz', 'Konferenz', 'Mein Netzwerk', usw. lauten.</ssid>
+	<wirelessMode>Es stehen Ihnen zwei Verbindungsmodi zur Verfügung. 'Infrastructure' ist ein drahtloser Verbindungsmodus, bei dem ein Access Point als Übertragungspunkt aller drahtlosen Geräte verwendet wird. 'Ad-Hoc' ist ein drahtloser Verbindungsmodus, bei dem kein Access Point verwendet wird und die Kamera direkt mit dem PC verbunden ist.</wirelessMode>
+	<None>Keine</None>
+	<NoneDes>Diese Option macht die Kamera für alle Geräte im Netz sichtbar. Es wird keine Verschlüsselung bereitgestellt.</NoneDes>
+	<WEPPassword>WEP</WEPPassword>
+	<WEPPasswordDes>Lässt die Kommunikation nur mit Geräten zu, die identische 'WEP' (Wired Equivalent Privacy)-Einstellungen aufweisen.</WEPPasswordDes>
+	<WPAPersonal>WPA-PSK, WPA2-PSK</WPAPersonal>
+	<WPAPersonalDes>Beide Modi erfordern die Eingabe eines so genannten 'Pre-shared Key' für die Verbindung zwischen Kamera und drahtlosem Gerät.</WPAPersonalDes>
+	<rescan>Suchen Sie noch einmal nach dem Namen des drahtlosen Geräts in Ihrem drahtlosen Netzwerk.</rescan>
+	<key>Ein Satz von ‘pre-shared’ Zeichen für die Verbindung zwischen der Kamera und dem drahtlosen Gerät, wenn Sie WEP, WPA-PSK oder WPA2-PSK für den Sicherheitsmodus wählen.</key>
+	<showpw>Wenn die Option ausgewählt ist, wird der Schlüssel im Text angezeigt.</showpw>
+	<antenna>Wählen Sie die Verwendung einer internen oder externen Antenne.</antenna>
+	<channel> - Der Standardmodus ist "Auto" für Infrastruktur. Der Kanal ist nur im Ad-hoc-Modus wählbar.</channel>
+	<encryption1>TKIP - (Temporal Key Integrity Protocol) - Bietet Schutz gegen Hacker-Angriffe mithilfe des Message Integrity Code (MIC). In der Regel wird WPA mit TKIP verwendet.</encryption1>
+	<encryption2>AES - (Advanced Encryption System) - Nutzt eine symmetrische 128-Bit Block-Datenverschlüsselung. In der Regel wird WPA2 mit AES verwendet.</encryption2>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<fail>Änderungen fehlgeschlagen.</fail>
+	<notChanged>Keine Änderungen.</notChanged>
+	<saveOK>Der Webserver wird neu gestartet. Warten Sie bitte ca. eine Minute und stellen Sie dann die Verbindung zu der Kamera mit der neuen IP-Adresse (falls geändert) wieder her.</saveOK>
+</message>
+

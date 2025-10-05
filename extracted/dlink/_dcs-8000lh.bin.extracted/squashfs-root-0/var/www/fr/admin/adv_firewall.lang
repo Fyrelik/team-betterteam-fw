@@ -1,0 +1,71 @@
+<body>
+	<ipfiltertitle>FILTRE IP</ipfiltertitle>
+	<description1>Pour activer les filtres IP de votre caméra, vous devez sélectionner la case à cocher 'Filtrage des listes d'accès'. Modifiez ensuite vos réglages avec cette page.</description1>
+	<subtitle>FILTRE IP</subtitle>
+	<enableIpFilter>Filtrage des listes d'accès</enableIpFilter>
+	<filterType>Type de filtre :</filterType>
+	<filterAllow>Autoriser</filterAllow>
+	<filterDeny>Refuser</filterDeny>
+	<accessList>Liste des filtres :</accessList>
+	<ipTypeSig>Unique</ipTypeSig>
+	<ipTypeSub>Sous-réseau</ipTypeSub>
+	<ipTypeRan>Plage</ipTypeRan>
+	<ipTypeSigDot>Adresse IP :</ipTypeSigDot>
+	<ipTypeSubDot>Adresse réseau / Masque sous-réseau :</ipTypeSubDot>
+	<ipTypeRanDot>Adresse IP - Adresse IP :</ipTypeRanDot>
+	<addAFilter>Ajouter</addAFilter>
+	<adminIp>Adresse IP de l'administrateur :</adminIp>
+	<ipadresserrorinfo>Les paramètres sont incorrects</ipadresserrorinfo>
+	<allowAdmin>Toujours permettre à cette adresse IP d'accéder à ce périphérique</allowAdmin>
+	<delAFilter>Supprimer</delAFilter>
+	<ipMessage1>Adresse IP</ipMessage1>
+	<ipMessage2>L'adresse IP entrée est incorrecte.</ipMessage2>
+	<ipMessage3>L'adresse IP ne peut pas être égale à zéro.</ipMessage3>
+	<ipError1>L'adresse IP ne peut pas être vide.</ipError1>
+	<networkipseterror>Les paramètres sont incorrects.</networkipseterror>
+	<delNumError>Sélectionnez un filtre.</delNumError>
+	<delChooseError>choisissez un seul filtre à la fois.</delChooseError>
+	<netMaskError>Le masque de sous-réseau doit être compris entre 1 et 32.</netMaskError>
+	<allowEmptyListError>veuillez ajouter un filtre ou activer l'IP admin.</allowEmptyListError>
+	<ipv4filterListNumError>La liste des filtres IPv4 est pleine.</ipv4filterListNumError>
+	<ipv6filterListNumError>La liste des filtres IPv6 est pleine.</ipv6filterListNumError>
+	<allowNoneError>Veuillez autoriser un filtre au moins ou activer une ip admin.</allowNoneError>
+	<decreasRangeError>La plage décroissante d'adresses IP est incorrecte.</decreasRangeError>
+	<sameIpError>Les adresses IP de début et de fin ne peuvent pas être identiques.</sameIpError>
+	<filteraddress>Ajouter un filtre :</filteraddress>
+	<ipv4AccessList>Liste des filtres IPv4 :</ipv4AccessList>
+	<ipv6AccessList>Liste des filtres IPv6 :</ipv6AccessList>
+	<ipv6AddressError>L'adresse IP entrée est incorrecte.</ipv6AddressError>
+	<addAddressIsError>L'adresse entrée est incorrecte.</addAddressIsError>
+	<ipv6PrefixError>La longueur du préfixe IPv6 doit se situer entre 0 et 128.</ipv6PrefixError>
+	<StartIP>Adresse IP de départ :</StartIP>
+	<EndIP>Adresse IP finale :</EndIP>
+	<commonIPadresserror>L'adresse IP existe déjà.</commonIPadresserror>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<Ipfilter>La fonction Filtrage des listes d'accès vous donne la possibilité de permettre uniquement ou de refuser l'accessibilité des adresses IP à cette caméra.</Ipfilter>
+	<FilterType>Type de filtre</FilterType>
+	<FilterTypeText>Vous pouvez sélectionner Autoriser ou Refuser pour les adresses IP spécifiées au niveau de la liste des filtres.</FilterTypeText>
+	<AccessList>Liste des filtres</AccessList>
+	<AccessListText>Adresses IP spécifiées.</AccessListText>
+	<Single>Unique</Single>
+	<SingleText>Spécifiez une seule adresse IP.</SingleText>
+	<Subnet>Sous-réseau</Subnet>
+	<SubnetText>Spécifiez un sous-réseau d'adresses IP.</SubnetText>
+	<Range>Plage</Range>
+	<RangeText>Spécifiez une plage d'adresses IP.</RangeText>
+	<adminAdress>Adresse IP de l'administrateur</adminAdress>
+	<adminAdressText>Vous pouvez activer et définir une adresse IP comme adresse IP de l'administrateur pour qu'elle soit toujours accessible pour la caméra.</adminAdressText>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<invalidParameter>Paramètre incorrect.</invalidParameter>
+	<invalidFilterEnable>Filtre invalide activé.</invalidFilterEnable>
+	<invalidFilterType>Type de filtre invalide.</invalidFilterType>
+	<invalidAdminIPEnable>IP admin invalide activée.</invalidAdminIPEnable>
+	<invalidAdminIP>IP admin incorrecte.</invalidAdminIP>
+	<invalidIP>IP incorrecte.</invalidIP>
+	<invalidNetmask>Masque réseau incorrect.</invalidNetmask>
+	<nothingChange>Paramètres inchangés.</nothingChange>
+</message>

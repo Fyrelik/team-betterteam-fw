@@ -1,0 +1,61 @@
+<body>
+	<imageSettings>Configuration de l’image</imageSettings>
+	<description1>Les modifications apportées aux paramètres des images entrent immédiatement en vigueur. Les résultats peuvent être observés dans la fenêtre Vidéo en direct ci-dessous.</description1>
+	<image>Vidéo en direct</image>
+	<controls>Paramètres de l'image</controls>
+	<brightness>Luminosité</brightness>
+	<saturation>Saturation</saturation>
+	<contrast>Contraste</contrast>
+	<hue>Teinte</hue>
+	<frequency>Fréquence</frequency>
+	<auto>Auto</auto>
+	<hz>Hz</hz>
+	<whiteBalance>Balance des blancs</whiteBalance>
+	<indoor>Intérieur</indoor>
+	<outdoor>Extérieur</outdoor>
+	<shutter>Obturation lente</shutter>
+	<speed>Vitesse d’obturation maximale :</speed>
+	<second>second</second>
+	<source>Source lumineuse</source>
+	<disable>Désactiver</disable>
+	<BLC>BLC</BLC>
+	<AWB>AWB</AWB>
+	<AGC>AGC</AGC>
+	<AES>AES</AES>
+	<hue1> - Gradation des couleurs.</hue1>
+	<bw>N/B</bw>
+	<flip>Retournement</flip>
+	<mirror>Symétrie</mirror>
+	<autoExposure>Exposition automatique</autoExposure>
+	<reset>Restaurer les paramètres par défaut</reset>
+	<exceedMaxConn>La caméra a atteint le nombre maximal d'utilisateurs. Veuillez réessayer ultérieurement.</exceedMaxConn>
+	<enableNightMode>Obturation lente</enableNightMode>
+	<shutter>Vitesse d’obturation maximale :</shutter>
+	<second>Seconde</second>
+	<sharpness>Netteté</sharpness>
+	<noiseReduction>Réduction de bruit</noiseReduction>
+	<privacy>Cette caméra est actuellement en Mode de confidentialité.</privacy>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<imageSettings>La luminosité, le contraste et la saturation peuvent être réglés de 0 à 100, vous permettant de régler avec précision les paramètres de l'image.</imageSettings>
+	<imageSettings1>La luminosité, la saturation, le contraste et la teinte peuvent être réglés de 0 à 100, vous permettant de régler avec précision les paramètres de l'image.</imageSettings1>
+	<brightness>Compense les scènes en contre-jour.</brightness>
+	<saturation>Contrôle la force d'une couleur du noir et blanc aux couleurs vives.</saturation>
+	<contrast>Permet de régler le contraste des couleurs de l'objet. Elle aide à améliorer l'image sous un ciel gris maussade.</contrast>
+	<bw>Sélectionnez cette option pour activer ou désactiver le mode noir et blanc pour la caméra.</bw>
+	<mirror>Sélectionnez cette fonction pour obtenir une image symétrique.</mirror>
+	<flip>Sélectionnez cette fonction si la caméra est installée à l'envers au plafond.</flip>
+	<frequency>Choisissez entre « Auto », « 50 » ou « 60 » Hz (selon le pays).</frequency>
+	<whiteBalance>Ce paramètre est fixé sur « Auto » par défaut. Il élimine les dominantes de couleur non réalistes, de telle sorte que les objets blancs apparaissent blancs sur la vidéo.</whiteBalance>
+	<enableNightMode>Sélectionnez la vitesse d'obturation minimale lorsque l'environnement est sombre.</enableNightMode>
+	<hue2>Ce paramètre contrôle les différents degrés de stimulation qu'une couleur exerce sur les yeux humains.</hue2>
+	<autoExposure1>Sélectionnez cette fonction pour que la caméra règle automatiquement le temps d'exposition.</autoExposure1>
+	<sharpness>Cette fonction est utilisée pour ajuster la netteté de l’image.</sharpness>
+	<source>Sélectionnez un environnement Intérieur ou Extérieur.</source>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<fail>Échec de l’application des modifications.</fail>
+</message>
+

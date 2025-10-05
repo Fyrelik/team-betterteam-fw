@@ -1,0 +1,43 @@
+<body>
+	<description1>Puede que exista una nueva actualización de firmware para su cámara IP. Se recomienda mantener actualizado el firmware de la cámara IP para mantener y mejorar la funcionalidad y rendimiento de su cámara de Internet. Haga clic aquí </description1>
+	<description2>Página de soporte de D-Link </description2>
+	<description3>para consultar la disponibilidad de última versión de firmware. </description3>
+	<description4>Para actualizar el firmware en la cámara IP, descargue y guarde la última versión del firmware desde la Página de soporte de D-Link en su disco duro local. Localice el archivo en el disco duro local haciendo clic en el botón Examinar. Una vez que ha encontrado y ha abierto el archivo utilizando el botón Examinar, haga clic en el botón "Cargar" para iniciar la actualización del firmware. </description4>
+	<firmwareUpgrade>actualización del firmware</firmwareUpgrade>
+	<filePath>Ruta del archivo: </filePath>
+	<upload>Cargar</upload>
+	<reboot1>La cámara se está reiniciando en este momento, espere </reboot1>
+	<reboot2> segundos.</reboot2>
+	<firmwareInfo>Información del firmware</firmwareInfo>
+	<firmwareVersion>Versión del firmware actual:</firmwareVersion>
+	<firmwareProduct>Número de build del firmware actual:</firmwareProduct>
+	<mcufirmware>Versión del firmware actual de MCU:</mcufirmware>
+	<updateConfirm>¿Desea actualizar el firmware?</updateConfirm>
+	<updatingText>No cierre esta página web ni desenchufe el cable eléctrico cuando se está procesando la actualización del firmware.</updatingText>
+	<filepathError>La ruta del archivo no puede estar vacía</filepathError>
+	<progress>Avance de la carga</progress>
+	<agentVersion>Versión del agente actual:</agentVersion>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<description1>La actualización de firmware se publica periódicamente para mejorar la funcionalidad de su cámara IP y también para añadir nuevas características. Si tiene un problema con una característica específica de la cámara IP, consulte nuestro sitio de soporte haciendo clic </description1>
+	<description2>aquí</description2>
+	<description3> para consultar una actualización y comprobar si existe firmware actualizado disponible para su cámara IP.</description3>
+</hint>
+<message>
+	<updateOK>Actualización de firmware correcta.</updateOK>
+	<uploadFail>Error al cargar</uploadFail>
+	<examFail>Se ha dañado la imagen de carga</examFail>
+	<infoFail>La imagen de carga no tiene información</infoFail>
+	<invalidImage>La imagen de carga no se puede utilizar en este producto</invalidImage>
+	<resetFail>Error al reiniciar</resetFail>
+	<resetOK>Se ha realizado el reinicio</resetOK>
+	<rebootFail>Error al arrancar</rebootFail>
+	<rebootOK>Se ha realizado el arranque</rebootOK>
+	<calibrationOK>La calibración es correcta</calibrationOK>
+	<importOK>Importación correcta, se reinicializará</importOK>
+	<invalidDB>No es un archivo de base de datos válido</invalidDB>
+	<noDB>No se ha cargado ningún archivo de base de datos</noDB>
+	<saveOK>Se está reiniciando el servidor web. Espere 75 segundos y después vuelva a conectar la cámara con la nueva dirección IP.</saveOK>
+</message>
+

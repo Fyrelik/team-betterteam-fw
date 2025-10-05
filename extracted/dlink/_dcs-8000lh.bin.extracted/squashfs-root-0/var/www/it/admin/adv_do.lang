@@ -1,0 +1,52 @@
+<body>
+	<digitalOutput>Uscita digitale</digitalOutput>
+	<description1>Qui è possibile abilitare la porta dell'uscita digitale nonché la modalità di attivazione dell'evento. </description1>
+	<description2>Quando la videocamera è impostata sulla modalità SXGA, il rilevamento del movimento è disabilitato.</description2>
+	<description3>Per abilitare il rilevamento del movimento, selezionare la modalità VGA o XGA in </description3>
+	<description4> Audio e video.</description4>
+	<savebutton>Salva impostazioni</savebutton>
+	<notsavebutton>Non salvare impostazioni</notsavebutton>
+	<trigger>Trigger</trigger>
+	<enable> Segnale uscita digitale</enable>
+	<triggerEvent>Evento di attivazione</triggerEvent>
+	<motionDetection>Movimento</motionDetection>
+	<di1>Segnale ingresso digitale 1</di1>
+	<di2>Segnale ingresso digitale 2</di2>
+	<manual>Manuale</manual>
+	<di>Ingresso digitale</di>
+	<hour>Ore</hour>
+	<min>Minuti</min>
+	<sun>dom </sun>
+	<mon>lun </mon>
+	<tue>mar </tue>
+	<wed>mer </wed>
+	<thu>gio </thu>
+	<fri>ven </fri>
+	<sat>sab </sat>
+	<from>Inizio </from>
+	<to>Fine </to>
+	<day>Giorno</day>
+	<time>Ora</time>
+	<mfhourError>Ora di inizio non valida</mfhourError>
+	<mthourError>Ora di fine non valida</mthourError>
+	<mfminuteError>Minuto di inizio non valido</mfminuteError>
+	<mtminuteError>Minuto di fine non valido</mtminuteError>
+	<onlyDuring>Solo durante</onlyDuring>
+	<dayErr>Scegliere almeno un giorno</dayErr>
+	<audioDetection>Suono</audioDetection>
+	<motionNote>Rilevamento movimento non è abilitato. Passare alla pagina Web di Rilevamento movimento per configurarlo.</motionNote>
+	<audioNote>Rilevamento suono non è abilitato. Passare alla pagina Web di Rilevamento suono per configurarlo.</audioNote>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<description1>È possibile scegliere un evento di attivazione come il rilevamento del movimento oppure le attivazioni dalla porta di ingresso digitale. Quando viene attivato un evento, l'uscita digitale inizierà a inviare un segnale.</description1>
+	<manualBased>Consente all'utente di attivare l'uscita digitale nella visualizzazione in diretta.</manualBased>
+	<motionBased>Quando viene rilevato un movimento, la videocamera IP attiva i dispositivi di allarme tradizionali connessi al sistema.</motionBased>
+	<audioBased>Quando viene rilevato un suono, la videocamera IP attiva i dispositivi di allarme tradizionali connessi al sistema.</audioBased>
+	<gpio>All'attivazione del dispositivo dell'ingresso digitale, la videocamera IP attiverà i dispositivi di allarme tradizionali connessi al sistema.</gpio>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<fail>Modifiche non riuscite.</fail>
+</message>
+

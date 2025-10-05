@@ -1,0 +1,61 @@
+<body>
+	<pageEnable>直接連接設定</pageEnable>
+	<APRouterSettings>Extender Setup</APRouterSettings>
+	<description1>In this section, you can configure the wireless extender feature of your camera, which allows you to extend the range of an existing wireless network. You can choose to keep the same wireless network name for the extended network, or you can create a new one.</description1>
+	<description2>Please note that you must be connected to another wireless network through the "</description2>
+	<wirelessSetting>Wireless Setup</wirelessSetting>
+	<description3>" page in order to use Extender Mode and configure these settings. </description3>
+	<repeaterConfig>直接連接設定</repeaterConfig>
+	<ssid>SSID</ssid>
+	<enableRepeater>Extender Mode</enableRepeater>
+	<hostName>Host Wireless Network Name</hostName>
+	<repeatName>Extended Wireless Network Name (SSID)</repeatName>
+	<originalName>Same as Host Wireless Network Name</originalName>
+	<newName>Create a new Wireless Network Name</newName>
+	<userNum>允許最多客戶端數量</userNum>
+	<repeaterSecure>Extended Wireless Network Security</repeaterSecure>
+	<authentication>Security Mode</authentication>
+	<authentication1>網路驗證</authentication1>
+	<key>安全密鑰</key>
+	<none>無</none>
+	<wep>WEP</wep>
+	<wpa>WPA-PSK</wpa>
+	<wpa2>WPA2-PSK</wpa2>
+	<wpaPsk>WPA-PSK / WPA2-PSK Settings</wpaPsk>
+	<sharePWD>Pre-Shared Key</sharePWD>
+	<pwdLimit> (8-63 ASCII or 64 HEX characters)</pwdLimit>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<reboot1>Web伺服器需要重新啟動,請等待 </reboot1>
+	<originalName> 秒.</originalName>
+	<ssid>Name</ssid>
+	<AuthMode>Authentication Mode</AuthMode>
+	<apSSIDError>SSID不能爲空白。</apSSIDError>
+	<apSSIDError1>SSID不能全爲空格。</apSSIDError1>
+	<apPassWDErr1>安全密鑰不爲能空白。</apPassWDErr1>
+	<apPassWDErr2>安全密鑰不合法。最小長度為 8 個字元。</apPassWDErr2>
+	<apPassWDErr3>安全密鑰不合法。請輸入長度8-63的可列印ASCII字元，或長度64的十六進位字元。</apPassWDErr3>
+	<apPassWDErr4>安全密鑰無效。最多為 64 個字元長。</apPassWDErr4>
+	<apPassWDErr5>WEP Key is invalid. The Key must be 5 or 13 characters.</apPassWDErr5>
+	<apRouterConfig>Direct Connection configuration</apRouterConfig>
+	<apssid>SSID</apssid>
+	<apPassWD>安全密鑰</apPassWD>
+	<apPasswordNote> (必須是8位長度)</apPasswordNote>
+	<apAuthMode>驗證模式</apAuthMode>
+	<ap>直接連接</ap>
+	<AuthModeopen>無</AuthModeopen>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<enableAPRouter>For security there are three choices of wireless encryption, None, WEP, and WPA-PSK / WPA2-PSK. Select the same encryption method that is being used by your wireless device/ router. If you have selected WPA-PSK or WPA2-PSK setting, you may need to enter the appropriate Pre-Shared Key in order to connect to the wireless network. </enableAPRouter>
+	<ssid>Service Set Identifier (SSID) is the name of your Direct Connection.</ssid>
+	<AuthMode>AuthMode is the authentication mode of connect to Direct Connection.</AuthMode>
+	<encryption2>AES - (Advanced Encryption System) - Utilizes a symmetric 128-Bit block data encryption. Ideally, you should apply WPA/WPA2 with AES.</encryption2>
+</hint>
+<message>
+	<ok>設定成功。</ok>
+	<fail>設定失敗。</fail>
+	<notChanged>設定無改變。</notChanged>
+	<saveOK>網路伺服器正在重啟，請稍待一分鐘，再以新的 IP 位址來重新連接攝影機。</saveOK>
+	<apError>直接連接和無線網路設定不能同時關閉。</apError>
+</message>

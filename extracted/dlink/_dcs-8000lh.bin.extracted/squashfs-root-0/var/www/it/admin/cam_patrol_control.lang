@@ -1,0 +1,99 @@
+<body>
+	<cameraControl>Posizione esplorazione</cameraControl>
+	<cameraControl1>Posizione esplorazione</cameraControl1>
+	<description1>Posizione esplorazione consente di spostare l'area di visualizzazione su una serie di posizioni preimpostate preprogrammate periodicamente.</description1>
+	<up>Su</up>
+	<down>Giù</down>
+	<panSpeed>Velocità panoramica:</panSpeed>
+	<tiltSpeed>Velocità inclinazione:</tiltSpeed>
+	<currentPosition>Posizione corrente:</currentPosition>
+	<presetPosition>Posizione predefinita:</presetPosition>
+	<none>-- Selezionare un'opzione --</none>
+	<patrol1>Selezionare un punto. Se l'elenco delle posizioni predefinite è vuoto, aggiungere un punto</patrol1>
+	<add>Aggiungi</add>
+	<delete>Elimina</delete>
+	<save>Salva impostazioni</save>
+	<notsavebutton>Non salvare impostazioni</notsavebutton>
+	<theSamePresetName>il nome predefinito esiste già, sostituire la posizione predefinita precedente?</theSamePresetName>
+	<setAsHome>Imposta come home</setAsHome>
+	<defaultHome>Home predefinito</defaultHome>
+	<patrolSpeed>Velocità panoramica/esplorazione:</patrolSpeed>
+	<patrolInterval>Intervallo di esplorazione (Min):</patrolInterval>
+	<patrolLocations> Posizioni di esplorazione</patrolLocations>
+	<patrolInterval1>60</patrolInterval1>
+	<schedulepatrol>Pianificazione esplorazione</schedulepatrol>
+	<hour0>0</hour0>
+	<hour1>1</hour1>
+	<hour2>2</hour2>
+	<hour3>3</hour3>
+	<hour4>4</hour4>
+	<hour5>5</hour5>
+	<hour6>6</hour6>
+	<hour7>7</hour7>
+	<hour8>8</hour8>
+	<hour9>9</hour9>
+	<hour10>10</hour10>
+	<hour11>11</hour11>
+	<hour12>12</hour12>
+	<hour13>13</hour13>
+	<hour14>14</hour14>
+	<hour15>15</hour15>
+	<hour16>16</hour16>
+	<hour17>17</hour17>
+	<hour18>18</hour18>
+	<hour19>19</hour19>
+	<hour20>20</hour20>
+	<hour21>21</hour21>
+	<hour22>22</hour22>
+	<hour23>23</hour23>
+	<sun>dom </sun>
+	<mon>lun </mon>
+	<tue>mar </tue>
+	<wed>mer </wed>
+	<thu>gio </thu>
+	<fri>ven </fri>
+	<sat>sab </sat>
+	<dwellingTime>Tempo di sosta (sec.):</dwellingTime>
+	<presetLocations>Posizioni preimpostate preprogrammate</presetLocations>
+	<selectedLocations>Posizioni selezionate</selectedLocations>
+	<select>Seleziona</select>
+	<remove>Rimuovi</remove>
+	<patrolSelection>Selezione esplorazione:</patrolSelection>
+	<presetNameError>specificare un valore in Nome predefinito</presetNameError>
+	<waitTimeError1>Specificare un valore in Tempo di sosta</waitTimeError1>
+	<waitTimeError2>Il valore di Tempo di sosta deve essere un numero</waitTimeError2>
+	<waitTimeError3>Il valore di Tempo di sosta deve essere compreso tra 1 e 60</waitTimeError3>
+	<scheduleError>Immettere l'ora pianificata</scheduleError>
+	<scheduleErrorSun>Verificare l'ora pianificata di dom.</scheduleErrorSun>
+	<scheduleErrorMon>Verificare l'ora pianificata di lun.</scheduleErrorMon>
+	<scheduleErrorTue>Verificare l'ora pianificata di mar.</scheduleErrorTue>
+	<scheduleErrorWed>Verificare l'ora pianificata di mer.</scheduleErrorWed>
+	<scheduleErrorThu>Verificare l'ora pianificata di gio.</scheduleErrorThu>
+	<scheduleErrorFri>Verificare l'ora pianificata di ven.</scheduleErrorFri>
+	<scheduleErrorSat>Verificare l'ora pianificata di sab.</scheduleErrorSat>
+	<noPretrolPointWarn>Aggiungere posizioni di esplorazione</noPretrolPointWarn>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<presethints>Posizioni preimpostate preprogrammate - </presethints>
+	<description2> La tabella mostra le Posizioni preimpostate preprogrammate. </description2>
+	<patrolhints>Posizioni di esplorazione - </patrolhints>
+	<description1> Questa opzione seleziona le posizioni preimpostate da spostare in sequenza. </description1>
+	<speedhints>Velocità panoramica/esplorazione - </speedhints>
+	<description3> Consente di selezionare la velocità di spostamento delle videocamera per panoramica/esplorazione fra 1 e 3. </description3>
+	<dwellinghints>Tempo di sosta - </dwellinghints>
+	<description4> Questa opzione imposta la durata della sosta in posizione. </description4>
+	<patrolschedulehints>Pianificazione esplorazione - </patrolschedulehints>
+	<description5> L'opzione "Pianificazione esplorazione" consente alla videocamera PTZ di eseguire il ciclo di posizionamento con pianificazione oraria. </description5>
+	
+</hint>
+<message>
+	<nopresetpoint>nessun punto preimpostato</nopresetpoint>
+	<ok>Modifiche salvate.</ok>
+	<failure>errore di impostazione</failure>
+	<full>predefinito è già pieno</full>
+	<selectFull>Posizioni selezionate è già pieno</selectFull>
+	<duplicate>duplicato</duplicate>
+	<invalidParameters>nome predefinito non valido</invalidParameters>
+	<oob>il valore dell'impostazione non rientra nell'intervallo</oob>
+</message>

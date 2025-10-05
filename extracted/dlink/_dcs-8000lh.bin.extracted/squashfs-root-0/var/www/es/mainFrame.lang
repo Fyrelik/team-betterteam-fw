@@ -1,0 +1,84 @@
+<body>
+	<camera>Cámara</camera>
+	<description1>Esta sección muestra el vídeo en directo de la cámara. Puede controlar los parámetros con los botones siguientes. </description1>
+	<description2>La resolución actual es </description2>
+	<sdNote>Tenga en cuenta que no hay ninguna tarjeta SD enchufada en la cámara o no se puede escribir en la tarjeta SD.</sdNote>
+	<sdManagement1>Para formatear la tarjeta SD, vaya a </sdManagement1>
+	<sdManagement2>Gestión de SD</sdManagement2>
+	<sdManagement3> la página.</sdManagement3>
+	<liveVideo>Vídeo en directo</liveVideo>
+	<goTo>Ir a</goTo>
+	<panSpeed>Paso de panorámica</panSpeed>
+	<tiltSpeed>Paso de inclinación</tiltSpeed>
+	<language>Seleccione un idioma</language>
+	<english>English</english>
+	<mandarin>繁體中文</mandarin>
+	<simplechn>简体中文</simplechn>
+	<deutsch>Deutsch</deutsch>
+	<italiano>Italiano</italiano>
+	<espa>Español</espa>
+	<french>Français</french>
+	<portu>Português</portu>
+	<selectOne>-- Sel. Uno --</selectOne>
+	<stop>Detener</stop>
+	<snapshot>Instantánea</snapshot>
+	<setPath>Establecer carpeta de almacenamiento</setPath>
+	<recording>Grabación</recording>
+	<stopRecording>Detener Grabar</stopRecording>
+	<startSteamOut>Hablar</startSteamOut>
+	<stopSteamOut>Detener Hablar</stopSteamOut>
+	<listenOn>Escuchar</listenOn>
+	<profile1>Perfil 1</profile1>
+	<profile2>Perfil 2</profile2>
+	<profile3>Perfil 3</profile3>
+	<profile4>Perfil 4</profile4>
+	<listenOff>Detener Escuchar</listenOff>
+	<startGPOutput>Salida digital</startGPOutput>
+	<stopGPOutput>Detener salida digital</stopGPOutput>
+	<ledOn>LED encendido</ledOn>
+	<ledOff>LED apagado</ledOff>
+	<fullScreen>Pantalla completa</fullScreen>
+	<diIndicator>Indicador de entrada digital</diIndicator>
+	<moIndicator>Indicador de activación por movimiento/sonido</moIndicator>
+	<reIndicator>Indicador de grabación</reIndicator>
+	<talkNotify1>Error al crear salida de canalización de audio, error al crear la toma</talkNotify1>
+	<talkNotify2>Error al conectar con el servidor</talkNotify2>
+	<talkNotify3>La línea de audio está ocupada, inténtelo más tarde.</talkNotify3>
+	<autoPan>Panorámica</autoPan>
+	<autoPatrol>Vigilancia</autoPatrol>
+	<irOn>LED de IR encendido</irOn>
+	<irOff>LED de IR apagado</irOff>
+	<zoomInOut>Ampliar/reducir:</zoomInOut>
+	<vlcHints1>Consiga aquí el último instalador de</vlcHints1>
+	<here> VLC </here>
+	<vlcHints2>y active el complemento VLC Mozilla durante la instalación.</vlcHints2>
+	<privacyMode1>Esta cámara está actualmente en modo de intimidad.</privacyMode1>
+	<privacyMode2>Para salir del modo de intimidad, vaya a </privacyMode2>
+	<privacyMode3>Admin</privacyMode3>
+	<enablePrivacy>Modo de intimidad</enablePrivacy>
+	<left_up>Izquierda arriba</left_up>
+	<up>Arriba</up>
+	<right_up>Derecha arriba</right_up>
+	<left>Izquierda</left>
+	<left_down>Izquierda abajo</left_down>
+	<right_down>Derecha abajo</right_down>
+	<right>Derecha</right>
+	<down>Abajo</down>
+	<Zoom_in>Ampliar</Zoom_in>
+	<Zoom_out>Reducir</Zoom_out>
+	<home>Inicio</home>
+	<javajreinfo1>Este explorador no admite ni desactiva Java JRE.</javajreinfo1>
+	<javajreinfo2>Consiga aquí el último Java JRE</javajreinfo2>
+	<javajreinfo3> o active Java JRE.</javajreinfo3>
+	<javajreinfo4>Este explorador no admite ni desactiva QuickTime.</javajreinfo4>
+	<javajreinfo5>Consiga aquí el último reproductor</javajreinfo5>
+	<javajreinfo6>QuickTime</javajreinfo6>
+	<javajreinfo7>o active el reproductor QuickTime.</javajreinfo7>
+	<javajreinfo8>Haga clic aquí para descargar e instalar el complemento NCS. A continuación, se recomienda abrir de nuevo el explorador.</javajreinfo8>
+	<javajreinfo88>Es posible que el navegador web que utiliza tenga dificultades para recibir imágenes y vídeo. Si tiene problemas para ver esta página, le sugerimos que utilice Internet Explorer, Mozilla Firefox o Apple Safari.</javajreinfo88>
+	<javajreinfo9>Este explorador no admite ni desactiva el reproductor QuickTime.</javajreinfo9>
+	<javajreinfo10>Consiga aquí el último reproductor</javajreinfo10>
+	<javajreinfo11>QuickTime</javajreinfo11>
+	<javajreinfo12>o active el reproductor QuickTime.</javajreinfo12>
+</body>
+

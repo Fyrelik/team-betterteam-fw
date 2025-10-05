@@ -1,0 +1,31 @@
+<body>
+	<camera>Câmera</camera>
+	<description1>Esta seção mostra o vídeo em tempo real. Você pode mudar as configurações usando os botões abaixo. </description1>
+	<description2>A resolução atual é </description2>
+	<liveVideo>Vídeo Em Tempo Real</liveVideo>
+	<snapshot>Snapshot</snapshot>
+	<setPath>Definir Pasta no Storage</setPath>
+	<recording>Gravar</recording>
+	<stopRecording>Parar a gravação</stopRecording>
+	<startSteamOut>Falar</startSteamOut>
+	<stopSteamOut>Parar a fala</stopSteamOut>
+	<listenOn>Ouvir</listenOn>
+	<listenOff>Parar a audição</listenOff>
+	<startGPOutput>Iniciar Saída Digital</startGPOutput>
+	<stopGPOutput>Parar Saída Digital</stopGPOutput>
+	<ledOn>Led Ligado</ledOn>
+	<ledOff>Led Desligado</ledOff>
+	<fullScreen>Tela Cheia</fullScreen>
+	<diIndicator>Indicador de Entrada Digital</diIndicator>
+	<moIndicator>Indicador de Início de Movimento</moIndicator>
+	<reIndicator>Indicador de Gravação</reIndicator>
+	<talkNotify1>Falha ao criar fluxo na saída de áudio, falha ao criar soquete.</talkNotify1>
+	<talkNotify2>Conexão ao servidor falhou</talkNotify2>
+	<talkNotify3>Saída de Áudio está ocupada, por favor tente mais tarde</talkNotify3>
+	<irOn>LED IR ligado</irOn>
+	<irOff>LED IR desligado</irOff>
+	<zoomInOut>Zoom in/out</zoomInOut>
+	<privacyMode1>Esta câmera está atualmente em Modo Privado.</privacyMode1>
+	<privacyMode2>Para sair do Modo Privado, for favor siga para</privacyMode2>
+	<privacyMode3>Admin</privacyMode3>
+</body>

@@ -1,0 +1,100 @@
+<body>
+	<cameraControl1>巡邏位置設定</cameraControl1>
+	<cameraControl>監視器控制</cameraControl>
+	<description1>在這邊您可以選擇要讓攝影機要做巡邏的預設位置，還可以設定巡邏時所希望要執行的排程。</description1>
+	<up>上移</up>
+	<down>下移</down>
+	<panSpeed>水平速度:</panSpeed>
+	<tiltSpeed>上下速度:</tiltSpeed>
+	<currentPosition>目前方位:</currentPosition>
+	<presetPosition>預先設定方位:</presetPosition>
+	<patrol1>請選擇一個項目；如果預設方位爲空，請添加一個項目</patrol1>
+	<none>-- 選擇一個 --</none>
+	<add>增加</add>
+	<delete>刪除</delete>
+	<save>儲存</save>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<theSamePresetName>預設方位點已存在,您是否要以新的方位取代掉舊的方位?</theSamePresetName>
+	<setAsHome>設為原點</setAsHome>
+	<defaultHome>回復原點</defaultHome>
+	<patrolSpeed>水平掃描/巡邏速度:</patrolSpeed>
+	<patrolInterval>巡邏間隔(分鐘) :</patrolInterval>
+	<patrolLocations> 巡邏位置</patrolLocations>
+	<patrolInterval1>60</patrolInterval1>
+	<schedulepatrol>巡邏排程</schedulepatrol>
+	<hour0>0</hour0>
+	<hour1>1</hour1>
+	<hour2>2</hour2>
+	<hour3>3</hour3>
+	<hour4>4</hour4>
+	<hour5>5</hour5>
+	<hour6>6</hour6>
+	<hour7>7</hour7>
+	<hour8>8</hour8>
+	<hour9>9</hour9>
+	<hour10>10</hour10>
+	<hour11>11</hour11>
+	<hour12>12</hour12>
+	<hour13>13</hour13>
+	<hour14>14</hour14>
+	<hour15>15</hour15>
+	<hour16>16</hour16>
+	<hour17>17</hour17>
+	<hour18>18</hour18>
+	<hour19>19</hour19>
+	<hour20>20</hour20>
+	<hour21>21</hour21>
+	<hour22>22</hour22>
+	<hour23>23</hour23>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<from>開始 </from>
+	<dwellingTime>停留時間(秒):</dwellingTime>
+	<presetLocations>預設位置</presetLocations>
+	<selectedLocations>選取點</selectedLocations>
+	<select>選擇</select>
+	<remove>移除</remove>
+	<patrolSelection>巡邏點選擇:</patrolSelection>
+	<homeDefinition>原點定義:</homeDefinition>
+	<presetNameError>預設方位點不允許空白</presetNameError>
+	<waitTimeError1>停留時間不能空白</waitTimeError1>
+	<waitTimeError2>停留時間必須是數字</waitTimeError2>
+	<waitTimeError3>停留時間必需介於1跟60之間</waitTimeError3>
+	<scheduleError>請勾選時間</scheduleError>
+	<scheduleErrorSun>請勾選週日時間</scheduleErrorSun>
+	<scheduleErrorMon>請勾選週一時間</scheduleErrorMon>
+	<scheduleErrorTue>請勾選週二時間</scheduleErrorTue>
+	<scheduleErrorWed>請勾選週三時間</scheduleErrorWed>
+	<scheduleErrorThu>請勾選週四時間</scheduleErrorThu>
+	<scheduleErrorFri>請勾選週五時間</scheduleErrorFri>
+	<scheduleErrorSat>請勾選週六時間</scheduleErrorSat>
+	<noPretrolPointWarn>請新增巡邏位置</noPretrolPointWarn>
+</body>
+<hint>
+	<helpfulHints>幫助提示..</helpfulHints>
+	<presethints>預設位置 – </presethints>
+	<description2> 此處將顯示所有由使用者定義的位置, 並且使用者也可將這些位置刪除。 </description2>
+	<patrolhints>巡邏位置 – </patrolhints>
+	<description1> 您可以新增”預設位置”至”巡邏位置”中，這將會決定網路攝影機當在”自動巡邏”'時所移動的位置。 </description1>
+	<speedhints>水平掃描/巡邏速度 – </speedhints>
+	<description3> 此設定是用於控制攝影機在做水平掃描及巡邏時的速度。 </description3>
+	<dwellinghints>停留時間(秒) – </dwellinghints>
+	<description4> 此設定是用於在巡邏的過程中攝影機在每一個監視點上的停留時間。 </description4>
+	<patrolschedulehints>巡邏排程 – </patrolschedulehints>
+	<description5> 此設定可以選擇自動巡邏時可以在哪一天哪一個時間點來執行。 </description5>
+</hint>
+<message>
+	<nopresetpoint>沒有預設位置</nopresetpoint>
+	<ok>設定成功</ok>
+	<failure>設定失敗</failure>
+	<full>方位點已滿</full>
+	<selectFull>選取點已滿</selectFull>
+	<duplicate>相同名稱的方位點已被覆蓋掉</duplicate>
+	<invalidParameters>不合法的方位點</invalidParameters>
+	<oob>設定值超出移動範圍</oob>
+</message>

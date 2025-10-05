@@ -1,0 +1,84 @@
+<body>
+	<camera>Videocamera</camera>
+	<description1>Questa sezione mostra il video in diretta della videocamera. È possibile controllare le impostazioni usando i seguenti pulsanti. </description1>
+	<description2>La risoluzione corrente è </description2>
+	<sdNote>Nella videocamera non è inserita alcuna scheda SD oppure la scheda SD non supporta operazioni di scrittura.</sdNote>
+	<sdManagement1>Per formattare la scheda SD nella videocamera, disabilitare prima Registrazione su SD e quindi passare alla pagina </sdManagement1>
+	<sdManagement2>Gestione SD</sdManagement2>
+	<sdManagement3>.</sdManagement3>
+	<liveVideo>Video in diretta</liveVideo>
+	<goTo>Passa a</goTo>
+	<panSpeed>Fase della panoramica</panSpeed>
+	<tiltSpeed>Fase di inclinazione</tiltSpeed>
+	<language>Selezionare una lingua</language>
+	<english>English</english>
+	<mandarin>繁體中文</mandarin>
+	<simplechn>简体中文</simplechn>
+	<deutsch>Deutsch</deutsch>
+	<italiano>Italiano</italiano>
+	<espa>Español</espa>
+	<french>Français</french>
+	<portu>Português</portu>
+	<selectOne>-- Selezionare un'opzione --</selectOne>
+	<stop>Arresta</stop>
+	<snapshot>Istantanea</snapshot>
+	<setPath>Imposta cartella di archiviazione</setPath>
+	<recording>Registrazione</recording>
+	<stopRecording>Interrompi registrazione</stopRecording>
+	<startSteamOut>Trasmissione vocale</startSteamOut>
+	<stopSteamOut>Interrompi trasmissione vocale</stopSteamOut>
+	<listenOn>Ascolta</listenOn>
+	<profile1>Profilo 1</profile1>
+	<profile2>Profilo 2</profile2>
+	<profile3>Profilo 3</profile3>
+	<profile4>Profilo 4</profile4>
+	<listenOff>Interrompi ascolto</listenOff>
+	<startGPOutput>Uscita digitale</startGPOutput>
+	<stopGPOutput>Interrompi uscita digitale</stopGPOutput>
+	<ledOn>Led acceso</ledOn>
+	<ledOff>Led spento</ledOff>
+	<fullScreen>Schermo intero</fullScreen>
+	<diIndicator>Indicatore ingresso digitale</diIndicator>
+	<moIndicator>Indicatore attivazione tramite movimento/suono</moIndicator>
+	<reIndicator>Indicatore di registrazione</reIndicator>
+	<talkNotify1>Creazione uscita flusso audio non riuscita, creazione socket non riuscita</talkNotify1>
+	<talkNotify2>Connessione al server non riuscita</talkNotify2>
+	<talkNotify3>La linea audio è occupata, riprovare più tardi.</talkNotify3>
+	<autoPan>Panoramica</autoPan>
+	<autoPatrol>Esplorazione</autoPatrol>
+	<irOn>LED infrarossi attivo</irOn>
+	<irOff>LED infrarossi disattivo</irOff>
+	<zoomInOut>Zoom avanti/indietro:</zoomInOut>
+	<vlcHints1>Scaricare il programma di installazione VLC più recente</vlcHints1>
+	<here> qui </here>
+	<vlcHints2>e abilitare il plugin VLC Mozilla durante l'installazione.</vlcHints2>
+	<privacyMode1>Videocamera in modalità privacy.</privacyMode1>
+	<privacyMode2>Per uscire dalla modalità privacy, passare a </privacyMode2>
+	<privacyMode3>Amministratore</privacyMode3>
+	<enablePrivacy>Modalità privacy</enablePrivacy>
+	<left_up>In alto a sinistra</left_up>
+	<up>Su</up>
+	<right_up>In alto a destra</right_up>
+	<left>Sinistra</left>
+	<left_down>In basso a sinistra</left_down>
+	<right_down>In basso a destra</right_down>
+	<right>Destra</right>
+	<down>Giù</down>
+	<Zoom_in>Ingrandisci</Zoom_in>
+	<Zoom_out>Riduci</Zoom_out>
+	<home>Home</home>
+	<javajreinfo1>Il browser non supporta o disabilita Java JRE.</javajreinfo1>
+	<javajreinfo2>Scaricare qui la versione più recente di Java JRE</javajreinfo2>
+	<javajreinfo3> o abilitare Java JRE.</javajreinfo3>
+	<javajreinfo4>Il browser non supporta o disabilita QuickTime.</javajreinfo4>
+	<javajreinfo5>Scaricare la versione più recente di QuickTime Player</javajreinfo5>
+	<javajreinfo6>qui</javajreinfo6>
+	<javajreinfo7>o abilitare QuickTime Player.</javajreinfo7>
+	<javajreinfo8>Fare clic qui per scaricare il plugin NCS ed eseguire l'installazione. Si consiglia di riaprire il browser.</javajreinfo8>
+	<javajreinfo88>Il browser in uso potrebbe non ricevere immagini e video correttamente. Se si riscontrano problemi nella visualizzazione di questa pagina, si consiglia di usare Internet Explorer, Mozilla Firefox o Apple Safari.</javajreinfo88>
+	<javajreinfo9>Il browser non supporta o disabilita QuickTime Player.</javajreinfo9>
+	<javajreinfo10>Scaricare la versione più recente di QuickTime Player</javajreinfo10>
+	<javajreinfo11>qui</javajreinfo11>
+	<javajreinfo12>o abilitare QuickTime Player.</javajreinfo12>
+</body>
+

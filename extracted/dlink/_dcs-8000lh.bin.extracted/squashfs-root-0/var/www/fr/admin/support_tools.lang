@@ -1,0 +1,59 @@
+<body>
+	<maintenance>MAINTENANCE</maintenance>
+	<deviceManagement>Administrateur</deviceManagement>
+	<backupAndRestore>Système</backupAndRestore>
+	<firmwareUpgrade>Mise à jour du microprogramme</firmwareUpgrade>
+	<rtspauth>Authentification RTSP</rtspauth>
+	<rtspauth1> - Activez la validation des utilisateurs pour la diffusion RTSP.</rtspauth1>
+	<httpauth>Authentification HTTP</httpauth>
+	<httpauth1> - Activez la validation des utilisateurs pour la diffusion HTTP.</httpauth1>
+	<snapauth>Authentification de l'URL de l'instantané</snapauth>	
+	<snapauth1> - Activez la validation des utilisateurs pour l'URL de l'instantané.</snapauth1>	
+	<cameraName>Nom de la caméra</cameraName>
+	<cameraName1> - Nom unique de la caméra.</cameraName1>
+	<label>Libellé</label>
+	<label1> - Libellé unique de la caméra.</label1>
+	<showTime>Afficher l'heure</showTime>
+	<showTime1> - Sélectionnez cette option pour afficher la date et l'heure sur l'instantané ou l'image vidéo.</showTime1>
+	<adminPassword>Configuration du mot de passe administrateur</adminPassword>
+	<adminPassword1> - Mot de passe du compte de l'administrateur. Ce mot de passe doit être saisi deux fois pour confirmation.</adminPassword1>
+	<led>Voyant d'alimentation/connexion</led>
+	<led1>Activé - Clignotement normal du voyant en fonction de l'état de l'alimentation, de la connexion câblée / sans fil et de la transmission des flux vidéo/audio.</led1>
+	<led2>Désactivé - Le voyant est toujours éteint.</led2>
+	<led3>Scintillement - Le voyant de connexion scintille toujours quand la vidéo est en cours de surveillance.</led3>
+	<timeStamp>Horodatage</timeStamp>
+	<timeStamp1> - Sélectionnez cette option pour afficher la date et l'heure sur l'instantané ou l'image vidéo.</timeStamp1>
+	<addUser>Ajouter un compte utilisateur</addUser>
+	<addUser1> - Créez un ou plusieurs nouveaux comptes utilisateur (jusqu'à vingt) donnant accès à la vidéo en direct. Les nouveaux noms d'utilisateur s'affichent dans la liste des utilisateurs en vue d'une éventuelle suppression.</addUser1>
+	<deleteUser>Supprimer</deleteUser>
+	<deleteUser1> - Supprimez un utilisateur de la liste des utilisateurs.</deleteUser1>
+	<userList>Liste des utilisateurs</userList>
+	<userList1> - Liste des comptes utilisateur (sans inclure admin), pour afficher et supprimer.</userList1>
+	<backup>Enregistrer sur le disque dur local</backup>
+	<backup1> - Quand vous cliquez sur ce bouton, une fenêtre de téléchargement s'affiche pour vous permettre d'enregistrer le fichier de configuration de la caméra sur votre ordinateur à des fins de restauration.</backup1>
+	<restore>Charger depuis le disque dur local</restore>
+	<restore1> - Vous pouvez parcourir votre ordinateur et charger le fichier de configuration. Cliquez ensuite sur Charger la configuration pour restaurer les paramètres pré-configurés ou sauvegardés.</restore1>
+	<rebootSystem>Redémarrer le périphérique</rebootSystem>
+	<rebootSystem1> - Cette option provoque le redémarrage de la caméra.</rebootSystem1>
+	<factoryDefaults>Restaurer les paramètres par défaut</factoryDefaults>
+	<factoryDefaults1> - Cette option restaure les paramètres par défaut de la caméra. Les paramètres que vous avez configurés seront tous remplacés.</factoryDefaults1>
+	<firmwareInformation>Informations concernant le microprogramme</firmwareInformation>
+	<firmwareInformation1> - Cette option affiche les informations relatives au microprogramme.</firmwareInformation1>
+	<firmwareUpdate>Mise à jour du microprogramme</firmwareUpdate>
+	<firmwareUpdate1> - Cette option permet à l'utilisateur de mettre à jour le microprogramme. Cliquez sur « Parcourir » pour localiser le fichier, puis cliquez sur « Charger » pour appliquer le nouveau microprogramme à la caméra.</firmwareUpdate1>
+	<firmwarebuildnumber>Numéro de version du microprogramme actuel</firmwarebuildnumber>
+	<firmwarebuildnumber1> - Le numéro précis de la version du microprogramme de la caméra. Lorsque vous appelez pour obtenir de l'aide, vous devez aussi donner ce numéro au support technique.</firmwarebuildnumber1>
+	<enableOSD>OSD</enableOSD>
+	<enableOSDl> - En activant l'affichage sur écran, le Libellé et l'Horodatage s'affichent sur l'instantané ou la vidéo.</enableOSDl>
+	<calibrateDevice>Étalonner le périphérique</calibrateDevice>
+	<calibrateDevice1> - Réétalonnez la position initiale du panoramique horizontal/vertical de la caméra</calibrateDevice1>
+	<privacycontrol>Contrôle de la confidentialité</privacycontrol>
+	<privacycontrol1> - Vous permet de configurer si la caméra passe en Mode de confidentialité ou pas.</privacycontrol1>
+	<privacyon>Confidentialité activée</privacyon>
+	<privacyon1> - La caméra est en Mode de confidentialité. Les fonctions Vidéo en direct, Clip vidéo, Instantané et Enregistrement sur carte SD seront désactivées.</privacyon1>
+	<privacyoff>Confidentialité désactivée</privacyoff>
+	<privacyoff1> - La caméra est en mode de fonctionnement normal.</privacyoff1>
+	<curfirmwareversion>Version actuelle du microprogramme</curfirmwareversion>
+	<curfirmwareversion1> - Version locale du microprogramme sur la caméra.</curfirmwareversion1>
+</body>
+

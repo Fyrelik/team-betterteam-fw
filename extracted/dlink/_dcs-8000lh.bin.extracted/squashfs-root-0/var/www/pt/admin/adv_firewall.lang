@@ -1,0 +1,71 @@
+<body>
+	<ipfiltertitle>FILTRO IP</ipfiltertitle>
+	<description1>Para habilitar o filtro de IP da câmera, você deve selecionar a opção 'Lista de Filtro de Acesso'. Em seguida, altere os detalhes de configuração através desta página.</description1>
+	<subtitle>IP FILTER</subtitle>
+	<enableIpFilter>Lista de Filtro de Acesso</enableIpFilter>
+	<filterType>Tipo de Filtro:</filterType>
+	<filterAllow>Permitir</filterAllow>
+	<filterDeny>Negar</filterDeny>
+	<accessList>Lista de Filtro:</accessList>
+	<ipTypeSig>Único</ipTypeSig>
+	<ipTypeSub>Subrede</ipTypeSub>
+	<ipTypeRan>Range</ipTypeRan>
+	<ipTypeSigDot>Endereço IP:</ipTypeSigDot>
+	<ipTypeSubDot>Endereço de Rede / Máscara de Rede:</ipTypeSubDot>
+	<ipTypeRanDot>Endereço IP - Endereço IP:</ipTypeRanDot>
+	<addAFilter>Adicionar</addAFilter>
+	<adminIp>Endereço IP do Administrador:</adminIp>
+	<ipadresserrorinfo>A configuração é inválida</ipadresserrorinfo>
+	<allowAdmin>Sempre permitir o endereço IP para acessar o dispositivo</allowAdmin>
+	<delAFilter>Apagar</delAFilter>
+	<ipMessage1>Endereço IP</ipMessage1>
+	<ipMessage2>O endereço IP é inválido.</ipMessage2>
+	<ipMessage3>O endereço IP não pode ser zero.</ipMessage3>
+	<ipError1>O endereço IP não pode estar vazio.</ipError1>
+	<networkipseterror>As configurações são inválidas.</networkipseterror>
+	<delNumError>Por favor selecione um filtro.</delNumError>
+	<delChooseError>Por favor um filtro por vez.</delChooseError>
+	<netMaskError>A máscara de rede deve estar entre 1 e 32.</netMaskError>
+	<allowEmptyListError>por favor adicione um filtro ou habilite o IP do admin</allowEmptyListError>
+	<ipv4filterListNumError>A lista de Filtro IPv4 está cheia.</ipv4filterListNumError>
+	<ipv6filterListNumError>A lista de Filtro IPv6 está cheia.</ipv6filterListNumError>
+	<allowNoneError>Por favor permitir ao menos um filtro ou habilite o IP do admin</allowNoneError>
+	<decreasRangeError>Decrementar o range do endereço IP é inválido.</decreasRangeError>
+	<sameIpError>O endereço IP inicial e final não pode ser o mesmo.</sameIpError>
+	<filteraddress>Adicionar Novo Filtro:</filteraddress>
+	<ipv4AccessList>Lista de Filtro IPv4:</ipv4AccessList>
+	<ipv6AccessList>Lista de Filtro IPv6:</ipv6AccessList>
+	<ipv6AddressError>O endereço IP é inválido.</ipv6AddressError>
+	<addAddressIsError>O endereço é inválido.</addAddressIsError>
+	<ipv6PrefixError>O comprimento do prefixo IPv6 deve estar entre 0 e 128.</ipv6PrefixError>
+	<StartIP>Endereço IP Inicial:</StartIP>
+	<EndIP>Endereço IP Final:</EndIP>
+	<commonIPadresserror>O endereço IP já existe</commonIPadresserror>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<Ipfilter>Lista de filtro de acesso é a funcionalidade para permitir ou negar acesso à câmera para determinados endereços IPs.</Ipfilter>
+	<FilterType>Tipo de Filtro</FilterType>
+	<FilterTypeText>Você pode Permitir ou Negar os endereços IP especificados na Lista de Filtros</FilterTypeText>
+	<AccessList>Lista de Filtro</AccessList>
+	<AccessListText>Endereço IP especificado.</AccessListText>
+	<Single>Único</Single>
+	<SingleText>Especifique um único endereço IP.</SingleText>
+	<Subnet>Subrede</Subnet>
+	<SubnetText>Especifique a subrede para o endereço IP.</SubnetText>
+	<Range>Range</Range>
+	<RangeText>Espeficifque o range de endereços IP.</RangeText>
+	<adminAdress>Endereço IP do administrador</adminAdress>
+	<adminAdressText>Você pode habilitar e configurar um endereço IP com o endereço IP de Administrador para sempre ter acesso a esta câmera.</adminAdressText>
+</hint>
+<message>
+	<ok>Alterações Salvas.</ok>
+	<invalidParameter>Parâmetros Inválidos.</invalidParameter>
+	<invalidFilterEnable>Filtro inválido habilitado.</invalidFilterEnable>
+	<invalidFilterType>Tipo de Filtro Inválido.</invalidFilterType>
+	<invalidAdminIPEnable>IP do Administrador inválido habilitado</invalidAdminIPEnable>
+	<invalidAdminIP>IP do Administrador Inválido</invalidAdminIP>
+	<invalidIP>IP inválido.</invalidIP>
+	<invalidNetmask>Máscara de Rede Inválida.</invalidNetmask>
+	<nothingChange>Configurações sem alterações.</nothingChange>
+</message>

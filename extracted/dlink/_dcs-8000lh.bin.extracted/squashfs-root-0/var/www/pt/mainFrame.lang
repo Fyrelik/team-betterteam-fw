@@ -1,0 +1,83 @@
+<body>
+	<camera>Câmera</camera>
+	<description1>Esta seção mostra seu vídeo em tempo real. Você pode mudar as configurações usando os botões abaixo.</description1>
+	<description2>A resolução atual é </description2>
+	<sdNote>Não há nenhuma memória SD inserida ou a memória SD não está disponível para escrita.</sdNote>
+	<sdManagement1>Para formatar a memória SD na câmera, por favor desabilite a gravação SD primeiro e depois siga para </sdManagement1>
+	<sdManagement2>Gerenciamento SD</sdManagement2>
+	<sdManagement3> página.</sdManagement3>
+	<liveVideo>Vídeo Em Tempo Real</liveVideo>
+	<goTo>Siga para</goTo>
+	<panSpeed>Passo Horizontal</panSpeed>
+	<tiltSpeed>Passo Vertical</tiltSpeed>
+	<language>Por favor escolha a linguagem</language>
+	<english>English</english>
+	<mandarin>繁體中文</mandarin>
+	<simplechn>简体中文</simplechn>
+	<deutsch>Deutsch</deutsch>
+	<italiano>Italiano</italiano>
+	<espa>Español</espa>
+	<french>Français</french>
+	<portu>Português</portu>
+	<selectOne>-- Selecione Uma --</selectOne>
+	<stop>Pare</stop>
+	<snapshot>Snapshot</snapshot>
+	<setPath>Definir Pasta no Storage</setPath>
+	<recording>Gravar</recording>
+	<stopRecording>Parar a gravação</stopRecording>
+	<startSteamOut>Falar</startSteamOut>
+	<stopSteamOut>Parar a fala</stopSteamOut>
+	<listenOn>Ouvir</listenOn>
+	<profile1>Perfil 1</profile1>
+	<profile2>Perfil 2</profile2>
+	<profile3>Perfil 3</profile3>
+	<profile4>Perfil 4</profile4>
+	<listenOff>Parar a audição</listenOff>
+	<startGPOutput>Saída Digital</startGPOutput>
+	<stopGPOutput>Parar Saída Digital</stopGPOutput>
+	<ledOn>Led ligado</ledOn>
+	<ledOff>Led desligado</ledOff>
+	<fullScreen>Tela Cheia</fullScreen>
+	<diIndicator>Indicador de Entrada Digital</diIndicator>
+	<moIndicator>Indicador de Início de Movimento/Som</moIndicator>
+	<reIndicator>Indicador de Gravação</reIndicator>
+	<talkNotify1>Falha ao criar fluxo na saída de áudio, falha ao criar soquete.</talkNotify1>
+	<talkNotify2>Conexão ao servidor falhou</talkNotify2>
+	<talkNotify3>Saída de Áudio está ocupada, por favor tente mais tarde</talkNotify3>
+	<autoPan>Panorâmica</autoPan>
+	<autoPatrol>Vigiar</autoPatrol>
+	<irOn>LED IR ligado</irOn>
+	<irOff>LED IR desligado</irOff>
+	<zoomInOut>Zoom in/out:</zoomInOut>
+	<vlcHints1>Por favor obtenha o último instalador VLC</vlcHints1>
+	<here> aqui </here>
+	<vlcHints2>e habilite o último plugin VLC para Mozilla durante a instalação.</vlcHints2>
+	<privacyMode1>Esta câmera está atualmente em Modo Privado.</privacyMode1>
+	<privacyMode2>Para sair do Modo Privado, for favor siga para </privacyMode2>
+	<privacyMode3>Admin</privacyMode3>
+	<enablePrivacy>Modo Privado</enablePrivacy>
+	<left_up>Esquerda Acima</left_up>
+	<up>Acima</up>
+	<right_up>Direita Acima</right_up>
+	<left>Esquerda</left>
+	<left_down>Esquerda Abaixo</left_down>
+	<right_down>Direita Abaixo</right_down>
+	<right>Direita</right>
+	<down>Abaixo</down>
+	<Zoom_in>Zoom In</Zoom_in>
+	<Zoom_out>Zoom Out</Zoom_out>
+	<home>Início</home>
+	<javajreinfo1>Este navegador não suporta ou desabilitou o Java JRE .</javajreinfo1>
+	<javajreinfo2>Obtenha a versão mais recente do Java JRE.</javajreinfo2>
+	<javajreinfo3> ou habilite o Java JRE.</javajreinfo3>
+	<javajreinfo4>Este navegador não suporta ou desabilitou o QuickTime .</javajreinfo4>
+	<javajreinfo5>Obtenha a versão mais recente do QuickTime</javajreinfo5>
+	<javajreinfo6>aqui</javajreinfo6>
+	<javajreinfo7>ou habilite o QuickTime. </javajreinfo7>
+	<javajreinfo8>Clique aqui para baixar e instalar o plugin NCS. Recomendamos reiniciar o seu navegador!!!</javajreinfo8>
+	<javajreinfo88>O navegador de Internet que está a utilizar pode apresentar dificuldades para receber imagens e vídeo. Se encontrar problemas na visualização desta página, sugerimos que utilize o Internet Explorer, Mozilla Firefox ou Apple Safari.</javajreinfo88>
+	<javajreinfo9>Este navegador não suporta ou desabilitou o QuickTime.</javajreinfo9>
+	<javajreinfo10>Obtenha a última versão do QuickTime</javajreinfo10>
+	<javajreinfo11>aqui</javajreinfo11>
+	<javajreinfo12>ou habilite o QuickTime.</javajreinfo12>
+</body>

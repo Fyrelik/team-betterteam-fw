@@ -1,0 +1,148 @@
+<body>
+	<networkSettings>Red</networkSettings>
+	<description1>Aquí puede configurar los parámetros de LAN e Internet.</description1>
+	<savebutton>Guardar parámetros</savebutton>
+	<notsavebutton>No guardar parámetros</notsavebutton>
+	<general>Parámetros de LAN</general>
+	<pppoeStatusConnecting>Conectando</pppoeStatusConnecting>
+	<lan>PARÁMETROS DE LAN</lan>
+	<dhcp>Dirección IP automática</dhcp>
+	<static>Dirección IP estática</static>
+	<ip>Dirección IPv4</ip>
+	<networkipseterror>Los parámetros no son válidos</networkipseterror>
+	<subnetMask>Máscara de subred</subnetMask>
+	<defaultRouter>Puerta de enlace predeterminada(Enrutador)</defaultRouter>
+	<primaryDns>DNS primario opcional</primaryDns>
+	<secondaryDns>DNS secundario opcional</secondaryDns>
+	<enableUpnp>UPnP</enableUpnp>
+	<upnpPort>Direccionamiento de puertos UPnP</upnpPort>
+	<upnpHttp>Puerto HTTP externo</upnpHttp>
+	<upnpHttps>Puerto HTTPS externo</upnpHttps>
+	<upnpRTSP>Puerto RTSP externo</upnpRTSP>
+	<upnp>PARÁMETROS DE UPnP</upnp>
+	<basicser>Servicio básico</basicser>
+	<av>AV</av>	
+	<authrtsp>Autenticación de usuario RTSP</authrtsp>
+	<authrtsp1> : la activación de la autenticación de usuario RTSP le permitirá obligar al espectador a identificarse mediante su nombre de usuario y contraseña.</authrtsp1>
+	<pppoe>PPPoE</pppoe>
+	<userName>Nombre de usuario</userName>
+	<password>Contraseña</password>
+	<confirmPassword>Confirmar contraseña</confirmPassword>
+	<verify>Verificar</verify>
+	<status>Estado</status>
+	<portsetting>PARÁMETROS DEL PUERTO</portsetting>
+	<httpPort>Puerto HTTP</httpPort>
+	<httpsPort>Puerto HTTPS</httpsPort>
+	<rtspPort>Puerto RTSP</rtspPort>
+	<rtspAuth>Autenticación de usuario</rtspAuth>
+	<httpExtPort>Puerto HTTP externo</httpExtPort>
+	<rtspExtPort>Puerto RTSP externo</rtspExtPort>
+	<reboot1>La red de la cámara IP se está reiniciando, espere durante </reboot1>
+	<reboot2> segundos ...</reboot2>
+	<ipError1>La dirección IP no puede estar vacía</ipError1>
+	<subnetMaskError1>La máscara de subred no puede estar vacía</subnetMaskError1>
+	<routerError1>La puerta de enlace predeterminada (Enrutador) no puede estar vacía</routerError1>
+	<pppoeError1>El nombre de usuario de PPPoE no puede estar vacío</pppoeError1>
+	<pppoeError2>La contraseña de PPPoE no puede estar vacía</pppoeError2>
+	<pppoeError3>La contraseña de confirmación de PPPoE no puede estar vacía</pppoeError3>
+	<pppoeError4>La contraseña de PPPoE y la contraseña de confirmación son diferentes</pppoeError4>
+	<pppoeError5>El nombre de usuario y la contraseña de PPPoE no pueden aceptar caracteres que no sean ASCII y espacios</pppoeError5>
+	<pppoeStatusDisabled>Desactivada</pppoeStatusDisabled>
+	<pppoeStatusConnected>Conectado</pppoeStatusConnected>
+	<pppoeStatusConnecting>Conectando</pppoeStatusConnecting>
+	<httpPortError1>El puerto HTTP no puede estar vacío</httpPortError1>
+	<httpPortError2>El puerto HTTP debe ser un número</httpPortError2>
+	<httpPortError3>El puerto HTTP debe ser 80 o estar entre 1.025 y 65.535</httpPortError3>
+	<httpPortError4>El puerto HTTP no puede ser igual al puerto HTTPS</httpPortError4>
+	<httpPortError5>El puerto HTTP debe estar entre 1 y 65.535</httpPortError5>
+	<rtstPortError1>El puerto RTSP no puede estar vacío</rtstPortError1>
+	<rtstPortError2>El puerto RTSP debe ser un número</rtstPortError2>
+	<rtstPortError3>El puerto RTSP debe ser 554 o estar entre 1.025 y 65.535</rtstPortError3>
+	<rtstPortError4>El puerto HTTP no puede ser igual al puerto RTSP</rtstPortError4>
+	<rtstPortError5>El puerto RTSP debe estar entre 1 y 65.535</rtstPortError5>
+	<httpExtPortError1>El puerto HTTP externo no puede estar vacío</httpExtPortError1>
+	<httpExtPortError2>El puerto HTTP externo debe ser un número</httpExtPortError2>
+	<httpExtPortError3>El puerto HTTP externo debe ser 80 o estar entre 1.025 y 65.535</httpExtPortError3>
+	<httpExtPortError4>El puerto HTTP externo no puede ser igual al puerto HTTPS externo</httpExtPortError4>
+	<httpExtPortError5>El puerto HTTP externo debe estar entre 1 y 65.535</httpExtPortError5>
+	<rtspExtPortError1>El puerto RTSP externo no puede estar vacío</rtspExtPortError1>
+	<rtspExtPortError2>El puerto RTSP externo debe ser un número</rtspExtPortError2>
+	<rtspExtPortError3>El puerto RTSP externo debe ser 554 o estar entre 1.025 y 65.535</rtspExtPortError3>
+	<rtspExtPortError4>El puerto HTTP externo no puede ser igual al puerto RTSP externo</rtspExtPortError4>
+	<rtspExtPortError5>El puerto RTSP externo debe estar entre 1 y 65.535</rtspExtPortError5>
+	<netErrorMessage1>El </netErrorMessage1>
+	<netErrorMessage2> octeto de </netErrorMessage2>
+	<netErrorMessage3> debe ser un número</netErrorMessage3>
+	<netErrorMessage4> debe ser un valor entre </netErrorMessage4>
+	<netErrorMessage5> y </netErrorMessage5>
+	<netErrorMessage6> debe ser </netErrorMessage6>
+	<netError>La configuración de red no es válida</netError>
+	<ipMessage1>Dirección IP</ipMessage1>
+	<ipMessage2>Los parámetros no son válidos</ipMessage2>
+	<ipMessage3>La dirección IP no puede ser cero.</ipMessage3>
+	<maskMessage1>Máscara de subred</maskMessage1>
+	<maskMessage2>Ha introducido una máscara de subred no válida. La máscara de subred debe ser contigua. Introduzca una máscara válida.</maskMessage2>
+	<maskMessage3>La máscara de subred no puede ser cero</maskMessage3>
+	<routerMessage1>Dirección de puerta de enlace predeterminada (Enrutador)</routerMessage1>
+	<routerMessage2>La dirección de puerta de enlace predeterminada (Enrutador) introducida no es válida</routerMessage2>
+	<routerMessage3>La dirección de puerta de enlace predeterminada (Enrutador) no puede ser cero</routerMessage3>
+	<priDnsMessage1>Dirección DNS primaria</priDnsMessage1>
+	<priDnsMessage2>La dirección DNS primaria introducida no es válida</priDnsMessage2>
+	<priDnsMessage3>La dirección DNS primaria no puede ser cero</priDnsMessage3>
+	<secDnsMessage1>Dirección DNS secundaria</secDnsMessage1>
+	<secDnsMessage2>La dirección DNS secundaria introducida no es válida</secDnsMessage2>
+	<secDnsMessage3>La dirección DNS secundaria no puede ser cero</secDnsMessage3>
+	<dnsErrMessage>La dirección DNS primaria y la dirección DNS secundaria deben ser diferentes</dnsErrMessage>
+	<apple>Apple</apple>
+	<bonjour>Bonjour</bonjour>
+	<disable>Desactivada</disable>
+	<pppoeStatusFailed>Fallo de conexión</pppoeStatusFailed>
+	<lan1>Dirección IP automática</lan1>
+	<Staticip>Dirección IP estática</Staticip>
+	<dhcpip>Direccionamiento de puertos UPnP</dhcpip>
+	<searchdomain>Dominio de búsqueda opcional</searchdomain>
+	<httpsPortError1>El puerto HTTPS no puede estar vacío</httpsPortError1>
+	<httpsPortError2>El puerto HTTPS debe ser un número</httpsPortError2>
+	<httpsPortError3>El puerto HTTPS debe ser 443 o estar entre 1.025 y 65.535</httpsPortError3>
+	<httpsPortError4>El puerto HTTPS no puede ser igual al puerto RTSP</httpsPortError4>
+	<httpsPortError5>El puerto HTTPS debe estar entre 1 y 65.535</httpsPortError5>
+	<httpsExtPortError1>El puerto HTTPS externo no puede estar vacío</httpsExtPortError1>
+	<httpsExtPortError2>El puerto HTTPS externo debe ser un número</httpsExtPortError2>
+	<httpsExtPortError3>El puerto HTTPS externo debe ser 443 o estar entre 1.025 y 65.535</httpsExtPortError3>
+	<httpsExtPortError4>El puerto HTTPS externo no puede ser igual al puerto RTSP externo</httpsExtPortError4>
+	<httpsExtPortError5>El puerto HTTPS externo ebe estar entre 1 y 65.535</httpsExtPortError5>
+	<domainErrMessage>El dominio de búsqueda sólo acepta caracteres numéricos, alfabéticos, \".\" y \"-\"</domainErrMessage>
+	<ipv4set>Parámetros de IPv4</ipv4set>
+	<ipv6set>Parámetros de IPv6</ipv6set>
+	<manIpv6set>Configuración manual de la dirección IP</manIpv6set>
+	<Ipv6AddrPre>Longitud de prefijo/dirección IPv6</Ipv6AddrPre>
+	<Ipv6gateway>Puerta de enlace predeterminada(Enrutador)</Ipv6gateway>
+	<Ipv6priDns>DNS primario opcional</Ipv6priDns>
+	<Ipv6secDns>DNS secundario opcional</Ipv6secDns>
+	<ipv6Message>La dirección IPv6 introducida no es válida.</ipv6Message>
+	<ipv6Message2>La longitud del prefijo IPv6 debe estar entre 0 y 128.</ipv6Message2>
+	<ipv6Message3>La puerta de enlace predeterminada de IPv6 (Enrutador) introducida no es válida.</ipv6Message3>
+	<ipv6Message4>La dirección de DNS IPv6 primario introducida no es válida.</ipv6Message4>
+	<ipv6Message5>La dirección DNS secundaria de IPv6 introducida no es válida.</ipv6Message5>
+	<ipv6Message6>La dirección de DNS IPv6 primario de IPv6 y la dirección de DNS IPv6 secundario deben ser diferentes</ipv6Message6>
+	<ipv6Message7>La puerta de enlace predeterminada de IPv6 (Enrutador) debe empezar con FE80.</ipv6Message7>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<Staticip1>Esta opción se utiliza para configurar su cámara IP con la dirección IP que coincida con sus parámetros de red.</Staticip1>
+	<dhcpip1>Si el Enrutador no admite UPnP, las cámaras y el Enrutador pueden comunicarse entre sí para que el Enrutador conozca los puertos que utiliza cada cámara.</dhcpip1>
+	<lan>Selecciónelo si está utilizando un servidor DHCP en la red y desea que se asigne automáticamente una dirección IP a su cámara.</lan>
+	<httpPort>Asignar el puerto de la cámara para permitirle conectar a través de un explorador web estándar.</httpPort>
+	<rtspPort>Asignar el puerto de la cámara para permitirle conectar utilizando QuickTime o canalización a dispositivos móviles.</rtspPort>
+	<enableUpnp>Activar UPnP le permitirá detectar la cámara como un dispositivo UPnP en la red.</enableUpnp>
+	<bonjour>Activar Bonjour la permitirá detectar la cámara en un ordenador Apple.</bonjour>
+	<pppoe>Esta opción se utiliza para configurar la cámara para conectarse directamente a Internet. Si la cámara está detrás de un Enrutador o puerta de enlace, no necesitará configurar este parámetro.</pppoe>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<fail>Error en los cambios.</fail>
+	<invalidParameter>Error de configuración.</invalidParameter>
+	<settingNotChange>La configuración no ha cambiado.</settingNotChange>
+	<saveOK>Se está reiniciando el servidor web. Espere 1 minuto y después vuelva a conectar la cámara con la nueva dirección IP.</saveOK>
+</message>
+

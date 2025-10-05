@@ -1,0 +1,19 @@
+<body>
+	<audioDetection>音频侦测</audioDetection>
+	<description1>为了能够启动你摄像机的音频侦测，你必须开启“音频侦测”，并为您的摄像机侦测环境设置侦测级别。</description1>
+	<subtitle>音频侦测</subtitle>
+	<audioLevel>侦测级别</audioLevel>
+	<enableaudiodetection>音频侦测</enableaudiodetection>
+</body>
+<hint>
+    <helpfulHints>帮助提示..</helpfulHints>
+	<audiodetection>音频侦测功能可以侦测到摄像机上使用的麦克风的音频事件。</audiodetection>
+	<audiodetectionType>侦测级别</audiodetectionType>
+	<audiodetectionTypeText>设置触发音频事件的音频侦测级别。更低的侦测级别可以侦测到更小的音量。</audiodetectionTypeText>	
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<invalidParameter>invalid Parameter.</invalidParameter>
+	<nothingChange>已保存更改。</nothingChange>
+	<fail>更改失败。</fail>
+</message>

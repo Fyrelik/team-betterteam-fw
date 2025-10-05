@@ -1,0 +1,97 @@
+<body>
+	<httpstitle>HTTPS 设置</httpstitle>
+	<description1>你可以在这里设置 HTTPS。</description1>
+	<subtitle>HTTPS 设置</subtitle>
+	<enableHttps>HTTPS 安全连接</enableHttps>
+	<connecttype>连接的种类</connecttype>
+	<bothhttps>同时使用 HTTP 与 HTTPS</bothhttps>
+	<onlyhttps>仅使用 HTTPS</onlyhttps>
+	<creatmethod>产生与安装认证的方法</creatmethod>
+	<autocreat>自动产生并安装认证</autocreat>
+	<automanual>手动产生并安装认证</automanual>
+	<creatandinstall>先产生认证需求，再安装认证</creatandinstall>
+	<country>国家:</country>
+	<area>州或省份:</area>
+	<locality>位置:</locality>
+	<organization>组织:</organization>
+	<organizationUnit>组织单位:</organizationUnit>
+	<commonName>一般名称:</commonName>
+	<validity>有效时间:</validity>
+	<creatButton>创建</creatButton>
+	<uploadText>选择认证:</uploadText>
+	<upload>上传</upload>
+	<cerInfoTitel>认证信息</cerInfoTitel>
+	<cerStatus>状态:</cerStatus>
+	<proerty>属性</proerty>
+	<remove>删除</remove>
+	<notinstall>未安装</notinstall>
+	<active>启动</active>
+	<waitCertificate>等待认证</waitCertificate>
+	<connectTypeError>请选择连接的种类。</connectTypeError>
+	<noCerSaveError>请创建有效的认证。</noCerSaveError>
+	<countryError>国家不能为空白。</countryError>
+	<countryError2>请输入正确的国别码。</countryError2>
+	<stateError1>州或省份不能为空白。</stateError1>
+	<stateError2>州或省份不能使用下列字符:</stateError2>
+	<localError1>位置不能空白。</localError1>
+	<localError2>位置不能使用下列字符: </localError2>
+	<orgError1>组织不能空白。</orgError1>
+	<orgError2>组织不能使用下列字符: </orgError2>
+	<org_unitError1>组织单位不能空白。</org_unitError1>
+	<org_unitError2>组织单位不能使用下列字符： </org_unitError2>
+	<commonNameError1>一般名称不能空白。</commonNameError1>
+	<commonNameError2>一般名称不能使用下列字符： </commonNameError2>
+	<validityError>有效时间不能空白。</validityError>
+	<validityError2>有效时间请输入1到3650之间的数字。</validityError2>
+	<validityError3>有效时间只接受数字。</validityError3>
+	<downLoad>下载认证需求</downLoad>
+	<removeError1>要删除认证，请先停止 HTTPS 连接。</removeError1>
+	<noDB>没有上传任何认证文件。</noDB>
+	<removeConfirm>你确定要删除认证吗？</removeConfirm>
+	<removeConfirm1>你确定要删除认证需求吗？</removeConfirm1>
+	<upLoadCertConfirm>你确定要上传认证吗？</upLoadCertConfirm>
+	<createCertError>目前的认证仍在使用当中，请先删除它。</createCertError>
+	<createrCertError1>请先删除旧的认证。</createrCertError1>
+	<createrCertError2>在要创建新的认证之前，请先删除进行中的认证需求。</createrCertError2>
+	<buttonRmCertRequest>删除认证需求</buttonRmCertRequest>
+	<KeyLength>密钥长度:</KeyLength>
+	<bits>位</bits>
+	<days>天</days>
+	<stateLengthErro>州或省份的长度应该在1到128个字节之间。</stateLengthErro>
+	<localityLengthErro>位置的长度应该在1到128个字节之间。</localityLengthErro>
+	<orgLengthErro>组织的长度应该在1到64个字节之间。</orgLengthErro>
+	<orgUnLengthErro>组织单位的长度应该在1到64个字节之间。</orgUnLengthErro>
+	<commonNameLengthErro>一般名称的长度应该在1到64个字节之间。</commonNameLengthErro>
+	<certRequest>认证需求:</certRequest>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<HttpsHelpMain>HTTPS 安全连接在 HTTP 的连接上增加了加密的能力。你可以同时使用 HTTP 或者是 HTTPS 的连接。但请注意，视频与声音的串流仍然会使用 HTTP 的连接。</HttpsHelpMain>
+	<httpsHelp>HTTPS 安全连接 - 允许使用者使用 HTTPS 服务。</httpsHelp>
+	<httpsHelpIntro>你可以使用 HTTP 或着是 HTTPS 来连接这台摄像机。</httpsHelpIntro>
+	<connectType>连接的种类</connectType>
+	<bothHttpAndHttps>同时使用 HTTP 与 HTTPS</bothHttpAndHttps>
+	<bothHttpAndHttpsInfo>你可以选择这个选项来允许 HTTP 和 HTTPS 连接到这台摄像机。</bothHttpAndHttpsInfo>
+	<httpsOnly>仅使用 HTTPS</httpsOnly>
+	<httpsOnlyInfo>你可以选择这个选项来只允许 HTTPS 连接到这台摄像机。</httpsOnlyInfo>
+	<createMethod>产生与安装认证的方法</createMethod>
+	<autoCreateMethod>自动产生并安装认证</autoCreateMethod>
+	<autoCreateMethodInfo>选择这个方法来自动产生并安装认证。</autoCreateMethodInfo>
+	<manCreateMethod>手动产生并安装认证</manCreateMethod>
+	<manCreateMethodinfo>选择这个方法来手动产生并安装认证。</manCreateMethodinfo>
+	<createAndInstallMethod>先产生认证需求，再安装认证</createAndInstallMethod>
+	<createAndInstallMethodInfo>选择这个方法允许你先产生认证需求，并由认证单位来进行签核，然后再安装由认证单位传回的认证。</createAndInstallMethodInfo>
+	<certInfo>认证信息</certInfo>
+	<certInfoExplain>你的认证状态和信息，你可以点击属性来观看更多详细的信息。</certInfoExplain>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<invalidParameter>无效的参数。</invalidParameter>
+	<notChanged>未修改。</notChanged>
+	<changeFailed>修改失败。</changeFailed>
+	<reboot1>服务器正在重启，请等待 </reboot1>
+	<reboot2> 秒...</reboot2>
+	<upLoadOK>上传完成。</upLoadOK>
+	<invalidDB>上传的认证与当初的认证需求不相符。</invalidDB>
+	<saveOK>服务器正在重启，请等待1分钟，然后使用新IP地址连接摄像机。</saveOK>
+</message>

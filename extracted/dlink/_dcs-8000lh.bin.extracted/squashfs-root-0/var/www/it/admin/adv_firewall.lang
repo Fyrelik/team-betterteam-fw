@@ -1,0 +1,71 @@
+<body>
+	<ipfiltertitle>FILTRO IP</ipfiltertitle>
+	<description1>Per abilitare i filtri IP della videocamera, è necessario selezionare la casella di controllo 'Filtro elenco accessi'. In questa pagina è quindi possibile modificare le impostazioni relative ai dettagli.</description1>
+	<subtitle>FILTRO IP</subtitle>
+	<enableIpFilter>Filtro elenco accessi</enableIpFilter>
+	<filterType>Tipo di filtro:</filterType>
+	<filterAllow>Consenti</filterAllow>
+	<filterDeny>Nega</filterDeny>
+	<accessList>Elenco filtri:</accessList>
+	<ipTypeSig>Singolo</ipTypeSig>
+	<ipTypeSub>Subnet</ipTypeSub>
+	<ipTypeRan>Intervallo</ipTypeRan>
+	<ipTypeSigDot>Indirizzo IP:</ipTypeSigDot>
+	<ipTypeSubDot>Indirizzo di rete/Network mask:</ipTypeSubDot>
+	<ipTypeRanDot>Indirizzo IP - Indirizzo IP:</ipTypeRanDot>
+	<addAFilter>Aggiungi</addAFilter>
+	<adminIp>Indirizzo IP amministratore:</adminIp>
+	<ipadresserrorinfo>Impostazioni non valide</ipadresserrorinfo>
+	<allowAdmin>Consenti sempre all'indirizzo IP di accedere al dispositivo</allowAdmin>
+	<delAFilter>Elimina</delAFilter>
+	<ipMessage1>Indirizzo IP</ipMessage1>
+	<ipMessage2>L'indirizzo IP immesso non è valido.</ipMessage2>
+	<ipMessage3>Il valore dell'indirizzo IP non può essere zero.</ipMessage3>
+	<ipError1>Specificare un valore in Indirizzo IP.</ipError1>
+	<networkipseterror>Impostazioni non valide.</networkipseterror>
+	<delNumError>Selezionare un solo filtro.</delNumError>
+	<delChooseError>Scegliere un filtro alla volta.</delChooseError>
+	<netMaskError>Il valore di Netmask deve essere compreso tra 1 e 32.</netMaskError>
+	<allowEmptyListError>Aggiungere un filtro o abilitare l'indirizzo IP dell'amministratore.</allowEmptyListError>
+	<ipv4filterListNumError>Elenco filtri IPv4 pieno.</ipv4filterListNumError>
+	<ipv6filterListNumError>Elenco filtri IPv6 pieno.</ipv6filterListNumError>
+	<allowNoneError>Consentire almeno un filtro o abilitare un indirizzo IP amministratore.</allowNoneError>
+	<decreasRangeError>Non è consentito scendere al di sotto dell'intervallo degli indirizzi IP.</decreasRangeError>
+	<sameIpError>Gli indirizzi IP di inizio e fine non possono essere identici.</sameIpError>
+	<filteraddress>Aggiungi nuovo filtro:</filteraddress>
+	<ipv4AccessList>Elenco filtri IPv4:</ipv4AccessList>
+	<ipv6AccessList>Elenco filtri IPv6:</ipv6AccessList>
+	<ipv6AddressError>L'indirizzo IP immesso non è valido.</ipv6AddressError>
+	<addAddressIsError>L'indirizzo immesso non è valido.</addAddressIsError>
+	<ipv6PrefixError>Il valore della lunghezza del prefisso IPv6 deve essere compreso tra 0 e 128.</ipv6PrefixError>
+	<StartIP>Indirizzo IP iniziale:</StartIP>
+	<EndIP>Indirizzo IP finale:</EndIP>
+	<commonIPadresserror>Indirizzo IP già esistente</commonIPadresserror>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili...</helpfulHints>
+	<Ipfilter>Il filtro elenco accesso viene utilizzato per consentire o negare l'accesso alla videocamera solo agli indirizzi IP specificati.</Ipfilter>
+	<FilterType>Tipo di filtro</FilterType>
+	<FilterTypeText>È possibile selezionare Consenti o Nega per gli indirizzi IP specificati nell'elenco filtri.</FilterTypeText>
+	<AccessList>Elenco filtri</AccessList>
+	<AccessListText>Indirizzi IP specificati.</AccessListText>
+	<Single>Singolo</Single>
+	<SingleText>Consente di specificare un unico indirizzo IP.</SingleText>
+	<Subnet>Subnet</Subnet>
+	<SubnetText>Consente di specificare una subnet di indirizzi IP.</SubnetText>
+	<Range>Intervallo</Range>
+	<RangeText>Consente di specificare un intervallo di indirizzi IP.</RangeText>
+	<adminAdress>Indirizzo IP amministratore</adminAdress>
+	<adminAdressText>È possibile abilitare e impostare un indirizzo IP come indirizzo IP amministratore al quale consentire accesso illimitato alla videocamera.</adminAdressText>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<invalidParameter>Parametro non valido.</invalidParameter>
+	<invalidFilterEnable>Filtro abilitato non valido.</invalidFilterEnable>
+	<invalidFilterType>Tipo di filtro non valido.</invalidFilterType>
+	<invalidAdminIPEnable>Indirizzo IP amministratore abilitato non valido.</invalidAdminIPEnable>
+	<invalidAdminIP>Indirizzo IP amministratore non valido.</invalidAdminIP>
+	<invalidIP>Indirizzo IP non valido.</invalidIP>
+	<invalidNetmask>iNetmask non valida.</invalidNetmask>
+	<nothingChange>Impostazioni non modificate.</nothingChange>
+</message>

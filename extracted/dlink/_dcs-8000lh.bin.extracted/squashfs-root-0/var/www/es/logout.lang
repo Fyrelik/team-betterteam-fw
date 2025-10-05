@@ -1,0 +1,11 @@
+<body>
+	<logout>Cierre de sesión</logout>
+	<description1>Al cerrar la sesión se cerrará el explorador.</description1>
+	<titleLogout>CERRAR SESIÓN</titleLogout>
+	<closewebpage>Cierre la página web de forma manual</closewebpage>
+</body>
+<hint>
+</hint>
+<message>
+</message>
+

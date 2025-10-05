@@ -1,0 +1,58 @@
+<body>
+	<maintenance>MANUTENÇÃO</maintenance>
+	<deviceManagement>Admin</deviceManagement>
+	<backupAndRestore>Sistema</backupAndRestore>
+	<firmwareUpgrade>Atualização de Firmware</firmwareUpgrade>
+	<rtspauth>Autenticação RTSP</rtspauth>
+	<rtspauth1> - Ativar a validação do usuário para streaming RTSP.</rtspauth1>
+	<httpauth>Autenticação HTTP</httpauth>
+	<httpauth1> - Ativar a validação do usuário para streaming de HTTP.</httpauth1>
+	<snapauth>Autenticação de URL de snapshot</snapauth>	
+	<snapauth1> - Ativar validação de URL para snapshot.</snapauth1>	
+	<cameraName>Nome da Câmera</cameraName>
+	<cameraName1> - O nome exclusivo para sua câmera.</cameraName1>
+	<label>Rótulo</label>
+	<label1> - O rótulo exclusivo para sua câmera.</label1>
+	<showTime>Mostrar Horário</showTime>
+	<showTime1> - Selecionar esta opção para exibir informações de data e hora no snapshot ou imagem de vídeo.</showTime1>
+	<adminPassword>Configuração de senha de admin</adminPassword>
+	<adminPassword1> - Senha para a conta do administrador. A senha de administrador deve ser digitada duas vezes para confirmação.</adminPassword1>
+	<led>Luz LED Alimentação/Link</led>
+	<led1>Ligado - LED piscando dependendo da alimentação e link com fio/sem fio e estado de transmissão vídeo/áudio.</led1>
+	<led2>Desligado - LED sempre desligado.</led2>
+	<led3>Piscando - LED Link sempre piscando com o vídeo que está sendo monitorado.</led3>
+	<timeStamp>Time Stamp</timeStamp>
+	<timeStamp1> - Selecione esta opção para exibir informações de data e hora no snapshot ou imagem de vídeo.</timeStamp1>
+	<addUser>Adicionar a conta de usuário</addUser>
+	<addUser1> - Crie novas contas de usuário para acessar a imagem de vídeo em tempo real e até vinte contas de usuário podem ser adicionadas. O novo nome de usuário será exibido na lista de usuários para que possa ser excluido.</addUser1>
+	<deleteUser>Apagar</deleteUser>
+	<deleteUser1> - Remover usuário da lista de usuários.</deleteUser1>
+	<userList>Lista de Usuário</userList>
+	<userList1> - Lista de conta de usuário (não incluir admin), para exibir e excluir.</userList1>
+	<backup>Salvar no disco rígido local</backup>
+	<backup1> – Depois de clicar neste botão, uma janela de download irá aparecer permitindo que você salve o arquivo de configuração da câmera para o seu computador para fins de restauração.</backup1>
+	<restore>Carregar de um disco rígido local</restore>
+	<restore1> - Você pode procurar e carregar o arquivo de configuração. Clique em "Carregar Configuração" para restaurar as definições pré-configuradas ou salvas.</restore1>
+	<rebootSystem>Reiniciar Dispositivo</rebootSystem>
+	<rebootSystem1> - Esta opção reiniará a câmera.</rebootSystem1>
+	<factoryDefaults>Restaurar para padrões de fábrica</factoryDefaults>
+	<factoryDefaults1> - Esta opção irá restaurar as configurações padrão de fábrica em sua câmera. Isto irá remover todas as configurações que foram feitas anteriormente.</factoryDefaults1>
+	<firmwareInformation>Informação de Firmware</firmwareInformation>
+	<firmwareInformation1> - Exibe as informações do firmware.</firmwareInformation1>
+	<firmwareUpdate>Atualização de Firmware</firmwareUpdate>
+	<firmwareUpdate1> - A opção permite ao usuário atualizar o firmware. Clique em "Procurar" para localizar o arquivo e clique em "Enviar" para aplicar o novo firmware em sua câmera.</firmwareUpdate1>
+	<firmwarebuildnumber>Número de compilação de Firmware atual</firmwarebuildnumber>
+	<firmwarebuildnumber1> - O número de revisão específica para a versão do firmware da câmera. Quando você precisar de suporte, este número também deve ser dado ao suporte técnico.</firmwarebuildnumber1>
+	<curfirmwareversion>Versão de firmware atual</curfirmwareversion>
+	<curfirmwareversion1> - Versão do Firmware da câmera.</curfirmwareversion1>
+	<enableOSD>OSD</enableOSD>
+	<enableOSDl> - Ativar OSD, o rótulo e o Time Stamp serão exibidos no snapshot ou imagem de vídeo para o usuário.</enableOSDl>
+	<calibrateDevice>Calibrar o dispositivo</calibrateDevice>
+	<calibrateDevice1> - Recalibre a posição de repouso da câmera.</calibrateDevice1>
+	<privacycontrol>Controle de Privacidade</privacycontrol>
+	<privacycontrol1> - Permite que você configure se câmera pode entrar no modo de privacidade ou não.</privacycontrol1>
+	<privacyon>Privacidade Ligada</privacyon>
+	<privacyon1> - Câmera está no modo de privacidade. Vídeo em tempo real, vídeo clipe, snapshot e gravação em SD será desligada.</privacyon1>
+	<privacyoff>Privacidade Desligada</privacyoff>
+	<privacyoff1> - A câmera está em modo de funcionamento normal.</privacyoff1>
+</body>

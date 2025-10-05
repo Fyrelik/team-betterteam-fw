@@ -1,0 +1,41 @@
+<leftPanel>
+	<camera>Camera</camera>
+	<logout>Logout</logout>
+	<titleLiveVideo>LIVE VIDEO</titleLiveVideo>
+	<wizard>Setup Wizard</wizard>
+	<networkSettings>Network</networkSettings>
+	<apRouter>Direct Connection</apRouter>
+	<wireless>Wireless Setup</wireless>
+	<ddns>Dynamic DNS</ddns>
+	<imageSettings>Image Setup</imageSettings>
+	<audioVideo>Audio and Video</audioVideo>
+	<mailFtp>Mail and FTP</mailFtp>
+	<motionDetection>Motion Detection</motionDetection>
+	<audio_detection>Sound Detection</audio_detection>
+	<timeAndDate>Time and Date</timeAndDate>
+	<cameraControl>Camera Control</cameraControl>
+	<cameraPatrolControl>Patrol Position</cameraPatrolControl>
+	<recording>SD Recording</recording>
+	<snapshot>Snapshot</snapshot>
+	<digitalOutput>Digital Output</digitalOutput>
+	<videoclip>Video Clip</videoclip>
+	<rs485>RS-485</rs485>
+	<ack>Acknowledgements</ack>
+	<logout>Logout</logout>
+	<titleSetup>SETUP</titleSetup>
+	<deviceInfo>Device Info</deviceInfo>
+	<log>Log</log>
+	<logout>Logout</logout>
+	<titleStatus>STATUS</titleStatus>
+	<deviceManagement>Admin</deviceManagement>
+	<backupAndRestore>System</backupAndRestore>
+	<firmwareUpgrade>Firmware Upgrade</firmwareUpgrade>
+	<logout>Logout</logout>
+	<titleMaintenance>MAINTENANCE</titleMaintenance>
+	<menu>Help Menu</menu>
+	<logout>Logout</logout>
+	<titleHelp>HELP</titleHelp>
+	<sdcard>SD Management</sdcard>
+	<ipFilter>IP Filter</ipFilter>
+	<https>HTTPS Setup</https>
+</leftPanel>

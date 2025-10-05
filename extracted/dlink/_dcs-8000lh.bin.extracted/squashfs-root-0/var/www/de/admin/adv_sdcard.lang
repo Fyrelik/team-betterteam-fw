@@ -1,0 +1,110 @@
+<body>
+	<playback>SD-MANAGEMENT</playback>
+	<playback1>SD-KARTE</playback1>
+	<playback2>UNGÜLTIG</playback2>
+	<totalcapacity>Gesamt:</totalcapacity>
+	<availablespace>Frei:</availablespace>
+	<formatvalue>SD-Karte formatieren</formatvalue>
+	<KB> KB</KB>
+	<description1>Hier können Sie die auf der SD-Karte gespeicherten Dateien durchsuchen und verwalten.</description1>
+	<description2>Die SD-Karte ist entweder herausgenommen oder ungültig. Prüfen Sie bitte die SD-Karte oder formatieren Sie sie.</description2>
+	<description3>Der SD-Kartenspeicher ist ungültig.</description3>
+	<description4>Der SD-Kartenspeicher ist geschützt.</description4>
+	<performance>Der Durchsatz der SD-Karte auf Ihrer Kamera ist aktuell für Aufnahmen nicht ausreichend. 
+Es ist ratsam, die SD-Karte neu zu formatieren oder sie durch eine Karte höherer Klasse zu ersetzen.
+</performance>
+	<sdNote>Beachten Sie, dass keine SD-Karte in die Kamera eingesetzt oder diese nicht beschreibbar ist.</sdNote>
+	<stoprecrebootconfirm>Möchten Sie die Aufnahmefunktion deaktivieren und einen Neustart durchführen?</stoprecrebootconfirm>
+	<stoprecrebootconfirm2>Initialisieren?</stoprecrebootconfirm2>
+	<sdcardstatus>SD-Status: </sdcardstatus>
+	<writeprotected>Schreibgeschützt</writeprotected>
+	<cardready>Bereit</cardready>
+	<cardinvalid>Ungültig</cardinvalid>
+	<backupconfirm>Möchten Sie Dateien sichern?</backupconfirm>
+	<formatconfirm>Möchten Sie die SD-Karte formatieren?</formatconfirm>
+	<completeformat>Die SD-Karte ist komplett formatiert.</completeformat>
+	<records>SD-Karte</records>
+	<recordtype>Aufnahmetyp: </recordtype>
+	<recordtype1>Aufnahmetyp </recordtype1>
+	<name>Name</name>
+	<numoffiles>Anzahl Dateien</numoffiles>
+	<filesize>Größe</filesize>
+	<foldersize>Größe</foldersize>
+	<used>Verwendet:</used>
+	<video>Video</video>
+	<date>Datum</date>
+	<hour>Stunde</hour>
+	<file>Datei</file>
+	<delete>Löschen</delete>
+	<ok>OK</ok>
+	<deleteconfirm>Die ausgewählte Datei wird gelöscht. Sind Sie sicher?</deleteconfirm>
+	<deleteconfirm1>Es ist keine Datei ausgewählt.</deleteconfirm1>
+	<refresh>Aktualisieren</refresh>
+	<toplevel>Übergeordneter Ordner</toplevel>
+	<filesperpage>Dateien pro Seite:</filesperpage>
+	<of>von</of>
+	<formatfailed>Formatierung der SD-Karte ist fehlgeschlagen.</formatfailed>
+	<formatrecording>Kamera nimmt jetzt Dateien auf der SD-Karte auf. Stoppen Sie die Aufnahme, bevor Sie die Karte formatieren.</formatrecording>
+	<sdrecerr>SD-KARTENAUFNAHME AKTIVIEREN</sdrecerr>
+	<sdrecerr1>Wenn Sie die SD-Karte durchsuchen möchten, deaktivieren Sie die SD-Karte in</sdrecerr1>
+	<avhref>Aufnahme</avhref>
+	<sdrecerr2>Seite 1.</sdrecerr2>
+	<formaterr>DATEISYSTEM BESCHÄDIGT</formaterr>
+	<formaterrmsg>Das Dateisystem auf der SD-Karte ist beschädigt. Folgen Sie den Anleitungen zur Wiederherstellung unten.</formaterrmsg>
+	<writefull>SD-Kartenkapazität ausgeschöpft</writefull>
+	<recorderr1>Aufnahme deaktivieren und Kamera neu starten.</recorderr1>
+	<recorderr2>Aufgenommene Datei sichern und SD-Karte neu formatieren. SD-Kartenaufnahme könnte leicht versagen.</recorderr2>
+	<recorderr3>Nach Schritt 2 können Sie zur folgenden Seite gehen -  </recorderr3>
+	<recorderr4> um die Aufnahme wieder zu aktivieren.</recorderr4>
+	<formaterrmsg2>Gehen Sie nach dem Neustart der Kamera wie folgt vor:</formaterrmsg2>
+	<recover>Aufnahme deaktivieren und Kamera neu starten</recover>
+	<reboot1>Die Kamera wurde neu gestartet. Bitte warten Sie ein paar </reboot1>
+	<reboot2> Sekunden...</reboot2>
+	<diablerecfail>Das Deaktivieren der Aufnahme ist fehlgeschlagen.</diablerecfail>
+	<over4g>Über 16G</over4g>
+	<wait>Bitte warten...</wait>
+	<onlywait>Bitte warten...</onlywait>
+	<reinit>Reinitialisierung</reinit>
+	<formatting>SD-Kartenformattierung</formatting>
+	<initstep>Die SD-Karte ist nicht erneut initialisiert. Gehen Sie wie folgt vor, um die SD-Karte erneut zu initialisieren.</initstep>
+	<initstep1>Alle Daten auf der SD-Karte werden gelöscht. Sichern Sie bitte die Daten auf der SD-Karte, bevor Sie sie erneut initialisieren.</initstep1>
+	<init>Initialisieren </init>
+	<initstep0>Aufnahme deaktivieren.</initstep0>
+	<over4Gstep0>Die Kapazität der ersten Partition der SD-Karte Card kann nicht über 16G sein. 'SD-Karte formatieren', um eine 16G Partition zu erstellen und zu formatieren.</over4Gstep0>
+	<over4Gstep1>Alle Daten auf der SD-Karte werden gelöscht. Sichern Sie bitte die Daten auf der SD-Karte, bevor Sie sie formatieren.</over4Gstep1>
+	<over4Gstep2>Falls die SD-Kartengröße über 16G ist. Die SD-Karte erstellt eine 16G Partition und kann möglicherweise die ursprüngliche Größe nicht wiederherstellen.</over4Gstep2>
+	<rebootFail>Neustart fehlgeschlagen</rebootFail>
+	<formatconfirm>Möchten Sie die SD-Karte formatieren?</formatconfirm>
+	<sdCard>SD-Karte</sdCard>
+	<pages>Seiten:</pages>
+	<delsdcard>Löschen</delsdcard>
+	<sdRecording>Um die SD-Karte in der Kamera zu formatieren, deaktivieren Sie bitte zuerst die SD-Aufzeichnung.</sdRecording>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<formatsdcard>SD-Karte formatieren</formatsdcard>
+	<description1>Klicken Sie auf diese Schaltfläche, um die SD-Karte automatisch zu formatieren und Ordner für Momentaufnahmen und Videos zu erstellen. Um die SD-Karte zu formatieren, müssen Sie zuerst die SD-Aufnahmefunktion deaktivieren.</description1>
+	<description2>Wenn die Aufnahmedateien auf der SD-Karte gespeichert sind, klicken Sie auf den Aufnahmeordner und wählen Sie die Aufnahmedatei aus, die Sie anzeigen möchten.</description2>
+	<description3>Wenn Videodateien auf der SD-Karte gespeichert sind, klicken Sie auf den Video-Ordner und wählen Sie die Videodatei aus, die Sie anzeigen möchten.</description3>
+	<description4>Lädt die Datei- und Ordnerinformationen neu von der SD-Karte.</description4>
+	<format>SD-Karte formatieren -  </format>
+	<view>Aufnahmedateien anzeigen - </view>
+	<playback>Aufgenommenes Video abspielen -  </playback>
+	<refresh>Aktualisieren -  </refresh>
+	<sdcardpath>SD-Karte</sdcardpath>
+	<sdcardpath1>Dies kann den aktuellen Pfad der SD-Karte anzeigen.</sdcardpath1>
+	<sdstatus>SD-Status</sdstatus>
+	<sdstatus1>Dies kann den aktuellen Status der SD-Speicherkarte anzeigen (d. h. ob eine Karte eingesetzt ist oder erkannt wurde).</sdstatus1>
+	<filesperpage>Dateien pro Seite</filesperpage>
+	<filesperpage1>Die Anzahl der Dateien pro Seite.</filesperpage1>
+	<pages>Seiten</pages>
+	<pages1>Sie können wählen, welche Seite hier angezeigt werden soll.</pages1>
+	<total>Gesamt</total>
+	<total1>Die gesamte Leistungsfähigkeit der SD-Karte.</total1>
+	<used>Verwendet</used>
+	<used1>Die genutzte Leistungsfähigkeit der SD-Karte.</used1>
+	<free>Frei</free>
+	<free1>Die frei verfügbare Leistungsfähigkeit der SD-Karte.</free1>
+</hint>
+
+

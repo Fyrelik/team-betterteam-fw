@@ -1,0 +1,159 @@
+<body>
+	<snapshot>snapshot</snapshot>
+	<description1>In order to enable your camera to take snapshots, you must select the checkbox of 'Snapshot'. Then, you can determine the trigger event(s) and FTP and/or E-mail notification(s).</description1>
+	<description2>Motion triggered snapshots are disabled when SXGA mode is enabled.</description2>
+	<description3>To enable motion triggered snapshots, select VGA or XGA mode in </description3>
+	<description4> Audio and Video</description4>
+	<description6>Configurable in </description6>
+	<description7> Audio and Video</description7>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<di>D/I Signal 1</di>
+	<di2>D/I Signal 2</di2>
+	<enable>Snapshot</enable>
+	<motionDetection>Motion Detection</motionDetection>
+	<sendVideoClipBy>Send to:</sendVideoClipBy>
+	<emailAddress>E-mail Address</emailAddress>
+	<ftpServer>FTP Server</ftpServer>
+	<userName>User Name</userName>
+	<profile3>Profile 2 </profile3>
+	<password>Password</password>
+	<mailServer>SMTP Mail Server</mailServer>
+	<senderAddress>Sender E-mail Address</senderAddress>
+	<recipientAddress>Recipient E-mail Address</recipientAddress>
+	<port>Port</port>
+	<test>Test</test>
+	<test2>Test</test2>
+	<hostName>Host Name</hostName>
+	<path>Path</path>
+	<prefixFileName>Filename Prefix</prefixFileName>
+	<passiveMode>Passive Mode</passiveMode>
+	<portRange> (Range : 1 to 65535)</portRange>
+	<mailNameError>Mail User Name and password can't accept Non-ASCII and space characters</mailNameError>
+	<ftpNameError>FTP User Name and password can't accept Non-ASCII and space characters</ftpNameError>
+	<firSmtpError>SMTP Mail Server can't be empty, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</firSmtpError>
+	<firSmtpName>E-mail SMTP</firSmtpName>
+	<firAccountError>SMTP Mail Server User Name can't be empty</firAccountError>
+	<firRecipientMailError>Please verify the Recipient E-mail Address format.</firRecipientMailError>
+	<firRecipientError>Recipient E-mail Address can't be empty</firRecipientError>
+	<firSenderMailError>Please verify the Sender E-mail Address format.</firSenderMailError>
+	<firSenderError>Sender E-mail Address can't be empty</firSenderError>
+	<PortError1> Port can't be empty</PortError1>
+	<PortError2> Port must be an integer</PortError2>
+	<PortError3> Port must be between 1 and 65535</PortError3>
+	<firFtpServerError>FTP Server can't be empty, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</firFtpServerError>
+	<firFtpError>FTP</firFtpError>
+	<firFolderError>FTP Path can only accept number, alphabet , and characters: </firFolderError>
+	<firFolderError2>FTP Path can not accept \".\" and \"/\" continuously</firFolderError2>
+	<firFixFilenameError>Filename Prefix can only accept number, alphabet , and characters: </firFixFilenameError>
+	<continousRecording>Continuous (FTP only)</continousRecording>
+	<scheduledRecording>Scheduled (FTP only)</scheduledRecording>
+	<hour>Hours</hour>
+	<min>Minutes</min>
+	<sun>Sun </sun>
+	<mon>Mon </mon>
+	<tue>Tue </tue>
+	<wed>Wed </wed>
+	<thu>Thu </thu>
+	<fri>Fri </fri>
+	<sat>Sat </sat>
+	<from>Start </from>
+	<to>End </to>
+	<scheduling>Schedule</scheduling>
+	<motionBased>Motion</motionBased>
+	<alwaysBased>Always</alwaysBased>
+	<audioBased>Sound</audioBased>
+	<interval>Interval</interval>
+	<second>Seconds</second>
+	<range> (Range : 10 to 86400 seconds)</range>
+	<range1> (Range : 10 to 86400 seconds)</range1>
+	<range2> (Range : 30 to 86400 seconds)</range2>
+	<range3> (Range : 60 to 86400 seconds)</range3>
+	<range4> (Range : 10 to 86400 seconds)</range4>
+	<methodError>Please select a Scheduling setting</methodError>
+	<scheduleError>Please fill in scheduled time</scheduleError>
+	<triggerError>Please select a target</triggerError>
+	<fullHourError>If end hours is 24, end minutes only can set 0</fullHourError>
+	<legalTimeError>Start time have to be smaller than then end time</legalTimeError>
+	<ftpignoreMotionTimeError>Send next FTP after second must be an integer</ftpignoreMotionTimeError>
+	<ftpignoreMotionTimeError1>Send next FTP after second must be 10~86400 seconds</ftpignoreMotionTimeError1>
+	<ftpignoreMotionTimeError2>Send next FTP after second must be 30~86400 seconds</ftpignoreMotionTimeError2>
+	<ftpignoreMotionTimeError3>Send next FTP after second must be 60~86400 seconds</ftpignoreMotionTimeError3>
+	<smtpignoreMotionTimeError>Send next E-mail after second must be an integer</smtpignoreMotionTimeError>
+	<smtpignoreMotionTimeError1>Send next E-mail after second must be 10~86400 seconds</smtpignoreMotionTimeError1>
+	<smtpignoreMotionTimeError2>Send next E-mail after second must be 30~86400 seconds</smtpignoreMotionTimeError2>
+	<smtpignoreMotionTimeError3>Send next E-mail after second must be 60~86400 seconds</smtpignoreMotionTimeError3>
+	<ftpintervalError>FTP </ftpintervalError>
+	<smtpintervalError>E-mail </smtpintervalError>
+	<sdintervalError>SD Card </sdintervalError>
+	<intervalError>Interval must be an integer</intervalError>
+	<intervalError1>Interval must be 10~86400 seconds</intervalError1>
+	<intervalError2>Interval must be 30~86400 seconds</intervalError2>
+	<intervalError3>Interval must be 60~86400 seconds</intervalError3>
+	<ftpMailError>Please fill in E-mail Address or FTP Server setting</ftpMailError>
+	<ftpScheduleError>Please fill in FTP Server setting</ftpScheduleError>
+	<trigger>Trigger by</trigger>
+	<ignoreMotFTP>Send next FTP after</ignoreMotFTP>
+	<ignoreMotSMTP>Send next E-mail after</ignoreMotSMTP>
+	<onlyDuring>Only during</onlyDuring>
+	<day>Day</day>
+	<time>Time</time>
+	<period>Periodically in interval</period>
+	<type>Snapshot Type</type>
+	<motSingle>Single snapshot</motSingle>
+	<motmulti1>6 snapshots with</motmulti1>
+	<motmulti2>second interval (3 frames before and 3 frames after motion frame)</motmulti2>
+	<target>Target</target>
+	<quota>Keep Free Space</quota>
+	<sdcycle>Cyclic</sdcycle>
+	<Email>Email to </Email>
+	<sd>SD Card</sd>
+	<ftp>FTP</ftp>
+	<encrypt1>Use SSL-TLS/STARTTLS</encrypt1>
+	<encrypt2>Use SSL-TLS</encrypt2>
+	<smtp>E-mail</smtp>
+	<encript1>None</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<sdQuotaError>SD Card free space must be an integer and minimum is 30</sdQuotaError>
+	<mfhourError>Start hour is not valid</mfhourError>
+	<mthourError>End hour is not valid</mthourError>
+	<mfminuteError>Start minute is not valid</mfminuteError>
+	<mtminuteError>End minute is not valid</mtminuteError>
+	<intervalSecErr>Interval seconds must be a positive number and mininum is 5</intervalSecErr>
+	<ignoreSecErr>Ignore seconds must be a positive number</ignoreSecErr>
+	<dayErr>Please choose at least one day</dayErr>
+	<mininum>(Minimum 5 seconds)</mininum>
+	<global>Global parameter</global>
+	<source>Source</source>
+	<qoutaMin>and minimum is 30 </qoutaMin>
+	<motionNote>Please note that Motion Detection is not enabled, please go to Motion Detection web page to configure.</motionNote>
+	<audioNote>Please note that Sound Detection is not enabled, please go to Sound Detection web page to configure.</audioNote>
+	<sdNote>Please note that there is no SD Card plugged in camera or the SD Card is not writable.</sdNote>
+	<sdNoteFull>Please note that SD Card capacity is full.</sdNoteFull>
+	<gpio>Digital Input</gpio>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<snapshot>Snapshot is the ability to store or send pictures to a remote E-mail or FTP server based on motion detection, external sensor input triggered.</snapshot>
+	<audioBased>Begin snapshot after sound is detected.</audioBased>
+	<motionBased>Begin snapshot after a motion is detected.</motionBased>
+	<scheduling>Snapshot in a specified time.</scheduling>
+	<alwaysBased>Continuous Snapshot.</alwaysBased>
+	<sixSnapshot>6 snapshots</sixSnapshot>
+	<sixSnapshotDes>Select to take continuous 6 pictures for each snapshot.</sixSnapshotDes>
+	<target>You can select the target as FTP or E-mail for the snapshot.</target>
+	<type>You can set JPEG settings from Video Profile 2, Single snapshot or 6 snapshots here.</type>
+	<gpio>Begin snapshot after digital input is detected.</gpio>
+	<test>Click the Test button to make sure the FTP or E-mail Target can be located and accessed.</test>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<testMailFault>Send a test mail failure</testMailFault>
+	<invalidPort>Invalid port</invalidPort>
+	<getFrameFault>get frame failure</getFrameFault>
+	<testMailOk>Send a test mail successfully</testMailOk>
+	<testFTPFault>Test FTP failure</testFTPFault>
+	<testFTPOk>Test FTP successfully</testFTPOk>
+	<updateFailed>Update Failure</updateFailed>
+</message>

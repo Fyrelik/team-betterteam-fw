@@ -1,0 +1,103 @@
+<body>
+	<administratorSettings>Administrateur</administratorSettings>
+	<description1>Cette section permet de modifier le mot de passe du compte de l'administrateur, ainsi que d'ajouter et/ou de supprimer des comptes utilisateur. Vous pouvez aussi configurer un nom unique pour la caméra et activer l'affichage sur écran ou OSD (On-Screen Display) afin d'afficher le nom de la caméra et l'heure pour la vidéo en direct et les enregistrements.</description1>
+	<devideSetting>Configuration du périphérique</devideSetting>
+	<cameraName>Nom de la caméra</cameraName>
+	<enableOSD>OSD</enableOSD>
+	<label>Libellé</label>
+	<timeStamp>Horodatage</timeStamp>
+	<ledControl>Voyant d'alimentation/connexion</ledControl>
+	<ledControl1>Voyant d'alimentation/ connexion</ledControl1>
+	<ledOn>Activé</ledOn>
+	<ledOff>Désactivé</ledOff>
+	<ledDummy>Scintillement</ledDummy>
+	<administrator>Configuration du mot de passe administrateur</administrator>
+	<newPassword>Nouveau mot de passe</newPassword>
+	<confirmPassword>Confirmer le nouveau mot de passe</confirmPassword>
+	<PasswordMsg> 30 caractères au maximum</PasswordMsg>
+	<save>Enregistrer</save>
+	<addUser>Ajouter un compte utilisateur </addUser>
+	<userAccount>Compte utilisateur</userAccount>
+	<userName>Nom d’utilisateur</userName>
+	<maxUser> 20 utilisateurs maximum</maxUser>
+	<add>Ajouter</add>
+	<managerUser>Liste des utilisateurs</managerUser>
+	<userList>-- Liste des utilisateurs --</userList>
+	<delete>Supprimer</delete>
+	<reboot1>La serveur Web de la caméra est actuellement en cours de redémarrage, veuillez patienter </reboot1>
+	<reboot2> secondes.</reboot2>
+	<asciiError>Le libellé OSD n'accepte que les caractères numériques, les lettres majuscules et \"-\"</asciiError>
+	<cameraNameError>Le nom de la caméra ne peut pas être vide</cameraNameError>
+	<cameraNameError1>Le nom de la caméra ne peut pas contenir d'espace</cameraNameError1>
+	<cameraNameError2>Les seuls caractères valables pour le nom de la caméra sont les caractères alphanumériques et \"-\".</cameraNameError2>
+	<adminPassError1>Le nouveau mot de passe et le nouveau mot de passe de confirmation sont différents</adminPassError1>
+	<adminPassError2>Le nouveau mot de passe n'accepte que les caractères ASCII et n'accepte pas les caractères blancs.</adminPassError2>
+	<maxUserError>Le nombre maximum d'utilisateurs est dépassé.</maxUserError>
+	<userNameError1>Le nom d'utilisateur ne peut pas être vide</userNameError1>
+	<userNameError2>Les seuls caractères valables pour le nom d'utilisateur sont les caractères alphanumériques et \".\", \"-\" et \"_\".</userNameError2>
+	<userNameError3>Le nom d'utilisateur existe déjà.</userNameError3>
+	<userNameError4>Le nouveau nom d'utilisateur ne peut pas être admin.</userNameError4>
+	<userPassError1>Le nouveau mot de passe et le nouveau mot de passe de confirmation sont différents</userPassError1>
+	<userPassError2>Le nouveau mot de passe n'accepte que les caractères ASCII et n'accepte pas les caractères blancs.</userPassError2>
+	<cameraMsg>36 caractères au maximum</cameraMsg>
+	<privacyText>Contrôle de la confidentialité</privacyText>
+	<calibrateText>Étalonner le périphérique</calibrateText>
+	<calibrate>Étalonner le périphérique</calibrate>
+	<privacyOn>Confidentialité activée</privacyOn>
+	<privacyOff>Confidentialité désactivée</privacyOff>
+	<scheduled>Programmé</scheduled>
+	<hour>Heures</hour>
+	<min>Minutes</min>
+	<sun>Dim </sun>
+	<mon>Lun </mon>
+	<tue>Mar </tue>
+	<wed>Mer </wed>
+	<thu>Jeu </thu>
+	<fri>Ven </fri>
+	<sat>Sam </sat>
+	<from>Début </from>
+	<to>Fin </to>
+	<liveViewAuth>Authentification de l'utilisateur</liveViewAuth>
+	<snapShotAuth>Authentification de l'utilisateur</snapShotAuth>
+	<scheduleError>Indiquez l'heure programmée</scheduleError>
+	<hourError>Les heures indiquées ne sont pas valables.</hourError>
+	<minuteError>Les minutes indiquées ne sont pas valables.</minuteError>
+	<fullHourError>Si l'heure de fin est 24, les minutes de fin doivent être égales à 0.</fullHourError>
+	<legalTimeError>L'heure de début doit être antérieure à l'heure de fin.</legalTimeError>
+	<oldPassword>Ancien mot de passe</oldPassword>
+	<auth>AUTHENTIFICATION</auth>
+	<httpauth>Authentification HTTP</httpauth>
+	<rtspauth>Authentification RTSP</rtspauth>
+	<snapauth>Authentification de l'URL de l'instantané</snapauth>
+	<OSDError>Le libellé OSD n'accepte que les caractères numériques, les lettres majuscules et \"-\"</OSDError>
+	<enablePrivacy>Contrôle de la confidentialité</enablePrivacy>
+	<privacycontrol>Contrôle de la confidentialité</privacycontrol>
+	<privacyon>Confidentialité activée</privacyon>
+	<privacyoff>Confidentialité désactivée</privacyoff>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<administratorSettings>Pour des questions de sécurité, il est recommandé de changer le mot de passe de votre compte administrateur. Veillez à écrire le nouveau mot de passe pour éviter de devoir réinitialiser la caméra en cas d'oubli.</administratorSettings>
+	<userAccount>Le compte d'utilisateur donne à un utilisateur le droit de se connecter à la page Vidéo en direct et d'utiliser les fonctions de la page.</userAccount>
+	<rtspauth>Activez la validation des utilisateurs pour la diffusion RTSP.</rtspauth>
+	<httpauth>Activez la validation des utilisateurs pour la diffusion HTTP.</httpauth>
+	<snapauth>Activez la validation des utilisateurs pour l'URL de l'instantané.</snapauth>
+	<enableOSD>En activant l'affichage sur écran, le Libellé et l'Horodatage s'affichent sur la vidéo en direct.</enableOSD>
+	<ledOn>Clignotement normal du voyant en fonction de l'état de l'alimentation, de la connexion câblée / sans fil et de la transmission des flux vidéo/audio.</ledOn>
+	<ledOff>Le voyant est toujours éteint.</ledOff>
+	<ledDummy>Le voyant de connexion scintille toujours quand la vidéo est en cours de surveillance.</ledDummy>
+	<privacycontrol>Vous permet de configurer si la caméra passe en Mode de confidentialité ou pas.</privacycontrol>
+	<privacyon>La caméra est en Mode de confidentialité. Les fonctions Vidéo en direct, Clip vidéo, Instantané et Enregistrement sur carte SD seront désactivées.</privacyon>
+	<privacyoff>La caméra est en mode de fonctionnement normal.</privacyoff>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<invalidParameters>Certains des paramètres sont incorrects.</invalidParameters>
+	<notCorrectOldPassword>L'ancien mot de passe est incorrect</notCorrectOldPassword>
+	<exceedMaxUsers>Le nombre maximum d'utilisateurs est dépassé.</exceedMaxUsers>
+	<userNotExist>L'utilisateur supprimé n'existe pas.</userNotExist>
+	<tinydbError>Échec de configuration</tinydbError>
+	<calibrationOK>L'étalonnage a réussi</calibrationOK>
+	<saveOK>Le serveur Web redémarre. Veuillez patientez 40 secondes, puis reconnectez la caméra avec la nouvelle adresse IP.</saveOK>
+</message>
+

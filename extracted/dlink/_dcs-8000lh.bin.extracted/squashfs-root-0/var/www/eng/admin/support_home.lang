@@ -1,0 +1,48 @@
+<body>
+	<liveVideo>LIVE VIDEO</liveVideo>
+	<camera>Camera</camera>
+	<videoProfile>Video Profile</videoProfile>
+	<videoProfile1> - These icons show the current settings for the video profile. If using a non-IE browser, select available icons.</videoProfile1>
+	<fullScreen>Full Screen</fullScreen>
+	<fullScreen1> - Press the icon to enlarge live video to full screen.</fullScreen1>
+	<snapshot>Snapshot</snapshot>
+	<snapshot1> - Clicking the icon saves a picture in JPEG format to your computer.</snapshot1>
+	<recording>Record</recording>
+	<recording1> - This will record video immediately into the pre-determined file path.</recording1>
+	<setPath>Set Storage Folder</setPath>
+	<setPath1> - Click the icon to configure the default location that data is stored when using the Snapshot or Record button.</setPath1>
+	<listen>Listen</listen>
+	<listen1> - Click the button to toggle the audio off and on. Audio will still be recorded.</listen1> 
+	<talk>Talk</talk>
+	<led>IR LED</led>
+	<led1> - Click the button to turn on/off IR LED on camera to enable night vision. This button is only available when Day/Night Mode is in Manual IR.</led1>
+	<zoomInOut>Zoom in/out:</zoomInOut>
+	<zoomInOut1> - Click buttons to digitally zoom in or out (magnifying 1 time, 2 times, 4 times or 8 times) live video.</zoomInOut1>
+	<talk1> - Click the button to switch the sound off and on from the PC to the camera.</talk1>
+	<digitalOut>Digital Output</digitalOut>
+	<digitalOut1> - Click the button to output the alarm signals to the D/O connector.</digitalOut1>
+	<digitalInputTrigger>Digital Input Indicator</digitalInputTrigger>
+	<digitalInputTrigger1> - This indicator will blink when Digital Input is detected.</digitalInputTrigger1>
+	<motionTrigger>Motion/Sound Trigger Indicator</motionTrigger>
+	<motionTrigger1> - This indicator will blink when motion/sound detection is triggered.</motionTrigger1>
+	<recordingTrigger>Recording Indicator</recordingTrigger>
+	<recordingTrigger1> - This indicator will blink when recording is active.</recordingTrigger1>
+	<recordingError>Recording Error</recordingError>
+	<recordingError1> - This indicator will blink when recording is error.</recordingError1>
+	<pantiltcontrol>Pan Tilt Control</pantiltcontrol>
+	<pantiltcontrol1> - You can control the camera lens position by clicking the Up/Down/Left/Right/Left-up/Left-down/Right-up/Right-down arrow buttons. Clicking the Home button will move the lens to the original home position.</pantiltcontrol1>
+	<pan>Pan</pan>
+	<pan1> - This button commands the camera to pan from the left-most to the right-most position. After panning, the camera returns to the original position.</pan1>
+	<patrol>Patrol</patrol>
+	<patrol1> - Click button to move camera to view preset positions configured in the Preset Position menu. The orders in which these positions are viewed and the amount of time the camera remains in the position are also configured in the Preset Position menu. </patrol1>
+	<stop>Stop</stop>
+	<stop1> - Click to stop camera in the current position (used for Pan and Patrol modes). </stop1>
+	<goto>Go to</goto>
+	<gotol> - Allow you to move the lens to a pre-programmed preset position.</gotol>
+	<panspeed>Pan Step</panspeed>
+	<panspeed1> - This is used to control the step at which the camera is moved using the Pan feature.</panspeed1>
+	<tiltspeed>Tilt Step</tiltspeed>
+	<tiltspeed1> - This is used to control the step at which the camera is moved using the Tilt feature.</tiltspeed1>
+	<language>Language Selection</language>
+	<language1> - Select the preferred language of web-site in the drop-down list.</language1>
+</body>

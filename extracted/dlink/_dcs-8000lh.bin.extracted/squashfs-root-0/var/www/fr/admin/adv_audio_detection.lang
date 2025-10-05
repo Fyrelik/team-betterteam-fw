@@ -1,0 +1,19 @@
+<body>
+	<audioDetection>DÉTECTION DU SON</audioDetection>
+	<description1>Pour activer la détection sonore de votre caméra, vous devez sélectionner la case à cocher « Détection sonore » et configurer le réglage de votre caméra en fonction de votre environnement de détection.</description1>
+	<subtitle>DÉTECTION DU SON</subtitle>
+	<audioLevel>Niveau de détection</audioLevel>
+	<enableaudiodetection>Détection du son</enableaudiodetection>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<audiodetection>La détection du son détecte les événements sonores en utilisant le microphone sur la caméra.</audiodetection>
+	<audiodetectionType>Niveau de détection</audiodetectionType>
+	<audiodetectionTypeText>Reglez la Niveau de detection de l'algorithme de detection de sons pour declencher des evenements sonores. Une bas Niveau de detection facilite la detection des mouvements.</audiodetectionTypeText>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<invalidParameter>Paramètre incorrect.</invalidParameter>
+	<nothingChange>Paramètres inchangés.</nothingChange>
+	<fail>Échec de l’application des modifications.</fail>
+</message>

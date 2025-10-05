@@ -1,0 +1,47 @@
+<body>
+	<rs485>RS-485</rs485>
+	<description1>此處可讓您進行攝影機 RS-485 設定。</description1>
+	<enableRs485>支援 PAN-TILT</enableRs485>
+	<rs485ID>ID</rs485ID>
+	<rs485BuadRate>鮑率</rs485BuadRate>
+	<rs485DataBits>資料位元</rs485DataBits>
+	<rs485StopBit>停止位元</rs485StopBit>
+	<rs485ParityBit>同位位元</rs485ParityBit>
+	<rs485Protocol>通訊協定</rs485Protocol>
+	<Pelco-D>Pelco-D</Pelco-D>
+	<Pelco-P>Pelco-P</Pelco-P>
+	<Dyna>Dyna</Dyna>
+	<LiLin>LiLin</LiLin>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不要儲存設定</notsavebutton>
+	<protocol>通訊協定</protocol>
+	<protocoll> - 請選擇透過序列介面: RS485 連接到 PTZ 掃描器時，所要使用的 PTZ 標準。</protocoll>
+	<id>ID</id>
+	<idl> - ID 值，用來識別 RS-485 裝置。</idl>
+	<baudRate>鮑率</baudRate>
+	<baudRatel> - 選擇您連接的裝置所要採用的鮑率。</baudRatel>
+	<dataBits>資料位元</dataBits>
+	<dataBitsl> - 選擇您連接的裝置所要採用的資料位元。</dataBitsl>
+	<stopBit>停止位元</stopBit>
+	<stopBitl> - 選擇您連接的裝置所要採用的停止位元。</stopBitl>
+	<parityBit>同位位元</parityBit>
+	<parityBitl> - 選擇您連接的裝置所要採用的同位類型。</parityBitl>
+	<idRangeError>ID 值超出範圍</idRangeError>
+	<idrangemessage0>(範圍為 1 到 255)</idrangemessage0>
+	<idrangemessage1>(範圍為 1 到 32)</idrangemessage1>
+	<idrangemessage2>(範圍為 1 到 223)</idrangemessage2>
+	<idrangemessage3>(範圍為 1 到 64)</idrangemessage3>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<description2>停止位元可設為 1 位元或 2 位元。</description2>
+	<description3>啟用「支援 PAN-TILT」時，即時影像頁面會出現一個控制面板，讓您透過RS-485 操控室外攝影機。</description3>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<fail>變更失敗。</fail>
+	<failure>設定失敗</failure>
+	<full>預先設定已滿</full>
+	<invalidParameters>預先設定名稱無效</invalidParameters>
+	<oob>設定值超出範圍</oob>
+</message>

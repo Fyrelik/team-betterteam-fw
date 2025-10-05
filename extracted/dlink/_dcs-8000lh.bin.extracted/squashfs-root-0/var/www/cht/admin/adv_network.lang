@@ -1,0 +1,147 @@
+<body>
+	<networkSettings>網路</networkSettings>
+	<description1>您可在此設定 LAN 與網際網路。</description1>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不要儲存設定</notsavebutton>
+	<general>Lan 設定</general>
+	<lan>LAN 設定</lan>
+	<dhcp>自動 IP 位址</dhcp>
+	<static>固定 IP 位址</static>
+	<ip>IPv4 位址</ip>
+	<subnetMask>子網路遮罩</subnetMask>
+	<defaultRouter>預設閘道器 (路由器)</defaultRouter>
+	<primaryDns>主要DNS(可選)</primaryDns>
+	<secondaryDns>次要DNS(可選)</secondaryDns>
+	<enableUpnp>UPnP</enableUpnp>
+	<upnpPort>UPnP 通訊埠轉送</upnpPort>
+	<upnpHttp>外部 HTTP 通訊埠</upnpHttp>
+	<upnpHttps>外部 HTTPS 通訊埠</upnpHttps>
+	<upnpRTSP>外部 RTSP 通訊埠</upnpRTSP>
+	<upnp>UPnP 設定</upnp>
+	<basicser>基本服務</basicser>
+	<av>AV</av>	
+	<authrtsp>RTSP 使用者驗證</authrtsp>
+	<networkipseterror>輸入的 IP 位址無效。</networkipseterror>
+	<authrtsp1> - 啟用 RTSP 使用者驗證可讓您強迫使用者輸入使用者名稱與密碼。</authrtsp1>
+	<pppoe>PPPoE</pppoe>
+	<userName>使用者名稱</userName>
+	<password>密碼</password>
+	<confirmPassword>確認密碼</confirmPassword>
+	<verify>驗證</verify>
+	<status>狀態</status>
+	<portsetting>通訊埠設定</portsetting>
+	<httpPort>HTTP 通訊埠</httpPort>
+	<httpsPort>HTTPS 通訊埠</httpsPort>
+	<rtspPort>RTSP 通訊埠</rtspPort>
+	<rtspAuth>使用者驗證</rtspAuth>
+	<httpExtPort>外部 HTTP 通訊埠</httpExtPort>
+	<rtspExtPort>外部 RTSP 通訊埠</rtspExtPort>
+	<reboot1>IP 攝影機重新啟動中，請稍待 </reboot1>
+	<reboot2> 秒 ...</reboot2>
+	<searchdomain>搜索域(可選)</searchdomain>
+	<ipError1>IP 位址不可為空白</ipError1>
+	<subnetMaskError1>子網路遮罩不可為空白</subnetMaskError1>
+	<routerError1>預設閘道器 (路由器) 不可為空白</routerError1>
+	<pppoeError1>PPPoE 使用者名稱不可為空白</pppoeError1>
+	<pppoeError2>PPPoE 密碼不可為空白</pppoeError2>
+	<pppoeError3>PPPoE 確認密碼不可為空白</pppoeError3>
+	<pppoeError4>PPPoE 密碼與確認密碼不同</pppoeError4>
+	<pppoeError5>PPPoE 使用者名稱與密碼不接受非 ASCII 與空白字元</pppoeError5>
+	<httpPortError1>HTTP 通訊埠不可為空白</httpPortError1>
+	<httpPortError2>HTTP 通訊埠必須是數字</httpPortError2>
+	<httpPortError3>HTTP 通訊埠必需为 80 或者介於 1025 到 65535 之間</httpPortError3>
+	<httpPortError4>HTTP 通訊埠不能跟 HTTPS 通訊埠相同</httpPortError4>
+	<httpPortError5>HTTP 通訊埠必需介於 1 到 65535 之間</httpPortError5>
+	<rtstPortError1>RTSP 通訊埠不可為空白</rtstPortError1>
+	<rtstPortError2>RTSP 通訊埠必須是數字</rtstPortError2>
+	<rtstPortError3>RTSP 通訊埠必需为 554 或者介於 1025 到 65535 之間</rtstPortError3>
+	<rtstPortError4>HTTP 通訊埠不能跟 RTSP 通訊埠相同</rtstPortError4>
+	<rtstPortError5>RTSP 通訊埠必需介於 1 到 65535 之间</rtstPortError5>
+	<httpExtPortError1>外部 HTTP 通訊埠不可為空白</httpExtPortError1>
+	<httpExtPortError2>外部 HTTP 通訊埠必須是數字</httpExtPortError2>
+	<httpExtPortError3>外部 HTTP 通訊埠必需为 80 或者介於 1025 到 65535 之間</httpExtPortError3>
+	<httpExtPortError4>外部 HTTP 通訊埠不能跟外部 HTTPS 通訊埠相同</httpExtPortError4>
+	<httpExtPortError5>外部 HTTP 通訊埠必需介於 1 到 65535 之間</httpExtPortError5>
+	<rtspExtPortError1>外部 RTSP 通訊埠不可為空白</rtspExtPortError1>
+	<rtspExtPortError2>外部 RTSP 通訊埠必須是數字</rtspExtPortError2>
+	<rtspExtPortError3>外部 RTSP 通訊埠必需为 554 或者介於 1025 到 65535 之間</rtspExtPortError3>
+	<rtspExtPortError5>外部 RTSP 通訊埠必需介於 1 到 65535 之間</rtspExtPortError5>
+	<rtspExtPortError4>外部 HTTP 通訊埠不能跟外部 RTSP 通訊埠相同</rtspExtPortError4>
+	
+	<httpsPortError1>HTTPS 通訊埠不可為空白</httpsPortError1>
+	<httpsPortError2>HTTPS 通訊埠必須是數字</httpsPortError2>
+	<httpsPortError3>HTTPS 通訊埠必需为 443 或者介於 1025 到 65535 之間</httpsPortError3>
+	<httpsPortError4>HTTPS 通訊埠不能跟 RTSP 通訊埠相同</httpsPortError4>
+	<httpsPortError5>HTTPS 通訊埠必需介於 1 到 65535 之間</httpsPortError5>
+	<httpsExtPortError1>外部 HTTPS 通訊埠不可為空白</httpsExtPortError1>
+	<httpsExtPortError2>外部 HTTPS 通訊埠必須是數字</httpsExtPortError2>
+	<httpsExtPortError3>外部 HTTPS 通訊埠必需为 443 或者介於 1025 到 65535 之間</httpsExtPortError3>
+	<httpsExtPortError4>外部 HTTPS 通訊埠不能跟外部 RTSP 通訊埠相同</httpsExtPortError4>
+	<httpsExtPortError5>外部 HTTPS 通訊埠必需介於 1 到 65535 之間</httpsExtPortError5>
+	<netErrorMessage1> </netErrorMessage1>
+	<netErrorMessage2> 字節 </netErrorMessage2>
+	<netErrorMessage3> 必須是數字</netErrorMessage3>
+	<netErrorMessage4> 必須介於 </netErrorMessage4>
+	<netErrorMessage5> 和 </netErrorMessage5>
+	<netErrorMessage6> 必須是 </netErrorMessage6>
+	<netError>網路設定無效</netError>
+	<ipMessage1>IP 位址</ipMessage1>
+	<ipMessage2>輸入的 IPv6 IP 位址無效。</ipMessage2>
+	<ipMessage3>IP 位址不得為 0。</ipMessage3>
+	<maskMessage1>子網路遮罩</maskMessage1>
+	<maskMessage2>您輸入的子網路遮罩無效。子網路遮罩必須連續。請輸入有效的遮罩。</maskMessage2>
+	<maskMessage3>子網路遮罩不得為 0</maskMessage3>
+	<routerMessage1>預設閘道器 (路由器) 位址</routerMessage1>
+	<routerMessage2>輸入的預設閘道器 (路由器) 位址無效</routerMessage2>
+	<routerMessage3>預設閘道器 (路由器) 位址不得為 0</routerMessage3>
+	<priDnsMessage1>主要 DNS 位址</priDnsMessage1>
+	<priDnsMessage2>輸入的主要 DNS 位址無效</priDnsMessage2>
+	<priDnsMessage3>主要 DNS 位址不得為 0</priDnsMessage3>
+	<secDnsMessage1>次要 DNS 位址</secDnsMessage1>
+	<secDnsMessage2>輸入的次要 DNS 位址無效</secDnsMessage2>
+	<secDnsMessage3>次要 DNS 位址不得為 0</secDnsMessage3>
+	<dnsErrMessage>主要 DNS 位址與次要 DNS 位址不能相同</dnsErrMessage>
+	<domainErrMessage>搜索域只能接受數字、英文字母、\".\" 和 \"-\" 字元</domainErrMessage>
+	<apple>Apple</apple>
+	<bonjour>Bonjour</bonjour>
+	<disable>停用</disable>
+	<lan1>自動 IP 位址</lan1>
+	<Staticip>固定 IP 位址</Staticip>
+	<dhcpip>UPnP 通訊埠轉送</dhcpip>
+	<pppoeStatusFailed>連線失敗</pppoeStatusFailed>
+	<pppoeStatusConnected>已連線</pppoeStatusConnected>
+	<pppoeStatusConnecting>連線中</pppoeStatusConnecting>
+	<pppoeStatusDisabled>停用</pppoeStatusDisabled>
+	<ipv4set>IPv4 位址</ipv4set>
+	<ipv6set>IPv6 位址</ipv6set>
+	<Ipv6AddrPre>IPv6 位址/首碼長度</Ipv6AddrPre>
+	<Ipv6gateway>預設閘道器 (路由器)</Ipv6gateway>
+	<Ipv6priDns>主要DNS(可選)</Ipv6priDns>
+	<Ipv6secDns>次要DNS(可選)</Ipv6secDns>
+	<ipv6Message>輸入的 IPv6 IP 位址無效。</ipv6Message>
+	<ipv6Message2>IPv6首碼長度必須介於0-128。</ipv6Message2>
+	<ipv6Message3>輸入的 IP6 預設閘道器 (路由器) 位址無效。</ipv6Message3>
+	<ipv6Message4>輸入的主要 IPv6 DNS 位址無效。</ipv6Message4>
+	<ipv6Message5>輸入的次要 IPv6 DNS 位址無效。</ipv6Message5>
+	<ipv6Message6>主要 IPv6 DNS 位址與次要 IPv6 DNS 位址不能相同。</ipv6Message6>
+	<ipv6Message7>輸入的 IP6 預設閘道器 (路由器) 位址必須以FE80開頭。</ipv6Message7>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<Staticip1>選擇固定IP位址選項，並輸入符合您網路設定的 IP 位址。</Staticip1>
+	<dhcpip1>若您的路由器支援 UPnP，攝影機與路由器就能彼此通訊，路由器便能知道通訊埠是被那些攝影機用走了。</dhcpip1>
+	<lan>若網路上有 DHCP 伺服器，您也想讓 DHCP 自動指派 IP 位址給攝影機，請選此項。</lan>
+	<httpPort>請指派一個通訊埠給攝影機，讓您以標準網頁瀏覽器來連接攝影機。</httpPort>
+	<rtspPort>請指派一個通訊埠給攝影機，讓您以 QuickTime 或串流行動裝置來連接攝影機。</rtspPort>
+	<enableUpnp>啟用 UPnP 設定可讓您把攝影機設定成網路上的 UPnP 裝置。</enableUpnp>
+	<bonjour>啟用 Bonjour 就可讓 Apple 電腦找到這台攝影機。</bonjour>
+	<pppoe>這個選項使您的攝影機直接連到網際網路，若攝影機位於路由器或閘道器後方，就不需要做此設定。</pppoe>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<fail>變更失敗。</fail>
+	<invalidParameter>設定失敗。</invalidParameter>
+	<settingNotChange>設定未變更</settingNotChange>
+	<saveOK>網路伺服器正在重啟，請稍待一分鐘，再以新的 IP 位址來重新連接攝影機。</saveOK>
+</message>
+

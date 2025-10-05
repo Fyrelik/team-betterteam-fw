@@ -1,0 +1,60 @@
+<body>
+	<maintenance>系统</maintenance>
+	<description1>在此您可以备份、恢复和重启您的摄像机。</description1>
+	<rebootDevice>重启设备</rebootDevice>
+	<rebootText>重启设备</rebootText>
+	<factory>恢复到出厂默认</factory>
+	<factoryDefault>恢复出厂默认</factoryDefault>
+	<calibrateText>校正设备</calibrateText>
+	<calibrate>校正设备</calibrate>
+	<reboot1>摄像机正在重启，请等待</reboot1>
+	<reboot2>秒。</reboot2>
+	<system>系统</system>
+	<backupText>保存到本地硬盘</backupText>
+	<saveConfiguration>保存配置</saveConfiguration>
+	<restoreText>从本地硬盘加载</restoreText>
+	<privacyText>隐私模式</privacyText>
+	<privacy>进入隐私模式</privacy>
+	<restoreConfiguration>加载配置</restoreConfiguration>
+	<restoreConfirm>您要恢复配置数据吗？</restoreConfirm>
+	<rebootConfirm>您要重启吗？</rebootConfirm>
+	<factoryConfirm>您要恢复到出厂默认吗？</factoryConfirm>
+	<reboot>重启</reboot> 
+	<schedule>计划重启设备</schedule> 
+	<sun>星期日</sun> 
+	<mon>星期一</mon> 
+	<tue>星期二</tue> 
+	<wed>星期三</wed> 
+	<thu>星期四</thu> 
+	<fri>星期五</fri> 
+	<sat>星期六 </sat> 
+	<time>时间</time> 
+	<savebutton>保存设置</savebutton>
+	<exportHint>请输入一个密码来保存配置。并且保管好这个密码用来加载保存的配置。</exportHint>
+	<importHint>请输入密码来加载配置。</importHint>
+	<exportError>密码不能为空。</exportError>
+	<importError>加载配置必须提供一个密码。</importError>
+	<keyError>密码只接受数字，英文字母，\".\"， \"_\"， 和 \"-\"。最多允许30个字符。</keyError>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<maintenance>在恢复出厂默认值后，使用摄像机附带的安装向导软件搜索并连接到摄像机。</maintenance>
+</hint>
+<message>
+	<updateOK>更新成功</updateOK>
+	<uploadFail>上传失败</uploadFail>
+	<examFail>上传图像已损坏。</examFail>
+	<infoFail>上传图像无信息。</infoFail>
+	<invalidImage>上传图像不能用于该产品。</invalidImage>
+	<resetFail>复位失败</resetFail>
+	<resetOK>摄像机将开始恢复流程。 请等待1分钟，然后使用新IP地址连接摄像机。</resetOK>
+	<rebootFail>重启失败</rebootFail>
+	<rebootOK>重启完成</rebootOK>
+	<calibrationOK>校正成功</calibrationOK>
+	<goSleepOK>隐私模式成功。</goSleepOK>
+	<importOK>摄像机将开始加载您的配置。 请等待1分钟，然后使用新IP地址连接摄像机。</importOK>
+	<invalidDB>无有效配置文件。</invalidDB>
+	<noDB>无配置文件上传。</noDB>
+	<saveOK>服务器正在重启，请等待75秒钟，然后使用新IP地址连接摄像机。</saveOK>
+	<scheduleOK>已保存更改。</scheduleOK>
+</message>

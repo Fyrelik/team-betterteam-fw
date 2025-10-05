@@ -1,0 +1,196 @@
+<body>
+	<welcome>Willkommen beim D-LINK-Setup-Assistenten für die Bewegungserk.</welcome>
+	<description1>Dieser Assistent führt Sie Schritt für Schritt durch den Konfigurationsprozess der Bewegungserkennungsfunktionen Ihrer Kamera. Um die LAN- oder Interneteinstellungen der Kamera vorzunehmen, klicken Sie auf 'Zurück', um diesen Assistenten zu schließen, und starten Sie den Setup-Assistenten für die Internetverbindung erneut. Klicken Sie ansonsten auf 'Weiter', um beginnen.</description1>
+	<step1>Schritt 1: </step1>
+	<note1>Einstellung für den Bewegungserkennungsbereich vornehmen</note1>
+	<step2>Schritt 2: </step2>
+	<note2>Benachrichtigungen zu Momentaufnahmen</note2>
+	<step3>Schritt 3: </step3>
+	<note3>Benachrichtigungen zu Videoclips</note3>
+	<step4>Schritt 4: </step4>
+	<note4>Benachrichtigungen zu SD-Aufnahmen</note4>
+	<step5>Schritt 5: </step5>
+	<note5>Setup abgeschlossen</note5>
+	<back>Zurück</back>
+	<next>Weiter</next>
+	<cancel>Abbrechen</cancel>
+	<profile2>Profil 2</profile2>
+	<profile3>Profil 3</profile3>
+	<pirhigh>Hoch</pirhigh>
+	<pirmiddle>Mittel</pirmiddle>
+	<pirlow>Niedrig</pirlow>
+	<pirsensibility>PIR Empfindlichkeit</pirsensibility>
+	<description2>In diesem Abschnitt können Sie die Bewegungserkennungsfunktion aktivieren bzw. deaktivieren, den Bewegungsbereich angeben oder löschen sowie die Empfindlichkeit Ihrer Kamera, Bewegungen zu erkennen, einstellen. </description2>
+	<showFirefoxText>Verwenden Sie bitte den Windows Internet Explorer, um den Bewegungserkennungsbereich einzurichten.</showFirefoxText>
+	<enable>Aktivieren</enable>
+	<enableMotion>Video-Bewegungserk. aktivieren</enableMotion>
+	<enablePIR>PIR aktivieren</enablePIR>
+	<sense>Empfindlichkeit</sense>
+	<drawingMode>Bereichbestimmungsmodus</drawingMode>
+	<drawMotion>Bewegungsbereich festlegen</drawMotion>
+	<eraseMotion>Bewegungsbereich entfernen</eraseMotion>
+	<clear>Inhalt löschen</clear>
+	<description3>In diesem Schritt können Sie angeben, wie Sie über Kameraereignisse benachrichtigt werden möchten. Sie können eine Benachrichtigung per E-Mail oder per FTP aktivieren, indem Sie alle relevanten Informationen eingeben. Klicken Sie dann auf 'Weiter'.</description3>
+	<description4>In diesem Schritt können Sie angeben, wie Sie die auf Kameraereignissen basierenden Aufnahmen auf der SD-Karte ablegen möchten. Sie können die SD-Aufnahme aktivieren, indem Sie alle relevanten Informationen eingeben.</description4>
+	<notNotify>Mich nicht benachrichtigen</notNotify>
+	<emailNotification>E-Mail-Benachrichtigung</emailNotification>
+	<mailEnable>E-Mail-Benachrichtigung aktivieren</mailEnable>
+	<userName>Benutzername</userName>
+	<password>Kennwort</password>
+	<mailServer>SMTP-Mail-Server</mailServer>
+	<senderAddress>E-Mail-Adresse des Absenders</senderAddress>
+	<recipientAddress>E-Mail-Adresse des Empfängers</recipientAddress>
+	<port>Port</port>
+	<ftpNotification>FTP-Benachrichtigung</ftpNotification>
+	<doubleNotification>E-Mail- und FTP-Benachrichtigung</doubleNotification>
+	<ftpEnable>FTP-Hochladefunktion aktivieren</ftpEnable>
+	<hostName>Hostname</hostName>
+	<path>Pfad</path>
+	<prefixFileName>Dateiname-Präfix</prefixFileName>
+	<passiveMode>Passiv-Modus</passiveMode>
+	<description5>Sie haben den Einrichtungsvorgang Ihrer Kamera abgeschlossen. Klicken Sie auf 'Zurück', wenn Sie Ihre Einstellungen prüfen oder ändern möchten, oder klicken Sie auf 'Übernehmen', um sie zu speichern und zu übernehmen. </description5>
+	<motionDetection>Bewegungserk.:</motionDetection>
+	<disable>Deaktivieren</disable>
+	<alertsAndNotification>Warnhinweise und Benachrichtigungen:</alertsAndNotification>
+	<apply>Übernehmen</apply>
+	<numberError>Empfindlichkeitsangabe muss eine Ganzzahl sein</numberError>
+	<rangeError>Empfindlichkeitsangabe muss eine Ganzzahl und zwischen 0 bis 100 sein</rangeError>
+	<range1> (Bereich: 10 bis 86400 Sekunden)</range1>
+	<range2> (Bereich: 30 bis 86400 Sekunden)</range2>
+	<range3> (Bereich: 60 bis 86400 Sekunden)</range3>
+	<areaError>Legen Sie einen Bewegungsbereich fest</areaError>
+	<mailNameError>Nicht-ASCII-Zeichen und Leerzeichen sind in einem E-Mail-Benutzernamen und -Kennwort nicht gültig.</mailNameError>
+	<ftpNameError>Nicht-ASCII-Zeichen und Leerzeichen sind in einem FTP-Benutzernamen und -Kennwort nicht gültig.</ftpNameError>
+	<firSmtpError>Der SMTP Mail Server muss angegeben werden. Es sind nur Zahlen, Buchstaben, \".\" , \"-\", und \"_\" Zeichen gültig.</firSmtpError>
+	<firSmtpName>SMTP</firSmtpName>
+	<firAccountError>Der SMTP-Benutzername darf nicht leer sein</firAccountError>
+	<firRecipientMailError>Bestätigen Sie das Format der Empfänger-E-Mail-Adresse.</firRecipientMailError>
+	<firRecipientError>Die E-Mail-Adresse des Empfängers muss angegeben werden</firRecipientError>
+	<firSenderMailError>Bestätigen Sie das Format der Absender-E-Mail-Adresse.</firSenderMailError>
+	<firSenderError>Die E-Mail-Adresse des Absenders muss angegeben werden</firSenderError>
+	<PortError1> Port darf nicht leer sein</PortError1>
+	<PortError2> Portwert muss eine Ganzzahl sein</PortError2>
+	<PortError3> Port muss zwischen 1 und 65535 sein.</PortError3>
+	<firFtpServerError>Der FTP-Server muss angegeben werden. Es sind nur Zahlen, Buchstaben, \".\" , \"-\", und \"_\" Zeichen gültig.</firFtpServerError>
+	<firFtpError>FTP</firFtpError>
+	<firFolderError>Der FTP-Pfad kann nur Zahlen, Buchstaben und folgende Zeichen akzeptieren: </firFolderError>
+	<firFolderError2>Im FTP-Pfad sind \".\" und \"/\" fortlaufend nicht akzeptabel</firFolderError2>
+	<firFixFilenameError>Der Dateinamen-Präfix kann nur Zahlen, Buchstaben und folgende Zeichen akzeptieren: </firFixFilenameError>
+	<interval>Intervall</interval>
+	<second>Sekunden</second>
+	<range> (Bereich: 1 bis 86400 Sekunden)</range>
+	<intervalError>Intervall muss zwischen 1 ~ 86400 Sekunden sein</intervalError>
+	<portRange> (Bereich: 1 bis 65535)</portRange>
+	<reloadBG>Bild aktualisieren</reloadBG>
+	<enalbeMdWarning>Achtung: Markieren Sie [Video-Bewegungserk. aktivieren], wenn Sie die Bewegungserkennungsfunktion aktivieren möchten. Um die Bewegungserkennungsfunktion jedoch zu deaktivieren, löschen Sie bitte den Bewegungsbereich.</enalbeMdWarning>
+	<enalbeWarning>Achtung: Stellen Sie im Setup-Assistenten unbedingt sicher, dass mindestens eine der Funktionen [Video-Bewegungserk. aktivieren] oder [PIR aktivieren] ausgewählt ist.</enalbeWarning>
+	<target>Ziel</target>
+	<quota>Freien Speicherplatz behalten</quota>
+	<sdcycle>Zyklisch</sdcycle>
+	<Email>E-Mail an </Email>
+	<sd>SD-Karte</sd>
+	<ftp>FTP</ftp>
+	<ignoreMotFTP>Nächste FTP senden nach</ignoreMotFTP>
+	<ignoreMotSMTP>Nächste E-Mail senden nach</ignoreMotSMTP>
+	<onlyDuring>Nur im Verlaufe von</onlyDuring>
+	<day>Tag</day>
+	<time>Zeit</time>
+	<hour>Stunden</hour>
+	<min>Minuten</min>
+	<sun>So </sun>
+	<mon>Mo </mon>
+	<tue>Di </tue>
+	<wed>Mi </wed>
+	<thu>Do </thu>
+	<fri>Fr </fri>
+	<sat>Sa </sat>
+	<from>Start </from>
+	<to>Ende </to>
+	<encrypt1>SSL-TLS/STARTTLS verwenden</encrypt1>
+	<encrypt2>SSL-TLS verwenden</encrypt2>
+	<smtp>E-Mail</smtp>
+	<type>Momentaufnahmentyp</type>
+	<type1>Videoclip-Typ</type1>
+	<type2>SD-Aufnahmetyp</type2>
+	<source>Quelle</source>
+	<description6>Konfigurierbar in </description6>
+	<description7> Audio und Video.</description7>
+	<motSingle>Einzelne Momentaufnahme</motSingle>
+	<motmulti1>6 Momentaufnahmen mit</motmulti1>
+	<motmulti2>Intervall (Sekunden) (3 Frames vor und 3 nach dem Bewegungseinzelbild)</motmulti2>
+	<encript1>Keine</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<snapshot>Momentaufnahme</snapshot>
+	<video>Video</video>
+	<videoclip>Videoclip</videoclip>
+	<mfhourError>Startstunde ist nicht gültig</mfhourError>
+	<mthourError>Endstunde ist nicht gültig</mthourError>
+	<mfminuteError>Startminute ist nicht gültig</mfminuteError>
+	<mtminuteError>Endminute ist nicht gültig</mtminuteError>
+	<triggerError>Wählen Sie ein Ziel aus</triggerError>
+	<ignoreQuotaError>Die Zeitangabe für ‚Ignorieren‘ muss eine Zahl sein</ignoreQuotaError>
+	<sdQuotaError>Freie Speicherplatzangabe auf der SD-Karte muss eine Ganzzahl und zwischen 200 und 32768 sein</sdQuotaError>
+	<intervalError>Intervall muss zwischen 60 ~ 86400 Sekunden sein</intervalError>
+	<intervalError1>Intervall muss zwischen 10 ~ 86400 Sekunden sein</intervalError1>
+	<intervalError2>Intervall muss zwischen 30 ~ 86400 Sekunden sein</intervalError2>
+	<intervalError3>Intervall muss zwischen 60 ~ 86400 Sekunden sein</intervalError3>
+	<dayErr>Wählen Sie mindestens einen Tag</dayErr>
+	<global>Globaler Parameter</global>
+	<qoutaMin>und Minimum ist 30 </qoutaMin>
+	<targetOnly>Für das Ziel kann nicht sowohl FTP als auch E-Mail für den Videoclip gewählt werden.</targetOnly>
+	<sdNote>Beachten Sie, dass keine SD-Karte in die Kamera eingesetzt oder diese nicht beschreibbar ist.</sdNote>
+	<sdManagement1>Um die SD-Karte in der Kamera zu formatieren, deaktivieren Sie bitte zuerst die SD-Aufzeichnung und gehen Sie dann zu </sdManagement1>
+	<sdManagement2>SD-Management</sdManagement2>
+	<sdManagement3> Seite.</sdManagement3>
+	<preRec>Aufnahme vor dem Ereignis:</preRec>
+	<maxRec>Maximale Dauer:</maxRec>
+	<recpostRec>Aufnahme nach dem Ereignis:</recpostRec>
+	<preErr>Aufnahmezeit vor dem Ereignis muss eine Ganzzahl und zwischen 0 und 5 sein</preErr>
+	<maxErr>Max. Dauer (in Sekunden) muss eine Ganzzahl und zwischen 5 bis 10 sein</maxErr>
+	<preRecNotify>(Zwischen 0 bis 5 Sekunden)</preRecNotify>
+	<recpostRecNotify>(Zwischen 0 bis 60 Sekunden)</recpostRecNotify>
+	<maxRecNotify>(Zwischen 5 bis 10 Sekunden)</maxRecNotify>
+	<ignoreMotionTimeErrorsmtp>Nächste E-Mail senden nach ‚Sekunde‘ muss eine Ganzzahl sein</ignoreMotionTimeErrorsmtp>
+	<ignoreMotionTimeErrorftp>Nächste FTP senden nach ‚Sekunde‘ muss eine Ganzzahl sein</ignoreMotionTimeErrorftp>
+	<ignoreMotionTimeErrorSnapshot>Folgende Bewegungen ignorieren in ‚Sekunde‘ muss zwischen 30~86400 Sekunden sein</ignoreMotionTimeErrorSnapshot>
+	<ignoreMotionTimeErrorSnapshot1>Nächste FTP senden nach ‚Sekunde‘ muss 10~86400 Sekunden sein</ignoreMotionTimeErrorSnapshot1>
+	<ignoreMotionTimeErrorSnapshot2>Nächste E-Mail senden nach ‚Sekunde‘ muss 30~86400 Sekunden sein</ignoreMotionTimeErrorSnapshot2>
+	<ignoreMotionTimeErrorSnapshot3>Folgende Bewegungen ignorieren in ‚Sekunde‘ muss zwischen 60~86400 Sekunden sein</ignoreMotionTimeErrorSnapshot3>
+	<ignoreMotionTimeErrorVideoclip>Folgende Bewegungen ignorieren in ‚Sekunde‘ muss zwischen 60~86400 Sekunden sein</ignoreMotionTimeErrorVideoclip>
+	<ignoreMotionTimeErrorVideoclip1>Nächste FTP senden nach ‚Sekunde‘ muss 10~86400 Sekunden sein</ignoreMotionTimeErrorVideoclip1>
+	<ignoreMotionTimeErrorVideoclip2>Nächste E-Mail senden nach ‚Sekunde‘ muss 30~86400 Sekunden sein</ignoreMotionTimeErrorVideoclip2>
+	<ignoreMotionTimeErrorVideoclip3>Folgende Bewegungen ignorieren in ‚Sekunde‘ muss zwischen 60~86400 Sekunden sein</ignoreMotionTimeErrorVideoclip3>
+	<rangeSnapshot> (Bereich: 30 bis 86400 Sekunden)</rangeSnapshot>
+	<rangeVideoclip> (Bereich: 60 bis 86400 Sekunden)</rangeVideoclip>
+	<message1>Bitte warten Sie </message1>
+	<message2> einige Sekunden zur Fertigstellung der Konfiguration.</message2>
+	<ftpServer>FTP Server/Port</ftpServer>
+	<minimum>Minimum ist 200</minimum>
+	<postErr>Aufnahmezeit nach dem Ereignis muss eine Ganzzahl und zwischen 0 und 60 sein</postErr>
+	<profiletype1>Profil 1</profiletype1>
+	<profiletype2>Profil 2</profiletype2>
+	<profiletype3>Profil 4</profiletype3>
+	<FileLenMinUntil>Aufnahmelänge: </FileLenMinUntil>
+	<FileLenMin>Minuten pro Datei</FileLenMin>
+	<JavaSupport>Dieser Browser unterstützt Java JRE nicht oder deaktiviert es nicht.</JavaSupport>
+	<getJava>Besorgen Sie sich den neuesten Java JRE hier</getJava>
+	<enableJava> oder aktivieren Sie Java JRE.</enableJava>
+	<test>Test</test>
+	<vediofileformat>Dateiformat:</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+	<javajreinfo88>Der Browser, den Sie verwenden, hat möglicherweise Schwierigkeiten beim Empfangen von Bildern und Videos. Wenn Sie Probleme bei der Darstellung dieser Seite haben, empfehlen wir Ihnen, Internet Explorer, Mozilla Firefox oder Apple Safari zu verwenden.</javajreinfo88>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<testMailFault>Das Senden einer Test-Nachricht per E-Mail ist fehlgeschlagen</testMailFault>
+	<testMailOk>Eine Test-Nachricht wurde erfolgreich per E-Mail gesendet</testMailOk>
+	<fail>Durchführung der Änderungen fehlgeschlagen.</fail>
+	<testFtpOk>FTP-Test war erfolgreich</testFtpOk>
+	<testFtpFault>FTP-Test-Fehler</testFtpFault>
+</message>
+

@@ -1,0 +1,97 @@
+<body>
+	<httpstitle>CONFIGURAZIONE HTTPS</httpstitle>
+	<description1>In questa pagina è possibile impostare le impostazioni HTTPS.</description1>
+	<subtitle>CONFIGURAZIONE HTTPS</subtitle>
+	<enableHttps>Connessione protetta HTTPS</enableHttps>
+	<connecttype>Tipo di connessione</connecttype>
+	<bothhttps>Sia HTTP che HTTPS</bothhttps>
+	<onlyhttps>Solo HTTPS</onlyhttps>
+	<creatmethod>Metodo di creazione e installazione di un certificato</creatmethod>
+	<autocreat>Crea automaticamente certificato autofirmato</autocreat>
+	<automanual>Crea manualmente certificato autofirmato</automanual>
+	<creatandinstall>Crea richiesta di certificato e installa</creatandinstall>
+	<country>Paese:</country>
+	<area>Stato o provincia:</area>
+	<locality>Località:</locality>
+	<organization>Organizzazione:</organization>
+	<organizationUnit>Unità organizzativa:</organizationUnit>
+	<commonName>Nome comune:</commonName>
+	<validity>Validità:</validity>
+	<creatButton>Crea</creatButton>
+	<uploadText>Seleziona file di certificato:</uploadText>
+	<upload>Carica</upload>
+	<cerInfoTitel>Informazioni sul certificato</cerInfoTitel>
+	<cerStatus>Stato:</cerStatus>
+	<proerty>Proprietà</proerty>
+	<remove>Rimuovi</remove>
+	<notinstall>Non installato</notinstall>
+	<active>Attivo</active>
+	<waitCertificate>Attendi certificato</waitCertificate>
+	<connectTypeError>Selezionare un tipo di connessione.</connectTypeError>
+	<noCerSaveError>Creare un certificato valido.</noCerSaveError>
+	<countryError>Il campo relativo al paese non può essere vuoto.</countryError>
+	<countryError2>Immettere il codice paese corretto.</countryError2>
+	<stateError1>Il campo relativo a stato o provincia non può essere vuoto.</stateError1>
+	<stateError2>Nel campo relativo a stato o provincia non sono ammessi i seguenti caratteri: </stateError2>
+	<localError1>Il campo relativo alla località non può essere vuoto.</localError1>
+	<localError2>Nel campo relativo alla località non sono ammessi i seguenti caratteri: </localError2>
+	<orgError1>Il campo relativo all'organizzazione non può essere vuoto.</orgError1>
+	<orgError2>Nel campo relativo all'organizzazione non sono ammessi i seguenti caratteri: </orgError2>
+	<org_unitError1>Il campo relativo all'unità organizzativa non può essere vuoto.</org_unitError1>
+	<org_unitError2>Nel campo relativo all'unità organizzativa non sono ammessi i seguenti caratteri: </org_unitError2>
+	<commonNameError1>Il campo relativo al nome comune non può essere vuoto.</commonNameError1>
+	<commonNameError2>Nel campo relativo al nome comune non sono ammessi i seguenti caratteri: </commonNameError2>
+	<validityError>Il campo relativo alla validità non può essere vuoto.</validityError>
+	<validityError2>Digitare un numero intero compreso tra 1 e 3650 per i giorni di validità.</validityError2>
+	<validityError3>Nel campo relativo alla validità è possibile immettere solo valori interi.</validityError3>
+	<downLoad>Scarica richiesta di certificato</downLoad>
+	<removeError1>Per rimuovere il certificato, disabilitare prima la connessione HTTPS.</removeError1>
+	<noDB>Nessun file di certificato caricato.</noDB>
+	<removeConfirm>Rimuovere il certificato?</removeConfirm>
+	<removeConfirm1>Rimuovere la richiesta di certificato?</removeConfirm1>
+	<upLoadCertConfirm>Caricare il certificato?</upLoadCertConfirm>
+	<createCertError>È in uso il certificato corrente. Rimuoverlo prima di proseguire.</createCertError>
+	<createrCertError1>Rimuovere prima il vecchio certificato.</createrCertError1>
+	<createrCertError2>Per creare un nuovo certificato, rimuovere prima la richiesta di certificato in sospeso.</createrCertError2>
+	<buttonRmCertRequest>Rimuovi richiesta di certificato</buttonRmCertRequest>
+	<KeyLength>Lunghezza chiave:</KeyLength>
+	<bits>bit</bits>
+	<days>giorni</days>
+	<stateLengthErro>Per Stato o provincia è possibile utilizzare da un minimo di 1 a un massimo di 128 byte.</stateLengthErro>
+	<localityLengthErro>Per Località è possibile utilizzare da un minimo di 1 a un massimo di 128 byte.</localityLengthErro>
+	<orgLengthErro>Per Organizzazione è possibile utilizzare da un minimo di 1 a un massimo di 64 byte.</orgLengthErro>
+	<orgUnLengthErro>Per Unità organizzativa è possibile utilizzare da un minimo di 1 a un massimo di 64 byte.</orgUnLengthErro>
+	<commonNameLengthErro>Per Nome comune è possibile utilizzare da un minimo di 1 a un massimo di 64 byte.</commonNameLengthErro>
+	<certRequest>Richiesta di certificato:</certRequest>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili...</helpfulHints>
+	<HttpsHelpMain>Connessione protetta HTTPS consente di aggiungere la crittografia alla connessione HTTP e quindi di utilizzare contemporaneamente HTTP e HTTPS. Nota importante: per lo streaming video/audio viene sempre utilizzata la connessione HTTP.</HttpsHelpMain>
+	<httpsHelp>Connessione protetta HTTPS - Consente all'utente di utilizzare il servizio HTTPS.</httpsHelp>
+	<httpsHelpIntro>È possibile utilizzare HTTP o HTTPS per la connessione alla videocamera.</httpsHelpIntro>
+	<connectType>Tipo di connessione</connectType>
+	<bothHttpAndHttps>Sia HTTP che HTTPS</bothHttpAndHttps>
+	<bothHttpAndHttpsInfo>È possibile selezionare questa opzione per consentire la connessione alla videocamera tramite HTTP e HTTPS.</bothHttpAndHttpsInfo>
+	<httpsOnly>Solo HTTPS</httpsOnly>
+	<httpsOnlyInfo>È possibile selezionare questa opzione per consentire la connessione alla videocamera solo tramite HTTPS.</httpsOnlyInfo>
+	<createMethod>Metodo di creazione e installazione di un certificato</createMethod>
+	<autoCreateMethod>Crea automaticamente certificato autofirmato</autoCreateMethod>
+	<autoCreateMethodInfo>Selezionare questo metodo per creare automaticamente un certificato autofirmato.</autoCreateMethodInfo>
+	<manCreateMethod>Crea manualmente certificato autofirmato</manCreateMethod>
+	<manCreateMethodinfo>Selezionare questo metodo per creare un certificato autofirmato specificando manualmente i parametri HTTPS.</manCreateMethodinfo>
+	<createAndInstallMethod>Crea richiesta di certificato e installa</createAndInstallMethod>
+	<createAndInstallMethodInfo>Selezionare questo metodo per inviare una richiesta di certificato e caricare nella videocamera il certificato firmato ricevuto dall'autorità di certificazione.</createAndInstallMethodInfo>
+	<certInfo>Informazioni sul certificato</certInfo>
+	<certInfoExplain>Consente di visualizzare informazioni di riepilogo e di stato sul certificato. Fare clic sul pulsante Proprietà per visualizzare ulteriori dettagli.</certInfoExplain>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<invalidParameter>Parametro non valido.</invalidParameter>
+	<notChanged>Impostazioni non modificate.</notChanged>
+	<changeFailed>Modifica non riuscita.</changeFailed>
+	<reboot1>Riavvio del server Web in corso. Attendere </reboot1>
+	<reboot2> secondi...</reboot2>
+	<upLoadOK>Caricamento completato.</upLoadOK>
+	<invalidDB>Il certificato firmato caricato non corrisponde alla richiesta di certificato originale.</invalidDB>
+	<saveOK>Riavvio server Web in corso. Attendere un minuto, quindi riconnettere la videocamera con il nuovo indirizzo IP.</saveOK>
+</message>

@@ -1,0 +1,61 @@
+<body>
+	<maintenance>Sistema</maintenance>
+	<description1>Qui è possibile eseguire il backup, il ripristino o il riavvio della videocamera.</description1>
+	<rebootDevice>Riavvia dispositivo</rebootDevice>
+	<rebootText>Riavvia dispositivo</rebootText>
+	<factory>Ripristina impostazioni predefinite</factory>
+	<factoryDefault>Ripristina impostazioni predefinite</factoryDefault>
+	<calibrateText>Calibra il dispositivo</calibrateText>
+	<calibrate>Calibra il dispositivo</calibrate>
+	<reboot1>Riavvio della videocamera in corso. Attendere </reboot1>
+	<reboot2> secondi.</reboot2>
+	<system>sistema</system>
+	<backupText>Salva su disco rigido locale</backupText>
+	<saveConfiguration>Salva configurazione</saveConfiguration>
+	<restoreText>Carica da disco rigido locale</restoreText>
+	<privacyText>Modalità privacy</privacyText>
+	<privacy>Passa alla modalità privacy</privacy>
+	<restoreConfiguration>Carica configurazione</restoreConfiguration>
+	<restoreConfirm>Ripristinare i dati di configurazione?</restoreConfirm>
+	<rebootConfirm>Riavviare?</rebootConfirm>
+	<factoryConfirm>Ripristinare le impostazioni predefinite?</factoryConfirm>
+	<reboot>Riavvia</reboot> 
+	<schedule>Pianificare il riavvio del dispositivo</schedule> 
+	<sun>dom</sun> 
+	<mon>lun</mon> 
+	<tue>mar</tue> 
+	<wed>mer</wed> 
+	<thu>gio</thu> 
+	<fri>ven</fri> 
+	<sat>sab</sat> 
+	<time>Ora</time> 
+	<savebutton>Salva</savebutton>
+	<exportHint>Please enter a key to save the configuration. And reserve the key carefully for loading the configuration.</exportHint>
+	<importHint>Please enter the key for loading the configuration.</importHint>
+	<exportError>Key can't be empty.</exportError>
+	<importError>The key is required to load the configuration.</importError>
+	<keyError>The key only accepts number, alphabet, \".\", \"_\", and \"-\". The maximum is 30 characters.</keyError>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<maintenance>Dopo aver ripristinato le impostazioni predefinite, utilizzare la procedura guidata di installazione del software fornita con la videocamera per eseguire una ricerca e collegarsi alla videocamera.</maintenance>
+</hint>
+<message>
+	<updateOK>l'aggiornamento è riuscito</updateOK>
+	<uploadFail>il caricamento non è riuscito</uploadFail>
+	<examFail>l'immagine caricata è danneggiata</examFail>
+	<infoFail>l'immagine caricata non contiene informazioni</infoFail>
+	<invalidImage>l'immagine caricata non può essere utilizzata su questo prodotto</invalidImage>
+	<resetFail>il ripristino non è riuscito</resetFail>
+	<resetOK>Verrà ora riavviato il processo di ripristino. Attendere un minuto, quindi riconnettere la videocamera con il nuovo indirizzo IP.</resetOK>
+	<rebootFail>il riavvio non è riuscito</rebootFail>
+	<rebootOK>Riavvio eseguito</rebootOK>
+	<calibrationOK>Calibrazione completata correttamente</calibrationOK>
+	<goSleepOK>modalità privacy riuscita</goSleepOK>
+	<importOK>Verrà ora caricata la configurazione. Attendere un minuto, quindi riconnettere la videocamera con il nuovo indirizzo IP.</importOK>
+	<invalidDB>File di configurazione non valido</invalidDB>
+	<noDB>Nessun file di configurazione caricato</noDB>
+	<saveOK>Riavvio server Web in corso. Attendere 75 secondi, quindi riconnettere la videocamera con il nuovo indirizzo IP.</saveOK>
+	<scheduleOK>Modifiche salvate.</scheduleOK>
+</message>
+

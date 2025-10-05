@@ -1,0 +1,579 @@
+
+/*embedded webpage*/
+.subFrameBody
+{
+	background-color:#FFFFFF;
+	padding: 2px 0 0 2px;
+
+}
+.wizardMenuMainFrameBorder
+{
+	background:#FFFFFF;
+	clear:both;
+}
+.wizardMainFrameBorder
+{
+	width:850px;
+	background:inherit;
+	float:left;
+}
+.wizardMainFrameBorder .introduction
+{
+	width:60%; 
+	margin:10px auto 0;
+}
+.subFrameBody .mainFrameBorder .main, .wizardMenuMainFrameBorder .main
+{
+	width:580px;
+	float:left;
+	
+
+}
+.supportMainFrameBorder .main,.supportMainFrameBorder .main
+{
+	width:720px;
+	background:inherit;
+	float:left;
+}
+.subFrameBody .wizardMainFrameBorder .main
+{
+	width:600px;
+	margin:0 auto;
+	
+}
+.saveButtonGroup
+{
+	text-align: center;
+	margin:10px 0;
+}
+.statusMessage
+{
+	display:none;
+	color:#FF0000;
+	margin:0;
+	padding:0;
+	border:0;
+	clear:both;
+	height:1%;
+}
+.updatingMsg
+{
+	color:#FF0000;
+}
+.helpBar
+{
+	background-color: #404343;
+	width: 133px;
+	color: #FFFFFF;
+	float:right;
+	padding: 5px 10px 0px 5px;
+	margin:0 0px 0 0;
+}
+.helpBarTitle
+{
+	font-weight:bold;
+	margin:0 0 20px 0;
+}
+.supportMainFrameBorder
+{
+	margin:0 auto;
+	padding:10px 0 0 20px;
+	border:3px double;
+	color: #000000;
+	background:#FFFFFF;
+	width:745px;
+}
+.subFrameBody .supportMainFrameBorder
+{
+	border:0px;
+	padding:0px 0 0 0px;
+}
+.supportMainFrameBorder .title,.supportMainFrameBorder .group
+{
+width:695px;
+}
+
+#support a 
+{
+	color:#000000;
+}
+.bo
+{
+font-weight:bold;
+
+}
+.indent1
+{
+margin-left:40px;
+}
+.indent2
+{
+margin-left:80px;
+}
+.indent3
+{
+margin-left:30px;
+}
+.indent4
+{
+margin-left:20px;
+}
+.indent5
+{
+margin-left:5px;
+}
+.i1
+{
+margin-left:40px;
+}
+.i2
+{
+margin-left:60px;
+}
+.i2_m
+{
+padding-left:60px;
+}
+.i3
+{
+margin-left:80px;
+}
+.i4
+{
+margin-left:100px;
+}
+.i5
+{
+margin-left:120px;
+}
+.i6
+{
+margin-left:140px;
+}
+.i7
+{
+padding-left:150px;
+}
+.i8
+{
+padding-left:183px;
+}
+.i9
+{
+padding-left:253px;
+}
+.i11
+{
+margin-left:28px;
+}
+.sw4
+{
+display: inline-block;
+width:40px;
+}
+.sw5
+{
+display: inline-block;
+width:50px;
+}
+.sw6
+{
+display: inline-block;
+width:60px;
+}
+.sw7
+{
+display: inline-block;
+width:70px;
+}
+.sw9
+{
+display: inline-block;
+width:90px;
+}
+.w0
+{
+display: inline-block;
+width:100px;
+}
+.w1
+{
+display: inline-block;
+width:150px;
+}
+.w2
+{
+display: inline-block;
+width:180px;
+}
+.w3
+{
+display: inline-block;
+width:300px;
+}
+.w13
+{
+display: inline-block;
+width:250px;
+}
+.w4
+{
+display: inline-block;
+width:230px;
+}
+.w5
+{
+display: inline-block;
+width:120px;
+}
+.w6
+{
+display: inline-block;
+width:110px;
+}
+.w7
+{
+display: inline-block;
+width:500px;
+}
+.w8
+{
+display: inline-block;
+width:250px;
+}
+.w80
+{
+display: inline-block;
+width:250px;
+}
+.w9
+{
+display: inline-block;
+width:164px;
+}
+.w10
+{
+display: inline-block;
+width:230px;
+}
+.w11
+{
+display: inline-block;
+width:140px;
+}
+.w12
+{
+display: inline-block;
+width:140px;
+}
+.w14
+{
+display: inline-block;
+width:200px;
+}
+.w15
+{
+display: inline-block;
+width:220px;
+}
+.w16
+{
+display: inline-block;
+width:175px;
+}
+.w17
+{
+display: inline-block;
+width:135px;
+}
+.w19
+{
+display: inline-block;
+width:120px;
+}
+.w21
+{
+display: inline-block;
+width:180px;
+padding-left:5px;
+}
+.w1foreu
+{
+display: inline-block;
+width:195px;
+}
+.w_netwizard_ipv6
+{
+display: inline-block;
+width:262px;
+}
+.w_gateway
+{
+display: inline-block;
+width:248px;
+}
+.hide
+{
+display:none;
+}
+.h0
+{
+line-height:25px;
+height:25px;
+}
+.h1
+{
+line-height:25px;
+height:25px;
+}
+.h11
+{
+line-height:14px;
+height:30px;
+}
+.h12
+{
+line-height:14px;
+height:35px;
+}
+.h1_m
+{
+line-height:25px;
+height:25px;
+}
+.h2
+{
+line-height:25px;
+height:30px;
+}
+.h3
+{
+line-height:25px;
+height:35px;
+}
+.h13
+{
+line-height:15px;
+height:40px;
+}
+.h14
+{
+line-height:25px;
+height:30px;
+}
+.h4
+{
+line-height:12px;
+margin-bottom:0px;
+}
+.size1
+{display: inline-block;
+width:150px;height:20px;}
+.size2
+{display: inline-block;
+width:200px}
+
+.c
+{
+text-align:center;
+
+}
+.privacyMsg
+{
+display:inline-block;
+width:320px;
+height:120px;
+padding-top:110px;
+text-align:center;
+color:#FF0000;
+font-weight:bold;
+}
+.privacyWizard
+{
+display:inline-block;
+width:580px;
+height:20px;
+padding-top:10px;
+text-align:center;
+color:#FF0000;
+font-weight:bold;
+}
+.imgText
+{
+margin: 0 0 0 5px;
+display: inline-block;
+width:135px;
+height: 23px;
+}
+#divObject
+{
+margin-bottom:10px;}
+.title
+{
+	width:564px;
+}
+.title1
+{
+	width:630px;
+}
+.group
+{
+	width:564px;
+}
+.motGroup
+{
+width:250px;
+float:right;
+padding:20px 0 0 30px;
+height:180px;
+}
+.motGroup1
+{
+width:210px;
+float:right;
+padding:1px 0 0 10px;
+height:210px;
+}
+.videoGroup
+{
+float:left;
+}
+.sdtitle
+{
+	
+	margin:0 auto;
+	width:550px;
+}
+
+.sdTable
+{
+margin:0 auto;
+width:550px;
+text-align:center;
+border-collapse:collapse;
+border: 1px solid  #000000;
+
+}
+.sdTable tr,
+{
+border: 0px solid #000000;
+}
+.sdTable td
+{
+border: 1px solid #000000;
+}
+.sdTitle
+{
+font-weight:bold;
+background-color:#E1E2F7;
+}
+.sdContent
+{
+background-color:#E1E2F7;
+
+}
+.sdContent tr
+{
+border-collapse:collapse;
+
+}
+
+.del
+{
+width:20%;
+}
+.name
+{}
+.url
+{}
+.ri
+{
+text-align:right;
+}
+.nl
+{
+font-weight:bold;
+display: block;
+}
+.bturl
+{
+border:0px; 
+background:transparent;
+text-decoration:underline; 
+color:#0000FF; 
+cursor:pointer;
+
+}
+.loding
+{
+	position:absolute;border:#FF6F00 1px solid; padding:2px;background:#ccca;
+}
+.lodingContent
+{
+	line-height:24px;border:#FF6F00 1px solid;background:#FF6F00;padding:2px 10px 2px 10px; color:#000000; font-weight:bold;
+	text-align:center;
+}
+.r
+{
+color:#FF0000;
+
+}
+.pageTitle
+{
+display:none;}
+.presetTitle, .preset
+{margin-top:5px;
+	float:left;
+	width:150px
+}
+.preset{
+	width:225px;
+	margin-bottom:10px;
+	margin-left:0px;
+	
+}
+.presetToPatrol
+{float:left; margin: 0 0px 0 0; padding-top:60px;}
+.Patrol
+{
+margin-top:5px;
+float:left;width:235px;
+margin-left:5px;
+}
+.preset_space
+{
+margin-left:50px
+
+}
+#savePoint
+{
+margin-top:5px}
+.quota
+{
+	display: inline-block;
+	margin-right:5px;
+}
+#internet_a_sw,#motion_a_sw
+{
+	margin-top:8px;
+}
+.timezone
+{
+	width:560px;
+}
+.wizard
+{
+	display: inline-block;
+	width:260px;
+}
+#listSSID
+{
+width: 220px;
+
+}
+
+.w_audiovideo
+{
+display: inline-block;
+width:200px;
+}

@@ -1,0 +1,169 @@
+<body>
+	<pageTitle>SD-Aufnahme</pageTitle>
+	<pageEnable>SD-Aufnahme</pageEnable>
+	<description1>Hier können Sie die Aufnahmeeinstellungen Ihrer Kamera vornehmen und die Aufnahmen zeitlich einplanen. Sie müssen dazu das Kontrollkästchen 'SD-Aufnahme' markieren.</description1>
+	<description2>Die durch Bewegung ausgelöste Aufnahmefunktion ist deaktiviert, wenn der SXGA-Modus aktiviert ist.</description2>
+	<description3>Um die durch Bewegung ausgelöste Aufnahmefunktion zu aktivieren, wählen Sie den VGA- oder XGA-Modus in </description3>
+	<description4> Audio und Video</description4>
+	<savebutton>Einstellungen speichern</savebutton>
+	<notsavebutton>Einstellungen nicht speichern</notsavebutton>
+	<recording>SD-AUFNAHME</recording>
+	<enableRecording>Aufnahme aktivieren</enableRecording>
+	<resolution>Auflösung</resolution>
+	<small>Profil 3</small>
+	<medium>Profil 2</medium>
+	<large>Profil 1</large>
+	<titan>Profil 4</titan>
+	<continousRecording>Fortlaufend (nur Samba)</continousRecording>
+	<scheduledRecording>Eingeplant (nur Samba)</scheduledRecording>
+	<continousRecordingOnlySamba>Dauerbetrieb</continousRecordingOnlySamba>
+	<scheduledRecordingOnlySamba>Eingeplant</scheduledRecordingOnlySamba>
+	<hour>Stunden</hour>
+	<min>Minuten</min>
+	<sun>So </sun>
+	<mon>Mo </mon>
+	<tue>Di </tue>
+	<wed>Mi </wed>
+	<thu>Do </thu>
+	<fri>Fr </fri>
+	<sat>Sa </sat>
+	<from>Start </from>
+	<profile2>Profil 2</profile2>
+	<profile3>Profil 3</profile3>	
+	<to>Ende </to>
+	<motionDetection>Bewegungserkennung/Aufnahmeauslöser</motionDetection>
+	<digitalInput>DE-Signal 1/Aufnahmeauslöser</digitalInput>
+	<digitalInput2>DE-Signal 2/Aufnahmeauslöser</digitalInput2>
+	<prerecord>Voraufnahme</prerecord>
+	<postrecord>Nachaufnahme</postrecord>
+	<range> (Bereich: 0 bis 15 Sekunden)</range>
+	<second> Sekunden</second>
+	<recordTo>Aufnahme ablegen in </recordTo>
+	<sambaNetworkDrive>Samba-Netzlaufwerk</sambaNetworkDrive>
+	<sambaAuth>Samba-Authentifizierung </sambaAuth>
+	<anonymous>Anonym</anonymous>
+	<account>Konto</account>
+	<username>Benutzername </username>
+	<password>Kennwort </password>
+	<passwordConfim>Kennwort bestätigen </passwordConfim>
+	<serverIp>Server </serverIp>
+	<sharedFolder>Freigegebener Ordner </sharedFolder>
+	<test>Test</test>
+	<sambaStatus>Samba-Status: </sambaStatus>
+	<getStatus>Status abrufen</getStatus>
+	<sdCard>SD-Karte</sdCard>
+	<sdCardStatus>SD-Kartenstatus: </sdCardStatus>
+	<recordingOptions>Aufnahmeoptionen</recordingOptions>
+	<recordUntil>Aufnahme bis </recordUntil>
+	<spaceRange>MB freier Speicherplatz bleibt (min. ist 32 MB)</spaceRange>
+	<storageFull>Wenn Speicher voll:</storageFull>
+	<stopRecording>Aufnahme stoppen</stopRecording>
+	<overwriteRecordings>Ältere Aufnahmen überschreiben</overwriteRecordings>
+	<scheduling>Zeitplan</scheduling>
+	<eventBased>Ereignisbasiert</eventBased>
+	<methodError>Wählen Sie eine Aufnahmeeinstellung</methodError>
+	<scheduleError>Geben Sie die geplante Zeit an</scheduleError>
+	<triggerError>Wählen Sie bitte die SD-Karte</triggerError>
+	<hourError>Die Stundenangaben sind nicht gültig</hourError>
+	<minuteError>Die Minutenangaben sind nicht gültig</minuteError>
+	<fullHourError>Wenn Ende (Stunden) 24 ist, kann Ende (Minuten) nur auf 0 gesetzt werden</fullHourError>
+	<legalTimeError>Startzeit muss vor der Endzeit sein</legalTimeError>
+	<recordSecError>Geben Sie eine Zahl zwischen 0~15 ein</recordSecError>
+	<usernameError>Samba-Benutzername muss eingegeben werden</usernameError>
+	<passwordError>Kennwort für das Samba-Konto muss eingegeben werden</passwordError>
+	<confimError>Kennwort für das Samba-Konto und die Bestätigung müssen gleich sein</confimError>
+	<spaceError>Freie Speicherplatzangabe ist nicht gültig. Freier Mindestspeicherplatz ist 32 MB.</spaceError>
+	<serverError>Server muss angegeben werden. Es sind nur Zahlen, Buchstaben, \".\" , \"-\", und \"_\" Zeichen gültig.</serverError>
+	<shareFolderError>Freigegebener Ordner muss angegeben werden. Es sind nur Zahlen, Buchstaben, \"-\", und \"_\"  Zeichen gültig.</shareFolderError>
+	<trigger>Auslösen durch</trigger>
+	<ignoreMot>Folgende Bewegungen ignorieren in</ignoreMot>
+	<range2> (Bereich: 0 bis 86400 Sekunden)</range2>
+	<onlyDuring>Nur im Verlaufe von</onlyDuring>
+	<day>Tag</day>
+	<time>Zeit</time>
+	<type>Aufnahmeart</type>
+	<source>Quelle</source>
+	<description6>Konfigurierbar in </description6>
+	<description7> Audio und Video</description7>
+	<preRec>Aufnahme vor dem Ereignis:</preRec>
+	<preRecNotify>(Zwischen 0 bis 5 Sekunden)</preRecNotify>
+	<postRec>Aufnahme nach dem Ereignis:</postRec>
+	<postRecNotify>(Zwischen 0 bis 60 Sekunden)</postRecNotify>
+	<target>Ziel</target>
+	<interval>Intervall</interval>
+	<quota>Freien Speicherplatz behalten</quota>
+	<global>Globaler Parameter</global>
+	<minimum>Minimum ist 200</minimum>
+	<sd>SD-Karte</sd>
+	<sdcycle>Zyklisch</sdcycle>
+	<schedulingg>Zeitplan</schedulingg>
+	<motionBased>Bewegung</motionBased>
+	<alwaysBased>Immer</alwaysBased>
+	<motionNote>Beachten Sie bitte, dass die Bewegungserkennung nicht aktiviert ist. Gehen Sie zur Bewegungserkennungs-Webseite, um die Konfiguration durchzuführen.</motionNote>
+	<sdNote>Beachten Sie, dass keine SD-Karte in die Kamera eingesetzt oder diese nicht beschreibbar ist.</sdNote>
+	<sdManagement1>Um die SD-Karte in der Kamera zu formatieren, deaktivieren Sie bitte zuerst die SD-Aufzeichnung und gehen Sie dann zu </sdManagement1>
+	<sdManagement2>SD-Management</sdManagement2>
+	<sdManagement3> Seite.</sdManagement3>
+	<sdNoteFull>Beachten Sie bitte, dass die SD-Kartenkapazität ausgeschöpft ist.</sdNoteFull>
+	<sdcardrecording>SD-KARTENAUFNAHME</sdcardrecording>
+	<preErr>Aufnahmezeit vor dem Ereignis muss eine Ganzzahl und zwischen 0 und 5 sein</preErr>
+	<postErr>Aufnahmezeit nach dem Ereignis muss eine Ganzzahl und zwischen 0 und 60 sein</postErr>
+	<ignoreMotionTimeError>Folgende Bewegungen ignorieren (in Sekunden) muss eine Ganzzahl sein</ignoreMotionTimeError>
+	<ignoreMotionTimeError2>Folgende Bewegungen ignorieren (in Sekunden) muss zwischen 0~86400 Sekunden sein</ignoreMotionTimeError2>
+	<mfhourError>Startstunde ist nicht gültig</mfhourError>
+	<mthourError>Endstunde ist nicht gültig</mthourError>
+	<mfminuteError>Startminute ist nicht gültig</mfminuteError>
+	<mtminuteError>Endminute ist nicht gültig</mtminuteError>
+	<dayErr>Wählen Sie mindestens einen Tag</dayErr>
+	<triggerError>Wählen Sie ein Ziel aus</triggerError>
+	<sdQuotaError>Freie Speicherplatzangabe auf der SD-Karte muss eine Ganzzahl und zwischen 200 und 32768 sein</sdQuotaError>
+	<checkboxSnapshot>Momentaufnahme</checkboxSnapshot>
+	<checkboxVideo>Video</checkboxVideo>
+	<recordingTypeErr>Wählen Sie einen Aufnahmetyp</recordingTypeErr>
+	<sdkeepSpace>Freien Speicherplatz behalten</sdkeepSpace>
+	<sdkeepSpacel> Geben Sie ausreichend Speicherkapazität auf der lokalen SD-Karte an, um zu verhindern, dass das System instabil wird.</sdkeepSpacel>
+	<recordingLength>Aufnahmelänge</recordingLength>
+	<recordingLengthl> Geben Sie die Länge der Zeit für jede Videoaufnahme an.</recordingLengthl>
+	<sdcyclic>Zyklisch</sdcyclic>
+	<sdcyclic1> Wenn diese Option ausgewählt ist, werden die ältesten Ordner gelöscht, wenn das System Speicherplatz für neue Dateien benötigt.</sdcyclic1>
+	<profiletype1>Profil 1</profiletype1>
+	<profiletype2>Profil 2</profiletype2>
+	<profiletype3>Profil 3</profiletype3>
+	<FileLenMinUntil>Aufnahmelänge: </FileLenMinUntil>
+	<FileLenMin>Minuten pro Datei</FileLenMin>
+	<gpio>Digitale Eingabe</gpio>
+	<performance>Der Durchsatz der SD-Karte auf Ihrer Kamera ist aktuell für Aufnahmen nicht ausreichend. Es ist ratsam, die SD-Karte neu zu formatieren oder sie durch eine Karte höherer Klasse zu ersetzen.
+</performance>
+	<audioBased>Ton</audioBased>
+	<audioNote>Beachten Sie bitte, dass die Tonerkennung nicht aktiviert ist. Gehen Sie zur Tonerkennungsseite, um die Konfiguration vorzunehmen.</audioNote>
+	<vediofileformat>Dateiformat:</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<description1>SD-Aufnahme bietet die Möglichkeit, Videos oder Momentaufnahmen (pro Sekunde) auf eine lokale SD-Karte auf der Basis von Bewegungserkennungen oder in einer angegebenen Zeit aufzunehmen.</description1>
+	<description2>Markieren Sie zum Aktivieren von Aufnahmen das Kontrollkästchen 'Aufnahme aktivieren'. Wählen Sie dann, ob Sie die Videoaufnahmen auf eine in den Einsteckplatz Ihrer Kamera eingesteckte SD-Karte oder ein Samba-Netzlaufwerk speichern möchten. Wählen Sie als Nächstes eine Zeitplanmethode, um anzugeben, wann die Kamera Videoaufnahmen machen soll. </description2>
+	<description3>Sie können die Videoaufnahmen auf einer SD-Karte oder einem Samba-Netzlaufwerk auf Grundlage der ausgewählten Ereignisse speichern. Sie können auch die 'Aufnahmeoptionen' konfigurieren und eine Zeitplanmethode wählen, um anzugeben, wann die Kamera Videoaufnahmen machen soll. </description3>
+	<descriptionNoSdcard>'Aufnahme aktivieren' ermöglicht Ihrer Kamera, Live-Videoaufnahmen auf Grundlage ausgewählter Ereignisse auf einem Samba-Netzlaufwerk zu speichern. Markieren Sie zum Aktivieren von Aufnahmen das Kontrollkästchen 'Aufnahme aktivieren'. Wählen Sie als Nächstes einen Zeitplan, um anzugeben, wann die Kamera Videoaufnahmen machen soll. </descriptionNoSdcard>
+	<motionBased>SD-Aufnahme nach einer Bewegungserkennung beginnen.</motionBased>
+	<scheduling>SD-Aufnahme in einer angegebenen Zeit.</scheduling>
+	<alwaysBased>Fortlaufende SD-Aufnahme.</alwaysBased>
+	<type>Sie können das Videoprofil, Aufnahmen vor und nach dem Ereignis hier einrichten, wenn der auslösende Faktor eine Bewegung ist. Sie können auch Aufnahmen als Momentaufnahme oder Video wählen.</type>
+	<sd>Sie können angeben, wie viel freier Speicherplatz auf der SD-Karte verbleiben soll, und ob Aufnahmen zyklisch sein sollen oder nicht.</sd>
+	<gpio>Aufnahme nach Erkennung einer digitalen Eingabe beginnen.</gpio>
+	<audioBased>Starte die SD-Aufnahme bei erkanntem Ton (Tonerkennung als Auslöser).</audioBased>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<fail>Änderungen fehlgeschlagen.</fail>
+	<testing>Test läuft</testing>
+	<disable>Deaktivieren</disable>
+	<normal>Normal</normal>
+	<initing>Initialisierung</initing>
+	<mntFailure>mnt-Fehler</mntFailure>
+	<failure>Fehler</failure>
+	<invalidParameter>Einrichtungsfehler</invalidParameter>
+	<updateFailed>Aktualisierungseinrichtungsfehler</updateFailed>
+</message>
+

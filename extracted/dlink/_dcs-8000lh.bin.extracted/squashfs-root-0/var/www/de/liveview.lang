@@ -1,0 +1,32 @@
+<body>
+	<camera>Kamera</camera>
+	<description1>In diesem Abschnitt werden Live Videoaufnahmen Ihrer Kamera angezeigt. Sie können Ihre Einstellungen mit den unten angezeigten Schaltflächen steuern und kontrollieren. </description1>
+	<description2>Die aktuelle Auflösung ist </description2>
+	<liveVideo>Live Video</liveVideo>
+	<snapshot>Momentaufnahme</snapshot>
+	<setPath>Speicherort einrichten</setPath>
+	<recording>Aufnahme</recording>
+	<stopRecording>Aufnahme stoppen</stopRecording>
+	<startSteamOut>Sprechen</startSteamOut>
+	<stopSteamOut>Sprechvorgang stoppen</stopSteamOut>
+	<listenOn>Hören</listenOn>
+	<listenOff>Hörvorgang stoppen</listenOff>
+	<startGPOutput>Digitale Ausgabe starten</startGPOutput>
+	<stopGPOutput>Digitale Ausgabe stoppen</stopGPOutput>
+	<ledOn>LED ein</ledOn>
+	<ledOff>LED aus</ledOff>
+	<fullScreen>Vollbild</fullScreen>
+	<diIndicator>Digitale Eingabeanzeige</diIndicator>
+	<moIndicator>Bewegungsauslöser-Anzeige</moIndicator>
+	<reIndicator>Aufnahmeanzeige</reIndicator>
+	<talkNotify1>Erstellen des Audio-Ausgangs-Streams ist fehlgeschlagen; Socket-Erstellung fehlgeschlagen</talkNotify1>
+	<talkNotify2>Die Verbindung zum Server ist fehlgeschlagen</talkNotify2>
+	<talkNotify3>Audio-Leitung ist besetzt; Versuchen Sie es später noch einmal.</talkNotify3>
+	<irOn>IR-LED ein</irOn>
+	<irOff>IR-LED aus</irOff>
+	<zoomInOut>Vergrößern/Verkleinern</zoomInOut>
+	<privacyMode1>Diese Kamera ist aktuell im Privacy-Modus.</privacyMode1>
+	<privacyMode2>Um den Privacy-Modus zu verlassen, gehen Sie bitte zu</privacyMode2>
+	<privacyMode3>Admin</privacyMode3>
+</body>
+

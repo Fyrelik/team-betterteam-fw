@@ -1,0 +1,169 @@
+<body>
+	<pageTitle>Registrazione su SD</pageTitle>
+	<pageEnable>Registrazione su SD</pageEnable>
+	<description1>Qui è possibile configurare e pianificare la registrazione della videocamera. Per attivare la funzione è necessario selezionare la casella di controllo 'Registrazione su SD.</description1>
+	<description2>Quando è abilitata la modalità SXGA la registrazione attivata dal movimento è disattivata.</description2>
+	<description3>Per abilitare la registrazione attivata dal movimento, selezionare la modalità VGA o XGA in </description3>
+	<description4> Audio e video</description4>
+	<savebutton>Salva impostazioni</savebutton>
+	<notsavebutton>Non salvare impostazioni</notsavebutton>
+	<recording>REGISTRAZIONE SU SD</recording>
+	<enableRecording>Abilita registrazione</enableRecording>
+	<resolution>Risoluzione</resolution>
+	<small>profilo 3</small>
+	<medium>profilo 2</medium>
+	<large>profilo 1</large>
+	<titan>profilo 4</titan>
+	<continousRecording>Continuo (solo Samba)</continousRecording>
+	<scheduledRecording>Pianificato (solo Samba)</scheduledRecording>
+	<continousRecordingOnlySamba>Continuo</continousRecordingOnlySamba>
+	<scheduledRecordingOnlySamba>Pianificato</scheduledRecordingOnlySamba>
+	<hour>Ore</hour>
+	<min>Minuti</min>
+	<sun>dom </sun>
+	<mon>lun </mon>
+	<tue>mar </tue>
+	<wed>mer </wed>
+	<thu>gio </thu>
+	<fri>ven </fri>
+	<sat>sab </sat>
+	<from>Inizio </from>
+	<profile2>Profilo 2</profile2>
+	<profile3>Profilo 3</profile3>	
+	<to>Fine </to>
+	<motionDetection>Registrazione attivata dal rilevamento del movimento</motionDetection>
+	<digitalInput>Registrazione attivata da ingresso digitale 1</digitalInput>
+	<digitalInput2>Registrazione attivata da ingresso digitale 2</digitalInput2>
+	<prerecord>Preregistrazione</prerecord>
+	<postrecord>Postregistrazione</postrecord>
+	<range> (Intervallo: da 0 a 15 secondi)</range>
+	<second> secondi</second>
+	<recordTo>Registra su </recordTo>
+	<sambaNetworkDrive>Unità di rete Samba</sambaNetworkDrive>
+	<sambaAuth>Autenticazione Samba </sambaAuth>
+	<anonymous>Anonimo</anonymous>
+	<account>Account</account>
+	<username>Nome utente </username>
+	<password>Password </password>
+	<passwordConfim>Conferma password </passwordConfim>
+	<serverIp>Server </serverIp>
+	<sharedFolder>Cartella condivisa </sharedFolder>
+	<test>Prova</test>
+	<sambaStatus>Stato Samba: </sambaStatus>
+	<getStatus>Stato</getStatus>
+	<sdCard>Scheda SD</sdCard>
+	<sdCardStatus>Stato scheda SD: </sdCardStatus>
+	<recordingOptions>Opzioni di registrazione</recordingOptions>
+	<recordUntil>Registra fino </recordUntil>
+	<spaceRange>MB di spazio libero rimasti (il minimo è 32 MB)</spaceRange>
+	<storageFull>Quando lo spazio di archiviazione è pieno:</storageFull>
+	<stopRecording>Interrompi registrazione</stopRecording>
+	<overwriteRecordings>Sovrascrivi registrazioni meno recenti</overwriteRecordings>
+	<scheduling>Pianificazione</scheduling>
+	<eventBased>Basato su eventi</eventBased>
+	<methodError>Selezionare le impostazioni di registrazione</methodError>
+	<scheduleError>Immettere l'ora pianificata</scheduleError>
+	<triggerError>Selezionare la scheda SD</triggerError>
+	<hourError>Ora non valida</hourError>
+	<minuteError>Minuti non validi</minuteError>
+	<fullHourError>Se il valore delle ore di fine è 24, i minuti di fine possono essere impostati solo su 0</fullHourError>
+	<legalTimeError>L'ora iniziale deve essere anteriore all'ora finale</legalTimeError>
+	<recordSecError>Immettere un numero compreso fra 0 e 15</recordSecError>
+	<usernameError>Specificare un nome utente Samba</usernameError>
+	<passwordError>Specificare la password dell'account Samba</passwordError>
+	<confimError>La password dell'account Samba e la conferma della password sono diverse</confimError>
+	<spaceError>Spazio libero non valido: lo spazio libero minimo è 32 M</spaceError>
+	<serverError>Specificare un valore in Server utilizzando solo caratteri alfanumerici e \".\" , \"-\", \"_\"</serverError>
+	<shareFolderError>Specificare un valore in Cartella condivisa utilizzando solo caratteri alfanumerici, \"-\" e \"_\" </shareFolderError>
+	<trigger>Attivato da</trigger>
+	<ignoreMot>Ignora movimenti successivi in</ignoreMot>
+	<range2> (Intervallo: da 0 a 86400 secondi)</range2>
+	<onlyDuring>Solo durante</onlyDuring>
+	<day>Giorno</day>
+	<time>Ora</time>
+	<type>Tipo di registrazione</type>
+	<source>Origine</source>
+	<description6>Configurabile in </description6>
+	<description7> Audio e video</description7>
+	<preRec>Registrazione pre-evento:</preRec>
+	<preRecNotify>(tra 0 e 5 secondi)</preRecNotify>
+	<postRec>Registrazione post-evento:</postRec>
+	<postRecNotify>(tra 0 e 60 secondi)</postRecNotify>
+	<target>Destinazione</target>
+	<interval>Intervallo</interval>
+	<quota>Mantieni spazio libero</quota>
+	<global>Parametro globale</global>
+	<minimum>Il valore minimo è 200</minimum>
+	<sd>Scheda SD</sd>
+	<sdcycle>Ciclica</sdcycle>
+	<schedulingg>Pianificazione</schedulingg>
+	<motionBased>Movimento</motionBased>
+	<alwaysBased>Sempre</alwaysBased>
+	<motionNote>Rilevamento del movimento non è abilitato. Passare alla pagina Web di Rilevamento del movimento per configurarlo.</motionNote>
+	<sdNote>Nella videocamera non è inserita alcuna scheda SD oppure la scheda SD non supporta operazioni di scrittura.</sdNote>
+	<sdManagement1>Per formattare la scheda SD nella videocamera, disabilitare prima Registrazione su SD e quindi passare alla pagina </sdManagement1>
+	<sdManagement2>Gestione SD</sdManagement2>
+	<sdManagement3>.</sdManagement3>
+	<sdNoteFull>La capacità della scheda SD si è esaurita.</sdNoteFull>
+	<sdcardrecording>REGISTRAZIONE SU SCHEDA SD</sdcardrecording>
+	<preErr>Il valore dei secondi per la registrazione pre-evento deve essere un numero intero compreso tra 0 e 5</preErr>
+	<postErr>Il valore dei secondi per la registrazione post-evento deve essere un numero intero compreso tra 0 e 60</postErr>
+	<ignoreMotionTimeError>Il valore dei secondi per Ignora movimenti successivi deve essere un numero intero</ignoreMotionTimeError>
+	<ignoreMotionTimeError2>Il valore dei secondi per Ignora movimenti successivi deve essere compreso tra 0 e 86400</ignoreMotionTimeError2>
+	<mfhourError>Ora di inizio non valida</mfhourError>
+	<mthourError>Ora di fine non valida</mthourError>
+	<mfminuteError>Minuto di inizio non valido</mfminuteError>
+	<mtminuteError>Minuto di fine non valido</mtminuteError>
+	<dayErr>Scegliere almeno un giorno</dayErr>
+	<triggerError>Selezionare una destinazione</triggerError>
+	<sdQuotaError>Il valore di Mantieni spazio libero per la scheda SD deve essere un numero intero compreso tra 200 e 32768</sdQuotaError>
+	<checkboxSnapshot>Istantanea</checkboxSnapshot>
+	<checkboxVideo>Video</checkboxVideo>
+	<recordingTypeErr>Selezionare un tipo di registrazione</recordingTypeErr>
+	<sdkeepSpace>Mantieni spazio libero</sdkeepSpace>
+	<sdkeepSpacel> Consente di impostare la capacità della scheda SD locale in modo da prevenire l'instabilità del sistema.</sdkeepSpacel>
+	<recordingLength>Durata registrazione</recordingLength>
+	<recordingLengthl> Consente di impostare la durata di ogni video registrato.</recordingLengthl>
+	<sdcyclic>Ciclica</sdcyclic>
+	<sdcyclic1> Quando è selezionata questa opzione, la cartella meno recente sarà eliminata quando il sistema necessita di spazio di archiviazione per nuovi file.</sdcyclic1>
+	<profiletype1>Profilo 1</profiletype1>
+	<profiletype2>Profilo 2</profiletype2>
+	<profiletype3>Profilo 3</profiletype3>
+	<FileLenMinUntil>Durata registrazione: </FileLenMinUntil>
+	<FileLenMin>minuti per file</FileLenMin>
+	<gpio>Ingresso digitale</gpio>
+	<performance>La velocità della scheda SD inserita nella videocamera non è sufficiente per la registrazione. Si consiglia di riformattare la scheda SD o sostituirla con una di classe superiore.
+</performance>
+	<audioBased>Suono</audioBased>
+	<audioNote>Rilevamento suono non è abilitato. Passare alla pagina Web di Rilevamento suono per configurarlo.</audioNote>
+	<vediofileformat>Formato file:</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<description1>La funzione Registrazione su SD consente di registrare video o istantanee (al secondo) sulla scheda SD locale sulla base di movimenti rilevati o a un'ora specificata.</description1>
+	<description2>Per abilitare la registrazione, selezionare la casella di controllo Abilita registrazione, quindi selezionare se si desidera salvare il video su una scheda SD inserita nello slot SD della videocamera oppure su un'unità di rete Samba. Quindi, selezionare un metodo di Pianificazione per specificare quando la videocamera dovrà registrare i video.</description2>
+	<description3>È possibile registrare il video su una scheda SD o un’unità di rete Samba in base agli eventi selezionati. Inoltre è possibile configurare le 'Opzioni di registrazione' e selezionare un metodo di pianificazione per specificare quando la videocamera dovrà registrare i video.</description3>
+	<descriptionNoSdcard>L'opzione Abilita registrazione consente alla videocamera di registrare il video in diretta su un’unità di rete Samba in base agli eventi selezionati. Per abilitare la registrazione, selezionare la casella di controllo Abilita registrazione. Quindi, selezionare un metodo di Pianificazione per specificare quando la videocamera dovrà registrare i video.</descriptionNoSdcard>
+	<motionBased>Inizia la registrazione su SD in seguito al rilevamento di un movimento.</motionBased>
+	<scheduling>Avvia la registrazione su SD a un'ora specificata.</scheduling>
+	<alwaysBased>Registrazione su SD senza interruzioni.</alwaysBased>
+	<type>Qui è possibile configurare il profilo video, impostare la registrazione pre-evento e post-evento quando l'opzione Attivato da è impostata su Movimento. È inoltre possibile selezionare la registrazione come Istantanea o Video.</type>
+	<sd>È possibile indicare quanto spazio libero lasciare nella scheda SD e se impostare o meno la registrazione ciclica.</sd>
+	<gpio>Inizia la registrazione in seguito al rilevamento di ingresso digitale.</gpio>
+	<audioBased>Inizia la registrazione su SD in seguito al rilevamento di un suono.</audioBased>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<fail>Modifiche non riuscite.</fail>
+	<testing>Test</testing>
+	<disable>Disabilita</disable>
+	<normal>Normale</normal>
+	<initing>Inizializzazione</initing>
+	<mntFailure>Errore mnt</mntFailure>
+	<failure>Errore</failure>
+	<invalidParameter>Errore di configurazione</invalidParameter>
+	<updateFailed>Errore di aggiornamento configurazione</updateFailed>
+</message>
+

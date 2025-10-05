@@ -1,0 +1,56 @@
+<body>
+	<digitalOutput>Salida digital</digitalOutput>
+	<description1>Aquí puede activar el puerto de salida digital y el modo en que se activará el evento. </description1>
+	<description2>La detección de movimiento está desactivada mientras la cámara está configurada en el modo SXGA.</description2>
+	<description3>Para activar la detección de movimiento, seleccione el modo VGA o XGA en </description3>
+	<description4> Audio y vídeo.</description4>
+	<savebutton>Guardar parámetros</savebutton>
+	<notsavebutton>No guardar parámetros</notsavebutton>
+	<trigger>Activación</trigger>
+	<enable> Señal de salida digital</enable>
+	<triggerEvent>Activar evento</triggerEvent>
+	<motionDetection>Movimiento</motionDetection>
+	<di1>Señal 1 de entrada digital</di1>
+	<di2>Señal 2 de entrada digital</di2>
+	<manual>Manual</manual>
+	<di>Entrada digital</di>
+	<hour>Horas</hour>
+	<min>Minutos</min>
+	<sun>Dom </sun>
+	<mon>Lun </mon>
+	<tue>Mar </tue>
+	<wed>Mié </wed>
+	<thu>Jue </thu>
+	<fri>Vie </fri>
+	<sat>Sáb </sat>
+	<from>Iniciar </from>
+	<to>Finalizar </to>
+	<day>Día</day>
+	<time>Hora</time>
+	<mfhourError>La hora de inicio no es válida</mfhourError>
+	<mthourError>La hora final no es válida</mthourError>
+	<mfminuteError>El minuto de inicio no es válido</mfminuteError>
+	<mtminuteError>El minuto final no es válido</mtminuteError>
+	<onlyDuring>Solo durante</onlyDuring>
+	<dayErr>Elija al menos un día</dayErr>
+	<audioDetection>Sonido</audioDetection>
+	<motionNote>Tenga en cuenta que la detección de movimiento no está activada, vaya a la página web de detección de movimiento para configurarla.</motionNote>
+	<audioNote>Tenga en cuenta que la detección de sonido no está activada, vaya a la página web de detección de sonido para configurarla.</audioNote>
+	<manualBased>Permite al usuario activar la salida digital en la visualización en directo.</manualBased>
+	<motionBased>Cuando se detecta un movimiento, la cámara IP activará dispositivos de alarma tradicionales que se conectan al sistema.</motionBased>
+	<audioBased>Cuando se detecta el sonido, la cámara IP activará dispositivos de alarma tradicionales que se conectan al sistema.</audioBased>
+	<gpio>Cuando se activa el dispositivo de entrada digital, la cámara IP activará dispositivos de alarma tradicionales que se conectan al sistema.</gpio>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<description1>Puede elegir un evento de activación como la detección de movimiento o activaciones desde el puerto de entrada digital. Cuando se activa un evento, la salida digital empezará a enviar una señal.</description1>
+	<manualBased>permite al usuario activar la salida digital en la visualización en directo.</manualBased>
+	<motionBased>cuando se detecta un movimiento, la cámara IP activará dispositivos de alarma tradicionales que se conectan al sistema.</motionBased>
+	<audioBased>cuando se detecta el sonido, la cámara IP activará dispositivos de alarma tradicionales que se conectan al sistema.</audioBased>
+	<gpio>cuando se activa el dispositivo de entrada digital, la cámara IP activará dispositivos de alarma tradicionales que se conectan al sistema.</gpio>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<fail>Error en los cambios.</fail>
+</message>
+

@@ -1,0 +1,484 @@
+<body>
+	<setup>设置</setup>
+	<wizard>设置向导</wizard>
+	<networkSetup>网络</networkSetup>
+	<wirelessSetup>无线设置</wirelessSetup>
+	<dynamicDNS>动态DNS</dynamicDNS>
+	<imageSetup>图像设置</imageSetup>
+	<audioVideo>音频和视频</audioVideo>
+	<timeAndDate>时间和日期</timeAndDate>
+	<videoclip>视频剪辑</videoclip>
+	<snapshot>快照</snapshot>
+	<digitalOutput>数据输出</digitalOutput>
+	<motionDetection>移动侦测</motionDetection>
+	<cameraControl>摄像机控制</cameraControl>
+	<SDCard>SD卡管理</SDCard>
+	<presetPosition>预设位置</presetPosition>
+	<recording>录制</recording>
+	<wizardInternetSettings>Internet连接设置向导</wizardInternetSettings>
+	<wizardInternetSettings1> - 使用安装向导，利用此选项为您的网络配置IP摄像机。可以手动输入静态IP，自动使用DHCP客户端或PPPoE。 （动态主机配置协议是一种网络协议，允许客户端在指定时间内从服务器处租用一个IP地址。）</wizardInternetSettings1>
+	<wizardMotionSettings>动作探测设置向导</wizardMotionSettings>
+	<wizardMotionSettings1> - 此选项用于对IP摄像机的动作探测进行设置。如果您初次配置此设备，D-Link推荐您单击设置向导按钮，遵照窗口中的指导步骤进行设置。</wizardMotionSettings1>
+	<lanSetting>LAN设置 </lanSetting>
+	<lanSetting1> - 强烈推荐选择静态IP地址选项，并输入与您网络设置匹配的IP地址。 如果您的网络采用DHCP服务器，单击自动IP地址，Internet摄像机就会自动从DHCP服务器处获得一个IP地址。每次Internet摄像机启动时，确定DHCP服务器可以为Internet摄像机分配一个静态IP。</lanSetting1>
+	<lanSetting2>DNS(域名系统)服务器是一种Internet服务，可以将域名（如：www.dlink.com）转换为IP地址（如：192.168.0.20）。此地址可以从您的ISP或网关处获得。</lanSetting2>
+	<lanSetting3>UPnP</lanSetting3>
+	<lanSetting4> - 单击复选框，决定是否在您计算机（网上邻居）的文件夹中创建一个摄像机的快捷方式。</lanSetting4>
+	<lanSetting5>UPnP端口转发</lanSetting5>
+	<lanSetting6>  - 如果您的路由器支持UPnP，您的摄像机和路由器就可以相互通信，路由器就可以知道摄像机使用的是哪个端口。这样，您无需手动对路由器进行配置就可在Internet上访问您的摄像机。</lanSetting6>
+	<pppoeSetting>PPPoE</pppoeSetting>
+	<pppoeSetting1> - 如果您的摄像机直接连接Internet，您需要输入用户名和密码，此用户名和密码由Internet服务供应商提供。如果摄像机在路由器或网关后面，您就不需要配置这个设置。</pppoeSetting1>
+	<portSetting>端口设置</portSetting>
+	<portSetting1> - 允许您为HTTP和RTSP流指定和保留端口。</portSetting1>
+	<httpPort>HTTP端口</httpPort>
+	<httpPort1> - HTTP端口允许您通过一个标准的web浏览器连接摄像机。此端口可设为其它的端口号，而不是默认的HTTP端口80。路由器上也要打开相应的端口。比如，如果端口更改为8080，用户必须在web浏览器中输入http://192.168.0.100:8080。 而不是http://192.168.0.100。 </httpPort1>
+	<rtspPort>RTSP端口</rtspPort>
+	<rtspPort1> - 一个由您分配的端口，用于连接摄像机与您的流媒体移动设备，比如智能手机或平板电脑。RTSP端口默认为554。</rtspPort1>
+	<bonjour>Bonjour</bonjour>
+	<bonjour1> - 启用Bonjour将允许您使用苹果计算机发现摄像机。</bonjour1>
+	<ddnsServerAddr>服务器地址</ddnsServerAddr>
+	<ddnsServerAddr1> - 选择动态DNS服务供应商的web地址。</ddnsServerAddr1>
+	<ddnsTimeout>超时</ddnsTimeout>
+	<ddnsTimeout1> - 您可以设置摄像机向DDNS服务器通告其当前全局IP地址的时间间隔。默认为576个小时。</ddnsTimeout1>
+    <dynamicDNS1> - （动态域名服务器）－进行更改后，DDNS服务对网络装置的公共IP地址进行同步。使用DDNS服务时需要提供用户名和密码。</dynamicDNS1>
+	<ddnsHostname>主机名</ddnsHostname>
+	<ddnsHostname1> - 您从DDNS服务处申请到的域名。</ddnsHostname1>
+	<ddnsUsername>用户名</ddnsUsername>
+	<ddnsUsername1> - DDNS服务的帐户名。</ddnsUsername1>
+	<ddnsPassword>密码</ddnsPassword>
+	<ddnsPassword1> - DDNS服务的帐户密码。</ddnsPassword1>
+	<ddnsstatus>状态</ddnsstatus>
+	<ddnsstatus1> - 说明动态DNS目前的状态。</ddnsstatus1>
+	<networkName>网络名称</networkName>
+	<networkName1> - 无线网络的名称，比如预设，会议，我的网络等等。</networkName1>
+	<siteSurvey>站点搜索</siteSurvey>
+	<siteSurvey1> - 下拉菜单中包含了所有可访问的无线网络。</siteSurvey1>
+	<SSID>SSID</SSID>
+	<SSID1> - （服务器标识符）－无线网络名称，比如预设，会议，我的网络等等。</SSID1>
+	<wirelessMode>无线模式</wirelessMode>
+	<wirelessMode1> - 无线设置默认设为“Infrastructure模式。此模式要求使用接入点/无线路由器。如果网络上无接入点或无线路由器，将设置更改为“Ad-Hoc模式”。</wirelessMode1>
+	<channel>信道</channel>
+	<channel1> - 此值默认自动为Infrastructure模式。只有在Ad-Hoc模式下此信道才为可选项。</channel1>
+	<authentication>安全模式</authentication>
+	<authentication1> - 无 – 网络上所有的设备都可以看见摄像机。没有提供加密方式。</authentication1>
+	<authentication2> - WEP – 只能与相同WEP（有线等效加密）设置的其它设备通信。</authentication2>
+	<authentication3> - WPA-PSK/WPA2-PSK – 两种模式都要求输入预共享密钥，用于建立摄像机和无线设备之间的连接。</authentication3>
+	<encryption>密码类型</encryption>
+	<encryption1> - TKIP（临时密钥完整性协议）－使用信息完整性编码抵御黑客攻击，提供保护。理想情况下是运用带TKIP的WPA。</encryption1>
+	<encryption2> - AES（高级加密系统）－采用均衡的128位区块组数据加密。理想情况下是运用带AES的WPA2。</encryption2>
+	<pppoeSetting>PPPoE</pppoeSetting>
+	<pppoeSetting1> - 如果您的摄像机直接连接Internet，您需要输入用户名和密码，此用户名和密码由Internet服务供应商提供。如果摄像机在路由器或网关后面，您就不需要配置这个设置。</pppoeSetting1>
+	<portSetting>端口详细设置</portSetting>
+	<portSetting1> - 允许您为HTTP和RSTP流指定并保留端口｡</portSetting1>
+	<httpPort>HTTP端口</httpPort>
+	<httpPort1> - HTTP端口允许您通过一个标准的web浏览器连接摄像机｡此端口可设为其它的端口号,而不是默认的HTTP端口80｡路由器上也要打开相应的端口｡比如,如果端口更改为8080,用户必须在web浏览器中输入http://192.168.0.100:8080｡而不是http://192.168.0.100｡ </httpPort1>
+	<rtspPort>RTSP端口</rtspPort>
+	<rtspPort1> - 一个由您分配的端口，用于连接摄像机与您的流媒体移动设备，比如智能手机或平板电脑。</rtspPort1>
+	<ddnsHostname>主机名</ddnsHostname>
+	<ddnsHostname1> - 您从DDNS服务处申请到的域名。</ddnsHostname1>
+	<ddnsUsername>用户名</ddnsUsername>
+	<ddnsUsername1> - DDNS服务的帐户名。</ddnsUsername1>
+	<ddnsPassword>密码</ddnsPassword>
+	<ddnsPassword1> - DDNS服务帐户密码。</ddnsPassword1>
+	<siteSurvey>站点搜索</siteSurvey>
+	<siteSurvey1> - 下拉菜单包含了所有可访问的无线网络。</siteSurvey1>
+	<SSID>SSID</SSID>
+	<SSID1> - （服务器标识符）－无线网络名称，比如Default，Conference, My network等等。</SSID1>
+	<wirelessMode>无线模式</wirelessMode>
+	<wirelessMode1> - 无线设置默认设为“Infrastructure模式。”此模式要求使用接入点/无线路由器。如果网络上无接入点或无线路由器，将设置更改为“Ad-Hoc模式”。</wirelessMode1>
+	<channel>信道</channel>
+	<channel1> - 此值默认自动为Infrastructure模式。只有在Ad-Hoc模式下信道才为可选项。</channel1>
+	<authentication>认证</authentication>
+	<authentication1> - 开放式－网络上所有的设备都可以看见摄像机。</authentication1>
+	<authentication2> - 共享－只能与相同WEP（有线等效加密）设置的其它设备通信。</authentication2>
+	<authentication3> - PA－PSK, WPA2-PSK –这两种模式都要求输入预共享密钥，建立摄像机和无线设备之间的连接。</authentication3>
+	<encryption>密码类型</encryption>
+	<encryption1> - 禁止－没有选择加密方式。s</encryption1>
+	<encryption2> - WEP – 用户可选择64或128位，十六进制或ASCII模式的加密形式。</encryption2>
+	<key>密钥</key>
+	<path>路径</path>
+	<videoclipinterval1> - 每段视频剪辑的间隔。</videoclipinterval1>
+	<path1> - 图像上传的路径（比如 \pub\images）。</path1>
+	<path11> - 图像上传的路径（比如 \pub\images）。</path11>
+	<prefixFilename>文件名前缀</prefixFilename>
+	<prefixFilename1> - 此前缀将会添加到每个文件名的前面。</prefixFilename1>
+	<interval>间隔</interval>
+	<ftpinterval>传送下一个 FTP 的时间</ftpinterval>
+	<videoclipftpinterval> - 下一次可再寄发视频剪辑到 FTP 的间隔时间。</videoclipftpinterval>
+	<interval1> - 每張快照的间隔。</interval1>
+	<ftpPort>端口</ftpPort>
+	<ftpPort1> - FTP服务器的端口号。大多数FTP服务器都是在默认端口（21）上运行。</ftpPort1>
+	<passiveMode>被动模式</passiveMode>
+	<passiveMode1> - 连接到FTP（通过任意端口进行传输）时，一些FTP服务器允许客户端使用被动模式。</passiveMode1>
+	<enableVideoclip>视频剪辑</enableVideoclip>
+	<enableVideoclip1> - 启用此功能，您可以将一个视频剪辑作为E－mail的附件发送到FTP服务器上。</enableVideoclip1>
+	<triggerEventVC>触发条件</triggerEventVC>
+	<triggerEventVC1>动作 - 在检测到动作后开始视频剪辑。</triggerEventVC1>
+	<triggerEventVC11>声音 - 在检测到声音后开始视频剪辑。</triggerEventVC11>
+	<triggerEventVC2>计划 - 在指定时间开始视频剪辑。</triggerEventVC2>
+	<triggerEventVC3>总是 - 连续视频剪辑。</triggerEventVC3>
+	<videoProfile>视频配置文件</videoProfile>
+	<videoProfile1> - 您可以单独地对摄像机的四种视频类型配置不同的图像设置（比如图像质量和帧速率）。 H.264和JPEG。</videoProfile1>
+	<smtpinterval>传送下一个 E-mail 的时间</smtpinterval>
+	<interval1> - 下一次可再寄发 E-mail 的间隔时间。</interval1>
+	<snapshotftpinterval> - 每次再寄发快照到 FTP 服务器的间隔时间。</snapshotftpinterval>
+	<snapshotsmtpinterval> - 每次再寄发快照到 E-mail 的间隔时间。</snapshotsmtpinterval>
+	<encodeType>编码类型</encodeType>
+	<encodeType1> - 选择视频编码H.264或JPEG。</encodeType1>
+	<resolution>分辨率</resolution>
+	<recResolution1>- 您可以通过4个视频配置文件选项来选择记录视频。</recResolution1>
+	<frameRate>最大帧速率</frameRate>
+	<frameRate1>- 1秒中内显示的最大帧数。此摄像机支持的最高视频画质为30fps。人的肉眼一般察觉不到高于15fps的帧速率。</frameRate1>
+	<bitRate>固定bit速率</bitRate>
+	<bitRate1>- 为摄像机的运行选择一个固定的带宽。此选项允许用户选择一个与带宽和存储空间相匹配的自定义的帧速率。</bitRate1>
+	<jpegQuality>品质</jpegQuality>
+	<jpegQuality1> - 设置图像的品质。选择最佳，表示已达到最佳的图像品质。</jpegQuality1>
+	<rtspUrl>RTSP URL</rtspUrl>
+	<rtspUrl1> - 当使用智能手机或者平板电脑装置查看时，该RTSP URL用于连接摄像机。(比如rtsp://EXAMPLE.dlinkddns.com/3gpp)</rtspUrl1>
+	<enableSpeaker>启用扬声器</enableSpeaker>
+	<enableSpeaker1> - 启用此功能后，您可以通过计算机的话筒通话，您的声音会传送至摄像机的外置扬声器。</enableSpeaker1>
+	<Videocliptype>视频剪辑类型</Videocliptype>
+	<Videocliptype1> - 您可以设置需要的视频配置，预先录制和最长时间。</Videocliptype1>
+	<videocliptarget>目标</videocliptarget>
+	<videocliptarget1> - 你可以选择视频剪辑的目标是 FTP 还是 E-mail。</videocliptarget1>
+	<snapshottarget>目标</snapshottarget>
+	<snapshottarget1> - 你可以选择快照的目标是 FTP 还是 E-mail。</snapshottarget1>
+	<enableMicrophone>启用话筒</enableMicrophone>
+	<enableMicrophone1> - 启用此功能可以监控来自IP摄像机上话筒的声音。</enableMicrophone1>
+	<speakerVolume>扬声器音量</speakerVolume>
+	<speakerVolume1> - 您可以通过音量等级设置来调节扬声器的音量。</speakerVolume1>
+	<microphoneVolume>话筒音量</microphoneVolume>
+	<microphoneVolume1> - 您可以通过音量等级设置来调节话筒的音量。</microphoneVolume1>
+	<enablemute>自动静音</enablemute>
+	<enablemute1> - 若启用本选项，将在摄像机镜头移动时自动关闭麦克风。</enablemute1>
+	<brightness>亮度</brightness>
+	<brightness1> - 用于补偿背景光。</brightness1>
+	<saturation>饱和度</saturation>
+	<saturation1> - 控制从黑白到浓厚颜色的强度。</saturation1>
+	<frequency>频率</frequency>
+	<frequency1> - 您需要选择50或60Hz（取决于所在国家）。</frequency1>
+	<whitebalance>白平衡</whitebalance>
+	<whitebalance1> - 默认为自动。可以除去偏色，使白色的物体能真实呈现在视频中。</whitebalance1>
+	<bw>黑白</bw>
+	<bw1> - 选择在摄像机上启用或禁用黑白模式。</bw1>
+	<flip>翻转</flip>
+	<flip1> - 当摄像机倒置安装在天花板上时，选择该功能。</flip1>
+	<mirror>镜像</mirror>
+	<mirror1> - 选择此选项可得到镜射的影像。</mirror1>
+	<lightSource>光源</lightSource>
+	<lightSource1> - 选择室内或室外环境。</lightSource1>
+	<slowShutter>低速快门</slowShutter>
+	<slowShutter1> - 环境昏暗时选择最小快门速度。</slowShutter1>
+	<contrast>对比度</contrast>
+	<contrast1> - 可调整物体之间的颜色对比度。在阴暗的天气下可帮助提高图像品质。</contrast1>
+	<hue>色调</hue>
+	<hue1> - 用来改变不同色相的程度对人眼的的感觉。</hue1>
+	<sharpness>锐度</sharpness>
+	<sharpness1> - 调整这个项目以控制画面锐度。</sharpness1>
+	<autoExposure>自动曝光</autoExposure>
+	<autoExposure1> - 选择此功能可以使摄像机自动调整曝光时间。</autoExposure1>
+	<BLC>背光补偿</BLC>
+	<BLC1>- 背光补偿 – 当一个物体位于明亮的光线前面时，IP摄像机就很难捕捉到清晰的图像。选择该选项，可使亮光下的物体更加清晰。</BLC1>
+	<AWB>自动白平衡</AWB>
+	<AWB1>- 自动白平衡 – 可以除去偏色，使白色的物体能真实呈现在照片中。</AWB1>
+	<AGC>自动增益控制</AGC>
+	<AGC1>- 自动增益控制 – 控制信号的增益。使用自动增益控制表示对接收到的较弱的信号进行较多的增益，而较强的信号则增益较少或不增益。</AGC1>
+	<AES>AES</AES>
+	<AES1>- 自动电子快门 – 可以自动调整快门速度。更高的快门速度可以拍到更清晰的快速移动物体。</AES1>
+	<clearMotion>清除</clearMotion>
+	<clearMotion1> - 清除所有活动单元，这些单元的动作都被检测到，且呈现红色。</clearMotion1>
+	<enablePIR>启用PIR</enablePIR>
+	<enablePIR1> - 启用此项后，使用PIR（被动红外线）来检测动作。</enablePIR1>
+	<enableMotion>启用视频动作</enableMotion>
+	<enableMotion1> - 选择此项启用摄像机的动作探测。</enableMotion1>
+	<pirsensibility>PIR灵敏度</pirsensibility>
+	<pirsensibility1> - PIR灵敏度的设置有三种选择：低，中，高，而默认的设置值为低的。而当把灵敏度调为低时，PIR需要侦测到多一点才能被触发。而建议你应该实验看看哪一个设置是最适合目前PIR所放置的地方。如果发现灵敏度太低时，请把设置调为“中”或者“高”。</pirsensibility1>
+	<sensitivity>面积比</sensitivity>
+	<sensitivity1> - 允许指定要求移动多少才能激活动作探测。</sensitivity1>
+	<unselectRange>定义动作区域</unselectRange>
+	<unselectRange1> - 拖动您的鼠标，添加动作探测范围。</unselectRange1>
+	<inverseRange>删除动作区域</inverseRange>
+	<inverseRange1> - 拖动鼠标，删除动作探测范围。</inverseRange1>
+	<formatvalue>格式化SD卡</formatvalue>
+    <formatvalue1> - 此选项用于删除SD存储卡上保存的所有数据。</formatvalue1>
+    <name>名字 </name>
+    <name1> -  此项先生所有已保存的文件或文件夹名此项先生所有已保存的文件或文件夹名。</name1>
+    <num>文件数量 </num>
+    <num1> - 此项先生文件夹中所有已保存文件的数量。</num1>
+    <size>大小 </size>
+    <size1>- 此项显示文件大小。</size1>
+    <refresh>刷新 </refresh>
+    <refresh1> - 此项用于使用最新数据重载web页面内容。</refresh1>
+    <toplevel>上一层 </toplevel>
+    <toplevel1> - 点击此按钮可回到上一层文件夹。</toplevel1>
+    <delete>删除 </delete>
+    <delete1> - 此按钮用于删除所有已选取的文件。</delete1>
+	<sdcardpath>SD卡</sdcardpath>
+	<sdcardpath1> - 显示SD卡的当前路径。</sdcardpath1>
+	<sdstatus>SD 状态</sdstatus>
+	<sdstatus1> - 此状态会显示目前SD卡是否已插入或者被侦测。</sdstatus1>
+	<filesperpage>每页文件数</filesperpage>
+	<filesperpage1> - 每页显示的文件数量。</filesperpage1>
+	<pages>页数</pages>
+	<pages1> - 当前要显示第几页。</pages1>
+	<total>总共</total>
+	<total1> - SD卡总容量。</total1>
+	<used>已使用</used>
+	<used1> - 已使用的SD卡容量。</used1>
+	<free>空闲</free>
+	<free1> - SD卡空闲容量。</free1>
+    <ok>确定 </ok>
+    <ok1>- 点击此按钮后所有的视频文件都会被删除。</ok1>	
+	<livevideoscreen>实时视频屏幕</livevideoscreen>
+	<livevideoscreen1> - 使用者可以透过此屏幕看到目前摄像机镜头已经移动到哪个位置.</livevideoscreen1>
+	<pantiltcontrol>PT 控制</pantiltcontrol>
+	<pantiltcontrol1> - 你可以使用上/下/左/右/左上/左下/右上/右下的箭头图示来控制摄像机镜头的位置。 使用原点的按钮来让摄像机镜头回到初始的位置。</pantiltcontrol1>
+	<setashome>设定为原点</setashome>
+	<setashomel> - 使用此功能可将目前摄像机所停止的位置当成初始位置。</setashomel>
+	<defaulthome>预设原点</defaulthome>
+	<defaulthomel> - 使用此功能可将初始位置回复到出厂设定值。</defaulthomel>
+	<panSpeed>摇头速度</panSpeed>
+	<panSpeed1> - 可使用此设定来控制摇头速度。 数字越大，摇头速度越大，数字越小，摇头速度越小。</panSpeed1>
+	<tiltSpeed>俯仰速度</tiltSpeed>
+	<tiltSpeed1> - 可使用此設定來控制俯仰速度。 数字越大，俯仰速度越大，数字越小，俯仰速度越小。</tiltSpeed1>
+	<currentPosition>当前位置</currentPosition>
+	<currentPosition1> - 将摄像机移到所需位置，并在当前位置框中输入一个名称或一个号码，单击「新增」，就能将预定位置添加到「预设位置」框中。</currentPosition1>
+	<presetPosition>预设位置</presetPosition>
+	<presetPosition1> - 预设位置列表列出了您之前设定的所有位置，您也可以将它们删除。</presetPosition1>
+	<patrolPos>巡视位置</patrolPos>
+	<patrolPos1> - 这将会决定网络摄像机当在'巡视'时所移动的位置。</patrolPos1>
+	<patrolPosUp>上移</patrolPosUp>
+	<patrolPosUp1> - 将选择的巡视位置上移。</patrolPosUp1>
+	<patrolPosDn>下移</patrolPosDn>
+	<patrolPosDn1> - 将选择的巡视位置下移。</patrolPosDn1>
+	<patrolPosRm>移除</patrolPosRm>
+	<patrolPosRm1> - 将选择的巡视位置移除。</patrolPosRm1>
+	<dwellingtime>停留时间(秒)</dwellingtime>
+	<dwellingtime1> - 此设定是用于在巡逻的过程中摄像机在每一个监视点上的停留时间。</dwellingtime1>
+	<recResolution>分辨率</recResolution>
+	<recResolution1> - 3个选项： VGA（视频图形阵列）提供640 × 480的分辨率，此分辨率为计算机显示的标准分辨率。QVGA（VGA的四分之一尺寸）提供320 × 240的分辨率，此分辨率为移动电话，PDA和一些手持游戏控制台的标准分辨率。 QQVGA（QVGA的四分之一尺寸）提供160 × 112的分辨率，通常只用于手持设备的显示。</recResolution1>
+	<bps>bps(比特/秒)</bps>
+	<bps1> - 为摄像机的运行选择一个固定的带宽。此选项允许用户选择一个与带宽和存储空间相匹配的自定义的帧速率。</bps1>
+	<fps>FPS(帧/秒)</fps>
+	<fps1> - 1秒中内显示的帧的最大数量。此摄像机支持的最高视频画质为30fps。人的肉眼一般察觉不到高于15fps的帧速率。</fps1>
+	<encodeMethod>视频编码方式</encodeMethod>
+	<encodeMethod1> - 选择CBR的表示以bps优先或着以品质优先来压缩影像。</encodeMethod1>
+	<cameraenvironment>摄像机环境</cameraenvironment>
+	<night>日间/夜间模式</night>
+	<night1>- 如果您的摄像机处于弱光区域且需要提高视频质量，请选择夜间模式。</night1>
+	<cameraenvironment1> - 您可以使用这些选项，根据所处的环境来配置摄像机。</cameraenvironment1>
+	<shutter>快门</shutter>
+	<shutter1> - 使用夜间模式时，有三种快门速度可供选择。</shutter1>
+	<resolution1> - 根据所用的显示系统有3个选项。对于VGA，分别为640×480, 320×240, 160×112；对于XGA，分别为1024×768, 512×384, 256×192；对于SXGA,分别为1280×1024, 640×512, 320×256；对于NTSC,分别为704×480, 352×240, 176×112；对于PAL:704×576, 352×288, 176×144。</resolution1>
+	<resolution2> - 有多种尺寸可供选择。</resolution2>
+	<scheduledRecording>计划</scheduledRecording>
+	<scheduledRecording1> - 您可以通过程序控制，在每天的特定时间打开和关闭录像。</scheduledRecording1>
+	<continuoussam>连续(仅适用于Samba服务器)</continuoussam>
+	<continuoussam1> - 选择此项全天对视频进行录像。</continuoussam1>
+	<scheduledsam>计划(仅适用于Samba服务器)</scheduledsam>
+	<scheduledsam1> - 选择此项在预定的时间段内对视频进行录像。</scheduledsam1>
+	<sambaAuth>Samba认证</sambaAuth>
+	<sambaAuth1> - 如果网络共享文件夹允许您匿名登录，您就无需输入用户名和密码，上传图像。如果不是，您就需要使用正确的设置来访问文件夹。</sambaAuth1>
+	<serverIP>服务器</serverIP>
+	<serverIPl> - 输入网络存储服务器的IP地址。</serverIPl>
+	<sharedFolder>共享文件夹</sharedFolder>
+	<sharedFolder1> - 在此栏中输入一个已有的文件夹名称，图像将会被上传到指定的文件夹中。</sharedFolder1>
+
+	<timeZone>时区</timeZone>
+	<timeZone1> - 摄像机本地时间设置的地理区域。</timeZone1>
+	<daylightSavings>启用夏令时</daylightSavings>
+	<daylightSavings1> - 自动夏令时</daylightSavings1>
+	<autoDaylightSavings>自动夏令时</autoDaylightSavings>
+	<autoDaylightSavings1> - 如果选择此模式，则根据所选时区的夏令时间来自动调整时钟。</autoDaylightSavings1>
+	<setManually>手动设置夏令时</setManually>
+	<setManually1> - 手动调整并设置夏令时。</setManually1>
+	<daylightSavingsDates>夏令时日期</daylightSavingsDates>
+	<daylightSavingsDates1> - 设置夏令时开始和结束的日期。</daylightSavingsDates1>
+	<syncTime>复制您的计算机时间设置</syncTime>
+	<syncTime1> - 将摄像机的的日期和时间与您的计算机进行同步。</syncTime1>
+	<manual>手动设置日期和时间</manual>
+	<manual1> - 手动调整并设置日期和时间。</manual1>
+	<SyncNTP>与NTP服务器同步</SyncNTP>
+	<SyncNTP1> - 选择此选项后，摄像机启动后将通过Internet和NTP服务器进行时间同步。如果NTP服务器不可到达，将不会应用任何时间设置。</SyncNTP1>
+	<ntpServer>NTP服务器</ntpServer>
+	<ntpServer1> - NTP服务器的IP地址或域名。</ntpServer1>
+
+	<enableRecording>启用录制</enableRecording>
+	<enableRecordingl>- 启用录制后将允许您根据所选择的事件录制到Samba网络设备上。单击启用录制复选框来启用录制。然后，选择一个调度方式，指定摄像机何时录制视频。</enableRecordingl>
+	<ntpfromDHCP>通过DHCP获得NTP服务器</ntpfromDHCP> 
+	<ntpfromDHCP1> - 摄影机通过DHCP获得NTP服务器。</ntpfromDHCP1> 
+	<userName>用户名</userName>
+	<userNamel> - 输入登录进入网络存储服务器的用户名。</userNamel>
+	<passWord>密码</passWord>
+	<passWordl> - 输入登录进入网络存储服务器的密码。</passWordl>
+	<test>测试</test>
+	<testl> - 单击测试按钮，确定FTP或E-mail可以被访问。</testl>
+	<getStatus>获取状态</getStatus>
+	<getStatusl> - 单击获取状态按钮，确定已经开始录制。</getStatusl>
+	<keepSpace>一直录制到只有MB的剩余空间</keepSpace>
+	<keepSpacel> - 为了避免系统的不稳定性，给本机的磁盘设置一个保留空闲空间值。</keepSpacel>
+	<stopRecord>当存储器已满，停止录制</stopRecord>
+	<stopRecordl> - 当选择[Stop recording]时，如果磁盘空间已满，IP摄像机会停止录制。</stopRecordl>
+	<overwriteRecord>当存储器已满，覆盖以前的录制</overwriteRecord>
+	<overwriteRecordl> - 如果选择[Overwrite older recordings]，当系统新的监视视频要求存储空间时，就会删除以前最旧的文档。</overwriteRecordl>
+	<eventBased>既定事件</eventBased>
+	<eventBasedl> - 选择[Motion detection triggered recording]后，探测到动作时就会开始录制，或者有数据输入时，选择D/I triggered recording开始录制。</eventBasedl>
+	<prerecordSeconds>提前录制秒数</prerecordSeconds>
+	<prerecordSecondsl> - 应用到[motion recording]的一项设置。通过预录制设置，在动作触发录制之前，摄像机在预定的时间内开始录制。</prerecordSecondsl>
+	<postrecordSeconds>延续录制秒数</postrecordSeconds>
+	<postrecordSecondsl> - 启用此功能，动作探测事件发生后，摄像机开始录制。事件触发后，尽管动作停止了，还会向后延续录制一段时间。</postrecordSecondsl>
+	<enableSnapshot>快照</enableSnapshot>
+	<enableSnapshotl> - 启用此功能，您可以将1张或6张静止图片作为E－mail的附件发送到FTP服务器卡上。</enableSnapshotl>
+	<eventbased>既定事件</eventbased>
+	<eventbased1> - 选择[Motion detection]，当探测到动作时，将图像传给指定的FTP站点或E-Mail地址</eventbased1>
+	<triggerEventSS>触发条件</triggerEventSS>
+	<triggerEventSS1>动作 - 在检测到动作后开始快照。</triggerEventSS1>
+	<triggerEventSS11>声音 - 在检测到声音后开始快照。</triggerEventSS11>
+	<triggerEventSS2>计划 - 在特定时间进行快照。</triggerEventSS2>
+	<triggerEventSS3>总是 - 连续快照。</triggerEventSS3>
+	<emailAddress>E-mail地址</emailAddress>
+	<emailAddressl> - 如果启用此功能，捕获当前静止图像，并将此图像附在E-mail中一起发送给收件人。</emailAddressl>
+	<userNameSnapl> - 由您的ISP提供（Internet服务供应商）的用户名。根据不同的ISP，可能是smith或 smith@yourisp.com。</userNameSnapl>
+	<passwordSnapl> - 您设置的密码，用于查看您的E-mail帐号。</passwordSnapl>
+	<smtpMailServer>SMTP邮件服务器</smtpMailServer>
+	<smtpMailServerl> - 邮件服务器的主机名（比如smtpserver.yourdomain.com）。</smtpMailServerl>
+	<senderAddress>发件人E-mail地址</senderAddress>
+	<senderAddressl> - 发件人E-mail地址以	E-mail格式显示（比如smith@isp.com）。如果发送给接收者的邮件失败，就会发送通知给此E-mail地址。</senderAddressl>
+	<recipientAddress>收件人E-mail地址</recipientAddress>
+	<recipientAddressl> - 此E-mail地址会接收所有捕获的图像。</recipientAddressl>
+	<mailPort>端口</mailPort>
+	<mailPortl> - E-mail SMTP服务运行的端口号。默认为25。</mailPortl>
+	<ftpServer>FTP服务器</ftpServer>
+	<ftpServerl> - FTP服务器的主机名或IP地址。（比如ftp.dlink.com）</ftpServerl>
+	<userNameFtpl> - 访问FTP服务器的帐户名。</userNameFtpl>
+	<passwordFtpl> - 同帐户一起用于访问FTP服务器的密码。</passwordFtpl>
+	<hostName>主机名</hostName>
+	<hostNamel>- FTP服务器的主机名或IP地址。(比如ftp.dlink.com)</hostNamel>
+	<RS-485>RS-485</RS-485>
+	<enableSignal>D/O 讯号</enableSignal>
+	<enableSignall> - 将触发连接到系统的传统告警设备，比如告警灯和警报器。</enableSignall>
+	<digitalOutManual>手动</digitalOutManual>
+	<digitalOutManuall> - 允许使用者在实时视频页面中直接触发数据输出。</digitalOutManuall>
+	<motionDetection11>动作</motionDetection11>
+	<motionDetectionl> - 探测到一个动作时，IP摄像机就会触发与系统连接的传统告警设备。</motionDetectionl>
+	<audioDetection>声音</audioDetection>
+	<audioDetectionl> - 探测到声音时，IP摄像机就会触发与系统连接的传统告警设备。</audioDetectionl>
+	<audio_Detection>音频侦测</audio_Detection>
+	<enableAudio>音频侦测</enableAudio>
+	<enableAudio1> - 选择此项启用摄像机的音频探测。</enableAudio1>
+	<sensitivityau>侦测级别</sensitivityau>
+	<sensitivityau1> - 设置触发音频事件的音频侦测级别。更低的侦测级别可以侦测到更小的音量。</sensitivityau1>
+	<dISignal1>数据输入</dISignal1>
+	<dISignal1l> - 触发数据输入设备时，IP摄像机就会触发与系统连接的传统告警设备。</dISignal1l>
+	<dISignal2>数据输入信号2</dISignal2>
+	<dISignal2l> - 触发数据输入2设备时，IP摄像机就会触发与系统连接的传统告警设备。</dISignal2l>
+	<supporPAN>支持摇摆-俯仰</supporPAN>
+	<supporPANl> - 启用支持摇摆-俯仰后，将在实时视频页面显示一个控制面板，允许通过RS-485控制外部摄像机部件。</supporPANl>
+	<protocol>协议</protocol>
+	<protocoll> - 选择用于通过串口连接PTZ扫描仪的PTZ标准：RS485</protocoll>
+	<ID>ID</ID>
+	<IDl> - 用于识别RS-485设备的ID值。</IDl>
+	<baudRate>波特率</baudRate>
+	<baudRatel> - 为您连接的设备选择所需的波特率。</baudRatel>
+	<dataBits>数据位</dataBits>
+	<dataBitsl> - 为您连接的设备选择所需的数据位。</dataBitsl>
+	<stopBit>停止位</stopBit>
+	<stopBitl> - 为您连接的设备选择所需的停止位。</stopBitl>
+	<parityBit>奇偶位</parityBit>
+	<parityBitl> - 为您连接的设备选择所需的奇偶位。</parityBitl>
+	<emailSetting>E-mail设置</emailSetting>
+	<ftpSetting>FTP设置</ftpSetting>
+	<triggerEvent>触发事件</triggerEvent>
+	<triggerEvent1> - 摄像机中的事件指的是触发事件（比如动作探测或数据输入触发）激活时，导致产生了一系列动作的事件。</triggerEvent1>
+	<checkPassword>验证密码</checkPassword>
+	<checkPassword1> - 再次输入连接到DDNS服务器的密码。</checkPassword1>
+	<audioSetting>音频设置</audioSetting>
+	<audioSettingl> - 可以开启或关闭麦克风，或是调节音量。</audioSettingl>
+	<offset>偏移值</offset>
+	<offset1> - 设置夏令时启用时将增加或减少的时间。</offset1>
+	<checkpassWord>确认密码</checkpassWord>
+	<checkpassWordl> - 再次输入连接到网络存储驱动器的密码。</checkpassWordl>
+	<sdrecording>SD卡录制</sdrecording>
+	<sdrecordingl> - 选择这个选项，您可以把快照或视频录制到本地SD卡中。</sdrecordingl>
+	<triggerEventM>动作 - 动作触发之后SD卡开始录制。</triggerEventM>
+	<triggerEventAu>声音 - 声音触发之后SD卡开始录制。</triggerEventAu>
+	<triggerEventS>计划 -  在一个时间限定内进行SD卡录制。</triggerEventS>
+	<triggerEventA>始终启用 - SD卡持续录制。</triggerEventA>
+	<recordingtype>录制类型</recordingtype>
+	<recordingtype1> - 您可以设定SD卡录制的视频配置，当触发条件为动作时，可以设置预先录制和延后录制。您也可以选择把录制类型设为快照或视频。</recordingtype1>
+	<keepfreespc>保留空闲空间</keepfreespc>
+	<keepfreespcl> - 为了避免系统的不稳定性，给本机的SD卡设置一个保留空闲空间值。</keepfreespcl>
+	<rectosdcyclic>循环录制</rectosdcyclic>
+	<rectosdcyclicl> - 当选择这个选项，如果系统不能提供足够的空间来存储新的档案，那么最开始录制的旧的文件夹将会被覆盖。</rectosdcyclicl>
+	<SDManagement>SD卡管理</SDManagement>
+	<videoftpServerport1> - 寄发一段视频剪辑到 FTP 服务器的端口。 大部分 FTP 服务器都执行在 21 号端口。</videoftpServerport1>
+	<videorecipientAddressl> - 这是可以收到视频剪辑的 E-mail 地址。</videorecipientAddressl>
+	<videoclipinterval1> - 每次再寄发视频剪辑的间隔时间。</videoclipinterval1>
+	<smtpinterval>传送下一个 E-mail 的时间</smtpinterval>
+	<videoclipsmtpinterval> - 下一次可再寄发视频剪辑 E-mail 的间隔时间。</videoclipsmtpinterval>
+	<snapshotssl>使用 SSL-TLS</snapshotssl>
+	<snapshotssl1> - 如果你选择 SSL-TLS 或者是 STARTTLS，摄像机会使用安全连线来寄发。</snapshotssl1>
+	<snapshottype>快照类型</snapshottype>
+	<snapshottype1> - 你可以改变快照的设定，或在这里选择单一快照或者六张快照。</snapshottype1>
+	<ftpServerport>FTP 服务器/端口</ftpServerport>
+	<ftpServerport1> - 寄发一段快照到 FTP 服务器的端口。 大部分 FTP 服务器都执行在 21 号端口。</ftpServerport1>
+	<ftpinterval>传送下一个 FTP 的时间</ftpinterval>
+	<snapshotftpinterval> - 下一次可再寄发快照到 FTP 的间隔时间。</snapshotftpinterval>
+	<smtpinterval>传送下一个 E-mail 的时间</smtpinterval>
+	<snapshotsmtpinterval> - 下一次可再寄发快照 E-mail 的间隔时间。</snapshotsmtpinterval>
+	<recordingLength>录影时间长度</recordingLength>
+	<recordingLengthl> - 设定每个录影档案的时间长度。</recordingLengthl>
+	<wirelessenable>启动无线网络</wirelessenable>
+	<wirelessenable1> - 请先启用无线网络，再进行摄像机的无线网络设定。您可从「站点查看」下拉式选单中选择要连哪一个无线网络，或自行输入 SSID。</wirelessenable1>
+	<rescan>重新扫描</rescan>
+	<rescan1> - 重新扫描你附近无线网络的名称。</rescan1>
+	<key>密钥</key>
+	<key1> - 这是一组分享于摄像机与无线装置之间的字符，当你设定 WEP 或 WPA-PSK 或者是 WPA2-PSK 时使用。.</key1>
+	<showpw>显示隐藏密钥</showpw>
+	<showpw1> - 当你选择这个选项，你的密码会显示出来。</showpw1>
+	<gpio>数据输入</gpio>
+	<gpio1> - 侦测到数据输入后开始录制短片。</gpio1>
+	<gpio2> - 侦测到数据输入后开始快照。</gpio2>
+	<gpio3> - 侦测到数据输入后开始录制视频影片。</gpio3>
+	<antenna>天线</antenna>
+	<antenna1> - 选择使用内置或者外接天线。</antenna1>
+	<tvOUT>视频输出</tvOUT>
+	<tvOUThelp> - 开启视频输出，你可以将视频输出到电视或者其他显示设备。</tvOUThelp>
+	<preRec>预先录制</preRec>
+	<maxRec>最长时间</maxRec>
+	<preRecl> - 在动作发生前有多少秒被记录到视频剪辑中。</preRecl>
+	<maxRecl> - 明确说明需要录制多少秒</maxRecl>
+	<IpfilterTitle>IP 过滤器</IpfilterTitle>
+	<IpfilterName>IP 过滤器</IpfilterName>
+	<IpfilterNameExplain> - 为了能够启动你摄像机的 IP 过滤器，你必须开启 'IP 过滤'。然后，在这个页面设置相关的内容。</IpfilterNameExplain>
+	<Ipfilter>IP 过滤功能是允许或限制访问这台摄像机的 IP 地址。</Ipfilter>
+	<FilterType>过滤的种类</FilterType>
+	<FilterTypeText> - 你可以选择过滤器名单中的 IP 地址是允许还是拒绝连接到这台摄像机。</FilterTypeText>
+	<AccessList>过滤器名单</AccessList>
+	<AccessListText> - 需要过滤的 IP 地址列表。</AccessListText>
+	<Single>单个</Single>
+	<SingleText> - 指定单个 IP 地址。</SingleText>
+	<Subnet>子网段</Subnet>
+	<SubnetText> - 指定整个子网段。</SubnetText>
+	<Range>范围</Range>
+	<RangeText> - 指定一段范围的 IP 地址。</RangeText>
+	<adminAdress>管理者 IP 位址</adminAdress>
+	<adminAdressText> - 你可以设定一个 IP 位址来作为管理者 IP，这个 IP 地址可以永远使用这台摄像机。</adminAdressText>
+	<httpsTitle>HTTPS 设置</httpsTitle>
+	<httpsName>HTTPS 设置</httpsName>
+	<httpsNameExplain> - 当选择这个选项，你可以使用 HTTP 或 HTTPS 连接到这台摄像机。</httpsNameExplain>
+	<connectType>连接的种类</connectType>
+	<bothHttpAndHttps>同时使用 HTTP 与 HTTPS</bothHttpAndHttps>
+	<bothHttpAndHttpsInfo> - 你可以选择这个选项来允许 HTTP 和 HTTPS 连接到这台摄像机。</bothHttpAndHttpsInfo>
+	<httpsOnly>仅使用 HTTPS</httpsOnly>
+	<httpsOnlyInfo> - 你可以选择这个选项来只允许 HTTPS 连接到这台摄像机。</httpsOnlyInfo>
+	<createMethod>产生与安装认证的方法</createMethod>
+	<autoCreateMethod>自动产生并安装认证</autoCreateMethod>
+	<autoCreateMethodInfo> - 选择这个方法来自动产生并安装认证。</autoCreateMethodInfo>
+	<manCreateMethod>手动产生并安装认证</manCreateMethod>
+	<manCreateMethodinfo> - 选择这个方法来手动产生并安装认证。</manCreateMethodinfo>
+	<createAndInstallMethod>先產生认证需求，再安装认证</createAndInstallMethod>
+	<createAndInstallMethodInfo> - 选择这个方法允许你先产生认证需求，并由认证单位来进行签核，然后再安装由认证单位传回的认证。</createAndInstallMethodInfo>
+	<certInfo>认证信息</certInfo>
+	<certInfoExplain> - 你的认证状态和信息，你可以点击属性来观看更多详细的信息。</certInfoExplain>
+</body>

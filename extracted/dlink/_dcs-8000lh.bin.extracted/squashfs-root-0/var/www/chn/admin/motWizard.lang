@@ -1,0 +1,199 @@
+<body>
+	<welcome>欢迎使用d-link安装向导-移动侦测</welcome>
+	<description1>本向导将指导您逐步配置摄像机的移动侦测功能。如要设置摄像机LAN或Internet设置，请单击后退按钮关闭此向导，然后重新打开Internet连接设置向导。否则单击下一步按钮开始配置。</description1>
+	<step1>步骤1：</step1>
+	<note1>指定动作检测区域设置</note1>
+	<step2>步骤2：</step2>
+	<note2>快照通知</note2>
+	<step3>步骤3：</step3>
+	<note3>视频剪辑通知</note3>
+	<step4>步骤4：</step4>
+	<note4>SD卡录制通知</note4>
+	<step5>步骤5：</step5>
+	<note5>设置完成</note5>
+	<back>返回</back>
+	<next>下一步</next>
+	<cancel>取消</cancel>
+	<pirsensibility>PIR灵敏度</pirsensibility>
+	<pirhigh>高</pirhigh>
+	<pirmiddle>中</pirmiddle>
+	<pirlow>低</pirlow>
+	<description2>此节将允许您启用或禁用移动侦测功能，定义或删除动作区域，配置您摄像机的检测动作面积比设置。</description2>
+	<showFirefoxText>如需设置动作区域，请使用Windows Internet浏览器。</showFirefoxText>
+	<enable>启用</enable>
+	<ftpserver>FTP服务器</ftpserver>
+	<enableMotion>启用视频动作</enableMotion>
+	<enablePIR>启用PIR</enablePIR>
+	<sense>面积比</sense>
+	<drawingMode>定义模式</drawingMode>
+	<drawMotion>定义动作区域</drawMotion>
+	<eraseMotion>删除动作区域</eraseMotion>
+	<clear>清除</clear>
+	<video>视频</video>
+	<description32>此步骤允许您指定如何接收摄像机的警告和通知事件。您可以输入所有相关信息来启用邮件通知和/或FTP通知。然后，单击下一步按钮。</description32>
+	<description3>此步骤允许您指定如何接收摄像机的警告和通知事件。您可以输入所有相关信息来启用邮件通知或FTP通知。然后，单击下一步按钮。</description3>
+	<notNotify>请不要通知我</notNotify>
+	<emailNotification>邮件通知</emailNotification>
+	<mailEnable>启用E-mail通知</mailEnable>
+	<userName>用户名</userName>
+	<password>密码</password>
+	<mailServer>SMTP邮件服务器</mailServer>
+	<senderAddress>发件人E-mail地址</senderAddress>
+	<recipientAddress>收件人E-mail地址</recipientAddress>
+	<port>端口</port>
+	<ftpNotification>FTP通知</ftpNotification>
+	<doubleNotification>E-Mail和FTP通知</doubleNotification>
+	<ftpEnable>启用FTP上传</ftpEnable>
+	<hostName>主机名</hostName>
+	<path>路径</path>
+	<prefixFileName>文件名前缀</prefixFileName>
+	<passiveMode>被动模式</passiveMode>
+	<description5>您已经完成了您的摄像机安装。如果您要重新查看或修改您的设置，请单击返回按钮，或单击应用按钮保存和应用您的设置。</description5>
+	<description4>此步骤可指定要如何根据摄像机的事件来进行 SD 卡录制，您可以输入所有的相关信息来启用 SD 卡录制。</description4>
+	<motionDetection>移动侦测:</motionDetection>
+	<disable>禁用</disable>
+	<alertsAndNotification>警告和通知:</alertsAndNotification>
+	<apply>应用</apply>
+	<numberError>面积比必须为整数</numberError>
+	<rangeError>面积比取值范围必须在整数0至100之间。</rangeError>
+	<range2>（范围30~86400秒）</range2>
+	<areaError>请定义动作区域</areaError>
+	<mailNameError>邮件用户名和密码不能接受非ASCII和空格字符。</mailNameError>
+	<ftpNameError>FTP用户名和密码不能接受非ASCII和空格字符。</ftpNameError>
+	<firSmtpError>SMTP（邮件）服务器不能为空白，只能接受数字、字母、\".\" , \"-\"和\"_\"字符。</firSmtpError>
+	<firSmtpName>SMTP</firSmtpName>
+	<firAccountError>SMTP邮件服务器用户名不能为空</firAccountError>
+	<firRecipientMailError>请验证收件人邮件地址格式。</firRecipientMailError>
+	<firRecipientError>收件人邮件地址不能为空</firRecipientError>
+	<firSenderMailError>请验证发件人邮件地址格式。</firSenderMailError>
+	<firSenderError>发件人邮件地址不能为空</firSenderError>
+	<PortError1>端口不能为空</PortError1>
+	<PortError2> 端口必须为整数</PortError2>
+	<PortError3>端口值必须为1到65535</PortError3>
+	<firFtpServerError>FTP主机名不能为空白，只能接受数字、字母、\".\" , \"-\"和\"_\"字符。</firFtpServerError>
+	<firFtpError>FTP服务器</firFtpError>
+	<firFolderError>FTP路径仅接受数字，字母和字符： </firFolderError>
+	<firFolderError2>FTP 路径不接受连续的 \".\" 和 \"/\" </firFolderError2>
+	<firFixFilenameError>文件名前缀仅接受数字，字母和字符： </firFixFilenameError>
+	<interval>间隔</interval>
+	<second>秒</second>
+	<second1>秒之后</second1>
+	<range>（范围1~86400秒）</range>
+	<range1>（范围10~86400秒）</range1>
+	<intervalError>间隔必须为1～86400秒</intervalError>
+	<portRange> （范围1~65535）</portRange>
+	<reloadBG>刷新图像</reloadBG>
+	<enalbeMdWarning>警告：如果您要启用动作检测功能，请选中[启用视频动作]。 如果您要禁用动作检测功能，请清除动作区域。</enalbeMdWarning>
+	<enalbeWarning>警告： 在设置向导中，确保至少选中[启用视频动作] 或 [启用PIR] 。</enalbeWarning>
+	<target>目标</target>
+	<quota>保留空闲空间</quota>
+	<sdcycle>循环录制</sdcycle>
+	<Email>发送邮件到</Email>
+	<sd>SD卡</sd>
+	<ftp>FTP </ftp>
+	<ignoreMot>忽略以下动作</ignoreMot>
+	<onlyDuring>只在...期间</onlyDuring>
+	<day>日</day>
+	<time>时间</time>
+	<hour>小时</hour>
+	<min>分</min>
+	<sun>星期日 </sun>
+	<mon>星期一 </mon>
+	<tue>星期二 </tue>
+	<wed>星期三 </wed>
+	<thu>星期四 </thu>
+	<fri>星期五 </fri>
+	<sat>星期六 </sat>
+	<from>开始 </from>
+	<to>结束 </to>
+	<encrypt1>使用SSL-TLS/STARTTLS</encrypt1>
+	<encrypt2>使用 SSL-TLS</encrypt2>
+	<smtp>E-mail </smtp>
+	<type>快照类型</type>
+	<type1>视频剪辑类型</type1>
+	<type2>SD卡录制类型</type2>
+	<source>来源</source>
+	<profile2>视频配置文件 2</profile2>
+	<profile3>视频配置文件 3</profile3>
+	<description6>可配置在 </description6>
+	<description7> 音频和视频</description7>
+	<motSingle>单拍</motSingle>
+	<motmulti1>六连拍在</motmulti1>
+	<motmulti2>秒间隔（动作帧前后各三帧）</motmulti2>
+	<encript1>无</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<snapshot>快照</snapshot>
+	<videoclip>视频剪辑</videoclip>
+	<mfhourError>起始小时无效。</mfhourError>
+	<mthourError>结束小时无效。</mthourError>
+	<mfminuteError>起始分钟无效。</mfminuteError>
+	<mtminuteError>结束分钟无效。</mtminuteError>
+	<triggerError>请选择一个目标</triggerError>
+	<ignoreQuotaError>忽略时间必须为数字</ignoreQuotaError>
+	<sdQuotaError>SD卡保留空闲空间必须为整数，且在200~32768之间。</sdQuotaError>
+	<intervalError>间隔必须为60～86400秒</intervalError>
+	<dayErr>请至少选择一天</dayErr>
+	<global>全局参数</global>
+	<qoutaMin>最小值为30。</qoutaMin>
+	<targetOnly>视频剪辑目标不能将FTP和E-mail都选择。</targetOnly>
+	<sdNote>请注意，摄像机中没有插入SD卡或SD卡不可写入。</sdNote>
+	<sdManagement1>要格式化摄像机中的SD卡，请先禁用SD卡录制，然后到</sdManagement1>
+	<sdManagement2>SD卡管理</sdManagement2>
+	<sdManagement3>页面。</sdManagement3>
+	<preRec>预先录制 :</preRec>
+	<recpostRec>延后录制 :</recpostRec>
+	<maxRec>最长时间 :</maxRec>
+	<preErr>预先录制秒数必须为整数且在0-5之间。</preErr>
+	<maxErr>最大持续秒数必须为整数且在5到10之间。</maxErr>
+	<postErr>延后录制秒数必须为整数且在0-60之间。</postErr>
+	<preRecNotify>（范围0~5秒）</preRecNotify>
+	<maxRecNotify>（范围5~10秒）</maxRecNotify>
+	<recpostRecNotify>(范围0~60秒)</recpostRecNotify>
+	<minimum>最小为200</minimum>
+	<ignoreMotionTimeError>忽略以下动作的秒数必须为整数</ignoreMotionTimeError>
+	<ignoreMotionTimeErrorsmtp>发送下一封E-mail的间隔秒数必须是整数</ignoreMotionTimeErrorsmtp>
+	<ignoreMotionTimeErrorftp>发送下一个FTP的间隔秒数必须是整数</ignoreMotionTimeErrorftp>
+	<ignoreMotionTimeErrorSnapshot>忽略以下动作的秒数必须为30~86400秒</ignoreMotionTimeErrorSnapshot>
+	<ignoreMotionTimeErrorVideoclip>忽略以下动作的秒数必须为60~86400秒</ignoreMotionTimeErrorVideoclip>
+	<ignoreMotionTimeErrorSnapshotFtp>发送下一个FTP的间隔秒数必须是整数</ignoreMotionTimeErrorSnapshotFtp>
+	<ignoreMotionTimeErrorSnapshot1>发送下一个FTP的间隔秒数必须介于10~86400秒之间</ignoreMotionTimeErrorSnapshot1>
+	<ignoreMotionTimeErrorSnapshot2>发送下一封E-mail的间隔秒数必须介于30~86400秒之间</ignoreMotionTimeErrorSnapshot2>
+	<ignoreMotionTimeErrorSnapshot3>忽略以下动作的秒数必须为60~86400秒</ignoreMotionTimeErrorSnapshot3>
+	<ignoreMotionTimeErrorVideoclipFtp>发送下一个FTP的间隔秒数必须是整数</ignoreMotionTimeErrorVideoclipFtp>
+	<ignoreMotionTimeErrorVideoclip1>发送下一个FTP的间隔秒数必须介于10~86400秒之间</ignoreMotionTimeErrorVideoclip1>
+	<ignoreMotionTimeErrorVideoclipSmtp>发送下一封E-mail的间隔秒数必须是整数</ignoreMotionTimeErrorVideoclipSmtp>
+	<ignoreMotionTimeErrorVideoclip2>发送下一封E-mail的间隔秒数必须介于30~86400之间</ignoreMotionTimeErrorVideoclip2>
+	<ignoreMotionTimeErrorVideoclip3>忽略以下动作的秒数必须为60~86400秒</ignoreMotionTimeErrorVideoclip3>
+	<rangeSnapshot> （范围30~86400秒）</rangeSnapshot>
+	<rangeVideoclip> （范围60~86400秒）</rangeVideoclip>
+	<message1>请等待</message1>
+	<message2> 秒完成配置。</message2>
+	<ftpServer>FTP 服务器/端口</ftpServer>
+	<ignoreMotFTP>传送下一个FTP在</ignoreMotFTP>
+	<ignoreMotSMTP>传送下一个E-mail在</ignoreMotSMTP>
+	<profiletype1>视频配置 1</profiletype1>
+	<profiletype2>视频配置 2</profiletype2>
+	<profiletype3>视频配置 3</profiletype3>
+	<FileLenMinUntil>录制长度: </FileLenMinUntil>
+	<FileLenMin>分钟的视频短片</FileLenMin>
+	<JavaSupport>浏览器不支持或是关闭了 Java JRE。</JavaSupport>
+	<getJava>在这取得最新的 Java JRE</getJava>
+	<enableJava> 或者打开 Java JRE。</enableJava>
+	<test>测试</test>
+	<vediofileformat>文件格式 :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+	<javajreinfo88>您所使用的浏览器可能无法接收图像和视频。如果在查看此页面时出现任何问题，我们建议您使用Internet Explorer，Mozilla Firefox或Apple Sarfari浏览器。</javajreinfo88>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<fail>更改失败。</fail>
+	<testMailOk>发送测试邮件成功。</testMailOk>
+	<testMailFault>发送测试邮件失败。</testMailFault>
+	<testFtpOk>测试FTP成功</testFtpOk>
+	<testFtpFault>测试FTP失败</testFtpFault>
+</message>

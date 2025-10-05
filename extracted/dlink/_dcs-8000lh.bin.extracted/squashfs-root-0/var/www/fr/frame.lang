@@ -1,0 +1,21 @@
+<frame>
+	<productpage>Produit : </productpage>
+	<version>Version du microprogramme : </version>
+	<home>VIDÉO EN DIRECT</home>
+	<advanced>DU PRODUIT</advanced>
+	<tools>MAINTENANCE</tools>
+	<status>ÉTAT</status>
+	<support>AIDE</support>
+	<title1>D-LINK CORPORATION | CAMÉRA INTERNET | </title1>
+	<title2>D-LINK CORPORATION | CAMÉRA INTERNET SANS FIL | </title2>
+	<copyright1>Copyright </copyright1>
+	<copyright2> 2012-2013, D-Link Corporation / D-Link Systems, Inc. Tous droits réservés.</copyright2>
+	<ok>Enregistrer les paramètres</ok>
+	<cancel>Ne pas enregistrer les paramètres</cancel>
+	<test>Test en cours...</test>
+	<save>Enregistrement en cours...</save>
+	<loading>Chargement en cours...</loading>
+	<processing>Traitement en cours...</processing>
+	<chromeAlertInfo>The browser you are using may have difficulty receiving images and video. If you experience any issues viewing this page, we suggest using Internet Explorer, Mozilla Firefox, or Apple Safari.</chromeAlertInfo>
+</frame>
+

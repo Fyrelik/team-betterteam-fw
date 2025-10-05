@@ -1,0 +1,61 @@
+<body>
+	<maintenance>Système</maintenance>
+	<description1>Cette page vous permet de sauvegarder et de restaurer les paramètres de la caméra, et de la réinitialiser.</description1>
+	<rebootDevice>Redémarrer le périphérique</rebootDevice>
+	<rebootText>Redémarrer le périphérique</rebootText>
+	<factory>Restaurer les paramètres par défaut</factory>
+	<factoryDefault>Restaurer les paramètres par défaut</factoryDefault>
+	<calibrateText>Étalonner le périphérique</calibrateText>
+	<calibrate>Étalonner le périphérique</calibrate>
+	<reboot1>La caméra est actuellement en cours de redémarrage, veuillez patienter </reboot1>
+	<reboot2> secondes.</reboot2>
+	<system>système</system>
+	<backupText>Enregistrer sur le disque dur local</backupText>
+	<saveConfiguration>Enregistrer la configuration</saveConfiguration>
+	<restoreText>Charger depuis le disque dur local</restoreText>
+	<privacyText>Mode privé</privacyText>
+	<privacy>Passer en mode privé</privacy>
+	<restoreConfiguration>Charger Config</restoreConfiguration>
+	<restoreConfirm>Voulez-vous restaurer les données de configuration ?</restoreConfirm>
+	<rebootConfirm>Voulez-vous réinitialiser ?</rebootConfirm>
+	<factoryConfirm>Voulez-vous restaurer les paramètres par défaut ?</factoryConfirm>
+	<reboot>Redémarrer</reboot> 
+	<schedule>Calendrier Redémarrer le périphérique</schedule>
+	<sun>Dim</sun> 
+	<mon>Lun</mon> 
+	<tue>Mar</tue> 
+	<wed>Mer</wed> 
+	<thu>Jeu</thu> 
+	<fri>Ven</fri> 
+	<sat>Sam</sat> 
+	<time>Time</time> 
+	<savebutton>Enregistrer</savebutton>
+	<exportHint>Please enter a key to save the configuration. And reserve the key carefully for loading the configuration.</exportHint>
+	<importHint>Please enter the key for loading the configuration.</importHint>
+	<exportError>Key can't be empty.</exportError>
+	<importError>The key is required to load the configuration.</importError>
+	<keyError>The key only accepts number, alphabet, \".\", \"_\", and \"-\". The maximum is 30 characters.</keyError>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<maintenance>Après la restauration des paramètres par défaut, utilisez le logiciel de l'assistant d'installation fourni avec la caméra pour rechercher et connecter la caméra.</maintenance>
+</hint>
+<message>
+	<updateOK>La mise à jour a réussi.</updateOK>
+	<uploadFail>Le téléchargement a échoué.</uploadFail>
+	<examFail>L'image à télécharger est endommagée.</examFail>
+	<infoFail>L'image à télécharger ne contient aucun information.</infoFail>
+	<invalidImage>L'image à télécharger ne peut pas être utilisée avec ce produit.</invalidImage>
+	<resetFail>La réinitialisation a échoué.</resetFail>
+	<resetOK>La caméra va commencer le processus de restauration. Veuillez patientez une minute, puis reconnectez la caméra avec la nouvelle adresse IP.</resetOK>
+	<rebootFail>La réinitialisation a échoué</rebootFail>
+	<rebootOK>La réinitialisation est terminée</rebootOK>
+	<calibrationOK>L'étalonnage a réussi</calibrationOK>
+	<goSleepOK>Le passage en mode privé a réussi.</goSleepOK>
+	<importOK>La caméra va commencer le chargement de votre configuration. Veuillez patientez une minute, puis reconnectez la caméra avec la nouvelle adresse IP.</importOK>
+	<invalidDB>Le fichier de configuration est incorrect</invalidDB>
+	<noDB>Aucun fichier de configuration n'a été téléchargé.</noDB>
+	<saveOK>Le serveur Web redémarre. Veuillez patientez 75 secondes, puis reconnectez la caméra avec la nouvelle adresse IP.</saveOK>
+	<scheduleOK>Modifications enregistrées.</scheduleOK>
+</message>
+

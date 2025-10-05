@@ -1,0 +1,117 @@
+<body>
+	<audioVideoSettings>音訊和視訊</audioVideoSettings>
+	<description1>您可在此設定夜晚模式與語音視訊 (4 筆影像設定資料)。設定資料 3 供快照使用，設定資料 4 供智慧手機或平板電腦裝置使用。</description1>
+	<descriptionNoNightmode>您可在此設定音訊和視訊 (3 筆影像設定資料)。設定資料 2 供快照使用，設定資料 3 供智慧手機或平板電腦裝置使用。</descriptionNoNightmode>
+	<description2>有三種主要視訊感應輸出/顯示系統 ('VGA'、'XGA' 與 'SXGA')，各自提供其解析度設定供您選擇。</description2>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不要儲存設定</notsavebutton>
+	<videoSensor>視訊感應器</videoSensor>
+	<videoprofile1>設定資料 1</videoprofile1>
+	<videoprofile2>設定資料 2</videoprofile2>
+	<videoprofile3>設定資料 3</videoprofile3>
+	<videoprofile4>設定資料 4</videoprofile4>
+	<videoprofile5>設定資料 5</videoprofile5>
+	<sensorOutput>感應器輸出</sensorOutput>
+	<vga>VGA (640x480)</vga>
+	<sxga>SXGA (1280x1024)</sxga>
+	<xga>XGA (1024x768)</xga>
+	<resolution>解析度</resolution>
+	<encodeMethod>影像編碼方式</encodeMethod>
+	<cbr>CBR</cbr>
+	<quality>品質</quality>
+	<JPEG_Quality>品質</JPEG_Quality>
+	<kbps>Kbps</kbps>
+	<mbps>Mbps</mbps>
+	<low>非常低</low>
+	<fair>低</fair>
+	<standard>中等</standard>
+	<good>高</good>
+	<excellent>非常高</excellent>
+	<nightMode>白天/夜晚模式</nightMode>
+	<enableNightMode>啟用夜晚模式</enableNightMode>
+	<shutter>快門</shutter>
+	<second>秒</second>
+	<cameraEnv>攝影機環境</cameraEnv>
+	<placedLocation>光源</placedLocation>
+	<indoor>室內</indoor>
+	<outdoor>室外</outdoor>
+	<irLed>白天/夜晚模式</irLed>
+	<auto>自動</auto>
+	<manual>手動 IR</manual>
+	<autoPIR>自動 + PIR</autoPIR>
+	<on>固定採用白天模式</on>
+	<off>固定採用夜晚模式</off>
+	<audioSettings>音訊設定</audioSettings>
+	<enableSpeaker>喇叭</enableSpeaker>
+	<volume>音量</volume>
+	<enableMicrophone>麥克風</enableMicrophone>
+	<encodeType>編碼類型</encodeType>
+	<enablemute>自動靜音</enablemute>
+	<resolution>解析度</resolution>
+	<FPS>FPS</FPS>
+	<BPS>bps</BPS>
+	<JPEG_Quality>JPEG 品質</JPEG_Quality>
+	<RTSP_URL>RTSP URL</RTSP_URL>
+	<mobileOnly>僅供行動裝置使用</mobileOnly>
+	<updateConfirm>請注意，SXGA 模式有以下限制：\n  1. 會停用移動偵測與移動觸發快照。\n  2. 錄影最高只能到中等解析度。\n  3. 非 IE 瀏覽器最高只能以 1280x1024 顯示影片</updateConfirm>
+	<reboot1>攝影機重新啟動中，請稍待 </reboot1>
+	<reboot2> 秒。</reboot2>
+	<xgaText>選擇 XGA 模式時，只有設定資料 1 能支援 1024x768。</xgaText>
+	<sxgaText1>選擇 SXGA 模式時，只有設定資料 1 的 JPEG 編碼類型支援 1280x1024。</sxgaText1>
+	<sxgaText2>會停用移動偵測與移動觸發。</sxgaText2>
+	<nightModeText>選擇夜晚模式時，因處於陰暗環境，實際上的畫面速率可能會低於上面設定的畫面速率最大值。</nightModeText>
+	<RTSPErrorMsg1>VIDEO PROFILE </RTSPErrorMsg1>
+	<RTSPErrorMsg2> RTSP URL 不能跟 VIDEO PROFILE 相同</RTSPErrorMsg2>
+	<RTSPErrorMsg3> RTSP URL</RTSPErrorMsg3>
+	<RTSPErrorMsg4>RTSP URL 不得為 NULL，只能接受數字、英文字母、\".\"、\"-\" 和 \"_\" 字元</RTSPErrorMsg4>
+	<profile1>設定資料 1</profile1>
+	<profile2>設定資料 2</profile2>
+	<profile3>設定資料 3</profile3>
+	<profile4>設定資料 4</profile4>
+	<tvOutTitle>視訊輸出</tvOutTitle>
+	<tvOUT>視訊輸出</tvOUT>
+	<enableTvOUT>開啟視訊輸出</enableTvOUT>
+	<NTSC>NTSC</NTSC>
+	<PAL>PAL</PAL>
+	<schedule>排程</schedule>
+	<daytime>白天模式時間</daytime>
+	<timeFrom>開始</timeFrom>
+	<timeTo>結束</timeTo>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<mfhourError>開始小時無效</mfhourError>
+	<mthourError>結束小時無效</mthourError>
+	<mfminuteError>開始分鐘無效</mfminuteError>
+	<mtminuteError>結束分鐘無效</mtminuteError>
+	<lightSensorLevel>感光靈敏度</lightSensorLevel> 
+	<brightest>高</brightest>
+	<darkest>低</darkest>
+	<median>中</median>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<audioVideoSettings>影格大小越大、畫面速率越高，影像品質就越好。但這也會耗用較多網路頻寬。</audioVideoSettings>
+	<encodeType>選擇影像編碼 'JPEG' 或 'H.264'。</encodeType>
+	<resolution>取決於所用的顯示系統。</resolution>
+	<FPS>攝影機每秒鐘處理的影格數量。</FPS>
+	<encodeMethod>選擇 CBR 表示以 bps 優先或著以品質優先來壓縮影像</encodeMethod>
+	<BPS>選擇攝影機操作的固定位元速率。數值越大，影像品質越好，但也耗用較多網路頻寬。</BPS>
+	<JPEG_Quality>設定影像品質。</JPEG_Quality>
+	<RTSP_URL>從 QuickTime 或行動裝置檢視時，用來連到攝影機的 URL。</RTSP_URL>
+	<irLed>選擇夜晚模式，以在陰暗環境中使用攝影機的 IR LED。</irLed>
+	<enableSpeaker>啟用本選項時，您可對著電腦的麥克風說話，聲音會傳到攝影機上的喇叭播放出來。</enableSpeaker>
+	<enableMicrophone>啟用本功能便能聽到攝影機麥克風傳來的聲音。</enableMicrophone>
+	<tvOUThelp>開啓視頻輸出，你可以將視訊輸出到電視或者其他顯示設備。</tvOUThelp>		
+	<enablemutehelp>若啟用本選項，將在攝影機鏡頭移動時自動關閉麥克風。</enablemutehelp>		
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<fail>變更失敗。</fail>
+	<saveOK>網路伺服器正在重啟，請稍待一分鐘，再以新的 IP 位址來重新連接攝影機。</saveOK>
+</message>
+

@@ -1,0 +1,7 @@
+<body>
+	<status>ESTADO</status>
+	<deviceInfo>Info do Dispositivo</deviceInfo>
+	<log>Log</log>
+	<deviceInfo1>Esta página mostra todas as informações a respeito da câmera e configurações de rede.</deviceInfo1>
+	<log1>Ver o arquivo de log de sistema. Este arquivo revela todas as informações úteis como notificação de detecção de movimento e mensagens de iniciação de sistema. Para exportar os logs da câmera clique no botão 'Baixar' para baixar o arquivo da câmera.</log1>
+</body>

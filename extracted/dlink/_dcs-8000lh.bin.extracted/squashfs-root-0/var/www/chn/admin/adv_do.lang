@@ -1,0 +1,51 @@
+<body>
+	<digitalOutput>数据输出</digitalOutput>
+	<description1>您可在此启用 D/O 连接埠，并设定事件的触发方式。</description1>
+	<description2>当摄影机设为 SXGA 模式时，会停用移动侦测。</description2>
+	<description3>要启用移动侦测，请在此处选择 VGA 或 XGA 模式:</description3>
+	<description4> 音讯与视讯。</description4>
+	<savebutton>储存设定</savebutton>
+	<notsavebutton>不要储存设定</notsavebutton>
+	<trigger>触发</trigger>
+	<enable>D/O 讯号</enable>
+	<triggerEvent>触发事件</triggerEvent>
+	<motionDetection>动作</motionDetection>
+	<audioDetection>声音</audioDetection>
+	<di1>D/I 讯号 1</di1>
+	<di2>D/I 讯号 2</di2>
+	<manual>手动</manual>
+	<di>数据输入</di>
+	<hour>小时</hour>
+	<min>分钟</min>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<from>开始</from>
+	<to>结束 </to>
+	<day>日</day>
+	<time>时间</time>
+	<mfhourError>开始小时无效</mfhourError>
+	<mthourError>结束小时无效</mthourError>
+	<mfminuteError>开始分钟无效</mfminuteError>
+	<mtminuteError>结束分钟无效</mtminuteError>
+	<onlyDuring>仅在下列时间之间</onlyDuring>
+	<dayErr>请至少选择一天</dayErr>
+	<motionNote>请注意，移动侦测没有启用，请到移动侦测页面进行配置。</motionNote>
+	<audioNote>请注意，音频侦测没有启用，请到音频侦测页面进行配置。</audioNote>
+</body>
+<hint>
+	<helpfulHints>说明项目..</helpfulHints>
+	<description1>您可选择触发事件 (如移动侦测) 或从 D/I 连接埠选择触发条件。当事件触发时，D/O 就会开始送出讯号。</description1>
+	<manualBased>允许使用者在实时视频页面中直接触发数据输出。</manualBased>
+	<motionBased>探测到一个动作时，IP摄像机就会触发与系统连接的传统告警设备。</motionBased>
+	<audioBased>探测到声音时，IP摄像机就会触发与系统连接的传统告警设备。</audioBased>
+	<gpio>触发数据输入设备时，IP摄像机就会触发与系统连接的传统告警设备。</gpio>
+</hint>
+<message>
+	<ok>变更已储存。</ok>
+	<fail>变更失败。</fail>
+</message>

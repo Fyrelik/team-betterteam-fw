@@ -1,0 +1,97 @@
+<body>
+	<httpstitle>HTTPS-EINRICHTUNG</httpstitle>
+	<description1>Hier können Sie Ihre HTTPS-Einstellungen vornehmen.</description1>
+	<subtitle>HTTPS-EINRICHTUNG</subtitle>
+	<enableHttps>Sichere HTTPS-Verbindung aktivieren</enableHttps>
+	<connecttype>Verbindungstyp</connecttype>
+	<bothhttps>Sowohl HTTP als auch HTTPS</bothhttps>
+	<onlyhttps>Nur HTTPS</onlyhttps>
+	<creatmethod>Zertifikat erstellen und installieren</creatmethod>
+	<autocreat>Selbstsigniertes Zertifikat automatisch erstellen</autocreat>
+	<automanual>Selbstsigniertes Zertifikat manuell erstellen</automanual>
+	<creatandinstall>Zertifikat von einer Zertifizierungsstelle anfordern und installieren</creatandinstall>
+	<country>Land:</country>
+	<area>Bundesland:</area>
+	<locality>Ort:</locality>
+	<organization>Unternehmen/Org.:</organization>
+	<organizationUnit>Organisationseinheit:</organizationUnit>
+	<commonName>Gebrauchsname:</commonName>
+	<validity>Gültigkeit:</validity>
+	<creatButton>Erstellen</creatButton>
+	<uploadText>Zertifikatdatei wählen:</uploadText>
+	<upload>Hochladen</upload>
+	<cerInfoTitel>Info zum Zertifikat</cerInfoTitel>
+	<cerStatus>Status:</cerStatus>
+	<proerty>Eigenschaft</proerty>
+	<remove>Entfernen</remove>
+	<notinstall>Nicht installieren</notinstall>
+	<active>Aktiv</active>
+	<waitCertificate>Warten auf Zertifikat</waitCertificate>
+	<connectTypeError>Wählen Sie bitte einen Verbindungstyp!</connectTypeError>
+	<noCerSaveError>Bitte erstellen Sie ein gültiges Zertifikat!</noCerSaveError>
+	<countryError>Es muss das Land angegeben werden</countryError>
+	<countryError2>Geben Sie den korrekten Länderkode ein.</countryError2>
+	<stateError1>Bundesland muss angegeben werden</stateError1>
+	<stateError2>Bundesland darf folgende Zeichen nicht enthalten:</stateError2>
+	<localError1>Es muss ein Ort angegeben werden</localError1>
+	<localError2>Die Ortsangabe darf folgende Zeichen nicht enthalten:</localError2>
+	<orgError1>Es muss die Organisation oder das Unternehmen angegeben werden</orgError1>
+	<orgError2>Die Organisation darf folgende Zeichen nicht enthalten:</orgError2>
+	<org_unitError1>Es muss die Organisationeinheit angegeben werden</org_unitError1>
+	<org_unitError2>Die Organisationseinheit darf folgende Zeichen nicht enthalten: </org_unitError2>
+	<commonNameError1>Der Gebrauchsname muss angegeben werden.</commonNameError1>
+	<commonNameError2>Der Gebrauchsname darf folgende Zeichen nicht enthalten: </commonNameError2>
+	<validityError>Die Gültigkeit muss angegeben werden</validityError>
+	<validityError2>Bitte geben Sie einen Tag als Ganzzahl zwischen 1 und 3650 ein</validityError2>
+	<validityError3>Für die Gültigkeit kann nur eine ganze Zahl akzeptiert werden</validityError3>
+	<downLoad>Zertifikatanforderung herunterladen</downLoad>
+	<removeError1>Um das Zertifikat zu entfernen, deaktivieren Sie bitte zuerst die HTTPS-Verbindung.</removeError1>
+	<noDB>Es wurde keine Zertifikatdatei hochgeladen.</noDB>
+	<removeConfirm>Möchten Sie das Zertifikat entfernen?</removeConfirm>
+	<removeConfirm1>Möchten Sie die Zertifikatanforderung entfernen?</removeConfirm1>
+	<upLoadCertConfirm>Möchten Sie das Zertifikat hochladen?</upLoadCertConfirm>
+	<createCertError>Aktuelles Zertifikat wird zurzeit verwendet. Bitte zuerst entfernen.</createCertError>
+	<createrCertError1>Entfernen Sie bitte zuerst das alte Zertifikat.</createrCertError1>
+	<createrCertError2>Um ein neues Zertifikat zu erstellen, entfernen Sie bitte zuerst die ausstehende Zertifikatanforderung.</createrCertError2>
+	<buttonRmCertRequest>Zertifikatanforderung entfernen</buttonRmCertRequest>
+	<KeyLength>Schlüssellänge:</KeyLength>
+	<bits>Bits</bits>
+	<days>Tage</days>
+	<stateLengthErro>Bundesland muss zwischen 1 und 128 Byte lang sein.</stateLengthErro>
+	<localityLengthErro>Ort muss zwischen 1 und 128 Byte lang sein.</localityLengthErro>
+	<orgLengthErro>Unternehmen/Org. muss zwischen 1 und 64 Byte lang sein.</orgLengthErro>
+	<orgUnLengthErro>Organisationseinheit muss zwischen 1 und 64 Byte lang sein.</orgUnLengthErro>
+	<commonNameLengthErro>Gebrauchsname muss zwischen 1 und 64 Byte lang sein.</commonNameLengthErro>
+	<certRequest>Zertifikatanforderung:</certRequest>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<HttpsHelpMain>Sichere HTTPS-Verbindung fügt Verschlüsselungsfunktionen zur HTTP-Verbindung hinzu, sodass Sie die HTTP- oder HTTPS-Verbindung gleichzeitig verwenden können. Bitte beachten: Video-/Audio-Streaming erfolgt immer über die HTTP-Verbindung.</HttpsHelpMain>
+	<httpsHelp>Sichere HTTP-Verbindung - Ermöglicht dem Benutzer die Verwendung des HTTPS-Dienstes.</httpsHelp>
+	<httpsHelpIntro>Sie können HTTP oder HTTPS zum Verbinden mit dieser Kamera verwenden.</httpsHelpIntro>
+	<connectType>Verbindungstyp</connectType>
+	<bothHttpAndHttps>Sowohl HTTP als auch HTTPS</bothHttpAndHttps>
+	<bothHttpAndHttpsInfo>Sie können diese Option markieren, um eine HTTP- und HTTPS-Verbindung zur Kamera zu ermöglichen.</bothHttpAndHttpsInfo>
+	<httpsOnly>Nur HTTPS</httpsOnly>
+	<httpsOnlyInfo>Sie können diese Option markieren, um nur eine HTTPS-Verbindung zur Kamera zu ermöglichen.</httpsOnlyInfo>
+	<createMethod>Zertifikat erstellen und installieren</createMethod>
+	<autoCreateMethod>Selbstsigniertes Zertifikat automatisch erstellen</autoCreateMethod>
+	<autoCreateMethodInfo>Wählen Sie diese Methode, um automatisch ein selbstsigniertes Zertifikat zu erstellen.</autoCreateMethodInfo>
+	<manCreateMethod>Selbstsigniertes Zertifikat manuell erstellen</manCreateMethod>
+	<manCreateMethodinfo>Wählen Sie diese Methode, um ein selbstsigniertes Zertifikat durch manuelle Angabe der HTTPS-Parameter zu erstellen.</manCreateMethodinfo>
+	<createAndInstallMethod>Zertifikat von einer Zertifizierungsstelle anfordern und installieren</createAndInstallMethod>
+	<createAndInstallMethodInfo>Mit dieser Methode können Sie eine Zertifikatanforderung an eine Zertifikatstelle senden und das signierte Zertifikat, das Sie von der Stelle erhalten haben, in der Kamera hochladen.</createAndInstallMethodInfo>
+	<certInfo>Info zum Zertifikat</certInfo>
+	<certInfoExplain>Status- und  Zusammenfassungsinformationen über Ihr Zertifikat; Sie können auf die Schaltfläche 'Eigenschaften' klicken, um genauere Informationen anzeigen zu lassen.</certInfoExplain>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<invalidParameter>Ungültiger Parameter.</invalidParameter>
+	<notChanged>Keine Einstellungen wurden geändert.</notChanged>
+	<changeFailed>Änderung fehlgeschlagen.</changeFailed>
+	<reboot1>Webserver wird neu gestartet. Bitte warten Sie </reboot1>
+	<reboot2> Sekunden...</reboot2>
+	<upLoadOK>Hochladen OK.</upLoadOK>
+	<invalidDB>Das hochgeladene signierte Zertifikat stimmt nicht mit der ursprünglichen Zertifikatanforderung überein.</invalidDB>
+	<saveOK>Der Webserver wird neu gestartet. Warten Sie bitte ca. eine Minute und stellen Sie dann die Verbindung zu der Kamera mit der neuen IP-Adresse (falls geändert) wieder her.</saveOK>
+</message>

@@ -1,0 +1,61 @@
+<body>
+	<imageSettings>Bildeinrichtung</imageSettings>
+	<description1>Ihre an den Bildeinstellungen vorgenommenen Änderungen werden sofort wirksam. Die Ergebnisse können im Fenster 'Live Video' unten angezeigt und begutachtet werden.</description1>
+	<image>Live Video</image>
+	<controls>Bildeinstellungen</controls>
+	<brightness>Helligkeit</brightness>
+	<saturation>Sättigung</saturation>
+	<contrast>Kontrast</contrast>
+	<hue>Farbton</hue>
+	<frequency>Frequenz</frequency>
+	<auto>Auto</auto>
+	<hz>Hz</hz>
+	<whiteBalance>Weißabgleich</whiteBalance>
+	<indoor>Innenbereich</indoor>
+	<outdoor>Außenbereich</outdoor>
+	<shutter>Lange Verschlusszeit</shutter>
+	<speed>Max. Verschlussgeschwindigkeit:</speed>
+	<second>Sekunde</second>
+	<source>Lichtquelle</source>
+	<disable>Deaktivieren</disable>
+	<BLC>BLC</BLC>
+	<AWB>AWB</AWB>
+	<AGC>AGC</AGC>
+	<AES>AES</AES>
+	<hue1> - Ist die Farbabstufung.</hue1>
+	<bw>S/W</bw>
+	<flip>Bild umdrehen</flip>
+	<mirror>Spiegeln</mirror>
+	<autoExposure>Autom. Belichtung</autoExposure>
+	<reset>Auf Standard zurücksetzen</reset>
+	<exceedMaxConn>Die Kamera hat ihre max. Benutzeranzahl erreicht. Versuchen Sie es bitte später noch einmal.</exceedMaxConn>
+	<enableNightMode>Lange Verschlusszeit</enableNightMode>
+	<shutter>Max. Verschlussgeschwindigkeit:</shutter>
+	<second>Sekunde</second>
+	<sharpness>Bildschärfe</sharpness>
+	<noiseReduction>Rauschunterdrückung</noiseReduction>
+	<privacy>Diese Kamera ist aktuell im Privacy-Modus.</privacy>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<imageSettings>Die Parameter Ihrer Bilder können für Helligkeit, Kontrast und Sättigung von 0 bis 100 feineingestellt werden.</imageSettings>
+	<imageSettings1>Die Parameter Ihrer Bilder können für Helligkeit, Sättigung, Kontrast und Farbton von 0 bis 100 feineingestellt werden.</imageSettings1>
+	<brightness>Wird in bestimmten Situationen zur Gegenlichtkompensation verwendet.</brightness>
+	<saturation>Steuert die Stärke der Farbe von schwarz und weiß bis zu kräftigen Farben.</saturation>
+	<contrast>Kann zur Steuerung der Farbkontraste zwischen Objekten Ihren Wünschen entsprechend eingestellt werden und zur Verbesserung der Bildqualität bei grauen Lichtverhältnissen beitragen.</contrast>
+	<bw>Sie können den Schwarz/Weiß-Modus für Ihre Kamera aktivieren oder deaktivieren.</bw>
+	<mirror>Wählen Sie diese Funktion, wenn die Bilder spiegelverkehrt angezeigt werden sollen.</mirror>
+	<flip>Wählen Sie diese Funktion, wenn Ihre Kamera an der Wand umgedreht installiert ist.</flip>
+	<frequency>Sie müssen möglicherweise zwischen einer Frequenz von ‚Auto‘, '50' oder '60' Hz (je nach Land) wählen.</frequency>
+	<whiteBalance>'Auto' ist standardmäßig vorgegeben. Es werden der Realität nicht entsprechende Farbstiche entfernt, sodass Objekte wirklichkeitsgetreuer und weiß erscheinende Objekte auch weiß auf dem Videobild dargestellt werden.</whiteBalance>
+	<enableNightMode>Wählen Sie die minimale Verschlusszeit bei schwach ausgeleuchteter Umgebung.</enableNightMode>
+	<hue2>Steuert unterschiedliche Farbtöne, die für das menschliche Auge stimulierend wirken.</hue2>
+	<autoExposure1>Wählen Sie diese Funktion, um die Belichtungszeit der Kamera automatisch anzupassen.</autoExposure1>
+	<sharpness>Wird zum Einstellen der Bildschärfe verwendet.</sharpness>
+	<source>Wählen Sie Innenbereich oder Außenbereich.</source>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<fail>Änderungen fehlgeschlagen.</fail>
+</message>
+

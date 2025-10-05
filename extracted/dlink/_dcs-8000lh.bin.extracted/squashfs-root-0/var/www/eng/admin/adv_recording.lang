@@ -1,0 +1,168 @@
+<body>
+	<pageTitle>SD Recording</pageTitle>
+	<pageEnable>SD Recording</pageEnable>
+	<description1>Here you may configure and schedule the recording of your camera. You must select the checkbox of 'SD Recording' to turn on the feature.</description1>
+	<description2>Motion triggered recording is disabled when SXGA mode is enabled.</description2>
+	<description3>To enable motion triggered recording, select VGA or XGA mode in </description3>
+	<description4> Audio and Video</description4>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<recording>SD RECORDING</recording>
+	<enableRecording>Enable Recording</enableRecording>
+	<resolution>Resolution</resolution>
+	<small>profile 3</small>
+	<medium>profile 2</medium>
+	<large>profile 1</large>
+	<titan>profile 4</titan>
+	<continousRecording>Continuous (Samba only)</continousRecording>
+	<scheduledRecording>Scheduled (Samba only)</scheduledRecording>
+	<continousRecordingOnlySamba>Continuous</continousRecordingOnlySamba>
+	<scheduledRecordingOnlySamba>Scheduled</scheduledRecordingOnlySamba>
+	<hour>Hours</hour>
+	<min>Minutes</min>
+	<sun>Sun </sun>
+	<mon>Mon </mon>
+	<tue>Tue </tue>
+	<wed>Wed </wed>
+	<thu>Thu </thu>
+	<fri>Fri </fri>
+	<sat>Sat </sat>
+	<from>Start </from>
+	<profile2>Profile 2</profile2>
+	<profile3>Profile 3</profile3>	
+	<to>End </to>
+	<motionDetection>Motion detection triggered recording</motionDetection>
+	<digitalInput>Digital input 1 triggered recording</digitalInput>
+	<digitalInput2>Digital input 2 triggered recording</digitalInput2>
+	<prerecord>Prerecord</prerecord>
+	<postrecord>Postrecord</postrecord>
+	<range> (Range : 0 to 15 seconds)</range>
+	<second> seconds</second>
+	<recordTo>Record to </recordTo>
+	<sambaNetworkDrive>Samba network drive</sambaNetworkDrive>
+	<sambaAuth>Samba Auth </sambaAuth>
+	<anonymous>Anonymous</anonymous>
+	<account>Account</account>
+	<username>User name </username>
+	<password>Password </password>
+	<passwordConfim>Password confirm </passwordConfim>
+	<serverIp>Server </serverIp>
+	<sharedFolder>Shared folder </sharedFolder>
+	<test>Test</test>
+	<sambaStatus>Samba status : </sambaStatus>
+	<getStatus>Get status</getStatus>
+	<sdCard>SD Card</sdCard>
+	<sdCardStatus>SD Card status : </sdCardStatus>
+	<recordingOptions>Recording Options</recordingOptions>
+	<recordUntil>Record until </recordUntil>
+	<spaceRange>MB of free space is left (minimum is 32MB)</spaceRange>
+	<storageFull>When storage is full:</storageFull>
+	<stopRecording>Stop recording</stopRecording>
+	<overwriteRecordings>Overwrite older recordings</overwriteRecordings>
+	<scheduling>Schedule</scheduling>
+	<eventBased>Event Based</eventBased>
+	<methodError>Please select a recording setting</methodError>
+	<scheduleError>Please fill in scheduled time</scheduleError>
+	<triggerError>Please select SD Card</triggerError>
+	<hourError>Hours are not valid</hourError>
+	<minuteError>Minutes are not valid</minuteError>
+	<fullHourError>If end hours is 24, end minutes only can set 0</fullHourError>
+	<legalTimeError>Start time have to be smaller than then end time</legalTimeError>
+	<recordSecError>Please input a number between 0~15</recordSecError>
+	<usernameError>Samba user name can't be empty</usernameError>
+	<passwordError>Samba account password can't be empty</passwordError>
+	<confimError>Samba account password and Password confirm are different</confimError>
+	<spaceError>Free space is not valid, the minimum free space is 32M</spaceError>
+	<serverError>Server can't be empty, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</serverError>
+	<shareFolderError>Shared folder can't be empty, only accept number, alphabet , \"-\", and \"_\" characters</shareFolderError>
+	<trigger>Trigger by</trigger>
+	<ignoreMot>Ignore Following Motions in</ignoreMot>
+	<range2> (Range : 0 to 86400 seconds)</range2>
+	<onlyDuring>Only during</onlyDuring>
+	<day>Day</day>
+	<time>Time</time>
+	<type>Recording Type</type>
+	<source>Source</source>
+	<description6>Configurable in </description6>
+	<description7> Audio and Video</description7>
+	<preRec>Pre-event recording :</preRec>
+	<preRecNotify>(Between 0 to 5 seconds)</preRecNotify>
+	<postRec>Post-event recording :</postRec>
+	<postRecNotify>(Between 0 to 60 seconds)</postRecNotify>
+	<target>Target</target>
+	<interval>Interval</interval>
+	<quota>Keep Free Space</quota>
+	<global>Global parameter</global>
+	<minimum>Minimum is 200</minimum>
+	<sd>SD Card</sd>
+	<sdcycle>Cyclic</sdcycle>
+	<schedulingg>Schedule</schedulingg>
+	<motionBased>Motion</motionBased>
+	<audioBased>Sound</audioBased>
+	<alwaysBased>Always</alwaysBased>
+	<motionNote>Please note that Motion Detection is not enabled, please go to Motion Detection web page to configure.</motionNote>
+	<audioNote>Please note that Sound Detection is not enabled, please go to Sound Detection web page to configure.</audioNote>
+	<sdNote>Please note that there is no SD Card plugged into the camera or the SD Card is not writable.</sdNote>
+	<sdManagement1>To format the SD Card in the camera, please disable SD Recording first and then go to the </sdManagement1>
+	<sdManagement2>SD Management</sdManagement2>
+	<sdManagement3> page.</sdManagement3>
+	<sdNoteFull>Please note that SD Card capacity is full.</sdNoteFull>
+	<sdcardrecording>SD CARD RECORDING</sdcardrecording>
+	<preErr>Pre-event recording second must be an integer and between 0 to 5</preErr>
+	<postErr>Post-event recording second must be an integer and between 0 to 60</postErr>
+	<ignoreMotionTimeError>Ignore Following Motions in second must be an integer</ignoreMotionTimeError>
+	<ignoreMotionTimeError2>Ignore Following Motions in second must be 0~86400 seconds</ignoreMotionTimeError2>
+	<mfhourError>Start hour is not valid</mfhourError>
+	<mthourError>End hour is not valid</mthourError>
+	<mfminuteError>Start minute is not valid</mfminuteError>
+	<mtminuteError>End minute is not valid</mtminuteError>
+	<dayErr>Please choose at least one day</dayErr>
+	<triggerError>Please select a target</triggerError>
+	<sdQuotaError>SD Card Keep Free Space must be an integer and between 200 to 32768</sdQuotaError>
+	<checkboxSnapshot>Snapshot</checkboxSnapshot>
+	<checkboxVideo>Video</checkboxVideo>
+	<recordingTypeErr>Please select a Recording Type</recordingTypeErr>
+	<sdkeepSpace>Keep Free Space</sdkeepSpace>
+	<sdkeepSpacel> Set the capacity of your local SD Card to prevent the system from becoming unstable.</sdkeepSpacel>
+	<recordingLength>Recording Length</recordingLength>
+	<recordingLengthl> Set the time length of each recording video.</recordingLengthl>
+	<sdcyclic>Cyclic</sdcyclic>
+	<sdcyclic1> When this option is selected, it will cause the oldest folder to be deleted when the system requires storage space for new files.</sdcyclic1>
+	<profiletype1>Profile 1</profiletype1>
+	<profiletype2>Profile 2</profiletype2>
+	<profiletype3>Profile 3</profiletype3>
+	<FileLenMinUntil>Recording Length : </FileLenMinUntil>
+	<FileLenMin>minutes per file</FileLenMin>
+	<gpio>Digital Input</gpio>
+	<performance>The throughput of the SD Card on your camera is not currently enough for recording. We suggest you to reformat the SD Card or replace it with a higher class one.
+</performance>
+	<vediofileformat>File Format :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>SD Recording is the ability to record video or snapshot (per second) to local SD Card based on motion detection or in a specified time.</description1>
+	<description2>To enable recording, check the Enable Recording checkbox, then select whether to save video to an SD Card inserted into the camera’s SD slot or a Samba network drive. Next, select a Scheduling method to specify when the camera should record video.</description2>
+	<description3>You can record the video to a 'SD Card' or a 'Samba network' drive based on the selected events. You may also configure the 'Recording Options' and select a scheduling method to specify when the camera will record video.</description3>
+	<descriptionNoSdcard>Enable Recording will allow your camera to record the live video to a Samba network drive based on the selected events. To enable recording, select the Enable recording checkbox. Then, select a Scheduling method to specify when the camera will record the video.</descriptionNoSdcard>
+	<motionBased>Begin SD recording after a motion is detected.</motionBased>
+	<audioBased>Begin SD recording after sound is detected.</audioBased>
+	<scheduling>SD recording in a specified time.</scheduling>
+	<alwaysBased>Continuous SD recording.</alwaysBased>
+	<type>You can set video profile, set pre-event recording, and post-event recording here when Trigger by is Motion. You can also select recording as Snapshot or Video.</type>
+	<sd>You can set how much free space to keep in SD card and if recording cyclically or not.</sd>
+	<gpio>Begin recording after digital input is detected.</gpio>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+	<testing>Testing</testing>
+	<disable>Disable</disable>
+	<normal>Normal</normal>
+	<initing>Initing</initing>
+	<mntFailure>mntFailure</mntFailure>
+	<failure>Failure</failure>
+	<invalidParameter>Setup failure</invalidParameter>
+	<updateFailed>Update setup failure</updateFailed>
+</message>

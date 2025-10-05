@@ -1,0 +1,65 @@
+<body>
+	<wirelessSettings>無線網路設定</wirelessSettings>
+	<description1>此部份可以讓您調整攝影機的無線網路設定。</description1>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不要儲存設定</notsavebutton>
+	<wirelessConfiguration>無線網路設定</wirelessConfiguration>
+	<enableWireless>啟用無線網路</enableWireless>
+	<ssid>網路名稱</ssid>
+	<bssid>BSSID</bssid>
+	<signal>訊號</signal>
+	<survey>站台搜尋</survey>
+	<rescan>重新掃描</rescan>
+	<wirelessMode>無線模式</wirelessMode>
+	<ssidErrorq>無</ssidErrorq>
+	<wireless>無線網路</wireless>
+	<infrastructure>基礎建設</infrastructure>
+	<adhoc>點對點</adhoc>
+	<channel>頻道</channel>
+	<auto>自動</auto>
+	<authentication>安全模式</authentication>
+	<encryption>密碼類型</encryption>
+	<key>金鑰</key>
+	<reboot1>攝影機正在重新啟動。請稍待 </reboot1>
+	<reboot2> 秒。</reboot2>
+	<ssidError>SSID 不得為空白</ssidError>
+	<ssidError1>SSID不能全爲空格。</ssidError1>
+	<keyError1>WEP 金鑰長度須為 5、10、13 或 26 個字元</keyError1>
+	<keyError2>WEP 金鑰無效。若 WEP 金鑰長度是 10 或 26\n 則合法字元為 0~9、A~F 或 a~f</keyError2>
+	<keyError3>預先共享金鑰不得為空白</keyError3>
+	<keyError4>預先共享金鑰無效。須至少為 8 個字元長</keyError4>
+	<keyError5>預先共享金鑰無效。合法的 64 個字元為 0~9、A~F 或 a~f</keyError5>
+	<keyError6>預先共享金鑰無效。最多為 64 個字元長</keyError6>
+	<showpw>顯示隱藏的金鑰</showpw>
+	<antenna>天線</antenna>
+	<intAntenna>內部天線</intAntenna>
+	<extAntenna>外部天線</extAntenna>
+	<reboot3>如果您有乙太網鏈接,重新啟動過程中，請勿拔除乙太網路纜線。</reboot3>
+	<ssidname>===SSID List===</ssidname>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<enableWireless>請先啟用無線網路，再進行攝影機的無線網路設定。您可從「站台搜尋」下拉式選單中選擇要連哪一個無線網路，或自行輸入 SSID。</enableWireless>
+	<ssid>服務集標示(Service Set Identifier，SSID) 是無線網路的名稱，例如「預設」「會議」「我的網路」等等。</ssid>
+	<wirelessMode>連線模式有兩種。Infrastructure模式採用存取點為所有無線裝置進行傳輸。Ad-Hoc模式則不使用存取點，PC 會與攝影機直接連線。</wirelessMode>
+	<None>無</None>
+	<NoneDes>本選項可讓網路上所有裝置都找得到這台攝影機。不提供任何加密。</NoneDes>
+	<WEPPassword>WEP</WEPPassword>
+	<WEPPasswordDes>若攝影機與其他裝置之間具有相同的有線等效協定 (Wired Equivalent Privacy，WEP) 設定，才能彼此通訊。</WEPPasswordDes>
+	<WPAPersonal>WPA-PSK，WPA2-PSK</WPAPersonal>
+	<WPAPersonalDes>這兩種模式都要您先輸入預先共享金鑰，攝影機與無線裝置之間才能連線。</WPAPersonalDes>
+	<rescan>重新掃描你附近的網路名稱。</rescan>
+	<key>這是一組分享於攝影機與無線裝置之間的字元，當你設定 WEP 或 WPA-PSK 或著是 WPA2-PSK 時使用。</key>
+	<showpw>當你選擇這個選項，你的密碼會顯示出來。</showpw>
+	<antenna>選擇使用內部或外部的天線。</antenna>
+	<channel> - 若為Infrastructure模式，則預設為「自動」。只有採用Ad-Hoc模式才能選擇頻道。</channel>
+	<encryption1>TKIP - (Temporal Key Integrity Protocol，暫時性金鑰完整性協定) – 使用訊息完整碼 (Message Integrity Code，MIC) 避免駭客攻擊。理想上您應該搭配 TKIP 來使用 WPA。</encryption1>
+	<encryption2>AES - (Advanced Encryption System，進階加密標準) – 使用對稱式 128-Bit 區塊資料加密。理想上您應該搭配 AES 來使用 WPA2。</encryption2>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<fail>變更失敗。</fail>
+	<notChanged>沒有變更。</notChanged>
+	<saveOK>網路伺服器正在重啟，請稍待一分鐘，再以新的 IP 位址來重新連接攝影機。</saveOK>
+</message>
+

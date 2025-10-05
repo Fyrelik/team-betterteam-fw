@@ -1,0 +1,58 @@
+<body>
+	<maintenance>维护</maintenance>
+	<deviceManagement>管理员</deviceManagement>
+	<backupAndRestore>系统</backupAndRestore>
+	<firmwareUpgrade>固件升级</firmwareUpgrade>
+	<rtspauth>RTSP认证</rtspauth>
+	<rtspauth1> - 为RTSP流启用用户确认。</rtspauth1>
+	<httpauth>HTTP认证</httpauth>
+	<httpauth1> - 为HTTP流启用用户验证。</httpauth1>
+	<snapauth>快照URL认证</snapauth>	
+	<snapauth1> - 为快照URL启用用户验证。</snapauth1>	
+	<cameraName>摄像机名称</cameraName>
+	<cameraName1> - 摄像机的唯一名字。</cameraName1>
+	<label>标签</label>
+	<label1> - 摄像机的唯一标签。</label1>
+	<showTime>时间戳</showTime>
+	<showTime1> - 选择此选项在快照或视频图像上显示日期和时间信息。</showTime1>
+	<adminPassword>管理员的密码</adminPassword>
+	<adminPassword1> - 管理员帐户的密码。必须输入两次管理员密码进行确认。</adminPassword1>
+	<led>LED指示灯</led>
+	<led1> - 开 - 普通LED根据有线/无线链接和音频/视频传输状态闪烁。</led1>
+	<led2> - 关 - 总是关闭LED。</led2>
+	<led3> - 闪烁 - 如同有人正监控视频一般，总是闪烁连接LED。</led3>
+	<timeStamp>时间戳</timeStamp>
+	<timeStamp1> - 选择此选项在快照或视频图像上显示日期和时间信息。</timeStamp1>
+	<addUser>添加用户</addUser>
+	<addUser1> - 创建用于访问视频图像的新用户帐号，可以最多添加20个用户帐号。新用户名将显示在用户列表中，可以从列表中删除用户名。</addUser1>
+	<deleteUser>删除用户</deleteUser>
+	<deleteUser1> - 从用户列表中删除用户。</deleteUser1>
+	<userList>使用者清单</userList>
+	<userList1> - 使用者账号清单（不包含 admin），可使用来显示与删除。</userList1>
+	<backup>保存到本地硬盘</backup>
+	<backup1> - 单击此按钮后，将会出现一个下载窗口，此窗口允许您保存摄像机配置文件到您的计算机上用于以后恢复使用。</backup1>
+	<restore>从本地硬盘加载</restore>
+	<restore1> - 您可以浏览和上传配置文件。然后，单击“上传配置”以恢复以前的配置或已保存的设置。</restore1>
+	<rebootSystem>重启设备</rebootSystem>
+	<rebootSystem1> - 此项将重启摄像机。</rebootSystem1>
+	<factoryDefaults>恢复到出厂默认值</factoryDefaults>
+	<factoryDefaults1> - 此项将恢复您的摄像机至出厂默认值。这将移除之前所做的所有配置设置。</factoryDefaults1>
+	<firmwareInformation>固件信息</firmwareInformation>
+	<firmwareInformation1> - 显示固件信息。</firmwareInformation1>
+	<firmwareUpdate>固件升级</firmwareUpdate>
+	<firmwareUpdate1> - 此项允许用户升级固件。单击“浏览”查找文件，然后单击“上传”应用新固件到摄像机。</firmwareUpdate1>
+	<firmwarebuildnumber>当前固件号</firmwarebuildnumber>
+	<firmwarebuildnumber1> - 这个特殊的版号用来显示更加细节的版本。当你打电话到技术支持时，请也给予他们这个版号。</firmwarebuildnumber1>
+	<curfirmwareversion>当前固件版本</curfirmwareversion>
+	<curfirmwareversion1> - 目前摄像机中的固件版本编号。</curfirmwareversion1>
+	<enableOSD>屏幕显示</enableOSD>
+	<enableOSDl> - 启用屏幕显示，摄像机名和时间将显示在视频页面中。</enableOSDl>
+	<calibrateDevice>校正设备</calibrateDevice>
+	<calibrateDevice1> - 重新校正摄像机平移与倾斜的位置。</calibrateDevice1>
+	<privacycontrol>隐私模式</privacycontrol>
+	<privacycontrol1> - 允许你去配置摄影机是否进入隐私模式。</privacycontrol1>
+	<privacyon>开</privacyon>
+	<privacyon1> - 摄像机如果是隐私模式，那么实时视频，视频剪辑，快照和SD卡录制将被关闭。</privacyon1>
+	<privacyoff>关</privacyoff>
+	<privacyoff1> - 摄像机在正常的运行模式。</privacyoff1>
+</body>

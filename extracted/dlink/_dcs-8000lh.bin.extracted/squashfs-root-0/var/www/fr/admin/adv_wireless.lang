@@ -1,0 +1,65 @@
+<body>
+	<wirelessSettings>Configuration des paramètres sans fil</wirelessSettings>
+	<description1>Dans cette section, vous pouvez configurer les paramètres sans fil de la caméra.</description1>
+	<savebutton>Enregistrer les paramètres</savebutton>
+	<notsavebutton>Ne pas enregistrer les paramètres</notsavebutton>
+	<wirelessConfiguration>Configuration sans fil</wirelessConfiguration>
+	<enableWireless>Activer le réseau sans fil</enableWireless>
+	<ssid>Nom du réseau</ssid>
+	<bssid>BSSID</bssid>
+	<signal>Signal</signal>
+	<survey>Visite des lieux</survey>
+	<rescan>Balayer à nouveau</rescan>
+	<wirelessMode>Mode sans fil</wirelessMode>
+	<wireless>Réseau sans fil</wireless>
+	<infrastructure>Infrastructure</infrastructure>
+	<adhoc>Ad-hoc</adhoc>
+	<channel>Canal</channel>
+	<ssidErrorq>Aucun</ssidErrorq>
+	<auto>Auto</auto>
+	<authentication>Mode de sécurité</authentication>
+	<encryption>Type de chiffrement</encryption>
+	<key>Clé</key>
+	<reboot1>La caméra est actuellement en cours de redémarrage. Veuillez patienter </reboot1>
+	<reboot2> secondes.</reboot2>
+	<ssidError>Le nom du réseau ne peut pas être vide</ssidError>
+	<ssidError1>Le nom du réseau n'accepte pas les espaces</ssidError1>
+	<keyError1>La longueur de clé doit comporter 5, 10, 13 ou 26 caractères</keyError1>
+	<keyError2>La clé n'est pas valide. Si la longueur de clé comporte 10 ou 26 caractères, \nles caractères acceptés sont 0 à 9, A à F ou a à f.</keyError2>
+	<keyError3>La clé ne peut pas être vide</keyError3>
+	<keyError4>La clé n'est pas valide. La clé doit comporter au moins 8 caractères.</keyError4>
+	<keyError5>La clé n'est pas valide. Les 64 caractères doivent être choisis parmi 0 à 9, A à F ou a à f.</keyError5>
+	<keyError6>La clé n'est pas valide. La clé doit comporter un maximum de 64 caractères.</keyError6>
+	<showpw>Afficher la clé masquée</showpw>
+	<antenna>Antenne</antenna>
+	<intAntenna>Interne</intAntenna>
+	<extAntenna>Externe</extAntenna>
+	<reboot3>Ne pas débrancher un câble Ethernet de la caméra pendant le processus de redémarrage.</reboot3>
+	<ssidname>===Liste des SSID===</ssidname>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<enableWireless>Veuillez d'abord activer le mode sans fil avant de configurer la connexion sans fil de la caméra. Pour vous connecter, vous pouvez choisir le réseau sans fil dans la liste déroulante de « Visite des lieux » ou entrer le SSID manuellement.</enableWireless>
+	<ssid>Le Service Set Identifier (SSID) est le nom de votre réseau sans fil, par exemple Par défaut, Conférence, Mon réseau, etc.</ssid>
+	<wirelessMode>Il y a deux modes de connexion. Infrastructure est une connexion sans fil qui utilise un point d'accès comme point de transmission de tous les périphériques sans fil. Ad-Hoc est une connexion sans fil utilisée sans point d'accès, où la caméra est connectée directement à votre PC.</wirelessMode>
+	<None>Aucun</None>
+	<NoneDes>Cette option rend la caméra visible par tous les périphériques du réseau. Aucun chiffrement n'est prévu.</NoneDes>
+	<WEPPassword>WEP</WEPPassword>
+	<WEPPasswordDes>Permet la communication uniquement avec les autres périphériques dont les paramètres WEP (Wired Equivalent Privacy) sont identiques.</WEPPasswordDes>
+	<WPAPersonal>WPA-PSK, WPA2-PSK</WPAPersonal>
+	<WPAPersonalDes>Ces deux modes requièrent la saisie d'une « clé » pré-partagée pour établir une connexion entre la caméra et le périphérique sans fil.</WPAPersonalDes>
+	<rescan>Faites un balayage pour rechercher à nouveau le nom du périphérique sans fil dans votre réseau sans fil.</rescan>
+	<key>Un ensemble de caractères pré-partagés pour la connexion entre la caméra et le périphérique sans fil lorsque vous sélectionnez WEP, WPA-PSK ou WPA2-PSK pour Mode de sécurité.</key>
+	<showpw>Lorsque l'option est sélectionnée, la clé sera affichée dans le texte.</showpw>
+	<antenna>Sélectionnez cette option pour utiliser une antenne interne ou externe.</antenna>
+	<channel> - Par défaut, la valeur du mode Infrastructure est Auto. Le canal ne peut être sélectionné qu'en mode ad-hoc.</channel>
+	<encryption1>TKIP - (Temporal Key Integrity Protocol) - Ce protocole d'intégrité de clé temporaire fournit une protection contre les pirates au moyen d'un code d'intégrité de message ou code MIC (Message Integrity Code). Idéalement, ce protocole est combiné au mode WPA.</encryption1>
+	<encryption2>AES (Advanced Encryption System) - Ce système de chiffrement avancé chiffre les données par blocs de 128 bits de façon symétrique. Idéalement, ce système est combiné au mode WPA2.</encryption2>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<fail>Échec de l’application des modifications.</fail>
+	<notChanged>Pas de modifications.</notChanged>
+	<saveOK>Le serveur Web redémarre. Veuillez patientez une minute, puis reconnectez la caméra avec la nouvelle adresse IP.</saveOK>
+</message>
+

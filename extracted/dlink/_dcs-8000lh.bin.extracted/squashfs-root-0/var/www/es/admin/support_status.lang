@@ -1,0 +1,8 @@
+<body>
+	<status>ESTADO</status>
+	<deviceInfo>Información del dispositivo</deviceInfo>
+	<log>Registro</log>
+	<deviceInfo1>Esta página muestra toda la información acerca de los parámetros de la cámara y la red.</deviceInfo1>
+	<log1>Ver el archivo de registro del sistema. Este archivo muestra toda la información útil, como la notificación de detección de movimiento y los mensajes de arranque del sistema. Para exportar los registros de la cámara, haga clic en el botón "Descargar" para iniciar la descarga de un archivo de la cámara.</log1>
+</body>
+

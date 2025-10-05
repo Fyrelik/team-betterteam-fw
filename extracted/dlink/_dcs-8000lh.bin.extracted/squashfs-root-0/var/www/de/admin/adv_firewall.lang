@@ -1,0 +1,71 @@
+<body>
+	<ipfiltertitle>IP-FILTER</ipfiltertitle>
+	<description1>Um die IP-Filter Ihrer Kamera zu aktivieren, müssen Sie das Kontrollkästchen bei 'Zugriffslistenfilterung' aktivieren. Ändern Sie dann Ihre Detaileinstellungen über diese Seite.</description1>
+	<subtitle>IP-FILTER</subtitle>
+	<enableIpFilter>Zugriffslistenfilterung</enableIpFilter>
+	<filterType>Filtertyp:</filterType>
+	<filterAllow>Zulassen</filterAllow>
+	<filterDeny>Verweigern</filterDeny>
+	<accessList>Filterliste:</accessList>
+	<ipTypeSig>Einzel</ipTypeSig>
+	<ipTypeSub>Subnetz</ipTypeSub>
+	<ipTypeRan>Bereich</ipTypeRan>
+	<ipTypeSigDot>IP-Adresse:</ipTypeSigDot>
+	<ipTypeSubDot>Netzwerkadresse/Netzwerkmaske:</ipTypeSubDot>
+	<ipTypeRanDot>IP-Adresse - IP-Adresse:</ipTypeRanDot>
+	<addAFilter>Hinzufügen</addAFilter>
+	<adminIp>IP-Adresse des Administrators:</adminIp>
+	<ipadresserrorinfo>Die Einstellungen sind ungültig</ipadresserrorinfo>
+	<allowAdmin>Dieser IP-Adresse immer erlauben, auf das Gerät zuzugreifen</allowAdmin>
+	<delAFilter>Löschen</delAFilter>
+	<ipMessage1>IP-Adresse</ipMessage1>
+	<ipMessage2>Die eingegebene IP-Adresse ist ungültig.</ipMessage2>
+	<ipMessage3>Die IP-Adresse darf nicht Null sein.</ipMessage3>
+	<ipError1>IP-Adresse kann nicht leer sein.</ipError1>
+	<networkipseterror>Die Einstellungen sind ungültig.</networkipseterror>
+	<delNumError>Wählen Sie bitte einen Filter.</delNumError>
+	<delChooseError>Wählen Sie bitte jeweils einen Filter.</delChooseError>
+	<netMaskError>Netzmaske muss zwischen 1 und 32 sein.</netMaskError>
+	<allowEmptyListError>Bitte fügen Sie einen Filter hinzu oder aktivieren Sie die Admin-IP.</allowEmptyListError>
+	<ipv4filterListNumError>IPv4-Filterliste ist voll.</ipv4filterListNumError>
+	<ipv6filterListNumError>IPv6-Filterliste ist voll.</ipv6filterListNumError>
+	<allowNoneError>Bitte erlauben Sie mindestens einen Filter oder aktivieren Sie eine Admin-IP.</allowNoneError>
+	<decreasRangeError>Abnehmender Bereich der IP-Adressen ist ungültig.</decreasRangeError>
+	<sameIpError>Die Start- und End-IP-Adressen können nicht gleich sein.</sameIpError>
+	<filteraddress>Neuen Filter hinzufügen:</filteraddress>
+	<ipv4AccessList>IPv4-Filterliste:</ipv4AccessList>
+	<ipv6AccessList>IPv6-Filterliste:</ipv6AccessList>
+	<ipv6AddressError>Die eingegebene IP-Adresse ist ungültig.</ipv6AddressError>
+	<addAddressIsError>Die eingegebene Adresse ist ungültig.</addAddressIsError>
+	<ipv6PrefixError>Die IPv6-Präfixlänge muss im Bereich zwischen 0 und 128 sein.</ipv6PrefixError>
+	<StartIP>Start-IP-Adresse:</StartIP>
+	<EndIP>End-IP-Adresse:</EndIP>
+	<commonIPadresserror>Die IP-Adresse existiert bereits</commonIPadresserror>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<Ipfilter>Mit Zugriffslistenfilterung haben Sie die Möglichkeit, den Zugang zu dieser Kamera nur für bestimmte IP-Adressen zuzulassen oder zu verweigern.</Ipfilter>
+	<FilterType>Filtertyp</FilterType>
+	<FilterTypeText>Sie können für die in einer Filterliste angegebenen IP-Adressen 'Zulassen' oder 'Verweigern' auswählen.</FilterTypeText>
+	<AccessList>Filterliste</AccessList>
+	<AccessListText>Angegebene IP-Adressen.</AccessListText>
+	<Single>Einzel</Single>
+	<SingleText>Geben Sie eine einzelne IP-Adresse an.</SingleText>
+	<Subnet>Subnetz</Subnet>
+	<SubnetText>Geben Sie ein IP-Subnetz an.</SubnetText>
+	<Range>Bereich</Range>
+	<RangeText>Geben Sie einen Bereich der IP-Adressen an.</RangeText>
+	<adminAdress>IP-Adresse des Administrators</adminAdress>
+	<adminAdressText>Sie können eine IP-Adresse als IP-Adresse des Administrators einstellen, die immer Zugriff auf diese Kamera hat.</adminAdressText>
+</hint>
+<message>
+	<ok>Änderungen gespeichert.</ok>
+	<invalidParameter>Ungültiger Parameter.</invalidParameter>
+	<invalidFilterEnable>Ungültiger Filter aktiviert.</invalidFilterEnable>
+	<invalidFilterType>Ungültiger Filtertyp.</invalidFilterType>
+	<invalidAdminIPEnable>Ungültige Admin-IP aktiviert.</invalidAdminIPEnable>
+	<invalidAdminIP>Ungültige Admin-IP.</invalidAdminIP>
+	<invalidIP>Ungültige IP.</invalidIP>
+	<invalidNetmask>Ungültige Netzmaske.</invalidNetmask>
+	<nothingChange>Keine Einstellungen wurden geändert.</nothingChange>
+</message>

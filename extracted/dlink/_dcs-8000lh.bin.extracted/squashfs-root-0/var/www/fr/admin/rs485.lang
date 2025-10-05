@@ -1,0 +1,47 @@
+<body>
+	<rs485>RS-485</rs485>
+	<description1>Cette section vous permet de configurer les paramètres RS-485 de la caméra.</description1>
+	<enableRs485>Prise en charge du mode panoramique horizontal/vertical</enableRs485>
+	<rs485ID>ID</rs485ID>
+	<rs485BuadRate>Vitesse en bits/s</rs485BuadRate>
+	<rs485DataBits>Bits de données</rs485DataBits>
+	<rs485StopBit>Bit d'arrêt</rs485StopBit>
+	<rs485ParityBit>Bit de parité</rs485ParityBit>
+	<rs485Protocol>Protocole</rs485Protocol>
+	<Pelco-D>Pelco-D</Pelco-D>
+	<Pelco-P>Pelco-P</Pelco-P>
+	<Dyna>Dyna</Dyna>
+	<LiLin>LiLin</LiLin>
+	<savebutton>Enregistrer les paramètres</savebutton>
+	<notsavebutton>Ne pas enregistrer les paramètres</notsavebutton> 
+	<protocol>Protocole</protocol>
+	<protocoll> - Sélectionnez la norme PTZ pour connecter un scanner PTZ via l'interface série : RS485.</protocoll>
+	<id>ID</id>
+	<idl> - L'ID est utilisé pour identifier un périphérique RS-485.</idl>
+	<baudRate>Vitesse en bits/s</baudRate>
+	<baudRatel> - Sélectionnez la vitesse souhaitée pour le périphérique que vous avez connecté.</baudRatel>
+	<dataBits>Bits de données</dataBits>
+	<dataBitsl> - Sélectionnez les bits de données souhaités pour le périphérique que vous avez connecté.</dataBitsl>
+	<stopBit>Bit d'arrêt</stopBit>
+	<stopBitl> - Sélectionnez les bits d'arrêt souhaités pour le périphérique que vous avez connecté.</stopBitl>
+	<parityBit>Bit de parité</parityBit>
+	<parityBitl> - Sélectionnez le type de parité souhaité pour le périphérique que vous avez connecté.</parityBitl>
+	<idRangeError>Valeur du paramètre hors intervalle</idRangeError>
+	<idrangemessage0>(intervalle de 1 à 255)</idrangemessage0>
+	<idrangemessage1>(intervalle de 1 à 32)</idrangemessage1>
+	<idrangemessage2>(intervalle de 1 à 223)</idrangemessage2>
+	<idrangemessage3>(intervalle de 1 à 64)</idrangemessage3>
+</body> 
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<description2>Le bit d'arrêt peut être fixé sur 1 bit ou 2 bits.</description2>
+	<description3>Si vous activez le déplacement horizontal/vertical du support, un panneau de commande s'affiche dans la page Vidéo en direct et vous permet de contrôler le boiter externe de la caméra via l'interface série RS-845.</description3>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<fail>Échec de l’application des modifications.</fail>
+	<failure>Échec de la configuration</failure>
+	<full>Plus de position prédéfinie disponible</full>
+	<invalidParameters>Nom de position prédéfinie incorrect</invalidParameters>
+	<oob>La valeur du paramètre est hors de la plage autorisée</oob>
+</message>

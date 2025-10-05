@@ -1,0 +1,32 @@
+<body>
+	<helpMenu>帮助菜单</helpMenu>
+	<liveVideo>实时视频</liveVideo>
+	<camera>摄像机</camera>
+	<setup>设置</setup>
+	<wizard>设置向导</wizard>
+	<networkSetup>网络</networkSetup>
+	<dynamicDNS>动态DNS</dynamicDNS>
+	<wirelessSetup>无线设置</wirelessSetup>
+	<audioVideo>音频和视频</audioVideo>
+	<imageSetup>图像设置</imageSetup>
+	<motionDetection>移动侦测</motionDetection>
+	<audioDetection>音频侦测</audioDetection>
+	<presetPosition>摄像机控制</presetPosition>
+	<recording>录制</recording>
+	<videoclip>视频剪辑</videoclip>
+	<snapshot>快照</snapshot>
+	<ipFilter>IP 过滤器</ipFilter>
+	<https>HTTPS 设置</https>
+	<sdrecording>SD卡录制</sdrecording>
+	<SDCard>SD卡管理</SDCard>
+	<timeAndDate>时间和日期</timeAndDate>
+	<maintenance>维护</maintenance>
+	<deviceManagement>管理员</deviceManagement>
+	<backupAndRestore>系统</backupAndRestore>
+	<firmwareUpgrade>固件升级</firmwareUpgrade>
+	<status>状态</status>
+	<deviceInfo>设备信息</deviceInfo>
+	<log>日志</log>
+	<digitalOutput>数据输出</digitalOutput>
+	<RS-485>RS-485</RS-485>
+</body>

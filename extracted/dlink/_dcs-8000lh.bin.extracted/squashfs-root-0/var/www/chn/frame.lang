@@ -1,0 +1,20 @@
+<frame>
+	<productpage>产品： </productpage>
+	<version>固件版本：</version>
+	<home>实时视频</home>
+	<advanced>设置</advanced>
+	<tools>维护</tools>
+	<status>状态</status>
+	<support>帮助</support>
+	<title1>D-LINK公司|网络摄像机|</title1>
+	<title2>D-LINK公司|无线网络摄像机| </title2>
+	<copyright1>Copyright </copyright1>
+	<copyright2>2015, D-Link Corporation / D-Link Systems, Inc. All rights reserved.</copyright2>
+	<ok>保存设置</ok>
+	<cancel>不保存设置</cancel>
+	<test>测试中...</test>
+	<save>保存中...</save>
+	<loading>加载中...</loading>
+	<processing>处理中...</processing>
+	<chromeAlertInfo>The browser you are using may have difficulty receiving images and video. If you experience any issues viewing this page, we suggest using Internet Explorer, Mozilla Firefox, or Apple Safari.</chromeAlertInfo>
+</frame>

@@ -1,0 +1,23 @@
+<body>
+	<certpropertyTitle>PROPRIEDADES DE CERTIFICADO</certpropertyTitle>
+	<Certificate>Certificado</Certificate>
+	<Version>Versão</Version>
+	<SerialNumber>Número Serial</SerialNumber>
+	<SignatureAlgorithm>Algorítmo de Assinatura</SignatureAlgorithm>
+	<Issuer>Emissor</Issuer>
+	<Validity>Validade</Validity>
+	<NotValidBefore>Sem Validade Anterior</NotValidBefore>
+	<NotValidAfter>Sem Validade Posterior</NotValidAfter>
+	<Subject>Assunto</Subject>
+	<SubjectPKI>Assunto Public Key Info</SubjectPKI>
+	<PublicKA>Algorítmo de Chave Pública</PublicKA>
+	<RSAPK>Chave Pública RSA</RSAPK>
+	<Exponent>Exponente:</Exponent>
+	<Signature>Assinatura</Signature>
+	<Algorithm>Algorítmo</Algorithm>
+	<pemFormat>Certificado (formato PEM)</pemFormat>
+</body>
+<hint>
+</hint>
+<message>
+</message>

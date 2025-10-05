@@ -1,0 +1,54 @@
+<body>
+	<description1>IP 攝影機可能會有新的韌體升級版可用。建議您不斷更新 IP 攝影機的韌體成最新版，以獲得功能改善並維持網路攝影機的效能。請按此處 </description1>
+	<description2>D-Link 支援網站</description2>
+	<description3> 來檢查是否有最新版韌體。</description3>
+	<description4>若要升級 IP 攝影機的韌體，請從 D-Link 支援網站下載最新版的韌體，並儲存到電腦硬碟上。請按瀏覽按鈕找出硬碟上的韌體檔。用瀏覽按鈕找出檔案後，請按「上傳」按鈕開始韌體升級。</description4>
+	<firmwareUpgrade>韌體升級</firmwareUpgrade>
+	<filePath>檔案路徑:</filePath>
+	<upload>上傳</upload>
+	<reboot1>攝影機重新啟動中，請稍待 </reboot1>
+	<reboot2> 秒。</reboot2>
+	<firmwareInfo>韌體資訊</firmwareInfo>
+	<firmwareVersion>目前韌體版本:</firmwareVersion>
+	<firmwareProduct>目前韌體建置版號:</firmwareProduct>
+	<mcufirmware>目前MCU韌體建置版號:</mcufirmware>
+	<updateConfirm>您是否要更新韌體?</updateConfirm>
+	<updatingText>韌體升級過程中，請勿關閉本網頁或拔掉電源線。</updatingText>
+	<filepathError>檔案路徑不可為空白</filepathError>
+	<progress>上傳進度</progress>
+	<agentVersion>目前代理商版本:</agentVersion>
+	<cameraName>攝影機名稱</cameraName>
+	<timeAndDate>時間與日期</timeAndDate>
+	<macAddress>MAC 位址</macAddress>
+	<ipAddress>IPv4 位址</ipAddress>
+	<subnetMask>IPv4 子網路</subnetMask>
+	<defaultRouter>IPv4 預設閘道器</defaultRouter>
+	<primaryDns>IPv4 主要 DNS</primaryDns>
+	<secondaryDns>IPv4 次要 DNS</secondaryDns>
+	<ipv6Address>IPv6 位址/首碼長度</ipv6Address>
+	<networksearchdomain>搜索域</networksearchdomain>
+	<region>region</region>
+	<regionBand>regionBand</regionBand>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<description1>韌體更新會定期釋出，以改善 IP 攝影機的現有功能，並提供新功能。若 IP 攝影機的特定功能發生問題，請按此處檢查本公司支援網站: </description1>
+	<description2>請按此處</description2>
+	<description3> 看看是否有 IP 攝影機的韌體更新。</description3>
+</hint>
+<message>
+	<updateOK>韌體升級成功。</updateOK>
+	<uploadFail>上傳失敗</uploadFail>
+	<examFail>上傳檔案已損毀</examFail>
+	<infoFail>上傳檔案無資料</infoFail>
+	<invalidImage>本產品無法使用此上傳檔案</invalidImage>
+	<resetFail>重設失敗</resetFail>
+	<resetOK>重設完成</resetOK>
+	<rebootFail>重新啟動失敗</rebootFail>
+	<rebootOK>重新啟動完成</rebootOK>
+	<calibrationOK>校正成功</calibrationOK>
+	<importOK>匯入成功，將重新啟動</importOK>
+	<invalidDB>DB 檔案無效</invalidDB>
+	<noDB>沒有上傳 DB 檔</noDB>
+	<saveOK>網路伺服器正在重啟，請稍待75秒鐘，再以新的 IP 位址來重新連接攝影機。</saveOK>
+</message>

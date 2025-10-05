@@ -1,0 +1,51 @@
+<body>
+	<digitalOutput>Saída Digital</digitalOutput>
+	<description1>Aqui você pode habilitar sua por de saída digital assim como a maneira como os eventos serão iniciados. </description1>
+	<description2>A detecção de movimento é desativada quando a câmera está definida para o modo SXGA</description2>
+	<description3>Para habilitar a detecção de movimento, selecione o modo VGA ou XGA em </description3>
+	<description4> Audio e Vídeo.</description4>
+	<savebutton>Salvar Configurações</savebutton>
+	<notsavebutton>Não Salvar Configurações</notsavebutton>
+	<trigger>Iniciar</trigger>
+	<enable> Sinal D/O</enable>
+	<triggerEvent>Trigger by</triggerEvent>
+	<motionDetection>Movimento</motionDetection>
+	<audioDetection>Som</audioDetection>
+	<di1>Sinal D/I 1</di1>
+	<di2>Sinal D/I 2</di2>
+	<manual>Manual</manual>
+	<di>Entrada Digital</di>
+	<hour>Horas</hour>
+	<min>Minutos</min>
+	<sun>Dom </sun>
+	<mon>Seg </mon>
+	<tue>Ter </tue>
+	<wed>Quar </wed>
+	<thu>Quin </thu>
+	<fri>Sex </fri>
+	<sat>Sab </sat>
+	<from>Início </from>
+	<to>Fim </to>
+	<day>Dia</day>
+	<time>Tempo</time>
+	<mfhourError>Horário inícial não é válido</mfhourError>
+	<mthourError>Horário final não é válido</mthourError>
+	<mfminuteError>Minuto inicial não é válido</mfminuteError>
+	<mtminuteError>Minuto final não é válido</mtminuteError>
+	<onlyDuring>Apenas durante</onlyDuring>
+	<dayErr>Por favor escolha ao menos um dia</dayErr>
+	<motionNote>Por favor, note que a detecção de movimento não está habilitada, siga para a página de Detecção de Movimento para configurá-la</motionNote>
+	<audioNote>Por favor, note que a detecção de som não está habilitada, siga para a página de detecção de som para configurá-la.</audioNote>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<description1>Você pode escolher um evento iniciado por detecção de movimento ou da porta de Entrada Digital. Quando um evento é iniciado, a Saida Digital começará a enviar um sinal.</description1>
+	<manualBased>Permite que o usuário inicie a Saída Digital em visualização em tempo real</manualBased>
+	<motionBased>Quando um movimento é detectado, a câmera IP disparará dispositivos de alarme conectados no sistema.</motionBased>
+	<audioBased>Quando um som é detectado, a câmera IP disparará dispositivos de alarme conectados no sistema.</audioBased>
+	<gpio>Quando um dispositivo da entrada digital é disparado, a câmera IP disparará dispositivos de alarme conectados no sistema.</gpio>
+</hint>
+<message>
+	<ok>Alterações Salvas.</ok>
+	<fail>Alterações falharam.</fail>
+</message>

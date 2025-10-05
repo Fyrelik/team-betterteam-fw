@@ -1,0 +1,58 @@
+<body>
+	<maintenance>維護</maintenance>
+	<deviceManagement>管理員</deviceManagement>
+	<backupAndRestore>系統</backupAndRestore>
+	<firmwareUpgrade>韌體升級</firmwareUpgrade>
+	<rtspauth>RTSP 驗證</rtspauth>
+	<rtspauth1> - 啟用 RTSP 串流的使用者驗證。</rtspauth1>
+	<httpauth>HTTP 驗證</httpauth>
+	<httpauth1> - 啟用 HTTP 串流的使用者驗證。</httpauth1>
+	<snapauth>快照 URL 驗證</snapauth>	
+	<snapauth1> - 啟用快照 URL 的使用者驗證。</snapauth1>	
+	<cameraName>攝影機名稱</cameraName>
+	<cameraName1> - 攝影機的專屬名稱。</cameraName1>
+	<label>標籤</label>
+	<label1> - 攝影機的專屬標籤。</label1>
+	<showTime>時間戳記</showTime>
+	<showTime1> - 選擇此選項，可在快照或影片上顯示時間與日期。</showTime1>
+	<adminPassword>管理員密碼</adminPassword>
+	<adminPassword1> - 管理員帳號的密碼管理員密碼須輸入兩次做確認。</adminPassword1>
+	<led>LED 燈</led>
+	<led1>開啟 – 正常 LED 閃爍依有線/無線鏈接和音訊/視訊傳輸狀態狀態而定。</led1>
+	<led2>關閉 – 關閉 LED 燈。</led2>
+	<led3>閃爍 – 如同有人正監控視頻一般,持續閃爍連線 LED 燈。</led3>
+	<timeStamp>時間戳記</timeStamp>
+	<timeStamp1> - 選擇此選項，可在快照或影片上顯示時間與日期。</timeStamp1>
+	<addUser>新增使用者</addUser>
+	<addUser1> - 新增可以存取視訊影像的使用者，最多可新增 20 名使用者。新增的使用者會出現在使用者清單中，未來可以刪除。</addUser1>
+	<deleteUser>刪除使用者</deleteUser>
+	<deleteUser1> - 從使用者清單中刪除使用者。</deleteUser1>
+	<userList>使用者清單</userList>
+	<userList1> - 使用者帳號清單（不包含 admin），可使用來顯示與刪除。</userList1>
+	<backup>儲存到本機硬碟</backup>
+	<backup1> – 按下此按鈕後，會出現下載視窗，讓您把攝影機設定檔儲存在電腦上，供未來回復使用。</backup1>
+	<restore>從本機硬碟載入</restore>
+	<restore1> - 您可瀏覽並載入設定檔。然後按「載入設定」來回復到先前設定或儲存的設定檔。</restore1>
+	<rebootSystem>重新啟動裝置</rebootSystem>
+	<rebootSystem1> - 本選項會重新啟動攝影機。</rebootSystem1>
+	<factoryDefaults>回復到原廠預設值</factoryDefaults>
+	<factoryDefaults1> - 此項目可將攝影機設定回復成原廠預設值。所有先前的設定都會消失。</factoryDefaults1>
+	<firmwareInformation>韌體資訊</firmwareInformation>
+	<firmwareInformation1> - 顯示韌體資訊。</firmwareInformation1>
+	<firmwareUpdate>韌體升級</firmwareUpdate>
+	<firmwareUpdate1> - 此項目可讓使用者更新韌體。按「瀏覽」找到韌體檔，再按「上傳」把新韌體安裝至攝影機。</firmwareUpdate1>
+	<firmwarebuildnumber>目前韌體建置版號</firmwarebuildnumber>
+	<firmwarebuildnumber1> - 這個特殊的版號用來顯示更加細節的版本。當你打電話到技術支援時，請也給予他們這個版號。</firmwarebuildnumber1>
+	<curfirmwareversion>目前韌體版本</curfirmwareversion>
+	<curfirmwareversion1> - 目前攝影機所使用的韌體版本。</curfirmwareversion1>
+	<enableOSD>OSD</enableOSD>
+	<enableOSDl> - 啟用 OSD 後，攝影機名稱與時間就會顯示在畫面上。</enableOSDl>
+	<calibrateDevice>校正裝置</calibrateDevice>
+	<calibrateDevice1> - 重新校正攝影機平移與傾斜的位置。</calibrateDevice1>
+	<privacycontrol>隱私模式</privacycontrol>
+	<privacycontrol1> - 允許你設定攝影機是否進入隱私模式。</privacycontrol1>
+	<privacyon>開啟</privacyon>
+	<privacyon1> - 攝影機如果是隱私模式，那麽即時影像，視訊短片，快照和 SD 錄影將被關閉。</privacyon1>
+	<privacyoff>關閉</privacyoff>
+	<privacyoff1> - 攝影機在一個正常的運行模式。</privacyoff1>
+</body>

@@ -1,0 +1,167 @@
+<body>
+	<pageTitle>SD卡录制</pageTitle>
+	<pageEnable>SD卡录制</pageEnable>
+	<description1>在这里可以对摄像机的SD卡录制界面进行设定。选择“SD卡录制”选项来启动此功能。</description1>
+	<description2>当摄像机设定为SXGA模式时，移动侦测的录制功能会被停用。</description2>
+	<description3>如果要启动移动侦测录制功能的话，请选择VGA或XGA格式。</description3>
+	<description4>音频和视频</description4>
+	<savebutton>保存设定</savebutton>
+	<notsavebutton>放弃保存</notsavebutton>
+	<recording>SD卡录制</recording>
+	<enableRecording>启动录制</enableRecording>
+	<resolution>视频解析度</resolution>
+	<small>视频配置 3</small>
+	<medium>视频配置 2</medium>
+	<large>视频配置 1</large>
+	<titan>视频配置 4</titan>
+	<continousRecording>继续录制(仅支持存储到网络硬盘)</continousRecording>
+	<scheduledRecording>按排程录制(仅支持存储到网络硬盘)</scheduledRecording>
+	<continousRecordingOnlySamba>继续录制</continousRecordingOnlySamba>
+	<scheduledRecordingOnlySamba>按排程录制</scheduledRecordingOnlySamba>
+	<hour>小时</hour>
+	<min>分钟</min>
+	<sun>星期日 </sun>
+	<mon>星期一 </mon>
+	<tue>星期二 </tue>
+	<wed>星期三 </wed>
+	<thu>星期四 </thu>
+	<fri>星期五 </fri>
+	<sat>星期六 </sat>
+	<from>开始 </from>
+	<profile2>视频配置 2</profile2>
+	<profile3>视频配置 3</profile3>
+	<to>结束 </to>
+	<motionDetection>移动侦测触发录制</motionDetection>
+	<digitalInput>数据输入触发录制 1</digitalInput>
+	<digitalInput2>数据输入触发录制 2</digitalInput2>
+	<prerecord>预先录制</prerecord>
+	<postrecord>延后录制</postrecord>
+	<range> (范围0~15秒)</range>
+	<second> 秒</second>
+	<recordTo>录制到 </recordTo>
+	<sambaNetworkDrive>网络硬盘存储装置</sambaNetworkDrive>
+	<sambaAuth>网络硬盘权限 </sambaAuth>
+	<anonymous>匿名</anonymous>
+	<account>账号</account>
+	<username>用户名 </username>
+	<password>密码 </password>
+	<passwordConfim>确认密码 </passwordConfim>
+	<serverIp>服务器 </serverIp>
+	<sharedFolder>共享目录 </sharedFolder>
+	<test>测试</test>
+	<sambaStatus>网络硬盘状态: </sambaStatus>
+	<getStatus>获取状态</getStatus>
+	<sdCard>SD卡</sdCard>
+	<sdCardStatus>SD卡状态: </sdCardStatus>
+	<recordingOptions>录制选项</recordingOptions>
+	<recordUntil>录像直到 </recordUntil>
+	<spaceRange>MB 为剩余存储空间(最小为32MB)</spaceRange>
+	<storageFull>当存储空间不足时:</storageFull>
+	<stopRecording>停止录制</stopRecording>
+	<overwriteRecordings>覆盖旧的录像</overwriteRecordings>
+	<scheduling>计划</scheduling>
+	<eventBased>以事件为基础</eventBased>
+	<methodError>请选择一种录制设置</methodError>
+	<scheduleError>请设定排程时间</scheduleError>
+	<triggerError>请选择SD卡</triggerError>
+	<hourError>小时数无效</hourError>
+	<minuteError>分钟数无效</minuteError>
+	<fullHourError>如果结束的小时为24，那结束分钟只能为0</fullHourError>
+	<legalTimeError>开始时间必须小于结束时间</legalTimeError>
+	<recordSecError>请输入一个介于0到15之间的数字</recordSecError>
+	<usernameError>Samba 用户名不能为空</usernameError>
+	<passwordError>Samba 账户密码不能为空</passwordError>
+	<confimError>Samba 账户密码和确认密码不同</confimError>
+	<spaceError>保留空闲空间无效，保留空闲空间最小为32M。</spaceError>
+	<serverError>服务器不能为空，只能接受数字、字母、\".\" , \"-\"和\"_\"字符。</serverError>
+	<shareFolderError>共享目录不能为空，只能接受数字、字母、 \"-\"和 \"_\" 字符。</shareFolderError>
+	<trigger>触发条件</trigger>
+	<ignoreMot>忽略以下动作</ignoreMot>
+	<range2> (范围0到86400秒)</range2>
+	<onlyDuring>仅在</onlyDuring>
+	<day>日</day>
+	<time>时间</time>
+	<type>录制类型</type>
+	<source>来源</source>
+	<description6>可在此配置</description6>
+	<description7>音频和视频</description7>
+	<preRec>预先录制 :</preRec>
+	<preRecNotify>(范围0~5秒)</preRecNotify>
+	<postRec>延后录制 :</postRec>
+	<postRecNotify>(范围0~60秒)</postRecNotify>
+	<target>目标</target>
+	<interval>间隔</interval>
+	<quota>保留空闲空间</quota>
+	<global>全局参数</global>
+	<minimum>最小为200</minimum>
+	<sd>SD卡</sd>
+	<sdcycle>循环录制</sdcycle>
+	<schedulingg>计划</schedulingg>
+	<motionBased>动作</motionBased>
+	<audioBased>声音</audioBased>
+	<alwaysBased>始终启用</alwaysBased>
+	<motionNote>请注意，移动侦测没有启用，请到移动侦测页面进行配置。</motionNote>
+	<audioNote>请注意，音频侦测没有启用，请到音频侦测页面进行配置。</audioNote>
+	<sdNote>请注意，摄像机中没有插入SD卡或SD卡不可写入。</sdNote>
+	<sdNoteFull>请注意，SD卡存储已满。</sdNoteFull>
+	<sdManagement1>要格式化摄像机中的SD卡，请先禁用SD卡录制，然后到</sdManagement1>
+	<sdManagement2>SD卡管理</sdManagement2>
+	<sdManagement3>页面。</sdManagement3>
+	<sdcardrecording>SD卡录制</sdcardrecording>
+	<preErr>预先录制秒数必须为整数且在0-5之间。</preErr>
+	<postErr>延后录制秒数必须为整数且在0-60之间。</postErr>
+	<ignoreMotionTimeError>忽略以下动作的秒数必须为整数</ignoreMotionTimeError>
+	<ignoreMotionTimeError2>忽略以下动作的秒数必须为0~86400秒</ignoreMotionTimeError2>
+	<mfhourError>起始小时无效。</mfhourError>
+	<mthourError>结束小时无效。</mthourError>
+	<mfminuteError>起始分钟无效。</mfminuteError>
+	<mtminuteError>结束分钟无效。</mtminuteError>
+	<dayErr>请至少选择一天</dayErr>
+	<triggerError>请选择一个目标</triggerError>
+	<sdQuotaError>SD卡保留空闲空间必须为整数，且在200~32768之间。</sdQuotaError>
+	<checkboxSnapshot>快照</checkboxSnapshot>
+	<checkboxVideo>视频</checkboxVideo>
+	<recordingTypeErr>请选择一个录制类型</recordingTypeErr>
+	<sdkeepSpace>保留空闲空间</sdkeepSpace>
+	<sdkeepSpacel>为了避免系统的不稳定性，给本机的SD卡设置一个保留空闲空间值。</sdkeepSpacel>
+	<recordingLength>录制长度</recordingLength>
+	<recordingLengthl> 设定录制档案长度。</recordingLengthl>
+	<sdcyclic>循环录制</sdcyclic>
+	<sdcyclic1>如果选择这个选项，那储存空间已满时，会删除最旧的文件夹，来存放新的档案。</sdcyclic1>
+	<profiletype1>视频配置 1</profiletype1>
+	<profiletype2>视频配置 2</profiletype2>
+	<profiletype3>视频配置 3</profiletype3>
+	<FileLenMinUntil>录制长度: </FileLenMinUntil>
+	<FileLenMin>分钟的视频短片</FileLenMin>
+	<gpio>数据輸入</gpio>
+	<performance>摄像机内的 SD Card 速度不够录影的需求。建议重新格式化 SD Card 或者是使用更快的 SD Card。</performance>
+	<vediofileformat>文件格式 :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<description1>SD卡录制根据移动侦测或者排程时间，录制视频或快照存放到本地的SD卡中</description1>
+	<description2>要启动录制功能，请勾选启动录制的选项。然后再选择要将录制的视频保存到摄像机外接地SD卡中还是网络硬盘中。继续再选择摄像机录制时的排程方式。</description2>
+	<description3>您可以依据选择的事件，录制视频到SD卡中或者网络硬盘中。您可能也需要配置'录制选项'以及当摄像机要录制视频时选择一个时间排程。</description3>
+	<descriptionNoSdcard>启动录制功能将会依据您选择的事件，允许您的摄像机录制实时视频到网络硬盘。要启动录制功能，请勾选启动录制的选项。然后再选择要将录制的视频保存到摄像机外接地SD卡中还是网络硬盘中。继续再选择摄像机录制时的排程方式。</descriptionNoSdcard>
+	<motionBased>动作触发之后SD卡开始录制。</motionBased>
+	<audioBased>声音触发之后SD卡开始录制。</audioBased>
+	<scheduling>在一个时间限定内进行SD卡录制</scheduling>
+	<alwaysBased>SD卡持续录制</alwaysBased>
+	<type>您可以设定SD卡录制的视频配置，当触发条件为动作时，可以设置预先录制和延后录制。您也可以选择把录制类型设为快照或视频。</type>
+	<sd>您可以设置SD卡要保留多少剩余空间以及是否要循环录制。</sd>
+	<gpio>侦测到数据输入后开始录制视频影片。</gpio>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<fail>更改失败。</fail>
+	<testing>测试中</testing>
+	<disable>已禁用</disable>
+	<normal>标准</normal>
+	<initing>初始化</initing>
+	<mntFailure>挂载失败</mntFailure>
+	<failure>失败</failure>
+	<invalidParameter>设置失败</invalidParameter>
+	<updateFailed>更新设置失败</updateFailed>
+</message>

@@ -1,0 +1,20 @@
+<frame>
+	<productpage>Product: </productpage>
+	<version>Firmware Version: </version>
+	<home>LIVE VIDEO</home>
+	<advanced>SETUP</advanced>
+	<tools>MAINTENANCE</tools>
+	<status>STATUS</status>
+	<support>HELP</support>
+	<title1>D-LINK CORPORATION | INTERNET CAMERA | </title1>
+	<title2>D-LINK CORPORATION | WIRELESS INTERNET CAMERA | </title2>
+	<copyright1>Copyright </copyright1>
+	<copyright2>2015, D-Link Corporation / D-Link Systems, Inc. All rights reserved.</copyright2>
+	<ok>Save Settings</ok>
+	<cancel>Don't Save Settings</cancel>
+	<test>Testing...</test>
+	<save>Saving...</save>
+	<loading>loading...</loading>
+	<processing>Processing...</processing>
+	<chromeAlertInfo>The browser you are using may have difficulty receiving images and video. If you experience any issues viewing this page, we suggest using Internet Explorer, Mozilla Firefox, or Apple Safari.</chromeAlertInfo>
+</frame>

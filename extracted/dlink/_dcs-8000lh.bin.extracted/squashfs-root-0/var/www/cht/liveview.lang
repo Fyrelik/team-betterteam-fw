@@ -1,0 +1,31 @@
+<body>
+	<camera>攝影機</camera>
+	<description1>本區顯示攝影機的即時影像。 請用下列按鈕來控制設定。 </description1>
+	<description2>目前解析度是</description2>
+	<liveVideo>即時影像</liveVideo>
+	<snapshot>快照</snapshot>
+	<setPath>設定儲存資料夾</setPath>
+	<recording>錄影</recording>
+	<stopRecording>停止錄影</stopRecording>
+	<startSteamOut>對講</startSteamOut>
+	<stopSteamOut>停止對講</stopSteamOut>
+	<listenOn>監聽</listenOn>
+	<listenOff>停止監聽</listenOff>
+	<startGPOutput>開始數位輸出</startGPOutput>
+	<stopGPOutput>停止數位輸出</stopGPOutput>
+	<ledOn>開啟 Led 燈</ledOn>
+	<ledOff>關閉 Led 燈</ledff>
+	<fullScreen>全螢幕</fullScreen>
+	<diIndicator>數位輸入指示燈</diIndicator>
+	<moIndicator>移動觸發指示燈</moIndicator>
+	<reIndicator>錄影指示燈</reIndicator>
+	<talkNotify1>建立音訊串流輸出失敗，建立 Socket 失敗</talkNotify1>
+	<talkNotify2>伺服器連接失敗</talkNotify2>
+	<talkNotify3>音訊線路被佔用，請稍後再試。</talkNotify3>
+	<irOn>開啟 IR LED 燈</irOn>
+	<irOff>關閉 IR LED 燈</irOff>
+	<zoomInOut>縮放</zoomInOut>
+	<privacyMode1>攝影機目前處於隱私模式。</privacyMode1>
+	<privacyMode2>如果想結束隱私模式，請前往</privacyMode2>
+	<privacyMode3>管理員</privacyMode3>
+</body>

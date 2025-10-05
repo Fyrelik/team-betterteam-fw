@@ -1,0 +1,99 @@
+<body>
+	<cameraControl>Patrollierposition</cameraControl>
+	<cameraControl1>Patrollierposition</cameraControl1>
+	<description1>Die Patrollierposition ermöglicht es Ihnen, das Objektiv in bestimmten regelmäßigen Zeitabständen auf vorprogrammierte Positionen zu bewegen.</description1>
+	<up>Nach oben</up>
+	<down>Nach unten</down>
+	<panSpeed>Schwenkgeschwindigkeit:</panSpeed>
+	<tiltSpeed>Neigegeschwindigkeit:</tiltSpeed>
+	<currentPosition>Aktuelle Position:</currentPosition>
+	<presetPosition>Voreingestellte Position:</presetPosition>
+	<none>-- Eine auswählen --</none>
+	<patrol1>Wählen Sie einen Punkt aus. Falls keine voreingestellten Positionen vorliegen, fügen Sie bitte eine hinzu.</patrol1>
+	<add>Hinzufügen</add>
+	<delete>Löschen</delete>
+	<save>Einstellungen speichern</save>
+	<notsavebutton>Einstellungen nicht speichern</notsavebutton>
+	<theSamePresetName>Voreinstellungsname existiert bereits. Möchten Sie die alte voreingestellte Position ersetzen?</theSamePresetName>
+	<setAsHome>Als Ausgangsposition einrichten</setAsHome>
+	<defaultHome>Standardausgangsposition</defaultHome>
+	<patrolSpeed>Schwenk-/Patrolliergeschwindigkeit:</patrolSpeed>
+	<patrolInterval>Patrollierintervall (Min):</patrolInterval>
+	<patrolLocations> Patrollierpositionen</patrolLocations>
+	<patrolInterval1>60</patrolInterval1>
+	<schedulepatrol>Patrollierzeitplan</schedulepatrol>
+	<hour0>0</hour0>
+	<hour1>1</hour1>
+	<hour2>2</hour2>
+	<hour3>3</hour3>
+	<hour4>4</hour4>
+	<hour5>5</hour5>
+	<hour6>6</hour6>
+	<hour7>7</hour7>
+	<hour8>8</hour8>
+	<hour9>9</hour9>
+	<hour10>10</hour10>
+	<hour11>11</hour11>
+	<hour12>12</hour12>
+	<hour13>13</hour13>
+	<hour14>14</hour14>
+	<hour15>15</hour15>
+	<hour16>16</hour16>
+	<hour17>17</hour17>
+	<hour18>18</hour18>
+	<hour19>19</hour19>
+	<hour20>20</hour20>
+	<hour21>21</hour21>
+	<hour22>22</hour22>
+	<hour23>23</hour23>
+	<sun>So </sun>
+	<mon>Mo </mon>
+	<tue>Di </tue>
+	<wed>Mi </wed>
+	<thu>Do </thu>
+	<fri>Fr </fri>
+	<sat>Sa </sat>
+	<dwellingTime>Verweildauer (Sek):</dwellingTime>
+	<presetLocations>Vorprogrammierte Positionen</presetLocations>
+	<selectedLocations>Ausgewählte Positionen</selectedLocations>
+	<select>Auswählen</select>
+	<remove>Entfernen</remove>
+	<patrolSelection>Patrollierauswahl:</patrolSelection>
+	<presetNameError>Voreinstellungsname muss angegeben werden</presetNameError>
+	<waitTimeError1>Verweildauer muss angegeben werden</waitTimeError1>
+	<waitTimeError2>Verweildauer muss eine Zahl sein</waitTimeError2>
+	<waitTimeError3>Verweildauer muss zwischen 1 und 60 sein</waitTimeError3>
+	<scheduleError>Geben Sie die geplante Zeit an</scheduleError>
+	<scheduleErrorSun>Eingeplante Zeit prüfen - So</scheduleErrorSun>
+	<scheduleErrorMon>Eingeplante Zeit prüfen - Mo</scheduleErrorMon>
+	<scheduleErrorTue>Eingeplante Zeit prüfen - Di</scheduleErrorTue>
+	<scheduleErrorWed>Eingeplante Zeit prüfen - Mi</scheduleErrorWed>
+	<scheduleErrorThu>Eingeplante Zeit prüfen - Do</scheduleErrorThu>
+	<scheduleErrorFri>Eingeplante Zeit prüfen - Fr</scheduleErrorFri>
+	<scheduleErrorSat>Eingeplante Zeit prüfen - Sa</scheduleErrorSat>
+	<noPretrolPointWarn>Patrollierpositionen hinzufügen</noPretrolPointWarn>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<presethints>Vorprogrammierte Positionen - </presethints>
+	<description2>Die Tabelle zeigt die vorprogrammierten Voreinstellungspositionen. </description2>
+	<patrolhints>Patrollierpositionen - </patrolhints>
+	<description1> Wählt die angegebenen Voreinstellungspositionen in einer Bewegungsabfolge aus. </description1>
+	<speedhints>Schwenk-/Patrolliergeschwindigkeit - </speedhints>
+	<description3> Wählen Sie die Geschwindigkeit der Schwenk-/Patrollierbewegung zwischen 1 und 3. </description3>
+	<dwellinghints>Verweildauer - </dwellinghints>
+	<description4> Legt die Verweildauer an der Position fest. </description4>
+	<patrolschedulehints>Patrollierzeitplan - </patrolschedulehints>
+	<description5> Mithilfe des "Patrollierzeitplans" kann die PTZ-Kamera den Positionslauf im Rahmen eines auf eine Stunde festgelegten Zeitplans durchführen. </description5>
+	
+</hint>
+<message>
+	<nopresetpoint>Kein voreingestellter Punkt</nopresetpoint>
+	<ok>Änderungen gespeichert.</ok>
+	<failure>Einstellungsfehler</failure>
+	<full>Voreingestellte Positionen bereits vergeben</full>
+	<selectFull>Ausgewählte Positionsliste bereits voll</selectFull>
+	<duplicate>Doppelt</duplicate>
+	<invalidParameters>Voreinstellungsname ungültig</invalidParameters>
+	<oob>Einstellungswert ist außerhalb des Bereichs</oob>
+</message>

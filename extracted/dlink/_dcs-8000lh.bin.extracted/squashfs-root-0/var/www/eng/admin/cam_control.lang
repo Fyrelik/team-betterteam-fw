@@ -1,0 +1,89 @@
+<body>
+	<cameraControl>Camera Control</cameraControl>
+	<presetPosition>Preset Position</presetPosition>
+	<patrolSelect>Patrol Selection</patrolSelect>
+	<description1>Here you can add or delete the preset positions, select the positions for 'Patrol' as well as change the default position of your 'Home' button.</description1>
+	<moveUp>Up</moveUp>
+	<moveDown>Down</moveDown>
+	<panSpeed>Pan Step :</panSpeed>
+	<tiltSpeed>Tilt Step :</tiltSpeed>
+	<currentPosition>Preset Name :</currentPosition>
+	<presetPositions>Preset Position :</presetPositions>
+	<none>-- Select One --</none>
+	<add>Add</add>
+	<delete>Delete</delete>
+	<save>Save</save>
+	<theSamePresetName>Preset Name already exist, do you want to replace old preset position?</theSamePresetName>
+	<setAsHome>Set As Home</setAsHome>
+	<defaultHome>Default Home</defaultHome>
+	<patrolSpeed>Pan/Patrol Step :</patrolSpeed>
+	<dwellingTime>Dwelling Time :</dwellingTime>
+	<sec> seconds</sec>
+	<presetLocations>Preset Positions</presetLocations>
+	<selectedLocations>Patrol Positions</selectedLocations>
+	<select>Select</select>
+	<remove>Remove</remove>
+	<patrolSelection>Patrol Selection :</patrolSelection>
+	<homeDefinition>Home Definition :</homeDefinition>
+	<presetNameError>Preset Name can't accept blank name</presetNameError>
+	<presetNameError111>Preset Name can't be empty, only accept number, alphabet , \"-\", and \"_\" characters</presetNameError111>
+	<presetNameError112> \' \" characters</presetNameError112>
+	<waitTimeError1>Dwelling Time can't be empty</waitTimeError1>
+	<waitTimeError2>Dwelling Time must be a number</waitTimeError2>
+	<waitTimeError3>Dwelling Time must be between 0 and 60</waitTimeError3>
+	<left_up>Left Up</left_up>
+	<up>Up</up>
+	<right_up>Right Up</right_up>
+	<left>Left</left>
+	<left_down>Left Down</left_down>
+	<right_down>Right Down</right_down>
+	<right>Right</right>
+	<down>Down</down>
+	<Zoom_in>Zoom In</Zoom_in>
+	<Zoom_out>Zoom Out</Zoom_out>
+	<home>Home</home>
+	<privacy>This camera is currently in Privacy mode.</privacy>
+	<noSelectError>Please select a Patrol Position</noSelectError>
+	<presetErr>Please select a Preset Position </presetErr>
+	<patrolFull>Patrol Positions can't exceed 20 positions</patrolFull>
+	<javajreinfo8>Click here to download NCSPlugin and install. And then re-open your browser is recommended!!</javajreinfo8>
+	<profile>Profile : </profile>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<homeDefinition>Home Definition </homeDefinition>
+	<description1>Allow you to set a new 'Home' position or default back to the original position.</description1>
+	<patrolSelection>Patrol Selection </patrolSelection>
+	<description2>Allow you to add the 'Preset Positions' into the 'Patrol Positions'. This will determine where the IP camera will travel to and stop at when you select 'Patrol' on the 'Live Video' page.</description2>
+	<patrolhints>Patrol Positions </patrolhints>
+	<description3> This selects the specified Preset Positions to be moved in sequence. </description3>
+	<patrolschedulehints>Patrol Schedule </patrolschedulehints>
+	<description4> "Patrol Schedule" allows the PTZ camera to perform the position tour by an hourly schedule. </description4>
+	<dwellinghints>Dwelling Time </dwellinghints>
+	<description5> The waiting time for IP camera to stay at each preset position while patrolling. </description5>
+	<controlhints>Pan Tilt Control</controlhints>
+	<controlhints1>You can control the camera lens position by clicking the Up/Down/Left/Right/Left-up/Left-down/Right-up/Right-down arrow buttons. Clicking the Home button will move the lens to the original home position.</controlhints1>
+	<uphints>Up</uphints>
+	<uphints1>Move a selected Patrol Position up.</uphints1>
+	<downhints>Down</downhints>
+	<downhints1>Move a selected Patrol Position down.</downhints1>
+	<removehints>Remove</removehints>
+	<removehints1>Remove a selected Patrol Position.</removehints1>
+	<helppanSpeed>Pan Step</helppanSpeed>
+	<helppanSpeed1>This is used to control the step at which the camera is moved using the Pan feature.</helppanSpeed1>
+	<helptiltSpeed>Tilt Step</helptiltSpeed>
+	<helptiltSpeed1>This is used to control the step at which the camera is moved using the Tilt feature.</helptiltSpeed1>
+	<helpcurrentPosition>Preset Name</helpcurrentPosition>
+	<helpcurrentPosition1>Move the camera to a desired position and insert a name or a number into the Preset Name box, and then clicking Add will add current position into Preset Position box.</helpcurrentPosition1>
+	<helppresetPosition>Preset Position</helppresetPosition>
+	<helppresetPosition1>Preset Position lists all positions that you have preset and you can delete it.</helppresetPosition1>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<failure>setting failure</failure>
+	<full>Preset Position is already full</full>
+	<selectFull>Patrol Positions are already full</selectFull>
+	<duplicate>duplicate</duplicate>
+	<invalidParameters>invalid Preset Name</invalidParameters>
+	<oob>setting value is out of range</oob>
+</message>

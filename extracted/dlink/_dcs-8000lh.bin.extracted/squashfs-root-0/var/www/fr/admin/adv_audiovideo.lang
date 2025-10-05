@@ -1,0 +1,107 @@
+<body>
+	<audioVideoSettings>Audio et vidéo</audioVideoSettings>
+	<description1>Vous pouvez configurer le mode nuit et les paramètres audio et vidéo (4 profils vidéo) ici. Le profil 3 a été défini pour les instantanés, et pour le profil 4 pour votre téléphone portable ou votre agenda électronique. </description1>
+	<descriptionNoNightmode>Vous pouvez configurer les paramètres audio et vidéo (3 profils vidéo) ici. Le profil 2 a été défini pour les instantanés, et pour le profil 3 pour votre téléphone portable ou votre agenda électronique.</descriptionNoNightmode>
+	<description2>Trois sorties principales de capteur vidéo – ou système d'affiche (VGA, XGA, SXGA) – sont disponibles, chacune d'elles permettant de sélectionner ses propres paramètres de résolution.</description2>
+	<savebutton>Enregistrer les paramètres</savebutton>
+	<notsavebutton>Ne pas enregistrer les paramètres</notsavebutton>
+	<videoSensor>Capteur vidéo</videoSensor>
+	<sensorOutput>Sortie du capteur</sensorOutput>
+	<vga>VGA (640x480)</vga>
+	<sxga>SXGA (1280x1024)</sxga>
+	<xga>XGA (1024x768)</xga>
+	<resolution>Résolution</resolution>
+	<kbps>Kbits/s</kbps>
+	<mbps>Mbits/s</mbps>
+	<low>Basse</low>
+	<fair>Régulière</fair>
+	<standard>Standard</standard>
+	<good>Bonne</good>
+	<excellent>Excellente</excellent>
+	<nightMode>Mode JOUR/NUIT</nightMode>
+	<enableNightMode>Activer le mode nuit</enableNightMode>
+	<shutter>Obturateur</shutter>
+	<second>Seconde</second>
+	<cameraEnv>Environnement de la caméra</cameraEnv>
+	<placedLocation>Source lumineuse</placedLocation>
+	<indoor>Intérieur</indoor>
+	<outdoor>Extérieur</outdoor>
+	<irLed>Mode jour/nuit</irLed>
+	<auto>Auto</auto>
+	<manual>IR manuel</manual>
+	<autoPIR>Auto + détecteur IR (PIR)</autoPIR>
+	<on>Toujours en mode jour</on>
+	<off>Toujours en mode nuit</off>
+	<audioSettings>Configuration audio</audioSettings>
+	<enableSpeaker>Haut-parleur</enableSpeaker>
+	<volume>Volume</volume>
+	<enableMicrophone>Microphone</enableMicrophone>
+	<encodeType>Type d'encodage</encodeType>
+	<resolution>Résolution</resolution>
+	<FPS>I/s</FPS>
+	<BPS>bits/s</BPS>
+	<encodeMethod>Méthode d'encodage</encodeMethod>
+	<cbr>CBR</cbr>
+	<quality>Qualité</quality>
+	<JPEG_Quality>Qualité</JPEG_Quality>
+	<RTSP_URL>URL RTSP</RTSP_URL>
+	<mobileOnly>POUR PÉRIPHÉRIQUES PORTABLES UNIQUEMENT</mobileOnly>
+	<updateConfirm>Notez que le mode SXGA présente les limitations suivantes :\n  1. La détection de mouvement et les instantanés déclenchés sur détection de mouvement sont désactivés. Les enregistrements sont effectués à moyenne résolution tout au plus.\n  3. Les navigateurs autres que IE ne permettent d'afficher des vidéos qu'à 1280x1024</updateConfirm>
+	<reboot1>La caméra est actuellement en cours de redémarrage, veuillez patienter </reboot1>
+	<reboot2> secondes.</reboot2>
+	<xgaText>Quand le mode XGA est sélectionné, seul le profil 1 prend en charge la résolution 1024x768.</xgaText>
+	<sxgaText1>Quand le mode SXGA est sélectionné, seul le type d'encodage JPEG du profil 1 prend en charge la résolution 1280x1024.</sxgaText1>
+	<sxgaText2>La détection de mouvement et le déclenchement sur détection de mouvement sont désactivés.</sxgaText2>
+	<nightModeText>Quand le mode nuit est sélectionné, la fréquence d'images réelle peut être inférieure à la fréquence d'images max. dans un environnement à faible intensité lumineuse.</nightModeText>
+	<RTSPErrorMsg1>PROFIL VIDÉO </RTSPErrorMsg1>
+	<RTSPErrorMsg2> L'URL RTSP doit être différente de celle du PROFIL VIDÉO. </RTSPErrorMsg2>
+	<RTSPErrorMsg3> URL RTSP</RTSPErrorMsg3>
+	<RTSPErrorMsg4>L'URL RTSP ne peut pas être vide ; les caractères valables sont les caractères alphanumériques et \".\" , \"-\", et \"_\"</RTSPErrorMsg4>
+	<profile1>PROFIL VIDÉO 1</profile1>
+	<profile2>PROFIL VIDÉO 2</profile2>
+	<profile3>PROFIL VIDÉO 3</profile3>
+	<profile4>PROFIL VIDÉO 4</profile4>
+	<mfhourError>L'heure de début n'est pas valide</mfhourError>
+	<mthourError>L'heure de fin n'est pas valide</mthourError>
+	<mfminuteError>La minute de début n'est pas valide</mfminuteError>
+	<mtminuteError>La minute de fin n'est pas valide</mtminuteError>
+	<enablemute>Sourdine auto</enablemute>
+	<tvOutTitle>TV-SORTIE</tvOutTitle>
+	<tvOUT>TV-SORTIE</tvOUT>
+	<enableTvOUT>Activer TV-sortie</enableTvOUT>
+	<NTSC>NTSC</NTSC>
+	<PAL>PAL</PAL>
+	<schedule>Calendrier</schedule>
+	<daytime>Heure du jour</daytime>
+	<timeFrom>De</timeFrom>
+	<timeTo>à</timeTo>
+	<sun>Dim </sun>
+	<mon>Lun </mon>
+	<tue>Mar </tue>
+	<wed>Mer </wed>
+	<thu>Jeu </thu>
+	<fri>Ven </fri>
+	<sat>Sam </sat>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<audioVideoSettings>Des résolutions, i/s et bits/s supérieurs donneront une vidéo de meilleure qualité. Cependant, cela exigera aussi davantage de bande passante.</audioVideoSettings>
+	<encodeType>Sélectionnez le codec vidéo « JPEG » ou « H.264 ».</encodeType>
+	<resolution>Les options dépendent du système d'affichage utilisé. </resolution>
+	<FPS>Nombre d'images rendues par la caméra par seconde.</FPS>
+	<BPS>Sélectionnez une bande passante fixe pour le fonctionnement de la caméra. Plus la valeur est élevée, plus la qualité d'image est bonne, mais plus la consommation en bande passante est importante.</BPS>
+	<JPEG_Quality>Réglez la qualité de l'image.</JPEG_Quality>
+	<RTSP_URL>L'URL utilisée pour se connecter à la caméra lors du visionnement à partir de QuickTime ou d'un périphérique mobile.</RTSP_URL>
+	<irLed>Sélectionnez le mode nuit pour utiliser le témoin IR de la caméra dans une zone peu éclairée.</irLed>
+	<enableSpeaker>Lorsque cette option est sélectionnée, vous pouvez parler dans le microphone du PC et votre voix sera audible par le haut-parleur externe relié à la caméra.</enableSpeaker>
+	<enableMicrophone>Activez cette fonction pour écouter le son provenant du microphone de la caméra.</enableMicrophone>
+	<encodeMethod>Sélectionnez CBR pour pouvoir choisir Priorité au débit ou Priorité à la qualité  comme méthode d'encodage.</encodeMethod>
+	<tvOUThelp>En activant TV-sortie, vous pouvez projeter la vidéo de la caméra sur la TV ou un autre écran.</tvOUThelp>
+	<enablemutehelp>Activez cette option pour mettre automatiquement en sourdine le microphone lorsque l'objectif de la caméra se déplace.</enablemutehelp>
+	<saveOK>Le serveur Web redémarre. Veuillez patientez une minute, puis reconnectez la caméra avec la nouvelle adresse IP.</saveOK>	
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<fail>Échec de l’application des modifications.</fail>
+</message>
+

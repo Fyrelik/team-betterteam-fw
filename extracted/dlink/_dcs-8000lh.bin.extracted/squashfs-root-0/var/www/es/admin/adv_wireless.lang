@@ -1,0 +1,66 @@
+<body>
+	<wirelessSettings>configuración inalámbrica</wirelessSettings>
+	<description1>En esta sección, puede instalar y configurar los parámetros inalámbricas de la cámara.</description1>
+	<savebutton>Guardar parámetros</savebutton>
+	<notsavebutton>No guardar parámetros</notsavebutton>
+	<wirelessConfiguration>configuración inalámbrica</wirelessConfiguration>
+	<enableWireless>Activar inalámbrica</enableWireless>
+	<ssid>Nombre de red</ssid>
+	<bssid>BSSID</bssid>
+	<signal>Señal</signal>
+	<survey>Estudio del sitio</survey>
+	<rescan>Volver a explorar</rescan>
+	<wirelessMode>Modo inalámbrica</wirelessMode>
+	<wireless>inalámbrica</wireless>
+	<infrastructure>Infraestructura</infrastructure>
+	<adhoc>Ad-hoc</adhoc>
+	<channel>Canal</channel>
+	<ssidErrorq>Ninguno</ssidErrorq>
+	<auto>Automático</auto>
+	<authentication>Modo de seguridad</authentication>
+	<encryption>Tipo de cifrado</encryption>
+	<key>Clave</key>
+	<reboot1>La cámara se está reiniciando en este momento. Espere </reboot1>
+	<reboot2> segundos.</reboot2>
+	<ssidError>Nombre de red no puede estar vacío</ssidError>
+	<ssidError1>Nombre de red no puede tener solo espacios</ssidError1>
+	<keyError1>La longitud de la clave debe ser de 5, 10, 13 ó 26 caracteres</keyError1>
+	<keyError2>La clave no es válida. Si la longitud de la clave es 10 ó 26\nLos caracteres válidos son 0~9, A~F o a~f</keyError2>
+	<keyError3>La clave no puede estar vacía</keyError3>
+	<keyError4>La clave no es válida. La cantidad mínima es de 8 caracteres</keyError4>
+	<keyError5>La clave no es válida. Los 64 caracteres válidos son 0~9, A~F o a~f</keyError5>
+	<keyError6>La clave no es válida. La cantidad máxima es de 64 caracteres</keyError6>
+	<showpw>Mostrar clave oculta</showpw>
+	<antenna>Antena</antenna>
+	<intAntenna>Interno</intAntenna>
+	<extAntenna>Externo</extAntenna>
+	<reboot3>No desconecte el cable Ethernet de la cámara durante el proceso de reinicio.</reboot3>
+	<ssidname>===Lista de SSID===</ssidname>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<enableWireless>Active primero la conexión inalámbrica antes de configurar la conexión inalámbrica de la cámara. Puede elegir la red inalámbrica de la conexión utilizando el menú desplegable de “Estudio del sitio” o introducir manualmente el SSID.</enableWireless>
+	<ssid>Identificador configurado del servicio (SSID) es el nombre de su red inalámbrica como, por ejemplo, Predeterminada, Conferencia, Mi red, etc.</ssid>
+	<wirelessMode>Existen dos modos de conexión. Infraestructura es una conexión inalámbrica que utiliza un punto de acceso como punto de transmisión de todos los dispositivos inalámbricas. Ad-Hoc es una conexión inalámbrica utilizada sin un punto de acceso que conecta directamente el PC a la cámara.</wirelessMode>
+	<None>Ninguno</None>
+	<NoneDes>Esta opción hace que la cámara sea visible para todos los dispositivos en la red. No se proporciona ningún cifrado.</NoneDes>
+	<WEPPassword>WEP</WEPPassword>
+	<WEPPasswordDes>Solo permite la comunicación con otros dispositivos que tienen parámetros de Intimidad equivalente con cables (WEP) idénticos.</WEPPasswordDes>
+	<WPAPersonal>WPA-PSK, WPA2-PSK</WPAPersonal>
+	<WPAPersonalDes>Ambos modos necesitarán que introduzca una “clave” precompartida para la conexión establecida entre la cámara y el dispositivo inalámbrica.</WPAPersonalDes>
+	<rescan>Busque de nuevo el nombre del dispositivo inalámbrica en su red inalámbrica.</rescan>
+	<key>Un conjunto de caracteres precompartidos para la conexión entre la cámara y el dispositivo inalámbrica al seleccionar WEP, WPA-PSK o WPA2-PSK como modo de seguridad.</key>
+	<showpw>Cuando se selecciona la opción, la clave se mostrará en el texto.</showpw>
+	<antenna>Seleccione esta opción para utilizar una antena interna o externa.</antenna>
+	<channel>: de forma predeterminada, el valor es Automático para el modo de infraestructura. El canal sólo se podrá seleccionar en el modo Ad-Hoc.</channel>
+	<encryption1>TKIP - (Protocolo de integridad de clave temporal): proporciona protección contra los piratas informáticos utilizando un código de integridad de mensajes (MIC). De forma idónea, se debería aplicar WPA con TKIP. </encryption1>
+	<encryption2>AES - (Sistema de cifrado avanzado): utiliza un cifrado de datos en un bloque de 128 bits simétrico. De forma idónea, se debería aplicar WPA2 con AES.
+</encryption2>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<fail>Error en los cambios.</fail>
+	<notChanged>Sin cambios.</notChanged>
+	<saveOK>Se está reiniciando el servidor web. Espere 1 minuto y después vuelva a conectar la cámara con la nueva dirección IP.</saveOK>
+</message>
+

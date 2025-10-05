@@ -1,0 +1,51 @@
+<body>
+	<digitalOutput>數位輸出</digitalOutput>
+	<description1>您可在此啟用 D/O 連接埠，並設定事件的觸發方式。</description1>
+	<description2>當攝影機設為 SXGA 模式時，會停用移動偵測。</description2>
+	<description3>要啟用移動偵測，請在此處選擇 VGA 或 XGA 模式:</description3>
+	<description4> 音訊與視訊。</description4>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不要儲存設定</notsavebutton>
+	<trigger>觸發</trigger>
+	<enable>D/O 訊號</enable>
+	<triggerEvent>觸發事件</triggerEvent>
+	<motionDetection>移動</motionDetection>
+	<audioDetection>聲音</audioDetection>
+	<di1>D/I 訊號 1</di1>
+	<di2>D/I 訊號 2</di2>
+	<manual>手動</manual>
+	<di>數位輸入</di>
+	<hour>小時</hour>
+	<min>分鐘</min>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<from>開始</from>
+	<to>結束 </to>
+	<day>日</day>
+	<time>時間</time>
+	<mfhourError>開始小時無效</mfhourError>
+	<mthourError>結束小時無效</mthourError>
+	<mfminuteError>開始分鐘無效</mfminuteError>
+	<mtminuteError>結束分鐘無效</mtminuteError>
+	<onlyDuring>僅在下列時間之間</onlyDuring>
+	<dayErr>請至少選擇一天</dayErr>
+	<motionNote>請注意，移動偵測尚未啟用，請至「移動偵測」網頁進行設定。</motionNote>
+	<audioNote>請注意，音頻偵測尚未啟用，請至「音頻偵測」網頁進行設定。</audioNote>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<description1>您可選擇觸發事件 (如移動偵測) 或從 D/I 連接埠選擇觸發條件。當事件觸發時，D/O 就會開始送出訊號。</description1>
+	<manualBased>允許使用者在即時影像頁面中直接觸發數位輸出。</manualBased>
+	<motionBased>偵測到移動時，IP 攝影機會去觸發連接到系統上的傳統警報裝置。</motionBased>
+	<audioBased>偵測到聲音時，IP 攝影機會去觸發連接到系統上的傳統警報裝置。</audioBased>
+	<gpio>觸發數位輸入裝置時，IP 攝影機會去觸發連接到系統上的傳統警報裝置。</gpio>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<fail>變更失敗。</fail>
+</message>

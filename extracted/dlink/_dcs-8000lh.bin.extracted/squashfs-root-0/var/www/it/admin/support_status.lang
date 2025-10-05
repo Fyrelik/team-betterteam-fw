@@ -1,0 +1,8 @@
+<body>
+	<status>STATO</status>
+	<deviceInfo>Informazioni sul dispositivo</deviceInfo>
+	<log>Log</log>
+	<deviceInfo1>Questa pagina visualizza tutte le informazioni relative alla videocamera e alle impostazioni di rete.</deviceInfo1>
+	<log1>Visualizza il file di log del sistema. Questo file mostra tutte le informazioni utili come la notifica del rilevamento del movimento e i messaggi di riavvio del sistema. Per esportare i registri della videocamera fare clic sul pulsante 'Scarica' per avviare lo scaricamento del file dalla videocamera.</log1>
+</body>
+

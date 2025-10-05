@@ -1,0 +1,483 @@
+<body>
+	<setup>設定</setup>
+	<wizard>設定精靈</wizard>
+	<networkSetup>網路</networkSetup>
+	<wirelessSetup>無線網路設定</wirelessSetup>
+	<dynamicDNS>動態 DNS</dynamicDNS>
+	<imageSetup>影像設定</imageSetup>
+	<audioVideo>音訊和視訊</audioVideo>
+	<timeAndDate>時間與日期</timeAndDate>
+	<videoclip>視訊短片</videoclip>
+	<snapshot>快照</snapshot>
+	<digitalOutput>數位輸出</digitalOutput>
+	<motionDetection>移動偵測</motionDetection>
+	<cameraControl>攝影機控制</cameraControl>
+	<SDCard>SD 卡管理</SDCard>
+	<presetPosition>預設位置</presetPosition>
+	<recording>錄影</recording>
+	<wizardInternetSettings>網際網路連線設定精靈</wizardInternetSettings>
+	<wizardInternetSettings1> - 本選項可讓您用設定精靈來調整網路上的 IP 攝影機。您可用固定 IP 來手動設定，或以 DHCP 用戶端或 PPPoE 來自動設定。(Dynamic Host Configuration Protocol，動態主機設定協定，是一種網路協定，可讓伺服器把 IP 指派給用戶端使用一段特定時間。)</wizardInternetSettings1>
+	<wizardMotionSettings>移動偵測設定精靈</wizardMotionSettings>
+	<wizardMotionSettings1> - 本選項可用來設定 IP 攝影機的移動偵測。若您是第一次設定本裝置，D-Link 建議您按設定精靈按鈕，並遵循畫面上的步驟進行。</wizardMotionSettings1>
+	<lanSetting>LAN 設定</lanSetting>
+	<lanSetting1> - 強烈建議您選擇固定IP位址選項，並輸入符合您網路設定的 IP 位址。若您的網路有架設DHCP 伺服器，可點選自動 IP 位址，本台網際網路攝影機就會自動從 DHCP 伺服器取得 IP 位址。每當網際網路攝影機啟動時，請確保 DHCP 伺服器都會指定一個固定 IP 給這台網路攝影機。</lanSetting1>
+	<lanSetting2>DNS (Domain Name System，網域名稱系統) 伺服器是一種將網域名稱 (如 www.dlink.com) 轉換成 IP 位址 (如 192.168.0.20) 的網際網路服務。此位址可從您的 ISP 或網路閘道器取得。</lanSetting2>
+	<lanSetting3>UPnP</lanSetting3>
+	<lanSetting4> - 勾選此方塊來決定是否要在電腦的 [網路上的芳鄰] 資料夾內建立一個攝影機捷徑。</lanSetting4>
+	<lanSetting5>UPnP 通訊埠轉送</lanSetting5>
+	<lanSetting6> - 若您的路由器支援 UPnP，攝影機與路由器就能彼此通訊，路由器便能知道通訊埠是被那些攝影機用走了。這表示您可以從網際網路存取這台攝影機，無須手動調整路由器。</lanSetting6>
+	<pppoeSetting>PPPoE</pppoeSetting>
+	<pppoeSetting1> - 若要以攝影機直接連到網際網路，則須輸入使用者名稱與密碼。您的 ISP 應該會給您這組帳號密碼。若攝影機位於路由器或閘道器後方，就不需要做此設定。</pppoeSetting1>
+	<portSetting>通訊埠設定</portSetting>
+	<portSetting1> - 可讓您指定並保留 HTTP 與 RTSP 串流所用的通訊埠。</portSetting1>
+	<httpPort>HTTP 通訊埠</httpPort>
+	<httpPort1> - HTTP 通訊埠可讓您以標準網頁瀏覽器來連接攝影機。這個通訊埠可以設成 HTTP 預設通訊埠 80 以外的埠號。而路由器也必須打開相對應的通訊埠。例如，若此通訊埠改成 8080，使用者就要在瀏覽器打「http://192.168.0.100:8080」而不是「http://192.168.0.100」。</httpPort1>
+	<rtspPort>RTSP 通訊埠</rtspPort>
+	<rtspPort1> - 此通訊埠可讓您用串流行動裝置 (如智慧手機或平板電腦) 來連接攝影機。RTSP 通訊埠的預設值是 554。</rtspPort1>
+	<bonjour>Bonjour</bonjour>
+	<bonjour1> - 啟用 Bonjour 就可讓 Apple 電腦找到這台攝影機。</bonjour1>
+	<ddnsServerAddr>伺服器位址</ddnsServerAddr>
+	<ddnsServerAddr1> - 選擇動態 DNS 服務供應商的網頁位址。</ddnsServerAddr1>
+	<ddnsTimeout>逾時</ddnsTimeout>
+	<ddnsTimeout1> - 您可設定攝影機每隔多久時間將自己目前的全域 IP 位址告知 DDNS 伺服器。預設值是576 小時。</ddnsTimeout1>
+	<dynamicDNS1>（動態網域名稱伺服器，Dynamic Domain Name Server） 當網路裝置的公用 IP 位置被修改時，DDNS 服務會同步此 IP 位址。使用 DDNS 服務時必須輸入使用者名稱與密碼。</dynamicDNS1>
+	<ddnsHostname>主機名稱</ddnsHostname>
+	<ddnsHostname1> - 從 DDNS服務取到的網域名稱。</ddnsHostname1>
+	<ddnsUsername>使用者名稱</ddnsUsername>
+	<ddnsUsername1> - DDNS 服務的帳戶名稱。</ddnsUsername1>
+	<ddnsPassword>密碼</ddnsPassword>
+	<ddnsPassword1> - DDNS 服務的密碼。</ddnsPassword1>
+	<ddnsstatus>狀態</ddnsstatus>
+	<ddnsstatus1> - 說明動態DNS目前的狀態。</ddnsstatus1>
+	<networkName>網路名稱</networkName>
+	<networkName1> - 無線網路的名稱，如預設、會議、我的網路等等。</networkName1>
+	<siteSurvey>站台搜尋</siteSurvey>
+	<siteSurvey1> - 包含所有可用無線站台的下拉式選單。</siteSurvey1>
+	<SSID>SSID</SSID>
+	<SSID1> (Service Set Identifier，服務集標示) - 無線網路名稱，如預設、會議、我的網路等等。</SSID1>
+	<wirelessMode>無線模式</wirelessMode>
+	<wirelessMode1> - 無線網路預設為「Infrastructure」。此模式需要採用基地台/無線路由器。若網路中沒有基地台或無線路由器，請改設為「Ad-Hoc」。</wirelessMode1>
+	<channel>頻道</channel>
+	<channel1> - 若為Infrastructure模式，則預設為「自動」。只有採用Ad-Hoc模式才能選擇頻道。</channel1>
+	<authentication>安全模式</authentication>
+	<authentication1>無 - 本選項可讓網路上所有裝置都找得到這台攝影機。沒有提供加密方式。</authentication1>
+	<authentication2>WEP - 若攝影機與其他裝置之間具有相同的有線等效協定 (Wired Equivalent Privacy，WEP) 設定，才能彼此通訊。</authentication2>
+	<authentication3>WPA-PSK，WPA2-PSK - 這兩種模式都要您先輸入預先共享金鑰，攝影機與無線裝置之間才能連線。</authentication3>
+	<encryption>密碼類型</encryption>
+	<encryption1>TKIP - (Temporal Key Integrity Protocol，暫時性金鑰完整性協定) – 使用訊息完整碼 (Message Integrity Code，MIC) 避免駭客攻擊。理想上您應該搭配 TKIP 來使用 WPA。</encryption1>
+	<encryption2>AES - (Advanced Encryption System，進階加密標準) – 使用對稱式 128-Bit 區塊資料加密。理想上您應該搭配 AES 來使用 WPA2。</encryption2>
+	<pppoeSetting>PPPoE</pppoeSetting>
+	<pppoeSetting1> - 若要以攝影機直接連到網際網路，則須輸入使用者名稱與密碼。您的 ISP 應該會給您這組帳號密碼。若攝影機位於路由器或閘道器後方，就不需要做此設定。</pppoeSetting1>
+	<portSetting>通訊埠詳細設定</portSetting>
+	<portSetting1> - 可讓您指定並保留 HTTP 與 RTSP 串流所用的通訊埠。</portSetting1>
+	<httpPort>HTTP 通訊埠</httpPort>
+	<httpPort1> - HTTP 通訊埠可讓您以標準網頁瀏覽器來連接攝影機。這個通訊埠可以設成 HTTP 預設通訊埠 80 以外的埠號。而路由器也必須打開相對應的通訊埠。例如，若此通訊埠改成 8080，使用者就要在瀏覽器打「http://192.168.0.100:8080」而不是「http://192.168.0.100」。</httpPort1>
+	<rtspPort>RTSP 通訊埠</rtspPort>
+	<rtspPort1> - 此通訊埠可讓您用串流行動裝置 (如智慧手機或平板電腦) 來連接攝影機。</rtspPort1>
+	<ddnsHostname>主機名稱</ddnsHostname>
+	<ddnsHostname1> - 從 DDNS服務取到的網域名稱。</ddnsHostname1>
+	<ddnsUsername>使用者名稱</ddnsUsername>
+	<ddnsUsername1> - DDNS 服務的帳戶名稱。</ddnsUsername1>
+	<ddnsPassword>密碼</ddnsPassword>
+	<ddnsPassword1> - DDNS 服務的密碼。</ddnsPassword1>
+	<siteSurvey>站台搜尋</siteSurvey>
+	<siteSurvey1> - 包含所有可用無線站台的下拉式選單。</siteSurvey1>
+	<SSID>SSID</SSID>
+	<SSID1> (Service Set Identifier，服務集標示) – 無線網路名稱，如預設、會議、我的網路等等。</SSID1>
+	<wirelessMode>無線模式</wirelessMode>
+	<wirelessMode1> - 無線網路預設為「Infrastructure模式」。此模式需要採用基地台/無線路由器。若網路中沒有基地台或無線路由器，請改設為「Ad-Hoc模式」。</wirelessMode1>
+	<channel>頻道</channel>
+	<channel1> - 若為Infrastructure模式，則預設為「自動」。只有採用Ad-Hoc模式才能選擇頻道。</channel1>
+	<authentication>驗證</authentication>
+	<authentication1>開放 - 本選項可讓網路上所有裝置都找得到這台攝影機。</authentication1>
+	<authentication2>共享 - 若攝影機與其他裝置之間具有相同的有線等效協定 (Wired Equivalent Privacy，WEP) 設定，才能彼此通訊。</authentication2>
+	<authentication3>WPA-PSK，WPA2-PSK - 這兩種模式都要您先輸入預先共享金鑰，攝影機與無線裝置之間才能連線。</authentication3>
+	<encryption>密碼類型</encryption>
+	<encryption1>停用 – 沒有選擇加密。</encryption1>
+	<encryption2>WEP – 使用者可選擇 64 或 128-bit 加密，方式可為 Hex 或 ASCII 模式。</encryption2>
+	<key>金鑰</key>
+	<path>路徑</path>
+	<path1> - 影像要上傳到哪個目錄 (例如 \pub\images)。</path1>
+	<path11> - 影像要上傳到哪個目錄 (例如 \pub\images)。</path11>
+	<prefixFilename>檔名前置字</prefixFilename>
+	<prefixFilename1> - 每個檔案名稱前面都會加這段前置字。</prefixFilename1>
+	<interval>間隔</interval>
+	<interval1> - 每張快照的間隔時間。</interval1>
+	<ftpPort>通訊埠</ftpPort>
+	<ftpPort1> - FTP 伺服器通訊埠。大部分 FTP 伺服器均採用預設通訊埠 (21)。</ftpPort1>
+	<passiveMode>被動模式</passiveMode>
+	<passiveMode1> - 某些 FTP 伺服器允許用戶端以被動模式進行連接，此模式採用隨機選取的通訊埠進行傳輸。</passiveMode1>
+	<enableVideoclip>視訊短片</enableVideoclip>
+	<enableVideoclip1> - 若選擇本選項，您就可以把視訊短片當成電子郵件附件寄送，或傳送到 FTP 伺服器。</enableVideoclip1>
+	<triggerEventVC>觸發條件</triggerEventVC>
+	<triggerEventVC1>移動 – 偵測到移動時就拍攝短片。</triggerEventVC1>
+	<triggerEventVC11>聲音 – 偵測到聲音時就拍攝短片。</triggerEventVC11>
+	<triggerEventVC2>排程 – 在特定時間拍攝短片。</triggerEventVC2>
+	<triggerEventVC3>總是 – 持續拍攝短片。</triggerEventVC3>
+	<videoProfile>影像資料</videoProfile>
+	<videoProfile1> - 您可給四種攝影機影像類型設定多組不同的影像設定 (如影像品質與影格速率):H.264 與 JPEG。</videoProfile1>
+	<smtpinterval>傳送下一個 E-mail 的時間</smtpinterval>
+	<interval1> - 下一次可再寄發 E-mail 的間隔時間。</interval1>
+	<snapshotftpinterval> - 每次再寄發快照到 FTP 伺服器的間隔時間。</snapshotftpinterval>
+	<snapshotsmtpinterval> - 每次再寄發快照到 E-mail 的間隔時間。</snapshotsmtpinterval>
+	<encodeType>編碼類型</encodeType>
+	<encodeType1> - 選擇影像編碼 H.264 或 JPEG。</encodeType1>
+	<resolution>解析度</resolution>
+	<recResolution1> - 您可使用四個影像資料選項來選擇錄製影片。</recResolution1>
+	<frameRate>畫面速率最大值</frameRate>
+	<frameRate1> - 每秒鐘最多可顯示幾個影格。本台攝影機的最高影像品質是 30fps。一般而言，只要超過15 fps 人眼就看不出延遲。</frameRate1>
+	<bitRate>固定位元速率</bitRate>
+	<bitRate1> - 選擇攝影機操作的固定位元速率。本選項可讓使用者選擇自己想要的畫面速率，以符合頻寬與儲存空間的外在條件。</bitRate1>
+	<jpegQuality>品質</jpegQuality>
+	<jpegQuality1> - 設定影像品質。選擇「極佳」時，影像品質最好。</jpegQuality1>
+	<rtspUrl>RTSP URL</rtspUrl>
+	<rtspUrl1> - RTSP URL 是從智慧手機或平板電腦裝置檢視時，用來連到攝影機的 URL。(如 rtsp://EXAMPLE.dlinkddns.com/3gpp)。</rtspUrl1>
+	<enableSpeaker>啟用喇叭</enableSpeaker>
+	<enableSpeaker1> - 啟用時，您可對著電腦的麥克風說話，聲音會傳到攝影機上的喇叭播放出來。</enableSpeaker1>
+	<Videocliptype>視訊短片類型</Videocliptype>
+	<Videocliptype1> - 您可設定需要的設定資料、事件前錄影與最長持續時間。</Videocliptype1>
+	<videocliptarget>目標</videocliptarget>
+	<videocliptarget1> - 你可以選擇視訊短片的目標是 FTP 還是 E-mail。</videocliptarget1>
+	<snapshottarget>目標</snapshottarget>
+	<snapshottarget1> - 你可以選擇快照的目標是 FTP 還是 E-mail。</snapshottarget1>
+	<enableMicrophone>啟用麥克風</enableMicrophone>
+	<enableMicrophone1> - 啟用時，便能聽到 IP 攝影機麥克風傳來的聲音。</enableMicrophone1>
+	<speakerVolume>喇叭音量</speakerVolume>
+	<speakerVolume1> - 您可用音量設定調整喇叭的音量。</speakerVolume1>
+	<microphoneVolume>麥克風音量</microphoneVolume>
+	<microphoneVolume1> - 您可用音量設定調整麥克風的音量。</microphoneVolume1> 
+	<enablemute>自動靜音</enablemute>
+	<enablemute1> - 若啟用本選項，將在攝影機鏡頭移動時自動關閉麥克風。</enablemute1> 
+	<brightness>亮度</brightness>
+	<brightness1> - 用來補償背光場景。</brightness1>
+	<saturation>飽和度</saturation>
+	<saturation1> - 以黑白方式控制色彩強度，營造大膽配色。</saturation1>
+	<frequency>頻率</frequency>
+	<frequency1> - 要選擇「50」或「60」Hz 頻率 (依國家/地區而定)。</frequency1>
+	<whitebalance>白平衡</whitebalance>
+	<whitebalance1> - 預設是「自動」。它會移除不合理的色偏，讓白色物體在影片中呈現真實的白色。</whitebalance1>
+	<bw>黑白</bw>
+	<bw1> - 啟用/停用攝影機黑白模式。</bw1>
+	<flip>翻轉</flip>
+	<flip1> - 當攝影機倒掛在天花板時就要選擇此功能。</flip1>
+	<mirror>鏡像</mirror>
+	<mirror1> - 選擇此功能來取得鏡像。</mirror1>
+	<lightSource>光源</lightSource>
+	<lightSource1> - 選擇室內或室外環境。</lightSource1>
+	<slowShutter>慢速快門</slowShutter>
+	<slowShutter1> - 選擇在昏暗環境所使用的最低快門速度。</slowShutter1>
+	<contrast>對比</contrast>
+	<contrast1> - 調整物體之間的色彩對比。在灰暗天空下可提升影像品質。</contrast1>
+	<hue>色調</hue>
+	<hue1> - 用來改變不同色相的程度對人眼的感覺。</hue1>
+	<sharpness>銳利度</sharpness>
+	<sharpness1> - 調整這個項目以控制畫面銳利度。</sharpness1>
+	<autoExposure>自動曝光</autoExposure>
+	<autoExposure1> - 選擇此功能可以使攝影機自動調整曝光時間。</autoExposure1>
+	<BLC>BLC</BLC>
+	<BLC1> - 背光補償 – 當物體位於亮光前方時，IP 攝影機很難獲得清晰影像。選擇此選項，就可讓強光下的物體變得更加清晰。</BLC1>
+	<AWB>AWB</AWB>
+	<AWB1> - 自動白平衡 -它會移除不合理的色偏，讓白色物體在影片中呈現真實的白色。</AWB1>
+	<AGC>AGC</AGC>
+	<AGC1> - 自動增益控制 – 控制訊號的增益。AGC 會使較弱的訊號得到較強增益，原本較強的訊號會得到較弱增益或完全沒有增益。</AGC1>
+	<AES>AES</AES>
+	<AES1> - 自動電子快門 – 可自動調整快門速度。若快門速度較高，可使快速移動的物體變得較清晰。</AES1>
+	<clearMotion>清除</clearMotion>
+	<clearMotion1> - 清除所有偵測範圍，偵測到移動的部份會以紅色顯示。</clearMotion1>
+	<enablePIR>啟用 PIR</enablePIR>
+	<enablePIR1> - 若選擇此項，就會使用 PIR (被動式紅外線) 來偵測移動。</enablePIR1>
+	<enableMotion>啟用影像移動</enableMotion>
+	<enableMotion1> - 選擇此選項來啟用攝影機的移動偵測功能。</enableMotion1>
+	<pirsensibility>PIR 靈敏度</pirsensibility>
+	<pirsensibility1> - PIR靈敏度的設定有三種選擇：低，中，高，而預設的設定值為低的。而當把靈敏度調為低時，PIR需要偵測到多一點才能被觸發。而建議你應該實驗看看哪一個設定是最適合目前PIR所放置的地方。如果發現靈敏度太低時，請把設定調為“中”或者“高”。</pirsensibility1>
+	<sensitivity>面積比</sensitivity>
+	<sensitivity1> - 您可設定面積比，決定要多大幅度的移動才會觸發移動偵測。</sensitivity1>
+	<unselectRange>畫出移動範圍</unselectRange>
+	<unselectRange1> - 請拖拉滑鼠來新增移動偵測範圍。</unselectRange1>
+	<inverseRange>清除移動範圍</inverseRange>
+	<inverseRange1> - 請拖拉滑鼠來清除移動偵測範圍。</inverseRange1>
+	<formatvalue>格式化 SD 卡</formatvalue>
+<formatvalue1> - 刪除 SD卡上所有的資料。</formatvalue1>
+<name>名稱</name>
+<name1> - 顯示所有儲存的檔名或資料夾名稱。</name1>
+<num>檔案數量</num>
+<num1> - 顯示資料夾中的所有檔案數量。</num1>
+<size>大小</size>
+<size1> - 顯示檔案大小。</size1>
+<refresh>重新整理 </refresh>
+<refresh1> - 此選項用來重新載入網頁內容，顯示最新的資料。</refresh1>
+<toplevel>往上一層</toplevel>
+<toplevel1> - 用來回到前一個資料夾。</toplevel1>
+<delete>刪除</delete>
+<delete1> - 此按鍵可刪除所有已選取的檔案。</delete1>
+<sdcardpath>SD卡</sdcardpath>
+<sdcardpath1> - 顯示SD卡的當前路徑。</sdcardpath1>
+<sdstatus>SD 狀態</sdstatus>
+<sdstatus1> - 此狀態會顯示目前SD記憶卡是否已插入或被偵測。</sdstatus1>
+<filesperpage>每頁檔案數</filesperpage>
+<filesperpage1> - 每頁顯示的檔案數量。</filesperpage1>
+<pages>頁數</pages>
+<pages1> - 當前要顯示第幾頁。</pages1>
+<total>總空間</total>
+<total1> - SD卡的總空間。</total1>
+<used>已使用</used>
+<used1> - 已使用的SD卡空間。</used1>
+<free>剩餘空間</free>
+<free1> - SD卡剩餘空間。</free1>
+<ok>確定</ok>
+<ok1>- 此按鈕可刪除所有已選取的錄製檔案。</ok1>	
+	<livevideoscreen>即時影像螢幕</livevideoscreen>
+	<livevideoscreen1> - 通過此螢幕可以看到攝影機鏡頭已經移動到哪個位置.</livevideoscreen1>
+	<pantiltcontrol>PT 控制</pantiltcontrol>
+	<pantiltcontrol1> - 你可以使用上/下/左/右/左上/左下/右上/右下的箭頭圖示來控制攝影機鏡頭的位置. 使用原點的按鈕來讓攝影機鏡頭回到初始的位置。</pantiltcontrol1>
+	<setashome>設定為原點</setashome>
+	<setashomel> - 使用此功能可將目前攝影機所停止的位置當成初始位置。</setashomel>
+	<defaulthome>預設原點</defaulthome>
+	<defaulthomel> - 使用此功能可將初始位置回復到出廠設定值。</defaulthomel>
+	<panSpeed>平移速度</panSpeed>
+	<panSpeed1> - 可使用此設定來控制水平移動速度。 數字越大，移動越大，數字越小，移動越小。</panSpeed1>
+	<tiltSpeed>傾斜速度</tiltSpeed>
+	<tiltSpeed1> - 可使用此設定來控制垂直移動速度。 數字越大，移動越大，數字越小，移動越小。</tiltSpeed1>
+	<currentPosition>目前位置</currentPosition>
+	<currentPosition1> - 將攝影機移動到想要的位置，然後在目前位置方塊上輸入一個名稱或編號，按「新增」，就會將此位置加入「預設位置」方塊中。</currentPosition1>
+	<presetPosition>預設位置</presetPosition>
+	<presetPosition1> - 預設位置清單列出所有您之前設定的位置，也可以刪除這些位置。</presetPosition1>
+	<patrolPos>巡邏位置</patrolPos>
+	<patrolPos1> - 這將會決定網路攝影機當在'巡邏'時所移動的位置。</patrolPos1>
+	<patrolPosUp>上移</patrolPosUp>
+	<patrolPosUp1> - 將選擇的巡邏位置上移。</patrolPosUp1>
+	<patrolPosDn>下移</patrolPosDn>
+	<patrolPosDn1> - 將選擇的巡邏位置下移。</patrolPosDn1>
+	<patrolPosRm>移除</patrolPosRm>
+	<patrolPosRm1> - 將選擇的巡邏位置移除。</patrolPosRm1>
+	<dwellingtime>停留時間(秒)</dwellingtime>
+	<dwellingtime1> - 此設定是用於在巡邏的過程中攝影機在每一個監視點上的停留時間。</dwellingtime1>
+	<recResolution>解析度</recResolution>
+	<recResolution1> - 有 3 個選項。VGA (Video Graphics Array) 提供 640×480 解析度，是標準的電腦顯示解析度。QVGA (Quarter Video Graphics Array) 提供 320 × 240 解析度，是手機、PDA 與部份手持裝置常用的標準解析度。QQVGA (Quarter-QVGA) 提供 160×112 解析度，通常只用在手持裝置。</recResolution1>
+	<bps>bps (每秒位元數)</bps>
+	<bps1> - 選擇攝影機操作的固定位元速率。本選項可讓使用者選擇自己想要的畫面速率，以符合頻寬與儲存空間的外在條件。</bps1>
+	<fps>FPS (每秒影格數)</fps>
+	<fps1> - 每秒鐘最多可顯示幾個影格。本台攝影機的最高影像品質是 30fps。一般而言，只要超過15 fps 人眼就看不出延遲。</fps1>
+	<encodeMethod>影像編碼方式</encodeMethod>
+	<encodeMethod1> - 選擇 CBR 表示以 bps 優先或著以品質優先來壓縮影像。</encodeMethod1>
+	<cameraenvironment>攝影機環境</cameraenvironment>
+	<night>白天/夜晚模式</night>
+	<night1> - 若攝影機位於昏暗環境，可勾選夜晚模式，以提昇影像品質。</night1>
+	<cameraenvironment1> - 您可根據攝影機所處環境，運用這些選項調整攝影機。</cameraenvironment1>
+	<shutter>快門</shutter>
+	<shutter1> - 使用夜晚模式時，有 3 種快門速度可供選擇。</shutter1>
+	<resolution1> - 3 種選項取決於所用的顯示系統。VGA 有 640x480、320x240、160x112; XGA 有 1024x768、512x384、256x192; SXGA 有 1280x1024、640x512、320x256; NTSC 有 704x480、352x240、176x112; PAL 有 704x576、352x288、176x144。</resolution1>
+	<resolution2> - 尺寸選項有多種選擇。</resolution2>
+	<scheduledRecording>排程</scheduledRecording>
+	<scheduledRecording1> - 您可設定在每天特定時段開關錄影功能。</scheduledRecording1>
+	<continuoussam>持續 (限 samba)</continuoussam>
+	<continuoussam1> - 選擇此選項就會持續錄影。</continuoussam1>
+	<scheduledsam>排程 (限 samba)</scheduledsam>
+	<scheduledsam1> - 選擇此選項，便可依據排程時間進行錄影。</scheduledsam1>
+	<sambaAuth>Samba 驗證</sambaAuth>
+	<sambaAuth1> - 若網路資料夾允許您以匿名方式登入，就可直接上傳影像，無需輸入帳號密碼。否則您就要輸入正確的設定，才能進入資料夾。</sambaAuth1>
+	<serverIP>伺服器</serverIP>
+	<serverIPl> - 輸入網路儲存伺服器的 IP 位址。</serverIPl>
+	<sharedFolder>分享資料夾</sharedFolder>
+	<sharedFolder1> - 在本欄位輸入一個現有的資料夾名稱，之後影像就會上傳到這個目錄。</sharedFolder1>
+    <videoclipinterval1> - 每段視訊短片的間隔。</videoclipinterval1>
+	<ftpinterval>傳送下一個 FTP 的時間</ftpinterval>
+	<videoclipftpinterval> - 下一次可再寄發視訊短片到 FTP 的間隔時間。</videoclipftpinterval>
+	<timeZone>時區</timeZone>
+	<timeZone1> - 攝影機當地時間設定的地理區域。</timeZone1>
+	<daylightSavings>啟用日光節約</daylightSavings>
+	<daylightSavings1> - 打開日光節約模式，就會根據日光節約時間要實施的日期與偏差時間來調整系統時間。</daylightSavings1>
+	<autoDaylightSavings>自動日光節約</autoDaylightSavings>
+	<autoDaylightSavings1> - 若選擇本選項，就會自動根據所選時區的日光節約時間，來調整系統時鐘。</autoDaylightSavings1>
+	<setManually>手動設定日光節約</setManually>
+	<setManually1> - 手動設定與調整日光節約時間。</setManually1>
+	<daylightSavingsDates>日光節約日期</daylightSavingsDates>
+	<daylightSavingsDates1> - 設定日光節約的開始與結束日期。</daylightSavingsDates1>
+	<syncTime>複製您電腦的時間設定</syncTime>
+	<syncTime1> - 將攝影機的時間日期與電腦同步。</syncTime1>
+	<manual>手動設定日期和時間</manual>
+	<manual1> - 手動設定與調整時間和日期。</manual1>
+	<SyncNTP>與 NTP 伺服器同步</SyncNTP>
+	<SyncNTP1> - 若選擇此選項，攝影機啟動時就會跟網際網路上的NTP伺服器做時間同步。若NTP伺服器無法連線，就不會做任何時間設定。</SyncNTP1>
+	<ntpServer>NTP 伺服器</ntpServer>
+	<ntpServer1> - NTP伺服器的IP位址或網域名稱。</ntpServer1>
+
+	<enableRecording>啟用錄影</enableRecording>
+	<enableRecordingl> - 啟用錄影可讓您根據所選事件，將影像錄製到 Samba 網路磁碟。要啟用錄影，請勾選「啟用錄影」方塊。接著請選擇排程方法，來決定攝影機什麼時候要錄影。</enableRecordingl>
+	<ntpfromDHCP>透過DHCP獲得NTP伺服器</ntpfromDHCP> 
+	<ntpfromDHCP1> - 攝影機透過DHCP取得NTP伺服器。</ntpfromDHCP1> 
+	<userName>使用者名稱</userName>
+	<userNamel> - 輸入網路儲存伺服器的登入帳號。</userNamel>
+	<passWord>密碼</passWord>
+	<passWordl> - 輸入網路儲存伺服器的密碼。</passWordl>
+	<test>測試</test>
+	<testl> - 按「測試」按鈕可檢查FTP或E-mail是否可正常存取。</testl>
+	<getStatus>取得狀態</getStatus>
+	<getStatusl> - 按「取得狀態」按鈕檢查錄影程序是否仍正常運作。</getStatusl>
+	<keepSpace>空間還剩幾 MB 就停止錄影</keepSpace>
+	<keepSpacel> - 設定一個大小，當目標磁碟的空間只剩下這個容量時，就會停止錄影，避免系統不穩定。</keepSpacel>
+	<stopRecord>當儲存空間已滿，就停止錄影</stopRecord>
+	<stopRecordl> - 若選擇 [停止錄影]，則磁碟空間已滿時，IP 攝影機會停止錄影。</stopRecordl>
+	<overwriteRecord>儲存空間已滿時，覆蓋掉較舊的錄影</overwriteRecord>
+	<overwriteRecordl> - 若選擇 [覆蓋掉較舊的錄影]，則在儲存空間已滿時，會刪除最舊的錄影檔案，以存放新的錄影。</overwriteRecordl>
+	<eventBased>事件型</eventBased>
+	<eventBasedl> - 選擇「移動偵測觸發的錄影」就會在偵測到移動時開始錄影，選擇「D/I 觸發錄影」就會在有數位輸入時開始錄影。</eventBasedl>
+	<prerecordSeconds>預錄秒數</prerecordSeconds>
+	<prerecordSecondsl> - 套用到 [移動錄影] 的設定。設定預錄秒數後，就會連事件觸發前的這段特定秒數也會錄到磁碟中。</prerecordSecondsl>
+	<postrecordSeconds>後錄秒數</postrecordSeconds>
+	<postrecordSecondsl> - 此設定可讓攝影機把事件發生後一段特定時間的影像也錄下來。在事件停止後，攝影機還會繼續錄這段特定秒數。</postrecordSecondsl>
+	<enableSnapshot>快照</enableSnapshot>
+	<enableSnapshotl> - 若選擇本選項，您就可以把單張或 6 張靜態影像當成電子郵件附件寄送，或傳送到 FTP 伺服器。</enableSnapshotl>
+	<eventbased>事件型</eventbased>
+	<eventbased1> - 選擇 [移動偵測] 選項，在偵測到移動時傳送影像到指定的 FTP 主機，或寄郵件到 E-Mail 位址。</eventbased1>
+	<triggerEventSS>觸發條件</triggerEventSS>
+	<triggerEventSS1>移動 - 偵測到移動時就拍攝快照。</triggerEventSS1>
+	<triggerEventSS11>聲音 - 偵測到聲音時就拍攝快照。</triggerEventSS11>
+	<triggerEventSS2>排程 - 在特定時間拍攝快照。</triggerEventSS2>
+	<triggerEventSS3>總是 - 持續拍攝快照。</triggerEventSS3>
+	<emailAddress>電子郵件位址</emailAddress>
+	<emailAddressl> - 若選擇本選項，就會把目前抓到的靜態影像以附件方式，郵寄到收件人E-mail 位址。</emailAddressl>
+	<userNameSnapl> - 此為您的 ISP (Internet Service Provider，網路服務供應商) 提供的使用者名稱。例如 smith 或 smith@yourisp.com，依您的 ISP 而定。</userNameSnapl>
+	<passwordSnapl> - 存取 E-mail 帳號所需輸入的密碼。</passwordSnapl>
+	<smtpMailServer>SMTP 郵件伺服器</smtpMailServer>
+	<smtpMailServerl> - E-mail 伺服器主機名稱 (如 smtpserver.yourdomain.com)。</smtpMailServerl>
+	<senderAddress>寄件者 E-mail 位址</senderAddress>
+	<senderAddressl> - 出現在 E-mail 警告中的寄件者 E-mail 位址 (如 smith@isp.com)。若無法寄達收件人 E-mail 位址，通知信會寄回此寄件人 E-mail 位址。</senderAddressl>
+	<recipientAddress>收件人 E-mail 位址</recipientAddress>
+	<recipientAddressl> - 此收件人 E-mail 位址會收到所有擷取的影像。</recipientAddressl>
+	<mailPort>通訊埠</mailPort>
+	<mailPortl> - 您的 E-mail SMTP 服務在哪個通訊埠執行。預設為 25。</mailPortl>
+	<ftpServer>FTP 伺服器</ftpServer>
+	<ftpServerl> - FTP伺服器的主機名稱或IP位址。(如ftp.dlink.com)</ftpServerl>
+	<userNameFtpl> - 用來存取 FTP 伺服器的帳號。</userNameFtpl>
+	<passwordFtpl> - 存取 FTP 伺服器所用的密碼。</passwordFtpl>
+	<hostName>主機名稱</hostName>
+	<hostNamel> - FTP 伺服器的主機名稱或 IP 位址。(如 ftp.dlink.com)</hostNamel>
+	<RS-485>RS-485</RS-485>
+	<enableSignal>D/O 訊號</enableSignal>
+	<enableSignall> - 去觸發連接到系統上的傳統警報裝置，如警示燈、警鈴。</enableSignall>
+	<digitalOutManual>手動</digitalOutManual>
+	<digitalOutManuall> - 允許使用者在即時影像頁面中直接觸發數位輸出。</digitalOutManuall>
+	<motionDetection11>移動</motionDetection11>
+	<motionDetectionl> - 偵測到移動時，IP 攝影機會去觸發連接到系統上的傳統警報裝置。</motionDetectionl>
+	<audioDetection>聲音</audioDetection>
+	<audioDetectionl> - 偵測到聲音時，IP 攝影機會去觸發連接到系統上的傳統警報裝置。</audioDetectionl>
+	<audio_Detection>音頻偵測</audio_Detection>
+	<enableAudio>音頻偵測</enableAudio>
+	<enableAudio1> - 選擇此選項來啟用攝影機的音頻偵測功能。</enableAudio1>
+	<sensitivityau>偵測音量</sensitivityau>
+	<sensitivityau1> - 設置觸發音頻事件的音頻偵測音量。更低的偵測音量可以偵測到更小的音量。</sensitivityau1>
+	<dISignal1>數位輸入</dISignal1>
+	<dISignal1l> - 觸發數位輸入裝置時，IP 攝影機會去觸發連接到系統上的傳統警報裝置。</dISignal1l>
+	<dISignal2>D/I 訊號 2</dISignal2>
+	<dISignal2l> - 觸發數位輸入 2 裝置時，IP 攝影機會去觸發連接到系統上的傳統警報裝置。</dISignal2l>
+	<supporPAN>支援 PAN-TILT</supporPAN>
+	<supporPANl>啟用「支援 PAN-TILT」時，即時影像頁面會出現一個控制面板，讓您透過 RS-485 操控室外攝影機。</supporPANl>
+	<protocol>通訊協定</protocol>
+	<protocoll> - 請選擇透過序列介面: RS485 連接到 PTZ 掃描器時，所要使用的 PTZ 標準。</protocoll>
+	<ID>ID</ID>
+	<IDl> - ID 值，用來識別 RS-485 裝置。</IDl>
+	<baudRate>鮑率</baudRate>
+	<baudRatel> - 選擇您連接的裝置所要採用的鮑率。</baudRatel>
+	<dataBits>資料位元</dataBits>
+	<dataBitsl> - 選擇您連接的裝置所要採用的資料位元。</dataBitsl>
+	<stopBit>停止位元</stopBit>
+	<stopBitl> - 選擇您連接的裝置所要採用的停止位元。</stopBitl>
+	<parityBit>同位位元</parityBit>
+	<parityBitl> - 選擇您連接的裝置所要採用的同位類型。</parityBitl>
+	<emailSetting>E-Mail 設定</emailSetting>
+	<ftpSetting>FTP 設定</ftpSetting>
+	<triggerEvent>觸發事件</triggerEvent>
+	<triggerEvent1> - 攝影機裡的事件，就是當觸發事件 (如移動偵測或數位輸入觸發) 啟動時，會去執行動作。</triggerEvent1>
+	<checkPassword>驗證密碼</checkPassword>
+	<checkPassword1> - 再輸入一次用來連接 DDNS 伺服器的密碼。</checkPassword1>
+	<audioSetting>音訊設定</audioSetting>
+	<audioSettingl> - 您可開關麥克風或調整音量。</audioSettingl>
+	<offset>時差</offset>
+	<offset1> - 設定日光節約時間要增加或減少的時間量。</offset1>
+	<checkpassWord>密碼確認</checkpassWord>
+	<checkpassWordl> - 再輸入一次用來連接網路儲存裝置的密碼。</checkpassWordl>
+	<sdrecording>SD 錄影</sdrecording>
+	<sdrecordingl> - 選擇本項時，可將快照或視訊影片儲存到本機 SD 卡上。</sdrecordingl>
+	<triggerEventM>移動 - 偵測到移動時就開始 SD 錄影。</triggerEventM>
+	<triggerEventAu>聲音 - 偵測到聲音時就開始 SD 錄影。</triggerEventAu>
+	<triggerEventS>排程 - 在特定時間進行 SD 錄影。</triggerEventS>
+	<triggerEventA>總是 - 持續進行 SD 錄影。</triggerEventA>
+	<recordingtype>錄影類型</recordingtype>
+	<recordingtype1> - 您可以設定 SD 錄影的設定資料，當觸發條件爲移動時，可以設定事件前錄影與事件後錄影。也可以選擇把錄影類型設成快照或視訊。</recordingtype1>
+	<keepfreespc>保留可用空間</keepfreespc>
+	<keepfreespcl> - 為本機 SD 卡設定一個適當的保留空間，藉此避免造成系統不穩定的狀況。</keepfreespcl>
+	<rectosdcyclic>循環錄影</rectosdcyclic>
+	<rectosdcyclicl> - 若選擇本選項，則在儲存空間已滿時，會刪除最舊的資料夾，以存放新的檔案。</rectosdcyclicl>
+	<SDManagement>SD 卡管理</SDManagement>
+	<videoftpServerport1> - 寄發一段視訊短片到 FTP 伺服器的通訊埠。大部分 FTP 伺服器皆執行於 21 號通訊埠。</videoftpServerport1>
+	<videorecipientAddressl> - 這是可以收到視訊短片的 E-mail 地址。</videorecipientAddressl>
+	<videoclipinterval1> - 每次再寄發視訊短片的間隔時間。</videoclipinterval1>
+	<smtpinterval>傳送下一個 E-mail 的時間</smtpinterval>
+	<videoclipsmtpinterval> - 下一次可再寄發視訊短片 E-mail 的間隔時間。</videoclipsmtpinterval>
+	<snapshotssl>使用 SSL-TLS</snapshotssl>
+	<snapshotssl1> - 如果你選擇 SSL-TLS 或著是 STARTTLS，攝影機會使用安全連線來寄發。</snapshotssl1>
+	<snapshottype>快照類型</snapshottype>
+	<snapshottype1> - 你可以改變快照的設定，或在這裡選擇單一快照或著六張快照。</snapshottype1>
+	<ftpServerport>FTP 伺服器/通訊埠</ftpServerport>
+	<ftpServerport1> - 寄發一段快照到 FTP 伺服器的通訊埠。大部分 FTP 伺服器皆執行於 21 號通訊埠。</ftpServerport1>
+	<ftpinterval>傳送下一個 FTP 的時間</ftpinterval>
+	<snapshotftpinterval> - 下一次可再寄發快照到 FTP 的間隔時間。</snapshotftpinterval>
+	<smtpinterval>傳送下一個 E-mail 的時間</smtpinterval>
+	<snapshotsmtpinterval> - 下一次可再寄發快照 E-mail 的間隔時間。</snapshotsmtpinterval>
+	<recordingLength>錄影時間長度</recordingLength>
+	<recordingLengthl> - 設定每個錄影檔案的時間長度。</recordingLengthl>
+	<wirelessenable>啟動無線網路</wirelessenable>
+	<wirelessenable1> - 請先啟用無線網路，再進行攝影機的無線網路設定。您可從「站台搜尋」下拉式選單中選擇要連哪一個無線網路，或自行輸入 SSID。</wirelessenable1>
+	<rescan>重新掃描</rescan>
+	<rescan1> - 重新掃描你附近無線網路的名稱。</rescan1>
+	<key>金鑰</key>
+	<key1> - 這是一組分享於攝影機與無線裝置之間的字元，當你設定 WEP 或 WPA-PSK 或著是 WPA2-PSK 時使用。</key1>
+	<showpw>顯示隱藏的金鑰</showpw>
+	<showpw1> - 當你選擇這個選項，你的密碼會顯示出來。</showpw1>
+	<gpio>數位輸入</gpio>
+	<gpio1> - 偵測到數位輸入後開始錄製短片。</gpio1>
+	<gpio2> - 偵測到數位輸入後開始快照。</gpio2>
+	<gpio3> - 偵測到數位輸入後開始錄製視訊影片。</gpio3>
+	<antenna>天線</antenna>
+	<antenna1> - 選擇使用內部或外部的天線。</antenna1>
+	<tvOUT>視訊輸出</tvOUT>
+	<tvOUThelp> - 開啓視頻輸出，你可以將視訊輸出到電視或者其他顯示設備。</tvOUThelp>
+	<preRec>事件前錄影</preRec>
+	<maxRec>最長持續時間</maxRec>
+	<preRecl> - 指定在視訊短片開始錄製前，短片要先預錄幾秒。</preRecl>
+	<maxRecl> - 指定短片要錄幾秒。</maxRecl>	
+	<IpfilterTitle>IP 過濾器</IpfilterTitle>
+	<IpfilterName>IP 過濾器</IpfilterName>
+	<IpfilterNameExplain> - 為了能夠啟動你攝影機的 IP 過濾器，你必須選擇啟動 'IP 過濾'。然後，在這個頁面設定相關的設定。</IpfilterNameExplain>
+	<Ipfilter> IP 過濾是一種可以允許或限制使用這台攝影機的 IP 位置的功能。</Ipfilter>
+	<FilterType>過濾器的種類</FilterType>
+	<FilterTypeText> - 你可以選擇過濾器名單中的 IP 位址是允許還是拒絕連線到這台攝影機。</FilterTypeText>
+	<AccessList>過濾器名單</AccessList>
+	<AccessListText> - 需要過濾的 IP 位址名單。</AccessListText>
+	<Single>單一</Single>
+	<SingleText> - 指定單一的 IP 位址。</SingleText>
+	<Subnet>子網段</Subnet>
+	<SubnetText> - 指定整個子網段。</SubnetText>
+	<Range>範圍</Range>
+	<RangeText> - 指定一段範圍的 IP 位址。</RangeText>
+	<adminAdress>管理者的 IP 位址</adminAdress>
+	<adminAdressText> - 你可以啟動或設定一個 IP 位址來當為管理者 IP，來讓這個 IP 位址可以永遠使用這台攝影機。</adminAdressText>
+	<httpsTitle>HTTPS 設定</httpsTitle>
+	<httpsName>HTTPS 設定</httpsName>
+	<httpsNameExplain> - 當選擇這個選項，你可以使用 HTTP 或 HTTPS 連線來使用這台攝影機。</httpsNameExplain>
+	<connectType>連線的種類</connectType>
+	<bothHttpAndHttps>同時使用 HTTP 與 HTTPS</bothHttpAndHttps>
+	<bothHttpAndHttpsInfo> - 你可以選擇這個選項來允許 HTTP 和 HTTPS 連線到這台攝影機。</bothHttpAndHttpsInfo>
+	<httpsOnly>僅使用 HTTPS</httpsOnly>
+	<httpsOnlyInfo> - 你可以選擇這個選項來只允許 HTTPS 連線到這台攝影機。</httpsOnlyInfo>
+	<createMethod>產生與安裝認證的方法</createMethod>
+	<autoCreateMethod>自動產生並安裝認證</autoCreateMethod>
+	<autoCreateMethodInfo> - 選擇這個方法來自動產生並安裝認證。</autoCreateMethodInfo>
+	<manCreateMethod>手動產生並安裝認證</manCreateMethod>
+	<manCreateMethodinfo> - 選擇這個方法來手動產生並安裝認證。</manCreateMethodinfo>
+	<createAndInstallMethod>先產生認證需求，再安裝認證</createAndInstallMethod>
+	<createAndInstallMethodInfo> - 選擇這個方法允許你先產生認證需求，並由認證單位來進行簽核，然後再安裝由認證單位傳回的認證。</createAndInstallMethodInfo>
+	<certInfo>認證的資訊</certInfo>
+	<certInfoExplain> - 你認證的狀態和資訊，你可以點選屬性來觀看更多詳細的資訊。</certInfoExplain>
+</body>

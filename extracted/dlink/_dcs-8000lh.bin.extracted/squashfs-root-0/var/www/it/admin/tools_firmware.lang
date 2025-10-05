@@ -1,0 +1,43 @@
+<body>
+	<description1>Potrebbe essere disponibile un nuovo aggiornamento del firmware per la videocamera IP. Si consiglia di mantenere il firmware della videocamera IP aggiornato per migliorare la funzionalità e le prestazioni della videocamera Internet. Fare clic qui </description1>
+	<description2>Pagina del supporto tecnico D-Link </description2>
+	<description3>per verificare la disponibilità della versione più recente del firmware. </description3>
+	<description4>Per aggiornare il firmware della videocamera IP, scaricare la versione più recente del firmware dalla pagina del supporto tecnico D-Link e salvarla sul disco rigido locale. Per individuare il file sul disco rigido locale, fare clic sul pulsante Sfoglia. Dopo aver individuato e aperto il file con il pulsante Sfoglia, fare clic sul pulsante "Carica" per avviare l'aggiornamento del firmware. </description4>
+	<firmwareUpgrade>aggiornamento firmware</firmwareUpgrade>
+	<filePath>Percorso del file: </filePath>
+	<upload>Carica</upload>
+	<reboot1>Riavvio della videocamera in corso. Attendere </reboot1>
+	<reboot2> secondi.</reboot2>
+	<firmwareInfo>Informazioni sul firmware</firmwareInfo>
+	<firmwareVersion>Versione corrente firmware:</firmwareVersion>
+	<firmwareProduct>Numero di build corrente del firmware:</firmwareProduct>
+	<mcufirmware>Versione corrente del firmware MCU:</mcufirmware>
+	<updateConfirm>Aggiornare il firmware?</updateConfirm>
+	<updatingText>Non chiudere questa pagina Web o scollegare il cavo di alimentazione quando è in corso l'aggiornamento del firmware.</updatingText>
+	<filepathError>Specificare il percorso del file.</filepathError>
+	<progress>Stato caricamento</progress>
+	<agentVersion>Versione agente corrente:</agentVersion>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<description1>Periodicamente vengono rilasciati aggiornamenti del firmware che consentono di ottimizzare il funzionamento della videocamera IP e di aggiungere nuove funzionalità. In caso di problemi con una funzionalità specifica della videocamera IP, visitare il sito del supporto tecnico facendo clic </description1>
+	<description2>qui</description2>
+	<description3> per verificare la disponibilità di un aggiornamento del firmware per la videocamera IP.</description3>
+</hint>
+<message>
+	<updateOK>Firmware aggiornato.</updateOK>
+	<uploadFail>Il caricamento non è riuscito</uploadFail>
+	<examFail>L'immagine caricata è danneggiata</examFail>
+	<infoFail>L'immagine caricata non contiene informazioni</infoFail>
+	<invalidImage>L'immagine caricata non può essere utilizzata su questo prodotto</invalidImage>
+	<resetFail>Il ripristino non è riuscito</resetFail>
+	<resetOK>Ripristino eseguito</resetOK>
+	<rebootFail>Il riavvio non è riuscito</rebootFail>
+	<rebootOK>Riavvio eseguito</rebootOK>
+	<calibrationOK>Calibrazione completata correttamente</calibrationOK>
+	<importOK>Importazione completata correttamente, verrà eseguito il riavvio</importOK>
+	<invalidDB>File DB non valido</invalidDB>
+	<noDB>Nessun file DB caricato</noDB>
+	<saveOK>Riavvio server Web in corso. Attendere 75 secondi, quindi riconnettere la videocamera con il nuovo indirizzo IP.</saveOK>
+</message>
+

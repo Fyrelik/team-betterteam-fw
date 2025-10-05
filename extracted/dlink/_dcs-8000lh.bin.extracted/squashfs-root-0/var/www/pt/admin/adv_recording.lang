@@ -1,0 +1,168 @@
+<body>
+	<pageTitle>Gravação SD</pageTitle>
+	<pageEnable>Gravação SD</pageEnable>
+	<description1>Aqui você pode configurar e agendar a gravação de sua câmera. Você deve selecionar a opção de 'Gravação SD' para habilitar a funcionalidade.</description1>
+	<description2>Gravação iniciada por movimento é desabilitada quando o modo SXGA estiver habilitada.</description2>
+	<description3>Para habilitar a gravação iniciada por movimento, selecionar mode VGA ou XGA em </description3>
+	<description4> Audio e Video</description4>
+	<savebutton>Salvar Configurações</savebutton>
+	<notsavebutton>Não Salvar Configurações</notsavebutton>
+	<recording>GRAVAÇÃO SD</recording>
+	<enableRecording>Habilitar Gravação</enableRecording>
+	<resolution>Resolução</resolution>
+	<small>perfil 3</small>
+	<medium>perfil 2</medium>
+	<large>perfil 1</large>
+	<titan>perfil 4</titan>
+	<continousRecording>Contínuo (Somente Samba)</continousRecording>
+	<scheduledRecording>Agendado (Somente Samba)</scheduledRecording>
+	<continousRecordingOnlySamba>Contínuo</continousRecordingOnlySamba>
+	<scheduledRecordingOnlySamba>Agendado</scheduledRecordingOnlySamba>
+	<hour>Horas</hour>
+	<min>Minutos</min>
+	<sun>Dom </sun>
+	<mon>Seg </mon>
+	<tue>Ter </tue>
+	<wed>Quar </wed>
+	<thu>Quin </thu>
+	<fri>Sex </fri>
+	<sat>Sab </sat>
+	<from>Iniciar </from>
+	<profile2>Perfil 2</profile2>
+	<profile3>Perfil 3</profile3>	
+	<to>Terminar </to>
+	<motionDetection>Gravação iniciada por detecção de movimento</motionDetection>
+	<digitalInput>Gravação iniciada pela entrada digital 1</digitalInput>
+	<digitalInput2>Gravação iniciada pela entrada digital 2</digitalInput2>
+	<prerecord>Pre gravar</prerecord>
+	<postrecord>Pos gravar</postrecord>
+	<range> (Range : 0 a 15 segundos)</range>
+	<second> segundos</second>
+	<recordTo>Gravar para </recordTo>
+	<sambaNetworkDrive>Unidade de Rede Samba</sambaNetworkDrive>
+	<sambaAuth>Autent Samba </sambaAuth>
+	<anonymous>Anônimo</anonymous>
+	<account>Conta</account>
+	<username>Nome de Usuário </username>
+	<password>Senha </password>
+	<passwordConfim>Confirmar Senha </passwordConfim>
+	<serverIp>Servidor </serverIp>
+	<sharedFolder>Pasta Compartilhada </sharedFolder>
+	<test>Teste</test>
+	<sambaStatus>Estado Samba : </sambaStatus>
+	<getStatus>Obter estado</getStatus>
+	<sdCard>Cartão SD </sdCard>
+	<sdCardStatus>Estado Cartão SD : </sdCardStatus>
+	<recordingOptions>Opções de Gravação</recordingOptions>
+	<recordUntil>Gravar até </recordUntil>
+	<spaceRange>MB do espaço livre está sobrando (mínimo de 32MB)</spaceRange>
+	<storageFull>Quando o storage está cheio:</storageFull>
+	<stopRecording>Parar gravação</stopRecording>
+	<overwriteRecordings>Sobre escrever gravações antigas</overwriteRecordings>
+	<scheduling>Agenda</scheduling>
+	<eventBased>Baseado em Evento</eventBased>
+	<methodError>Por favor selecione a configuração de gravação</methodError>
+	<scheduleError>Por favor preencha a agenda</scheduleError>
+	<triggerError>Por favor selecione a cartão SD</triggerError>
+	<hourError>Horas não válidas</hourError>
+	<minuteError>Minutos não são válidos</minuteError>
+	<fullHourError>Se o final de horas for 24, o final dos minutos pode somente ser ajustado para 0</fullHourError>
+	<legalTimeError>Tempo inicial tem que ser menor que o tempo final</legalTimeError>
+	<recordSecError>Por favor inserir um número entre 0~15</recordSecError>
+	<usernameError>O nome de usuário Samba não pode ser vazio</usernameError>
+	<passwordError>A senha da conta Samba não pode ser vazia</passwordError>
+	<confimError>A senha da conta Samba e a confirmação de senha estão diferentes</confimError>
+	<spaceError>O espaço livre não é válido, o espaço mínimo livre é de 32 M</spaceError>
+	<serverError>O campo Servidor não pode estar vazio, aceita somente número, alfabeto, \".\" , \"-\", e caracteres \"_\"</serverError>
+	<shareFolderError>Pasta Compartilhada não pode ser vazia, aceita somente número, alfabeto, \"-\", e caracteres \"_\"</shareFolderError>
+	<trigger>Iniciado por</trigger>
+	<ignoreMot>Ignorar os seguintes movimentos em</ignoreMot>
+	<range2> (Range : 0 a 86400 segundos)</range2>
+	<onlyDuring>Somente Durante</onlyDuring>
+	<day>Dia</day>
+	<time>Horário</time>
+	<type>Tipo de gravação SD</type>
+	<source>Fonte</source>
+	<description6>Configurável em </description6>
+	<description7> Audio e Video</description7>
+	<preRec>Grevação de pre-evento :</preRec>
+	<preRecNotify>(Entre 0 e 5 segundos)</preRecNotify>
+	<postRec>Grevação de pos-evento :</postRec>
+	<postRecNotify>(Entre 0 e 60 segundos)</postRecNotify>
+	<target>Alvo</target>
+	<interval>Intervalo</interval>
+	<quota>Manter o espaço livre</quota>
+	<global>Parâmetro Global</global>
+	<minimum>Minimo é 200</minimum>
+	<sd>Cartão SD</sd>
+	<sdcycle>Cíclico</sdcycle>
+	<schedulingg>Agenda</schedulingg>
+	<motionBased>Movimento</motionBased>
+	<audioBased>Som</audioBased>
+	<alwaysBased>Sempre</alwaysBased>
+	<motionNote>A detecção de movimento não está habilitada, por favor siga para a página de detecção de movimento para configurar.</motionNote>
+	<audioNote>A detecção de som não está habilitada, por favor siga para a página de detecção de som para configurar.</audioNote>
+	<sdNote>Não há nenhum cartão SD inserido na câmera ou o cartão SD não está habilitado para escrita.</sdNote>
+	<sdManagement1>Para formatar o cartão SD na câmera, por favor desabilite a gravação SD primeiro e então siga para </sdManagement1>
+	<sdManagement2>Gerenciamento SD</sdManagement2>
+	<sdManagement3> página.</sdManagement3>
+	<sdNoteFull>O cartão SD está cheio.</sdNoteFull>
+	<sdcardrecording>GRAVANDO O CARTÃO SD</sdcardrecording>
+	<preErr>Gravação Pre-evento deve ser um inteiro e estar entre 0 e 5</preErr>
+	<postErr>Gravação Pos-evento deve ser um inteiro e estar entre 0 e 60</postErr>
+	<ignoreMotionTimeError>Ignorar movimentos seguintes em segundos deve ser um inteiro</ignoreMotionTimeError>
+	<ignoreMotionTimeError2>Ignorar movimentos seguintes em segundos deve ser 0~86400</ignoreMotionTimeError2>
+	<mfhourError>Hora inicial não é válida</mfhourError>
+	<mthourError>Hora final nã é válida</mthourError>
+	<mfminuteError>Minuto inicial não é válido</mfminuteError>
+	<mtminuteError>Minuto final não é válido</mtminuteError>
+	<dayErr>Por favor escolher ao menos um dia</dayErr>
+	<triggerError>Por favor escolher um alvo</triggerError>
+	<sdQuotaError>Manter o espaço livre do cartão SD deve ser um inteiro entre 200 a 32768</sdQuotaError>
+	<checkboxSnapshot>Snapshot</checkboxSnapshot>
+	<checkboxVideo>Video</checkboxVideo>
+	<recordingTypeErr>Por favor selecione o tipo de gravação</recordingTypeErr>
+	<sdkeepSpace>Manter o espaço livre</sdkeepSpace>
+	<sdkeepSpacel> Ajuste a capacidade do seu cartão SD para prevenir que o sistema fique instável</sdkeepSpacel>
+	<recordingLength>Tamanho de Gravação</recordingLength>
+	<recordingLengthl> Ajuste o tempo de cada gravação de vídeo.</recordingLengthl>
+	<sdcyclic>Cíclico</sdcyclic>
+	<sdcyclic1> Quando esta opção for selecionada, fará com que a pasta antiga seja apagada quando o sistema requerer espaço para novos arquivos.</sdcyclic1>
+	<profiletype1>Perfil 1</profiletype1>
+	<profiletype2>Perfil 2</profiletype2>
+	<profiletype3>Perfil 3</profiletype3>
+	<FileLenMinUntil>Tamanho de gravação : </FileLenMinUntil>
+	<FileLenMin>minutos por arquivo</FileLenMin>
+	<gpio>Entrada Digital</gpio>
+	<performance>O desempenho de seu cartão SD na câmera não é o suficiente para gravação. Sugerimos que o cartão SD seja reformatado ou trocado por um de maior capacidade.
+</performance>
+	<vediofileformat>Formato de arquivo :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<description1>Gravação SD é a capacidade de gravar vídeos ou snapshots (por segundo) em um cartão SD local baseado em detecção de movimento ou em um horário específico.</description1>
+	<description2>Para habilitar a gravação, marque a opção Habilitar Gravação, depois selecione se deseja salvar o vídeo em um cartão SD inserido na câmera ou em uma unidade de rede Samba. Depois, selecione uma agenda para especificar quando a câmera deve gravar o vídeo.</description2>
+	<description3>Você pode gravar o vídeo para um 'cartão SD' ou uma 'unidade de rede Samba' baseado em um evento selecionado. Você pode também configurar as 'Opções de gravação' e selecionar um método de agendamento para especificar quando a câmera gravará o vídeo.</description3>
+	<descriptionNoSdcard>Habilitar a gravação permitirá que sua câmera grave vídeos em tempo real em uma unidade de rede Samba baseado em eventos selecionados. Para habilitar a gravação, selecione a opção Habilitar gravação. Depois, selecione um método de agendamento para especificar quando a câmera gravará o vídeo. </descriptionNoSdcard>
+	<motionBased>Iniciar um gravação SD após um movimento ser detectada.</motionBased>
+	<audioBased>Iniciar uma gravação após um som ser detectado.</audioBased>
+	<scheduling>Gravação SD em um horário especificado.</scheduling>
+	<alwaysBased>Gravação SD contínua.</alwaysBased>
+	<type>Você pode ajustar o perfil de vídeo, ajustar a gravação de pre-evento, gravação de pos-evento aqui, quando é iniciado por movimento. Você também pode selecionar gravação com um snapshot ou vídeo.</type>
+	<sd>Você pode ajustar o quanto de espaço livre deve ser mantido no cartão SD e se a gravação é cíclica ou não.</sd>
+	<gpio>Iniciar gravação após a entrada digital ser detectada.</gpio>
+</hint>
+<message>
+	<ok>Alterações salvas.</ok>
+	<fail>Alterações falharam.</fail>
+	<testing>Testando</testing>
+	<disable>Desabilitar</disable>
+	<normal>Normal</normal>
+	<initing>Iniciando</initing>
+	<mntFailure>Falha Gerenciamento</mntFailure>
+	<failure>Falha</failure>
+	<invalidParameter>Falha de configuração</invalidParameter>
+	<updateFailed>Atualizar falha de configuração</updateFailed>
+</message>

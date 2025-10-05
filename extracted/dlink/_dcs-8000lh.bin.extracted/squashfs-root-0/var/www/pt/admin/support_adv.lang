@@ -1,0 +1,483 @@
+<body>
+	<setup>INSTALAÇÃO</setup>
+	<wizard>Assistente de configuração</wizard>
+	<networkSetup>Rede</networkSetup>
+	<wirelessSetup>Configuração Wireless</wirelessSetup>
+	<dynamicDNS>Dinâmico DNS</dynamicDNS>
+	<imageSetup>Configuração de imagem</imageSetup>
+	<audioVideo>Audio e Video</audioVideo>
+	<timeAndDate>Hora e Data</timeAndDate>
+	<videoclip>Video Clipe</videoclip>
+	<snapshot>Snapshot</snapshot>
+	<digitalOutput>Saída digital</digitalOutput>
+	<motionDetection>Deteção de movimento</motionDetection>
+	<cameraControl>Controle de câmera</cameraControl>
+	<SDCard>Cartão SD</SDCard>
+	<presetPosition>Posição predefinida</presetPosition>
+	<recording>Gravação</recording>
+	<wizardInternetSettings>Assistente de configuração de conexão de Internet</wizardInternetSettings>
+	<wizardInternetSettings1> - Esta opção é usada para configurar sua câmera IP para a rede usando o Assistente de instalação. Isso pode ser feito manualmente usando um IP estático, automaticamente usando o cliente DHCP ou PPPoE. (Dynamic Host Configuration Protocol é um protocolo de rede que permitirá o uso de um endereço IP pelo cliente através de um servidor por um período de tempo especificado.)</wizardInternetSettings1>
+	<wizardMotionSettings>Assistente de configuração de deteção de movimento</wizardMotionSettings>
+	<wizardMotionSettings1> - Esta opção é usada para configurar definições de detecção da câmera IP. Se você estiver configurando este dispositivo pela primeira vez, a D-Link recomenda que você clique no botão Assistente de configuração de deteção de movimento e siga as instruções na tela.</wizardMotionSettings1>
+	<lanSetting>CONFIGURAÇÕES DE LAN</lanSetting>
+	<lanSetting1> - É altamente recomendável escolher a opção de endereço IP estático e digite um endereço IP que corresponde a suas configurações de rede. Se sua rede estiver usando um servidor DHCP, você pode clicar em endereço de IP automático e câmera obterá automaticamente um endereço IP do servidor DHCP. Cada vez que a câmera é iniciada , certifique-se de que o servidor DHCP está configurado para atribuir um endereço IP dinâmico para a câmera de Internet.</lanSetting1>
+	<lanSetting2>Servidor DNS (Domain Name System) é um serviço de Internet que traduz nomes de domínio (ou seja, www.dlink.com) em endereços IP (ou seja, 192.168.0.20). O endereço pode ser obtido de seu gateway de rede ou provedor.</lanSetting2>
+	<lanSetting3>UPnP</lanSetting3>
+	<lanSetting4> - Clique na opção para criar um atalho da câmera na pasta [minha rede local] de seu computador.</lanSetting4>
+	<lanSetting5>UPnP Port Forward</lanSetting5>
+	<lanSetting6> - Se seu roteador suportar UPnP, suas câmeras e roteador podem se comunicar-se entre si para que o roteador saiba quais portas serão usadas por cada câmera. Isso significa que você será capaz de acessar suas câmeras da Internet sem configurar seu roteador manualmente.</lanSetting6>
+	<pppoeSetting>PPPoE</pppoeSetting>
+	<pppoeSetting1> - Se você usar a câmera para conectar-se diretamente à Internet, você precisará inserir o nome de usuário e a senha, que foram dadas a você, quando você configurou a sua conta em seu provedor de Internet. Se a câmera estiver ligada em um gateway ou um roteador, você não precisará definir essa configuração.</pppoeSetting1>
+	<portSetting>CONFIGURAÇÕES DE PORTA</portSetting>
+	<portSetting1> - Permite especificar e reservar as portas HTTP e RTSP streaming.</portSetting1>
+	<httpPort>Porta HTTP</httpPort>
+	<httpPort1> - Portas HTTP permitem que você se conecte a câmera através de um navegador da web padrão. Esta porta pode ser definida com um número diferente de porta padrão HTTP 80. Uma porta correspondente deve ser aberta no roteador. Por exemplo, se a porta for alterada para 8080, os usuários devem digitar no navegador da web "http://192.168.0.100:8080" em vez de "http://192.168.0.100".</httpPort1>
+	<rtspPort>Porta RTSP</rtspPort>
+	<rtspPort1> - Uma porta que você pode alocar para conectar a câmera com seu dispositivo móvel, como um smartphone ou Tablet. Por padrão a porta RTSP é 554.</rtspPort1>
+	<bonjour>Bonjour</bonjour>
+	<bonjour1> - Enable Bonjour permitirá que você descubra a câmera em um computador Apple.</bonjour1>
+	<ddnsServerAddr>Endereço do servidor</ddnsServerAddr>
+	<ddnsServerAddr1> - Selecione o endereço web do seu provedor de serviço de Dynamic DNS.</ddnsServerAddr1>
+	<ddnsTimeout>Tempo limite</ddnsTimeout>
+	<ddnsTimeout1> - Você pode configurar quantas vezes a câmara notifica o servidor DDNS do seu endereço IP global. Por padrão, isso é 576 horas.</ddnsTimeout1>
+	<dynamicDNS1> (Dynamic Domain Name Server) - o serviço DDNS sincroniza o endereço IP público do dispositivo de Internet quando ele foi modificado. O nome de usuário e a senha são necessários para usar o serviço DDNS.</dynamicDNS1>
+	<ddnsHostname>Nome do host</ddnsHostname>
+	<ddnsHostname1> - O nome de domínio escolhido para o serviço DDNS.</ddnsHostname1>
+	<ddnsUsername>Nome de usuário</ddnsUsername>
+	<ddnsUsername1> - O nome da conta do serviço DDNS.</ddnsUsername1>
+	<ddnsPassword>Senha</ddnsPassword>
+	<ddnsPassword1> - A senha para a conta do serviço DDNS.</ddnsPassword1>
+	<wirelessenable>Habilitar Wireless</wirelessenable>
+	<wirelessenable1> - Ative primeiro a rede sem fio antes de configurar a conexão sem fio da câmera. Você pode escolher qual rede sem fios para a conexão usando o menu de 'Site Survey' ou digite o SSID da rede manualmente.</wirelessenable1>
+	<rescan>Rescan</rescan>
+	<rescan1> - Procure o nome do dispositivo em sua rede sem fio novamente.</rescan1>
+	<key>Chave</key>
+	<key1> - Um conjunto de caracteres pré-compartilhados para a conexão entre a câmera e o dispositivo sem fio quando você selecionar WEP, WPA-PSK ou WPA2-PSK para modo de segurança.</key1>
+	<showpw>Mostrar Chave Escondida</showpw>
+	<showpw1> - Quando a opção for selecionada, a chave pré-compartilhada aparecerá como texto.</showpw1>
+	<networkName>Nome da rede</networkName>
+	<networkName1> - O nome da rede sem fio como padrão, conferência, minha rede, etc.</networkName1>
+	<siteSurvey>Site Survey</siteSurvey>
+	<siteSurvey1> - Um menu suspenso que contém todas as redes sem fio disponíveis.</siteSurvey1>
+	<SSID>SSID</SSID>
+	<SSID1> (Service Set Identifier) - o nome da rede sem fio como padrão, conferência, minha rede, etc.</SSID1>
+	<wirelessMode>Modo wireless</wirelessMode>
+	<wirelessMode1> - A configuração wireless é definida como "Modo de infra-estrutura" por padrão. Isso requer o uso de um ponto de acesso/roteador sem fio. Altere a configuração para "Ad Hoc", se a rede não tem um ponto de acesso ou roteador sem fio.
+	</wirelessMode1>
+	<channel>Canal</channel>
+	<channel1> - Por padrão, o valor é auto para o modo infra-estrutura. O canal será selecionável apenas em modo Ad-Hoc.</channel1>
+	<authentication>Modo de segurança</authentication>
+	<authentication1>Nenhuma - esta opção faz a câmera visível para todos os dispositivos na rede.</authentication1>
+	<authentication2>WEP - permitir a comunicação com outros dispositivos que tenham as configurações idênticas de WEP (Wired Equivalent Privacy).</authentication2>
+	<authentication3>WPA-PSK, WPA2-PSK - ambas as modalidades exigem que você introduza uma chave pré-compartilhada para a conexão entre a câmera e o dispositivo sem fio.</authentication3>
+	<encryption>Tipo de cifra</encryption>
+	<encryption1>TKIP-(Temporal Key Integrity Protocol) - proteção contra hackers usando código de integridade da mensagem (MIC). Seria ideal, você aplicar o WPA com TKIP. </encryption1>
+	<encryption2>AES-(Advanced Encryption System) - utiliza uma criptografia de dados simétrica de 128 bits. Seria ideal, você aplicar o WPA2 com AES.</encryption2>
+	<pppoeSetting>PPPoE</pppoeSetting>
+	<pppoeSetting1> - Se você usar a câmera para conectar-se diretamente à Internet, você precisará inserir o nome de usuário e a senha, que foram dadas a você, quando você configurou a sua conta em seu provedor de Internet. Se a câmera estiver conectada em um gateway ou um roteador, você não precisará definir essa configuração.</pppoeSetting1>
+	<portSetting>Detalhes de configuração de porta</portSetting>
+	<portSetting1> - Permite especificar e reservar as portas streaming HTTP e RTSP.</portSetting1>
+	<httpPort>Porta HTTP</httpPort>
+	<httpPort1> - Portas HTTP permitem que você se conecte a câmera através de um navegador da web padrão. Esta porta pode ser definida com um número diferente de porta padrão HTTP 80. Uma porta correspondente deve ser aberta no roteador. Por exemplo, se a porta for alterada para 8080, os usuários devem digitar no navegador da web "http://192.168.0.100:8080" em vez de "http://192.168.0.100".</httpPort1>
+	<rtspPort>Porta RTSP</rtspPort>
+	<rtspPort1> - Uma porta que você aloca para conectar a câmera ao seu dispositivo móvel, como um telefone móvel ou PDA.</rtspPort1>
+	<ddnsHostname>Nome do host</ddnsHostname>
+	<ddnsHostname1> - O nome de domínio escolhido para o serviço DDNS.</ddnsHostname1>
+	<ddnsUsername>Nome de usuário</ddnsUsername>
+	<ddnsUsername1> - O nome da conta do serviço DDNS.</ddnsUsername1>
+	<ddnsPassword>Senha</ddnsPassword>
+	<ddnsPassword1> - A senha para a conta do serviço DDNS.</ddnsPassword1>
+	<ddnsstatus>Estado</ddnsstatus>
+	<ddnsstatus1> - O estado de DDNS, ele indica a disponibilidade da função do DDNS.</ddnsstatus1>
+	<siteSurvey>Site Survey</siteSurvey>
+	<siteSurvey1> - Um menu que contém todas as redes sem fio disponíveis.</siteSurvey1>
+	<SSID>SSID</SSID>
+	<SSID1> (Service Set Identifier) - o nome da rede sem fio como padrão, conferência, minha rede, etc.</SSID1>
+	<wirelessMode>Modo Wireless</wirelessMode>
+	<wirelessMode1> - A configuração wireless é definida como "Modo de infra-estrutura" por padrão. Isso requer o uso de um ponto de acesso/roteador sem fio. Altere a configuração para "Ad Hoc", se a rede não tem um ponto de acesso ou roteador sem fio. </wirelessMode1>
+	<channel>Canal</channel>
+	<channel1> - Por padrão, o valor é auto para o modo infra-estrutura. O canal será selecionável apenas em modo Ad-Hoc.</channel1>
+	<authentication>Autenticação</authentication>
+	<authentication1>Aberto - esta opção faz a câmera visível para todos os dispositivos na rede.</authentication1>
+	<authentication2>Compartilhado - permite a comunicação com outros dispositivos que possuem o WEP idêntico (configurações de Wired Equivalent Privacy).</authentication2>
+	<authentication3>WPA-PSK, WPA2-PSK - ambas as modalidades exigem que você introduza uma chave pré-compartilhada para a conexão entre a câmera e o dispositivo sem fio.</authentication3>
+	<encryption>Tipo de cifra</encryption>
+	<encryption1>Desabilitado - selecionar sem criptografia.</encryption1>
+	<encryption2>WEP - o usuário pode selecionar criptografia de 64 ou 128 bits em hexadecimal ou ASCII.</encryption2>
+	<key>Chave</key>
+	<path>Caminho</path>
+	<path1> - O diretório que o vídeo clipe será carregado (por exemplo, \pub\images).</path1>
+	<path11> - O diretório que o snapshot será carregado (por exemplo, \pub\images).</path11>
+	<prefixFilename>Prefixo de nome de arquivo</prefixFilename>
+	<prefixFilename1> - O prefixo que será adicionado à frente de cada nome de arquivo.</prefixFilename1>
+	<interval>Intervalo</interval>
+	<ftpinterval>Enviar próximo FTP após</ftpinterval>
+	<smtpinterval>Enviar próximo email após</smtpinterval>
+	<interval1> - O intervalo de tempo entre cada snapshot.</interval1>
+	<snapshotftpinterval> -  O intervalo de tempo entre cada snapshot que será enviado ao servidor FTP.</snapshotftpinterval>
+	<snapshotsmtpinterval> -  O intervalo de tempo entre cada snapshot que será enviado para o E-mail.</snapshotsmtpinterval>
+	<ftpServerport>Servidor FTP/Porta</ftpServerport>
+	<ftpServerport1> - Envie um snapshot para o servidor FTP. / A porta do servidor FTP. A maioria dos servidores FTP estão rodando na porta padrão (21).</ftpServerport1>
+	<ftpPort>Porta</ftpPort>
+	<ftpPort1> - A porta do servidor FTP. A maioria dos servidores FTP estão rodando na porta padrão (21).</ftpPort1>
+	<passiveMode>Modo passivo</passiveMode>
+	<passiveMode1> - Alguns servidores FTP permitem que os clientes usem o modo passivo para se conectar a um FTP que usam portas aleatórias para transferências.</passiveMode1>
+	<enableVideoclip>Video Clipe</enableVideoclip>
+	<enableVideoclip1> - Quando selecionar esta opção, pode-se enviar um vídeo clipe desta unidade para um E-mail ou para um servidor FTP.</enableVideoclip1>
+	<triggerEventVC>Iniciado por</triggerEventVC>
+	<triggerEventVC1>Movimento - Iniciar um clipe de vídeo depois que um movimento é detectado.</triggerEventVC1>
+	<triggerEventVC11>Som - Iniciar um clipe de vídeo depois que um som é detectado.</triggerEventVC11>
+	<triggerEventVC2>Agendado - Iniciar clipe de vídeo em um horário especificado.</triggerEventVC2>
+	<triggerEventVC3>Sempre - clipe de vídeo contínuo.</triggerEventVC3>
+	<Videocliptype>Tipo de Video Clipe</Videocliptype>
+	<Videocliptype1> - Você pode selecionar o perfil de vídeo desejado para gravar clipes de vídeo e definir a gravação pré-evento e a duração máxima aqui.</Videocliptype1>
+	<videocliptarget>Alvo</videocliptarget>
+	<videocliptarget1> - Você pode selecionar o destino como FTP ou E-Mail para o clipe de vídeo.</videocliptarget1>
+	<videoProfile>Perfil de Video</videoProfile>
+	<videoProfile1> - Você pode separadamente definir as configurações de imagem diferentes (como qualidade de imagem e taxa de quadros) para os quatro tipos de vídeo da câmera.</videoProfile1>
+	<encodeType>Tipo de Codificação</encodeType>
+	<encodeType1> - Selecione o codec de vídeo H.264 e JPEG.</encodeType1>
+	<resolution>Resolução</resolution>
+	<recResolution1> - Você pode selecionar para gravar o vídeo 4 opções de perfil de vídeo.</recResolution1>
+	<frameRate>Taxa máxima de quadros</frameRate>
+	<frameRate1> - O número máximo de quadros que é exibido em 1 segundo. 30fps é a mais alta qualidade de vídeo para esta máquina. Em geral, qualquer taxa de quadros acima de fps 15 é imperceptível ao olho humano.</frameRate1>
+	<bitRate>Taxa de bits fixa</bitRate>
+	<bitRate1> - Selecione uma largura de banda fixa para sua operação de câmera. Esta opção permite que o usuário selecione a taxa de quadros personalizado adequada para a largura de banda e o espaço de armazenamento.</bitRate1>
+	<jpegQuality>Qualidade</jpegQuality>
+	<jpegQuality1> - Quando é selecionada excelente, a melhor qualidade de imagem é alcançada.</jpegQuality1>
+	<rtspUrl>RTSP URL</rtspUrl>
+	<rtspUrl1> - RTSP URL é a URL usada para conectar-se à câmera quando visualizado de um smartphone ou Tablet computador (ou seja, rtsp://EXAMPLE.dlinkddns.com/3gpp).</rtspUrl1>
+	<enableSpeaker>Habilitar o alto-falante</enableSpeaker>
+	<enableSpeaker1>- Quando Ativado, pode-se falar no microfone do seu PC e sua voz vai ser ouvida através do alto-falante externo conectado à câmera.</enableSpeaker1>
+	<enableMicrophone>Habilitar microfone</enableMicrophone>
+	<enableMicrophone1> - Quando ativado, pode-se monitorar o áudio do microfone da câmera IP.</enableMicrophone1>
+	<speakerVolume>Volume do alto-falante</speakerVolume>
+	<speakerVolume1> - Você pode ajustar o volume do alto-falante utilizando a configuração de nível de volume.</speakerVolume1>
+	<microphoneVolume>Volume do microfone</microphoneVolume>
+	<microphoneVolume1> - Você pode ajustar o volume do microfone usando a configuração de nível de volume.</microphoneVolume1>
+	<enablemute>Auto Mute</enablemute>
+	<enablemute1> - Habilite esta opção para silenciar o microfone automaticamente quando a lente da câmera está se movendo.</enablemute1>
+	<brightness>Brilho</brightness>
+	<brightness1> - É usado para compensar a luz de fundo da cena.</brightness1>
+	<saturation>Saturação</saturation>
+	<saturation1> - Controlar a intensidade da cor que vai do preto e branco para cores fortes.</saturation1>
+	<frequency>Frequência</frequency>
+	<frequency1> - Talvez necessite escolher as frequências 'Auto', '50' ou ' 60' Hz (dependendo do país).</frequency1>
+	<whitebalance>Balanço de Branco</whitebalance>
+	<whitebalance1> - Ele removerá a matiz de cor não reais, desta maneira os objetos que são brancos são renderizados brancos no vídeo.</whitebalance1>
+	<bw>B/W</bw>
+	<bw1> - Selecione esta opção para habilitar ou desabilitar o modo preto e branco de sua câmera.</bw1>
+	<flip>Inverso</flip>
+	<flip1> - Selecionar esta funcionalidade quando sua câmera está instalada invertida no teto.</flip1>
+	<mirror>Espelho</mirror>
+	<mirror1> - Selecionar esta funcionalidade para obter uma imagem espelhada.</mirror1>
+	<lightSource>Fonte de Luz</lightSource>
+	<lightSource1> - Selecionar ambiente Interno ou Externo.</lightSource1>
+	<slowShutter>Obturador lento</slowShutter>
+	<slowShutter1> - Selecione a velocidade de obturação mínima quando o ambiente está escuro.</slowShutter1>
+	<contrast>Contraste</contrast>
+	<contrast1> - Ajustável para controlar o contraste das cores entre o objeto. Ajuda a melhorar a imagem sob um céu frio e cinzento.</contrast1>
+	<hue>Tonalidade</hue>
+	<hue1> - Controla diferentes graus de cor que estimulam o olho humano.</hue1>
+	<sharpness>Nitidez</sharpness>
+	<sharpness1> - É usado para ajustar a nitidez de imagem.</sharpness1>
+	<autoExposure>Auto Exposição</autoExposure>
+	<autoExposure1> - Selecione este recurso para fazer a câmera automaticamente ajustar o tempo de exposição.</autoExposure1>
+	<BLC>BLC</BLC>
+	<BLC1> - Back Light Compensation - quando um objeto está na frente de luzes brilhantes é difícil para câmera IP capturar a imagem claramente. A seleção dessa opção permite que objetos tornem-se mais claros quando expostos a luzes brilhantes.</BLC1>
+	<AWB>AWB</AWB>
+	<AWB1> - Auto White Balance - É o processo de remover matizes de cores irreais, para que os objetos brancos sejam renderizados brancos em sua foto.</AWB1>
+	<AGC>AGC</AGC>
+	<AGC1> - Auto Gain Control - Controla o ganho de um sinal. Usar o AGC significa que sinais mais fracos recebem mais ganho e sinais mais fortes recebem menos ganho ou nenhum deles.</AGC1>
+	<AES>AES</AES>
+	<AES1> - Auto Electronic Shutter - Permite que a velocidade do obturador ser ajustado automaticamente. Velocidade rápida do obturador permitirá a rápida movimentação de objetos possa ser visto mais claramente.</AES1>
+	<clearMotion>Limpar</clearMotion>
+	<clearMotion1> - Apaga todas as células ativas onde um movimento foi detectado e é mostrado em vermelho.</clearMotion1>
+	<enablePIR>Habilitar PIR</enablePIR>
+	<enablePIR1> - Quando esta opção estiver selecionada, use PIR (infravermelho passivo) para detectar movimento.</enablePIR1>
+	<enableMotion>Habilitar o movimento do vídeo</enableMotion>
+	<enableMotion1> - Selecione esta opção para habilitar a detecção de movimento para sua câmera.</enableMotion1>
+	<pirsensibility>Sensibilidade PIR</pirsensibility>
+	<pirsensibility1> - Há três opções para o nível de sensibilidade: baixa, média e alta e o padrão é baixo. Quando a sensibilidade é definida como "Baixa", mais movimento é necessário para acionar o sensor. Recomenda-se experimentar com essas configurações para encontrar a que melhor lhe convier. Se o nível de sensibilidade é muito baixo, então você pode alterar a configuração de sensibilidade para "Médio" ou "Alta".</pirsensibility1>
+	<sensitivity>Sensibilidade</sensitivity>
+	<sensitivity1> - Sensibilidade permite que você especifique quanto movimento é necessário para acionar a deteção do movimento.</sensitivity1>
+	<unselectRange>Desenhe a área de movimento</unselectRange>
+	<unselectRange1> - Arraste o mouse para aumentar o range de deteção de movimento.</unselectRange1>
+	<inverseRange>Apague a área de movimento</inverseRange>
+	<inverseRange1> - Arraste o mouse para apagar o range de deteção de movimento.</inverseRange1>
+	<formatvalue>Formate o cartão SD </formatvalue>	
+    <formatvalue1>- Esta opção é usada para excluir todos os dados no cartão SD.</formatvalue1>
+    <name>Nome </name>
+    <name1>- Mostra todos os arquivos salvos ou nome de pasta.</name1>
+    <num>Número de arquivos </num>
+    <num1>- Mostra o número de todos os arquivos salvos na pasta.</num1>
+    <size>Tamanho </size>
+    <size1>- Isso mostra o tamanho do arquivo.</size1>
+    <refresh>Atualizar </refresh>
+    <refresh1>- A opção é usada para recarregar o conteúdo da página da Web com os dados mais atuais.</refresh1>
+    <delete>Apagar </delete>
+    <delete1>- O botão apagar é usado para excluir os arquivos ou pastas selecionadas.</delete1>
+	<sdcardpath>Cartão SD</sdcardpath>
+	<sdcardpath1> - Isso pode indicar o caminho atual do cartão SD.</sdcardpath1>
+	<sdstatus>Estado SD</sdstatus>
+	<sdstatus1> - Indica o estado atual do cartão SD (se for inserido ou detectado).</sdstatus1>
+	<filesperpage>Arquivos por página</filesperpage>
+	<filesperpage1> - O número de arquivos por página.</filesperpage1>
+	<pages>Páginas</pages>
+	<pages1> - Você pode selecionar que página será exibida aqui.</pages1>
+	<total>Total</total>
+	<total1> - A capacidade total do cartão SD.</total1>
+	<used>Usedo</used>
+	<used1> - A capacidade utilizada do cartão SD.</used1>
+	<free>Livre</free>
+	<free1> - A capacidade livre do cartão SD.</free1>
+	<livevideoscreen>Tela de Vídeo Em Tempo Real</livevideoscreen>
+	<livevideoscreen1> - Você pode ver a posição da lente de câmera nesta tela de visualização em tempo real.</livevideoscreen1>
+	<pantiltcontrol>Controle Horizontal e Vertical</pantiltcontrol>
+	<pantiltcontrol1> - Você pode controlar a posição da lente de câmera clicando nos botões de seta Acima/Abaixo/esquerda/direita/esquerda acima/esquerda abaixo/direita acima/direita abaixo. Clicar o botão Início irá mover a lente na posição original de repouso.</pantiltcontrol1>
+	<setashome>Definição de Início/Definir como Início</setashome>
+	<setashomel> - Defina a posição atual da câmera como a posição inicial.</setashomel>
+	<defaulthome>Definição de Início / Início Padrão</defaulthome>
+	<defaulthomel> - Clique no botão para redefinir a posição inicial para a posição de fábrica.</defaulthomel>
+	<panSpeed>Passo Horizontal</panSpeed>
+	<panSpeed1> - É usado para controlar o passo que a câmera é movida usando o recurso de movimento horizontal.</panSpeed1>
+	<tiltSpeed>Passo Vertical</tiltSpeed>
+	<tiltSpeed1> - É usado para controlar o passo que a câmera é movida usando o recurso de movimento vertical.</tiltSpeed1>
+	<currentPosition>Nome de Predefinição:</currentPosition>
+	<currentPosition1> -  Mover a câmera em uma posição desejada e inserir um nome ou um número no campo de nome de predefinição e, em seguida, clicando em Adicionar incluirá a posição atual na opção de posição de predefinição</currentPosition1>
+	<presetPosition>Posição predefinida</presetPosition>
+	<presetPosition1> - Posição predefinida lista todas as posições que você têm predefinido e você pode excluí-lo.</presetPosition1>
+	<patrolPos>Vigilâncias Predefinidas</patrolPos>
+	<patrolPos1> - Irá determinar onde a câmera IP vai viajar e parar quando você clicar no botão de 'Vigilância' na página 'Vídeo'.</patrolPos1>
+	<patrolPosUp>Acima</patrolPosUp>
+	<patrolPosUp1> - Subir a posição de vigilância selecionada.</patrolPosUp1>
+	<patrolPosDn>Abaixo</patrolPosDn>
+	<patrolPosDn1> - Descer a posição de vigilância selecionada.</patrolPosDn1>
+	<patrolPosRm>Remover</patrolPosRm>
+	<patrolPosRm1> - Remover a posição de vigilância selecionada</patrolPosRm1>
+	<dwellingtime>Tempo de Permanência (seg)</dwellingtime>
+	<dwellingtime1> - O tempo de espera para a câmera IP permanecer em cada posição predefinida em vigilância.</dwellingtime1>
+	<recResolution>Resolução</recResolution>
+	<recResolution1> - 3 opções. VGA (Video Graphics Array) fornece uma resolução padrão para exibição de computador com resolução de 640 × 480. QVGA (Quarter Video Graphics Array) fornece resolução de 320 × 240, uma resolução-padrão para telefones celulares, PDAs e alguns consoles de jogo. QQVGA (Quarter-QVGA) oferece resolução 160 × 112, geralmente usado para telas de dispositivos portáteis.</recResolution1>
+	<bps>bps (Bits por Segundo)</bps>
+	<bps1> - Selecione uma largura de banda fixa para sua operação de câmera. Esta opção permite que o usuário selecione a taxa de quadros personalizada adequada para a largura de banda e o espaço de armazenamento.</bps1>
+	<fps>FPS (Quadros por Segundo)</fps>
+	<fps1> - O número máximo de quadros que é exibido em 1 segundo. 30fps é a mais alta qualidade de vídeo para esta máquina. Em geral, qualquer taxa de quadros acima de fps 15 é imperceptível aos olhos humanos.</fps1>
+	<encodeMethod>Método de Codificação</encodeMethod>
+	<encodeMethod1> - Selecione CBR para ter bps primeiro ou qualidade como método de codificação de vídeo.</encodeMethod1>
+	<cameraenvironment>Camera Environment</cameraenvironment>
+	<night>Modo Diurno/Noturno</night>
+	<night1> - Selecione o modo noite se sua câmera está em uma área de luz não ofuscante e você precisa melhorar a qualidade de vídeo.</night1>
+	<cameraenvironment1> - Você pode usar essas opções para configurar a câmera para o tipo de ambiente que ele foi posicionado.</cameraenvironment1>
+	<shutter>Obturador</shutter>
+	<shutter1> - Existem 3 velocidades de obturador selecionável quando utilizando o modo noturno.</shutter1>
+	<resolution1> - 3 opções dependem do sistema usado. Para VGA, 640 x 480, 320 x 240, 160 x 112; Para XGA, de 1024 x 768, 512x384, 256 x 192; Para SXGA 1280 x 1024, 640 x 512, 320 x 256; Para NTSC, 704 x 480, 352 x 240, 176 x 112; Para PAL: 704x576, 352x288, 176 x 144.</resolution1>
+	<resolution2> - Existem várias opções de dimensão.</resolution2>
+	<scheduledRecording>Agendado</scheduledRecording>
+	<scheduledRecording1> - Você pode programar para ligar e desligar em horário específico de cada dia de gravação.</scheduledRecording1>
+	<continuoussam>Contínuo (somente samba)</continuoussam>
+	<continuoussam1> - Selecione esta opção para gravar vídeo o tempo todo.</continuoussam1>
+	<scheduledsam>Agendado (somente samba)</scheduledsam>
+	<scheduledsam1> - Selecione esta opção para gravar vídeo com base no período agendado.</scheduledsam1>
+	<sambaAuth>Autenticação Samba</sambaAuth>
+	<sambaAuth1> - Se a pasta de compartilhamento de rede permite que você entre como anônimo, você será capaz de carregar as imagens sem digitar o nome de usuário e senha.  Se não, você tem que usar as configurações corretas para entrar na pasta.</sambaAuth1>
+	<serverIP>Servidor</serverIP>
+	<serverIPl> - Digite o endereço IP do servidor de armazenamento de rede.</serverIPl>
+	<sharedFolder>Pasta Compartilhada</sharedFolder>
+	<sharedFolder1> - Digite um nome de pasta existente neste campo, e as imagens serão enviadas para a pasta determinada.</sharedFolder1>
+
+	<timeZone>Fuso horário</timeZone>
+	<timeZone1> - A zona geográfica para a configuração de hora local da câmera.</timeZone1>
+	<daylightSavings>Habilitar horário de verão</daylightSavings>
+	<daylightSavings1> - Ativa o modo de horário de Verão que irá ajustar o tempo dependendo do horário e data.</daylightSavings1>
+	<autoDaylightSavings>Horário de verão automático</autoDaylightSavings>
+	<autoDaylightSavings1> - Quando você seleciona-lo, o relógio é ajustado automaticamente de acordo com o horário de Verão do fuso horário selecionado.</autoDaylightSavings1>
+	<setManually>Definir DST manualmente</setManually>
+	<setManually1> - Manualmente ajustar e definir as regras de horário de Verão.</setManually1>
+	<daylightSavingsDates>Datas de Horário de Verão</daylightSavingsDates>
+	<daylightSavingsDates1> - Defina a data e hora em que o horário de verão começa e termina.</daylightSavingsDates1>
+	<syncTime>Copiar configurações de hora do seu computador</syncTime>
+	<syncTime1> - Para sincronizar a data e hora de sua câmera ao computador.</syncTime1>
+	<manual>Definir manualmente a data e hora</manual>
+	<manual1> - Manualmente ajustar e definir a data e hora.</manual1>
+	<SyncNTP>Sincronizar com o servidor NTP</SyncNTP>
+	<SyncNTP1> - Com a opção selecionada, a câmera sincronizará as configurações de tempo com o servidor NTP na Internet sempre que a câmera for ligada. Se não for possível conectar-se ao servidor NTP, nenhum configuração de horário será aplicado.</SyncNTP1>
+	<ntpfromDHCP>Set NTP Server from DHCP</ntpfromDHCP>
+	<ntpfromDHCP1> - Câmera IP obtém o servidor de horário através do serviço DHCP.</ntpfromDHCP1>
+	<ntpServer>Servidor NTP</ntpServer>
+	<ntpServer1> - O IP endereço ou nome de domínio do servidor NTP.</ntpServer1>
+
+	<enableRecording>Habilitar Gravação </enableRecording>
+	<enableRecordingl> - Ativar gravação lhe permitirá gravar em uma unidade de rede Samba baseada nos eventos selecionados. Para habilitar a gravação, verifique a caixa de seleção Ativar gravação. Em seguida, selecione um método de programação para especificar quando a câmera deve gravar o vídeo.</enableRecordingl>
+	<userName>Nome de usuário</userName>
+	<userNamel> - Digite o nome de usuário para entrar em um servidor de armazenamento de rede.</userNamel>
+	<passWord>Senha</passWord>
+	<passWordl> - Digite a senha para entrar no servidor de armazenamento de rede.</passWordl>
+	<test>Teste</test>
+	<testl> - Clique no botão de teste para certificar-se de que o servidor FTP ou E-mail pode ser localizado e acessado.</testl>
+	<getStatus>Obter estado</getStatus>
+	<getStatusl> - Clique no botão de obter estado para certificar-se de que o processo de gravação está ativado.</getStatusl>
+	<keepSpace>Grave até que o MB do espaço livre esteja sobrando </keepSpace>
+	<keepSpacel> - Defina a capacidade do seu disco de destino para evitar que o sistema fique instável.</keepSpacel>
+	<stopRecord>Quando o armazenamento estiver completo, pare a gravação</stopRecord>
+	<stopRecordl> - Quando [Parar gravação] estiver habilitada, a câmera IP irá parar a gravação quando o espaço em disco estiver cheio.</stopRecordl>
+	<overwriteRecord>Quando o armazenamento estiver completo, substituirá gravações mais antigas</overwriteRecord>
+	<overwriteRecordl> - Quando [substituir gravações mais antigas] estiver habilitado, ele fará com que os arquivos mais antigos sejam excluídos quando o sistema requerer espaço de armazenamento de novos vídeos de vigilância.</overwriteRecordl>
+	<eventBased>Baseado em evento</eventBased>
+	<eventBasedl> - Selecione a opção [gravação iniciada por detecção de movimento] para iniciar a gravação quando há movimento detectado ou selecione a gravação iniciada por D/I para começar a gravar quando há entrada digital.</eventBasedl>
+	<prerecordSeconds>Pré-gravar segundos</prerecordSeconds>
+	<prerecordSecondsl> - Uma configuração que se aplica a [gravação de movimento]. Com a configuração de pré-gravação, a câmera começa a gravar por um  tempo predefinido antes que o movimento tenha sido provocada.</prerecordSecondsl>
+	
+	<postrecordSeconds>Pos-gravar segundos</postrecordSeconds>
+	<postrecordSecondsl> - Essa configuração permite que a câmera gravae após a ocorrência de um evento de detecção de movimento. Ele grava por uma quantidade predefinida de tempo depois que o evento foi acionado, mesmo que o movimento pode ter cessado.
+	</postrecordSecondsl>
+	<enableSnapshot>Snapshot</enableSnapshot>
+	<enableSnapshotl> - Quando selecionada a opção, você pode enviar uma ou 6 imagens paradas desta unidade para um E-mail ou para um servidor FTP.</enableSnapshotl>
+	<eventbased>Baseado em Evento</eventbased>
+	<eventbased1> - Selecione a opção [deteção do movimento] para transfererir imagens ao site FTP especificado ou o endereço de E-Mail quando houver detecção de movimento.</eventbased1>
+	<triggerEventSS>Iniciado por</triggerEventSS>
+	<triggerEventSS1>Movimento - Iniciar snapshot após um movimento ser detectado.</triggerEventSS1>
+	<triggerEventSS11>Som - Iniciar snapshot depois de som ser detectado.</triggerEventSS11>
+	<triggerEventSS2>Agenda - Snapshot em um horário especificado.</triggerEventSS2>
+	<triggerEventSS3>Sempre - Snapshot contínuo.</triggerEventSS3>
+	<snapshottype>Tipo de Snapshot</snapshottype>
+	<snapshottype1> - Você pode definir configurações JPEG do perfil de vídeo 3, único snapshot ou 6 snapshots aqui.</snapshottype1>
+	<snapshottarget>Alvo</snapshottarget>
+	<snapshottarget1> - Você pode selecionar o destino como FTP ou E-Mail para o snapshot.</snapshottarget1>
+	<snapshotssl>Usar SSL-TLS</snapshotssl>
+	<snapshotssl1> - Se você selecionar SSL TLS ou STARTTLS, a câmera pode criar uma conexão segura usando SSL TLS ou STARTTLS.</snapshotssl1>
+	<sdcardSetting>Configuração Cartão SD</sdcardSetting>
+	<sdkeepSpace>Manter o espaço livre</sdkeepSpace>
+	<sdkeepSpacel> - Defina a capacidade do cartão SD local para impedir que o sistema se torne instável.</sdkeepSpacel>
+	<sdcyclic>Cíclico</sdcyclic>
+	<sdcyclic1> - Quando esta opção for selecionada, fará com que os arquivos de snapshot mais antigos sejam excluídos quando o sistema requerer espaço de armazenamento para os novos arquivos de snapshot.</sdcyclic1>
+	<videoclipsdcyclic1> - Quando esta opção for selecionada, fará com que os arquivos de vídeo clipe mais antigos sejam excluídos quando o sistema requerer espaço de armazenamento para arquivos de vídeo clipe novos.</videoclipsdcyclic1>
+	<videoclipinterval1> - O intervalo de tempo entre cada clipe de vídeo.</videoclipinterval1>
+	<videoclipftpinterval> - O intervalo de tempo entre cada clipe de vídeo que será enviado para o servidor FTP.</videoclipftpinterval>
+	<videoclipsmtpinterval> - O intervalo de tempo entre cada clipe de vídeo que será enviado para o E-mail.</videoclipsmtpinterval>
+	<videoftpServerport1> - Envie um clipe de vídeo para servidor de FTP. / A porta do servidor FTP. A maioria dos servidores FTP estão rodando na porta padrão (21).</videoftpServerport1>
+	<videorecipientAddressl> - Este é o endereço de E-mail que receberá todos os clipes de vídeo.</videorecipientAddressl>
+	<emailAddress>Endereço de E-Mail</emailAddress>
+	<emailAddressl> - Se você selecionar a opção, a imagem é capturada e um E-mail com o arquivo da imagem capturado é enviado para o endereço de email de destinatário.</emailAddressl>
+	<userNameSnapl> - Este será o nome de usuário fornecido pelo seu provedor (Internet Service Provider). Este poderia ser o smith ou smith@yourisp.com dependendo do seu provedor.</userNameSnapl>
+	<passwordSnapl> - A senha que você configurar para visualizar sua conta de E-mail.</passwordSnapl>
+	<smtpMailServer>Servidor de email SMTP</smtpMailServer>
+	<smtpMailServerl> - O nome de host do servidor de email (por exemplo smtpserver.yourdomain.com).</smtpMailServerl>
+	<senderAddress>Endereço de email do remetente</senderAddress>
+	<senderAddressl> - Endereço de email do remetente que aparece no alerta de email (por exemplo smith@isp.com). Notificação será enviada para este endereço de E-mail se os E-mails não foram entregues ao destinatário do email.</senderAddressl>
+	<recipientAddress>Endereço de email do destinatário</recipientAddress>
+	<recipientAddressl> - Este é o endereço de E-mail que irá receber todas as imagens capturadas.</recipientAddressl>
+	<mailPort>Porta</mailPort>
+	<mailPortl> - Esta é a porta que seu serviço de email SMTP está rodando. O padrão é 25.</mailPortl>
+	<ftpServer>Servidor FTP</ftpServer>
+	<ftpServerl> - Envie um snapshot para o servidor FTP.</ftpServerl>
+	<userNameFtpl> - O nome da conta para acessar o servidor FTP.</userNameFtpl>
+	<passwordFtpl> - A senha que foi configurada com a conta para acessar o servidor FTP.</passwordFtpl>
+	<hostName>Nome de Host</hostName>
+	<hostNamel> - O nome do host ou endereço IP do servidor FTP. (ou seja, ftp.dlink.com)</hostNamel>
+	<RS-485>RS-485</RS-485>
+	<enableSignal>Sinal D/O</enableSignal>
+	<enableSignall> - Aciona dispositivos tradicionais que se conectam ao sistema, tais como luzes de alarme e sirenes de alarme.</enableSignall>
+	<digitalOutManual>Manual</digitalOutManual>
+	<digitalOutManuall> - Allow user to trigger Digital Output at Live View.Possibilita que usuário acione a Saída Digital em Vídeo em Tempo Real.</digitalOutManuall>
+	<motionDetection11>Movimento</motionDetection11>
+	<motionDetectionl> - Quando um movimento for detectado, a câmera IP irá acionar dispositivos tradicionais de alarme que se conectam ao sistema.</motionDetectionl>
+	<audioDetection>Som</audioDetection>
+	<audioDetectionl> - Quando o som for detectado, a câmera IP irá acionar dispositivos tradicionais de alarme que se conectam ao sistema.</audioDetectionl>
+	<audio_Detection>Deteção de som</audio_Detection>
+	<enableAudio>Deteção de som</enableAudio>
+	<enableAudio1> - Selecione esta opção para habilitar a detecção de som para sua câmera.</enableAudio1>
+	<sensitivityau>Nível de detecção</sensitivityau>
+	<sensitivityau1> - Defina o algorítmo do nível de detecção para disparar eventos de som. Baixo nível de detecção faz com que um som pequeno seja detectado mais facilmente.</sensitivityau1>
+	<dISignal1>Entrada Digital</dISignal1>
+	<dISignal1l> - Quando acionar o dispositivo de entrada digital, a câmera IP irá acionar dispositivos tradicionais de alarme que se conectam ao sistema.</dISignal1l>
+	<dISignal2>Sinal D/I 2</dISignal2>
+	<dISignal2l> - Quando acionar o dispositivo de entrada digital 2, a câmera IP irá acionar dispositivos tradicionais de alarme que se conectam ao sistema.</dISignal2l>
+	<supporPAN>Suporte PAN TILT</supporPAN>
+	<supporPANl> - Ao habilitar suporte PAN-TILT, um painel de controle será exibido na página do vídeo em tempo real permitindo o controle através de RS-485 para um gabinete externo da câmera.
+	</supporPANl>
+	<protocol>Protocolo</protocol>
+	<protocoll> - Selecione o padrão PTZ, utilizado para conectar um escaner PTZ através da interface serial: RS485.</protocoll>
+	<ID>ID</ID>
+	<IDl> - Valor de ID é usado para identificar o dispositivo de RS-485.</IDl>
+	<baudRate>Baud Rate</baudRate>
+	<baudRatel> - Selecione a taxa de transmissão desejada para o dispositivo que você conectou.</baudRatel>
+	<dataBits>Data Bits</dataBits>
+	<dataBitsl> - Selecione os bits de dados desejado para o dispositivo que você conectou.</dataBitsl>
+	<stopBit>Stop Bit</stopBit>
+	<stopBitl> - Selecione o bit de parada desejado para o dispositivo que você conectou.</stopBitl>
+	<parityBit>Parity Bit</parityBit>
+	<parityBitl> - Selecione o tipo de paridade desejado para o dispositivo que você conectou.</parityBitl>
+	<emailSetting>Configuração de E-Mail</emailSetting>
+	<ftpSetting>Configuração de FTP</ftpSetting>
+	<triggerEvent>Evento de disparo</triggerEvent>
+	<triggerEvent1> - Um evento na câmera é quando um evento de disparo (ou seja, detecção de movimento ou desencadeado na entrada Digital) é ativado e faz com que determinadas ações sejam executadas.</triggerEvent1>
+	<checkPassword>Confirmar senha</checkPassword>
+	<checkPassword1> - Digite sua senha novamente usada para conectar ao servidor DDNS.</checkPassword1>
+	<audioSetting>CONFIGURAÇÃO DE ÁUDIO</audioSetting>
+	<audioSettingl> - Você pode usar o microfone ligado/desligado ou ajustar o volume.</audioSettingl>
+	<offset>Compensar</offset>
+	<offset1> - Defina a quantidade de tempo para adicionar ou remover a partir do momento que o horário de Verão esteja habilitado.</offset1>
+	<checkpassWord>Confirmar senha</checkpassWord>
+	<checkpassWordl> - Digite sua senha novamente usada para conectar à unidade de armazenamento em rede.</checkpassWordl>
+	<sdrecording>Gravação SD</sdrecording>
+	<sdrecordingl> - Quando selecionar esta opção, você pode armazenar snapshots ou vídeo gravado para o cartão SD local.</sdrecordingl>
+	<triggerEventM>Movimento - Iniciar gravação SD depois que um movimento é detectado.</triggerEventM>
+	<triggerEventAu>Som - Iniciar gravação SD depois de som é detectado.</triggerEventAu>
+	<triggerEventS>Agenda -  Gravação SD em um horário especificado.</triggerEventS>
+	<triggerEventA>Sempre - Gravação contínua de SD.</triggerEventA>
+	<recordingtype>Tipo de gravação SD</recordingtype>
+	<recordingtype1> - Você pode selecionar o perfil de vídeo para gravação SD, definir de gravação pré-evento e pós-evento quando disparado por movimento. Você também pode selecionar gravação como snapshots ou vídeo.</recordingtype1>
+	<keepfreespc>Manter o espaço livre</keepfreespc>
+	<keepfreespcl> - Defina a capacidade do cartão SD local para impedir que o sistema se torne instável.</keepfreespcl>
+	<recordingLength>Tamanho de Gravação</recordingLength>
+	<recordingLengthl> - Defina o duração de tempo de cada gravação de vídeo.</recordingLengthl>
+	<rectosdcyclic>Cíclico</rectosdcyclic>
+	<rectosdcyclicl> - Quando esta opção é selecionada, fará com que a pasta mais antiga seja excluída quando o sistema requerer espaço de armazenamento para novos arquivos.</rectosdcyclicl>
+	<SDManagement>Gerencimento SD</SDManagement>
+	<gpio>Entrada digital</gpio>
+	<gpio1> - Começar video clipe após entrada digital for detectada.</gpio1>
+	<gpio2> - Começar snapshot quando a entrada digital for detectada.</gpio2>
+	<gpio3> - Começar a gravar depois que a entrada digital for detectada.</gpio3>
+	<antenna>Antena</antenna>
+	<antenna1> - Selecione usar uma antena interna ou externa.</antenna1>
+	<tvOUT>TV-OUT</tvOUT>
+	<tvOUThelp> - Permitir saída para TV, você pode transportar a câmera de vídeo para TV ou outro monitor.</tvOUThelp>
+	<preRec>Grevação de pre-evento</preRec>
+	<maxRec>Máxima duração</maxRec>
+	<preRecl> - Especifica quanto segundos do vídeo serão gravados, antes do clipe de vídeo ser rodado.</preRecl>
+	<maxRecl> - Especifica quantos segundos de clipe de vídeo.</maxRecl>
+	<IpfilterTitle>FILTRO IP</IpfilterTitle>
+	<IpfilterName>Filtro IP</IpfilterName>
+	<IpfilterNameExplain> - Para habilitar o filtro de IP da câmera, você deve selecionar a opção 'Lista de Filtro de Acesso'. Em seguida, altere os detalhes de configuração através desta página.</IpfilterNameExplain>
+	<Ipfilter>Lista de filtro de acesso é a funcionalidade para permitir ou negar acesso à câmera para determinados endereços IPs.</Ipfilter>
+	<FilterType>Tipo de Filtro</FilterType>
+	<FilterTypeText> - Você pode Selecione permitir ou negar para os endereços IP especificados na lista de filtros.</FilterTypeText>
+	<AccessList>Lista de filtros</AccessList>
+	<AccessListText> - Endereços IP especificados.</AccessListText>
+	<Single>Único</Single>
+	<SingleText> - Especifica um único endereço IP.</SingleText>
+	<Subnet>Sub-rede</Subnet>
+	<SubnetText> - Especifique uma sub-rede de endereços IP.</SubnetText>
+	<Range>Range</Range>
+	<RangeText> - Especifica um range de endereços IP.</RangeText>
+	<adminAdress>Endereço IP do administrador</adminAdress>
+	<adminAdressText> - Você pode habilitar e configurar um endereço IP como endereço de IP do administrador para permitir sempre o acesso para esta câmera.</adminAdressText>
+	<httpsTitle>CONFIGURAÇÃO DE HTTPS</httpsTitle>
+	<httpsName>Configuração HTTPS</httpsName>
+	<httpsNameExplain> - Quando selecionar esta opção, você pode usar o HTTP ou HTTPS para se conectar a esta câmara.</httpsNameExplain>
+	<connectType>Tipo de conexão</connectType>
+	<bothHttpAndHttps>Ambos HTTP e HTTPS</bothHttpAndHttps>
+	<bothHttpAndHttpsInfo> - Você pode selecionar esta opção para permitir a conexão de HTTP e HTTPS para a câmera.</bothHttpAndHttpsInfo>
+	<httpsOnly>Somente HTTPS</httpsOnly>
+	<httpsOnlyInfo> - Você pode selecionar esta opção para permitir somente conexões HTTPS para a câmera.</httpsOnlyInfo>
+	<createMethod>Criar e instalar o método de certificado</createMethod>
+	<autoCreateMethod>Criar certificado auto assinado automaticamente</autoCreateMethod>
+	<autoCreateMethodInfo> - Selecione este método para criar um certificado auto-assinado automaticamente.</autoCreateMethodInfo>
+	<manCreateMethod>Criar certificado auto assinado manualmente</manCreateMethod>
+	<manCreateMethodinfo> - Selecione este método para criar um certificado auto-assinado, especificando manualmente os parâmetros HTTPS.</manCreateMethodinfo>
+	<createAndInstallMethod>Criar requisição para certificado e instalar</createAndInstallMethod>
+	<createAndInstallMethodInfo> - Selecionar este método permite que você envie uma solicitação de certificado a uma autoridade certificadora e enviar o certificado recebido da autoridade para a câmera.</createAndInstallMethodInfo>
+	<certInfo>Informação de Certificado</certInfo>
+	<certInfoExplain> - Estado e resumo sobre seu certificado, você pode clicar no botão de propriedade para exibir informações detalhadas.</certInfoExplain>
+</body>

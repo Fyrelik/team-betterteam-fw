@@ -1,0 +1,58 @@
+<body>
+	<cameraControl>攝影機控制</cameraControl>
+	<description1>您可在此新增或刪除預設位置、選擇「巡視」位置，以及變更「原點」按鈕的預設位置。</description1>
+	<up>上</up>
+	<down>下</down>
+	<panSpeed>平移速度 :</panSpeed>
+	<tiltSpeed>傾斜速度:</tiltSpeed>
+	<currentPosition>目前位置 :</currentPosition>
+	<presetPosition>預設位置:</presetPosition>
+	<none>-- 請選擇一個 --</none>
+	<add>新增</add>
+	<delete>刪除</delete>
+	<save>儲存</save>
+	<theSamePresetName>預先設定名稱已存在，請問是否要取代舊的預先設定位置? </theSamePresetName>
+	<setAsHome>設定為原點</setAsHome>
+	<defaultHome>預設原點</defaultHome>
+	<patrolSpeed>平移/巡視速度 :</patrolSpeed>
+	<dwellingTime>停留時間 (秒) :</dwellingTime>
+	<presetLocations>預先設定位置</presetLocations>
+	<selectedLocations>選擇的位置</selectedLocations>
+	<select>選擇</select>
+	<remove>移除</remove>
+	<patrolSelection>巡視選擇 :</patrolSelection>
+	<homeDefinition>原點定義 :</homeDefinition>
+	<presetNameError>預先設定名稱不接受空白名稱</presetNameError>
+	<waitTimeError1>等待時間不可為空白</waitTimeError1>
+	<waitTimeError2>等待時間必須為數字</waitTimeError2>
+	<waitTimeError3>等待時間必需介於 0 到 60 之間</waitTimeError3>
+	<internetButton>網際網路連線設定精靈</internetButton>
+	<internetSetup>手動設定網際網路連線</internetSetup>
+	<motionButton>移動偵測設定精靈</motionButton>
+	<motionSetup>手動設定移動偵測</motionSetup>
+	<internetSettings>網際網路連線設定</internetSettings>
+	<description1>透過這個功能, 您可以進行網路攝影機有線網路介面相關設定。如果您是第一次使用這個網路攝影機, D-Link 建議您按下"網際網路連線設定精靈"按鈕, 並依照畫面的指示進行相關設定。如果您想要手動變更或進行網路攝影機設定(不透過設定精靈), 請按下"手動設定網際網路連線"按鈕, 以開始手動設定網路攝影機。
+</description1>
+<description1wireless>透過這個功能, 您可以進行網路攝影機網路介面相關設定。如果您是第一次使用這個網路攝影機, D-Link 建議您按下"網際網路連線設定精靈"按鈕, 並依照畫面的指示進行相關設定。如果您想要手動變更或進行網路攝影機設定(不透過設定精靈), 請按下"手動設定網際網路連線"按鈕, 以開始手動設定網路攝影機。
+</description1wireless>
+<motionSettings>網路攝影機移動偵測設定</motionSettings>
+	<description2>透過這個功能, 您可以進行網路攝影機的移動偵測相關設定。如果您是第一次使用這個網路攝影機, D-Link 建議您按下"移動偵測設定精靈"按鈕, 並依照畫面的指示進行相關設定。如果您想要手動變更或進行移動偵測設定(不透過設定精靈), 請按下"手動設定移動偵測"按鈕, 以開始手動進行移動偵測設定。
+</description2>
+<privacy>網路攝影機目前設定為隱私模式</privacy>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<homeDefinition>原點定義</homeDefinition>
+	<description1>如果您是進階用戶並且之前配置過網絡攝影機，請點擊“手動設定網際網路連線”來手動輸入所有設置。</description1>
+	<patrolSelection>巡視選擇</patrolSelection>
+	<description2>如果您認爲您是進階用戶，並想手動設置移動偵測的設置，請點擊“手動設置移動偵測”來手動輸入所有設置。</description2>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<failure>設定失敗</failure>
+	<full>預先設定已滿</full>
+	<selectFull>已選擇的位置已滿</selectFull>
+	<duplicate>重複</duplicate>
+	<invalidParameters>預先設定名稱無效</invalidParameters>
+	<oob>設定值超出範圍</oob>
+</message>

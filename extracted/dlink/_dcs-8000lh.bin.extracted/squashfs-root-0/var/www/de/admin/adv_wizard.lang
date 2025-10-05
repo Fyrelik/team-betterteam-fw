@@ -1,0 +1,24 @@
+<body>
+	<internetSettings>Internetverbindungs-Einstellungen</internetSettings>
+	<description1>In diesem Abschnitt können Sie die Einstellungen der kabelgebundenen Netzwerkschnittstellen Ihrer IP-Kamera vornehmen. Wenn Sie dieses Gerät zum ersten Mal konfigurieren, empfiehlt D-Link den "Setup-Assistenten für die Internetverbindung" zu verwenden und dann den Anweisungen auf dem Bildschirm zu folgen. Wenn Sie die Einstellungen der IP-Kamera jedoch manuell ändern oder vornehmen möchten, können Sie zur Eingabe der Netzwerkeinstellungen 'Manuelle Einrichtung der Internetverbindung' wählen. </description1>
+	<description1wireless>In diesem Abschnitt können Sie die Einstellungen der Netzwerkschnittstellen Ihrer IP-Kamera vornehmen. Wenn Sie dieses Gerät zum ersten Mal konfigurieren, empfiehlt D-Link den "Setup-Assistenten für die Internetverbindung" zu verwenden und dann den Anweisungen auf dem Bildschirm zu folgen. Wenn Sie die Einstellungen der IP-Kamera jedoch manuell ändern oder konfigurieren möchten, können Sie zur Eingabe der Netzwerkeinstellungen 'Manuelle Einrichtung der Internetverbindung' wählen.</description1wireless>
+	<internetButton>Setup-Assistent für die Internetverbindung</internetButton>
+	<internetSetup>Manuelle Einrichtung der Internetverbindung</internetSetup>
+	<motionSettings>Einstellungen für die Bewegungserk. der IP-Kamera</motionSettings>
+	<description2>In diesem Abschnitt können Sie die Einstellungen für die Bewegungserk. der IP-Kamera vornehmen. Wenn Sie dieses Gerät zum ersten Mal konfigurieren, empfiehlt D-Link den "Setup-Assistent für die Bewegungserk." zu verwenden und dann den Anweisungen auf dem Bildschirm zu folgen. Wenn Sie die Bewegungserk. jedoch manuell ändern oder konfigurieren möchten, wählen Sie "Manuelle Einrichtung der Bewegungserk.".</description2>
+	<description3>Bei Einstellung der Kamera auf den SXGA-Modus ist die Bewegungserk. deaktiviert.</description3>
+	<description4>Um die Bewegungserk. zu aktivieren, wählen Sie den VGA- oder XGA-Modus in </description4>
+	<description5> Audio und Video.</description5>
+	<motionButton>Setup-Assistent für die Bewegungserk.</motionButton>
+	<motionSetup>Manuelle Einrichtung der Bewegungserk.</motionSetup>
+	<privacy>Diese Kamera ist aktuell im Privacy-Modus.</privacy>
+</body>
+<hint>
+	<helpfulHints>Nützliche Tipps...</helpfulHints>
+	<description1>Sollten Sie ein in diesem Bereich erfahrener Benutzer sein und schon einmal eine Internetkamera konfiguriert haben, klicken Sie auf 'Manuelle Einrichtung der Internetverbindung', um alle Einstellungen manuell vorzunehmen.</description1>
+	<description2>Wenn Sie bereits Vorkenntnisse haben und die Einstellungen zur Bewegungserk. manuell vornehmen möchten, klicken Sie auf 'Manuelle Einrichtung der Bewegungserk.', um alle Einstellungen manuell vorzunehmen.</description2>
+</hint>
+<message>
+
+</message>
+

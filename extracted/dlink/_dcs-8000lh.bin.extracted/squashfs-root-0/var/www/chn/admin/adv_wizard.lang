@@ -1,0 +1,23 @@
+<body>
+	<internetSettings>网络连接设置</internetSettings>
+	<description1>您可以在这里配置IP摄像机的有线网络接口设置。如果您初次配置此设备，D-Link推荐您选择Internet 连接设置向导，按照屏幕中的指导步骤进行设置。 如果您需要手动修改或配置，请选中手动Internet 连接设置并输入网络设置参数。</description1>
+	<description1wireless>您可以在这里配置IP摄像机的有线网络接口设置。如果您初次配置此设备，D-Link推荐您选择Internet 连接设置向导，按照屏幕中的指导步骤进行设置。 如果您需要手动修改或配置，请选中手动Internet 连接设置并输入网络设置参数。</description1wireless>
+	<internetButton>Internet连接设置向导</internetButton>
+	<internetSetup>手动Internet连接设置</internetSetup>
+	<motionSettings>IP摄像机移动侦测设置</motionSettings>
+	<description2>在本章节中，您可以配置IP摄像机的移动侦测设置。如果您初次配置此设备，D-Link推荐您选择移动侦测设置向导，遵照屏幕中的指导步骤进行设置。如果您需要手动修改或配置移动侦测的设置，请选择手动移动侦测设置。</description2>
+	<description3>当摄像机设为SXGA模式时，移动侦测功能被禁用。</description3>
+	<description4>如要启用动作探测功能，则选择VGA或XGA模式</description4>
+	<description5>音频和视频</description5>
+	<motionButton>移动侦测设置向导</motionButton>
+	<motionSetup>手动移动侦测设置</motionSetup>
+	<privacy>网路摄像机目前设定为隐私模式</privacy>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<description1>如果您是高级用户且之前配置过网络摄像机，单击“手动设置Internet连接”来手动输入所有设置。</description1>
+	<description2>如果您认为您是高级用户，并想手动设置移动侦测的设置，请单击“手动设置移动侦测”来手动输入所有设置。</description2>
+</hint>
+<message>
+
+</message>

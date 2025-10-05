@@ -1,0 +1,62 @@
+<body>
+	<motionDetection>Detecção de Movimento</motionDetection>
+	<description1>Esta seção permitirá que você possa habilitar ou desabilitar a função de deteção de movimento, desenhar ou apague a área de movimento, bem como definir a configuração de sensibilidade de sua câmera para detectar movimento. Você deve selecionar a opção 'Habilitar o movimento do vídeo' para ativar o recurso. </description1>
+	<description2>Deteção do movimento é desativada enquanto a câmera está definida como modo de SXGA.</description2>
+	<description3>Para habilitar a detecção de movimento, selecione o modo VGA ou XGA em </description3>
+	<description4> Audio e Video.</description4>
+	<savebutton>Salvar Configurações</savebutton>
+	<notsavebutton>Não Salvar Configurações</notsavebutton>
+	<liveVideo>Vídeo em tempo real</liveVideo>
+	<enableMotion>Habilitar o movimento do vídeo</enableMotion>
+	<enablePIR>Habilitar PIR</enablePIR>
+	<sense>Sensibilidade</sense>
+	<drawingMode>Modo de desenho</drawingMode>
+	<drawMotion>Desenhe a área de movimento</drawMotion>
+	<eraseMotion>Apague a área de movimento</eraseMotion>
+	<clear>Limpar</clear>
+	<pirhigh>Alto</pirhigh>
+	<pirmiddle>Médio</pirmiddle>
+	<pirlow>Baixo</pirlow>
+	<pirsensibility>Sensibilidade PIR</pirsensibility>
+	<numberError>Sensibilidade deve ser um número inteiro</numberError>
+	<rangeError>Sensibilidade deve ser um número inteiro entre 0 e 100</rangeError>
+	<areaError>Por favor, desenhe a área de movimento</areaError>
+	<unselectRange>Desenhe a área de movimento</unselectRange>
+	<inverseRange>Apague a área de movimento</inverseRange>
+	<showFirefoxText>Para configurar a área de movimento, por favor, use o Windows Internet Explorer.</showFirefoxText>
+	<scheduling>Agendamento</scheduling>
+	<always>Sempre</always>
+	<schedule>Agenda</schedule>
+	<day>Dia</day>
+	<mon>Seg</mon>
+	<thu>Ter</thu>
+	<wed>Quar</wed>
+	<thu>Quin</thu>
+	<fri>Sex</fri>
+	<sat>Sab</sat>
+	<sun>Dom</sun>
+	<time>Horário</time>
+	<form>De</form>
+	<to>para</to>
+	<clear>Limpar</clear>
+	<reloadBG>Atualizar imagem</reloadBG>
+	<enalbeMdWarning>Aviso: Se você deseja habilitar a função de deteção de movimento, veja [Habilitar o movimento do vídeo]. No entanto, se você deseja desabilitar a função de deteção de movimento, por favor limpe área de movimento.</enalbeMdWarning>
+	<privacy>Esta câmera está no modo de privacidade.</privacy>
+	<JavaSupport>Este navegador não suporta ou desabilitou o Java JRE.</JavaSupport>
+	<getJava>Obtenha o Java JRE mais recente aqui</getJava>
+	<enableJava> ou habilite o Java JRE.</enableJava>
+	<javajreinfo8>Clique aqui para baixar e instalar o plugin NCS. Recomendamos reiniciar o seu navegador!!!</javajreinfo8>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<pirsensibility>Há três opções para o nível de sensibilidade: baixa, média e alta e o padrão é baixo. Você pode querer experimentar essas configurações para encontrar qual delas lhe convier.</pirsensibility>
+	<sense>Defina a sensibilidade da câmera para início da detecção de movimento. Alta sensibilidade faz com que os movimentos sejam mais fáceis de serem detectados.</sense>
+	<unselectRange>Arraste o mouse para adicionar o range de deteção de movimento.</unselectRange>
+	<inverseRange>Arraste o mouse para apagar o range de deteção de movimento.</inverseRange>
+	<enablePIR>Quando esta opção estiver selecionada, use PIR (infravermelho passivo) para detectar movimento.</enablePIR>
+</hint>
+<message>
+	<ok>Alterações Salvas.</ok>
+	<fail>Alterações falharam.</fail>
+	<updateFailed>configurar com aplicação de deteção de movimento falhou</updateFailed>
+</message>

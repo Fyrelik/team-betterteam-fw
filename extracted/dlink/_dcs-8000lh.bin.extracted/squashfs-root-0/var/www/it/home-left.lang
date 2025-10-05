@@ -1,0 +1,41 @@
+<leftPanel>
+	<camera>Videocamera</camera>
+	<logout>Disconnetti</logout>
+	<titleLiveVideo>VIDEO IN DIRETTA</titleLiveVideo>
+	<wizard>Configurazione guidata</wizard>
+	<networkSettings>Rete</networkSettings>
+	<wireless>Configurazione wireless</wireless>
+	<ddns>DNS dinamico</ddns>
+	<imageSettings>Configurazione immagine</imageSettings>
+	<audioVideo>Audio e video</audioVideo>
+	<mailFtp>E-mail e FTP</mailFtp>
+	<motionDetection>Rilevamento movimento</motionDetection>
+	<timeAndDate>Data e ora</timeAndDate>
+	<cameraControl>Controllo videocamera</cameraControl>
+	<cameraPatrolControl>Posizione esplorazione</cameraPatrolControl>
+	<recording>Registrazione su SD</recording>
+	<snapshot>Istantanea</snapshot>
+	<digitalOutput>Uscita digitale</digitalOutput>
+	<videoclip>Clip video</videoclip>
+	<rs485>RS-485</rs485>
+	<ack>Ringraziamenti</ack>
+	<logout>Disconnetti</logout>
+	<titleSetup>CONFIGURAZIONE</titleSetup>
+	<deviceInfo>Informazioni sul dispositivo</deviceInfo>
+	<log>Log</log>
+	<logout>Disconnetti</logout>
+	<titleStatus>STATO</titleStatus>
+	<deviceManagement>Amministratore</deviceManagement>
+	<backupAndRestore>Sistema</backupAndRestore>
+	<firmwareUpgrade>Aggiornamento firmware</firmwareUpgrade>
+	<logout>Disconnetti</logout>
+	<titleMaintenance>MANUTENZIONE</titleMaintenance>
+	<menu>Menu della Guida</menu>
+	<logout>Disconnetti</logout>
+	<titleHelp>GUIDA</titleHelp>
+	<sdcard>Gestione SD</sdcard>
+	<audio_detection>Rilevamento suono</audio_detection>
+	<ipFilter>Filtro IP</ipFilter>
+	<https>Configurazione HTTPS</https>
+</leftPanel>
+

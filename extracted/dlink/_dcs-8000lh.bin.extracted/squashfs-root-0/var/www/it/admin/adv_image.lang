@@ -1,0 +1,61 @@
+<body>
+	<imageSettings>configurazione immagine</imageSettings>
+	<description1>Le modifiche effettuate per le impostazioni delle immagini saranno apportate all'istante. Il risultato è visibile nella finestra Video in diretta sottostante.</description1>
+	<image>video in diretta</image>
+	<controls>impostazioni delle immagini</controls>
+	<brightness>Luminosità</brightness>
+	<saturation>Saturazione</saturation>
+	<contrast>Contrasto</contrast>
+	<hue>Tonalità</hue>
+	<frequency>Frequenza</frequency>
+	<auto>Automatico</auto>
+	<hz>Hz</hz>
+	<whiteBalance>Bilanciamento del bianco</whiteBalance>
+	<indoor>Interno</indoor>
+	<outdoor>Esterno</outdoor>
+	<shutter>Otturatore lento</shutter>
+	<speed>Tempo di esposizione massimo:</speed>
+	<second>secondo</second>
+	<source>Fonte luminosa</source>
+	<disable>Disabilita</disable>
+	<BLC>BLC</BLC>
+	<AWB>AWB</AWB>
+	<AGC>AGC</AGC>
+	<AES>AES</AES>
+	<hue1> - Rappresenta la sfumatura di colore.</hue1>
+	<bw>Bianco e nero</bw>
+	<flip>Capovolgi</flip>
+	<mirror>Specchio</mirror>
+	<autoExposure>Esposizione automatica</autoExposure>
+	<reset>Ripristina valore predefinito</reset>
+	<exceedMaxConn>La videocamera ha raggiunto il numero massimo di utenti. Riprovare più tardi.</exceedMaxConn>
+	<enableNightMode>Otturatore lento</enableNightMode>
+	<shutter>Tempo di esposizione massimo:</shutter>
+	<second>Secondo</second>
+	<sharpness>Nitidezza</sharpness>
+	<noiseReduction>Riduzione del rumore</noiseReduction>
+	<privacy>Videocamera in modalità privacy.</privacy>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<imageSettings>Luminosità, contrasto e saturazione possono essere regolati da 0 a 100 per consentire di ottimizzare le impostazioni dell'immagine.</imageSettings>
+	<imageSettings1>Luminosità, saturazione, contrasto e tonalità possono essere regolati da 0 a 100 per consentire di ottimizzare le impostazioni dell'immagine.</imageSettings1>
+	<brightness>Viene utilizzata per compensare le scene in controluce.</brightness>
+	<saturation>Controlla l'intensità di colore dal bianco e nero ai colori nitidi.</saturation>
+	<contrast>Regolabile, consente di controllare il contrasto di colori tra oggetti. Consente inoltre di migliorare l'immagine ripresa con un cielo grigio.</contrast>
+	<bw>Selezionare questa opzione per attivare o disattivare la modalità bianco e nero della videocamera.</bw>
+	<mirror>Selezionare questa opzione per ottenere un'immagine speculare.</mirror>
+	<flip>Selezionare questa funzione quando la videocamera è installata in posizione capovolta sul soffitto.</flip>
+	<frequency>Potrebbe essere necessario scegliere tra 'Automatico', '50' o '60' Hz per la frequenza (dipende dal paese).</frequency>
+	<whiteBalance>Per impostazione predefinita è 'Automatico'. Consente di rimuovere i punti di colore non realistici, in modo che gli oggetti che appaiono bianchi siano bianchi anche nel video.</whiteBalance>
+	<enableNightMode>Selezionare il tempo di esposizione minimo in ambienti caratterizzati da una scarsa illuminazione.</enableNightMode>
+	<hue2>Consente di controllare diverse gradazioni di un colore rilevabili da un occhio umano.</hue2>
+	<autoExposure1>Selezionare questa funzione per consentire la regolazione automatica del tempo di esposizione della videocamera.</autoExposure1>
+	<sharpness>Viene utilizzato per regolare il livello di nitidezza delle immagini.</sharpness>
+	<source>Selezionare un ambiente interno o esterno.</source>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<fail>Modifiche non riuscite.</fail>
+</message>
+

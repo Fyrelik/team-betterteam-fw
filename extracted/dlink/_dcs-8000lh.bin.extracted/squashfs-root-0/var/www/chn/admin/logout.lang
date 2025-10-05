@@ -1,0 +1,9 @@
+<body>
+	<logout>退出 </logout>
+	<description1>退出后将关闭浏览器。</description1>
+	<titleLogout>退出 </titleLogout>
+</body>
+<hint>
+</hint>
+<message>
+</message>

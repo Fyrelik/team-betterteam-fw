@@ -1,0 +1,23 @@
+<body>
+	<certpropertyTitle>憑證屬性</certpropertyTitle>
+	<Certificate>憑證</Certificate>
+	<Version>版本</Version>
+	<SerialNumber>序號</SerialNumber>
+	<SignatureAlgorithm>簽章演算法</SignatureAlgorithm>
+	<Issuer>簽發者</Issuer>
+	<Validity>合法性</Validity>
+	<NotValidBefore>有效期自</NotValidBefore>
+	<NotValidAfter>有效期到</NotValidAfter>
+	<Subject>主體</Subject>
+	<SubjectPKI>主體金鑰辨識元</SubjectPKI>
+	<PublicKA>公開金鑰演算法</PublicKA>
+	<RSAPK>RSA公開金鑰</RSAPK>
+	<Exponent>Exponent:</Exponent>
+	<Signature>憑證指紋</Signature>
+	<Algorithm>憑證指紋演算法</Algorithm>
+	<pemFormat>憑證(PEM格式)</pemFormat>
+</body>
+<hint>
+</hint>
+<message>
+</message>

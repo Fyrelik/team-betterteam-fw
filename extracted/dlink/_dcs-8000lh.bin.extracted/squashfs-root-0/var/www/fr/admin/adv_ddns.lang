@@ -1,0 +1,56 @@
+<body>
+	<ddnsSettings>DNS dynamique</ddnsSettings>
+	<description1>La fonction DNS dynamique vous permet d'utiliser un nom de domaine acquis par ailleurs (www.votredomaine.com) afin d'accéder à la caméra avec une adresse IP attribuée dynamiquement. La plupart des fournisseurs d'accès Internet haut débit attribuent des adresses IP dynamiques (changeantes). En utilisant un service DDNS, vous pouvez entrer votre nom de domaine pour vous connecter à la caméra, quelle que soit votre adresse IP. </description1>
+	
+	<description11>Inscrivez-vous au service DDNS gratuit de D-Link à l'adresse </description11>
+	<description22>http://www.DlinkDDNS.com</description22>
+	<savebutton>Enregistrer les paramètres</savebutton>
+	<notsavebutton>Ne pas enregistrer les paramètres</notsavebutton>
+	<dynamicDns>Configuration du service DNS dynamique</dynamicDns>
+	<enableDdns>DDNS</enableDdns>
+	<provider>Adresse du serveur</provider>
+	<hostName>Nom d'hôte</hostName>
+	<usernameEmail>Nom d’utilisateur</usernameEmail>
+	<passwordKey>Mot de passe</passwordKey>
+	<passwordConfirm>Confirmation du mot de passe</passwordConfirm>
+	<selectDDNS>Sélection du serveur DDNS</selectDDNS>
+	<ddns1>www.dlinkddns.com</ddns1>
+	<ddns2>www.DynDNS.org</ddns2>
+	<ddns3>www.DynDNS.org (personnalisable) (gratuit)</ddns3>
+	<ddns4>www.DynDNS.org (statique)</ddns4>
+	<timeout>Expiration du délai</timeout>
+	<hours> heures</hours>
+	<status>État</status>
+	<ddnsError1>Le nom d'hôte DDNS ne peut pas être vide ; les caractères valables sont les caractères alphanumériques et \".\" , \"-\", et \"_\"</ddnsError1>
+	<ddnsErrorUser>Le nom d'utilisateur DDNS ne peut pas être vide ; les caractères valables sont les caractères alphanumériques et \".\" , \"-\", et \"_\"</ddnsErrorUser>
+	<ddnsError2>Le nom d'utilisateur DDNS ne peut pas être vide</ddnsError2>
+	<ddnsError3>Le mot de passe DDNS ne peut pas être vide</ddnsError3>
+	<ddnsError4>Le mot de passe DDNS et le mot de passe de confirmation ne coïncident pas</ddnsError4>
+	<ddnsError5>Le nom d'utilisateur et le mot de passe DDNS acceptent uniquement les caractères ASCII, et n'acceptent pas les espaces.</ddnsError5>
+	<ddnsError6>Sélectionnez un serveur DNS dynamique.</ddnsError6>
+	<ddnsError7>Le délai d'attente DDNS doit être une valeur numérique.</ddnsError7>
+	<ddnsError8>Le délai d'attente DDNS doit être compris entre 24 et 65535.</ddnsError8>
+	<ddnsError9>Le délai d'attente DDNS doit être un entier.</ddnsError9>
+	<ddnsServerError>S'il vous plaît vérifier le format d'adresse du serveur DDNS</ddnsServerError>
+	<ddnsServerError1>DDNS Adresse du serveur ne peut pas être vide</ddnsServerError1>
+	<ddnsStatusDisabled>Désactivé</ddnsStatusDisabled>
+	<ddnsStatusUpdated>Mise à jour</ddnsStatusUpdated>
+	<ddnsStatusInitializing>Initialisation en cours</ddnsStatusInitializing>
+	<ddnsStatusFailed>Échec de la connexion</ddnsStatusFailed>
+	<OK>OK</OK>
+	<Disabled>Désactiver</Disabled>
+	<Failure>Échec</Failure>
+	<Initializing>Initialisation en cours</Initializing>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<enableDdns>Un serveur DNS dynamique est utile si votre fournisseur d'accès DSL ou votre câblo-opérateur change périodiquement l'adresse IP de votre périphérique Internet. Avec un DNS dynamique, il est possible d'attribuer un nom de domaine à votre caméra plutôt que d'avoir une connexion par adresse IP.</enableDdns>
+	<status>L'état de la connexion DDNS, il indique la disponibilité de la fonction DDNS.</status>
+	<hostName>Le nom de domaine que vous avez appliqué à partir du service DDNS.</hostName>
+	<timeout>Vous pouvez préciser à quelle fréquence la caméra indique son adresse IP globale courante au serveur DDNS. Par défaut, la fréquence est de 576 heures.</timeout>
+</hint>
+<message>
+	<ok>Modifications enregistrées.</ok>
+	<fail>Échec de l’application des modifications.</fail>
+</message>
+

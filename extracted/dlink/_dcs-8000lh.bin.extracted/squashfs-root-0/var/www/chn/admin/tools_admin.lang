@@ -1,0 +1,101 @@
+<body>
+	<administratorSettings>管理员</administratorSettings>
+	<description1>在此，您可以更改您帐户的管理员密码，同样您也可以添加和/或删除用户帐户。您同样可以为您的摄像机配置一个唯一的名称，并启用它的OSD（屏幕显示）功能以显示您摄像机的实时视频和录制所用的摄像机名和时间戳。</description1>
+	<devideSetting>设备设置</devideSetting>
+	<cameraName>摄像机名</cameraName>
+	<enableOSD>启用屏幕显示</enableOSD>
+	<label>标签</label>
+	<timeStamp>时间戳</timeStamp>
+	<ledControl>LED指示灯</ledControl>
+	<ledOn>开</ledOn>
+	<ledOff>关</ledOff>
+	<ledDummy>闪烁</ledDummy>
+	<administrator>管理员密码设置</administrator>
+	<newPassword>新密码</newPassword>
+	<confirmPassword>确认新密码</confirmPassword>
+	<PasswordMsg>最长30个字符</PasswordMsg>
+	<save>保存</save>
+	<addUser>添加用户帐户</addUser>
+	<userAccount>用户帐户</userAccount>
+	<userName>用户名</userName>
+	<maxUser>最多20个用户</maxUser>
+	<add>添加</add>
+	<managerUser>用户列表</managerUser>
+	<userList>-- 用户列表 --</userList>
+	<delete>删除</delete>
+	<reboot1>摄像机Web服务器正在重启，请等待</reboot1>
+	<reboot2> 秒。</reboot2>
+	<asciiError>OSD标签仅接受数字、大写字母和 \"-\"字符。</asciiError>
+	<cameraNameError>摄像机名不能为空白</cameraNameError>
+	<cameraNameError1>摄像机名不能接受空格</cameraNameError1>
+	<cameraNameError2>摄像机名仅能为数字、字母和 \"-\"字符。</cameraNameError2>
+	<adminPassError1>新密码和确认密码不相同。</adminPassError1>
+	<adminPassError2>新密码不能为空白字符、非ASCII字符。</adminPassError2>
+	<maxUserError>超出最大用户数</maxUserError>
+	<userNameError1>用户名不能为空白。</userNameError1>
+	<userNameError2>用户名仅能为数字、字母、\".\", \"-\"和 \"_\"字符。</userNameError2>
+	<userNameError3>用户名已存在</userNameError3>
+	<userNameError4>新用户名不能为admin。</userNameError4>
+	<userPassError1>新密码和确认密码不相同。</userPassError1>
+	<userPassError2>新密码不能为空白字符、非ASCII字符。</userPassError2>
+	<cameraMsg>最长36个字符</cameraMsg>
+	<privacyText>隐私模式</privacyText>
+	<calibrateText>校正设备</calibrateText>
+	<calibrate>校正设备</calibrate>
+	<privacyOn>开</privacyOn>
+	<privacyOff>关</privacyOff>
+	<scheduled>计划</scheduled>
+	<hour>小时</hour>
+	<min>分</min>
+	<sun>星期日 </sun>
+	<mon>星期一 </mon>
+	<tue>星期二</tue>
+	<wed>星期三 </wed>
+	<thu>星期四 </thu>
+	<fri>星期五 </fri>
+	<sat>星期六 </sat>
+	<from>开始 </from>
+	<to>结束 </to>
+	<liveViewAuth>用户认证</liveViewAuth>
+	<snapShotAuth>用户认证</snapShotAuth>
+	<scheduleError>请填写调度时间。</scheduleError>
+	<hourError>小时数无效。</hourError>
+	<minuteError>分钟数无效。</minuteError>
+	<fullHourError>如果结束小时数为24，结束的分钟数仅能设置为0。</fullHourError>
+	<legalTimeError>开始时间必须小于结束时间。</legalTimeError>
+	<oldPassword>旧密码</oldPassword>
+	<auth>认证</auth>
+	<httpauth>HTTP认证</httpauth>
+	<rtspauth>RTSP认证</rtspauth>
+	<snapauth>快照URL认证</snapauth>
+	<OSDError>OSD标签仅接受数字、大写字母和 \"-\"字符。</OSDError>
+	<enablePrivacy>隐私模式</enablePrivacy>
+	<privacycontrol>隐私模式</privacycontrol>
+	<privacyon>开</privacyon>
+	<privacyoff>关</privacyoff>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<administratorSettings>出于安全考虑，建议您更改您的管理员帐户密码。请务必记下新密码以避免忘记密码而需要重置摄像机。</administratorSettings>
+	<userAccount>使用用户帐户可以登录实时视图页面并使用页面中的功能。</userAccount>
+	<rtspauth>为RTSP流启用用户确认。</rtspauth>
+	<httpauth>为HTTP流启用用户确认。</httpauth>
+	<snapauth>为快照URL启用用户确认。</snapauth>
+	<enableOSD>启用OSD，将在视频页面中显示摄像机名和时间。</enableOSD>
+	<ledOn>普通LED根据有线/无线链接和音频/视频传输状态闪烁。</ledOn>
+	<ledOff>总是关闭LED。</ledOff>
+	<ledDummy>如同有人正监控视频一般，总是闪烁连接LED。</ledDummy>
+	<privacycontrol>允许你去配置摄影机是否进入隐私模式。</privacycontrol>
+	<privacyon>摄像机如果是隐私模式，那么实时视频，视频剪辑，快照和SD卡录制将被关闭。</privacyon>
+	<privacyoff>摄像机在正常的运行模式。</privacyoff>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<invalidParameters>某些参数无效。</invalidParameters>
+	<notCorrectOldPassword>旧密码不正确。</notCorrectOldPassword>
+	<exceedMaxUsers>超出最大用户数</exceedMaxUsers>
+	<userNotExist>要删除的用户不存在。</userNotExist>
+	<tinydbError>设置失败</tinydbError>
+	<calibrationOK>校正成功</calibrationOK>
+	<saveOK>服务器正在重启，请等待40秒钟，然后使用新IP地址连接摄像机。</saveOK>
+</message>

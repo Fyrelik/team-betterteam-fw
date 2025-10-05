@@ -1,0 +1,148 @@
+<body>
+	<networkSettings>Rete</networkSettings>
+	<description1>Qui è possibile configurare le impostazioni relative alla rete LAN e Internet.</description1>
+	<savebutton>Salva impostazioni</savebutton>
+	<notsavebutton>Non salvare impostazioni</notsavebutton>
+	<general>impostazioni LAN</general>
+	<pppoeStatusConnecting>Connessione in corso</pppoeStatusConnecting>
+	<lan>IMPOSTAZIONI LAN</lan>
+	<dhcp>Indirizzo IP automatico</dhcp>
+	<static>Indirizzo IP statico</static>
+	<ip>Indirizzo IPv4</ip>
+	<networkipseterror>Impostazioni non valide</networkipseterror>
+	<subnetMask>Subnet mask</subnetMask>
+	<defaultRouter>Gateway predefinito (Router)</defaultRouter>
+	<primaryDns>DNS primario facoltativo</primaryDns>
+	<secondaryDns>DNS secondario facoltativo</secondaryDns>
+	<enableUpnp>UPnP</enableUpnp>
+	<upnpPort>Inoltro alla porta UPnP</upnpPort>
+	<upnpHttp>Porta HTTP esterna</upnpHttp>
+	<upnpHttps>Porta HTTPS esterna</upnpHttps>
+	<upnpRTSP>Porta RTSP esterna</upnpRTSP>
+	<upnp>IMPOSTAZIONI UPnP</upnp>
+	<basicser>Servizio di base</basicser>
+	<av>AV</av>	
+	<authrtsp>Autenticazione utente RTSP</authrtsp>
+	<authrtsp1> - L'attivazione dell'autenticazione utente RTSP consente di forzare l'identificazione di nome utente e password da parte dell'osservatore.</authrtsp1>
+	<pppoe>PPPoE</pppoe>
+	<userName>Nome utente</userName>
+	<password>Password</password>
+	<confirmPassword>Conferma password</confirmPassword>
+	<verify>Verifica</verify>
+	<status>Stato</status>
+	<portsetting>IMPOSTAZIONI PORTA</portsetting>
+	<httpPort>Porta HTTP</httpPort>
+	<httpsPort>Porta HTTPS</httpsPort>
+	<rtspPort>Porta RTSP</rtspPort>
+	<rtspAuth>Autenticazione utente</rtspAuth>
+	<httpExtPort>Porta HTTP esterna</httpExtPort>
+	<rtspExtPort>Porta RTSP esterna</rtspExtPort>
+	<reboot1>È in corso il riavvio della rete della videocamera, attendere per </reboot1>
+	<reboot2> secondi...</reboot2>
+	<ipError1>Specificare un valore in Indirizzo IP</ipError1>
+	<subnetMaskError1>Specificare un valore in Subnet mask</subnetMaskError1>
+	<routerError1>Specificare un valore in Gateway predefinito (Router)</routerError1>
+	<pppoeError1>Specificare un valore in Nome utente PPPoE</pppoeError1>
+	<pppoeError2>Specificare un valore in Password PPoE</pppoeError2>
+	<pppoeError3>Specificare un valore in Conferma password PPoE</pppoeError3>
+	<pppoeError4>La password PPPoE e la password di conferma non corrispondono</pppoeError4>
+	<pppoeError5>Per il nome utente e la password PPPoE non è possibile utilizzare caratteri non ASCII o caratteri di spazio</pppoeError5>
+	<pppoeStatusDisabled>Disabilitato</pppoeStatusDisabled>
+	<pppoeStatusConnected>Connesso</pppoeStatusConnected>
+	<pppoeStatusConnecting>Connessione in corso</pppoeStatusConnecting>
+	<httpPortError1>Specificare un valore in Porta HTTP</httpPortError1>
+	<httpPortError2>Il valore specificato in Porta HTTP deve essere un numero</httpPortError2>
+	<httpPortError3>Il valore della porta HTTP deve essere uguale a 80 o compreso tra 1025 e 65535</httpPortError3>
+	<httpPortError4>Il valore della porta HTTP non può essere identico a quello della porta HTTPS</httpPortError4>
+	<httpPortError5>Il valore della porta HTTP deve essere compreso tra 1 e 65535</httpPortError5>
+	<rtstPortError1>Specificare un valore in Porta RTSP</rtstPortError1>
+	<rtstPortError2>Il valore specificato in Porta RTSP deve essere un numero</rtstPortError2>
+	<rtstPortError3>Il valore della porta RTSP deve essere uguale a 554 o compreso tra 1025 e 65535</rtstPortError3>
+	<rtstPortError4>Il valore della porta HTTP non può essere identico a quello della porta RTSP</rtstPortError4>
+	<rtstPortError5>Il valore della porta RTSP deve essere compreso tra 1 e 65535</rtstPortError5>
+	<httpExtPortError1>Specificare un valore in Porta HTTP esterna</httpExtPortError1>
+	<httpExtPortError2>Il valore specificato in Porta HTTP esterna deve essere un numero</httpExtPortError2>
+	<httpExtPortError3>Il valore della porta HTTP esterna deve essere uguale a 80 o compreso tra 1025 e 65535</httpExtPortError3>
+	<httpExtPortError4>Il valore della porta HTTP esterna non può essere identico a quello della porta HTTPS esterna</httpExtPortError4>
+	<httpExtPortError5>Il valore della porta HTTP esterna deve essere compreso tra 1 e 65535</httpExtPortError5>
+	<rtspExtPortError1>Specificare un valore in Porta RTSP esterna</rtspExtPortError1>
+	<rtspExtPortError2>Il valore specificato in Porta RTSP esterna deve essere un numero</rtspExtPortError2>
+	<rtspExtPortError3>Il valore della porta RTSP esterna deve essere uguale a 554 o compreso tra 1025 e 65535</rtspExtPortError3>
+	<rtspExtPortError4>Il valore della porta HTTP esterna non può essere identico a quello della porta RTSP esterna</rtspExtPortError4>
+	<rtspExtPortError5>Il valore della porta RTSP esterna deve essere compreso tra 1 e 65535</rtspExtPortError5>
+	<netErrorMessage1>Il </netErrorMessage1>
+	<netErrorMessage2> ottetto di </netErrorMessage2>
+	<netErrorMessage3> deve essere un numero</netErrorMessage3>
+	<netErrorMessage4> deve essere un valore compreso tra </netErrorMessage4>
+	<netErrorMessage5> e </netErrorMessage5>
+	<netErrorMessage6> deve essere </netErrorMessage6>
+	<netError>Configurazione di rete non valida</netError>
+	<ipMessage1>Indirizzo IP</ipMessage1>
+	<ipMessage2>Impostazioni non valide</ipMessage2>
+	<ipMessage3>Il valore dell'indirizzo IP non può essere zero.</ipMessage3>
+	<maskMessage1>Subnet mask</maskMessage1>
+	<maskMessage2>È stata immessa una subnet mask non valida. La subnet mask deve essere contigua. Immettere una subnet mask valida.</maskMessage2>
+	<maskMessage3>Il valore specificato in Subnet mask non può essere zero</maskMessage3>
+	<routerMessage1>Indirizzo gateway predefinito (Router)</routerMessage1>
+	<routerMessage2>Il valore immesso in Indirizzo gateway predefinito (Router) non è valido</routerMessage2>
+	<routerMessage3>Il valore specificato in Indirizzo gateway predefinito (Router) non può essere zero</routerMessage3>
+	<priDnsMessage1>Indirizzo DNS primario</priDnsMessage1>
+	<priDnsMessage2>Il valore immesso in Indirizzo DNS primario non è valido</priDnsMessage2>
+	<priDnsMessage3>Il valore immesso in Indirizzo DNS primario non può essere zero</priDnsMessage3>
+	<secDnsMessage1>Indirizzo DNS secondario</secDnsMessage1>
+	<secDnsMessage2>Il valore immesso in Indirizzo DNS secondario non è valido</secDnsMessage2>
+	<secDnsMessage3>Il valore specificato in Indirizzo DNS secondario non può essere zero</secDnsMessage3>
+	<dnsErrMessage>I valori immessi in Indirizzo DNS primario e Indirizzo DNS secondario devono essere diversi</dnsErrMessage>
+	<apple>Apple</apple>
+	<bonjour>Bonjour</bonjour>
+	<disable>Disabilitato</disable>
+	<pppoeStatusFailed>Connessione non riuscita</pppoeStatusFailed>
+	<lan1>Indirizzo IP automatico</lan1>
+	<Staticip>Indirizzo IP statico</Staticip>
+	<dhcpip>Inoltro alla porta UPnP</dhcpip>
+	<searchdomain>Dominio di ricerca facoltativo</searchdomain>
+	<httpsPortError1>Specificare un valore in Porta HTTPS</httpsPortError1>
+	<httpsPortError2>Il valore specificato in Porta HTTPS deve essere un numero</httpsPortError2>
+	<httpsPortError3>Il valore della porta HTTPS deve essere uguale a 443 o compreso tra 1025 e 65535</httpsPortError3>
+	<httpsPortError4>Il valore della porta HTTPS non può essere identico a quello della porta RTSP</httpsPortError4>
+	<httpsPortError5>Il valore della porta HTTPS deve essere compreso tra 1 e 65535</httpsPortError5>
+	<httpsExtPortError1>Specificare un valore in Porta HTTPS esterna</httpsExtPortError1>
+	<httpsExtPortError2>Il valore della porta HTTPS esterna deve essere un numero</httpsExtPortError2>
+	<httpsExtPortError3>Il valore della porta HTTPS esterna deve essere uguale a 443 o compreso tra 1025 e 65535</httpsExtPortError3>
+	<httpsExtPortError4>Il valore della porta HTTPS esterna non può essere identico a quello della porta RTSP esterna</httpsExtPortError4>
+	<httpsExtPortError5>Il valore della porta HTTPS esterna deve essere compreso tra 1 e 65535</httpsExtPortError5>
+	<domainErrMessage>Per il dominio di ricerca è possibile specificare solo numeri, lettere e i caratteri \".\" e \"-\".</domainErrMessage>
+	<ipv4set>Impostazioni IPv4</ipv4set>
+	<ipv6set>Impostazioni IPv6</ipv6set>
+	<manIpv6set>Configurazione manuale dell'indirizzo IP</manIpv6set>
+	<Ipv6AddrPre>Lunghezza prefisso/indirizzo IPv6</Ipv6AddrPre>
+	<Ipv6gateway>Gateway predefinito (Router)</Ipv6gateway>
+	<Ipv6priDns>DNS primario facoltativo</Ipv6priDns>
+	<Ipv6secDns>DNS secondario facoltativo</Ipv6secDns>
+	<ipv6Message>L'indirizzo IPv6 immesso non è valido.</ipv6Message>
+	<ipv6Message2>Il valore della lunghezza del prefisso IPv6 deve essere compreso tra 0 e 128.</ipv6Message2>
+	<ipv6Message3>Il valore immesso in Gateway predefinito (Router) per IPv6 non è valido.</ipv6Message3>
+	<ipv6Message4>L'indirizzo DNS primario immesso per IPv6 non è valido.</ipv6Message4>
+	<ipv6Message5>L'indirizzo DNS secondario immesso per IPv6 non è valido.</ipv6Message5>
+	<ipv6Message6>I valori immessi in Indirizzo DNS primario e Indirizzo DNS secondario per IPv6 devono essere diversi.</ipv6Message6>
+	<ipv6Message7>Il valore immesso in Gateway predefinito (Router) per IPv6 deve iniziare con FE80.</ipv6Message7>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<Staticip1>Questa opzione consente di configurare la videocamera IP con l'indirizzo IP corrispondente alle impostazioni di rete.</Staticip1>
+	<dhcpip1>Se il Router supporta UPnP, le videocamere e il Router possono comunicare tra di loro in modo che il Router sappia quali porte vengono utilizzate da quali videocamere.</dhcpip1>
+	<lan>Selezionare questa opzione se nella rete è in esecuzione un server DHCP e si desidera che alla videocamera venga assegnato automaticamente un indirizzo IP.</lan>
+	<httpPort>Allocare la porta della videocamera in modo da consentire la connessione tramite un browser Web standard.</httpPort>
+	<rtspPort>Allocare la porta della videocamera in modo da consentire la connessione tramite QuickTime o dispositivi mobili di streaming.</rtspPort>
+	<enableUpnp>Abilitare UPnP per consentire la rilevazione della videocamera come dispositivo UPnP nella rete.</enableUpnp>
+	<bonjour>Abilitare Bonjour per consentire la rilevazione della videocamera in un computer Apple.</bonjour>
+	<pppoe>Questa opzione consente di configurare la videocamera per la connessione diretta a Internet. Se la videocamera è mascherata da un router o da un gateway, non è necessario configurare questa impostazione.</pppoe>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<fail>Modifiche non riuscite.</fail>
+	<invalidParameter>Errore di configurazione.</invalidParameter>
+	<settingNotChange>Le impostazioni non state modificate.</settingNotChange>
+	<saveOK>Riavvio server Web in corso. Attendere un minuto, quindi riconnettere la videocamera con il nuovo indirizzo IP.</saveOK>
+</message>
+

@@ -1,0 +1,40 @@
+<leftPanel>
+	<camera>Câmera</camera>
+	<logout>Sair</logout>
+	<titleLiveVideo>VIDEO EM TEMPO REAL</titleLiveVideo>
+	<wizard>Assistente de Configuração</wizard>
+	<networkSettings>Rede</networkSettings>
+	<wireless>Configuração Wireless</wireless>
+	<ddns>Dinâmico DNS</ddns>
+	<imageSettings>Configuração de Imagem</imageSettings>
+	<audioVideo>Audio e Video</audioVideo>
+	<mailFtp>Mail e FTP</mailFtp>
+	<motionDetection>Detecção de Movimento</motionDetection>
+	<audio_detection>Detecção de Som</audio_detection>
+	<timeAndDate>Hora e Data</timeAndDate>
+	<cameraControl>Controle da Câmera</cameraControl>
+	<cameraPatrolControl>Ângulo de Monitoramento</cameraPatrolControl>
+	<recording>GRAVAÇÃO SD</recording>
+	<snapshot>Snapshot</snapshot>
+	<digitalOutput>Saída Digital</digitalOutput>
+	<videoclip>Video Clipe</videoclip>
+	<rs485>RS-485</rs485>
+	<ack>Agradecimentos</ack>
+	<logout>Sair</logout>
+	<titleSetup>INSTALAÇÃO</titleSetup>
+	<deviceInfo>Informação do Dispositivo</deviceInfo>
+	<log>Log</log>
+	<logout>Sair</logout>
+	<titleStatus>ESTADO</titleStatus>
+	<deviceManagement>Admin</deviceManagement>
+	<backupAndRestore>Sistema</backupAndRestore>
+	<firmwareUpgrade>Atualização de Firmware</firmwareUpgrade>
+	<logout>Sair</logout>
+	<titleMaintenance>MANUTENÇÃO</titleMaintenance>
+	<menu>Menu Ajuda</menu>
+	<logout>Sair</logout>
+	<titleHelp>AJUDA</titleHelp>
+	<sdcard>Gerenciamento SD</sdcard>
+	<ipFilter>Filtro IP</ipFilter>
+	<https>Configuração HTTPS</https>
+</leftPanel>

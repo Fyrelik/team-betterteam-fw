@@ -1,0 +1,168 @@
+<body>
+	<videoclip>視訊短片</videoclip>
+	<description1>視訊短片功能可在事件觸發時，透過 FTP 或 E-Mail 傳送視訊短片。</description1>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不要儲存設定</notsavebutton>
+	<di>D/I 訊號 1</di>
+	<di2>D/I 訊號 2</di2>
+	<enable>視訊短片</enable>
+	<profile2>設定資料 2</profile2>
+	<motionDetection>移動偵測</motionDetection>
+	<sendVideoClipBy>傳送到：</sendVideoClipBy>
+	<emailAddress>電子郵件位址</emailAddress>
+	<ftpServer>FTP 伺服器</ftpServer>
+	<userName>使用者名稱</userName>
+	<password>密碼</password>
+	<mailServer>SMTP 郵件伺服器</mailServer>
+	<senderAddress>寄件者 E-mail 位址</senderAddress>
+	<recipientAddress>收件人 E-mail 位址</recipientAddress>
+	<port>通訊埠</port>
+	<test>測試</test>
+	<test2>測試</test2>
+	<hostName>主機名稱</hostName>
+	<path>路徑</path>
+	<prefixFileName>檔名前置字</prefixFileName>
+	<passiveMode>被動模式</passiveMode>
+	<portRange> (範圍為 1 到 65535)</portRange>
+	<mailNameError>郵件使用者名稱與密碼不接受非 ASCII 與空白字元</mailNameError>
+	<ftpNameError>FTP 使用者名稱與密碼不接受非 ASCII 與空白字元</ftpNameError>
+	<firSmtpError>SMTP (郵件) 主機名稱不得為空白，只能接受數字、英文字母、\".\"、\"-\" 和 \"_\" 字元</firSmtpError>
+	<firSmtpName>E-mail SMTP</firSmtpName>
+	<firAccountError>SMTP 郵件伺服器使用者名稱不得為空白</firAccountError>
+	<firRecipientMailError>請檢查收件人電子郵件位址格式。</firRecipientMailError>
+	<firRecipientError>收件人電子郵件位址不得為空白</firRecipientError>
+	<firSenderMailError>請檢查寄件人電子郵件位址格式。</firSenderMailError>
+	<firSenderError>寄件人電子郵件位址不得為空白</firSenderError>
+	<PortError1>通訊埠不可為空白</PortError1>
+	<PortError2>通訊埠必須為整數</PortError2>
+	<PortError3>通訊埠必需介於 1 到 65535 之間</PortError3>
+	<firFtpServerError>FTP 主機名稱不得為空白，只能接受數字、英文字母、\".\"、\"-\" 和 \"_\" 字元</firFtpServerError>
+	<firFtpError>FTP 伺服器</firFtpError>
+	<firFolderError>FTP 路徑只能接受數字、英文字母和字元: </firFolderError>
+	<firFolderError2>FTP 路徑不接受連續的 \".\" 與 \"/\" </firFolderError2>
+	<firFixFilenameError>檔名前置字只能接受數字、英文字母和字元: </firFixFilenameError>
+	<continousRecording>持續 (限 FTP)</continousRecording>
+	<scheduledRecording>排程 (限 FTP)</scheduledRecording>
+	<hour>小時</hour>
+	<min>分鐘</min>
+	<sun>星期日</sun>
+	<mon>星期一</mon>
+	<tue>星期二</tue>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<from>開始</from>
+	<to>結束 </to>
+	<scheduling>排程</scheduling>
+	<motionBased>移動</motionBased>
+	<audioBased>聲音</audioBased>
+	<alwaysBased>總是</alwaysBased>
+	<interval>間隔</interval>
+	<second>秒</second>
+	<range1> (範圍為 10 到 86400 秒)</range1>
+	<range2> (範圍為 30 到 86400 秒)</range2>
+	<range3> (範圍為 60 到 86400 秒)</range3>
+	<range5> (範圍為 30 到 86400 秒)</range5>
+	<methodError>請選擇排程設定</methodError>
+	<scheduleError>請輸入排程時間</scheduleError>
+	<triggerError>請選擇目標</triggerError>
+	<fullHourError>若結束小時是 24，結束分鐘必須為 0</fullHourError>
+	<legalTimeError>開始時間必須小於結束時間</legalTimeError>
+	<ignoreMotionTimeErrorsmtp>傳送下一個E-mail在的秒數必須為整數</ignoreMotionTimeErrorsmtp>
+	<ignoreMotionTimeErrorftp>傳送下一個FTP在的秒數必須為整數</ignoreMotionTimeErrorftp>
+	<ftpignoreMotionTimeError1>傳送下一個FTP在的秒數必須介於 10~86400 秒之間</ftpignoreMotionTimeError1>
+	<smtpignoreMotionTimeError2>傳送下一個E-mail在的秒數必須介於 30~86400 秒之間</smtpignoreMotionTimeError2>
+	<ignoreMotionTimeError3>忽略以下移動秒數必須介於 60~86400 秒之間</ignoreMotionTimeError3>
+	<ftpintervalError>FTP </ftpintervalError>
+	<smtpintervalError>E-mail </smtpintervalError>
+	<sdintervalError>SD 卡</sdintervalError>
+	<intervalError>間隔需為整數</intervalError>
+	<intervalError1>間隔需為 10~86400 秒</intervalError1>
+	<intervalError2>間隔需為 20~86400 秒</intervalError2>
+	<intervalError3>間隔需為 60~86400 秒</intervalError3>
+	<intervalError5>間隔需為 30~86400 秒</intervalError5>
+	<ftpMailError>請填入 E-mail 位址或 FTP 伺服器設定</ftpMailError>
+	<ftpScheduleError>FTP 伺服器設定</ftpScheduleError>
+	<trigger>觸發條件</trigger>
+	<ignoreMotFTP>傳送下一個FTP在</ignoreMotFTP>
+	<ignoreMotSMTP>傳送下一個E-mail在</ignoreMotSMTP>
+	<onlyDuring>僅在下列時間之間</onlyDuring>
+	<day>日</day>
+	<time>時間</time>
+	<period>在間隔內定期</period>
+	<type>視訊短片類型</type>
+	<source>來源</source>
+	<preRec>事件前錄影 :</preRec>
+	<maxRec>最長持續時間 :</maxRec>
+	<preRec1>事件前錄影 </preRec1>
+	<maxRec1>最長持續時間 </maxRec1>
+	<target>目標</target>
+	<quota>保留可用空間</quota>
+	<sdcycle>循環</sdcycle>
+	<Email>Email 到</Email>
+	<sd>SD 卡</sd>
+	<ftp>FTP</ftp>
+	<encrypt1>使用 SSL-TLS/STARTTLS</encrypt1>
+	<encrypt2>使用 SSL-TLS</encrypt2>
+	<smtp>E-mail</smtp>
+	<encript1>無</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<sdQuotaError>SD 卡剩餘空間必須是整數，且最少是 30</sdQuotaError>
+	<mfhourError>開始小時無效</mfhourError>
+	<mthourError>結束小時無效</mthourError>
+	<mfminuteError>開始分鐘無效</mfminuteError>
+	<mtminuteError>結束分鐘無效</mtminuteError>
+	<intervalSecErr>間隔秒數必須是正整數，且最小值是 5</intervalSecErr>
+	<ignoreSecErr>忽略秒數必須是正整數</ignoreSecErr>
+	<dayErr>請至少選擇一天</dayErr>
+	<mininum>(最少 5 秒)</mininum>
+	<preErr>事件前錄影秒數必須為整數，且介於 0 到 5 之間</preErr>
+	<maxErr>最長持續時間秒數必須為整數，且介於 5 到 10 之間</maxErr>
+	<preRecNotify> (從 0 到 5 秒)</preRecNotify>
+	<maxRecNotify> (從 5 到 10 秒)</maxRecNotify>
+	<ftpSmtpcheckErr>不能同時選擇 FTP 與 E-mail</ftpSmtpcheckErr>
+	<targetNotify>只能選擇 FTP 或 E-mail 其中一個來接收通知。</targetNotify>
+	<global>全域參數</global>
+	<targetOnly>視訊短片的目標不可同時選 FTP 與 E-mail。</targetOnly>
+	<qoutaMin>且最小是 30 </qoutaMin>
+	<description6>在此可設定</description6>
+	<description7> 音訊和視訊</description7>
+	<motionNote>請注意，移動偵測尚未啟用，請至「移動偵測」網頁進行設定。</motionNote>
+	<audioNote>請注意，音頻偵測尚未啟用，請至「音頻偵測」網頁進行設定。</audioNote>
+	<sdNote>請注意，攝影機並未插入 SD 卡，或 SD 卡無法寫入。</sdNote>
+	<sdNoteFull>請注意，SD 卡空間已滿。</sdNoteFull>
+	<profiletype1>設定資料 1</profiletype1>
+	<profiletype2>設定資料 2</profiletype2>
+	<profiletype3>設定資料 3</profiletype3>
+	<gpio>數位輸入</gpio>
+	<vediofileformat>檔案格式 :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<videoclip>視訊短片功能可根據移動偵測或外部感應器輸入觸發，來儲存或傳送視訊短片到遠端 E-mail 或 FTP 伺服器上。</videoclip>
+	<motionBased>偵測到移動後開始錄製短片。</motionBased>
+	<audioBased>偵測到聲音後開始錄製短片。</audioBased>
+	<scheduling>在特定時間進行短片錄製。</scheduling>
+	<alwaysBased>持續進行錄影。</alwaysBased>
+	<preRec>指定在視訊短片開始錄製前，短片要先預錄幾秒。</preRec>
+	<maxRec>指定短片要錄幾秒。</maxRec>
+	<target>視訊短片目標可選擇 FTP 或 E-mail。</target>
+	<type>您可設定需要的設定資料、事件前錄影與最長持續時間。</type>
+	<gpio>偵測到數位輸入後開始錄製短片。</gpio>
+	<test>按「測試」按鈕可檢查FTP或E-mail是否可正常存取。</test>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<testMailFault>測試電子郵件傳送失敗</testMailFault>
+	<invalidPort>通訊埠無效</invalidPort>
+	<getFrameFault>影格取得失敗</getFrameFault>
+	<testMailOk>測試電子郵件傳送成功</testMailOk>
+	<testFTPFault>FTP 測試失敗</testFTPFault>
+	<testFTPOk>FTP 測試成功</testFTPOk>
+	<invalidParameter>設定失敗</invalidParameter>
+	<updateFailed>設定更新失敗</updateFailed>
+</message>

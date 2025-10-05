@@ -1,0 +1,60 @@
+<body>
+	<maintenance>Sistema</maintenance>
+	<description1>Aqui você pode fazer backup, restaurar e reiniciar a câmera.</description1>
+	<rebootDevice>Reiniciar Dispositivo</rebootDevice>
+	<rebootText>Reiniciar Dispositivo</rebootText>
+	<factory>Restaurar para padrão de fábrica</factory>
+	<factoryDefault>Restaurar para padrão de fábrica</factoryDefault>
+	<calibrateText>Calibrar o Dispositivo</calibrateText>
+	<calibrate>Calibrar o Dispositivo</calibrate>
+	<reboot1>A câmera atualmente está reiniciando, por favor aguarde </reboot1>
+	<reboot2> segundos.</reboot2>
+	<system>sistema</system>
+	<backupText>Salvar no disco rígido local</backupText>
+	<saveConfiguration>Salvar Configuração</saveConfiguration>
+	<restoreText>Carregar de um disco rígido local</restoreText>
+	<privacyText>Modo Privacidade</privacyText>
+	<privacy>Siga para o modo privacidade</privacy>
+	<restoreConfiguration>Carregar Configuração</restoreConfiguration>
+	<restoreConfirm>Você deseja restaurar dados de configuração?</restoreConfirm>
+	<rebootConfirm>Você deseja reiniciar?</rebootConfirm>
+	<factoryConfirm>Você deseja os padrões de fábrica?</factoryConfirm>
+	<reboot>Reiniciar</reboot> 
+	<schedule>Agenda Reiniciar Dispositivo</schedule> 
+	<sun>Dom</sun> 
+	<mon>Seg</mon> 
+	<tue>Ter</tue> 
+	<wed>Quar</wed> 
+	<thu>Quin</thu> 
+	<fri>Sex</fri> 
+	<sat>Sab</sat> 
+	<time>Horário</time> 
+	<savebutton>Salvar</savebutton>
+	<exportHint>Please enter a key to save the configuration. And reserve the key carefully for loading the configuration.</exportHint>
+	<importHint>Please enter the key for loading the configuration.</importHint>
+	<exportError>Key can't be empty.</exportError>
+	<importError>The key is required to load the configuration.</importError>
+	<keyError>The key only accepts number, alphabet, \".\", \"_\", and \"-\". The maximum is 30 characters.</keyError>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<maintenance>Após as definições de fábrica serem restauradas, use o software do Assistente de instalação fornecido com a câmera para procurar e conectar a câmera.</maintenance>
+</hint>
+<message>
+	<updateOK>a atualização foi bem sucedida</updateOK>
+	<uploadFail>o envio falhou</uploadFail>
+	<examFail>a imagem para envio está danificado</examFail>
+	<infoFail>a imagem para envio não tem informação</infoFail>
+	<invalidImage>a imagem para envio não pode ser usado para este produto</invalidImage>
+	<resetFail>o reset falhou</resetFail>
+	<resetOK>A câmera vai começar o processo de restauração. Por favor, aguarde 1 minuto e, em seguida, volte a ligar a câmera com o novo endereço IP.</resetOK>
+	<rebootFail>a reiniciação falhou</rebootFail>
+	<rebootOK>Reinício feito</rebootOK>
+	<calibrationOK>Calibração bem sucedida</calibrationOK>
+	<goSleepOK>modo privacidade bem sucedido</goSleepOK>
+	<importOK>A câmera vai começar a carregar a sua configuração. Por favor, aguarde 1 minuto e, em seguida, volte a ligar a câmera com o novo endereço IP.</importOK>
+	<invalidDB>Arquivo de configuração inválido</invalidDB>
+	<noDB>Nenhum arquivo de configuração enviado</noDB>
+	<saveOK>Reiniciando o servidor Web. Aguarde 75 segundos e, em seguida, volte a ligar a câmera com o novo endereço IP.</saveOK>
+	<scheduleOK>Alterações Salvas.</scheduleOK>
+</message>

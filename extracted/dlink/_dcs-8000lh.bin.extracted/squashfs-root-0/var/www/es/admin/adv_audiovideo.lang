@@ -1,0 +1,107 @@
+<body>
+	<audioVideoSettings>Audio y vídeo</audioVideoSettings>
+	<description1>Puede configurar aquí los parámetros del modo noche, de audio y de vídeo (4 perfiles de vídeo). El perfil 3 se ha establecido para instantánea y el perfil 4 se establece para su teléfono móvil o dispositivo PDA. </description1>
+	<descriptionNoNightmode>Puede configurar aquí los parámetros de audio y de vídeo (3 perfiles de vídeo). El perfil 2 se ha establecido para instantánea y el perfil 3 se establece para su teléfono móvil o dispositivo PDA.</descriptionNoNightmode>
+	<description2>Cuenta con tres salidas de sensor de vídeo/sistemas de visualización principales ("VGA", "XGA", "SXGA") y proporciona sus propios parámetros de resolución para las selecciones.</description2>
+	<savebutton>Guardar parámetros</savebutton>
+	<notsavebutton>No guardar parámetros</notsavebutton>
+	<videoSensor>sensor de vídeo</videoSensor>
+	<sensorOutput>Salida del sensor</sensorOutput>
+	<vga>VGA (640 x 480)</vga>
+	<sxga>SXGA (1.280 x 1.024)</sxga>
+	<xga>XGA (1.024 x 768)</xga>
+	<resolution>Resolución</resolution>
+	<kbps>Kbps</kbps>
+	<mbps>Mbps</mbps>
+	<low>Bajo</low>
+	<fair>Aceptable</fair>
+	<standard>Estándar</standard>
+	<good>Buena</good>
+	<excellent>Excelente</excellent>
+	<nightMode>MODO DÍA/NOCHE</nightMode>
+	<enableNightMode>Activar modo Noche</enableNightMode>
+	<shutter>Obturador</shutter>
+	<second>Segundo</second>
+	<cameraEnv>Entorno de la cámara</cameraEnv>
+	<placedLocation>Fuente de luz</placedLocation>
+	<indoor>Interior</indoor>
+	<outdoor>Exterior</outdoor>
+	<irLed>Modo día/noche</irLed>
+	<auto>Automático</auto>
+	<manual>IR manual</manual>
+	<autoPIR>Automático y PIR</autoPIR>
+	<on>Siempre en modo Día</on>
+	<off>Siempre en modo Noche</off>
+	<audioSettings>configuración de audio</audioSettings>
+	<enableSpeaker>Altavoz</enableSpeaker>
+	<volume>Volumen</volume>
+	<enableMicrophone>Micrófono</enableMicrophone>
+	<encodeType>Tipo codific.</encodeType>
+	<resolution>Resolución</resolution>
+	<FPS>IPS</FPS>
+	<BPS>bps</BPS>
+	<encodeMethod>Método codific.</encodeMethod>
+	<cbr>CBR</cbr>
+	<quality>Calidad</quality>
+	<JPEG_Quality>Calidad</JPEG_Quality>
+	<RTSP_URL>URL de RTSP</RTSP_URL>
+	<mobileOnly>SÓLO PARA DISPOSITIVO MÓVIL</mobileOnly>
+	<updateConfirm>Tenga en cuenta que el modo SXGA tiene las limitaciones siguientes:\n  1. Se desactivará la detección de movimiento y las instantáneas activadas por el movimiento.\n  2. Las grabaciones se realizarán en resolución media, como mucho.\n  3. Los navegadores que no sean IE sólo mostrarán vídeo a 1.280 x 1.024</updateConfirm>
+	<reboot1>La cámara se está reiniciando en este momento, espere </reboot1>
+	<reboot2> segundos.</reboot2>
+	<xgaText>Cuando está seleccionado el modo XGA, sólo el Perfil 1 admite 1.024 x 768.</xgaText>
+	<sxgaText1>Cuando está seleccionado el modo SXGA, sólo el tipo de codificación JPEG del Perfil 1 admite 1.280 x 1.024.</sxgaText1>
+	<sxgaText2>Se desactivará la detección de movimiento y la activación por movimiento.</sxgaText2>
+	<nightModeText>Cuando está seleccionado el modo Noche, la frecuencia de imagen real puede ser inferior a la del parámetro Frecuencia de imagen máxima anterior en un ambiente oscuro.</nightModeText>
+	<RTSPErrorMsg1>PERFIL DE VÍDEO </RTSPErrorMsg1>
+	<RTSPErrorMsg2> La URL de RTSP no puede ser la misma con PERFIL DE VÍDEO </RTSPErrorMsg2>
+	<RTSPErrorMsg3> URL de RTSP</RTSPErrorMsg3>
+	<RTSPErrorMsg4>La URL de RTSP no puede estar vacía, solo acepta caracteres numéricos, alfabéticos, \".\" , \"-\" y \"_\"</RTSPErrorMsg4>
+	<profile1>PERFIL DE VÍDEO 1</profile1>
+	<profile2>PERFIL DE VÍDEO 2</profile2>
+	<profile3>PERFIL DE VÍDEO 3</profile3>
+	<profile4>PERFIL DE VÍDEO 4</profile4>
+	<mfhourError>La hora de inicio no es válida</mfhourError>
+	<mthourError>La hora final no es válida</mthourError>
+	<mfminuteError>El minuto de inicio no es válido</mfminuteError>
+	<mtminuteError>El minuto final no es válido</mtminuteError>
+	<enablemute>Silencio automático</enablemute>
+	<tvOutTitle>Salida de TV</tvOutTitle>
+	<tvOUT>Salida de TV</tvOUT>
+	<enableTvOUT>Activar salida de TV</enableTvOUT>
+	<NTSC>NTSC</NTSC>
+	<PAL>PAL</PAL>
+	<schedule>Programar</schedule>
+	<daytime>Hora del día</daytime>
+	<timeFrom>De</timeFrom>
+	<timeTo>a</timeTo>
+	<sun>Dom</sun>
+	<mon>Lun</mon>
+	<tue>Mar</tue>
+	<wed>Mié</wed>
+	<thu>Jue</thu>
+	<fri>Vie</fri>
+	<sat>Sáb</sat>
+</body>
+<hint>
+	<helpfulHints>Sugerencias útiles.</helpfulHints>
+	<audioVideoSettings>Una mayor resolución, IPS y bps proporciona vídeo de mayor calidad. Al mismo tiempo, necesita mayor ancho de banda de red.</audioVideoSettings>
+	<encodeType>Seleccione el códec de vídeo "JPEG2 o "H264".</encodeType>
+	<resolution>Las opciones dependen del sistema de visualización utilizado. </resolution>
+	<FPS>La cantidad de imágenes presentadas por la cámara por segundo.</FPS>
+	<BPS>Seleccione un ancho de banda fijo para el funcionamiento de la cámara. Un valor más alto supone una imagen de mayor calidad pero consume más ancho de banda de red.</BPS>
+	<JPEG_Quality>Establezca la calidad de imagen.</JPEG_Quality>
+	<RTSP_URL>Es la URL que se utiliza para conectarse a la cámara cuando se está visualizando desde QuickTime o desde un dispositivo móvil.</RTSP_URL>
+	<irLed>Seleccione el modo Noche para utilizar el LED de IR de la cámara en una zona con poca luz.</irLed>
+	<enableSpeaker>Cuando está seleccionada esta opción, puede hablar por el micrófono del PC y su voz se oirá a través del altavoz externo conectado a la cámara.</enableSpeaker>
+	<enableMicrophone>Active esta característica para escuchar el sonido del micrófono de la cámara.</enableMicrophone>	
+	<encodeMethod>Seleccione CBR para tener Primero bps o Primero calidad como método de codificación de vídeo.</encodeMethod>
+	<tvOUThelp>Active la salida de TV, permite trasladar el vídeo de la cámara al televisor o a otro monitor.</tvOUThelp>
+	<enablemutehelp>Active esta opción para silenciar automáticamente el micrófono cuando la lente de la cámara se está moviendo.</enablemutehelp>
+</hint>
+<message>
+	<ok>Cambios guardados.</ok>
+	<fail>Error en los cambios.</fail>
+	<saveOK>Se está reiniciando el servidor web. Espere 1 minuto y después vuelva a conectar la cámara con la nueva dirección IP.</saveOK>
+</message>
+

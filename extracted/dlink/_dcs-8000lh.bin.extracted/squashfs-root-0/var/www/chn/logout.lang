@@ -1,0 +1,10 @@
+<body>
+	<logout>退出</logout>
+	<description1>退出后将关闭浏览器。</description1>
+	<titleLogout>退出</titleLogout>
+	<closewebpage>请手动关闭此网页。</closewebpage>
+</body>
+<hint>
+</hint>
+<message>
+</message>

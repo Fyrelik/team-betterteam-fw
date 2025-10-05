@@ -1,0 +1,47 @@
+<body>
+	<rs485>RS-485</rs485>
+	<description1>Questa sezione consente di specificare le impostazioni RS-485 della videocamera.</description1>
+	<enableRs485>PAN-TILT supporto</enableRs485>
+	<rs485ID>ID</rs485ID>
+	<rs485BuadRate>Velocità in baud</rs485BuadRate>
+	<rs485DataBits>Bit di dati</rs485DataBits>
+	<rs485StopBit>Bit di stop</rs485StopBit>
+	<rs485ParityBit>Bit di parità</rs485ParityBit>
+	<rs485Protocol>Protocollo</rs485Protocol>
+	<Pelco-D>Pelco-D</Pelco-D>
+	<Pelco-P>Pelco-P</Pelco-P>
+	<Dyna>Dyna</Dyna>
+	<LiLin>LiLin</LiLin>
+	<savebutton>Salva impostazioni</savebutton>
+	<notsavebutton>Non salvare impostazioni</notsavebutton> 
+	<protocol>Protocollo</protocol>
+	<protocoll> - Selezionare lo standard PTZ utilizzato per connettere uno scanner PTZ tramite interfaccia seriale: RS485.</protocoll>
+	<id>ID</id>
+	<idl> - Il valore di ID è utilizzato per identificare il dispositivo RS-485.</idl>
+	<baudRate>Velocità in baud</baudRate>
+	<baudRatel> - Selezionare la velocità in baud desiderata per il dispositivo connesso.</baudRatel>
+	<dataBits>Bit di dati</dataBits>
+	<dataBitsl> - Selezionare il numero di bit di dati desiderato per il dispositivo connesso.</dataBitsl>
+	<stopBit>Bit di stop</stopBit>
+	<stopBitl> - Selezionare il numero di bit di stop desiderato per il dispositivo connesso.</stopBitl>
+	<parityBit>Bit di parità</parityBit>
+	<parityBitl> - Selezionare il tipo di parità desiderato per il dispositivo connesso.</parityBitl>
+	<idRangeError>Valore ID non compreso nell'intervallo</idRangeError>
+	<idrangemessage0>(intervallo da 1 a 255)</idrangemessage0>
+	<idrangemessage1>(intervallo da 1 a 32)</idrangemessage1>
+	<idrangemessage2>(intervallo da 1 a 223)</idrangemessage2>
+	<idrangemessage3>(intervallo da 1 a 64)</idrangemessage3>
+</body> 
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<description2>Il bit di stop può essere impostato a 1 bit o a 2 bit.</description2>
+	<description3>Durante l'abilitazione della funzione PAN-TILT (panoramica-rotazione) del supporto, nella pagina Video in diretta compare un pannello di controllo per controllare l'involucro di una videocamera esterna tramite linea RS-485.</description3>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<fail>Modifiche non riuscite.</fail>
+	<failure>errore di impostazione</failure>
+	<full>predefinito è già pieno</full>
+	<invalidParameters>nome predefinito non valido</invalidParameters>
+	<oob>il valore dell'impostazione non rientra nell'intervallo</oob>
+</message>

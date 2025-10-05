@@ -1,0 +1,18 @@
+<body>
+	<systemLog>Log di sistema</systemLog>
+	<description1>Il file di log di sistema registra gli eventi che si sono verificati.</description1>
+	<ipAddress>Indirizzo IP</ipAddress>
+	<port>Porta</port>
+	<save>Salva</save>
+	<currentLog>log corrente</currentLog>
+	<clear>Cancella</clear>
+	<download>Scarica</download>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<systemLog>È possibile salvare il file di log sul proprio disco rigido locale facendo clic sul pulsante Scarica. Inoltre è possibile cancellare il file di log facendo clic sul pulsante Cancella.</systemLog>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+</message>
+

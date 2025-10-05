@@ -1,0 +1,63 @@
+﻿<body>
+	<motionDetection>移動偵測</motionDetection>
+	<description1>這部分可以讓您開啟或關閉移動偵測功能, 在使用移動偵測功能之前, 您必須先勾選'啟動影像移動'項目, 並拖劃出您要偵測移動的區域及調整面積比。</description1>
+	<description2>當攝影機設定為SXGA 模式時, 移動偵測將被停用。</description2>
+	<description3>要啟用移動偵測功能的話, 請至</description3>
+	<description4>聲音與影像</description4>
+	<savebutton>儲存設定</savebutton>
+	<notsavebutton>不儲存設定</notsavebutton>
+	<liveVideo>即時影像</liveVideo>
+	<enableMotion>啟動影像移動</enableMotion>
+	<enablePIR>啟動PIR</enablePIR>
+	<sense>面積比</sense>
+	<drawingMode>繪圖模式</drawingMode>
+	<drawMotion>畫出移動範圍</drawMotion>
+	<eraseMotion>清除移動範圍</eraseMotion>
+	<clear>清除</clear>
+	<pirhigh>高</pirhigh>
+	<pirmiddle>中</pirmiddle>
+	<pirlow>低</pirlow>
+	<numberError>面積比必須爲整數</numberError>
+	<pirsensibility>PIR 靈敏度</pirsensibility>
+	<rangeError>面積比取值範圍必須在整數0至100之間。</rangeError>
+	<areaError>請畫出移動範圍</areaError>
+	<unselectRange>畫出移動範圍</unselectRange>
+	<inverseRange>清除移動範圍</inverseRange>
+	<showFirefoxText>要設定偵測移動的區域, 請使用 Windows Internet Explorer。</showFirefoxText>
+	<scheduling>排程</scheduling>
+	<always>持續觸發</always>
+	<schedule>排程觸發</schedule>
+	<day>星期</day>
+	<mon>星期一</mon>
+	<thu>星期二</thu>
+	<wed>星期三</wed>
+	<thu>星期四</thu>
+	<fri>星期五</fri>
+	<sat>星期六</sat>
+	<sun>星期日</sun>
+	<time>時間</time>
+	<form>從</form>
+	<to>到</to>
+	<clear>清除</clear>
+	<reloadBG>重新整理影像</reloadBG>
+	<enalbeMdWarning>警告:若要啟用移動偵測功能，請勾選 [啟用影像移動]。但若您要停用移動偵測功能，請清除移動偵測範圍。</enalbeMdWarning>
+	<privacy>網路攝影機目前設定為隱私模式</privacy>
+	<JavaSupport>瀏覽器不支援或是關閉了 Java JRE。</JavaSupport>
+	<getJava>在這取得最新的 Java JRE</getJava>
+	<enableJava> 或者打開 Java JRE。</enableJava>
+	<javajreinfo8>點擊這裏下載NCSPlugin並安裝，然後重新開瀏覽器。</javajreinfo8>
+	<javajreinfo88>您現在使用的瀏覽器可能有困難接受圖片或是影片，如果您遇到任何問題，建議您使用IE瀏覽器,Mozilla Firefox或Apple Safari</javajreinfo88>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<pirsensibility>PIR靈敏度的設定有三種選擇：低，中，高，而預設的設定值為低的。而你應該實驗看看哪一個設定是最適合目前PIR所放置的地方。</pirsensibility>
+	<sense>設定攝影機面積比來觸發移動偵測。面積比越高，越容易偵測到移動。</sense>
+	<unselectRange>請拖拉滑鼠來新增移動偵測範圍。</unselectRange>
+	<inverseRange>請拖拉滑鼠來清除移動偵測範圍。</inverseRange>
+	<enablePIR>若選擇此項，就會使用 PIR (被動式紅外線) 來偵測移動。</enablePIR>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<fail>變更失敗。</fail>
+	<updateFailed>移動偵測服務程式設定失敗</updateFailed>
+</message>

@@ -1,0 +1,10 @@
+<body>
+	<logout>Logout</logout>
+	<description1>Logging out will close the browser.</description1>
+	<titleLogout>LOGOUT</titleLogout>
+	<closewebpage>Please close web page manually</closewebpage>
+</body>
+<hint>
+</hint>
+<message>
+</message>

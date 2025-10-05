@@ -1,0 +1,98 @@
+<body>
+	<httpstitle>HTTPS SETUP</httpstitle>
+	<description1>Here you may set up your HTTPS settings.</description1>
+	<subtitle>HTTPS SETUP</subtitle>
+	<enableHttps>HTTPS Secure Connection</enableHttps>
+	<connecttype>Connection Type</connecttype>
+	<bothhttps>Both HTTP and HTTPS</bothhttps>
+	<onlyhttps>HTTPS only</onlyhttps>
+	<creatmethod>Create and Install Certificate Method</creatmethod>
+	<autocreat>Create self-signed certificate automatically</autocreat>
+	<automanual>Create self-signed certificate manually</automanual>
+	<creatandinstall>Create certificate request and install</creatandinstall>
+	<country>Country:</country>
+	<area>State or Province:</area>
+	<locality>Locality:</locality>
+	<organization>Organization:</organization>
+	<organizationUnit>Organization Unit:</organizationUnit>
+	<commonName>Common Name:</commonName>
+	<validity>Validity:</validity>
+	<creatButton>Create</creatButton>
+	<uploadText>Select Certificate File:</uploadText>
+	<upload>Upload</upload>
+	<cerInfoTitel>Certificate Information</cerInfoTitel>
+	<cerStatus>Status:</cerStatus>
+	<proerty>Property</proerty>
+	<remove>Remove</remove>
+	<notinstall>Not install</notinstall>
+	<active>Active</active>
+	<waitCertificate>Wait Certificate</waitCertificate>
+	<connectTypeError>Please select a connection type !</connectTypeError>
+	<noCerSaveError>Please create a valid certificate!</noCerSaveError>
+	<countryError>The country cannot be empty</countryError>
+	<countryError2>Please input the correct country code!</countryError2>
+	<stateError1>The state or province cannot be empty</stateError1>
+	<stateError2>The state or province cannot accept characters: </stateError2>
+	<localError1>The locality cannot be empty</localError1>
+	<localError2>The locality cannot accept characters: </localError2>
+	<orgError1>The organization cannot be empty</orgError1>
+	<orgError2>The organization cannot accept characters: </orgError2>
+	<org_unitError1>The organization unit cannot be empty</org_unitError1>
+	<org_unitError2>The organization unit cannot accept characters: </org_unitError2>
+	<commonNameError1>The common name cannot be empty</commonNameError1>
+	<commonNameError2>The common name cannot accept characters: </commonNameError2>
+	<validityError>The validity cannot be empty</validityError>
+	<validityError2>Please input an integer validity day between 1 and 3650</validityError2>
+	<validityError3>The validity only accept Integer</validityError3>
+	<downLoad>Download certificate request</downLoad>
+	<removeError1>To remove the certificate, please disable HTTPS connection first.</removeError1>
+	<noDB>No certificate file is uploaded.</noDB>
+	<removeConfirm>Do you want to remove the certificate?</removeConfirm>
+	<removeConfirm1>Do you want to remove the certificate request?</removeConfirm1>
+	<upLoadCertConfirm>Do you want to upload certificate?</upLoadCertConfirm>
+	<createCertError>Current certificate is using now,please remove it first.</createCertError>
+	<createrCertError1>Please remove the old certificate first.</createrCertError1>
+	<createrCertError2>To create a new certificate, please remove the pending certificate request first.</createrCertError2>
+	<buttonRmCertRequest>Remove certificate request</buttonRmCertRequest>
+	<KeyLength>Key Length:</KeyLength>
+	<bits>bits</bits>
+	<days>days</days>
+	<stateLengthErro>State or Province length should be between 1 and 128 Byte.</stateLengthErro>
+	<localityLengthErro>Locality length should be between 1 and 128 Byte.</localityLengthErro>
+	<orgLengthErro>Organization length should be between 1 and 64 Byte.</orgLengthErro>
+	<orgUnLengthErro>Organization Unit length should be between 1 and 64 Byte.</orgUnLengthErro>
+	<commonNameLengthErro>Common Name length should be between 1 and 64 Byte.</commonNameLengthErro>
+	<certRequest>Certificate Request:</certRequest>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<HttpsHelpMain>HTTPS Secure Connection adds encryption capability to HTTP connection, you can use HTTP or HTTPS connection at the same time. And please note: video/audio streaming is always over HTTP connection.</HttpsHelpMain>
+	<httpsHelp>HTTPS Secure Connection - Allows user to use HTTPS service.</httpsHelp>
+	<httpsHelpIntro>You can use HTTP or HTTPS to connect to this camera.</httpsHelpIntro>
+	<connectType>Connection Type</connectType>
+	<bothHttpAndHttps>Both HTTP and HTTPS</bothHttpAndHttps>
+	<bothHttpAndHttpsInfo>You can select this option to allow HTTP and HTTPS connection to the camera.</bothHttpAndHttpsInfo>
+	<httpsOnly>HTTPS only</httpsOnly>
+	<httpsOnlyInfo>You can select this option to allow only HTTPS connection to the camera.</httpsOnlyInfo>
+	<createMethod>Create and Install Certificate Method</createMethod>
+	<autoCreateMethod>Create self-signed certificate automatically</autoCreateMethod>
+	<autoCreateMethodInfo>Select this method to create a self-signed certificate automatically.</autoCreateMethodInfo>
+	<manCreateMethod>Create self-signed certificate manually</manCreateMethod>
+	<manCreateMethodinfo>Select this method to create a self-signed certificate by specifying HTTPS parameters manually.</manCreateMethodinfo>
+	<createAndInstallMethod>Create certificate request and install</createAndInstallMethod>
+	<createAndInstallMethodInfo>Select this method allows you to send a certificate request to a certificate authority and upload the signed certificate received from the authority to the camera.</createAndInstallMethodInfo>
+	<certInfo>Certificate Information</certInfo>
+	<certInfoExplain>Status and summary information about your certificate, you can click the Property button to view more detail information.
+</certInfoExplain>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<invalidParameter>Invalid Parameter.</invalidParameter>
+	<notChanged>Setting not changed.</notChanged>
+	<changeFailed>Change Failed.</changeFailed>
+	<reboot1>Web Server is restarting, please wait for </reboot1>
+	<reboot2> seconds ...</reboot2>
+	<upLoadOK>Upload OK.</upLoadOK>
+	<invalidDB>Uploaded signed certificate doesn't match with original certificate request.</invalidDB>
+	<saveOK>Web Server is restarting. Please wait for 1 minute and then re-connect the camera with the newly IP address.</saveOK>
+</message>

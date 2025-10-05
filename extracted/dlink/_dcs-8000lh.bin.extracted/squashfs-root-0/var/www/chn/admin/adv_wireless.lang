@@ -1,0 +1,64 @@
+<body>
+	<wirelessSettings>无线设置</wirelessSettings>
+	<description1>在此章节，您可以为您的摄像机配置无线设置。</description1>
+	<savebutton>保存设置</savebutton>
+	<notsavebutton>不保存设置</notsavebutton>
+	<wirelessConfiguration>无线配置</wirelessConfiguration>
+	<enableWireless>启用无线</enableWireless>
+	<ssid>网络名称</ssid>
+	<bssid>BSSID</bssid>
+	<signal>信号</signal>
+	<survey>站点查看</survey>
+	<rescan>重新扫描</rescan>
+	<wirelessMode>无线模式</wirelessMode>
+	<wireless>无线</wireless>
+	<infrastructure>Infrastructure</infrastructure>
+	<adhoc>Ad-hoc模式</adhoc>
+	<channel>信道</channel>
+	<auto>自动</auto>
+	<authentication>安全模式</authentication>
+	<encryption>密码类型</encryption>
+	<key>密钥</key>
+	<reboot1>摄像机正在重启。请等待</reboot1>
+	<reboot2>秒。</reboot2>
+	<ssidError>SSID不能为空。</ssidError>
+	<ssidError1>SSID不能全为空格。</ssidError1>
+	<ssidErrorq>无</ssidErrorq>
+	<keyError1>WEP密钥长度必须为5、10、13或26个字符</keyError1>
+	<keyError2>WEP密钥无效。如果WEP密钥长度是10或26，合法的字符为0~9的数字，A~F或a~f的字母。</keyError2>
+	<keyError3>预共享密钥不能为空</keyError3>
+	<keyError4>预共享密钥无效。最少字符数为8个字符</keyError4>
+	<keyError5>预共享密钥无效。合法的64位字符是0~9的数字，A~F或a~f的字母。</keyError5>
+	<keyError6>预共享密钥无效。 最大字符数为64个字符</keyError6>
+	<showpw>显示隐藏密钥</showpw>
+	<antenna>天线</antenna>
+	<intAntenna>内置天线</intAntenna>
+	<extAntenna>外接天线</extAntenna>
+	<reboot3>如果您有以太网链接，重启过程中请不要拔出摄像机的以太网线缆。</reboot3>
+	<ssidname>===SSID List===</ssidname>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<enableWireless>配置摄像机无线连接前，请首先启用无线。 您可以使用站点查看下拉菜单或手动输入SSID选择需要连接的无线网络。</enableWireless>
+	<ssid>服务集标识符（SSID）是您的无线网络名称，比如默认，会议, 我的网络等等。</ssid>
+	<wirelessMode>有两种连接模式。Infrastructure是采用接入点作为所有无线设备传输点的无线连接方式。 Ad-Hoc是无需接入点，直接连接计算机到摄像机的无线连接方式。</wirelessMode>
+	<None>无</None>
+	<NoneDes>网络上所有的设备都可以看见摄像机。没有提供加密方式。</NoneDes>
+	<WEPPassword>WEP</WEPPassword>
+	<WEPPasswordDes>只能与相同WEP（有线等效加密）设置的其它设备通信。</WEPPasswordDes>
+	<WPAPersonal>WPA-PSK/WPA2-PSK</WPAPersonal>
+	<WPAPersonalDes>两种模式都要求输入预共享密钥，用于建立摄像机和无线设备之间的连接。</WPAPersonalDes>
+	<rescan>重新扫描你附近的网络名称。</rescan>
+	<key>这是一组分享于摄像机与无线装置之间的字符，当你设定 WEP 或 WPA-PSK 或者是 WPA2-PSK 时使用。</key>
+	<showpw>当你选择这个选项，你的密码会显示出来。</showpw>
+	<antenna>选择使用内置或者外接天线。</antenna>
+	<channel> - 此值默认自动为Infrastructure模式。只有在Ad-Hoc模式下此信道才为可选项。</channel>
+	<encryption1> - TKIP（临时密钥完整性协议）－使用信息完整性编码抵御黑客攻击，提供保护。理想情况下是运用带TKIP的WPA。</encryption1>
+	<encryption2> - AES（高级加密系统）－采用均衡的128位区块组数据加密。理想情况下是运用带AES的WPA2。</encryption2>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<fail>更改失败。</fail>
+	<notChanged>无更改。</notChanged>
+	<saveOK>服务器正在重启，请等待1分钟，然后使用新IP地址连接摄像机。</saveOK>
+</message>

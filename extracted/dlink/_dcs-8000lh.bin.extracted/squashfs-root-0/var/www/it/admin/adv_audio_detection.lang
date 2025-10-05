@@ -1,0 +1,19 @@
+<body>
+	<audioDetection>RILEVAMENTO SUONO</audioDetection>
+	<description1>Per abilitare Rilevamento suono per la videocamera, è necessario selezionare la casella di controllo corrispondente e configurare l'impostazione di Livello di rilevamento della videocamera per l'ambiente di rilevamento.</description1>
+	<subtitle>RILEVAMENTO SUONO</subtitle>
+	<audioLevel>Livello di rilevamento</audioLevel>
+	<enableaudiodetection>Rilevamento suono</enableaudiodetection>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili...</helpfulHints>
+	<audiodetection>Rilevamento suono consente di rilevare gli eventi associati ai suoni utilizzando il microfono della videocamera.</audiodetection>
+	<audiodetectionType>Livello di rilevamento</audiodetectionType>
+	<audiodetectionTypeText>Impostare la Livello di rilevamento dell'algoritmo di rilevamento suono per attivare gli eventi associati a suoni. Una Livello di rilevamento minore facilita il rilevamento dei suoni.</audiodetectionTypeText>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<invalidParameter>Parametro non valido.</invalidParameter>
+	<nothingChange>Impostazioni non modificate.</nothingChange>
+	<fail>Modifiche non riuscite.</fail>
+</message>

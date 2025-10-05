@@ -1,0 +1,65 @@
+<body>
+	<wirelessSettings>configurazione wireless</wirelessSettings>
+	<description1>In questa sezione è possibile impostare e configurare le impostazioni wireless per la videocamera.</description1>
+	<savebutton>Salva impostazioni</savebutton>
+	<notsavebutton>Non salvare impostazioni</notsavebutton>
+	<wirelessConfiguration>configurazione wireless</wirelessConfiguration>
+	<enableWireless>Abilita wireless</enableWireless>
+	<ssid>Nome rete</ssid>
+	<bssid>BSSID</bssid>
+	<signal>Segnale</signal>
+	<survey>Studio sito</survey>
+	<rescan>Cerca di nuovo</rescan>
+	<wirelessMode>Modalità wireless</wirelessMode>
+	<wireless>Wireless</wireless>
+	<infrastructure>Infrastruttura</infrastructure>
+	<adhoc>Ad hoc</adhoc>
+	<channel>Canale</channel>
+	<ssidErrorq>Nessuno</ssidErrorq>
+	<auto>Automatico</auto>
+	<authentication>Modalità protezione</authentication>
+	<encryption>Tipo di crittografia</encryption>
+	<key>Chiave</key>
+	<reboot1>La videocamera verrà riavviata. Attendere </reboot1>
+	<reboot2> secondi.</reboot2>
+	<ssidError>Specificare un valore in Nome rete</ssidError>
+	<ssidError1>Il nome della rete non può essere composto solo da caratteri di spazio</ssidError1>
+	<keyError1>La lunghezza della chiave deve essere 5 o 10 o 13 o 26 caratteri</keyError1>
+	<keyError2>Chiave non valida. Se la lunghezza della chiave è di 10 o 26\nI caratteri ammessi sono i numeri da 0 a 9, le lettere da A a F o da a a f</keyError2>
+	<keyError3>Specificare un valore in Chiave</keyError3>
+	<keyError4>Chiave non valida. I caratteri minimi richiesti sono 8</keyError4>
+	<keyError5>Chiave non valida. I 64 caratteri ammessi sono i numeri da 0 a 9, le lettere da A a F o da a a f</keyError5>
+	<keyError6>Chiave non valida. I caratteri massimi richiesti sono 64</keyError6>
+	<showpw>Mostra chiave nascosta</showpw>
+	<antenna>Antenna</antenna>
+	<intAntenna>Interna</intAntenna>
+	<extAntenna>Esterna</extAntenna>
+	<reboot3>Non scollegare un cavo Ethernet dalla videocamera durante il processo di riavvio.</reboot3>
+	<ssidname>===Elenco SSID===</ssidname>
+</body>
+<hint>
+	<helpfulHints>Suggerimenti utili</helpfulHints>
+	<enableWireless>Abilitare il wireless prima di configurare la connessione wireless della videocamera. È possibile scegliere il tipo di rete wireless per la connessione utilizzando il menu a discesa di 'Studio sito' o immettendo manualmente il SSID.</enableWireless>
+	<ssid>SSID (Service Set Identifier) è il nome della rete wireless, come ad esempio Predefinita, Conferenza, Rete personale, ecc.</ssid>
+	<wirelessMode>Sono disponibili due modalità di connessione. Infrastruttura è una connessione wireless che utilizza un punto di accesso come punto di trasmissione di tutti i dispositivi wireless. Ad hoc è una connessione wireless utilizzata senza punto di accesso, che connette il PC direttamente alla videocamera.</wirelessMode>
+	<None>Nessuno</None>
+	<NoneDes>Questa opzione consente di rendere visibile la videocamera a tutti i dispositivi della rete. Non è fornita alcuna crittografia.</NoneDes>
+	<WEPPassword>WEP</WEPPassword>
+	<WEPPasswordDes>Consente la comunicazione solo con i dispositivi che dispongono di identiche impostazioni WEP (Wired Equivalent Privacy).</WEPPasswordDes>
+	<WPAPersonal>WPA-PSK, WPA2-PSK</WPAPersonal>
+	<WPAPersonalDes>Entrambe le modalità richiedono l'inserimento di una chiave precondivisa per la connessione tra la videocamera e il dispositivo wireless.</WPAPersonalDes>
+	<rescan>Esegue nuovamente la ricerca del nome del dispositivo wireless nella rete wireless.</rescan>
+	<key>Insieme di caratteri precondivisi per la connessione tra la videocamera e il dispositivo wireless quando si seleziona WEP, WPA-PSK o WPA2-PSK per la modalità di protezione.</key>
+	<showpw>Quando l'opzione è selezionata, la chiave verrà visualizzata nel testo.</showpw>
+	<antenna>Scegliere se utilizzare un'antenna interna o esterna.</antenna>
+	<channel> - Il valore predefinito per la modalità Infrastruttura è Auto. Il canale sarà selezionabile solo in modalità Ad hoc.</channel>
+	<encryption1>TKIP (Temporal Key Integrity Protocol): fornisce protezione dagli attacchi di pirati informatici utilizzando il codice MIC (Message Integrity Code). Con il TKIP sarebbe ideale utilizzare il metodo WPA.</encryption1>
+	<encryption2>AES (Advanced Encryption System): utilizza una crittografia dati simmetrica che si avvale di blocchi a 128 bit. Con l'AES è preferibile utilizzare il metodo WPA2.</encryption2>
+</hint>
+<message>
+	<ok>Modifiche salvate.</ok>
+	<fail>Modifiche non riuscite.</fail>
+	<notChanged>Nessuna modifica.</notChanged>
+	<saveOK>Riavvio server Web in corso. Attendere un minuto, quindi riconnettere la videocamera con il nuovo indirizzo IP.</saveOK>
+</message>
+

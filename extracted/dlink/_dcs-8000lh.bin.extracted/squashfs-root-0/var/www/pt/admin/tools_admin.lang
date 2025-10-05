@@ -1,0 +1,102 @@
+<body>
+	<administratorSettings>Admin</administratorSettings>
+	<description1>Aqui você pode alterar a senha do administrador para a sua conta, bem como adicionar ou excluir contas de usuário (s). Você também pode configurar um nome exclusivo para sua câmera, ativar a funcionalidade OSD (On-Screen Display) para exibir o nome da câmera e time stamp para vídeo em tempo real e gravações de sua câmera.</description1>
+	<devideSetting>Configurações de Dispositivo</devideSetting>
+	<cameraName>Nome da Câmera</cameraName>
+	<enableOSD>OSD</enableOSD>
+	<label>Rótulo</label>
+	<timeStamp>Time Stamp</timeStamp>
+	<ledControl>Luz LED Alimentação/Link</ledControl>
+	<ledControl1>Luz LED Alimentação/Link</ledControl1>
+	<ledOn>Ligado</ledOn>
+	<ledOff>Desligado</ledOff>
+	<ledDummy>Piscando</ledDummy>
+	<administrator>configuração de senha de admin</administrator>
+	<newPassword>Nova Senha</newPassword>
+	<confirmPassword>Confirme Nova Senha</confirmPassword>
+	<PasswordMsg> máximo de 30 caracteres</PasswordMsg>
+	<save>Salvar</save>
+	<addUser>Adicione a conta de usuário </addUser>
+	<userAccount>Conta de usuário</userAccount>
+	<userName>Nome de usuário</userName>
+	<maxUser> máximo de 20 users</maxUser>
+	<add>Adicionar</add>
+	<managerUser>Lista de Usuário</managerUser>
+	<userList>-- Lista de Usuário --</userList>
+	<delete>Apagar</delete>
+	<reboot1>A Câmera atualmente está reiniciando, por favor aguarde </reboot1>
+	<reboot2> segundos.</reboot2>
+	<asciiError>O rótulo OSD só pode aceitar o número, alfabeto maiúsculo e caracteres \"-\"</asciiError>
+	<cameraNameError>Nome da câmera não pode estar vazio</cameraNameError>
+	<cameraNameError1>Nome da câmera não pode aceitar o caractere de espaço.</cameraNameError1>
+	<cameraNameError2>Nome de câmera só aceita número, alfabeto e caracteres \"-\".</cameraNameError2>
+	<adminPassError1>Nova senha e confirmação de nova senha são diferentes</adminPassError1>
+	<adminPassError2>Nova senha não pode aceitar caracteres em branco e caracteres não ASCII</adminPassError2>
+	<maxUserError>Máximo número de usuários excedido</maxUserError>
+	<userNameError1>Nome de usuário não pode ser vazio</userNameError1>
+	<userNameError2>Nome de usuário aceita apenas número, alfabeto, e caracteres \". \", \"-\" e \"_\"</userNameError2>
+	<userNameError3>Nome de usuário já existe</userNameError3>
+	<userNameError4>Nome de usuário não pode aceitar o admin para o novo nome de usuário</userNameError4>
+	<userPassError1>Nova senha e confirmação de nova senha são diferentes</userPassError1>
+	<userPassError2>Nova senha não pode aceitar caracteres em branco e caracteres não ASCII</userPassError2>
+	<cameraMsg>máximo de 36 caracteres.</cameraMsg>
+	<privacyText>Controle de privacidade</privacyText>
+	<calibrateText>Calibrar o dispositivo</calibrateText>
+	<calibrate>Calibrar o dispositivo</calibrate>
+	<privacyOn>Privacidade Ligada</privacyOn>
+	<privacyOff>Privacidade Desligada</privacyOff>
+	<scheduled>Agendado</scheduled>
+	<hour>Horas</hour>
+	<min>Minutos</min>
+	<sun>Dom </sun>
+	<mon>Seg </mon>
+	<tue>Ter </tue>
+	<wed>Quar </wed>
+	<thu>Quin </thu>
+	<fri>Sex </fri>
+	<sat>Sab </sat>
+	<from>Início </from>
+	<to>Fim </to>
+	<liveViewAuth>Autenticação de usuário</liveViewAuth>
+	<snapShotAuth>Autenticação de usuário</snapShotAuth>
+	<scheduleError>Por favor, preencher o horário agendado</scheduleError>
+	<hourError>Horas não são válidas</hourError>
+	<minuteError>Minutos não são válidos</minuteError>
+	<fullHourError>Se o final de horas for 24, o final dos minutos pode somente ser ajustado para 0</fullHourError>
+	<legalTimeError>Hora de início tem que ser menor do que o horário final</legalTimeError>
+	<oldPassword>Senha antiga</oldPassword>
+	<auth>AUTENTICAÇÃO</auth>
+	<httpauth>Autenticação HTTP</httpauth>
+	<rtspauth>Autenticação RTSP</rtspauth>
+	<snapauth>Autenticação de URL de snapshot</snapauth>
+	<OSDError>Rótulo OSD só pode aceitar número, alfabeto maiúsculo e caracteres \"-\"</OSDError>
+	<enablePrivacy>Controle de privacidade</enablePrivacy>
+	<privacycontrol>Controle de privacidade</privacycontrol>
+	<privacyon>Privacidade Ligada</privacyon>
+	<privacyoff>Privacidade Desligada</privacyoff>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<administratorSettings>Para fins de segurança, é recomendável alterar a senha da sua conta de administrador. Certifique-se de anotar a senha nova para evitar ter de reiniciar a câmera caso a senha seja esquecida.</administratorSettings>
+	<userAccount>Para a conta de usuário é dada um privilégio para entrar na página de exibição em tempo real e usar funções na página.</userAccount>
+	<rtspauth>Ativar a validação do usuário para streaming RTSP.</rtspauth>
+	<httpauth>Ativar a validação do usuário para streaming HTTP.</httpauth>
+	<snapauth>Habilitar a validação de usuário para o URL de snapshot.</snapauth>
+	<enableOSD>Habilitar OSD, o rótulo e o time stamp serão exibidos na imagem de vídeo em tempo real.</enableOSD>
+	<ledOn>LED normal piscando dependendo da alimentação e link com fio/sem fio e estado de transmissão de vídeo/áudio.</ledOn>
+	<ledOff>Sempre desligue o LED.</ledOff>
+	<ledDummy>Sempre piscando LED Link como o vídeo que está sendo monitorado.</ledDummy>
+	<privacycontrol>Permite que você configure se câmera pode entrar no modo de privacidade ou não.</privacycontrol>
+	<privacyon>Video em tempo real, vídeo clipe, snapshot e gravação em SD serão desligados.</privacyon>
+	<privacyoff>A câmera está em modo de funcionamento normal.</privacyoff>
+</hint>
+<message>
+	<ok>Alterações salvas.</ok>
+	<invalidParameters>Alguns parâmetros são inválidos</invalidParameters>
+	<notCorrectOldPassword>A senha antiga não é correta</notCorrectOldPassword>
+	<exceedMaxUsers>Número máximo de usuários excedido</exceedMaxUsers>
+	<userNotExist>Por favor, selecione um nome de usuário</userNotExist>
+	<tinydbError>Falha na configuração</tinydbError>
+	<calibrationOK>Calibração bem sucedida</calibrationOK>
+	<saveOK>Reiniciando o servidor Web. Por favor aguarde 40 segundos e, em seguida, ligue a câmera com o novo endereço IP.</saveOK>
+</message>

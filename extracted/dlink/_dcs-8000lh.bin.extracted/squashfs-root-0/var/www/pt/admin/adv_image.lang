@@ -1,0 +1,60 @@
+<body>
+	<imageSettings>configuração de Imagem</imageSettings>
+	<description1>As mudancas feitas na configuração de imagem terão efeito imediato. O resultado pode ser visto no vídeo em tempo real na janela abaixo.</description1>
+	<image>video em tempo real</image>
+	<controls>configurações de imagem</controls>
+	<brightness>Brilho</brightness>
+	<saturation>Saturação</saturation>
+	<contrast>Contraste</contrast>
+	<hue>Tonalidade</hue>
+	<frequency>Frequência</frequency>
+	<auto>Auto</auto>
+	<hz>Hz</hz>
+	<whiteBalance>Balanço de Branco</whiteBalance>
+	<indoor>Interno</indoor>
+	<outdoor>Externo</outdoor>
+	<shutter>Obturador Lento</shutter>
+	<speed>Máxima Velocidade do Obturador:</speed>
+	<second>segundos</second>
+	<source>Fonte de Luz</source>
+	<disable>Desabilitar</disable>
+	<BLC>BLC</BLC>
+	<AWB>AWB</AWB>
+	<AGC>AGC</AGC>
+	<AES>AES</AES>
+	<hue1> - É a graduação de cor.</hue1>
+	<bw>B/W</bw>
+	<flip>Inverso</flip>
+	<mirror>Espelho</mirror>
+	<autoExposure>Auto Exposição</autoExposure>
+	<reset>Restabelecer para o padrão</reset>
+	<exceedMaxConn>A câmera alcançou o número máximo de usuários. Por favor tente novamente mais tarde.</exceedMaxConn>
+	<enableNightMode>Obturador Lento</enableNightMode>
+	<shutter>Máxima Velocidade do Obturador:</shutter>
+	<second>Segundos</second>
+	<sharpness>Nitidez</sharpness>
+	<noiseReduction>Redução de Ruído</noiseReduction>
+	<privacy>Esta câmera está atualmente em modo de privacidade.</privacy>
+</body>
+<hint>
+	<helpfulHints>Dicas Úteis..</helpfulHints>
+	<imageSettings>Brilho, Contrast, Saturação podem ser ajustados de 0 a 100, permitindo um ajuste fino nas configurações de imagem.</imageSettings>
+	<imageSettings1>Brilho, Saturação, Contrast, Tonalidade podem ser ajustados de 0 a 100, permitindo um ajuste fino nas configurações de imagem.</imageSettings1>
+	<brightness>É usado para compensar a luz de fundo da cena.</brightness>
+	<saturation>Controlar a intensidade da cor que vai do preto e branco para cores fortes.</saturation>
+	<contrast>Ajustável para controlar o contraste das cores entre o objeto. Ajuda a melhorar a imagem sob um céu frio e cinzento.</contrast>
+	<bw>Habilitar ou desabilitar o modo preto e branco</bw>
+	<mirror>Selecionar esta funcionalidade para obter uma imagem espelhada.</mirror>
+	<flip>Selecionar esta funcionalidade quando sua câmera está instalada invertida no teto.</flip>
+	<source>Selecionar ambiente Interno ou Externo.</source>
+	<frequency>Talvez necessite escolher as frequências 'Auto', '50' ou ' 60' Hz (dependendo do país).</frequency>
+	<whiteBalance>É 'Auto' por padrão. Ele removerá a matiz de cor não reais, desta maneira os objetos que são brancos são renderizados brancos no vídeo.</whiteBalance>
+	<enableNightMode>Selecione a velocidade de obturação mínima quando o ambiente está escuro.</enableNightMode>
+	<hue2>Controla diferentes graus de cor que estimulam o olho humano.</hue2>
+	<sharpness>É usado para ajustar a nitidez de imagem.</sharpness>
+	<autoExposure1>Selecionar esta funcionalidade para que a câmera ajuste o tempo de exposição automaticamente.</autoExposure1>
+</hint>
+<message>
+	<ok>Alterações salvas.</ok>
+	<fail>Alterações falharam.</fail>
+</message>

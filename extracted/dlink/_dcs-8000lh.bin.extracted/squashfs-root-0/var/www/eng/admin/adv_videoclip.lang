@@ -1,0 +1,168 @@
+<body>
+	<videoclip>Video Clip</videoclip>
+	<description1>Video Clip is a feature to send video clips via FTP or E-Mail when a trigger is activated. </description1>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<di>D/I Signal 1</di>
+	<di2>D/I Signal 2</di2>
+	<enable>Video Clip</enable>
+	<profile2>Profile 2</profile2>
+	<motionDetection>Motion Detection</motionDetection>
+	<sendVideoClipBy>Send to:</sendVideoClipBy>
+	<emailAddress>E-mail Address</emailAddress>
+	<ftpServer>FTP Server</ftpServer>
+	<userName>User Name</userName>
+	<password>Password</password>
+	<mailServer>SMTP Mail Server</mailServer>
+	<senderAddress>Sender E-mail Address</senderAddress>
+	<recipientAddress>Recipient E-mail Address</recipientAddress>
+	<port>Port</port>
+	<test>Test</test>
+	<test2>Test</test2>
+	<hostName>Host Name</hostName>
+	<path>Path</path>
+	<prefixFileName>Filename Prefix</prefixFileName>
+	<passiveMode>Passive Mode</passiveMode>
+	<portRange> (Range : 1 to 65535)</portRange>
+	<mailNameError>Mail User Name and password can't accept Non-ASCII and space characters</mailNameError>
+	<ftpNameError>FTP User Name and password can't accept Non-ASCII and space characters</ftpNameError>
+	<firSmtpError>SMTP Mail Server can't be empty, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</firSmtpError>
+	<firSmtpName>E-mail SMTP</firSmtpName>
+	<firAccountError>SMTP Mail Server User Name can't be empty</firAccountError>
+	<firRecipientMailError>Please verify the Recipient E-mail Address format.</firRecipientMailError>
+	<firRecipientError>Recipient E-mail Address can't be empty</firRecipientError>
+	<firSenderMailError>Please verify the Sender E-mail Address format.</firSenderMailError>
+	<firSenderError>Sender E-mail Address can't be empty</firSenderError>
+	<PortError1> Port can't be empty</PortError1>
+	<PortError2> Port must be an integer</PortError2>
+	<PortError3> Port must be between 1 and 65535</PortError3>
+	<firFtpServerError>FTP Server can't be empty, only accept number, alphabet , \".\" , \"-\", and \"_\" characters</firFtpServerError>
+	<firFtpError>FTP</firFtpError>
+	<firFolderError>FTP Path can only accept number, alphabet , and characters: </firFolderError>
+	<firFolderError2>FTP Path can not accept \".\" and \"/\" continuously</firFolderError2>
+	<firFixFilenameError>Filename Prefix can only accept number, alphabet , and characters: </firFixFilenameError>
+	<continousRecording>Continuous (FTP only)</continousRecording>
+	<scheduledRecording>Scheduled (FTP only)</scheduledRecording>
+	<hour>Hours</hour>
+	<min>Minutes</min>
+	<sun>Sun </sun>
+	<mon>Mon </mon>
+	<tue>Tue </tue>
+	<wed>Wed </wed>
+	<thu>Thu </thu>
+	<fri>Fri </fri>
+	<sat>Sat </sat>
+	<from>Start </from>
+	<to>End </to>
+	<scheduling>Schedule</scheduling>
+	<motionBased>Motion</motionBased>
+	<audioBased>Sound</audioBased>
+	<alwaysBased>Always</alwaysBased>
+	<interval>Interval</interval>
+	<second>Seconds</second>
+	<range1> (Range : 10 to 86400 seconds)</range1>
+	<range2> (Range : 30 to 86400 seconds)</range2>
+	<range3> (Range : 60 to 86400 seconds)</range3>
+	<range5> (Range : 30 to 86400 seconds)</range5>
+	<methodError>Please select a Scheduling setting</methodError>
+	<scheduleError>Please fill in scheduled time</scheduleError>
+	<triggerError>Please select a target</triggerError>
+	<fullHourError>If end hours is 24, end minutes only can set 0</fullHourError>
+	<legalTimeError>Start time have to be smaller than then end time</legalTimeError>
+	<ignoreMotionTimeErrorsmtp>Send next E-mail after second must be an integer</ignoreMotionTimeErrorsmtp>
+	<ignoreMotionTimeErrorftp>Send next FTP after second must be an integer</ignoreMotionTimeErrorftp>
+	<ftpignoreMotionTimeError1>Send next FTP after second must be 10~86400 seconds</ftpignoreMotionTimeError1>
+	<smtpignoreMotionTimeError2>Send next E-mail after second must be 30~86400 seconds</smtpignoreMotionTimeError2>
+	<ignoreMotionTimeError3>Ignore Following Motions in second must be 60~86400 seconds</ignoreMotionTimeError3>
+	<ftpintervalError>FTP </ftpintervalError>
+	<smtpintervalError>E-mail </smtpintervalError>
+	<sdintervalError>SD Card </sdintervalError>
+	<intervalError>Interval must be an integer</intervalError>
+	<intervalError1>Interval must be 10~86400 seconds</intervalError1>
+	<intervalError2>Interval must be 20~86400 seconds</intervalError2>
+	<intervalError3>Interval must be 60~86400 seconds</intervalError3>
+	<intervalError5>Interval must be 30~86400 seconds</intervalError5>
+	<ftpMailError>Please fill in E-mail Address or FTP Server setting</ftpMailError>
+	<ftpScheduleError>Please fill in FTP Server setting</ftpScheduleError>
+	<trigger>Trigger by</trigger>
+	<ignoreMotFTP>Send next FTP after</ignoreMotFTP>
+	<ignoreMotSMTP>Send next E-mail after</ignoreMotSMTP>
+	<onlyDuring>Only during</onlyDuring>
+	<day>Day</day>
+	<time>Time</time>
+	<period>Periodically in interval</period>
+	<type>Video Clip Type</type>
+	<source>Source</source>
+	<preRec>Pre-event recording :</preRec>
+	<maxRec>Maximum duration :</maxRec>
+	<preRec1>Pre-event recording </preRec1>
+	<maxRec1>Maximum duration </maxRec1>
+	<target>Target</target>
+	<quota>Keep Free Space</quota>
+	<sdcycle>Cyclic</sdcycle>
+	<Email>Email to</Email>
+	<sd>SD Card</sd>
+	<ftp>FTP</ftp>
+	<encrypt1>Use SSL-TLS/STARTTLS</encrypt1>
+	<encrypt2>Use SSL-TLS</encrypt2>
+	<smtp>E-mail</smtp>
+	<encript1>None</encript1>
+	<encript2>SSL-TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<sdQuotaError>SD Card free space must be an integer and minimum is 30</sdQuotaError>
+	<mfhourError>Start hour is not valid</mfhourError>
+	<mthourError>End hour is not valid</mthourError>
+	<mfminuteError>Start minute is not valid</mfminuteError>
+	<mtminuteError>End minute is not valid</mtminuteError>
+	<intervalSecErr>Interval seconds must be a positive number and mininum is 5</intervalSecErr>
+	<ignoreSecErr>Ignore seconds must be a positive number</ignoreSecErr>
+	<dayErr>Please choose at least one day</dayErr>
+	<mininum>(Minimum 5 seconds)</mininum>
+	<preErr>Pre-event recording second must be an integer and between 0 to 5</preErr>
+	<maxErr>Maximum duration second must be an integer and between 5 to 10</maxErr>
+	<preRecNotify>(Between 0 to 5 seconds)</preRecNotify>
+	<maxRecNotify>(Between 5 to 10 seconds)</maxRecNotify>
+	<ftpSmtpcheckErr>You can't select both FTP and E-mail</ftpSmtpcheckErr>
+	<targetNotify>You can only choose to receive notifications by FTP or E-mail</targetNotify>
+	<global>Global parameter</global>
+	<targetOnly>The target can't be select both FTP and E-mail for the video clip.</targetOnly>
+	<qoutaMin>and minimum is 30</qoutaMin>
+	<description6>Configurable in </description6>
+	<description7> Audio and Video</description7>
+	<motionNote>Please note that Motion Detection is not enabled, please go to Motion Detection web page to configure.</motionNote>
+	<audioNote>Please note that Sound Detection is not enabled, please go to Sound Detection web page to configure.</audioNote>
+	<sdNote>Please note that there is no SD Card plugged in camera or the SD Card is not writable.</sdNote>
+	<sdNoteFull>Please note that SD Card capacity is full.</sdNoteFull>
+	<profiletype1>Profile 1</profiletype1>
+	<profiletype2>Profile 2</profiletype2>
+	<profiletype3>Profile 3</profiletype3>
+	<gpio>Digital Input</gpio>
+	<vediofileformat>File Format :</vediofileformat>
+	<avi>AVI, .avi</avi>
+	<mp4>MP4, .mp4</mp4>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<videoclip>Video Clip is the ability to store or send video clips to a remote E-mail or FTP server based on motion detection, external sensor input triggered.</videoclip>
+	<motionBased>Begin video clipping after a motion is detected.</motionBased>
+	<audioBased>Begin video clipping after sound is detected.</audioBased>
+	<scheduling>Video clipping in a specified time.</scheduling>
+	<alwaysBased>Continuous video clipping.</alwaysBased>
+	<preRec>Specify how much seconds of video will be recorded, before the video clip is taken.</preRec>
+	<maxRec>Specify how much seconds of video clip.</maxRec>
+	<target>You can select the target as FTP or E-mail for the video clip.</target>
+	<type>You can set video profile, Pre-event recording and Maximum duration here.</type>
+	<gpio>Begin video clip after digital input is detected.</gpio>
+	<test>Click the Test button to make sure the FTP or E-mail Target can be located and accessed.</test>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<testMailFault>Send a test mail failure</testMailFault>
+	<invalidPort>Invalid port</invalidPort>
+	<getFrameFault>get frame failure</getFrameFault>
+	<testMailOk>Send a test mail successfully</testMailOk>
+	<testFTPFault>Test FTP failure</testFTPFault>
+	<testFTPOk>Test FTP successfully</testFTPOk>
+	<invalidParameter>Setup failure</invalidParameter>
+	<updateFailed>Update setup failure</updateFailed>
+</message>

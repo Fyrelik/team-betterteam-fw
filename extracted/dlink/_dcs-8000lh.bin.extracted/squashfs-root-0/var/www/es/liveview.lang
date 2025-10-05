@@ -1,0 +1,32 @@
+<body>
+	<camera>Cámara</camera>
+	<description1>Esta sección muestra el vídeo en directo de la cámara. Puede controlar los parámetros con los botones siguientes. </description1>
+	<description2>La resolución actual es </description2>
+	<liveVideo>Vídeo en directo</liveVideo>
+	<snapshot>Instantánea</snapshot>
+	<setPath>Establecer carpeta de almacenamiento</setPath>
+	<recording>Grabación</recording>
+	<stopRecording>Detener Grabar</stopRecording>
+	<startSteamOut>Hablar</startSteamOut>
+	<stopSteamOut>Detener Hablar</stopSteamOut>
+	<listenOn>Escuchar</listenOn>
+	<listenOff>Detener Escuchar</listenOff>
+	<startGPOutput>Iniciar salida digital</startGPOutput>
+	<stopGPOutput>Detener salida digital</stopGPOutput>
+	<ledOn>LED encendido</ledOn>
+	<ledOff>LED apagado</ledOff>
+	<fullScreen>Pantalla completa</fullScreen>
+	<diIndicator>Indicador de entrada digital</diIndicator>
+	<moIndicator>Indicador de activación por movimiento</moIndicator>
+	<reIndicator>Indicador de grabación</reIndicator>
+	<talkNotify1>Error al crear salida de canalización de audio, error al crear la toma</talkNotify1>
+	<talkNotify2>Error al conectar con el servidor</talkNotify2>
+	<talkNotify3>La línea de audio está ocupada, inténtelo más tarde.</talkNotify3>
+	<irOn>LED de IR encendido</irOn>
+	<irOff>LED de IR apagado</irOff>
+	<zoomInOut>Ampliar/reducir</zoomInOut>
+	<privacyMode1>Esta cámara está actualmente en Modo de intimidad.</privacyMode1>
+	<privacyMode2>Para salir del modo de intimidad, vaya a</privacyMode2>
+	<privacyMode3>Admin</privacyMode3>
+</body>
+

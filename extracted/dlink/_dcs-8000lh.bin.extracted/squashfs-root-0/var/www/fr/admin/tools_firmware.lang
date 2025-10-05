@@ -1,0 +1,43 @@
+<body>
+	<description1>Il est possible qu'une nouvelle mise à jour du microprogramme soit disponible pour la caméra IP. Il est recommandé de tenir le microprogramme à jour pour conserver et améliorer les fonctions et les performances de votre caméra Internet. Cliquez ici </description1>
+	<description2>Page de support D-Link </description2>
+	<description3>pour vérifier si une nouvelle version du microprogramme est disponible. </description3>
+	<description4>Pour mettre à jour le microprogramme de la caméra IP, téléchargez la dernière version disponible sur la page de support D-Link et enregistrez-la sur le disque dur local. Ensuite, localisez le fichier en cliquant sur le bouton Parcourir. Une fois que vous avez localisé et ouvert le fichier à l'aide du bouton Parcourir, cliquez sur le bouton Télécharger sur le périphérique pour lancer la mise à jour du microprogramme. </description4>
+	<firmwareUpgrade>Mise à jour du microprogramme</firmwareUpgrade>
+	<filePath>Chemin du fichier: </filePath>
+	<upload>Charger</upload>
+	<reboot1>La caméra est actuellement en cours de redémarrage, veuillez patienter </reboot1>
+	<reboot2> secondes.</reboot2>
+	<firmwareInfo>Informations concernant le microprogramme</firmwareInfo>
+	<firmwareVersion>Version du microprogramme actuel :</firmwareVersion>
+	<firmwareProduct>Numéro de version du microprogramme actuel :</firmwareProduct>
+	<mcufirmware>Version du microprogramme MCU actuel</mcufirmware>
+	<updateConfirm>Voulez-vous mettre à jour le microprogramme ?</updateConfirm>
+	<updatingText>Ne fermez pas cette page Web et ne mettez pas hors tension (par exemple, en débranchant le cordon électrique) tant que la mise à jour du microprogramme est en cours.</updatingText>
+	<filepathError>Le chemin du fichier ne peut pas être vide</filepathError>
+	<progress>Téléchargement en cours</progress>
+	<agentVersion>Version actuelle de l'agent:</agentVersion>
+</body>
+<hint>
+	<helpfulHints>Conseils utiles...</helpfulHints>
+	<description1>Des mises à jour du microprogramme sont lancées régulièrement pour améliorer les fonctions de la caméra IP et ajouter des fonctions. Si vous rencontrez un problème avec une fonction particulière de la caméra IP, vérifiez notre site de support en cliquant </description1>
+	<description2>ici</description2>
+	<description3> pour vérifier si une mise à jour du microprogramme est disponible pour la caméra IP.</description3>
+</hint>
+<message>
+	<updateOK>Mise à jour du microprogramme réussie</updateOK>
+	<uploadFail>Le téléchargement a échoué</uploadFail>
+	<examFail>L'image à télécharger est endommagée</examFail>
+	<infoFail>L'image à télécharger ne contient aucun information</infoFail>
+	<invalidImage>L'image à télécharger ne peut pas être utilisée avec ce produit</invalidImage>
+	<resetFail>La réinitialisation a échoué</resetFail>
+	<resetOK>La réinitialisation est terminée</resetOK>
+	<rebootFail>Le redémarrage a échoué</rebootFail>
+	<rebootOK>Le redémarrage est terminé.</rebootOK>
+	<calibrationOK>L'étalonnage a réussi</calibrationOK>
+	<importOK>L'importation a réussi et le périphérique va redémarrer</importOK>
+	<invalidDB>Le fichier n'est pas un fichier de base de données valable</invalidDB>
+	<noDB>Aucun fichier de base de données n'a été téléchargé</noDB>
+	<saveOK>Le serveur Web redémarre. Veuillez patientez 75 secondes, puis reconnectez la caméra avec la nouvelle adresse IP.</saveOK>
+</message>
+

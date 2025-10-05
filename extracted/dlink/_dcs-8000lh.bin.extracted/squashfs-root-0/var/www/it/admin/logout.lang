@@ -1,0 +1,10 @@
+<body>
+	<logout>Disconnetti</logout>
+	<description1>Effettuando la disconnessione, il browser verrà chiuso.</description1>
+	<titleLogout>DISCONNETTI</titleLogout>
+</body>
+<hint>
+</hint>
+<message>
+</message>
+

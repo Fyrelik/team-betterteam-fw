@@ -1,0 +1,7 @@
+<body>
+	<status>狀態</status>
+	<deviceInfo>裝置資訊</deviceInfo>
+	<log>日誌</log>
+	<deviceInfo1>本頁會顯示攝影機與網路的所有詳細資訊。</deviceInfo1>
+	<log1>檢視系統日誌檔。此檔案會記錄所有具參考價值的資訊，如移動偵測通知與系統開機訊息。若要匯出攝影機日誌檔，請按「下載」按鈕從攝影機下載檔案。</log1>
+</body>

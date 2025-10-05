@@ -1,0 +1,10 @@
+<body>
+	<logout>登出</logout>
+	<description1>登出會把瀏覽器關閉。</description1>
+	<titleLogout>登出</titleLogout>
+	<closewebpage>請手動關閉此網頁。</closewebpage>
+</body>
+<hint>
+</hint>
+<message>
+</message>

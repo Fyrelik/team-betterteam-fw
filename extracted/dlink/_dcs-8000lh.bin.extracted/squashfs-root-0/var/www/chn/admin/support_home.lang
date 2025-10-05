@@ -1,0 +1,48 @@
+<body>
+	<liveVideo>实时视频 </liveVideo>
+	<camera>摄像机</camera>
+	<videoProfile>视频配置文件</videoProfile>
+	<videoProfile1> - 这些图标显示了视频配置文件的当前设置。如果使用的是非IE浏览器，请选择可用的图标。</videoProfile1>
+	<fullScreen>全屏</fullScreen>
+	<fullScreen1> - 按下图标，使实时视频达到全屏的效果。</fullScreen1>
+	<snapshot>快照</snapshot>
+	<snapshot1> - 单击图标，将摄像机当前图片以JPEG的格式存储到您的计算机中。</snapshot1>
+	<recording>录制</recording>
+	<recording1> - 将视频快速录制到指定的文件路径中。</recording1>
+	<setPath>设置存储文件夹</setPath>
+	<setPath1> - 单击图标设置使用快照或录制按钮时存储数据的默认位置。</setPath1>
+	<listen>监听</listen>
+	<listen1> - 单击按钮打开或关闭音频。在实时查看时，音频将会被录制。</listen1> 
+	<talk>通话</talk>
+	<talk1> - 单击麦克风按钮，关闭或打开从电脑至摄像机的声音传输。</talk1>
+	<digitalOut>数据输出</digitalOut>
+	<digitalOut1> - 单击按钮将告警信号传送给告警输出连接器。</digitalOut1>
+	<digitalInputTrigger>数据输入指示灯</digitalInputTrigger>
+	<digitalInputTrigger1> - 发生触发输入时，指示灯闪烁。</digitalInputTrigger1>
+	<motionTrigger>动作/声音触发指示灯</motionTrigger>
+	<motionTrigger1> - 移动/音频侦测被激活时，指示灯闪烁。</motionTrigger1>
+	<recordingTrigger>录制指示灯</recordingTrigger>
+	<recordingTrigger1> - 当录制动作正在进行时，指示灯闪烁。</recordingTrigger1>
+	<recordingError>录制出错指示灯</recordingError>
+	<recordingError1> - 当录制出现错误时，指示灯闪烁。</recordingError1>
+	<pantiltcontrol>PT 控制</pantiltcontrol>
+	<pantiltcontrol1> - 你可以使用上/下/左/右/左上/左下/右上/右下的箭头图示来控制摄像机的位置。 使用原点的按钮来让摄像机镜头回到初始位置。</pantiltcontrol1>
+	<pan>摇头</pan>
+	<pan1> - 此操作使得摄像机镜头从最左边移动到最右边。移动结束，摄像机镜头回到初始位置。</pan1>
+	<patrol>巡视</patrol>
+	<patrol1> - 使用者可自行设定欲巡视的位置，当使用者开启巡视模式，摄像机会依照所设定的路径和时间进行自动巡视。</patrol1>
+	<stop>停止</stop>
+	<stop1> - 当执行此动作时, 摄像机镜头会立刻停止，如果当前正在执行摇头或者巡视。</stop1>
+	<goto>转到</goto>
+        <gotol> - 可用此选项将摄像机镜头转到[预设位置]的网页所设定好的位置。</gotol>
+	<panspeed>摇头速度</panspeed>
+	<panspeed1> - 可使用此设定来控制摇头速度。 数字越大，摇头速度越大，数字越小，摇头速度越小。</panspeed1>
+	<tiltspeed>俯仰速度</tiltspeed>
+	<tiltspeed1> - 可使用此設定來控制俯仰速度。 数字越大，俯仰速度越大，数字越小，俯仰速度越小。</tiltspeed1>
+	<language>语言选择</language>
+	<language1> - 在下拉菜单中选择语言，更改网页界面的语言。</language1>
+	<led>红外线 LED 灯</led>
+	<led1> - 点选这个按钮来开关摄像机上的红外线 LED 灯，来启用或关闭夜视功能。这个功能只有在白天/夜晚模式启动为手动 IR 下才存在。</led1>
+	<zoomInOut>缩放</zoomInOut>
+	<zoomInOut1> - 点选数字放大来缩放影像（有1、2、4、8倍可用）。</zoomInOut1>
+</body>

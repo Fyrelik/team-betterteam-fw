@@ -1,0 +1,51 @@
+<body>
+	<digitalOutput>Digital Output</digitalOutput>
+	<description1>Here you can enable your D/O port as well as how the event will be triggered. </description1>
+	<description2>Motion detection is disabled while camera is set to SXGA mode.</description2>
+	<description3>To enable motion detection, select VGA or XGA mode in </description3>
+	<description4> Audio And Video.</description4>
+	<savebutton>Save Settings</savebutton>
+	<notsavebutton>Don't Save Settings</notsavebutton>
+	<trigger>Trigger</trigger>
+	<enable> D/O Signal</enable>
+	<triggerEvent>Trigger by</triggerEvent>
+	<motionDetection>Motion</motionDetection>
+	<audioDetection>Sound</audioDetection>
+	<di1>D/I Signal 1</di1>
+	<di2>D/I Signal 2</di2>
+	<manual>Manual</manual>
+	<di>Digital Input</di>
+	<hour>Hours</hour>
+	<min>Minutes</min>
+	<sun>Sun </sun>
+	<mon>Mon </mon>
+	<tue>Tue </tue>
+	<wed>Wed </wed>
+	<thu>Thu </thu>
+	<fri>Fri </fri>
+	<sat>Sat </sat>
+	<from>Start </from>
+	<to>End </to>
+	<day>Day</day>
+	<time>Time</time>
+	<mfhourError>Start hour is not valid</mfhourError>
+	<mthourError>End hour is not valid</mthourError>
+	<mfminuteError>Start minute is not valid</mfminuteError>
+	<mtminuteError>End minute is not valid</mtminuteError>
+	<onlyDuring>Only during</onlyDuring>
+	<dayErr>Please choose at least one day</dayErr>
+	<motionNote>Please note that Motion Detection is not enabled, please go to Motion Detection web page to configure.</motionNote>
+	<audioNote>Please note that Sound Detection is not enabled, please go to Sound Detection web page to configure.</audioNote>
+</body>
+<hint>
+	<helpfulHints>Helpful Hints..</helpfulHints>
+	<description1>You may choose a trigger event like Motion detection or triggers from the D/I port. When an event is triggered, the D/O will begin sending a signal.</description1>
+	<manualBased>Allow user to trigger Digital Output at Live View.</manualBased>
+	<motionBased>When a motion is detected, IP Camera will trigger traditional alarming devices that connect to the system.</motionBased>
+	<audioBased>When sound is detected, IP Camera will trigger traditional alarming devices that connect to the system.</audioBased>
+	<gpio>When triggering the digital input device, IP Camera will trigger traditional alarming devices that connect to the system.</gpio>
+</hint>
+<message>
+	<ok>Changes saved.</ok>
+	<fail>Changes failed.</fail>
+</message>

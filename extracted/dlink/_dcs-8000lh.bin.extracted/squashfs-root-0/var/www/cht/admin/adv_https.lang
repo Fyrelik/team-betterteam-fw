@@ -1,0 +1,99 @@
+<body>
+	<httpstitle>HTTPS 設定</httpstitle>
+	<description1>你可以在這裡設定 HTTPS。</description1>
+	<subtitle>HTTPS 設定</subtitle>
+	<enableHttps>HTTPS 安全連線</enableHttps>
+	<connecttype>連線的種類</connecttype>
+	<bothhttps>同時使用 HTTP 與 HTTPS</bothhttps>
+	<onlyhttps>僅使用 HTTPS</onlyhttps>
+	<creatmethod>產生與安裝認證的方法</creatmethod>
+	<autocreat>自動產生並安裝認證</autocreat>
+	<automanual>手動產生並安裝認證</automanual>
+	<creatandinstall>先產生認證需求，再安裝認證</creatandinstall>
+	<country>國家:</country>
+	<area>州或省份:</area>
+	<locality>位置:</locality>
+	<organization>組織:</organization>
+	<organizationUnit>組織單位:</organizationUnit>
+	<commonName>一般名稱:</commonName>
+	<validity>有效時間:</validity>
+	<creatButton>建立</creatButton>
+	<uploadText>選擇認證:</uploadText>
+	<upload>上載</upload>
+	<cerInfoTitel>認證的資訊</cerInfoTitel>
+	<cerStatus>狀態:</cerStatus>
+	<proerty>屬性</proerty>
+	<remove>移除</remove>
+	<notinstall>未安裝</notinstall>
+	<active>啟動</active>
+	<waitCertificate>等待認證</waitCertificate>
+	<connectTypeError>請選擇連線的種類。</connectTypeError>
+	<noCerSaveError>請建立有效的認證。</noCerSaveError>
+	<countryError>國家的欄位不能為空白。</countryError>
+	<countryError2>請輸入正確的國別碼。</countryError2>
+	<stateError1>州或省份的欄位不能為空白。</stateError1>
+	<stateError2>州或省份不能使用下列字元:</stateError2>
+	<localError1>位置的欄位不能空白。</localError1>
+	<localError2>位置的欄位不能使用下列字元: </localError2>
+	<orgError1>組織的欄位不能空白。</orgError1>
+	<orgError2>組織的欄位不能使用下列字元: </orgError2>
+	<org_unitError1>組織單位的欄位不能空白。</org_unitError1>
+	<org_unitError2>組織單位的欄位不能使用下列字元： </org_unitError2>
+	<commonNameError1>一般名稱的欄位不能空白。</commonNameError1>
+	<commonNameError2>一般名稱的欄位不能使用下列字元： </commonNameError2>
+	<validityError>有效時間的欄位不能空白。</validityError>
+	<validityError2>有效時間請輸入1到3650之間的數字。</validityError2>
+	<validityError3>有效時間的欄位只接受數字。</validityError3>
+	<downLoad>下載認證需求</downLoad>
+	<removeError1>要移除認證，請先停止 HTTPS 連線。</removeError1>
+	<noDB>沒有上載任何認證檔。</noDB>
+	<removeConfirm>你確定要移除認證嗎？</removeConfirm>
+	<removeConfirm1>你確定要移除認證需求嗎？</removeConfirm1>
+	<upLoadCertConfirm>你確定要上載認證嗎？</upLoadCertConfirm>
+	<createCertError>目前的認證仍在使用當中，請先移除它。</createCertError>
+	<createrCertError1>請先移除舊的認證。</createrCertError1>
+	<createrCertError2>在要建立新的認證之前，請先移除進行中的認證需求。</createrCertError2>
+	<buttonRmCertRequest>移除認證需求</buttonRmCertRequest>
+	<KeyLength>密鑰長度:</KeyLength>
+	<bits>位元</bits>
+	<days>天</days>
+	<stateLengthErro>州或省份的長度應該在1到128個位元組之間。</stateLengthErro>
+	<localityLengthErro>位置的長度應該在1到128個位元組之間。</localityLengthErro>
+	<orgLengthErro>組織的長度應該在1到64個位元組之間。</orgLengthErro>
+	<orgUnLengthErro>組織單位的長度應該在1到64個位元組之間。</orgUnLengthErro>
+	<commonNameLengthErro>一般名稱的長度應該在1到64個位元組之間。</commonNameLengthErro>
+	<certRequest>認證需求:</certRequest>
+</body>
+<hint>
+	<helpfulHints>說明項目..</helpfulHints>
+	<HttpsHelpMain>HTTPS 安全連線在 HTTP 的連線上增加了加密的能力。你可以同時使用 HTTP 或者是 HTTPS 的連線。但請注意，影像與聲音的串流仍然會使用 HTTP 的連線。</HttpsHelpMain>
+	<httpsHelp>HTTPS 安全連線 - 允許使用者使用 HTTPS 的服務。</httpsHelp>
+	<httpsHelpIntro>你可以使用 HTTP 或著是 HTTPS 來連接這台攝影機。</httpsHelpIntro>
+	<connectType>連線的種類</connectType>
+	<bothHttpAndHttps>同時使用 HTTP 與 HTTPS</bothHttpAndHttps>
+	<bothHttpAndHttpsInfo>你可以選擇這個選項來允許 HTTP 和 HTTPS 連線到這台攝影機。</bothHttpAndHttpsInfo>
+	<httpsOnly>僅使用 HTTPS</httpsOnly>
+	<httpsOnlyInfo>你可以選擇這個選項來只允許 HTTPS 連線到這台攝影機。</httpsOnlyInfo>
+	<createMethod>產生與安裝認證的方法</createMethod>
+	<autoCreateMethod>自動產生並安裝認證</autoCreateMethod>
+	<autoCreateMethodInfo>選擇這個方法來自動產生並安裝認證。</autoCreateMethodInfo>
+	<manCreateMethod>手動產生並安裝認證</manCreateMethod>
+	<manCreateMethodinfo>選擇這個方法來手動產生並安裝認證。</manCreateMethodinfo>
+	<createAndInstallMethod>先產生認證需求，再安裝認證</createAndInstallMethod>
+	<createAndInstallMethodInfo>選擇這個方法允許你先產生認證需求，並由認證單位來進行簽核，然後再安裝由認證單位傳回的認證。</createAndInstallMethodInfo>
+	<certInfo>認證的資訊</certInfo>
+	<certInfoExplain>你認證的狀態和資訊，你可以點選屬性來觀看更多詳細的資訊。</certInfoExplain>
+	<KeyLength>密鑰長度:</KeyLength>
+	<bits>位</bits>
+</hint>
+<message>
+	<ok>變更已儲存。</ok>
+	<invalidParameter>無效的參數。</invalidParameter>
+	<notChanged>未修改。</notChanged>
+	<changeFailed>修改失敗。</changeFailed>
+	<reboot1>網路伺服器正在重啟，請等待 </reboot1>
+	<reboot2> 秒...</reboot2>
+	<upLoadOK>上載完成。</upLoadOK>
+	<invalidDB>上載的認證與當初的認證需求不相符。</invalidDB>
+	<saveOK>網路伺服器正在重啟，請稍待一分鐘，再以新的 IP 位址來重新連接攝影機。</saveOK>
+</message>

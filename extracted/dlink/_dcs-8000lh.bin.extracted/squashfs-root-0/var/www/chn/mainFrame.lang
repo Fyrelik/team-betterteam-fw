@@ -1,0 +1,84 @@
+<body>
+	<camera>摄像机</camera>
+	<description1>本节显示您摄像机的实时视频。您可以使用以下按钮来控制您的设置。 </description1>
+	<description2>当前分辨率为</description2>
+	<sdNote>请注意，摄像机中没有插入SD卡或SD卡不可写入。</sdNote>
+	<sdManagement1>要格式化摄像机中的SD卡，请先禁用SD卡录制，然后到</sdManagement1>
+	<sdManagement2>SD卡管理</sdManagement2>
+	<sdManagement3>页面。</sdManagement3>
+	<liveVideo>实时视频</liveVideo>
+	<goTo>转到</goTo>
+	<panSpeed>摇头速度</panSpeed>
+	<tiltSpeed>俯仰速度</tiltSpeed>
+	<language>请选择语言</language>
+	<english>English</english>
+	<mandarin>繁體中文</mandarin>
+	<simplechn>简体中文</simplechn>
+	<deutsch>Deutsch</deutsch>
+	<italiano>Italiano</italiano>
+	<espa>Español</espa>
+	<french>Français</french>
+	<portu>Português</portu>
+	<selectOne>-- 请选择 --</selectOne>
+	<stop>停止</stop>
+	<snapshot>快照</snapshot>
+	<setPath>设置存储文件夹</setPath>
+	<recording>录制</recording>
+	<stopRecording>停止录制</stopRecording>
+	<startSteamOut>通话</startSteamOut>
+	<stopSteamOut>停止通话</stopSteamOut>
+	<listenOn>监听</listenOn>
+	<profile1>视频配置 1</profile1>
+	<profile2>视频配置 2</profile2>
+	<profile3>视频配置 3</profile3>
+	<profile4>视频配置 4</profile4>
+	<profile5>视频配置 5</profile5>
+	<listenOff>停止监听</listenOff>
+	<startGPOutput>数据输出</startGPOutput>
+	<stopGPOutput>停止数据输出</stopGPOutput>
+	<ledOn>LED亮</ledOn>
+	<ledOff>LED灭</ledOff>
+	<fullScreen>全屏</fullScreen>
+	<diIndicator>数据输入指示灯</diIndicator>
+	<moIndicator>动作/声音触发指示灯</moIndicator>
+	<reIndicator>录制指示灯</reIndicator>
+	<talkNotify1>创建音频流输出失败，创建套接字失败。</talkNotify1>
+	<talkNotify2>连接到服务器失败</talkNotify2>
+	<talkNotify3>音频线被占用，请稍后再试。</talkNotify3>
+	<autoPan>摇头</autoPan>
+	<autoPatrol>巡视</autoPatrol>
+	<irOn>红外LED亮</irOn>
+	<irOff>红外LED灭</irOff>
+	<zoomInOut>放大/缩小：</zoomInOut>
+	<vlcHints1>请获取最新的VLC插件。</vlcHints1>
+	<here>这里</here>
+	<vlcHints2>并在安装过程中启用VLC Mozilla插件。</vlcHints2>
+	<privacyMode1>摄像机目前处于隐私模式。</privacyMode1>
+	<privacyMode2>如果想结束隐私模式，请前往</privacyMode2>
+	<privacyMode3>管理员</privacyMode3>
+	<enablePrivacy>隐私模式</enablePrivacy>
+	<left_up>左上</left_up>
+	<up>上</up>
+	<right_up>右上</right_up>
+	<left>左</left>
+	<left_down>左下</left_down>
+	<right_down>右下</right_down>
+	<right>右</right>
+	<down>下</down>
+	<Zoom_in>放大</Zoom_in>
+	<Zoom_out>缩小</Zoom_out>
+	<home>原点</home>
+	<javajreinfo1>此浏览器不支持或禁用Java JRE插件。</javajreinfo1>
+	<javajreinfo2>在这里更新最新的Java JRE插件</javajreinfo2>
+	<javajreinfo3> 或者启用Java JRE插件。</javajreinfo3>
+	<javajreinfo4>此浏览器不支持或禁用 QuickTime 播放器。</javajreinfo4>
+	<javajreinfo5>更新最新的 QuickTime 播放器</javajreinfo5>
+	<javajreinfo6>这里</javajreinfo6>
+	<javajreinfo7>或者启用 QuickTime 播放器.</javajreinfo7>
+	<javajreinfo8>点击这里去下载NCSPlugin 并安装。然后再重新打开浏览器</javajreinfo8>
+	<javajreinfo88>您所使用的浏览器可能无法接收图像和视频。如果在查看此页面时出现任何问题，我们建议您使用Internet Explorer，Mozilla Firefox或Apple Sarfari浏览器。</javajreinfo88>
+	<javajreinfo9>此浏览器不支持或禁用 QuickTime 播放器。</javajreinfo9>
+	<javajreinfo10>更新最新的 QuickTime 播放器</javajreinfo10>
+	<javajreinfo11>这里</javajreinfo11>
+	<javajreinfo12>或者启用 QuickTime 播放器.</javajreinfo12>
+</body>

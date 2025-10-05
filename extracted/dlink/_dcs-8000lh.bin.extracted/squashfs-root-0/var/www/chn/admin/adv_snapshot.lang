@@ -1,0 +1,159 @@
+<body>
+	<snapshot>快照</snapshot>
+	<description1>必须勾选“启用快照”框，启用摄像机快照。然后，您可以决定触发事件和FTP和/或E-mail提醒。</description1>
+	<description2>当启用SXGA模式时，动作触发快照功能会被禁用。</description2>
+	<description3>如要启用动作触发快照功能，则选择VGA或XGA模式</description3>
+	<description4>音频和视频</description4>
+	<description6>可在此配置</description6>
+	<description7>音频和视频</description7>
+	<savebutton>保存设置</savebutton>
+	<notsavebutton>不保存设置</notsavebutton>
+	<di>数据输入信号1</di>
+	<di2>数据输入信号2</di2>
+	<enable>快照</enable>
+	<motionDetection>移动侦测</motionDetection>
+	<sendVideoClipBy>发送至：</sendVideoClipBy>
+	<emailAddress>E-mail地址</emailAddress>
+	<ftpServer>FTP服务器</ftpServer>
+	<userName>用户名</userName>
+	<password>密码</password>
+	<profile3>视频配置 2</profile3>
+	<mailServer>SMTP邮件服务器</mailServer>
+	<senderAddress>发件人E-mail地址</senderAddress>
+	<recipientAddress>收件人E-mail地址</recipientAddress>
+	<port>端口</port>
+	<test>测试</test>
+	<test2>测试</test2>
+	<hostName>主机名</hostName>
+	<path>路径</path>
+	<prefixFileName>文件名前缀</prefixFileName>
+	<passiveMode>被动模式</passiveMode>
+	<portRange>（范围1~65535）</portRange>
+	<mailNameError>邮件用户名和密码不能接受非ASCII和空格字符。</mailNameError>
+	<ftpNameError>FTP用户名和密码不能接受非ASCII和空格字符。</ftpNameError>
+	<firSmtpError>SMTP（邮件）服务器不能为空白，只能接受数字、字母、\".\" , \"-\"和\"_\"字符。</firSmtpError>
+	<firSmtpName>E-mail SMTP</firSmtpName>
+	<firAccountError>SMTP邮件服务器用户名不能为空</firAccountError>
+	<firRecipientMailError>请验证收件人邮件地址格式。</firRecipientMailError>
+	<firRecipientError>收件人邮件地址不能为空</firRecipientError>
+	<firSenderMailError>请验证发件人邮件地址格式。</firSenderMailError>
+	<firSenderError>发件人邮件地址不能为空</firSenderError>
+	<PortError1>端口不能为空</PortError1>
+	<PortError2> 端口必须为整数</PortError2>
+	<PortError3>端口值必须介于1到65535</PortError3>
+	<firFtpServerError>FTP主机名不能为空白，只能接受数字、字母、\".\" , \"-\"和\"_\"字符。</firFtpServerError>
+	<firFtpError>FTP服务器</firFtpError>
+	<firFolderError>FTP路径仅接受数字，字母和字符：</firFolderError>
+	<firFolderError2>FTP路径不能连续接受\".\" 和 \"/\"</firFolderError2>
+	<firFixFilenameError>文件名前缀仅接受数字，字母和字符：</firFixFilenameError>
+	<continousRecording>连续(仅适用于FTP服务器)</continousRecording>
+	<scheduledRecording>计划(仅适用于FTP服务器)</scheduledRecording>
+	<hour>小时</hour>
+	<min>分</min>
+	<sun>星期日 </sun>
+	<mon>星期一 </mon>
+	<tue>星期二 </tue>
+	<wed>星期三 </wed>
+	<thu>星期四 </thu>
+	<fri>星期五 </fri>
+	<sat>星期六 </sat>
+	<from>开始 </from>
+	<to>结束 </to>
+	<scheduling>计划</scheduling>
+	<motionBased>动作</motionBased>
+	<audioBased>声音</audioBased>
+	<alwaysBased>始终启用</alwaysBased>
+	<interval>间隔</interval>
+	<second>秒</second>
+	<range>（范围10~86400秒）</range>
+	<range1>（范围10~86400秒）</range1>
+	<range2>（范围30~86400秒）</range2>
+	<range3>（范围60~86400秒）</range3>
+	<range4>（范围10~86400秒）</range4>
+	<methodError>请选择一项计划设置</methodError>
+	<scheduleError>请填入计划时间。</scheduleError>
+	<triggerError>请选择一个目标</triggerError>
+	<fullHourError>如果结束小时数为24，结束的分钟数只能设置为0。</fullHourError>
+	<legalTimeError>开始时间必须小于结束时间。</legalTimeError>
+	<ftpignoreMotionTimeError>发送下一个FTP的间隔秒数必须是整数</ftpignoreMotionTimeError>
+	<ftpignoreMotionTimeError1>发送下一个FTP的间隔秒数必须介于10~86400秒之间</ftpignoreMotionTimeError1>
+	<ftpignoreMotionTimeError2>发送下一个FTP的间隔秒数必须介于30~86400秒之间</ftpignoreMotionTimeError2>
+	<ftpignoreMotionTimeError3>发送下一个FTP的间隔秒数必须介于60~86400秒之间</ftpignoreMotionTimeError3>
+	<smtpignoreMotionTimeError>发送下一封E-mail的间隔秒数必须是整数</smtpignoreMotionTimeError>
+	<smtpignoreMotionTimeError1>发送下一封E-mail的间隔秒数必须介于10~86400之间</smtpignoreMotionTimeError1>
+	<smtpignoreMotionTimeError2>发送下一封E-mail的间隔秒数必须介于30~86400之间</smtpignoreMotionTimeError2>
+	<smtpignoreMotionTimeError3>发送下一封E-mail的间隔秒数必须介于60~86400之间</smtpignoreMotionTimeError3>
+	<ftpintervalError>FTP </ftpintervalError>
+	<smtpintervalError>E-mail </smtpintervalError>
+	<sdintervalError>SD卡 </sdintervalError>
+	<intervalError>间隔必须为整数</intervalError>
+	<intervalError1>间隔必须为10～86400秒</intervalError1>
+	<intervalError2>间隔必须为30～86400秒</intervalError2>
+	<intervalError3>间隔必须为30～86400秒</intervalError3>
+	<ftpMailError>请填写E-mail地址或FTP服务器设置</ftpMailError>
+	<ftpScheduleError>请填写FTP服务器设置</ftpScheduleError>
+	<trigger>触发条件</trigger>
+	<ignoreMotFTP>传送下一个FTP在</ignoreMotFTP>
+	<ignoreMotSMTP>传送下一个E-mail在</ignoreMotSMTP>
+	<onlyDuring>仅在</onlyDuring>
+	<day>日</day>
+	<time>时间</time>
+	<period>周期间隔</period>
+	<type>快照类型</type>
+	<motSingle>单拍</motSingle>
+	<motmulti1>六连拍在</motmulti1>
+	<motmulti2>秒间隔（动作帧前后各三帧）</motmulti2>
+	<target>目标</target>
+	<quota>保留的剩余空间</quota>
+	<sdcycle>循环</sdcycle>
+	<Email>发送邮件到 </Email>
+	<sd>SD卡</sd>
+	<ftp>FTP</ftp>
+	<encrypt1>使用SSL-TLS</encrypt1>
+	<encrypt2>使用SSL-TLS</encrypt2>
+	<smtp>E-mail</smtp>
+	<encript1>无</encript1>
+	<encript2>SSL/TLS</encript2>
+	<encript3>STARTTLS</encript3>
+	<sdQuotaError>SD卡空闲空间必须为整数，最小值为30。</sdQuotaError>
+	<mfhourError>起始小时无效。</mfhourError>
+	<mthourError>结束小时无效。</mthourError>
+	<mfminuteError>起始分钟无效。</mfminuteError>
+	<mtminuteError>结束分钟无效。</mtminuteError>
+	<intervalSecErr>间隔秒数必须为正数，最小值为5</intervalSecErr>
+	<ignoreSecErr>忽略秒数必须为正数</ignoreSecErr>
+	<dayErr>请至少选择一天</dayErr>
+	<mininum>（最小为5秒）</mininum>
+	<global>全局参数 </global>
+	<source>来源</source>
+	<qoutaMin>最小为30。</qoutaMin>
+	<motionNote>请注意，移动侦测没有启用，请到移动侦测页面进行配置。</motionNote>
+	<audioNote>请注意，音频侦测没有启用，请到音频侦测页面进行配置。</audioNote>
+	<sdNote>请注意，摄像机中没有插入SD卡或SD卡不可写入。</sdNote>
+	<sdNoteFull>请注意，SD 卡空间已满。</sdNoteFull>
+	<gpio>数据输入</gpio>
+</body>
+<hint>
+	<helpfulHints>帮助提示..</helpfulHints>
+	<snapshot>快照是根据移动侦测，外部传感器输入的触发项存储或发送配置文件3（JPEG）图片到远程E-mail或FTP服务器。</snapshot>
+	<motionBased>在侦测到动作后开始快照。</motionBased>
+	<audioBased>在侦测到声音后开始快照。</audioBased>
+	<scheduling>在特定时间快照。</scheduling>
+	<alwaysBased>连拍。</alwaysBased>
+	<sixSnapshot>6张连拍</sixSnapshot>
+	<sixSnapshotDes>选择在每次快照时连续抓取6张图片。</sixSnapshotDes>
+	<target>您可以选择快照的目的地为FTP或E-mail。</target>
+	<type>您可以改变视频配置 2的JPEG快照设定，或在这里设定单一快照或者六张快照。</type>
+	<gpio>侦测到数据输入后开始快照。</gpio>
+	<test>单击测试按钮，确定FTP或E-mail可以被访问。</test>
+</hint>
+<message>
+	<ok>已保存更改。</ok>
+	<testMailFault>发送测试邮件失败。</testMailFault>
+	<invalidPort>无效端口</invalidPort>
+	<getFrameFault>获取帧失败</getFrameFault>
+	<testMailOk>发送测试邮件成功。</testMailOk>
+	<testFTPFault>测试FTP失败</testFTPFault>
+	<testFTPOk>测试FTP成功</testFTPOk>
+	<updateFailed>更新失败</updateFailed>
+</message>

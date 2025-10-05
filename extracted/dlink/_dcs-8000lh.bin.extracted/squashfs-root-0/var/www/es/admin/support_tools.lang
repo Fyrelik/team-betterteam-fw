@@ -1,0 +1,59 @@
+<body>
+	<maintenance>MANTENIMIENTO</maintenance>
+	<deviceManagement>Admin</deviceManagement>
+	<backupAndRestore>Sistema</backupAndRestore>
+	<firmwareUpgrade>Actualización del firmware</firmwareUpgrade>
+	<rtspauth>Autenticación RTSP</rtspauth>
+	<rtspauth1> : permite la validación del usuario para utilizar la canalización RTSP.</rtspauth1>
+	<httpauth>Autenticación HTTP</httpauth>
+	<httpauth1> : permite la validación del usuario para utilizar la canalización HTTP.</httpauth1>
+	<snapauth>Autenticación URL de instantánea</snapauth>	
+	<snapauth1> : permite la validación del usuario para utilizar la URL de instantáneas.</snapauth1>	
+	<cameraName>Nombre de cámara</cameraName>
+	<cameraName1> : el nombre exclusivo de su cámara.</cameraName1>
+	<label>Etiqueta</label>
+	<label1> : la etiqueta exclusiva de su cámara.</label1>
+	<showTime>Mostrar la hora</showTime>
+	<showTime1> : seleccione esta opción para mostrar la información de fecha y hora en la instantánea o la imagen de vídeo.</showTime1>
+	<adminPassword>Configuración de contraseña del administrador</adminPassword>
+	<adminPassword1>: contraseña para la cuenta del administrador. La contraseña de administrador debe introducirse dos veces para confirmarla.</adminPassword1>
+	<led>Luz del LED de alimentación/enlace</led>
+	<led1>Encendida: parpadeo de LED normal dependiendo de la alimentación y del enlace con cables/inalámbrico y el estado de la transmisión de la secuencia de vídeo/audio.</led1>
+	<led2>Apagada: LED siempre apagado.</led2>
+	<led3>Parpadeo: LED de enlace que parpadea siempre mientras se está supervisando el vídeo.</led3>
+	<timeStamp>Marca de tiempo</timeStamp>
+	<timeStamp1> : seleccione esta opción para mostrar la información de fecha y hora en la instantánea o la imagen de vídeo.</timeStamp1>
+	<addUser>Añadir cuenta de usuario</addUser>
+	<addUser1>: cree nuevas cuentas de usuario para acceder a la imagen de vídeo en directo; se pueden añadir hasta veinte cuentas de usuario. El nuevo nombre de usuario se mostrará en la lista de usuarios para poder borrarlo.</addUser1>
+	<deleteUser>Eliminar</deleteUser>
+	<deleteUser1> : elimine al usuario de la lista de usuarios.</deleteUser1>
+	<userList>Lista de usuarios</userList>
+	<userList1> : lista de cuentas de usuario (sin incluir admin), para mostrar y borrar.</userList1>
+	<backup>Guardar en la unidad de disco duro local</backup>
+	<backup1> : después de hacer clic en este botón, aparecerá una ventana de descarga que permitirá guardar el archivo de configuración de la cámara en el ordenador para fines de restauración.</backup1>
+	<restore>Cargar desde unid. disco duro local</restore>
+	<restore1>: puede examinar y cargar el archivo de configuración. A continuación, haga clic en "Cargar configuración" para restaurar los parámetros preconfigurados o guardados.</restore1>
+	<rebootSystem>Reiniciar el dispositivo</rebootSystem>
+	<rebootSystem1> : esta opción reiniciará la cámara.</rebootSystem1>
+	<factoryDefaults>Restab. en valores predet. de fábrica</factoryDefaults>
+	<factoryDefaults1>: esta opción restablecerá los valores predeterminados de fábrica para su cámara. Esta acción eliminará todos los parámetros de configuración establecidos con anterioridad.</factoryDefaults1>
+	<firmwareInformation>Información del firmware</firmwareInformation>
+	<firmwareInformation1> : muestra la información del firmware.</firmwareInformation1>
+	<firmwareUpdate>Actualización del firmware</firmwareUpdate>
+	<firmwareUpdate1>: esta opción permite al usuario actualizar el firmware. Haga clic en “Examinar” para localizar el archivo y, a continuación, haga clic en “Cargar” para aplicar el nuevo firmware a la cámara.</firmwareUpdate1>
+	<firmwarebuildnumber>Número de build del firmware actual</firmwarebuildnumber>
+	<firmwarebuildnumber1>: el número de revisión específico de la versión del firmware de la cámara. Al solicitar asistencia, también deberá dar este número al servicio técnico.</firmwarebuildnumber1>
+	<enableOSD>OSD</enableOSD>
+	<enableOSDl> : al activar OSD, se mostrarán la etiqueta y la marca de tiempo en la instantánea o en la imagen de vídeo del usuario.</enableOSDl>
+	<calibrateDevice>Calibrar el dispositivo</calibrateDevice>
+	<calibrateDevice1> : vuelve a calibrar la posición inicial de PT de la cámara.</calibrateDevice1>
+	<privacycontrol>Control de privacidad</privacycontrol>
+	<privacycontrol1> : permite configurar si la cámara puede entrar o no en el modo de intimidad.</privacycontrol1>
+	<privacyon>Intimidad activada</privacyon>
+	<privacyon1>: la cámara está en un modo de intimidad. Se apagarán las funciones de vídeo en directo, clip de vídeo, instantánea y grabación SD.</privacyon1>
+	<privacyoff>Intimidad desactivada</privacyoff>
+	<privacyoff1> : la cámara está en un modo de funcionamiento normal.</privacyoff1>
+	<curfirmwareversion>Versión del firmware actual</curfirmwareversion>
+	<curfirmwareversion1> : versión de firmware local en la cámara.</curfirmwareversion1>
+</body>
+

@@ -1,0 +1,40 @@
+<leftPanel>
+	<camera>摄像机</camera>
+	<logout>退出</logout>
+	<titleLiveVideo>实时视频</titleLiveVideo>
+	<wizard>设置向导</wizard>
+	<networkSettings>网络</networkSettings>
+	<apRouter>直接连接</apRouter>
+	<wireless>无线设置</wireless>
+	<ddns>动态DNS</ddns>
+	<imageSettings>图像设置</imageSettings>
+	<audioVideo>音频和视频</audioVideo>
+	<mailFtp>邮件和FTP</mailFtp>
+	<motionDetection>移动侦测</motionDetection>
+	<audio_detection>音频侦测</audio_detection>
+	<timeAndDate>时间和日期</timeAndDate>
+	<cameraControl>摄像机控制</cameraControl>
+	<recording>SD卡录制</recording>
+	<snapshot>快照</snapshot>
+	<digitalOutput>数据输出</digitalOutput>
+	<videoclip>视频剪辑</videoclip>
+	<rs485>RS-485</rs485>
+	<ack>致谢</ack>
+	<logout>退出</logout>
+	<titleSetup>设置</titleSetup>
+	<deviceInfo>设备信息</deviceInfo>
+	<log>日志</log>
+	<logout>退出</logout>
+	<titleStatus>状态</titleStatus>
+	<deviceManagement>管理员</deviceManagement>
+	<backupAndRestore>系统</backupAndRestore>
+	<firmwareUpgrade>固件升级</firmwareUpgrade>
+	<logout>退出</logout>
+	<titleMaintenance>维护</titleMaintenance>
+	<menu>帮助菜单</menu>
+	<logout>退出</logout>
+	<titleHelp>帮助</titleHelp>
+	<sdcard>SD卡管理</sdcard>
+	<ipFilter>IP 过滤器</ipFilter>
+	<https>HTTPS 设置</https>
+</leftPanel>
