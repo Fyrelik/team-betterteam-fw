@@ -1,1 +1,3 @@
+## Extraction
 
+`binwalk -me <FILE>`
