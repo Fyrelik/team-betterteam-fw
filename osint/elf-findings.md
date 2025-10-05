@@ -95,3 +95,20 @@ GCC: (Arm GNU Toolchain 14.2.Rel1 (Build arm-14.52)) 14.2.1 20241119
 
 /Desktop/team-betterteam-fw/elfs$ strings -n 8 bare-metal-takehome.elf | rg -n "(https?://|ftp://|mqtt://|tcp://|udp://)[A-Za-z0-9\.\-_:]+"
 
+~/Desktop/team-betterteam-fw/elfs$ strings -n 8 bare-metal-takehome.elf | rg -n "([0-9]{1,3}\.){3}[0-9]{1,3}"
+
+# Build metadata & versioning
+
+/Desktop/team-betterteam-fw/elfs$ strings -n 8 bare-metal-takehome.elf | rg -n "gcc|clang|buildroot|jenkins|git|svn|make|cmake|sdk|toolchain"
+
+~/Desktop/team-betterteam-fw/elfs$ strings -n 8 bare-metal-takehome.elf | rg -n "version|ver_|v[0-9]+\.[0-9]+" | head -n 200
+
+# Command and service names
+
+~/Desktop/team-betterteam-fw/elfs$ strings -n 8 bare-metal-takehome.elf | rg -n "(telnetd|dropbear|lighttpd|httpd|sshd|ntpd|dnsmasq|udhcpd|busybox|systemd)"
+
+# Filesystem and path discovery
+
+/Desktop/team-betterteam-fw/elfs$ strings -n 8 bare-metal-takehome.elf | rg -n "/(etc|bin|usr|home|mnt|tmp|var|root)/[A-Za-z0-9_\-/\.]+"
+
+
