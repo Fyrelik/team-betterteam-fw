@@ -1,0 +1,114 @@
+============================== BINWALK: ==============================
+Scan Time:     2025-10-11 06:44:37
+Target File:   /home/user1/ethical_hacking/midterm/bins/dcs-8000lh.bin
+MD5 Checksum:  e2beea4bd7f963aa32cb65e21e949eb9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+134684        0x20E1C         CRC32 polynomial table, little endian
+264356        0x408A4         PEM RSA private key
+393216        0x60000         Squashfs filesystem, little endian, version 4.0, compression:xz, size: 276064 bytes, 14 inodes, blocksize: 131072 bytes, created: 2017-06-07 10:12:50
+1441792       0x160000        gzip compressed data, maximum compression, from Unix, last modified: 2017-06-07 00:00:47
+1703936       0x1A0000        gzip compressed data, maximum compression, from Unix, last modified: 2017-06-07 00:00:47
+1966080       0x1E0000        uImage header, header size: 64 bytes, header CRC: 0x8237D0E6, created: 2017-06-07 09:44:00, image size: 1661677 bytes, Data Address: 0x804D4940, Entry Point: 0x804D4940, data CRC: 0x5C8D17AC, OS: Linux, CPU: MIPS, image type: OS Kernel Image, compression type: none, image name: "linux_3.10"
+1970496       0x1E1140        LZMA compressed data, properties: 0x5D, dictionary size: 67108864 bytes, uncompressed size: -1 bytes
+5111808       0x4E0000        Squashfs filesystem, little endian, version 4.0, compression:xz, size: 7657880 bytes, 2125 inodes, blocksize: 131072 bytes, created: 2017-06-07 10:13:14
+
+
+Scan Time:     2025-10-11 06:44:38
+Target File:   /home/user1/ethical_hacking/midterm/bins/_dcs-8000lh.bin.extracted/160000
+MD5 Checksum:  3d4890f570cbc46a1541ec1d351715e1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             POSIX tar archive (GNU)
+
+
+Scan Time:     2025-10-11 06:44:38
+Target File:   /home/user1/ethical_hacking/midterm/bins/_dcs-8000lh.bin.extracted/1A0000
+MD5 Checksum:  3d4890f570cbc46a1541ec1d351715e1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             POSIX tar archive (GNU)
+
+
+Scan Time:     2025-10-11 06:44:38
+Target File:   /home/user1/ethical_hacking/midterm/bins/_dcs-8000lh.bin.extracted/1E1140
+MD5 Checksum:  d888e01a8466c51f4d5ab6e6dd8f14ce
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+767014        0xBB426         PGP RSA encrypted session key - keyid: 524BE 29060C70 RSA (Encrypt or Sign) 1024b
+1768392       0x1AFBC8        MySQL ISAM compressed data file Version 8
+1768400       0x1AFBD0        MySQL ISAM compressed data file Version 8
+3944580       0x3C3084        Linux kernel version 3.10.2
+4294706       0x418832        Unix path: /var/run/rpcbind.sock
+4384120       0x42E578        xz compressed data
+4399636       0x432214        Unix path: /lib/firmware/updates/3.10.27
+4521274       0x44FD3A        Neighborly text, "neighbor %.2x%.2x.%pM lost rename link %s to %s"
+4703744       0x47C600        CRC32 polynomial table, little endian
+
+
+Scan Time:     2025-10-11 06:44:39
+Target File:   /home/user1/ethical_hacking/midterm/bins/_dcs-8000lh.bin.extracted/_160000.extracted/db/verify.key
+MD5 Checksum:  d1dd9e68aad8217034f28ecb8809c621
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2025-10-11 06:44:39
+Target File:   /home/user1/ethical_hacking/midterm/bins/_dcs-8000lh.bin.extracted/_160000.extracted/db/default.xml
+MD5 Checksum:  3f3b802b2497ba2ab0dad0a4aca2be0f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2025-10-11 06:44:39
+Target File:   /home/user1/ethical_hacking/midterm/bins/_dcs-8000lh.bin.extracted/_160000.extracted/db/db.xml
+MD5 Checksum:  8cbd34184cc2f656836a99b4c6df33ab
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+33820         0x841C          PEM certificate
+
+
+Scan Time:     2025-10-11 06:44:39
+Target File:   /home/user1/ethical_hacking/midterm/bins/_dcs-8000lh.bin.extracted/_1A0000.extracted/db/verify.key
+MD5 Checksum:  d1dd9e68aad8217034f28ecb8809c621
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2025-10-11 06:44:39
+Target File:   /home/user1/ethical_hacking/midterm/bins/_dcs-8000lh.bin.extracted/_1A0000.extracted/db/default.xml
+MD5 Checksum:  3f3b802b2497ba2ab0dad0a4aca2be0f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2025-10-11 06:44:39
+Target File:   /home/user1/ethical_hacking/midterm/bins/_dcs-8000lh.bin.extracted/_1A0000.extracted/db/db.xml
+MD5 Checksum:  8cbd34184cc2f656836a99b4c6df33ab
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+33820         0x841C          PEM certificate

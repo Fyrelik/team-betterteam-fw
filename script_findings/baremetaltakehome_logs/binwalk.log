@@ -1,0 +1,10 @@
+============================== BINWALK: ==============================
+Scan Time:     2025-10-11 06:45:24
+Target File:   /home/user1/ethical_hacking/midterm/elfs/bare-metal-takehome.elf
+MD5 Checksum:  b891c6b16ea345555c47cadff872668a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit LSB executable, ARM, version 1 (SYSV)
+6353          0x18D1          PEM RSA private key

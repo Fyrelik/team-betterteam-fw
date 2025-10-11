@@ -1,13 +1,11 @@
 #!/bin/bash
 
 DEPENDENCY_NAMES=(
-    "tree"
     "binwalk"
     "ripgrep"
 )
 
 DEPENDENCY_COMMANDS=(
-    "tree"
     "binwalk"
     "rg"
 )
