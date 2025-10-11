@@ -1,0 +1,40 @@
+============================== BINWALK: ==============================
+Scan Time:     2025-10-11 06:43:15
+Target File:   /home/user1/ethical_hacking/midterm/bins/wr-841n.bin
+MD5 Checksum:  97710bf8ae216d4665c1c89a43eca626
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+53536         0xD120          U-Boot version string, "U-Boot 1.1.3 (Aug 16 2022 - 12:01:12)"
+66048         0x10200         LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 2986732 bytes
+1048576       0x100000        Squashfs filesystem, little endian, version 4.0, compression:xz, size: 3001844 bytes, 552 inodes, blocksize: 262144 bytes, created: 2022-08-16 04:14:58
+
+
+Scan Time:     2025-10-11 06:43:16
+Target File:   /home/user1/ethical_hacking/midterm/bins/_wr-841n.bin.extracted/10200
+MD5 Checksum:  9e838c993a403533442730b887a432c3
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+2240608       0x223060        Linux kernel version 2.6.36
+2240772       0x223104        CRC32 polynomial table, little endian
+2280128       0x22CAC0        CRC32 polynomial table, little endian
+2509588       0x264B14        xz compressed data
+2556368       0x2701D0        Neighborly text, "NeighborSolicits6InDatagrams"
+2556388       0x2701E4        Neighborly text, "NeighborAdvertisementsorts"
+2559855       0x270F6F        Neighborly text, "neighbor %.2x%.2x.%pM lostrename link %s to %s"
+2981888       0x2D8000        ASCII cpio archive (SVR4 with no CRC), file name: "/dev", file name length: "0x00000005", file size: "0x00000000"
+2982004       0x2D8074        ASCII cpio archive (SVR4 with no CRC), file name: "/dev/console", file name length: "0x0000000D", file size: "0x00000000"
+2982128       0x2D80F0        ASCII cpio archive (SVR4 with no CRC), file name: "/root", file name length: "0x00000006", file size: "0x00000000"
+2982244       0x2D8164        ASCII cpio archive (SVR4 with no CRC), file name: "TRAILER!!!", file name length: "0x0000000B", file size: "0x00000000"
+
+
+Scan Time:     2025-10-11 06:43:16
+Target File:   /home/user1/ethical_hacking/midterm/bins/_wr-841n.bin.extracted/_10200.extracted/console
+MD5 Checksum:  d41d8cd98f00b204e9800998ecf8427e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
