@@ -1,15 +1,28 @@
 #!/bin/bash
 
-DEPENDENCIES=(
+DEPENDENCY_NAMES=(
     "tree"
     "binwalk"
+    "ripgrep"
+)
+
+DEPENDENCY_COMMANDS=(
+    "tree"
+    "binwalk"
+    "rg"
 )
 
 MISSING=()
 
-for dep in "${DEPENDENCIES[@]}"; do
-    if ! (which "$dep" >> /dev/null); then
-        MISSING+=("$dep")
+#for dep in "${DEPENDENCIES[@]}"; do
+#    if ! (which "$dep" >> /dev/null); then
+#        MISSING+=("$dep")
+#    fi
+#done
+
+for (( i=0; i<${#DEPENDENCY_NAMES[@]}; i++ )); do
+    if ! (which "${DEPENDENCY_COMMANDS[i]}" >> /dev/null); then
+        MISSING+=("${DEPENDENCY_NAMES[i]}")
     fi
 done
 

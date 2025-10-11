@@ -4,7 +4,11 @@
 
 ## Root File-system format
 
+Squashfs filesystem
+
 ## Startup script or configuration files
+
+
 
 ## Interrupt Table, Magic Constants
 
