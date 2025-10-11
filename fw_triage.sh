@@ -5,91 +5,111 @@
 #  - .elf
 #  - .bin
 
-set -eou pipefail
-
 # helper for sourcing helper modules
 SCRIPT_DIR="$(readlink -f "$0" | xargs dirname)/script_helpers"
+LOG_EXTENSION=".log"
+
 function run_script() {
   SCRIPT="$1"
+  LOG_NAME="$2"
+  shift; shift
+
   if ! [ -f "$SCRIPT_DIR/$SCRIPT.sh" ]; then
     echo "'$SCRIPT_DIR/$SCRIPT.sh' not found"
     exit 1
   fi
-  shift
-  source "$SCRIPT_DIR/$SCRIPT.sh" "$@"
+  if [[ "$LOG_NAME" == "" ]]; then
+    source "$SCRIPT_DIR/$SCRIPT.sh" "$@"
+  else
+    source "$SCRIPT_DIR/$SCRIPT.sh" "$@" > "$LOG_DIR/$LOG_NAME$LOG_EXTENSION" 2>&1
+  fi
 }
 
-# arg check
-if (( $# != 1 )); then
-    echo "Expected 1 argument"
-    exit 1
-fi
+# argument parsing
+OUTPUT_DIR=""
 
-# help message 
-if [[ "$1" == "-h" ]]; then
-    run_script help "$0"
+# help message
+if (( $# == 1 )) && [[ "$1" == "-h" ]]; then
+    source "$SCRIPT_DIR/help.sh"
     exit 0
+
+# just target
+elif (( $# == 1 )); then
+    if ! [ -f "$1" ]; then
+          echo "File not found: $FILE_PATH"
+          exit 1
+    fi
+    RAW_FILE=$(readlink -f "$1")
+
+# target + output target
+elif (( $# == 2 )); then
+    if ! [-f "$1" ]; then
+          echo "File not found: $FILE_PATH"
+          exit 1
+    fi
+    if ! [ -d "$2" ]; then
+        echo "Output directory not found: $2"
+        exit 1
+    fi
+    RAW_FILE=$(readlink -f "$1")
+    OUTPUT_DIR="$2"
+
+# bad input
+else
+    echo "Input malformed."
+    run_script help ""
 fi
 
-# location parsing
-FILE_PATH="$(readlink -f "$1")"
-FILE_NAME="$(basename "$FILE_PATH")"
-DIR_PATH="$(dirname "$FILE_PATH")"
-LOG_DIR="$DIR_PATH/triage-out"
-LOG_DIR_BASE=$(basename "$LOG_DIR")
-
-# file checks
-if ! [ -f "$FILE_PATH" ]; then
-  echo "File not found: $FILE_PATH"
-  exit 1
-fi
-
-if [ -d "$LOG_DIR" ]; then
-    rm -rf "$LOG_DIR"
-fi
-mkdir -p "$LOG_DIR"
-
-# header & dependencies
-
-run_script header
-
-run_script dependency_check
 
 # filename parsing
-RAW_FILE=$(readlink -f "$1")
 RAW_FILE_BASE=$(basename "$RAW_FILE")
 RAW_FILE_DIR=$(readlink -f "$1" | xargs dirname)
 RAW_FILE_EXTENSION=".${RAW_FILE_BASE##*.}"
 
+if [[ "$OUTPUT_DIR" == "" ]]; then
+    OUTPUT_DIR="$(dirname "$RAW_FILE")"
+fi
+
+# location parsing
+FILE_PATH="$(readlink -f "$RAW_FILE")"
+FILE_NAME="$(basename "$FILE_PATH")"
+DIR_PATH="$(dirname "$FILE_PATH")"
+LOG_DIR="$OUTPUT_DIR/triage_$RAW_FILE_BASE"
+LOG_DIR_BASE=$(basename "$LOG_DIR")
+
+# output staging
+if [ -d "$LOG_DIR" ]; then
+    rm -rf "$LOG_DIR/*"
+else
+    mkdir -p "$LOG_DIR"
+fi
+
+# header & dependencies
+
+run_script header ""
+
+run_script dependency_check ""
 
 if [[ "$RAW_FILE_EXTENSION" == ".bin" ]]; then
 
     # actions for .bin targets
 
-    EXTRACTED_FILE="$RAW_FILE_DIR/_$RAW_FILE_BASE.extracted"
-    if [ -d "$EXTRACTED_FILE" ]; then
-        rm -rf "$EXTRACTED_FILE"
-    fi
-    
-    run_script binwalk "$RAW_FILE" 1 > "$LOG_DIR"/binwalk.log 2>&1
+    EXTRACTED_FILE="$DIR_PATH/extracted_$RAW_FILE_BASE"
+
+    run_script binwalk "binwalk" "$RAW_FILE" "$EXTRACTED_FILE" 1
     echo -e "Binwalk executed on $RAW_FILE_BASE, see $LOG_DIR_BASE/binwalk.log\n"
 
-    run_script bin_secrets "$EXTRACTED_FILE" > "$LOG_DIR"/secrets.log 2>&1
-    echo -e "Secret sweep executed on $RAW_FILE_BASE, see $LOG_DIR_BASE/secrets.log\n"
+    run_script bin_secrets "secrets" "$EXTRACTED_FILE"
+    echo -e "Secret sweep executed on $EXTRCTED_FILE, see $LOG_DIR_BASE/secrets.log\n"
 
 elif [[ "$RAW_FILE_EXTENSION" == ".elf" ]]; then
 
     # actions for .elf targets
 
-    EXTRACTED_FILE="$RAW_FILE_DIR/_$RAW_FILE_BASE.extracted"
-    if [ -d "$EXTRACTED_FILE" ]; then
-        rm -rf "$EXTRACTED_FILE"
-    fi
-
-    run_script binwalk "$RAW_FILE" 1 > "$LOG_DIR"/binwalk.log 2>&1
+    run_script binwalk binwalk "$RAW_FILE" "" 1
     echo -e "Binwalk executed on $RAW_FILE_BASE, see $LOG_DIR_BASE/binwalk.log\n"
     
-    run_script elf_secrets "$RAW_FILE" > "$LOG_DIR"/secrets.log 2>&1
+    run_script elf_secrets "secrets" "$RAW_FILE"
     echo -e "Secret sweep executed on $RAW_FILE_BASE, see $LOG_DIR_BASE/secrets.log\n"
 
 else

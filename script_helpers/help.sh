@@ -8,13 +8,16 @@ echo -e "\nDescription:"
 echo -e "\tA script for extracting and scanning firmware binaries"
 
 echo -e "\nUsage:"
-echo -e "\t$1 <BINARY FILE>"
+echo -e "\t$1 <BINARY FILE> [OUTPUT DIR]"
 
 echo -e "\nArguments:"
 echo -e "\t<BINARY FILE>\t\tThe target file"
+echo -e "\t[OUTPUT DIR]\t\tDirectory to place generated files"
 
 echo -e "\nSupported Types:"
 echo -e "\t.elf"
 echo -e "\t.bin"
+
+echo
 
 exit 0
