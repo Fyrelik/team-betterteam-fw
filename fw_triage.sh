@@ -29,7 +29,7 @@ fi
 FILE_PATH="$(readlink -f "$1")"
 FILE_NAME="$(basename "$FILE_PATH")"
 DIR_PATH="$(dirname "$FILE_PATH")"
-LOG_DIR="$DIR_PATH/traige-out"
+LOG_DIR="$DIR_PATH/triage-out"
 LOG_DIR_BASE=$(basename "$LOG_DIR")
 
 # file checks
