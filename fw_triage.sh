@@ -35,24 +35,24 @@ if (( $# == 1 )) && [[ "$1" == "-h" ]]; then
 
 # just target
 elif (( $# == 1 )); then
-    if ! [ -f "$1" ]; then
-          echo "File not found: $FILE_PATH"
+    RAW_FILE=$(readlink -f "$1")
+    if ! [ -f "$RAW_FILE" ]; then
+          echo "File not found: $RAW_FILE"
           exit 1
     fi
-    RAW_FILE=$(readlink -f "$1")
 
 # target + output target
 elif (( $# == 2 )); then
-    if ! [-f "$1" ]; then
-          echo "File not found: $FILE_PATH"
+    RAW_FILE=$(readlink -f "$1")
+    OUTPUT_DIR="$2"
+    if ! [ -f "$RAW_FILE" ]; then
+          echo "File not found: $RAW_FILE"
           exit 1
     fi
     if ! [ -d "$2" ]; then
         echo "Output directory not found: $2"
         exit 1
     fi
-    RAW_FILE=$(readlink -f "$1")
-    OUTPUT_DIR="$2"
 
 # bad input
 else
@@ -94,7 +94,7 @@ if [[ "$RAW_FILE_EXTENSION" == ".bin" ]]; then
 
     # actions for .bin targets
 
-    EXTRACTED_FILE="$DIR_PATH/extracted_$RAW_FILE_BASE"
+    EXTRACTED_FILE="$OUTPUT_DIR/extracted_$RAW_FILE_BASE"
 
     run_script binwalk "binwalk" "$RAW_FILE" "$EXTRACTED_FILE" 1
     echo -e "Binwalk executed on $RAW_FILE_BASE, see $LOG_DIR_BASE/binwalk.log\n"
