@@ -70,3 +70,5 @@ if [ ${#MISSING[@]} -gt 0 ]; then
 
   fi
 fi
+
+echo ""
