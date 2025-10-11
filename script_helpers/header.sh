@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# helper script to print script welcome banner
+
+# project team name, fancy
 echo ""
 echo "###########################################################"
 echo "#   _          _   _            _                         #"

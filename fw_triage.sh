@@ -19,7 +19,13 @@ function run_script() {
   source "$SCRIPT_DIR/$SCRIPT.sh" "$@"
 }
 
-# help message
+# arg check
+if (( $# != 1 )); then
+    echo "Expected 1 argument"
+    exit 1
+fi
+
+# help message 
 if [[ "$1" == "-h" ]]; then
     run_script help "$0"
     exit 0
@@ -34,7 +40,7 @@ LOG_DIR_BASE=$(basename "$LOG_DIR")
 
 # file checks
 if ! [ -f "$FILE_PATH" ]; then
-  echo "File $FILE_PATH not found"
+  echo "File not found: $FILE_PATH"
   exit 1
 fi
 
