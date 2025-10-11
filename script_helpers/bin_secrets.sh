@@ -11,6 +11,6 @@ find "$FILE" | rg "passwd|shadow"
 
 # private key scan
 echo -e "\n============================== KEYS: $FILE ==============================\n"
-find "$FILE" | rg ".*\.pem|.*\.crt|.*\.key"
+echo find "$FILE" | rg ".*\.pem|.*\.crt|.*\.key"
 echo ""
 rg --multiline --multiline-dotall --no-binary --no-filename -oP ".{0,10}(BEGIN.*PRIVATE KEY.*END.*PRIVATE KEY)|(KEY.{0,20}:).{0,10}" "$FILE"

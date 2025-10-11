@@ -1,22 +1,31 @@
 #!/bin.bash
 
 # arg1: target file
-# arg2: toggle stderr
+# arg2: dir to extract to
+# arg3: toggle stderr
 
 FILE="$1"
-HIDE_ERR="$2"
+TARGET_PATH="$2" # extraction output dir
+HIDE_ERR="$3"
 
-RAW_FILE_BASE=$(basename "$FILE")
-RAW_FILE_DIR=$(readlink -f "$FILE" | xargs dirname)
-EXTRACTED_FILE="$RAW_FILE_DIR/_$RAW_FILE_BASE.extracted"                                                                             
-if [ -d "$EXTRACTED_FILE" ]; then
-    rm -rf "$EXTRACTED_FILE"
+# filepath parsing
+FILE_BASE=$(basename "$FILE")
+FILE_DIR=$(readlink -f "$FILE" | xargs dirname)
+EXTRACTED_LOC="$FILE_DIR/_$FILE_BASE.extracted"                                                                             
+if [ -d "$EXTRACTED_LOC" ] || [ -f "$EXTRACTED_LOC" ]; then
+    rm -rf "$EXTRACTED_LOC"
 fi
 
+# execution
 if [[ "$HIDE_ERR" == "1" ]]; then
     OUTPUT=$(binwalk -Me "$FILE" 2>/dev/null)
 else
     OUTPUT=$(binwalk -Me "$FILE")
+fi
+
+if (( ${#TARGET_PATH} != 1 )); then
+    rm -f "$TARGET_PATH"
+    mv -f "$EXTRACTED_LOC" "$TARGET_PATH"
 fi
 
 echo "============================== BINWALK: $FILE =============================="
