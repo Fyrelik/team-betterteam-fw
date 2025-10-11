@@ -86,12 +86,9 @@ fi
 
 # header & dependencies
 
-#run_script header ""
-source "$SCRIPT_DIR"/header.sh
+run_script header ""
 
-source "$SCRIPT_DIR"/dependency_check.sh
-
-#run_script dependency_check ""
+run_script dependency_check ""
 
 if [[ "$RAW_FILE_EXTENSION" == ".bin" ]]; then
 
