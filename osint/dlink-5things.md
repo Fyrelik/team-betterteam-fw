@@ -1,11 +1,12 @@
 # TP Link Identification
 
 ## Kernel Image Type
-
+- Linux 3.10
+    - binwalk dcs-8000lh.bin
 ## Root File-system format
 - Squashfs
 ## Startup script or configuration files
-
+- extracted/dlink/_dcs-8000lh.bin.extracted/squashfs-root-0/startkit/**boot.sh** 
 ## Interrupt Table, Magic Constants
 
 ## type of Architecture Code is Compiled For
