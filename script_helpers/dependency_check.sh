@@ -29,15 +29,16 @@ if [ ${#MISSING[@]} -gt 0 ]; then
 
   # prompt user to install
   IN=""
-  while [ "${IN,,}" != "y" ] && [ "${IN,,}" != "n" ]; do
+  while [ "$IN" != "y" ] && [ "$IN" != "n" ]; do
     echo -n "${#MISSING[@]} dependencies missing. Install them? (requires sudo) [Y/n]: "
     read -r IN
+    IN=$(echo "$IN" | awk -F " " '{print tolower($0)}')
   done
 
   # act on user decision
 
   ## do installs
-  if [ "${IN,,}" == "y" ]; then
+  if [ "$IN" == "y" ]; then
 
     if ! (which apt); then
         echo "ERR: apt not found, please install dependencies manually."
