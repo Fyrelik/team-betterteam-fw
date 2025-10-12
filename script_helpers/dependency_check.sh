@@ -39,6 +39,12 @@ if [ ${#MISSING[@]} -gt 0 ]; then
   ## do installs
   if [ "${IN,,}" == "y" ]; then
 
+    if ! (which apt); then
+        echo "ERR: apt not found, please install dependencies manually."
+        echo "${MISSING[@]}"
+        exit 1
+    fi
+
     # activate sudo
     if ! (sudo echo -n ""); then
         echo ""
