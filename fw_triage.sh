@@ -100,7 +100,7 @@ if [[ "$RAW_FILE_EXTENSION" == ".bin" ]]; then
     echo -e "Binwalk executed on $RAW_FILE_BASE, see $LOG_DIR_BASE/binwalk.log\n"
 
     run_script bin_secrets "secrets" "$EXTRACTED_FILE"
-    echo -e "Secret sweep executed on $EXTRCTED_FILE, see $LOG_DIR_BASE/secrets.log\n"
+    echo -e "Secret sweep executed on $(basename "$EXTRACTED_FILE"), see $LOG_DIR_BASE/secrets.log\n"
 
 elif [[ "$RAW_FILE_EXTENSION" == ".elf" ]]; then
 
