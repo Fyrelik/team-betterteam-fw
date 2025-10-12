@@ -1,17 +1,17 @@
 # Automated Firmware Triage
-This is an exyensible and robust bash script to assist in extracting and scanning firmware binaries. It ropes in helper scripts to keep the main workflow simple and easily customizable.
+This is an extensible and robust bash script to assist in extracting and scanning firmware binaries. It ropes in helper scripts to keep the main workflow simple and modular.
 
 ---
 
 ## Features
-- **Auto-dispatch by file type:** Different flows for .bin vs .elf
+- **Auto-dispatch by file type:** Different flows for `.bin` vs `.elf`
 - **Customizable helpers:** Each step is a `script_helpers/*.sh` module that you yourself can edit or replace
 - **Structured logs:** All output is captured to a per-run logs directory
 
 ---
 
 ## Folder Layout
-```tree
+```
 repo/
 ├── fw_triage.sh                # Main script
 └── script_helpers/             # Helper scripts (sourced at runtime)
@@ -35,17 +35,20 @@ This will:
 - Detect the file type (`.bin` vs `.elf`)
 - Run the appropriate analysis workflow
 - Save all output logs to a folder named `triage_<firmware_file>` next to your file
+- If file is a `.bin`, extracted contents will be saved to `extracted_<firmware_file>`
 
 Example:
 ```bash
 ./fw_triage.sh dcs-8000lh.bin
 ```
 Output:
-```tree
+```
 dcs-8000lh.bin
 triage_dcs-8000lh.bin
  ├── binwalk.log
  └── secrets.log
+extracted_dcs_8000lh.bin/
+ └── *
 ```
 
 ---
@@ -59,7 +62,7 @@ Example:
 ./fw_triage.sh bare-metal-takehome.elf /temp/output/
 ```
 **Output stored in:**
-`/temp/output/triage_bare-metal-takehome.elf/`
+`/temp/output/triage_bare-metal-takehome.elf/*`
 
 ---
 
@@ -84,15 +87,16 @@ Filetype .<ext> not supported
 
 --- 
 
-## Ouput Files
+## Output Files
 | File | Description | 
 | :--: | :--: |
 | `binwalk.log` | Results of firmware extraction |
 | `secrets.log` | Discovered strings, keys, credentials, etc. | 
-| `extracted_filenmae` | Extracted data for `.bin` images (if applicable) |
+| `extracted_filename` | Extracted data for `.bin` images (if applicable) |
 
 All logs are stored under:
 `<output_directory>/triage_<firmware_file>/`
+
 
 ---
 
@@ -118,13 +122,14 @@ ls
 This tool expects the following dependencies to be installed:
 - binwalk
 - ripgrep
+*If these are not found you will be prompted for installation*
 
-Everything else falls under preinstaalled coreutils.
+Everything else falls under pre-installed coreutils.
 
 ---
 
 ## Safety Note
-Always run firmware triage inside  a **sandboxed environment** (VM or container). Extracted firmware files can contain malicious binaries or scripts.
+Always run firmware triage inside a **sandboxed environment** (VM or container). Extracted firmware files can contain malicious binaries or scripts.
 
 Recommended environments:
 - Ubuntu VM
