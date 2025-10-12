@@ -18,14 +18,9 @@ fi
 
 # execution
 if [[ "$HIDE_ERR" == "1" ]]; then
-    OUTPUT=$(binwalk -Me "$FILE" 2>/dev/null)
+    OUTPUT=$(binwalk -Me "$FILE" --directory="$TARGET_PATH" 2>/dev/null)
 else
-    OUTPUT=$(binwalk -Me "$FILE")
-fi
-
-if (( ${#TARGET_PATH} != 1 )); then
-    rm -f "$TARGET_PATH"
-    mv -f "$EXTRACTED_LOC" "$TARGET_PATH"
+    OUTPUT=$(binwalk -Me "$FILE" --directory="$TARGET_PATH" )
 fi
 
 echo "============================== BINWALK: $FILE =============================="
