@@ -6,12 +6,14 @@
 DEPENDENCY_NAMES=(
     "binwalk"
     "ripgrep"
+    "readelf"
 )
 
 # dependency commands as expected by `which`
 DEPENDENCY_COMMANDS=(
     "binwalk"
     "rg"
+    "readelf"
 )
 
 # tracks missing depencencies
