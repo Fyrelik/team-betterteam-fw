@@ -106,7 +106,10 @@ elif [[ "$RAW_FILE_EXTENSION" == ".elf" ]]; then
 
     # actions for .elf targets
 
-    run_script binwalk binwalk "$RAW_FILE" "" 1
+    run_script readelf "readelf" "$RAW_FILE"
+    echo -e "Readelf executed on $RAW_FILE_BASE, see $LOG_DIR/readelf.log\n"
+
+    run_script binwalk "binwalk" "$RAW_FILE" "" 1
     echo -e "Binwalk executed on $RAW_FILE_BASE, see $LOG_DIR_BASE/binwalk.log\n"
     
     run_script elf_secrets "secrets" "$RAW_FILE"
